@@ -1,0 +1,487 @@
+'use client';
+
+import Layout from '@/components/Layout';
+import Head from 'next/head';
+import SafariAnimationFix, { useSafariOptimization } from '@/components/SafariAnimationFix';
+import { motion } from 'framer-motion';
+import Link from 'next/link';
+
+const competences = [
+  {
+    id: 1,
+    title: 'Réparation de nids de poule',
+    description: 'Procédé innovant et résistant pour réparer efficacement les nids de poule avec de la résine.',
+    icon: '🔧',
+    features: [
+      'Réparation rapide et durable',
+      'Matériaux de qualité',
+      'Intervention sur tous types de routes'
+    ],
+    gradient: 'from-blue-500 to-cyan-500',
+    bgGradient: 'from-blue-600/20 to-cyan-600/20',
+    slug: 'reparation-nids-de-poule'
+  },
+  {
+    id: 2,
+    title: 'Traçage et retraçage de parking',
+    description: 'Un parking bien entretenu attire les clients et améliore l\'expérience utilisateur.',
+    icon: '🅿️',
+    features: [
+      'Marquage au sol professionnel',
+      'Respect des normes en vigueur',
+      'Finition soignée et durable'
+    ],
+    gradient: 'from-green-500 to-emerald-500',
+    bgGradient: 'from-green-600/20 to-emerald-600/20',
+    slug: 'tracage-retracage-parking'
+  },
+  {
+    id: 3,
+    title: 'Marquage routier',
+    description: 'Signalisation horizontale pour améliorer la sécurité et la circulation.',
+    icon: '🛣️',
+    features: [
+      'Lignes de circulation',
+      'Signalisation de sécurité',
+      'Marquage personnalisé'
+    ],
+    gradient: 'from-orange-500 to-red-500',
+    bgGradient: 'from-orange-600/20 to-red-600/20',
+    slug: 'marquage-routier'
+  },
+  {
+    id: 4,
+    title: 'Rénovation d\'enrobé résine',
+    description: 'Rénovation complète de vos surfaces avec de la résine.',
+    icon: '🏗️',
+    features: [
+      'Enrobé résine à froid',
+      'Réparation de trous',
+      'Finition professionnelle'
+    ],
+    gradient: 'from-purple-500 to-pink-500',
+    bgGradient: 'from-purple-600/20 to-pink-600/20',
+    slug: 'renovation-enrobe-resine'
+  },
+  {
+    id: 5,
+    title: 'Entretien préventif',
+    description: 'Maintenance régulière pour prolonger la durée de vie de vos infrastructures.',
+    icon: '🔍',
+    features: [
+      'Inspection régulière',
+      'Réparations préventives',
+      'Conseils d\'entretien'
+    ],
+    gradient: 'from-teal-500 to-blue-500',
+    bgGradient: 'from-teal-600/20 to-blue-600/20',
+    slug: 'entretien-preventif'
+  },
+  {
+    id: 6,
+    title: 'Conseil et expertise',
+    description: 'Notre équipe vous accompagne dans vos projets d\'amélioration.',
+    icon: '💡',
+    features: [
+      'Étude de faisabilité',
+      'Devis personnalisé',
+      'Suivi de projet'
+    ],
+    gradient: 'from-yellow-500 to-orange-500',
+    bgGradient: 'from-yellow-600/20 to-orange-600/20',
+    slug: 'conseil-expertise'
+  }
+];
+
+export default function CompetencesPage() {
+  const { isSafari } = useSafariOptimization();
+
+  return (
+    <>
+      <Head>
+        <title>Nos Compétences - Expert Traçage Marquage Routier | Renov Route</title>
+        <meta name="description" content="Découvrez nos compétences en traçage marquage routier : réparation nids de poule, traçage parking, marquage routier, enrobé résine, entretien préventif. Expertise professionnelle depuis 10+ ans." />
+        <meta name="keywords" content="compétences marquage routier, réparation nids de poule, traçage parking professionnel, marquage routier expert, enrobé résine, entretien préventif, signalisation horizontale, rénovation parking, expertise traçage, services marquage" />
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <meta property="og:title" content="Nos Compétences - Expert Traçage Marquage Routier | Renov Route" />
+        <meta property="og:description" content="Découvrez nos compétences en traçage marquage routier : réparation nids de poule, traçage parking, marquage routier, enrobé résine, entretien préventif." />
+        <meta property="og:url" content="https://renov-route.com/competences" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:title" content="Nos Compétences - Expert Traçage Marquage Routier | Renov Route" />
+        <meta name="twitter:description" content="Découvrez nos compétences en traçage marquage routier : réparation nids de poule, traçage parking, marquage routier, enrobé résine." />
+        <link rel="canonical" href="https://renov-route.com/competences" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "Nos Compétences - Expert Traçage Marquage Routier",
+            "description": "Découvrez nos compétences en traçage marquage routier : réparation nids de poule, traçage parking, marquage routier, enrobé résine, entretien préventif.",
+            "url": "https://renov-route.com/competences",
+            "mainEntity": {
+              "@type": "LocalBusiness",
+              "name": "Renov Route",
+              "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "Compétences en marquage routier",
+                "itemListElement": [
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Réparation de nids de poule",
+                      "description": "Procédé innovant et résistant pour réparer efficacement les nids de poule avec de la résine"
+                    }
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Traçage et retraçage de parking",
+                      "description": "Un parking bien entretenu attire les clients et améliore l'expérience utilisateur"
+                    }
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Marquage routier",
+                      "description": "Signalisation horizontale pour améliorer la sécurité et la circulation"
+                    }
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Rénovation d'enrobé résine",
+                      "description": "Rénovation complète de vos surfaces avec de la résine"
+                    }
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Entretien préventif",
+                      "description": "Maintenance régulière pour prolonger la durée de vie de vos infrastructures"
+                    }
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Conseil et expertise",
+                      "description": "Notre équipe vous accompagne dans vos projets d'amélioration"
+                    }
+                  }
+                ]
+              }
+            }
+          })}
+        </script>
+      </Head>
+      <Layout>
+      <SafariAnimationFix>
+      {/* Hero Section - Couleur A */}
+      <section className="pt-24 sm:pt-28 lg:pt-32 pb-12 sm:pb-16 px-4 relative overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-br from-gray-800 via-gray-900 to-gray-800"></div>
+        <div className="absolute inset-0 competences-background opacity-20"></div>
+        
+        {/* Glassmorphism overlay */}
+        <div className="absolute inset-0 bg-gradient-to-br from-white/3 via-transparent to-white/3 backdrop-blur-sm"></div>
+        
+        <div className="relative max-w-6xl mx-auto text-center">
+          {/* Glassmorphism title container */}
+          {isSafari ? (
+            <div className="glassmorphism-card p-6 sm:p-8 md:p-12 rounded-[2rem] mb-6 sm:mb-8 backdrop-blur-md">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 sm:mb-6 leading-tight">
+                Nos <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">Compétences</span>
+              </h1>
+              <p className="text-lg sm:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
+                Découvrez notre expertise complète en réparation et rénovation routière. 
+                Des solutions innovantes pour tous vos besoins d'infrastructure.
+              </p>
+            </div>
+          ) : (
+            <motion.div 
+              className="glassmorphism-card p-6 sm:p-8 md:p-12 rounded-[2rem] mb-6 sm:mb-8 backdrop-blur-md"
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, ease: [0.2, 0.8, 0.2, 1] }}
+            >
+              <motion.h1 
+                className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 sm:mb-6 leading-tight"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.2 }}
+              >
+                Nos <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">Compétences</span>
+              </motion.h1>
+              <motion.p 
+                className="text-lg sm:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.4 }}
+              >
+                Découvrez notre expertise complète en réparation et rénovation routière. 
+                Des solutions innovantes pour tous vos besoins d'infrastructure.
+              </motion.p>
+            </motion.div>
+          )}
+        </div>
+      </section>
+
+      {/* Services & Stats Section - Couleur B */}
+      <section className="py-12 sm:py-16 lg:py-20 px-4 relative">
+        <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900"></div>
+        
+        {/* Glassmorphism background elements */}
+        <div className="absolute inset-0 bg-gradient-to-br from-white/3 via-transparent to-white/3 backdrop-blur-sm"></div>
+        <div className="absolute top-1/4 left-1/4 w-64 sm:w-96 h-64 sm:h-96 bg-blue-500/8 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-1/4 right-1/4 w-64 sm:w-96 h-64 sm:h-96 bg-cyan-500/8 rounded-full blur-3xl"></div>
+        
+        <div className="relative max-w-7xl mx-auto">
+          {/* Services Grid */}
+          <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mb-12 sm:mb-16 lg:mb-20">
+            {competences.map((competence, index) => (
+              isSafari ? (
+                <Link
+                  key={competence.id}
+                  href={`/competences/${competence.slug}`}
+                  className="group relative block"
+                >
+                  <div className={`
+                    relative p-6 sm:p-8 rounded-[1.5rem] transition-all duration-500 transform group-hover:scale-105 group-hover:-translate-y-2
+                    glassmorphism-card backdrop-blur-md border border-white/20
+                    hover:border-white/30 hover:shadow-2xl hover:shadow-${competence.gradient.split(' ')[0].split('-')[1]}-500/20
+                    group-hover:backdrop-blur-lg cursor-pointer
+                  `}>
+                    {/* Icon */}
+                    <div className={`
+                      w-12 h-12 sm:w-16 sm:h-16 rounded-[1rem] bg-gradient-to-r ${competence.gradient} flex items-center justify-center text-2xl sm:text-3xl mb-4 sm:mb-6
+                      group-hover:scale-110 transition-transform duration-300
+                    `}>
+                      {competence.icon}
+                    </div>
+                    
+                    {/* Content */}
+                    <h3 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4 group-hover:text-gray-100 transition-colors">
+                      {competence.title}
+                    </h3>
+                    <p className="text-gray-300 text-base sm:text-lg leading-relaxed mb-4 sm:mb-6 group-hover:text-gray-200 transition-colors">
+                      {competence.description}
+                    </p>
+                    
+                    {/* Features */}
+                    <ul className="space-y-2 sm:space-y-3">
+                      {competence.features.map((feature, featureIndex) => (
+                        <li key={featureIndex} className="flex items-center text-gray-300 group-hover:text-gray-200 transition-colors">
+                          <div className={`
+                            w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-gradient-to-r ${competence.gradient} mr-2 sm:mr-3 flex-shrink-0
+                            group-hover:scale-125 transition-transform duration-300
+                          `}></div>
+                          <span className="text-xs sm:text-sm">{feature}</span>
+                        </li>
+                      ))}
+                    </ul>
+                    
+                    {/* Hover effect overlay */}
+                    <div className={`
+                      absolute inset-0 rounded-2xl bg-gradient-to-r ${competence.gradient} opacity-0 group-hover:opacity-5
+                      transition-opacity duration-500
+                    `}></div>
+                  </div>
+                </Link>
+              ) : (
+                <motion.div
+                  key={competence.id}
+                  className="group relative"
+                  initial={{ opacity: 0, y: 30 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ 
+                    duration: 0.6, 
+                    delay: 0.6 + (index * 0.1),
+                    ease: [0.2, 0.8, 0.2, 1]
+                  }}
+                >
+                  <Link href={`/competences/${competence.slug}`} className="block">
+                    <div className={`
+                      relative p-6 sm:p-8 rounded-[1.5rem] transition-all duration-500 transform group-hover:scale-105 group-hover:-translate-y-2
+                      glassmorphism-card backdrop-blur-md border border-white/20
+                      hover:border-white/30 hover:shadow-2xl hover:shadow-${competence.gradient.split(' ')[0].split('-')[1]}-500/20
+                      group-hover:backdrop-blur-lg cursor-pointer
+                    `}>
+                      {/* Icon */}
+                      <div className={`
+                        w-12 h-12 sm:w-16 sm:h-16 rounded-[1rem] bg-gradient-to-r ${competence.gradient} flex items-center justify-center text-2xl sm:text-3xl mb-4 sm:mb-6
+                        group-hover:scale-110 transition-transform duration-300
+                      `}>
+                        {competence.icon}
+                      </div>
+                      
+                      {/* Content */}
+                      <h3 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4 group-hover:text-gray-100 transition-colors">
+                        {competence.title}
+                      </h3>
+                      <p className="text-gray-300 text-base sm:text-lg leading-relaxed mb-4 sm:mb-6 group-hover:text-gray-200 transition-colors">
+                        {competence.description}
+                      </p>
+                      
+                      {/* Features */}
+                      <ul className="space-y-2 sm:space-y-3">
+                        {competence.features.map((feature, featureIndex) => (
+                          <li key={featureIndex} className="flex items-center text-gray-300 group-hover:text-gray-200 transition-colors">
+                            <div className={`
+                              w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-gradient-to-r ${competence.gradient} mr-2 sm:mr-3 flex-shrink-0
+                              group-hover:scale-125 transition-transform duration-300
+                            `}></div>
+                            <span className="text-xs sm:text-sm">{feature}</span>
+                          </li>
+                        ))}
+                      </ul>
+                      
+                      {/* Hover effect overlay */}
+                      <div className={`
+                        absolute inset-0 rounded-2xl bg-gradient-to-r ${competence.gradient} opacity-0 group-hover:opacity-5
+                        transition-opacity duration-500
+                      `}></div>
+                    </div>
+                  </Link>
+                </motion.div>
+              )
+            ))}
+          </div>
+
+          {/* Stats Grid */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 lg:gap-8 text-center">
+            {[
+              { number: "500+", label: "Projets réalisés", gradient: "from-blue-400 to-cyan-400" },
+              { number: "10+", label: "Années d'expérience", gradient: "from-green-400 to-emerald-400" },
+              { number: "98%", label: "Clients satisfaits", gradient: "from-purple-400 to-pink-400" },
+              { number: "24/7", label: "Support client", gradient: "from-orange-400 to-red-400" }
+            ].map((stat, index) => (
+              isSafari ? (
+                <div 
+                  key={index}
+                  className="group"
+                >
+                  <div className="glassmorphism-card p-4 sm:p-6 rounded-[1.5rem] backdrop-blur-md border border-white/10 hover:border-white/20 transition-all duration-300">
+                    <div className={`text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r ${stat.gradient} bg-clip-text text-transparent mb-1 sm:mb-2 group-hover:scale-110 transition-transform duration-300`}>
+                      {stat.number}
+                    </div>
+                    <div className="text-gray-300 text-sm sm:text-base lg:text-lg">{stat.label}</div>
+                  </div>
+                </div>
+              ) : (
+                <motion.div 
+                  key={index}
+                  className="group"
+                  initial={{ opacity: 0, y: 30 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ 
+                    duration: 0.6, 
+                    delay: 1.2 + (index * 0.1),
+                    ease: [0.2, 0.8, 0.2, 1]
+                  }}
+                >
+                  <div className="glassmorphism-card p-4 sm:p-6 rounded-[1.5rem] backdrop-blur-md border border-white/10 hover:border-white/20 transition-all duration-300">
+                    <div className={`text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r ${stat.gradient} bg-clip-text text-transparent mb-1 sm:mb-2 group-hover:scale-110 transition-transform duration-300`}>
+                      {stat.number}
+                    </div>
+                    <div className="text-gray-300 text-sm sm:text-base lg:text-lg">{stat.label}</div>
+                  </div>
+                </motion.div>
+              )
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section - Couleur A */}
+      <section className="py-12 sm:py-16 lg:py-20 px-4 relative overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-br from-gray-800 via-gray-900 to-gray-800"></div>
+        <div className="absolute inset-0 competences-background opacity-10"></div>
+        
+        {/* Glassmorphism background elements */}
+        <div className="absolute inset-0 bg-gradient-to-br from-white/3 via-transparent to-white/3 backdrop-blur-sm"></div>
+        <div className="absolute top-1/4 left-1/4 w-64 sm:w-96 h-64 sm:h-96 bg-blue-500/8 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-1/4 right-1/4 w-64 sm:w-96 h-64 sm:h-96 bg-cyan-500/8 rounded-full blur-3xl"></div>
+        
+        <div className="relative max-w-4xl mx-auto text-center">
+          {/* Glassmorphism CTA container */}
+          {isSafari ? (
+            <div className="glassmorphism-card p-6 sm:p-8 md:p-12 rounded-[2rem] backdrop-blur-md border border-white/20">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 sm:mb-6">
+                Prêt à <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">commencer</span> ?
+              </h2>
+              <p className="text-lg sm:text-xl text-gray-300 mb-6 sm:mb-8 max-w-2xl mx-auto">
+                Contactez-nous dès aujourd'hui pour obtenir un devis personnalisé et découvrir 
+                comment nous pouvons améliorer vos infrastructures.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
+                <a 
+                  href="/devis" 
+                  className="group relative bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 text-white font-semibold py-3 sm:py-4 px-6 sm:px-8 rounded-[1rem] transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:shadow-blue-500/25 backdrop-blur-sm border border-white/20 text-sm sm:text-base"
+                >
+                  <span className="relative z-10">Demander un devis</span>
+                  <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-[1rem] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                </a>
+                <a 
+                  href="/contact" 
+                  className="group glassmorphism-card border-2 border-white/20 hover:border-white/40 text-white font-semibold py-3 sm:py-4 px-6 sm:px-8 rounded-[1rem] transition-all duration-300 transform hover:scale-105 hover:bg-white/5 backdrop-blur-sm text-sm sm:text-base"
+                >
+                  Nous contacter
+                </a>
+              </div>
+            </div>
+          ) : (
+            <motion.div 
+              className="glassmorphism-card p-6 sm:p-8 md:p-12 rounded-[2rem] backdrop-blur-md border border-white/20"
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 1.6, ease: [0.2, 0.8, 0.2, 1] }}
+            >
+              <motion.h2 
+                className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 sm:mb-6"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 1.8 }}
+              >
+                Prêt à <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">commencer</span> ?
+              </motion.h2>
+              <motion.p 
+                className="text-lg sm:text-xl text-gray-300 mb-6 sm:mb-8 max-w-2xl mx-auto"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 2.0 }}
+              >
+                Contactez-nous dès aujourd'hui pour obtenir un devis personnalisé et découvrir 
+                comment nous pouvons améliorer vos infrastructures.
+              </motion.p>
+              <motion.div 
+                className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 2.2 }}
+              >
+                <a 
+                  href="/devis" 
+                  className="group relative bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 text-white font-semibold py-3 sm:py-4 px-6 sm:px-8 rounded-[1rem] transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:shadow-blue-500/25 backdrop-blur-sm border border-white/20 text-sm sm:text-base"
+                >
+                  <span className="relative z-10">Demander un devis</span>
+                  <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-[1rem] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                </a>
+                <a 
+                  href="/contact" 
+                  className="group glassmorphism-card border-2 border-white/20 hover:border-white/40 text-white font-semibold py-3 sm:py-4 px-6 sm:px-8 rounded-[1rem] transition-all duration-300 transform hover:scale-105 hover:bg-white/5 backdrop-blur-sm text-sm sm:text-base"
+                >
+                  Nous contacter
+                </a>
+              </motion.div>
+            </motion.div>
+          )}
+        </div>
+      </section>
+      </SafariAnimationFix>
+      </Layout>
+    </>
+  );
+}

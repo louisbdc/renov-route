@@ -1,0 +1,144 @@
+/* Styles personnalisés pour les dropdowns */
+
+/* Style pour les select elements */
+select {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3e%3c/svg%3e");
+  background-position: right 12px center;
+  background-repeat: no-repeat;
+  background-size: 16px;
+  padding-right: 40px;
+}
+
+/* Style pour les options */
+select option {
+  background-color: #1f2937;
+  color: #f3f4f6;
+  padding: 8px 12px;
+}
+
+/* Hover effect pour les options */
+select option:hover {
+  background-color: #374151;
+}
+
+/* Focus state amélioré */
+select:focus {
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+  border-color: #3b82f6;
+}
+
+/* Style pour les checkboxes */
+input[type="checkbox"] {
+  appearance: none;
+  background-color: #1f2937;
+  border: 2px solid #4b5563;
+  border-radius: 4px;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #3b82f6;
+  border-color: #3b82f6;
+}
+
+input[type="checkbox"]:checked::after {
+  content: "✓";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+input[type="checkbox"]:hover {
+  border-color: #6b7280;
+}
+
+input[type="checkbox"]:checked:hover {
+  background-color: #2563eb;
+  border-color: #2563eb;
+}
+
+/* Style pour les radio buttons */
+input[type="radio"] {
+  appearance: none;
+  background-color: #1f2937;
+  border: 2px solid #4b5563;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+input[type="radio"]:checked {
+  background-color: #3b82f6;
+  border-color: #3b82f6;
+}
+
+input[type="radio"]:checked::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 8px;
+  height: 8px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+input[type="radio"]:hover {
+  border-color: #6b7280;
+}
+
+input[type="radio"]:checked:hover {
+  background-color: #2563eb;
+  border-color: #2563eb;
+}
+
+/* Animation pour l'apparition du champ conditionnel */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-out;
+}
+
+/* Styles pour les liens des partenaires */
+.partner-link {
+  display: block;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.partner-link:hover {
+  transform: scale(1.05);
+  filter: brightness(1.1);
+}
+
+.partner-link:hover .partner-logo {
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+}
+
+.partner-link:focus {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
+  border-radius: 8px;
+}

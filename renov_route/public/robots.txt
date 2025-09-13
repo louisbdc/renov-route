@@ -1,0 +1,37 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://renov-route.com/sitemap.xml
+
+# Crawl-delay pour éviter la surcharge
+Crawl-delay: 1
+
+# Pages importantes à indexer en priorité
+Allow: /competences
+Allow: /realisations
+Allow: /contact
+Allow: /devis
+
+# Ressources statiques
+Allow: /assets/
+Allow: /_next/static/
+
+# Fichiers à ne pas indexer
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+Disallow: /private/
+
+# Spécifique aux moteurs de recherche
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 2
