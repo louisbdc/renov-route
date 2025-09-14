@@ -669,6 +669,12 @@ html {
     }
 }
 
+/* Disable animations globally on Safari using the safari-optimized class */
+.safari-optimized * {
+    animation: none !important;
+    transition: none !important;
+}
+
 /* Classes pour la gestion des animations Safari */
 .safari-animating .glassmorphism-card {
     background: rgba(31, 41, 55, 0.8) !important;

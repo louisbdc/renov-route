@@ -55,8 +55,8 @@ export class GoogleAnalytics {
 
     // Configuration gtag
     window.dataLayer = window.dataLayer || []
-    function gtag(...args: any[]) {
-      window.dataLayer.push(args)
+    function gtag(...args: unknown[]) {
+      (window.dataLayer as unknown[]).push(args)
     }
     window.gtag = gtag
 
@@ -238,7 +238,7 @@ export function trackConversion(conversionType: string, value?: number): void {
 // Types globaux pour TypeScript
 declare global {
   interface Window {
-    dataLayer: any[]
-    gtag: (...args: any[]) => void
+    dataLayer: unknown[]
+    gtag: (...args: unknown[]) => void
   }
 }

@@ -64,7 +64,7 @@ export default function FeaturedCase({ caseStudy, onOpenModal, className = '', i
 
             {/* KPIs Grid */}
             <div className="grid grid-cols-2 lg:grid-cols-3 gap-4">
-              {caseStudy.kpis.map((kpi, index) => (
+              {caseStudy.kpis.map((kpi, _index) => (
                 <div
                   key={kpi.label}
                   className="text-center p-4 bg-white/20 backdrop-blur-sm border border-white/30 rounded-lg"

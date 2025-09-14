@@ -257,8 +257,15 @@ export default function ContactPage() {
                     mais les budgets tendent à se resserrer.
                   </p>
                   <p>
-                    La société Rénov Route a vu le jour en mars 2016 par la rencontre d'hommes passionnés par les métiers 
-                    de la route et l'innovation dans le domaine de la réparation routière.
+                    L'histoire de Rénov Route commence par une rencontre fortuite : un client nous a approchés 
+                    pour retracer 40 parkings. Cette demande, qui semblait ambitieuse à l'époque, a marqué un tournant 
+                    décisif dans notre parcours. Nous avons relevé le défi avec détermination, et cette première 
+                    mission a révélé notre passion pour l'excellence du marquage routier.
+                  </p>
+                  <p>
+                    Depuis cette expérience fondatrice, le marquage routier est devenu notre métier. Nous avons 
+                    développé une expertise technique pointue et une approche innovante qui nous permettent 
+                    aujourd'hui de répondre aux défis les plus complexes du secteur.
                   </p>
                 </div>
               </div>
@@ -284,8 +291,15 @@ export default function ContactPage() {
                     mais les budgets tendent à se resserrer.
                   </p>
                   <p>
-                    La société Rénov Route a vu le jour en mars 2016 par la rencontre d'hommes passionnés par les métiers 
-                    de la route et l'innovation dans le domaine de la réparation routière.
+                    L'histoire de Rénov Route commence par une rencontre fortuite : un client nous a approchés 
+                    pour retracer 40 parkings. Cette demande, qui semblait ambitieuse à l'époque, a marqué un tournant 
+                    décisif dans notre parcours. Nous avons relevé le défi avec détermination, et cette première 
+                    mission a révélé notre passion pour l'excellence du marquage routier.
+                  </p>
+                  <p>
+                    Depuis cette expérience fondatrice, le marquage routier est devenu notre métier. Nous avons 
+                    développé une expertise technique pointue et une approche innovante qui nous permettent 
+                    aujourd'hui de répondre aux défis les plus complexes du secteur.
                   </p>
                 </div>
               </motion.div>

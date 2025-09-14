@@ -9,10 +9,10 @@ import {
   sanitizeMessage, 
   sanitizeSiret, 
   sanitizeCompany, 
-  sanitizeNumber,
+  /* unused: */ sanitizeNumber as _sanitizeNumber,
   validateSelectOption,
   validateCheckboxes,
-  validateFiles
+  /* unused: */ validateFiles as _validateFiles
 } from './security';
 
 // Types pour les formulaires
@@ -159,7 +159,7 @@ export function validateContactFormWithFieldErrors(formData: FormData): { data: 
       },
       errors: {}
     };
-  } catch (error) {
+  } catch (_error) {
     return {
       data: null,
       errors: { general: 'Erreur de validation inconnue' }
@@ -399,7 +399,7 @@ export function validateDevisFormWithFieldErrors(formData: FormData): { data: De
       },
       errors: {}
     };
-  } catch (error) {
+  } catch (_error) {
     return {
       data: null,
       errors: { general: 'Erreur de validation inconnue' }

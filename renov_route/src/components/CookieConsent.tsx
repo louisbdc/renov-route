@@ -1,6 +1,7 @@
 'use client'
 
 import React, { useState, useEffect } from 'react'
+import Link from 'next/link'
 import { useCookieConsent, CookieManager } from '@/lib/cookies'
 
 interface CookieConsentProps {
@@ -167,12 +168,12 @@ export default function CookieConsent({ className = '' }: CookieConsentProps) {
             {/* Liens utiles */}
             <div className="mt-4 pt-4 border-t border-white/20">
               <div className="flex flex-wrap gap-4 text-xs text-gray-300">
-                <a 
+                <Link 
                   href="/privacy-policy" 
                   className="hover:text-blue-400 transition-colors duration-300"
                 >
                   Politique de confidentialité
-                </a>
+                </Link>
                 <button
                   onClick={() => {
                     if (confirm('Êtes-vous sûr de vouloir supprimer tous les cookies ? Cette action ne peut pas être annulée.')) {
@@ -210,7 +211,7 @@ export function CookiePreferences() {
       <div className="p-4 sm:p-6 glassmorphism-card backdrop-blur-md border border-yellow-500/30 rounded-[1rem]">
         <p className="text-yellow-300">
           Aucune préférence de cookies définie. 
-          <a href="/" className="underline ml-1 text-blue-400 hover:text-blue-300 transition-colors">Retourner à l'accueil</a>
+          <Link href="/" className="underline ml-1 text-blue-400 hover:text-blue-300 transition-colors">Retourner à l&apos;accueil</Link>
         </p>
       </div>
     )

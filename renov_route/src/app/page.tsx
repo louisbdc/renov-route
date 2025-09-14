@@ -3,7 +3,6 @@
 import Layout from '@/components/Layout';
 import Head from 'next/head';
 import PartnersBanner from '@/components/PartnersBanner';
-import TestimonialCarousel from '@/components/realisations/TestimonialCarousel';
 import SEOLinks from '@/components/SEOLinks';
 import StructuredData from '@/components/StructuredData';
 import SafariAnimationFix, { useSafariOptimization } from '@/components/SafariAnimationFix';

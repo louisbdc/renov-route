@@ -3,10 +3,10 @@
 import Layout from '@/components/Layout';
 import Head from 'next/head';
 import CustomDropdown from '@/components/CustomDropdown';
-import SecureForm, { SecureInput, SecureTextarea, SecureCheckbox, SecureFileInput, FieldErrorsContext } from '@/components/SecureForm';
+import { SecureInput, SecureTextarea, SecureCheckbox, FieldErrorsContext } from '@/components/SecureForm';
 import SafariAnimationFix, { useSafariOptimization } from '@/components/SafariAnimationFix';
 import { motion } from 'framer-motion';
-import { useState, useRef, useEffect } from 'react';
+import { useState } from 'react';
 import { validateDevisFormWithFieldErrors } from '@/lib/form-validation';
 import { FaCheckCircle, FaPaperPlane } from 'react-icons/fa';
 import { sendDevisEmail } from '@/lib/email';
@@ -19,7 +19,6 @@ export default function DevisPage() {
     contactMethods: ['phone', 'email'] as string[]
   });
   const [isSubmitted, setIsSubmitted] = useState(false);
-  const [isSubmitting, setIsSubmitting] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [fieldErrors, setFieldErrors] = useState<Record<string, string>>({});
   const { isSafari } = useSafariOptimization();
@@ -60,7 +59,6 @@ export default function DevisPage() {
 
   const handleDevisSubmit = async (formData: FormData, formEl: HTMLFormElement) => {
     try {
-      setIsSubmitting(true);
       setIsLoading(true);
       setFieldErrors({});
       
@@ -87,7 +85,6 @@ export default function DevisPage() {
       console.error('Erreur lors de la soumission:', error);
       setFieldErrors({ general: 'Une erreur inattendue s\'est produite' });
     } finally {
-      setIsSubmitting(false);
       setIsLoading(false);
     }
   };

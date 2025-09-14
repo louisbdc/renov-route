@@ -90,7 +90,7 @@ const competences = [
     gradient: 'from-yellow-500 to-orange-500',
     bgGradient: 'from-yellow-600/20 to-orange-600/20',
     slug: 'conseil-expertise'
-  }
+  },
 ];
 
 export default function CompetencesPage() {
@@ -101,8 +101,47 @@ export default function CompetencesPage() {
       <Head>
         <title>Nos Compétences - Expert Traçage Marquage Routier | Renov Route</title>
         <meta name="description" content="Découvrez nos compétences en traçage marquage routier : réparation nids de poule, traçage parking, marquage routier, enrobé résine, entretien préventif. Expertise professionnelle depuis 10+ ans." />
-        <meta name="keywords" content="compétences marquage routier, réparation nids de poule, traçage parking professionnel, marquage routier expert, enrobé résine, entretien préventif, signalisation horizontale, rénovation parking, expertise traçage, services marquage" />
+        <meta name="keywords" content="compétences marquage routier, réparation nids de poule, traçage parking professionnel, marquage routier expert, enrobé résine, entretien préventif, signalisation horizontale, rénovation parking, expertise traçage, services marquage, accessoires parking, signalisation verticale, résine sol, conseil expertise" />
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <meta name="geo.region" content="FR" />
+        <meta name="geo.placename" content="France" />
+        <meta name="geo.position" content="46.227638;2.213749" />
+        <meta name="ICBM" content="46.227638, 2.213749" />
+        <meta name="DC.title" content="Nos Compétences - Expert Traçage Marquage Routier" />
+        <meta name="DC.description" content="Découvrez nos compétences en traçage marquage routier : réparation nids de poule, traçage parking, marquage routier, enrobé résine, entretien préventif." />
+        <meta name="DC.subject" content="Compétences marquage routier, Réparation nids de poule, Traçage parking" />
+        <meta name="DC.language" content="fr" />
+        <meta name="DC.coverage" content="France" />
+        <meta name="DC.type" content="Service" />
+        <meta name="DC.format" content="text/html" />
+        <meta name="DC.identifier" content="https://renov-route.com/competences" />
+        <meta name="DC.creator" content="Renov Route" />
+        <meta name="DC.publisher" content="Renov Route" />
+        <meta name="DC.rights" content="© 2024 Renov Route. Tous droits réservés." />
+        <meta name="DC.date.created" content="2024-01-01" />
+        <meta name="DC.date.modified" content="2024-12-19" />
+        <meta name="revisit-after" content="1 days" />
+        <meta name="rating" content="General" />
+        <meta name="distribution" content="Global" />
+        <meta name="language" content="fr" />
+        <meta name="audience" content="all" />
+        <meta name="coverage" content="Worldwide" />
+        <meta name="target" content="all" />
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="MobileOptimized" content="320" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <meta name="apple-mobile-web-app-title" content="Renov Route" />
+        <meta name="application-name" content="Renov Route" />
+        <meta name="msapplication-TileColor" content="#1f2937" />
+        <meta name="msapplication-TileImage" content="/assets/logos/logo.avif" />
+        <meta name="theme-color" content="#1f2937" />
+        <meta name="color-scheme" content="dark" />
+        <meta name="supported-color-schemes" content="dark" />
+        <link rel="alternate" hrefLang="fr" href="https://renov-route.com/competences" />
+        <link rel="alternate" hrefLang="x-default" href="https://renov-route.com/competences" />
         <meta property="og:title" content="Nos Compétences - Expert Traçage Marquage Routier | Renov Route" />
         <meta property="og:description" content="Découvrez nos compétences en traçage marquage routier : réparation nids de poule, traçage parking, marquage routier, enrobé résine, entretien préventif." />
         <meta property="og:url" content="https://renov-route.com/competences" />
@@ -482,6 +521,34 @@ export default function CompetencesPage() {
       </section>
       </SafariAnimationFix>
       </Layout>
+
+      {/* Section FAQ cachée pour SEO */}
+      <section className="hidden" aria-hidden="true">
+        <h2>FAQ Compétences Traçage Marquage Routier</h2>
+        <h3>Quelles sont vos principales compétences en marquage routier ?</h3>
+        <p>Nos principales compétences incluent le traçage et retraçage de parking, la signalisation verticale, la résine de sol et marquage d'intérieur, la réparation de nids de poule, les accessoires de parking, l'entretien préventif, le marquage routier et la réparation enrobé résine.</p>
+
+        <h3>Proposez-vous des services d'entretien préventif ?</h3>
+        <p>Oui, nous proposons des services d'entretien préventif complets incluant l'inspection régulière, le nettoyage spécialisé, la réparation préventive et l'établissement de plans de maintenance personnalisés.</p>
+
+        <h3>Utilisez-vous des techniques innovantes pour la réparation ?</h3>
+        <p>Absolument, nous utilisons l'enrobé résine à froid, une technique innovante et écologique qui offre une durabilité exceptionnelle et une excellente adhérence pour la réparation des chaussées.</p>
+
+        <h3>Vos services respectent-ils les normes françaises ?</h3>
+        <p>Oui, tous nos services respectent scrupuleusement les normes françaises de signalisation horizontale (NF EN 1436) et les réglementations en vigueur pour garantir la conformité et la sécurité.</p>
+
+        <h3>Intervenez-vous dans toute la France ?</h3>
+        <p>Oui, nous intervenons dans toute la France avec une expertise particulière en Auvergne-Rhône-Alpes, notamment à Lyon et dans sa région.</p>
+
+        <h3>Proposez-vous des conseils et de l'expertise ?</h3>
+        <p>Oui, notre équipe d'experts vous accompagne avec des études de faisabilité, des devis personnalisés, du suivi de projet et des conseils stratégiques pour optimiser vos investissements.</p>
+
+        <h3>Quels types d'accessoires de parking installez-vous ?</h3>
+        <p>Nous installons une gamme complète d'accessoires : bornes anti-bélier, ralentisseurs, butées de parking, barrières, éclairage de sécurité et signalétique pour optimiser la sécurité et l'organisation.</p>
+
+        <h3>Vos réparations sont-elles garanties ?</h3>
+        <p>Oui, nous offrons des garanties sur tous nos travaux de marquage routier et de réparation. La durée de garantie varie selon le type de travaux réalisés et les matériaux utilisés.</p>
+      </section>
     </>
   );
 }

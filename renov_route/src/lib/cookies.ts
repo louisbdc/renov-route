@@ -252,10 +252,11 @@ export class CookieManager {
     const allCookies = document.cookie.split(';').map(c => c.trim().split('=')[0])
     const essentialCookies = [COOKIE_CONFIG.CONSENT, COOKIE_CONFIG.SESSION]
     
+    const isEssential = (name: string) => essentialCookies.includes(name as unknown as typeof essentialCookies[number])
     return {
       total: allCookies.length,
-      essential: allCookies.filter(name => essentialCookies.includes(name as any)).length,
-      nonEssential: allCookies.filter(name => !essentialCookies.includes(name as any)).length
+      essential: allCookies.filter(name => isEssential(name)).length,
+      nonEssential: allCookies.filter(name => !isEssential(name)).length
     }
   }
 }

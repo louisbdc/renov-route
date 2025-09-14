@@ -74,7 +74,7 @@ export default function CaseCard({ caseStudy, onOpenModal, index, isSafari = fal
 
             {/* Tech Stack */}
             <div className="flex flex-wrap gap-2">
-              {caseStudy.stack.slice(0, 3).map((tech, techIndex) => (
+              {caseStudy.stack.slice(0, 3).map((tech) => (
                 <span
                   key={tech}
                   className="px-2 py-1 bg-glass-bg border border-glass-border rounded text-caption text-text-secondary"
@@ -92,7 +92,7 @@ export default function CaseCard({ caseStudy, onOpenModal, index, isSafari = fal
             {/* KPIs */}
             {caseStudy.kpis.length > 0 && (
               <div className="grid grid-cols-3 gap-2 pt-2 border-t border-glass-border">
-                {caseStudy.kpis.slice(0, 3).map((kpi, kpiIndex) => (
+                {caseStudy.kpis.slice(0, 3).map((kpi) => (
                   <div
                     key={kpi.label}
                     className="text-center"

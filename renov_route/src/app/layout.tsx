@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import CookieConsent from "@/components/CookieConsent";
 import AnalyticsTracker from "@/components/AnalyticsTracker";
+import SafariAnimationFix from "@/components/SafariAnimationFix";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -46,13 +47,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        <AnalyticsTracker pageTitle="Renov Route" pagePath="/">
-          {children}
-        </AnalyticsTracker>
-        <CookieConsent />
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        <SafariAnimationFix>
+          <AnalyticsTracker pageTitle="Renov Route" pagePath="/">
+            {children}
+          </AnalyticsTracker>
+          <CookieConsent />
+        </SafariAnimationFix>
       </body>
     </html>
   );

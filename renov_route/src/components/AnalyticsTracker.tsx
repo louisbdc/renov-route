@@ -1,7 +1,6 @@
 'use client'
 
 import { useEffect } from 'react'
-import { useRouter } from 'next/navigation'
 import { useAnalytics, initializeAnalytics } from '@/lib/analytics'
 import { CookieManager } from '@/lib/cookies'
 
@@ -18,7 +17,6 @@ export default function AnalyticsTracker({
   children 
 }: AnalyticsTrackerProps) {
   const analytics = useAnalytics()
-  const router = useRouter()
 
   useEffect(() => {
     // Initialiser l'analytics si pas encore fait
