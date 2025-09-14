@@ -131,7 +131,7 @@ export default function ReparationNidsDePoulePage() {
                   {isSafari ? (
                     <div className="glassmorphism-card p-6 sm:p-8 rounded-[1.5rem] backdrop-blur-md border border-white/20">
                       <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6">
-                        Notre Expertise en Réparation de Nids de Poule
+                        Notre expertise en réparation de nids de poule
                       </h2>
                       <div className="space-y-4 text-gray-300">
                         <p className="text-lg leading-relaxed">
@@ -164,7 +164,7 @@ export default function ReparationNidsDePoulePage() {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6, delay: 0.4 }}
                       >
-                        Notre Expertise en Réparation de Nids de Poule
+                        Notre expertise en réparation de nids de poule
                       </motion.h2>
                       <motion.div 
                         className="space-y-4 text-gray-300"
@@ -197,22 +197,22 @@ export default function ReparationNidsDePoulePage() {
                   {[
                     {
                       icon: "⚡",
-                      title: "Réparation Rapide",
+                      title: "Réparation rapide",
                       description: "Intervention en moins de 2 heures pour la plupart des nids de poule"
                     },
                     {
                       icon: "🛡️",
-                      title: "Durabilité Exceptionnelle",
+                      title: "Durabilité exceptionnelle",
                       description: "Résistance aux intempéries et au trafic intense pendant des années"
                     },
                     {
                       icon: "🔧",
-                      title: "Matériaux de Qualité",
+                      title: "Matériaux de qualité",
                       description: "Résine haute performance et additifs spéciaux pour une adhérence parfaite"
                     },
                     {
                       icon: "🚗",
-                      title: "Tous Types de Routes",
+                      title: "Tous types de routes",
                       description: "Intervention sur routes, parkings, cours d'entreprises et voies privées"
                     }
                   ].map((feature, index) => (

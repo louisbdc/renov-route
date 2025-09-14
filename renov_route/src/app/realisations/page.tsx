@@ -93,11 +93,11 @@ function RealisationsContent() {
     <>
       <Head>
         <title>Nos Réalisations - Projets Traçage Marquage Routier | Renov Route</title>
-        <meta name="description" content="Découvrez nos réalisations en traçage marquage routier : projets parking, marquage routier, réparation nids de poule. Portfolio de 500+ projets réalisés avec succès en France." />
+        <meta name="description" content="Découvrez nos réalisations en traçage marquage routier : projets parking, marquage routier, réparation nids de poule. Portfolio de 1000+ projets réalisés avec succès en France." />
         <meta name="keywords" content="réalisations marquage routier, projets parking, portfolio traçage, exemples marquage, projets réussis, références clients, travaux réalisés, galerie projets, études de cas marquage" />
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
         <meta property="og:title" content="Nos Réalisations - Projets Traçage Marquage Routier | Renov Route" />
-        <meta property="og:description" content="Découvrez nos réalisations en traçage marquage routier : projets parking, marquage routier, réparation nids de poule. Portfolio de 500+ projets réalisés." />
+        <meta property="og:description" content="Découvrez nos réalisations en traçage marquage routier : projets parking, marquage routier, réparation nids de poule. Portfolio de 1000+ projets réalisés." />
         <meta property="og:url" content="https://renov-route.com/realisations" />
         <meta property="og:type" content="website" />
         <meta name="twitter:title" content="Nos Réalisations - Projets Traçage Marquage Routier | Renov Route" />
@@ -108,13 +108,13 @@ function RealisationsContent() {
             "@context": "https://schema.org",
             "@type": "WebPage",
             "name": "Nos Réalisations - Projets Traçage Marquage Routier",
-            "description": "Découvrez nos réalisations en traçage marquage routier : projets parking, marquage routier, réparation nids de poule. Portfolio de 500+ projets réalisés avec succès.",
+            "description": "Découvrez nos réalisations en traçage marquage routier : projets parking, marquage routier, réparation nids de poule. Portfolio de 1000+ projets réalisés avec succès.",
             "url": "https://renov-route.com/realisations",
             "mainEntity": {
               "@type": "ItemList",
               "name": "Portfolio de réalisations Renov Route",
               "description": "Collection de projets de traçage marquage routier réalisés par Renov Route",
-              "numberOfItems": "500+",
+              "numberOfItems": "1000+",
               "itemListElement": [
                 {
                   "@type": "ListItem",

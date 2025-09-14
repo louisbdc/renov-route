@@ -39,7 +39,7 @@ export default function CustomDropdown({
   );
   const dropdownRef = useRef<HTMLDivElement>(null);
   const fieldErrors = useContext(FieldErrorsContext);
-  const fieldError = error || fieldErrors[id];
+  const fieldError = error || fieldErrors[name];
 
   useEffect(() => {
     const option = options.find(option => option.value === value);

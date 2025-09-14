@@ -174,15 +174,21 @@ export function validateContactFormWithFieldErrors(formData: FormData): { data: 
     
     // Validation des fichiers
     let files = null;
-    try {
-      files = validateFiles(formData.getAll('files') as unknown as FileList, {
-        maxFiles: 3,
-        maxSize: 10,
-        allowedTypes: ['image/*', 'application/pdf', 'text/*']
-      });
-    } catch (error) {
-      errors.files = error instanceof Error ? error.message : 'Fichiers invalides';
-      hasErrors = true;
+    const fileInputs = formData.getAll('files');
+    // Filtrer les entrées vides (quand aucun fichier n'est sélectionné)
+    const validFileInputs = fileInputs.filter(file => file && file instanceof File && file.size > 0);
+    
+    if (validFileInputs.length > 0) {
+      try {
+        files = validateFiles(validFileInputs as unknown as FileList, {
+          maxFiles: 3,
+          maxSize: 10,
+          allowedTypes: ['image/*', 'application/pdf', 'text/*']
+        });
+      } catch (error) {
+        errors.files = error instanceof Error ? error.message : 'Fichiers invalides';
+        hasErrors = true;
+      }
     }
     
     if (hasErrors) {

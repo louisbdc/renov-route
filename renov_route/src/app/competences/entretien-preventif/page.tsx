@@ -131,7 +131,7 @@ export default function EntretienPreventifPage() {
                   {isSafari ? (
                     <div className="glassmorphism-card p-6 sm:p-8 rounded-[1.5rem] backdrop-blur-md border border-white/20">
                       <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6">
-                        Maintenance Préventive Professionnelle
+                        Maintenance préventive professionnelle
                       </h2>
                       <div className="space-y-4 text-gray-300">
                         <p className="text-lg leading-relaxed">
@@ -140,8 +140,7 @@ export default function EntretienPreventifPage() {
                           et de traiter les problèmes avant qu'ils ne deviennent critiques.
                         </p>
                         <p className="text-lg leading-relaxed">
-                          Nous proposons des contrats de maintenance personnalisés adaptés à vos besoins 
-                          et à votre budget. Nos techniciens qualifiés effectuent des inspections régulières 
+                          Nos techniciens qualifiés effectuent des inspections régulières 
                           et interviennent rapidement pour préserver l'intégrité de vos infrastructures.
                         </p>
                         <p className="text-lg leading-relaxed">
@@ -164,7 +163,7 @@ export default function EntretienPreventifPage() {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6, delay: 0.4 }}
                       >
-                        Maintenance Préventive Professionnelle
+                        Maintenance préventive professionnelle
                       </motion.h2>
                       <motion.div 
                         className="space-y-4 text-gray-300"
@@ -178,8 +177,7 @@ export default function EntretienPreventifPage() {
                           et de traiter les problèmes avant qu'ils ne deviennent critiques.
                         </p>
                         <p className="text-lg leading-relaxed">
-                          Nous proposons des contrats de maintenance personnalisés adaptés à vos besoins 
-                          et à votre budget. Nos techniciens qualifiés effectuent des inspections régulières 
+                          Nos techniciens qualifiés effectuent des inspections régulières 
                           et interviennent rapidement pour préserver l'intégrité de vos infrastructures.
                         </p>
                         <p className="text-lg leading-relaxed">
@@ -197,22 +195,22 @@ export default function EntretienPreventifPage() {
                   {[
                     {
                       icon: "🔍",
-                      title: "Inspection Régulière",
+                      title: "Inspection régulière",
                       description: "Contrôles périodiques pour détecter les signes de dégradation précoce"
                     },
                     {
                       icon: "🛠️",
-                      title: "Réparations Préventives",
+                      title: "Réparations préventives",
                       description: "Interventions ciblées pour éviter l'aggravation des problèmes"
                     },
                     {
                       icon: "📋",
-                      title: "Rapports Détaillés",
+                      title: "Rapports détaillés",
                       description: "Documentation complète de l'état de vos infrastructures"
                     },
                     {
                       icon: "💡",
-                      title: "Conseils Personnalisés",
+                      title: "Conseils personnalisés",
                       description: "Recommandations adaptées à vos contraintes et objectifs"
                     }
                   ].map((feature, index) => (
@@ -262,7 +260,7 @@ export default function EntretienPreventifPage() {
                 {isSafari ? (
                   <div className="glassmorphism-card p-6 sm:p-8 rounded-[1.5rem] backdrop-blur-md border border-white/20">
                     <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4 sm:mb-6">
-                      Nos <span className="bg-gradient-to-r from-teal-400 to-blue-400 bg-clip-text text-transparent">Services</span> de Maintenance
+                      Nos <span className="bg-gradient-to-r from-teal-400 to-blue-400 bg-clip-text text-transparent">Services</span> de maintenance
                     </h2>
                     <p className="text-lg text-gray-300 max-w-3xl mx-auto">
                       Une gamme complète de services d'entretien préventif pour tous vos besoins
@@ -281,7 +279,7 @@ export default function EntretienPreventifPage() {
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.8, delay: 0.4 }}
                     >
-                      Nos <span className="bg-gradient-to-r from-teal-400 to-blue-400 bg-clip-text text-transparent">Services</span> de Maintenance
+                      Nos <span className="bg-gradient-to-r from-teal-400 to-blue-400 bg-clip-text text-transparent">Services</span> de maintenance
                     </motion.h2>
                     <motion.p 
                       className="text-lg text-gray-300 max-w-3xl mx-auto"
@@ -299,22 +297,22 @@ export default function EntretienPreventifPage() {
                 {[
                   {
                     icon: "🔍",
-                    title: "Inspection Visuelle",
+                    title: "Inspection visuelle",
                     description: "Examen approfondi de l'état général de vos infrastructures"
                   },
                   {
                     icon: "📊",
-                    title: "Diagnostic Technique",
+                    title: "Diagnostic technique",
                     description: "Analyse détaillée des dégradations et évaluation des risques"
                   },
                   {
                     icon: "🛠️",
-                    title: "Réparations Légères",
+                    title: "Réparations légères",
                     description: "Interventions préventives pour éviter l'aggravation des problèmes"
                   },
                   {
                     icon: "📋",
-                    title: "Rapports de Maintenance",
+                    title: "Rapports de maintenance",
                     description: "Documentation complète avec photos et recommandations"
                   },
                   {
@@ -324,7 +322,7 @@ export default function EntretienPreventifPage() {
                   },
                   {
                     icon: "💬",
-                    title: "Conseils d'Expert",
+                    title: "Conseils d'expert",
                     description: "Recommandations personnalisées pour optimiser vos investissements"
                   }
                 ].map((service, index) => (
@@ -365,7 +363,7 @@ export default function EntretienPreventifPage() {
                 {isSafari ? (
                   <div className="glassmorphism-card p-6 sm:p-8 rounded-[1.5rem] backdrop-blur-md border border-white/20">
                     <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4 sm:mb-6">
-                      Les <span className="bg-gradient-to-r from-teal-400 to-blue-400 bg-clip-text text-transparent">Avantages</span> de l'Entretien Préventif
+                      Les <span className="bg-gradient-to-r from-teal-400 to-blue-400 bg-clip-text text-transparent">Avantages</span> de l'entretien préventif
                     </h2>
                     <p className="text-lg text-gray-300 max-w-3xl mx-auto">
                       Pourquoi choisir l'entretien préventif pour vos infrastructures
@@ -384,7 +382,7 @@ export default function EntretienPreventifPage() {
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.8, delay: 0.4 }}
                     >
-                      Les <span className="bg-gradient-to-r from-teal-400 to-blue-400 bg-clip-text text-transparent">Avantages</span> de l'Entretien Préventif
+                      Les <span className="bg-gradient-to-r from-teal-400 to-blue-400 bg-clip-text text-transparent">Avantages</span> de l'entretien préventif
                     </motion.h2>
                     <motion.p 
                       className="text-lg text-gray-300 max-w-3xl mx-auto"
@@ -407,7 +405,7 @@ export default function EntretienPreventifPage() {
                   },
                   {
                     icon: "⏰",
-                    title: "Durée de Vie",
+                    title: "Durée de vie",
                     description: "Prolongation significative de la durée de vie des infrastructures"
                   },
                   {
@@ -466,7 +464,7 @@ export default function EntretienPreventifPage() {
                     Protégez vos <span className="bg-gradient-to-r from-teal-400 to-blue-400 bg-clip-text text-transparent">investissements</span>
                   </h2>
                   <p className="text-lg sm:text-xl text-gray-300 mb-6 sm:mb-8 max-w-2xl mx-auto">
-                    Contactez-nous pour établir un contrat de maintenance préventive personnalisé 
+                    Contactez-nous pour établir un programme d'entretien préventif personnalisé 
                     et préservez la valeur de vos infrastructures.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
@@ -506,7 +504,7 @@ export default function EntretienPreventifPage() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.6 }}
                   >
-                    Contactez-nous pour établir un contrat de maintenance préventive personnalisé 
+                    Contactez-nous pour établir un programme d'entretien préventif personnalisé 
                     et préservez la valeur de vos infrastructures.
                   </motion.p>
                   <motion.div 

@@ -17,7 +17,7 @@ export default function Home() {
         <>
             <Head>
                 <title>Renov Route - Expert Traçage Marquage Routier & Parking France | Devis Gratuit</title>
-                <meta name="description" content="Renov Route : Expert traçage marquage routier et parking en France. Réparation nids de poule, retraçage parking, marquage routier, enrobé résine. Devis gratuit, intervention rapide. 10+ ans d'expérience, 500+ projets réalisés." />
+                <meta name="description" content="Renov Route : Expert traçage marquage routier et parking en France. Réparation nids de poule, retraçage parking, marquage routier, enrobé résine. Devis gratuit, intervention rapide. 10+ ans d'expérience, 1000+ projets réalisés." />
                 <meta name="keywords" content="traçage marquage routier, marquage parking, retraçage parking, réparation nids de poule, enrobé résine, marquage routier France, traçage parking professionnel, rénovation parking, signalisation horizontale, marquage au sol, tracage route, marquage chaussée, réparation route, entretien parking, devis traçage gratuit, expert marquage routier, travaux voirie, aménagement parking, marquage industriel, tracage commercial" />
                 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
                 <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
@@ -332,9 +332,9 @@ export default function Home() {
                             {/* Glassmorphism title container */}
                             {isSafari ? (
                                 <div className="glassmorphism-card p-6 sm:p-8 md:p-12 rounded-[2rem] mb-8 sm:mb-12 lg:mb-16 backdrop-blur-md border border-white/20 text-center">
-                                    <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-3 sm:mb-4">Nos Compétences en Traçage Marquage Routier</h2>
+                                    <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-3 sm:mb-4">Nos compétences en traçage marquage routier</h2>
                                     <p className="text-gray-300 text-base sm:text-lg max-w-2xl mx-auto">
-                                        Spécialistes du traçage marquage routier, réparation nids de poule, retraçage parking et enrobé résine en France
+                                        Spécialiste de traçage marquage routier, retraçage, réparation de nid de poule interieur et exterieur
                                     </p>
                                 </div>
                             ) : (
@@ -344,9 +344,9 @@ export default function Home() {
                                     animate={{ opacity: 1, y: 0 }}
                                     transition={{ duration: 0.8, delay: 0.8, ease: [0.2, 0.8, 0.2, 1] }}
                                 >
-                                    <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-3 sm:mb-4">Nos Compétences en Traçage Marquage Routier</h2>
+                                    <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-3 sm:mb-4">Nos compétences en traçage marquage routier</h2>
                                     <p className="text-gray-300 text-base sm:text-lg max-w-2xl mx-auto">
-                                        Spécialistes du traçage marquage routier, réparation nids de poule, retraçage parking et enrobé résine en France
+                                        Spécialiste de traçage marquage routier, retraçage, réparation de nid de poule interieur et exterieur
                                     </p>
                                 </motion.div>
                             )}
@@ -362,7 +362,7 @@ export default function Home() {
                                     {
                                         icon: "🏗️",
                                         title: "Rénovation de parking et marquage routier",
-                                        description: "Remise à neuf complète de vos parkings : réparation nids de poule, retraçage parking, enrobé résine et amélioration de l'aspect visuel.",
+                                        description: "Remise à neuf complète de vos parkings : réparation nids de poule, retraçage parking, marquage d'entrepôt et amélioration de l'aspect visuel.",
                                         gradient: "from-blue-500 to-cyan-500"
                                     }
                                 ].map((service, index) => (
@@ -418,9 +418,9 @@ export default function Home() {
                             {/* Glassmorphism title container */}
                             {isSafari ? (
                                 <div className="glassmorphism-card p-6 sm:p-8 md:p-12 rounded-[2rem] mb-8 sm:mb-12 lg:mb-16 backdrop-blur-md border border-white/20 text-center">
-                                    <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-3 sm:mb-4">Nos Références en Traçage Marquage Routier</h2>
+                                    <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-3 sm:mb-4">Nos références en traçage marquage routier</h2>
                                     <p className="text-gray-300 text-base sm:text-lg max-w-2xl mx-auto">
-                                        Nous sommes fiers de travailler avec des entreprises de renom dans toute la France pour leurs projets de marquage routier, traçage parking et réparation nids de poule
+                                        Nous sommes fiers de travailler avec des entreprises de renom dans toute la France pour leurs projets de marquage routier, traçage parking, accessibilité PMR et réparation nids de poule.
                                     </p>
                                 </div>
                             ) : (
@@ -430,9 +430,9 @@ export default function Home() {
                                     animate={{ opacity: 1, y: 0 }}
                                     transition={{ duration: 0.8, delay: 1.2, ease: [0.2, 0.8, 0.2, 1] }}
                                 >
-                                    <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-3 sm:mb-4">Nos Références en Traçage Marquage Routier</h2>
+                                    <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-3 sm:mb-4">Nos références en traçage marquage routier</h2>
                                     <p className="text-gray-300 text-base sm:text-lg max-w-2xl mx-auto">
-                                        Nous sommes fiers de travailler avec des entreprises de renom dans toute la France pour leurs projets de marquage routier, traçage parking et réparation nids de poule
+                                        Nous sommes fiers de travailler avec des entreprises de renom dans toute la France pour leurs projets de marquage routier, traçage parking, accessibilité PMR et réparation nids de poule.
                                     </p>
                                 </motion.div>
                             )}

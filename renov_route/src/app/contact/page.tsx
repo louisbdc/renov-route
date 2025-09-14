@@ -3,12 +3,15 @@
 import Layout from '@/components/Layout';
 import Head from 'next/head';
 import CustomDropdown from '@/components/CustomDropdown';
-import SecureForm, { SecureInput, SecureTextarea, SecureFileInput } from '@/components/SecureForm';
+import SecureForm, { SecureInput, SecureTextarea, SecureFileInput, FieldErrorsContext } from '@/components/SecureForm';
 import SafariAnimationFix, { useSafariOptimization } from '@/components/SafariAnimationFix';
 import { motion } from 'framer-motion';
 import { useState, useRef, useEffect } from 'react';
 import { validateContactFormWithFieldErrors } from '@/lib/form-validation';
 import { FaCheckCircle, FaPaperPlane } from 'react-icons/fa';
+import { useConversionTracking } from '@/components/AnalyticsTracker';
+import { ContactTracker } from '@/components/AnalyticsTracker';
+import { sendContactEmail } from '@/lib/email';
 
 export default function ContactPage() {
   const [subject, setSubject] = useState('');
@@ -16,6 +19,7 @@ export default function ContactPage() {
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const { isSafari } = useSafariOptimization();
+  const { trackFormSubmission } = useConversionTracking();
 
   const subjectOptions = [
     { value: 'devis', label: 'Demande de devis' },
@@ -25,7 +29,7 @@ export default function ContactPage() {
     { value: 'autre', label: 'Autre' }
   ];
 
-  const handleContactSubmit = async (formData: FormData) => {
+  const handleContactSubmit = async (formData: FormData, formEl: HTMLFormElement) => {
     try {
       setIsLoading(true);
       setFieldErrors({});
@@ -34,23 +38,28 @@ export default function ContactPage() {
       
       if (errors && Object.keys(errors).length > 0) {
         setFieldErrors(errors);
-        throw new Error('Erreurs de validation détectées');
+        return; // Stop execution but don't throw error
       }
       
       if (!validatedData) {
-        throw new Error('Erreur de validation');
+        setFieldErrors({ general: 'Erreur de validation' });
+        return; // Stop execution but don't throw error
       }
       
       console.log('Données validées:', validatedData);
       
-      // Simulation d'envoi (remplacer par votre API)
-      await new Promise(resolve => setTimeout(resolve, 2000));
+      // Tracker la soumission du formulaire
+      trackFormSubmission('contact', validatedData.subject || 'general');
+      
+      // Envoi via EmailJS (inclut les fichiers du formulaire)
+      await sendContactEmail(formEl);
       
       setIsSubmitted(true);
       setTimeout(() => setIsSubmitted(false), 15000);
       
     } catch (error) {
-      throw error;
+      console.error('Erreur lors de la soumission:', error);
+      setFieldErrors({ general: 'Une erreur inattendue s\'est produite' });
     } finally {
       setIsLoading(false);
     }
@@ -136,9 +145,11 @@ export default function ContactPage() {
                       </div>
                       <div>
                         <p className="text-gray-300 font-medium">Téléphone</p>
-                        <a href="tel:0786819692" className="text-white text-lg hover:text-primary-500 transition-colors">
-                          07 86 81 96 92
-                        </a>
+                        <ContactTracker type="phone" value="0786819692">
+                          <a href="tel:0786819692" className="text-white text-lg hover:text-primary-500 transition-colors">
+                            07 86 81 96 92
+                          </a>
+                        </ContactTracker>
                       </div>
                     </div>
                     
@@ -150,9 +161,11 @@ export default function ContactPage() {
                       </div>
                       <div>
                         <p className="text-gray-300 font-medium">Email</p>
-                        <a href="mailto:contact@renov-route.com" className="text-white text-lg hover:text-primary-500 transition-colors">
-                          contact@renov-route.com
-                        </a>
+                        <ContactTracker type="email" value="contact@renov-route.com">
+                          <a href="mailto:contact@renov-route.com" className="text-white text-lg hover:text-primary-500 transition-colors">
+                            contact@renov-route.com
+                          </a>
+                        </ContactTracker>
                       </div>
                     </div>
                     
@@ -193,9 +206,11 @@ export default function ContactPage() {
                       </div>
                       <div>
                         <p className="text-gray-300 font-medium">Téléphone</p>
-                        <a href="tel:0786819692" className="text-white text-lg hover:text-primary-500 transition-colors">
-                          07 86 81 96 92
-                        </a>
+                        <ContactTracker type="phone" value="0786819692">
+                          <a href="tel:0786819692" className="text-white text-lg hover:text-primary-500 transition-colors">
+                            07 86 81 96 92
+                          </a>
+                        </ContactTracker>
                       </div>
                     </div>
                     
@@ -207,9 +222,11 @@ export default function ContactPage() {
                       </div>
                       <div>
                         <p className="text-gray-300 font-medium">Email</p>
-                        <a href="mailto:contact@renov-route.com" className="text-white text-lg hover:text-primary-500 transition-colors">
-                          contact@renov-route.com
-                        </a>
+                        <ContactTracker type="email" value="contact@renov-route.com">
+                          <a href="mailto:contact@renov-route.com" className="text-white text-lg hover:text-primary-500 transition-colors">
+                            contact@renov-route.com
+                          </a>
+                        </ContactTracker>
                       </div>
                     </div>
                     
@@ -239,6 +256,15 @@ export default function ContactPage() {
               <div className="glassmorphism-card p-8">
                 <h3 className="text-2xl font-bold text-white mb-6">Envoyez-nous un message</h3>
 
+                {/* Error Display */}
+                {fieldErrors.general && (
+                  <div className="mb-6 p-4 bg-red-500/20 border border-red-400/30 rounded-xl">
+                    <p className="text-red-200 text-sm font-medium">
+                      {fieldErrors.general}
+                    </p>
+                  </div>
+                )}
+
                 {isSubmitted ? (
                   <div className="text-center py-16">
                     <div className="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
@@ -258,11 +284,16 @@ export default function ContactPage() {
                     </div>
                   </div>
                 ) : (
-                  <form onSubmit={async (e) => {
-                    e.preventDefault();
-                    const formData = new FormData(e.currentTarget);
-                    await handleContactSubmit(formData);
-                  }} className="space-y-6">
+                  <FieldErrorsContext.Provider value={fieldErrors}>
+                    <form onSubmit={async (e) => {
+                      e.preventDefault();
+                      const formData = new FormData(e.currentTarget);
+                      try {
+                        await handleContactSubmit(formData, e.currentTarget);
+                      } catch (error) {
+                        console.error('Erreur de soumission:', error);
+                      }
+                    }} className="space-y-6">
                     <div className="grid md:grid-cols-2 gap-4">
                       <SecureInput
                         type="text"
@@ -351,6 +382,7 @@ export default function ContactPage() {
                       conformément au RGPD.
                     </p>
                   </form>
+                  </FieldErrorsContext.Provider>
                 )}
               </div>
             ) : (
@@ -362,6 +394,15 @@ export default function ContactPage() {
               >
                 <h3 className="text-2xl font-bold text-white mb-6">Envoyez-nous un message</h3>
 
+                {/* Error Display */}
+                {fieldErrors.general && (
+                  <div className="mb-6 p-4 bg-red-500/20 border border-red-400/30 rounded-xl">
+                    <p className="text-red-200 text-sm font-medium">
+                      {fieldErrors.general}
+                    </p>
+                  </div>
+                )}
+
                 {isSubmitted ? (
                   <div className="text-center py-16">
                     <div className="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
@@ -381,11 +422,16 @@ export default function ContactPage() {
                     </div>
                   </div>
                 ) : (
-                  <form onSubmit={async (e) => {
-                    e.preventDefault();
-                    const formData = new FormData(e.currentTarget);
-                    await handleContactSubmit(formData);
-                  }} className="space-y-6">
+                  <FieldErrorsContext.Provider value={fieldErrors}>
+                    <form onSubmit={async (e) => {
+                      e.preventDefault();
+                      const formData = new FormData(e.currentTarget);
+                      try {
+                        await handleContactSubmit(formData, e.currentTarget);
+                      } catch (error) {
+                        console.error('Erreur de soumission:', error);
+                      }
+                    }} className="space-y-6">
                     <div className="grid md:grid-cols-2 gap-4">
                       <SecureInput
                         type="text"
@@ -474,6 +520,7 @@ export default function ContactPage() {
                       conformément au RGPD.
                     </p>
                   </form>
+                  </FieldErrorsContext.Provider>
               )}
               </motion.div>
             )}

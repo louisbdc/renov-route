@@ -12,29 +12,29 @@ export default function RenovationEnrobeResinePage() {
   return (
     <>
       <Head>
-        <title>Rénovation d'Enrobé Résine - Rénovation Complète | Renov Route</title>
-        <meta name="description" content="Rénovation complète de vos surfaces avec de la résine. Enrobé résine à froid, réparation de trous, finition professionnelle. Solution durable et esthétique." />
-        <meta name="keywords" content="rénovation enrobé résine, enrobé résine à froid, réparation trous, rénovation surface, résine rénovation, finition professionnelle, enrobé froid" />
+        <title>Réparation d'Enrobé à la Résine - Réparation Complète | Renov Route</title>
+        <meta name="description" content="Réparation partielle de vos surfaces avec de la résine. Réparation de trous, fissures, finition professionnelle. Solution durable et esthétique." />
+        <meta name="keywords" content="rénovation enrobé à la résine, réparation trous, rénovation surface, résine rénovation, finition professionnelle" />
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-        <meta property="og:title" content="Rénovation d'Enrobé Résine - Rénovation Complète | Renov Route" />
-        <meta property="og:description" content="Rénovation complète de vos surfaces avec de la résine. Enrobé résine à froid, réparation de trous, finition professionnelle." />
-        <meta property="og:url" content="https://renov-route.com/competences/renovation-enrobe-resine" />
+        <meta property="og:title" content="Réparation d'Enrobé à la Résine - Réparation Complète | Renov Route" />
+        <meta property="og:description" content="Réparation partielle de vos surfaces avec de la résine. Réparation de trous, fissures, finition professionnelle. Solution durable et esthétique." />
+        <meta property="og:url" content="https://renov-route.com/competences/reparation-enrobe-resine" />
         <meta property="og:type" content="website" />
-        <meta name="twitter:title" content="Rénovation d'Enrobé Résine - Rénovation Complète | Renov Route" />
-        <meta name="twitter:description" content="Rénovation complète de vos surfaces avec de la résine. Enrobé résine à froid, réparation de trous." />
-        <link rel="canonical" href="https://renov-route.com/competences/renovation-enrobe-resine" />
+        <meta name="twitter:title" content="Réparation d'Enrobé à la Résine - Réparation Complète | Renov Route" />
+        <meta name="twitter:description" content="Réparation partielle de vos surfaces avec de la résine. Réparation de trous, fissures, finition professionnelle. Solution durable et esthétique." />
+        <link rel="canonical" href="https://renov-route.com/competences/reparation-enrobe-resine" />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "name": "Rénovation d'Enrobé Résine",
-            "description": "Rénovation complète de vos surfaces avec de la résine. Enrobé résine à froid, réparation de trous, finition professionnelle.",
+            "name": "Réparation d'Enrobé à la Résine",
+            "description": "Réparation partielle de vos surfaces avec de la résine. Réparation de trous, fissures, finition professionnelle. Solution durable et esthétique.",
             "provider": {
               "@type": "LocalBusiness",
               "name": "Renov Route"
             },
             "areaServed": "France",
-            "serviceType": "Rénovation de surface"
+            "serviceType": "Réparation de surface"
           })}
         </script>
       </Head>
@@ -56,7 +56,7 @@ export default function RenovationEnrobeResinePage() {
                   <span>/</span>
                   <Link href="/competences" className="hover:text-white transition-colors">Compétences</Link>
                   <span>/</span>
-                  <span className="text-white">Rénovation d'enrobé résine</span>
+                  <span className="text-white">Réparation d'enrobé à la résine</span>
                 </div>
               </nav>
 
@@ -69,11 +69,11 @@ export default function RenovationEnrobeResinePage() {
                     </div>
                   </div>
                   <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 sm:mb-6 leading-tight">
-                    Rénovation d'<span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Enrobé Résine</span>
+                    Réparation d'<span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Enrobé à la Résine</span>
                   </h1>
                   <p className="text-lg sm:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-                    Rénovation complète de vos surfaces avec de la résine. 
-                    Enrobé résine à froid, réparation de trous, finition professionnelle et durable.
+                    Réparation partielle de vos surfaces avec de la résine. 
+                    Réparation de trous, fissures, finition professionnelle. Solution durable et esthétique.
                   </p>
                 </div>
               ) : (
@@ -99,7 +99,7 @@ export default function RenovationEnrobeResinePage() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.4 }}
                   >
-                    Rénovation d'<span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Enrobé Résine</span>
+                    Réparation d'<span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Enrobé à la Résine</span>
                   </motion.h1>
                   <motion.p 
                     className="text-lg sm:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed"
@@ -107,8 +107,8 @@ export default function RenovationEnrobeResinePage() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.6 }}
                   >
-                    Rénovation complète de vos surfaces avec de la résine. 
-                    Enrobé résine à froid, réparation de trous, finition professionnelle et durable.
+                    Réparation partielle de vos surfaces avec de la résine. 
+                    Réparation de trous, fissures, finition professionnelle. Solution durable et esthétique.
                   </motion.p>
                 </motion.div>
               )}
@@ -131,17 +131,17 @@ export default function RenovationEnrobeResinePage() {
                   {isSafari ? (
                     <div className="glassmorphism-card p-6 sm:p-8 rounded-[1.5rem] backdrop-blur-md border border-white/20">
                       <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6">
-                        Rénovation Complète avec Résine
+                        Réparation avec de la résine
                       </h2>
                       <div className="space-y-4 text-gray-300">
                         <p className="text-lg leading-relaxed">
-                          L'enrobé résine représente une solution révolutionnaire pour la rénovation 
+                          L'enrobé à la résine représente une solution révolutionnaire pour la rénovation 
                           de vos surfaces dégradées. Cette technique innovante offre une alternative 
                           durable et esthétique aux méthodes traditionnelles de réparation.
                         </p>
                         <p className="text-lg leading-relaxed">
-                          Notre procédé d'enrobé résine à froid permet une application rapide et 
-                          efficace, même par temps froid. Cette solution s'adapte parfaitement 
+                          Notre procédé de résine permet une application rapide et 
+                          efficace, . Cette solution s'adapte parfaitement 
                           aux parkings, cours d'entreprises, allées et espaces publics.
                         </p>
                         <p className="text-lg leading-relaxed">
@@ -164,7 +164,7 @@ export default function RenovationEnrobeResinePage() {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6, delay: 0.4 }}
                       >
-                        Rénovation Complète avec Résine
+                        Réparation avec de la résine
                       </motion.h2>
                       <motion.div 
                         className="space-y-4 text-gray-300"
@@ -173,13 +173,13 @@ export default function RenovationEnrobeResinePage() {
                         transition={{ duration: 0.8, delay: 0.6 }}
                       >
                         <p className="text-lg leading-relaxed">
-                          L'enrobé résine représente une solution révolutionnaire pour la rénovation 
+                          L'enrobé à la résine représente une solution révolutionnaire pour la rénovation 
                           de vos surfaces dégradées. Cette technique innovante offre une alternative 
                           durable et esthétique aux méthodes traditionnelles de réparation.
                         </p>
                         <p className="text-lg leading-relaxed">
-                          Notre procédé d'enrobé résine à froid permet une application rapide et 
-                          efficace, même par temps froid. Cette solution s'adapte parfaitement 
+                          Notre procédé de résine permet une application rapide et 
+                          efficace, . Cette solution s'adapte parfaitement 
                           aux parkings, cours d'entreprises, allées et espaces publics.
                         </p>
                         <p className="text-lg leading-relaxed">
@@ -196,24 +196,24 @@ export default function RenovationEnrobeResinePage() {
                 <div className="space-y-6">
                   {[
                     {
-                      icon: "❄️",
-                      title: "Application à Froid",
-                      description: "Pose possible même par temps froid, sans contrainte de température"
+                      icon: "⚡",
+                      title: "Application rapide",
+                      description: "Pose rapide et efficace pour une mise en service immédiate"
                     },
                     {
                       icon: "🛡️",
-                      title: "Résistance Exceptionnelle",
+                      title: "Résistance exceptionnelle",
                       description: "Durabilité remarquable face aux intempéries et au trafic intense"
                     },
                     {
                       icon: "🎨",
-                      title: "Finition Esthétique",
+                      title: "Finition esthétique",
                       description: "Aspect professionnel et moderne qui valorise vos espaces"
                     },
                     {
-                      icon: "⚡",
-                      title: "Mise en Service Rapide",
-                      description: "Circulation possible rapidement après application"
+                      icon: "🔧",
+                      title: "Maintenance facile",
+                      description: "Entretien simple et économique pour une longévité optimale"
                     }
                   ].map((feature, index) => (
                     isSafari ? (
@@ -262,10 +262,10 @@ export default function RenovationEnrobeResinePage() {
                 {isSafari ? (
                   <div className="glassmorphism-card p-6 sm:p-8 rounded-[1.5rem] backdrop-blur-md border border-white/20">
                     <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4 sm:mb-6">
-                      Nos <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Services</span> de Rénovation
+                      Nos <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Services</span> de rénovation
                     </h2>
                     <p className="text-lg text-gray-300 max-w-3xl mx-auto">
-                      Une gamme complète de services de rénovation avec enrobé résine
+                      Une gamme complète de services de rénovation avec enrobé à la résine
                     </p>
                   </div>
                 ) : (
@@ -281,7 +281,7 @@ export default function RenovationEnrobeResinePage() {
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.8, delay: 0.4 }}
                     >
-                      Nos <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Services</span> de Rénovation
+                      Nos <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Services</span> de rénovation
                     </motion.h2>
                     <motion.p 
                       className="text-lg text-gray-300 max-w-3xl mx-auto"
@@ -289,7 +289,7 @@ export default function RenovationEnrobeResinePage() {
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.8, delay: 0.6 }}
                     >
-                      Une gamme complète de services de rénovation avec enrobé résine
+                      Une gamme complète de services de rénovation avec enrobé à la résine
                     </motion.p>
                   </motion.div>
                 )}
@@ -299,33 +299,33 @@ export default function RenovationEnrobeResinePage() {
                 {[
                   {
                     icon: "🏗️",
-                    title: "Enrobé Résine à Froid",
-                    description: "Application d'enrobé résine même par temps froid pour une rénovation complète"
+                    title: "Réparation à la résine",
+                    description: "Application de résine pour une réparation locale"
                   },
                   {
                     icon: "🕳️",
-                    title: "Réparation de Trous",
+                    title: "Réparation de trous",
                     description: "Réparation précise des trous et fissures avec matériaux de qualité"
                   },
                   {
                     icon: "✨",
-                    title: "Finition Professionnelle",
+                    title: "Finition professionnelle",
                     description: "Finition soignée et esthétique pour un résultat parfait"
                   },
                   {
                     icon: "🚗",
-                    title: "Rénovation Parking",
-                    description: "Rénovation complète des parkings et espaces de stationnement"
+                    title: "Réparation parking",
+                    description: "Réparation complète des parkings et espaces de stationnement"
                   },
                   {
                     icon: "🏢",
-                    title: "Cours d'Entreprises",
-                    description: "Rénovation des cours et espaces de circulation d'entreprises"
+                    title: "Cours d'entreprises",
+                    description: "Réparation des cours et espaces de circulation d'entreprises"
                   },
                   {
                     icon: "🛣️",
-                    title: "Espaces Publics",
-                    description: "Rénovation des allées, places et espaces publics"
+                    title: "Espaces publics",
+                    description: "Réparation des allées, places et espaces publics"
                   }
                 ].map((service, index) => (
                   isSafari ? (
@@ -365,7 +365,7 @@ export default function RenovationEnrobeResinePage() {
                 {isSafari ? (
                   <div className="glassmorphism-card p-6 sm:p-8 rounded-[1.5rem] backdrop-blur-md border border-white/20">
                     <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4 sm:mb-6">
-                      Notre <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Processus</span> de Rénovation
+                      Notre <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Processus</span> de Réparation
                     </h2>
                     <p className="text-lg text-gray-300 max-w-3xl mx-auto">
                       Un processus rigoureux pour garantir des résultats durables et esthétiques
@@ -384,7 +384,7 @@ export default function RenovationEnrobeResinePage() {
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.8, delay: 0.4 }}
                     >
-                      Notre <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Processus</span> de Rénovation
+                      Notre <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Processus</span> de Réparation
                     </motion.h2>
                     <motion.p 
                       className="text-lg text-gray-300 max-w-3xl mx-auto"
@@ -413,7 +413,7 @@ export default function RenovationEnrobeResinePage() {
                   {
                     step: "03",
                     title: "Application",
-                    description: "Pose de l'enrobé résine avec précision et contrôle de l'épaisseur"
+                    description: "Pose de l'enrobé à la résine avec précision et contrôle de l'épaisseur"
                   },
                   {
                     step: "04",
@@ -467,7 +467,7 @@ export default function RenovationEnrobeResinePage() {
                   </h2>
                   <p className="text-lg sm:text-xl text-gray-300 mb-6 sm:mb-8 max-w-2xl mx-auto">
                     Contactez-nous pour un devis personnalisé et découvrez comment nous pouvons 
-                    rénover vos surfaces avec notre expertise en enrobé résine.
+                    rénover vos surfaces avec notre expertise en enrobé à la résine.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
                     <a 
@@ -507,7 +507,7 @@ export default function RenovationEnrobeResinePage() {
                     transition={{ duration: 0.8, delay: 0.6 }}
                   >
                     Contactez-nous pour un devis personnalisé et découvrez comment nous pouvons 
-                    rénover vos surfaces avec notre expertise en enrobé résine.
+                    rénover vos surfaces avec notre expertise en enrobé à la résine.
                   </motion.p>
                   <motion.div 
                     className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center"

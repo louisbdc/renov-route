@@ -131,7 +131,7 @@ export default function ConseilExpertisePage() {
                   {isSafari ? (
                     <div className="glassmorphism-card p-6 sm:p-8 rounded-[1.5rem] backdrop-blur-md border border-white/20">
                       <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6">
-                        Accompagnement Personnalisé
+                        Accompagnement personnalisé
                       </h2>
                       <div className="space-y-4 text-gray-300">
                         <p className="text-lg leading-relaxed">
@@ -165,7 +165,7 @@ export default function ConseilExpertisePage() {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6, delay: 0.4 }}
                       >
-                        Accompagnement Personnalisé
+                        Accompagnement personnalisé
                       </motion.h2>
                       <motion.div 
                         className="space-y-4 text-gray-300"
@@ -199,22 +199,22 @@ export default function ConseilExpertisePage() {
                   {[
                     {
                       icon: "📋",
-                      title: "Étude de Faisabilité",
+                      title: "Étude de faisabilité",
                       description: "Analyse technique et économique de votre projet d'infrastructure"
                     },
                     {
                       icon: "💰",
-                      title: "Devis Personnalisé",
+                      title: "Devis personnalisé",
                       description: "Estimation précise et transparente adaptée à vos besoins"
                     },
                     {
                       icon: "👥",
-                      title: "Suivi de Projet",
+                      title: "Suivi de projet",
                       description: "Accompagnement tout au long de la réalisation de votre projet"
                     },
                     {
                       icon: "🎯",
-                      title: "Solutions Sur Mesure",
+                      title: "Solutions sur mesure",
                       description: "Recommandations personnalisées adaptées à vos contraintes"
                     }
                   ].map((feature, index) => (
@@ -264,7 +264,7 @@ export default function ConseilExpertisePage() {
                 {isSafari ? (
                   <div className="glassmorphism-card p-6 sm:p-8 rounded-[1.5rem] backdrop-blur-md border border-white/20">
                     <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4 sm:mb-6">
-                      Nos <span className="bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent">Services</span> de Conseil
+                      Nos <span className="bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent">Services</span> de conseil
                     </h2>
                     <p className="text-lg text-gray-300 max-w-3xl mx-auto">
                       Une gamme complète de services de conseil et d'expertise pour vos projets
@@ -283,7 +283,7 @@ export default function ConseilExpertisePage() {
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.8, delay: 0.4 }}
                     >
-                      Nos <span className="bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent">Services</span> de Conseil
+                      Nos <span className="bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent">Services</span> de conseil
                     </motion.h2>
                     <motion.p 
                       className="text-lg text-gray-300 max-w-3xl mx-auto"
@@ -301,17 +301,17 @@ export default function ConseilExpertisePage() {
                 {[
                   {
                     icon: "📊",
-                    title: "Audit Technique",
+                    title: "Audit technique",
                     description: "Évaluation complète de l'état de vos infrastructures existantes"
                   },
                   {
                     icon: "📋",
-                    title: "Étude de Faisabilité",
+                    title: "Étude de faisabilité",
                     description: "Analyse technique et économique de vos projets d'amélioration"
                   },
                   {
                     icon: "💰",
-                    title: "Devis Détaillé",
+                    title: "Devis détaillé",
                     description: "Estimation précise et transparente de tous les coûts de projet"
                   },
                   {
@@ -321,12 +321,12 @@ export default function ConseilExpertisePage() {
                   },
                   {
                     icon: "👥",
-                    title: "Suivi de Projet",
+                    title: "Suivi de projet",
                     description: "Accompagnement et supervision tout au long de la réalisation"
                   },
                   {
                     icon: "🎯",
-                    title: "Conseil Stratégique",
+                    title: "Conseil stratégique",
                     description: "Recommandations pour optimiser vos investissements infrastructure"
                   }
                 ].map((service, index) => (

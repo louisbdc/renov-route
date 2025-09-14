@@ -131,7 +131,7 @@ export default function TracageRetracageParkingPage() {
                   {isSafari ? (
                     <div className="glassmorphism-card p-6 sm:p-8 rounded-[1.5rem] backdrop-blur-md border border-white/20">
                       <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6">
-                        Marquage de Parking Professionnel
+                        Marquage de parking professionnel
                       </h2>
                       <div className="space-y-4 text-gray-300">
                         <p className="text-lg leading-relaxed">
@@ -141,12 +141,15 @@ export default function TracageRetracageParkingPage() {
                         </p>
                         <p className="text-lg leading-relaxed">
                           Notre expertise couvre tous types de parkings : centres commerciaux, entreprises, 
-                          hôtels, restaurants, et espaces publics. Nous utilisons des peintures de haute 
+                          hôtels, industries, restaurants, et espaces publics. Nous utilisons des peintures de haute 
                           qualité et des techniques professionnelles pour garantir une durabilité exceptionnelle.
                         </p>
                         <p className="text-lg leading-relaxed">
                           Nous respectons scrupuleusement les normes en vigueur et nous adaptons à vos 
                           besoins spécifiques pour créer un marquage sur mesure qui valorise votre établissement.
+                        </p>
+                        <p className="text-lg leading-relaxed">
+                          Nous réalisons également les travaux d'accessibilité PMR.
                         </p>
                       </div>
                     </div>
@@ -163,7 +166,7 @@ export default function TracageRetracageParkingPage() {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6, delay: 0.4 }}
                       >
-                        Marquage de Parking Professionnel
+                        Marquage de parking professionnel
                       </motion.h2>
                       <motion.div 
                         className="space-y-4 text-gray-300"
@@ -178,12 +181,15 @@ export default function TracageRetracageParkingPage() {
                         </p>
                         <p className="text-lg leading-relaxed">
                           Notre expertise couvre tous types de parkings : centres commerciaux, entreprises, 
-                          hôtels, restaurants, et espaces publics. Nous utilisons des peintures de haute 
+                          hôtels, industries, restaurants, et espaces publics. Nous utilisons des peintures de haute 
                           qualité et des techniques professionnelles pour garantir une durabilité exceptionnelle.
                         </p>
                         <p className="text-lg leading-relaxed">
                           Nous respectons scrupuleusement les normes en vigueur et nous adaptons à vos 
                           besoins spécifiques pour créer un marquage sur mesure qui valorise votre établissement.
+                        </p>
+                        <p className="text-lg leading-relaxed">
+                          Nous réalisons également les travaux d'accessibilité PMR.
                         </p>
                       </motion.div>
                     </motion.div>
@@ -195,17 +201,17 @@ export default function TracageRetracageParkingPage() {
                   {[
                     {
                       icon: "🎯",
-                      title: "Précision Maximale",
+                      title: "Précision maximale",
                       description: "Tracés parfaitement droits et alignés grâce à nos outils professionnels"
                     },
                     {
                       icon: "⚖️",
-                      title: "Respect des Normes",
+                      title: "Respect des normes",
                       description: "Conformité totale aux réglementations en vigueur et aux standards de sécurité"
                     },
                     {
                       icon: "🛡️",
-                      title: "Durabilité Exceptionnelle",
+                      title: "Durabilité exceptionnelle",
                       description: "Peintures haute résistance aux intempéries et au trafic intense"
                     },
                     {
@@ -260,7 +266,7 @@ export default function TracageRetracageParkingPage() {
                 {isSafari ? (
                   <div className="glassmorphism-card p-6 sm:p-8 rounded-[1.5rem] backdrop-blur-md border border-white/20">
                     <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4 sm:mb-6">
-                      Nos <span className="bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent">Services</span> de Marquage
+                      Nos <span className="bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent">Services</span> de marquage
                     </h2>
                     <p className="text-lg text-gray-300 max-w-3xl mx-auto">
                       Une gamme complète de services pour tous vos besoins de marquage de parking
@@ -279,7 +285,7 @@ export default function TracageRetracageParkingPage() {
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.8, delay: 0.4 }}
                     >
-                      Nos <span className="bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent">Services</span> de Marquage
+                      Nos <span className="bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent">Services</span> de marquage
                     </motion.h2>
                     <motion.p 
                       className="text-lg text-gray-300 max-w-3xl mx-auto"
@@ -297,27 +303,27 @@ export default function TracageRetracageParkingPage() {
                 {[
                   {
                     icon: "🚗",
-                    title: "Marquage de Places",
+                    title: "Marquage de places",
                     description: "Délimitation précise des places de parking avec numérotation et orientation"
                   },
                   {
                     icon: "♿",
-                    title: "Places Handicapées",
-                    description: "Marquage conforme aux normes PMR avec signalétique appropriée"
+                    title: "Places handicapées",
+                    description: "Marquage conforme aux normes PMR avec signalétique adaptée et accessibilité optimale (bandes de guidage, repères tactiles, etc.)"
                   },
                   {
                     icon: "🚛",
-                    title: "Places Poids Lourds",
+                    title: "Places poids lourds",
                     description: "Zones dédiées aux véhicules de transport et livraison"
                   },
                   {
                     icon: "🚶",
-                    title: "Passages Piétons",
+                    title: "Passages piétons",
                     description: "Marquage des zones de circulation piétonne et de sécurité"
                   },
                   {
                     icon: "🚫",
-                    title: "Zones Interdites",
+                    title: "Zones interdites",
                     description: "Signalisation des zones de circulation restreinte ou interdite"
                   },
                   {

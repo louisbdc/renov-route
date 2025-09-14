@@ -264,14 +264,27 @@ export function validateFiles(files: FileList | null, options: {
 
   const { maxFiles = 5, maxSize = 10, allowedTypes = ['image/*', 'application/pdf', 'text/*'] } = options;
 
+  // Filtrer les fichiers vides ou invalides
+  const validFiles = Array.from(files).filter(file => 
+    file && 
+    file instanceof File && 
+    file.size > 0 && 
+    file.name && 
+    file.name.trim() !== ''
+  );
+
+  if (validFiles.length === 0) {
+    return null;
+  }
+
   // Vérifier le nombre de fichiers
-  if (files.length > maxFiles) {
+  if (validFiles.length > maxFiles) {
     throw new Error(`Vous ne pouvez pas télécharger plus de ${maxFiles} fichiers`);
   }
 
   // Vérifier chaque fichier
-  for (let i = 0; i < files.length; i++) {
-    const file = files[i];
+  for (let i = 0; i < validFiles.length; i++) {
+    const file = validFiles[i];
     
     // Vérifier la taille
     if (file.size > maxSize * 1024 * 1024) {
@@ -296,7 +309,10 @@ export function validateFiles(files: FileList | null, options: {
     }
   }
 
-  return files;
+  // Créer un nouveau FileList avec les fichiers valides
+  const dt = new DataTransfer();
+  validFiles.forEach(file => dt.items.add(file));
+  return dt.files;
 }
 
 /**

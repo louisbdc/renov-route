@@ -72,8 +72,7 @@ export default function MarquageRoutierPage() {
                     <span className="bg-gradient-to-r from-orange-400 to-red-400 bg-clip-text text-transparent">Marquage Routier</span>
                   </h1>
                   <p className="text-lg sm:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-                    Signalisation horizontale pour améliorer la sécurité et la circulation. 
-                    Marquage professionnel conforme aux normes et adapté à vos besoins.
+                    Signalisation horizontale: installation de tout type de panneaux et signalisation
                   </p>
                 </div>
               ) : (
@@ -107,8 +106,7 @@ export default function MarquageRoutierPage() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.6 }}
                   >
-                    Signalisation horizontale pour améliorer la sécurité et la circulation. 
-                    Marquage professionnel conforme aux normes et adapté à vos besoins.
+                    Signalisation horizontale: installation de tout type de panneaux et signalisation
                   </motion.p>
                 </motion.div>
               )}
@@ -131,7 +129,7 @@ export default function MarquageRoutierPage() {
                   {isSafari ? (
                     <div className="glassmorphism-card p-6 sm:p-8 rounded-[1.5rem] backdrop-blur-md border border-white/20">
                       <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6">
-                        Signalisation Horizontale Professionnelle
+                        Signalisation horizontale professionnelle
                       </h2>
                       <div className="space-y-4 text-gray-300">
                         <p className="text-lg leading-relaxed">
@@ -165,7 +163,7 @@ export default function MarquageRoutierPage() {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6, delay: 0.4 }}
                       >
-                        Signalisation Horizontale Professionnelle
+                        Signalisation horizontale professionnelle
                       </motion.h2>
                       <motion.div 
                         className="space-y-4 text-gray-300"
@@ -199,12 +197,12 @@ export default function MarquageRoutierPage() {
                   {[
                     {
                       icon: "🚦",
-                      title: "Sécurité Renforcée",
+                      title: "Sécurité renforcée",
                       description: "Marquage conforme aux normes pour améliorer la sécurité des usagers"
                     },
                     {
                       icon: "📏",
-                      title: "Précision Maximale",
+                      title: "Précision maximale",
                       description: "Tracés parfaitement alignés et respectant les dimensions réglementaires"
                     },
                     {
@@ -214,7 +212,7 @@ export default function MarquageRoutierPage() {
                     },
                     {
                       icon: "⚡",
-                      title: "Intervention Rapide",
+                      title: "Intervention rapide",
                       description: "Réalisation efficace pour minimiser les perturbations de circulation"
                     }
                   ].map((feature, index) => (
@@ -301,32 +299,32 @@ export default function MarquageRoutierPage() {
                 {[
                   {
                     icon: "➖",
-                    title: "Lignes de Circulation",
+                    title: "Lignes de circulation",
                     description: "Lignes continues, discontinues, doubles et de dépassement"
                   },
                   {
                     icon: "⚠️",
-                    title: "Signalisation de Sécurité",
+                    title: "Signalisation de sécurité",
                     description: "Zébras, flèches directionnelles, marquage de danger"
                   },
                   {
                     icon: "🚶",
-                    title: "Passages Piétons",
+                    title: "Passages piétons",
                     description: "Zébras piétons, îlots refuges et zones de sécurité"
                   },
                   {
                     icon: "🚗",
-                    title: "Marquage de Stationnement",
+                    title: "Marquage de stationnement",
                     description: "Délimitation des places, zones de chargement"
                   },
                   {
                     icon: "🔄",
-                    title: "Marquage Directionnel",
+                    title: "Marquage directionnel",
                     description: "Flèches, sens interdits, zones de circulation"
                   },
                   {
                     icon: "🏢",
-                    title: "Marquage Personnalisé",
+                    title: "Marquage personnalisé",
                     description: "Logos, textes, marquage d'entreprise sur mesure"
                   }
                 ].map((service, index) => (
@@ -404,7 +402,7 @@ export default function MarquageRoutierPage() {
                 {[
                   {
                     step: "01",
-                    title: "Analyse du Site",
+                    title: "Analyse du site",
                     description: "Étude de la circulation et identification des besoins de marquage"
                   },
                   {

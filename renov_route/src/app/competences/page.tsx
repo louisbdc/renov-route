@@ -10,7 +10,7 @@ const competences = [
   {
     id: 1,
     title: 'Réparation de nids de poule',
-    description: 'Procédé innovant et résistant pour réparer efficacement les nids de poule avec de la résine.',
+    description: 'Procédé innovant et résistant pour réparer efficacement les nids de poule avec des produits résistants adaptés à votre situation',
     icon: '🔧',
     features: [
       'Réparation rapide et durable',
@@ -51,8 +51,8 @@ const competences = [
   },
   {
     id: 4,
-    title: 'Rénovation d\'enrobé résine',
-    description: 'Rénovation complète de vos surfaces avec de la résine.',
+    title: 'Réparation d\'enrobé à la résine',
+    description: 'Réparation partielle de vos surfaces avec de la résine.',
     icon: '🏗️',
     features: [
       'Enrobé résine à froid',
@@ -61,7 +61,7 @@ const competences = [
     ],
     gradient: 'from-purple-500 to-pink-500',
     bgGradient: 'from-purple-600/20 to-pink-600/20',
-    slug: 'renovation-enrobe-resine'
+    slug: 'reparation-enrobe-resine'
   },
   {
     id: 5,
@@ -129,7 +129,7 @@ export default function CompetencesPage() {
                     "itemOffered": {
                       "@type": "Service",
                       "name": "Réparation de nids de poule",
-                      "description": "Procédé innovant et résistant pour réparer efficacement les nids de poule avec de la résine"
+                      "description": "Procédé innovant et résistant pour réparer efficacement les nids de poule avec des produits résistants adaptés à votre situation"
                     }
                   },
                   {
@@ -152,8 +152,8 @@ export default function CompetencesPage() {
                     "@type": "Offer",
                     "itemOffered": {
                       "@type": "Service",
-                      "name": "Rénovation d'enrobé résine",
-                      "description": "Rénovation complète de vos surfaces avec de la résine"
+                      "name": "Réparation d'enrobé résine",
+                      "description": "Réparation complète de vos surfaces avec de la résine"
                     }
                   },
                   {
@@ -353,7 +353,7 @@ export default function CompetencesPage() {
           {/* Stats Grid */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 lg:gap-8 text-center">
             {[
-              { number: "500+", label: "Projets réalisés", gradient: "from-blue-400 to-cyan-400" },
+              { number: "1000+", label: "Projets réalisés", gradient: "from-blue-400 to-cyan-400" },
               { number: "10+", label: "Années d'expérience", gradient: "from-green-400 to-emerald-400" },
               { number: "98%", label: "Clients satisfaits", gradient: "from-purple-400 to-pink-400" },
               { number: "24/7", label: "Support client", gradient: "from-orange-400 to-red-400" }

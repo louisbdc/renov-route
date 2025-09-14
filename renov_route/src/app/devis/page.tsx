@@ -9,6 +9,7 @@ import { motion } from 'framer-motion';
 import { useState, useRef, useEffect } from 'react';
 import { validateDevisFormWithFieldErrors } from '@/lib/form-validation';
 import { FaCheckCircle, FaPaperPlane } from 'react-icons/fa';
+import { sendDevisEmail } from '@/lib/email';
 
 export default function DevisPage() {
   const [formData, setFormData] = useState({
@@ -63,7 +64,7 @@ export default function DevisPage() {
     }));
   };
 
-  const handleDevisSubmit = async (formData: FormData) => {
+  const handleDevisSubmit = async (formData: FormData, formEl: HTMLFormElement) => {
     try {
       setIsSubmitting(true);
       setIsLoading(true);
@@ -73,25 +74,24 @@ export default function DevisPage() {
       
       if (errors && Object.keys(errors).length > 0) {
         setFieldErrors(errors);
-        throw new Error('Erreurs de validation détectées');
+        return; // Stop execution but don't throw error
       }
       
       if (!validatedData) {
-        throw new Error('Erreur de validation');
+        setFieldErrors({ general: 'Erreur de validation' });
+        return; // Stop execution but don't throw error
       }
       
       console.log('Devis validé:', validatedData);
       
-      // Simulation de l'envoi du devis
-      await new Promise(resolve => setTimeout(resolve, 2000));
-      
-      // Ici vous pouvez envoyer les données à votre API
-      // await sendDevisForm(validatedData);
+      // Envoi via EmailJS (inclut les fichiers)
+      await sendDevisEmail(formEl);
       
       setIsSubmitted(true);
       setTimeout(() => setIsSubmitted(false), 15000);
     } catch (error) {
-      throw error;
+      console.error('Erreur lors de la soumission:', error);
+      setFieldErrors({ general: 'Une erreur inattendue s\'est produite' });
     } finally {
       setIsSubmitting(false);
       setIsLoading(false);
@@ -209,12 +209,21 @@ export default function DevisPage() {
                 </div>
               ) : (
                 <div className="glassmorphism-card p-8">
+                  {/* Error Display */}
+                  {fieldErrors.general && (
+                    <div className="mb-6 p-4 bg-red-500/20 border border-red-400/30 rounded-xl">
+                      <p className="text-red-200 text-sm font-medium">
+                        {fieldErrors.general}
+                      </p>
+                    </div>
+                  )}
+                  
                   <FieldErrorsContext.Provider value={fieldErrors}>
                     <form onSubmit={async (e) => {
                       e.preventDefault();
                       try {
                         const formData = new FormData(e.currentTarget);
-                        await handleDevisSubmit(formData);
+                        await handleDevisSubmit(formData, e.currentTarget);
                       } catch (error) {
                         console.error('Erreur lors de la soumission:', error);
                       }
@@ -498,12 +507,21 @@ export default function DevisPage() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.8, delay: 0.2, ease: [0.2, 0.8, 0.2, 1] }}
                 >
+                  {/* Error Display */}
+                  {fieldErrors.general && (
+                    <div className="mb-6 p-4 bg-red-500/20 border border-red-400/30 rounded-xl">
+                      <p className="text-red-200 text-sm font-medium">
+                        {fieldErrors.general}
+                      </p>
+                    </div>
+                  )}
+                  
                   <FieldErrorsContext.Provider value={fieldErrors}>
                     <form onSubmit={async (e) => {
                       e.preventDefault();
                       try {
                         const formData = new FormData(e.currentTarget);
-                        await handleDevisSubmit(formData);
+                        await handleDevisSubmit(formData, e.currentTarget);
                       } catch (error) {
                         console.error('Erreur lors de la soumission:', error);
                       }
