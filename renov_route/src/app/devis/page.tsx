@@ -13,7 +13,6 @@ import { sendDevisEmail } from '@/lib/email';
 
 export default function DevisPage() {
   const [formData, setFormData] = useState({
-    urgency: '',
     bestTime: '',
     projectTypes: [] as string[],
     otherProjectType: '',
@@ -25,11 +24,6 @@ export default function DevisPage() {
   const [fieldErrors, setFieldErrors] = useState<Record<string, string>>({});
   const { isSafari } = useSafariOptimization();
 
-  const urgencyOptions = [
-    { value: 'normal', label: 'Normal (dans les 2-4 semaines)' },
-    { value: 'urgent', label: 'Urgent (dans la semaine)' },
-    { value: 'very-urgent', label: 'Très urgent (dans les 48h)' }
-  ];
 
 
   const bestTimeOptions = [
@@ -102,7 +96,6 @@ export default function DevisPage() {
     setIsSubmitted(false);
     setFieldErrors({});
     setFormData({
-      urgency: '',
       bestTime: '',
       projectTypes: [],
       otherProjectType: '',
@@ -327,24 +320,38 @@ export default function DevisPage() {
                 <div className="grid md:grid-cols-2 gap-4">
                   <SecureCheckbox
                     name="projectType"
-                    value="tracage"
-                    label="Traçage de parking"
-                    checked={formData.projectTypes.includes('tracage')}
-                    onChange={(checked) => handleProjectTypeChange('tracage', checked)}
+                    value="tracage-retracage"
+                    label="Traçage / retraçage de parking"
+                    checked={formData.projectTypes.includes('tracage-retracage')}
+                    onChange={(checked) => handleProjectTypeChange('tracage-retracage', checked)}
                   />
                   <SecureCheckbox
                     name="projectType"
-                    value="marquage"
-                    label="Marquage routier"
-                    checked={formData.projectTypes.includes('marquage')}
-                    onChange={(checked) => handleProjectTypeChange('marquage', checked)}
+                    value="signalisation-verticale"
+                    label="Signalisation verticale"
+                    checked={formData.projectTypes.includes('signalisation-verticale')}
+                    onChange={(checked) => handleProjectTypeChange('signalisation-verticale', checked)}
                   />
                   <SecureCheckbox
                     name="projectType"
-                    value="renovation"
-                    label="Rénovation d'enrobé résine"
-                    checked={formData.projectTypes.includes('renovation')}
-                    onChange={(checked) => handleProjectTypeChange('renovation', checked)}
+                    value="resine-sol-marquage"
+                    label="Résine de sol et marquage d'intérieur"
+                    checked={formData.projectTypes.includes('resine-sol-marquage')}
+                    onChange={(checked) => handleProjectTypeChange('resine-sol-marquage', checked)}
+                  />
+                  <SecureCheckbox
+                    name="projectType"
+                    value="reparation-nids-poule"
+                    label="Réparation de nid de poule"
+                    checked={formData.projectTypes.includes('reparation-nids-poule')}
+                    onChange={(checked) => handleProjectTypeChange('reparation-nids-poule', checked)}
+                  />
+                  <SecureCheckbox
+                    name="projectType"
+                    value="accessoires-parking"
+                    label="Accessoires de parking"
+                    checked={formData.projectTypes.includes('accessoires-parking')}
+                    onChange={(checked) => handleProjectTypeChange('accessoires-parking', checked)}
                   />
                   <SecureCheckbox
                     name="projectType"
@@ -375,23 +382,6 @@ export default function DevisPage() {
               <div>
                 <h3 className="text-2xl font-bold text-white mb-6">Détails du projet</h3>
                 <div className="space-y-6">
-                  <SecureInput
-                    type="number"
-                    id="surface"
-                    name="surface"
-                    label="Surface approximative (m²)"
-                    placeholder="Ex: 500"
-                  />
-                  <CustomDropdown
-                    id="urgency"
-                    name="urgency"
-                    label="Urgence du projet"
-                    options={urgencyOptions}
-                    value={formData.urgency}
-                    onChange={(value) => handleInputChange('urgency', value)}
-                    placeholder="Quand souhaitez-vous que le projet soit réalisé ?"
-                    required
-                  />
                   <SecureTextarea
                     id="description"
                     name="description"
@@ -625,24 +615,38 @@ export default function DevisPage() {
                   <div className="grid md:grid-cols-2 gap-4">
                     <SecureCheckbox
                       name="projectType"
-                      value="tracage"
-                      label="Traçage de parking"
-                      checked={formData.projectTypes.includes('tracage')}
-                      onChange={(checked) => handleProjectTypeChange('tracage', checked)}
+                      value="tracage-retracage"
+                      label="Traçage / retraçage de parking"
+                      checked={formData.projectTypes.includes('tracage-retracage')}
+                      onChange={(checked) => handleProjectTypeChange('tracage-retracage', checked)}
                     />
                     <SecureCheckbox
                       name="projectType"
-                      value="marquage"
-                      label="Marquage routier"
-                      checked={formData.projectTypes.includes('marquage')}
-                      onChange={(checked) => handleProjectTypeChange('marquage', checked)}
+                      value="signalisation-verticale"
+                      label="Signalisation verticale"
+                      checked={formData.projectTypes.includes('signalisation-verticale')}
+                      onChange={(checked) => handleProjectTypeChange('signalisation-verticale', checked)}
                     />
                     <SecureCheckbox
                       name="projectType"
-                      value="renovation"
-                      label="Rénovation d'enrobé résine"
-                      checked={formData.projectTypes.includes('renovation')}
-                      onChange={(checked) => handleProjectTypeChange('renovation', checked)}
+                      value="resine-sol-marquage"
+                      label="Résine de sol et marquage d'intérieur"
+                      checked={formData.projectTypes.includes('resine-sol-marquage')}
+                      onChange={(checked) => handleProjectTypeChange('resine-sol-marquage', checked)}
+                    />
+                    <SecureCheckbox
+                      name="projectType"
+                      value="reparation-nids-poule"
+                      label="Réparation de nid de poule"
+                      checked={formData.projectTypes.includes('reparation-nids-poule')}
+                      onChange={(checked) => handleProjectTypeChange('reparation-nids-poule', checked)}
+                    />
+                    <SecureCheckbox
+                      name="projectType"
+                      value="accessoires-parking"
+                      label="Accessoires de parking"
+                      checked={formData.projectTypes.includes('accessoires-parking')}
+                      onChange={(checked) => handleProjectTypeChange('accessoires-parking', checked)}
                     />
                     <SecureCheckbox
                       name="projectType"
@@ -673,23 +677,6 @@ export default function DevisPage() {
                 <div>
                   <h3 className="text-2xl font-bold text-white mb-6">Détails du projet</h3>
                   <div className="space-y-6">
-                    <SecureInput
-                      type="number"
-                      id="surface"
-                      name="surface"
-                      label="Surface approximative (m²)"
-                      placeholder="Ex: 500"
-                    />
-                    <CustomDropdown
-                      id="urgency"
-                      name="urgency"
-                      label="Urgence du projet"
-                      options={urgencyOptions}
-                      value={formData.urgency}
-                      onChange={(value) => handleInputChange('urgency', value)}
-                      placeholder="Quand souhaitez-vous que le projet soit réalisé ?"
-                      required
-                    />
                     <SecureTextarea
                       id="description"
                       name="description"
@@ -697,16 +684,6 @@ export default function DevisPage() {
                       placeholder="Décrivez en détail votre projet, vos besoins spécifiques, les contraintes particulières..."
                       rows={5}
                       required
-                    />
-                    
-                    <SecureFileInput
-                      id="files"
-                      name="files"
-                      label="Fichiers joints (optionnel)"
-                      accept="image/*,application/pdf,text/*,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document"
-                      multiple={true}
-                      maxFiles={5}
-                      maxSize={10}
                     />
                   </div>
                 </div>

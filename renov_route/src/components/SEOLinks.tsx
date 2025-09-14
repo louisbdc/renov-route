@@ -15,11 +15,11 @@ export default function SEOLinks({ className = "" }: SEOLinksProps) {
         <h3>Services de marquage routier</h3>
         <ul>
           <li><Link href="/services/tracage-parking">Traçage de parking professionnel</Link></li>
-          <li><Link href="/services/marquage-routier">Marquage routier et signalisation horizontale</Link></li>
+          <li><Link href="/services/signalisation-verticale">Signalisation verticale et panneaux de parking</Link></li>
           <li><Link href="/services/reparation-nids-poule">Réparation de nids de poule avec enrobé résine</Link></li>
           <li><Link href="/services/enrobe-resine">Enrobé résine à froid</Link></li>
           <li><Link href="/services/renovation-parking">Rénovation de parking complète</Link></li>
-          <li><Link href="/services/entretien-preventif">Entretien préventif marquage routier</Link></li>
+          <li><Link href="/services/accessoires-parking">Accessoires de parking et équipements</Link></li>
         </ul>
       </div>
 

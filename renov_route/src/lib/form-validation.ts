@@ -21,9 +21,7 @@ export interface ContactFormData {
   lastName: string;
   email: string;
   phone?: string;
-  subject: string;
   message: string;
-  files?: FileList;
 }
 
 export interface DevisFormData {
@@ -48,24 +46,15 @@ export interface DevisFormData {
   otherProjectType?: string;
   
   // Détails du projet
-  surface?: number;
-  urgency: string;
-  budget?: string;
   description: string;
   
   // Préférences de contact
   contactMethod: string[];
   bestTime: string;
-  
-  // Fichiers
-  files?: FileList;
 }
 
 // Options autorisées pour les sélecteurs
-export const SUBJECT_OPTIONS = ['devis', 'reparation', 'tracage', 'marquage', 'autre'];
-export const PROJECT_TYPE_OPTIONS = ['tracage', 'marquage', 'renovation', 'autre'];
-export const URGENCY_OPTIONS = ['normal', 'urgent', 'very-urgent'];
-export const BUDGET_OPTIONS = ['0-1000', '1000-5000', '5000-10000', '10000+'];
+export const PROJECT_TYPE_OPTIONS = ['tracage-retracage', 'signalisation-verticale', 'resine-sol-marquage', 'reparation-nids-poule', 'accessoires-parking', 'autre'];
 export const BEST_TIME_OPTIONS = ['morning', 'afternoon', 'evening', 'anytime'];
 export const CONTACT_METHOD_OPTIONS = ['phone', 'email'];
 
@@ -80,22 +69,14 @@ export function validateContactForm(formData: FormData): ContactFormData {
     const lastName = sanitizeName(formData.get('lastName') as string);
     const email = sanitizeEmail(formData.get('email') as string);
     const phone = formData.get('phone') ? sanitizePhone(formData.get('phone') as string) : undefined;
-    const subject = validateSelectOption(formData.get('subject') as string, SUBJECT_OPTIONS);
     const message = sanitizeMessage(formData.get('message') as string);
-    const files = validateFiles(formData.getAll('files') as unknown as FileList, {
-      maxFiles: 3,
-      maxSize: 10,
-      allowedTypes: ['image/*', 'application/pdf', 'text/*']
-    });
     
     return {
       firstName,
       lastName,
       email,
       phone,
-      subject,
-      message,
-      files: files || undefined
+      message
     };
   } catch (error) {
     if (error instanceof Error) {
@@ -125,7 +106,6 @@ export function validateContactFormWithFieldErrors(formData: FormData): { data: 
     let lastName = '';
     let email = '';
     let phone = undefined;
-    let subject = '';
     let message = '';
     
     try {
@@ -159,36 +139,10 @@ export function validateContactFormWithFieldErrors(formData: FormData): { data: 
     }
     
     try {
-      subject = validateSelectOption(formData.get('subject') as string, SUBJECT_OPTIONS);
-    } catch (error) {
-      errors.subject = error instanceof Error ? error.message : 'Veuillez sélectionner un sujet';
-      hasErrors = true;
-    }
-    
-    try {
       message = sanitizeMessage(formData.get('message') as string);
     } catch (error) {
       errors.message = error instanceof Error ? error.message : 'Message invalide';
       hasErrors = true;
-    }
-    
-    // Validation des fichiers
-    let files = null;
-    const fileInputs = formData.getAll('files');
-    // Filtrer les entrées vides (quand aucun fichier n'est sélectionné)
-    const validFileInputs = fileInputs.filter(file => file && file instanceof File && file.size > 0);
-    
-    if (validFileInputs.length > 0) {
-      try {
-        files = validateFiles(validFileInputs as unknown as FileList, {
-          maxFiles: 3,
-          maxSize: 10,
-          allowedTypes: ['image/*', 'application/pdf', 'text/*']
-        });
-      } catch (error) {
-        errors.files = error instanceof Error ? error.message : 'Fichiers invalides';
-        hasErrors = true;
-      }
     }
     
     if (hasErrors) {
@@ -201,9 +155,7 @@ export function validateContactFormWithFieldErrors(formData: FormData): { data: 
         lastName,
         email,
         phone,
-        subject,
-        message,
-        files: files || undefined
+        message
       },
       errors: {}
     };
@@ -244,22 +196,12 @@ export function validateDevisForm(formData: FormData): DevisFormData {
     const otherProjectType = formData.get('otherProjectType') ? sanitizeString(formData.get('otherProjectType') as string) : undefined;
     
     // Détails du projet
-    const surface = formData.get('surface') ? sanitizeNumber(formData.get('surface') as string) : undefined;
-    const urgency = validateSelectOption(formData.get('urgency') as string, URGENCY_OPTIONS);
-    const budget = formData.get('budget') ? validateSelectOption(formData.get('budget') as string, BUDGET_OPTIONS) : undefined;
     const description = sanitizeMessage(formData.get('description') as string);
     
     // Préférences de contact
     const contactMethodRaw = formData.getAll('contactMethod') as string[];
     const contactMethod = validateCheckboxes(contactMethodRaw, CONTACT_METHOD_OPTIONS);
     const bestTime = validateSelectOption(formData.get('bestTime') as string, BEST_TIME_OPTIONS);
-    
-    // Validation des fichiers
-    const files = validateFiles(formData.getAll('files') as unknown as FileList, {
-      maxFiles: 5,
-      maxSize: 10,
-      allowedTypes: ['image/*', 'application/pdf', 'text/*', 'application/msword', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document']
-    });
     
     return {
       firstName,
@@ -274,13 +216,9 @@ export function validateDevisForm(formData: FormData): DevisFormData {
       region,
       projectTypes,
       otherProjectType,
-      surface: surface ?? undefined,
-      urgency,
-      budget,
       description,
       contactMethod,
-      bestTime,
-      files: files || undefined
+      bestTime
     };
   } catch (error) {
     if (error instanceof Error) {
@@ -409,25 +347,7 @@ export function validateDevisFormWithFieldErrors(formData: FormData): { data: De
     }
     
     // Détails du projet
-    let surface = undefined;
-    let urgency = '';
     let description = '';
-    
-    if (formData.get('surface')) {
-      try {
-        surface = sanitizeNumber(formData.get('surface') as string);
-      } catch (error) {
-        errors.surface = error instanceof Error ? error.message : 'Surface invalide';
-        hasErrors = true;
-      }
-    }
-    
-    try {
-      urgency = validateSelectOption(formData.get('urgency') as string, URGENCY_OPTIONS);
-    } catch (error) {
-      errors.urgency = error instanceof Error ? error.message : 'Veuillez sélectionner l\'urgence du projet';
-      hasErrors = true;
-    }
     
     try {
       description = sanitizeMessage(formData.get('description') as string);
@@ -455,19 +375,6 @@ export function validateDevisFormWithFieldErrors(formData: FormData): { data: De
       hasErrors = true;
     }
     
-    // Validation des fichiers
-    let files = null;
-    try {
-      files = validateFiles(formData.getAll('files') as unknown as FileList, {
-        maxFiles: 5,
-        maxSize: 10,
-        allowedTypes: ['image/*', 'application/pdf', 'text/*', 'application/msword', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document']
-      });
-    } catch (error) {
-      errors.files = error instanceof Error ? error.message : 'Fichiers invalides';
-      hasErrors = true;
-    }
-    
     if (hasErrors) {
       return { data: null, errors };
     }
@@ -486,12 +393,9 @@ export function validateDevisFormWithFieldErrors(formData: FormData): { data: De
         region: 'France',
         projectTypes,
         otherProjectType,
-        surface: surface ?? undefined,
-        urgency,
         description,
         contactMethod,
-        bestTime,
-        files: files || undefined
+        bestTime
       },
       errors: {}
     };

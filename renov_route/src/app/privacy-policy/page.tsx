@@ -276,15 +276,17 @@ export default function PrivacyPolicyPage() {
                   <h3 className="text-lg font-medium text-gray-900 mb-2">Responsable du traitement</h3>
                   <p className="text-gray-700">
                     Renov Route<br />
-                    [Adresse complète]<br />
-                    Email : contact@renov-route.fr<br />
-                    Téléphone : [Numéro de téléphone]
+                    6, allée du ruisseau de Ribbes<br />
+                    69160 Tassin la demi-lune<br />
+                    France<br />
+                    Email : xdecaumont@renov-route.com<br />
+                    Téléphone : 07 86 81 96 92
                   </p>
                 </div>
                 <div>
                   <h3 className="text-lg font-medium text-gray-900 mb-2">Délégué à la protection des données</h3>
                   <p className="text-gray-700">
-                    Email : dpo@renov-route.fr
+                    Email : xdecaumont@renov-route.com
                   </p>
                 </div>
                 <div>

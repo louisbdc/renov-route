@@ -183,8 +183,50 @@ export class CookieManager {
   static clearAllCookies(): void {
     if (!this.isSupported()) return
     
+    // Supprimer nos cookies personnalisés
     Object.values(COOKIE_CONFIG).forEach(cookieName => {
       Cookies.remove(cookieName)
+      // Supprimer aussi avec différents chemins et domaines
+      Cookies.remove(cookieName, { path: '/' })
+      Cookies.remove(cookieName, { path: '/', domain: window.location.hostname })
+      Cookies.remove(cookieName, { path: '/', domain: '.' + window.location.hostname })
+    })
+    
+    // Supprimer les cookies Google Analytics
+    const gaCookies = ['_ga', '_ga_*', '_gid', '_gat', '_gat_*', '_gcl_au', '_gcl_aw', '_gcl_dc', '_gcl_gb']
+    gaCookies.forEach(cookieName => {
+      Cookies.remove(cookieName)
+      Cookies.remove(cookieName, { path: '/' })
+      Cookies.remove(cookieName, { path: '/', domain: window.location.hostname })
+      Cookies.remove(cookieName, { path: '/', domain: '.' + window.location.hostname })
+    })
+    
+    // Supprimer les cookies de session et autres cookies communs
+    const commonCookies = ['JSESSIONID', 'PHPSESSID', 'ASP.NET_SessionId', 'connect.sid']
+    commonCookies.forEach(cookieName => {
+      Cookies.remove(cookieName)
+      Cookies.remove(cookieName, { path: '/' })
+    })
+    
+    // Supprimer tous les cookies du domaine actuel
+    const allCookies = document.cookie.split(';')
+    allCookies.forEach(cookie => {
+      const eqPos = cookie.indexOf('=')
+      const name = eqPos > -1 ? cookie.substr(0, eqPos).trim() : cookie.trim()
+      if (name) {
+        Cookies.remove(name)
+        Cookies.remove(name, { path: '/' })
+        Cookies.remove(name, { path: '/', domain: window.location.hostname })
+        Cookies.remove(name, { path: '/', domain: '.' + window.location.hostname })
+      }
+    })
+    
+    // Réinitialiser le consentement
+    this.setConsent({
+      necessary: true,
+      analytics: false,
+      marketing: false,
+      preferences: false
     })
   }
 

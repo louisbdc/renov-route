@@ -180,10 +180,10 @@ export default function Home() {
                         }}
                     >
                         {/* Glassmorphism overlay sur la moitié gauche */}
-                        <div className="absolute top-0 left-0 w-1/2 h-full bg-gradient-to-br from-gray-800/80 to-gray-900/70 backdrop-blur-[2px]"></div>
+                        <div className="absolute top-0 left-0 w-1/2 h-full bg-gradient-to-br from-gray-800/80 to-gray-900/70"></div>
 
                         {/* Glassmorphism background elements */}
-                        <div className="absolute inset-0 bg-gradient-to-br from-white/3 via-transparent to-white/3 backdrop-blur-sm"></div>
+                        <div className="absolute inset-0 bg-gradient-to-br from-white/3 via-transparent to-white/3"></div>
                         <div className="absolute top-1/4 right-1/4 w-96 h-96 bg-blue-500/8 rounded-full blur-3xl"></div>
                         <div className="absolute bottom-1/4 left-1/4 w-96 h-96 bg-cyan-500/8 rounded-full blur-3xl"></div>
 
@@ -193,7 +193,7 @@ export default function Home() {
                                 <div className="text-white px-4 sm:px-6 lg:px-12 flex items-center justify-center min-h-screen">
                                     {/* Glassmorphism content container */}
                                     {isSafari ? (
-                                        <div className="glassmorphism-card p-6 sm:p-8 md:p-12 rounded-[2rem] backdrop-blur-md border border-white/20 text-center w-full max-w-2xl">
+                                        <div className="glassmorphism-card p-6 sm:p-8 md:p-12 rounded-[2rem] border border-white/20 text-center w-full max-w-2xl">
                                             <div className="space-y-4 sm:space-y-6 pt-2 sm:pt-4">
                                                 <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl leading-tight text-white">
                                                     <span className="font-bold">TRACAGE</span>
@@ -214,7 +214,7 @@ export default function Home() {
                                             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 pt-4 sm:pt-6">
                                                 <Link
                                                     href="/realisations"
-                                                    className="group relative inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 text-white font-semibold rounded-[1rem] transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:-translate-y-1 backdrop-blur-sm border border-white/20 text-sm sm:text-base"
+                                                    className="group relative inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 text-white font-semibold rounded-[1rem] transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:-translate-y-1  border border-white/20 text-sm sm:text-base"
                                                 >
                       <span className="relative z-10 flex items-center">
                         Découvrez nos réalisations
@@ -226,7 +226,7 @@ export default function Home() {
 
                                                 <Link
                                                     href="/devis"
-                                                    className="group glassmorphism-card inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 border-2 border-white/20 text-white font-semibold rounded-[1rem] hover:border-white/40 hover:bg-white/5 transition-all duration-300 backdrop-blur-sm text-sm sm:text-base"
+                                                    className="group glassmorphism-card inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 border-2 border-white/20 text-white font-semibold rounded-[1rem] hover:border-white/40 hover:bg-white/5 transition-all duration-300  text-sm sm:text-base"
                                                 >
                                                     <svg className="mr-2 w-4 h-4 sm:w-5 sm:h-5 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
@@ -237,7 +237,7 @@ export default function Home() {
                                         </div>
                                     ) : (
                                         <motion.div
-                                            className="glassmorphism-card p-6 sm:p-8 md:p-12 rounded-[2rem] backdrop-blur-md border border-white/20 text-center w-full max-w-2xl"
+                                            className="glassmorphism-card p-6 sm:p-8 md:p-12 rounded-[2rem] border border-white/20 text-center w-full max-w-2xl"
                                             initial={{ opacity: 0, y: 30 }}
                                             animate={{ opacity: 1, y: 0 }}
                                             transition={{
@@ -289,7 +289,7 @@ export default function Home() {
                                             >
                                                 <Link
                                                     href="/realisations"
-                                                    className="group relative inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 text-white font-semibold rounded-[1rem] transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:-translate-y-1 backdrop-blur-sm border border-white/20 text-sm sm:text-base"
+                                                    className="group relative inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 text-white font-semibold rounded-[1rem] transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:-translate-y-1  border border-white/20 text-sm sm:text-base"
                                                 >
                       <span className="relative z-10 flex items-center">
                         Découvrez nos réalisations
@@ -301,7 +301,7 @@ export default function Home() {
 
                                                 <Link
                                                     href="/devis"
-                                                    className="group glassmorphism-card inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 border-2 border-white/20 text-white font-semibold rounded-[1rem] hover:border-white/40 hover:bg-white/5 transition-all duration-300 backdrop-blur-sm text-sm sm:text-base"
+                                                    className="group glassmorphism-card inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 border-2 border-white/20 text-white font-semibold rounded-[1rem] hover:border-white/40 hover:bg-white/5 transition-all duration-300  text-sm sm:text-base"
                                                 >
                                                     <svg className="mr-2 w-4 h-4 sm:w-5 sm:h-5 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
@@ -324,14 +324,14 @@ export default function Home() {
                         <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900"></div>
 
                         {/* Glassmorphism background elements */}
-                        <div className="absolute inset-0 bg-gradient-to-br from-white/3 via-transparent to-white/3 backdrop-blur-sm"></div>
+                        <div className="absolute inset-0 bg-gradient-to-br from-white/3 via-transparent to-white/3 "></div>
                         <div className="absolute top-1/4 left-1/4 w-64 sm:w-96 h-64 sm:h-96 bg-cyan-500/8 rounded-full blur-3xl"></div>
                         <div className="absolute bottom-1/4 right-1/4 w-64 sm:w-96 h-64 sm:h-96 bg-blue-500/8 rounded-full blur-3xl"></div>
 
                         <div className="relative max-w-6xl mx-auto">
                             {/* Glassmorphism title container */}
                             {isSafari ? (
-                                <div className="glassmorphism-card p-6 sm:p-8 md:p-12 rounded-[2rem] mb-8 sm:mb-12 lg:mb-16 backdrop-blur-md border border-white/20 text-center">
+                                <div className="glassmorphism-card p-6 sm:p-8 md:p-12 rounded-[2rem] mb-8 sm:mb-12 lg:mb-16  border border-white/20 text-center">
                                     <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-3 sm:mb-4">Nos compétences en traçage marquage routier</h2>
                                     <p className="text-gray-300 text-base sm:text-lg max-w-2xl mx-auto">
                                         Spécialiste de traçage marquage routier, retraçage, réparation de nid de poule interieur et exterieur
@@ -339,7 +339,7 @@ export default function Home() {
                                 </div>
                             ) : (
                                 <motion.div
-                                    className="glassmorphism-card p-6 sm:p-8 md:p-12 rounded-[2rem] mb-8 sm:mb-12 lg:mb-16 backdrop-blur-md border border-white/20 text-center"
+                                    className="glassmorphism-card p-6 sm:p-8 md:p-12 rounded-[2rem] mb-8 sm:mb-12 lg:mb-16  border border-white/20 text-center"
                                     initial={{ opacity: 0, y: 30 }}
                                     animate={{ opacity: 1, y: 0 }}
                                     transition={{ duration: 0.8, delay: 0.8, ease: [0.2, 0.8, 0.2, 1] }}
@@ -369,7 +369,7 @@ export default function Home() {
                                     isSafari ? (
                                         <div
                                             key={index}
-                                            className="glassmorphism-card p-6 sm:p-8 rounded-[1.5rem] backdrop-blur-md border border-white/20 hover:border-white/30 transition-all duration-300 group"
+                                            className="glassmorphism-card p-6 sm:p-8 rounded-[1.5rem]  border border-white/20 hover:border-white/30 transition-all duration-300 group"
                                         >
                                             <div className={`w-12 h-12 sm:w-16 sm:h-16 rounded-[1rem] bg-gradient-to-r ${service.gradient} flex items-center justify-center text-2xl sm:text-3xl mb-4 sm:mb-6 group-hover:scale-110 transition-transform duration-300`}>
                                                 {service.icon}
@@ -382,7 +382,7 @@ export default function Home() {
                                     ) : (
                                         <motion.div
                                             key={index}
-                                            className="glassmorphism-card p-6 sm:p-8 rounded-[1.5rem] backdrop-blur-md border border-white/20 hover:border-white/30 transition-all duration-300 group"
+                                            className="glassmorphism-card p-6 sm:p-8 rounded-[1.5rem]  border border-white/20 hover:border-white/30 transition-all duration-300 group"
                                             initial={{ opacity: 0, y: 30 }}
                                             animate={{ opacity: 1, y: 0 }}
                                             transition={{
@@ -410,14 +410,14 @@ export default function Home() {
                         <div className="absolute inset-0 bg-gradient-to-br from-gray-700 via-gray-800 to-gray-700"></div>
 
                         {/* Glassmorphism background elements */}
-                        <div className="absolute inset-0 bg-gradient-to-br from-white/3 via-transparent to-white/3 backdrop-blur-sm"></div>
+                        <div className="absolute inset-0 bg-gradient-to-br from-white/3 via-transparent to-white/3 "></div>
                         <div className="absolute top-0 left-1/3 w-48 sm:w-72 h-48 sm:h-72 bg-cyan-500/6 rounded-full blur-3xl"></div>
                         <div className="absolute bottom-0 right-1/3 w-48 sm:w-72 h-48 sm:h-72 bg-blue-500/6 rounded-full blur-3xl"></div>
 
                         <div className="relative max-w-6xl mx-auto">
                             {/* Glassmorphism title container */}
                             {isSafari ? (
-                                <div className="glassmorphism-card p-6 sm:p-8 md:p-12 rounded-[2rem] mb-8 sm:mb-12 lg:mb-16 backdrop-blur-md border border-white/20 text-center">
+                                <div className="glassmorphism-card p-6 sm:p-8 md:p-12 rounded-[2rem] mb-8 sm:mb-12 lg:mb-16  border border-white/20 text-center">
                                     <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-3 sm:mb-4">Nos références en traçage marquage routier</h2>
                                     <p className="text-gray-300 text-base sm:text-lg max-w-2xl mx-auto">
                                         Nous sommes fiers de travailler avec des entreprises de renom dans toute la France pour leurs projets de marquage routier, traçage parking, accessibilité PMR et réparation nids de poule.
@@ -425,7 +425,7 @@ export default function Home() {
                                 </div>
                             ) : (
                                 <motion.div
-                                    className="glassmorphism-card p-6 sm:p-8 md:p-12 rounded-[2rem] mb-8 sm:mb-12 lg:mb-16 backdrop-blur-md border border-white/20 text-center"
+                                    className="glassmorphism-card p-6 sm:p-8 md:p-12 rounded-[2rem] mb-8 sm:mb-12 lg:mb-16  border border-white/20 text-center"
                                     initial={{ opacity: 0, y: 30 }}
                                     animate={{ opacity: 1, y: 0 }}
                                     transition={{ duration: 0.8, delay: 1.2, ease: [0.2, 0.8, 0.2, 1] }}
@@ -441,7 +441,7 @@ export default function Home() {
                         {/* Partners Banner - Full Width with glassmorphism container */}
                         {isSafari ? (
                             <div className="w-full relative">
-                                <div className="glassmorphism-card mx-2 sm:mx-4 rounded-[1.5rem] backdrop-blur-md border border-white/10 overflow-hidden">
+                                <div className="glassmorphism-card mx-2 sm:mx-4 rounded-[1.5rem]  border border-white/10 overflow-hidden">
                                     <PartnersBanner />
                                 </div>
                             </div>
@@ -452,7 +452,7 @@ export default function Home() {
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.8, delay: 1.4, ease: [0.2, 0.8, 0.2, 1] }}
                             >
-                                <div className="glassmorphism-card mx-2 sm:mx-4 rounded-[1.5rem] backdrop-blur-md border border-white/10 overflow-hidden">
+                                <div className="glassmorphism-card mx-2 sm:mx-4 rounded-[1.5rem]  border border-white/10 overflow-hidden">
                                     <PartnersBanner />
                                 </div>
                             </motion.div>
@@ -461,37 +461,37 @@ export default function Home() {
                     </section>
 
                     {/* Testimonials Section - Couleur B */}
-                    <section id="testimonials" className="py-12 sm:py-16 lg:py-20 px-4 relative overflow-hidden">
+                    {/* <section id="testimonials" className="py-12 sm:py-16 lg:py-20 px-4 relative overflow-hidden">
                         <div className="absolute inset-0 bg-gradient-to-br from-gray-800 via-gray-900 to-gray-800"></div>
 
                         {/* Glassmorphism background elements */}
-                        <div className="absolute inset-0 bg-gradient-to-br from-white/3 via-transparent to-white/3 backdrop-blur-sm"></div>
+                        {/* <div className="absolute inset-0 bg-gradient-to-br from-white/3 via-transparent to-white/3 "></div>
                         <div className="absolute top-1/4 right-1/4 w-64 sm:w-96 h-64 sm:h-96 bg-cyan-500/8 rounded-full blur-3xl"></div>
                         <div className="absolute bottom-1/4 left-1/4 w-64 sm:w-96 h-64 sm:h-96 bg-blue-500/8 rounded-full blur-3xl"></div>
 
                         <div className="relative max-w-6xl mx-auto">
                             <TestimonialCarousel />
                         </div>
-                    </section>
+                    </section> */}
 
                     {/* Contact Section - Couleur A */}
                     <section id="contact" className="py-12 sm:py-16 lg:py-20 px-4 relative overflow-hidden">
                         <div className="absolute inset-0 bg-gradient-to-br from-gray-800 via-gray-900 to-gray-800"></div>
 
                         {/* Glassmorphism background elements */}
-                        <div className="absolute inset-0 bg-gradient-to-br from-white/3 via-transparent to-white/3 backdrop-blur-sm"></div>
+                        <div className="absolute inset-0 bg-gradient-to-br from-white/3 via-transparent to-white/3 "></div>
                         <div className="absolute top-1/4 left-1/4 w-64 sm:w-96 h-64 sm:h-96 bg-blue-500/8 rounded-full blur-3xl"></div>
                         <div className="absolute bottom-1/4 right-1/4 w-64 sm:w-96 h-64 sm:h-96 bg-cyan-500/8 rounded-full blur-3xl"></div>
 
                         <div className="relative max-w-6xl mx-auto">
                             {/* Glassmorphism title container */}
                             {isSafari ? (
-                                <div className="glassmorphism-card p-6 sm:p-8 md:p-12 rounded-[2rem] mb-8 sm:mb-12 lg:mb-16 backdrop-blur-md border border-white/20 text-center">
+                                <div className="glassmorphism-card p-6 sm:p-8 md:p-12 rounded-[2rem] mb-8 sm:mb-12 lg:mb-16  border border-white/20 text-center">
                                     <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-4 sm:mb-6 lg:mb-8">Contactez-nous pour vos projets de marquage routier</h2>
                                 </div>
                             ) : (
                                 <motion.div
-                                    className="glassmorphism-card p-6 sm:p-8 md:p-12 rounded-[2rem] mb-8 sm:mb-12 lg:mb-16 backdrop-blur-md border border-white/20 text-center"
+                                    className="glassmorphism-card p-6 sm:p-8 md:p-12 rounded-[2rem] mb-8 sm:mb-12 lg:mb-16  border border-white/20 text-center"
                                     initial={{ opacity: 0, y: 30 }}
                                     animate={{ opacity: 1, y: 0 }}
                                     transition={{ duration: 0.8, delay: 1.6, ease: [0.2, 0.8, 0.2, 1] }}
@@ -502,7 +502,7 @@ export default function Home() {
 
                             {/* Contact Info - Centré */}
                             {isSafari ? (
-                                <div className="glassmorphism-card p-6 sm:p-8 md:p-12 rounded-[2rem] backdrop-blur-md border border-white/20 max-w-2xl mx-auto">
+                                <div className="glassmorphism-card p-6 sm:p-8 md:p-12 rounded-[2rem]  border border-white/20 max-w-2xl mx-auto">
                                     <div className="space-y-6 sm:space-y-8">
                                         <h3 className="text-xl sm:text-2xl font-bold text-white mb-6 sm:mb-8 text-center">Informations de contact</h3>
                                         <div className="space-y-4 sm:space-y-6">
@@ -568,7 +568,7 @@ export default function Home() {
                                 </div>
                             ) : (
                                 <motion.div
-                                    className="glassmorphism-card p-6 sm:p-8 md:p-12 rounded-[2rem] backdrop-blur-md border border-white/20 max-w-2xl mx-auto"
+                                    className="glassmorphism-card p-6 sm:p-8 md:p-12 rounded-[2rem]  border border-white/20 max-w-2xl mx-auto"
                                     initial={{ opacity: 0, y: 30 }}
                                     animate={{ opacity: 1, y: 0 }}
                                     transition={{ duration: 0.8, delay: 1.8, ease: [0.2, 0.8, 0.2, 1] }}

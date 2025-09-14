@@ -67,7 +67,7 @@ export const caseStudiesData: CaseStudy[] = [
     ],
     kpis: [
       { label: "Surface", value: "800m²" },
-      { label: "Places", value: "120+" },
+      { label: "Places", value: "200+" },
       { label: "Délai", value: "2 jours" }
     ],
     body: "Retraçage intégral du parking d'Intermarché à Neuville sur Ain (01). Marquage professionnel avec peinture époxy pour une durabilité optimale dans un environnement commercial à fort trafic.",

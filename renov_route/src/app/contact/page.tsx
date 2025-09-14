@@ -2,94 +2,39 @@
 
 import Layout from '@/components/Layout';
 import Head from 'next/head';
-import CustomDropdown from '@/components/CustomDropdown';
-import SecureForm, { SecureInput, SecureTextarea, SecureFileInput, FieldErrorsContext } from '@/components/SecureForm';
 import SafariAnimationFix, { useSafariOptimization } from '@/components/SafariAnimationFix';
 import { motion } from 'framer-motion';
-import { useState, useRef, useEffect } from 'react';
-import { validateContactFormWithFieldErrors } from '@/lib/form-validation';
-import { FaCheckCircle, FaPaperPlane } from 'react-icons/fa';
-import { useConversionTracking } from '@/components/AnalyticsTracker';
 import { ContactTracker } from '@/components/AnalyticsTracker';
-import { sendContactEmail } from '@/lib/email';
+import Image from 'next/image';
 
 export default function ContactPage() {
-  const [subject, setSubject] = useState('');
-  const [fieldErrors, setFieldErrors] = useState<Record<string, string>>({});
-  const [isSubmitted, setIsSubmitted] = useState(false);
-  const [isLoading, setIsLoading] = useState(false);
   const { isSafari } = useSafariOptimization();
-  const { trackFormSubmission } = useConversionTracking();
-
-  const subjectOptions = [
-    { value: 'devis', label: 'Demande de devis' },
-    { value: 'reparation', label: 'Réparation de nids de poule' },
-    { value: 'tracage', label: 'Traçage de parking' },
-    { value: 'marquage', label: 'Marquage routier' },
-    { value: 'autre', label: 'Autre' }
-  ];
-
-  const handleContactSubmit = async (formData: FormData, formEl: HTMLFormElement) => {
-    try {
-      setIsLoading(true);
-      setFieldErrors({});
-      
-      const { data: validatedData, errors } = validateContactFormWithFieldErrors(formData);
-      
-      if (errors && Object.keys(errors).length > 0) {
-        setFieldErrors(errors);
-        return; // Stop execution but don't throw error
-      }
-      
-      if (!validatedData) {
-        setFieldErrors({ general: 'Erreur de validation' });
-        return; // Stop execution but don't throw error
-      }
-      
-      console.log('Données validées:', validatedData);
-      
-      // Tracker la soumission du formulaire
-      trackFormSubmission('contact', validatedData.subject || 'general');
-      
-      // Envoi via EmailJS (inclut les fichiers du formulaire)
-      await sendContactEmail(formEl);
-      
-      setIsSubmitted(true);
-      setTimeout(() => setIsSubmitted(false), 15000);
-      
-    } catch (error) {
-      console.error('Erreur lors de la soumission:', error);
-      setFieldErrors({ general: 'Une erreur inattendue s\'est produite' });
-    } finally {
-      setIsLoading(false);
-    }
-  };
 
 
   return (
     <>
       <Head>
         <title>Contact - Expert Traçage Marquage Routier | Renov Route</title>
-        <meta name="description" content="Contactez Renov Route pour vos projets de traçage marquage routier. Devis gratuit, intervention rapide. Téléphone : 07 86 81 96 92. Email : contact@renov-route.com" />
-        <meta name="keywords" content="contact marquage routier, devis traçage gratuit, téléphone expert marquage, email contact, adresse Renov Route, demande devis, consultation marquage" />
+        <meta name="description" content="Contactez Rénov Route pour vos projets de réparation de nids de poule, traçage marquage routier et parking. Devis gratuit, intervention rapide. Téléphone : 07 86 81 96 92. Email : contact@renov-route.com" />
+        <meta name="keywords" content="contact rénov route, devis réparation nids de poule, téléphone expert marquage, email contact, adresse Rénov Route, demande devis, consultation marquage, réparation asphalte" />
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-        <meta property="og:title" content="Contact - Expert Traçage Marquage Routier | Renov Route" />
-        <meta property="og:description" content="Contactez Renov Route pour vos projets de traçage marquage routier. Devis gratuit, intervention rapide." />
+        <meta property="og:title" content="Contact - Expert Réparation Nids de Poule et Marquage Routier | Rénov Route" />
+        <meta property="og:description" content="Contactez Rénov Route pour vos projets de réparation de nids de poule, traçage marquage routier et parking. Devis gratuit, intervention rapide." />
         <meta property="og:url" content="https://renov-route.com/contact" />
         <meta property="og:type" content="website" />
-        <meta name="twitter:title" content="Contact - Expert Traçage Marquage Routier | Renov Route" />
-        <meta name="twitter:description" content="Contactez Renov Route pour vos projets de traçage marquage routier. Devis gratuit, intervention rapide." />
+        <meta name="twitter:title" content="Contact - Expert Réparation Nids de Poule et Marquage Routier | Rénov Route" />
+        <meta name="twitter:description" content="Contactez Rénov Route pour vos projets de réparation de nids de poule, traçage marquage routier et parking. Devis gratuit, intervention rapide." />
         <link rel="canonical" href="https://renov-route.com/contact" />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "ContactPage",
-            "name": "Contact - Expert Traçage Marquage Routier",
-            "description": "Contactez Renov Route pour vos projets de traçage marquage routier. Devis gratuit, intervention rapide.",
+            "name": "Contact - Expert Réparation Nids de Poule et Marquage Routier",
+            "description": "Contactez Rénov Route pour vos projets de réparation de nids de poule, traçage marquage routier et parking. Devis gratuit, intervention rapide.",
             "url": "https://renov-route.com/contact",
             "mainEntity": {
               "@type": "LocalBusiness",
-              "name": "Renov Route",
+              "name": "Rénov Route",
               "telephone": "07 86 81 96 92",
               "email": "contact@renov-route.com",
               "address": {
@@ -117,7 +62,9 @@ export default function ContactPage() {
         <div className="max-w-6xl mx-auto">
           {isSafari ? (
             <div className="text-center mb-16">
-              <h2 className="text-4xl font-bold text-white mb-8">Informations de contact</h2>
+              <h2 className="text-4xl font-bold text-white mb-8">Rénov Route sarl</h2>
+              <p className="text-xl text-gray-300 mb-4">contact@renov-route.com</p>
+              <p className="text-lg text-primary-500 font-semibold">Tel : 07 86 81 96 92</p>
             </div>
           ) : (
             <motion.div 
@@ -126,402 +73,221 @@ export default function ContactPage() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, ease: [0.2, 0.8, 0.2, 1] }}
             >
-              <h2 className="text-4xl font-bold text-white mb-8">Informations de contact</h2>
+              <h2 className="text-4xl font-bold text-white mb-8">Rénov Route sarl</h2>
+              <p className="text-xl text-gray-300 mb-4">contact@renov-route.com</p>
+              <p className="text-lg text-primary-500 font-semibold">Tel : 07 86 81 96 92</p>
             </motion.div>
           )}
           
-          <div className="grid md:grid-cols-2 gap-12">
-            {/* Contact Info */}
-            {isSafari ? (
-              <div className="space-y-8">
-                <div>
-                  <h3 className="text-2xl font-semibold text-white mb-6">Nos coordonnées</h3>
-                  <div className="space-y-4">
-                    <div className="flex items-start">
-                      <div className="bg-primary-500 p-3 rounded-lg mr-4">
-                        <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                        </svg>
-                      </div>
-                      <div>
-                        <p className="text-gray-300 font-medium">Téléphone</p>
-                        <ContactTracker type="phone" value="0786819692">
-                          <a href="tel:0786819692" className="text-white text-lg hover:text-primary-500 transition-colors">
-                            07 86 81 96 92
-                          </a>
-                        </ContactTracker>
-                      </div>
-                    </div>
-                    
-                    <div className="flex items-start">
-                      <div className="bg-primary-500 p-3 rounded-lg mr-4">
-                        <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                        </svg>
-                      </div>
-                      <div>
-                        <p className="text-gray-300 font-medium">Email</p>
-                        <ContactTracker type="email" value="contact@renov-route.com">
-                          <a href="mailto:contact@renov-route.com" className="text-white text-lg hover:text-primary-500 transition-colors">
-                            contact@renov-route.com
-                          </a>
-                        </ContactTracker>
-                      </div>
-                    </div>
-                    
-                    <div className="flex items-start">
-                      <div className="bg-primary-500 p-3 rounded-lg mr-4">
-                        <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                        </svg>
-                      </div>
-                      <div>
-                        <p className="text-gray-300 font-medium">Adresse</p>
-                        <p className="text-white text-lg">
-                          6, allée du ruisseau de Ribbes<br />
-                          69160 Tassin la demi-lune<br />
-                          France
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            ) : (
-              <motion.div 
-                className="space-y-8"
-                initial={{ opacity: 0, x: 30 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.8, delay: 0.2, ease: [0.2, 0.8, 0.2, 1] }}
-              >
-                <div>
-                  <h3 className="text-2xl font-semibold text-white mb-6">Nos coordonnées</h3>
-                  <div className="space-y-4">
-                    <div className="flex items-start">
-                      <div className="bg-primary-500 p-3 rounded-lg mr-4">
-                        <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                        </svg>
-                      </div>
-                      <div>
-                        <p className="text-gray-300 font-medium">Téléphone</p>
-                        <ContactTracker type="phone" value="0786819692">
-                          <a href="tel:0786819692" className="text-white text-lg hover:text-primary-500 transition-colors">
-                            07 86 81 96 92
-                          </a>
-                        </ContactTracker>
-                      </div>
-                    </div>
-                    
-                    <div className="flex items-start">
-                      <div className="bg-primary-500 p-3 rounded-lg mr-4">
-                        <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                        </svg>
-                      </div>
-                      <div>
-                        <p className="text-gray-300 font-medium">Email</p>
-                        <ContactTracker type="email" value="contact@renov-route.com">
-                          <a href="mailto:contact@renov-route.com" className="text-white text-lg hover:text-primary-500 transition-colors">
-                            contact@renov-route.com
-                          </a>
-                        </ContactTracker>
-                      </div>
-                    </div>
-                    
-                    <div className="flex items-start">
-                      <div className="bg-primary-500 p-3 rounded-lg mr-4">
-                        <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                        </svg>
-                      </div>
-                      <div>
-                        <p className="text-gray-300 font-medium">Adresse</p>
-                        <p className="text-white text-lg">
-                          6, allée du ruisseau de Ribbes<br />
-                          69160 Tassin la demi-lune<br />
-                          France
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </motion.div>
-            )}
-
-            {/* Contact Form */}
+          {/* Première ligne : Coordonnées (gauche) et Photo (droite) */}
+          <div className="grid lg:grid-cols-2 gap-12 mb-12">
+            {/* Coordonnées - Gauche */}
             {isSafari ? (
               <div className="glassmorphism-card p-8">
-                <h3 className="text-2xl font-bold text-white mb-6">Envoyez-nous un message</h3>
-
-                {/* Error Display */}
-                {fieldErrors.general && (
-                  <div className="mb-6 p-4 bg-red-500/20 border border-red-400/30 rounded-xl">
-                    <p className="text-red-200 text-sm font-medium">
-                      {fieldErrors.general}
-                    </p>
-                  </div>
-                )}
-
-                {isSubmitted ? (
-                  <div className="text-center py-16">
-                    <div className="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                      <FaCheckCircle className="w-10 h-10 text-green-600" />
+                <h3 className="text-2xl font-semibold text-white mb-6">Nos coordonnées</h3>
+                <div className="space-y-6">
+                  <div className="flex items-start">
+                    <div className="bg-primary-500 p-3 rounded-lg mr-4">
+                      <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                      </svg>
                     </div>
-                    <h4 className="text-2xl font-bold text-white mb-4">
-                      Demande Envoyée !
-                    </h4>
-                    <p className="text-gray-300 text-lg">
-                      Merci pour votre confiance. Nous vous recontacterons dans les 24h 
-                      pour vous proposer un devis personnalisé.
-                    </p>
-                    <div className="mt-6 p-4 bg-primary-500/20 rounded-xl border border-primary-400/30">
-                      <p className="text-primary-200 text-sm font-medium">
-                        📧 Un email de confirmation vous a été envoyé
+                    <div>
+                      <p className="text-gray-300 font-medium">Téléphone</p>
+                      <ContactTracker type="phone" value="0786819692">
+                        <a href="tel:0786819692" className="text-white text-lg hover:text-primary-500 transition-colors">
+                          07 86 81 96 92
+                        </a>
+                      </ContactTracker>
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-start">
+                    <div className="bg-primary-500 p-3 rounded-lg mr-4">
+                      <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                      </svg>
+                    </div>
+                    <div>
+                      <p className="text-gray-300 font-medium">Email</p>
+                      <ContactTracker type="email" value="contact@renov-route.com">
+                        <a href="mailto:contact@renov-route.com" className="text-white text-lg hover:text-primary-500 transition-colors">
+                          contact@renov-route.com
+                        </a>
+                      </ContactTracker>
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-start">
+                    <div className="bg-primary-500 p-3 rounded-lg mr-4">
+                      <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                      </svg>
+                    </div>
+                    <div>
+                      <p className="text-gray-300 font-medium">Adresse</p>
+                      <p className="text-white text-lg">
+                        6, allée du ruisseau de Ribbes<br />
+                        69160 Tassin la demi-lune, Rhône Alpes<br />
+                        Siret : 818 745 515 00010
                       </p>
                     </div>
                   </div>
-                ) : (
-                  <FieldErrorsContext.Provider value={fieldErrors}>
-                    <form onSubmit={async (e) => {
-                      e.preventDefault();
-                      const formData = new FormData(e.currentTarget);
-                      try {
-                        await handleContactSubmit(formData, e.currentTarget);
-                      } catch (error) {
-                        console.error('Erreur de soumission:', error);
-                      }
-                    }} className="space-y-6">
-                    <div className="grid md:grid-cols-2 gap-4">
-                      <SecureInput
-                        type="text"
-                        id="firstName"
-                        name="firstName"
-                        label="Prénom"
-                        placeholder="Votre prénom"
-                        required
-                      />
-                      <SecureInput
-                        type="text"
-                        id="lastName"
-                        name="lastName"
-                        label="Nom"
-                        placeholder="Votre nom de famille"
-                        required
-                      />
-                    </div>
-                    
-                    <SecureInput
-                      type="email"
-                      id="email"
-                      name="email"
-                      label="Email"
-                      placeholder="exemple@email.com"
-                      required
-                    />
-                    
-                    <SecureInput
-                      type="tel"
-                      id="phone"
-                      name="phone"
-                      label="Téléphone"
-                      placeholder="06 12 34 56 78"
-                    />
-                    
-                    <CustomDropdown
-                      id="subject"
-                      name="subject"
-                      label="Sujet"
-                      options={subjectOptions}
-                      value={subject}
-                      onChange={setSubject}
-                      placeholder="Choisissez le type de demande"
-                    />
-                    
-                    <SecureTextarea
-                      id="message"
-                      name="message"
-                      label="Message"
-                      placeholder="Décrivez votre projet ou votre demande en détail..."
-                      rows={5}
-                      required
-                    />
-                    
-                    <SecureFileInput
-                      id="files"
-                      name="files"
-                      label="Fichiers joints (optionnel)"
-                      accept="image/*,application/pdf,text/*"
-                      multiple={true}
-                      maxFiles={3}
-                      maxSize={10}
-                    />
-                    
-                    <button
-                      type="submit"
-                      className="w-full bg-primary-500 hover:bg-primary-600 text-white font-bold py-4 px-8 rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-xl active:scale-95 flex items-center justify-center space-x-3 disabled:opacity-60 disabled:cursor-not-allowed disabled:transform-none disabled:hover:scale-100"
-                      disabled={isLoading}
-                    >
-                      {isLoading ? (
-                        <svg className="animate-spin h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                          <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
-                          <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z"></path>
-                        </svg>
-                      ) : (
-                        <>
-                          <FaPaperPlane className="w-5 h-5" />
-                          <span>Envoyer ma demande</span>
-                        </>
-                      )}
-                    </button>
-
-                    <p className="text-sm text-gray-400 text-center leading-relaxed">
-                      * Champs obligatoires. Vos données sont traitées de manière strictement confidentielle 
-                      conformément au RGPD.
-                    </p>
-                  </form>
-                  </FieldErrorsContext.Provider>
-                )}
+                </div>
               </div>
             ) : (
               <motion.div 
                 className="glassmorphism-card p-8"
                 initial={{ opacity: 0, x: -30 }}
                 animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.8, delay: 0.4, ease: [0.2, 0.8, 0.2, 1] }}
+                transition={{ duration: 0.8, delay: 0.2, ease: [0.2, 0.8, 0.2, 1] }}
               >
-                <h3 className="text-2xl font-bold text-white mb-6">Envoyez-nous un message</h3>
-
-                {/* Error Display */}
-                {fieldErrors.general && (
-                  <div className="mb-6 p-4 bg-red-500/20 border border-red-400/30 rounded-xl">
-                    <p className="text-red-200 text-sm font-medium">
-                      {fieldErrors.general}
-                    </p>
-                  </div>
-                )}
-
-                {isSubmitted ? (
-                  <div className="text-center py-16">
-                    <div className="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                      <FaCheckCircle className="w-10 h-10 text-green-600" />
+                <h3 className="text-2xl font-semibold text-white mb-6">Nos coordonnées</h3>
+                <div className="space-y-6">
+                  <div className="flex items-start">
+                    <div className="bg-primary-500 p-3 rounded-lg mr-4">
+                      <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                      </svg>
                     </div>
-                    <h4 className="text-2xl font-bold text-white mb-4">
-                      Demande Envoyée !
-                    </h4>
-                    <p className="text-gray-300 text-lg">
-                      Merci pour votre confiance. Nous vous recontacterons dans les 24h 
-                      pour vous proposer un devis personnalisé.
-                    </p>
-                    <div className="mt-6 p-4 bg-primary-500/20 rounded-xl border border-primary-400/30">
-                      <p className="text-primary-200 text-sm font-medium">
-                        📧 Un email de confirmation vous a été envoyé
+                    <div>
+                      <p className="text-gray-300 font-medium">Téléphone</p>
+                      <ContactTracker type="phone" value="0786819692">
+                        <a href="tel:0786819692" className="text-white text-lg hover:text-primary-500 transition-colors">
+                          07 86 81 96 92
+                        </a>
+                      </ContactTracker>
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-start">
+                    <div className="bg-primary-500 p-3 rounded-lg mr-4">
+                      <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                      </svg>
+                    </div>
+                    <div>
+                      <p className="text-gray-300 font-medium">Email</p>
+                      <ContactTracker type="email" value="contact@renov-route.com">
+                        <a href="mailto:contact@renov-route.com" className="text-white text-lg hover:text-primary-500 transition-colors">
+                          contact@renov-route.com
+                        </a>
+                      </ContactTracker>
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-start">
+                    <div className="bg-primary-500 p-3 rounded-lg mr-4">
+                      <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                      </svg>
+                    </div>
+                    <div>
+                      <p className="text-gray-300 font-medium">Adresse</p>
+                      <p className="text-white text-lg">
+                        6, allée du ruisseau de Ribbes<br />
+                        69160 Tassin la demi-lune, Rhône Alpes<br />
+                        Siret : 818 745 515 00010
                       </p>
                     </div>
                   </div>
-                ) : (
-                  <FieldErrorsContext.Provider value={fieldErrors}>
-                    <form onSubmit={async (e) => {
-                      e.preventDefault();
-                      const formData = new FormData(e.currentTarget);
-                      try {
-                        await handleContactSubmit(formData, e.currentTarget);
-                      } catch (error) {
-                        console.error('Erreur de soumission:', error);
-                      }
-                    }} className="space-y-6">
-                    <div className="grid md:grid-cols-2 gap-4">
-                      <SecureInput
-                        type="text"
-                        id="firstName"
-                        name="firstName"
-                        label="Prénom"
-                        placeholder="Votre prénom"
-                        required
-                      />
-                      <SecureInput
-                        type="text"
-                        id="lastName"
-                        name="lastName"
-                        label="Nom"
-                        placeholder="Votre nom de famille"
-                        required
-                      />
-                    </div>
-                    
-                    <SecureInput
-                      type="email"
-                      id="email"
-                      name="email"
-                      label="Email"
-                      placeholder="exemple@email.com"
-                      required
-                    />
-                    
-                    <SecureInput
-                      type="tel"
-                      id="phone"
-                      name="phone"
-                      label="Téléphone"
-                      placeholder="06 12 34 56 78"
-                    />
-                    
-                    <CustomDropdown
-                      id="subject"
-                      name="subject"
-                      label="Sujet"
-                      options={subjectOptions}
-                      value={subject}
-                      onChange={setSubject}
-                      placeholder="Choisissez le type de demande"
-                    />
-                    
-                    <SecureTextarea
-                      id="message"
-                      name="message"
-                      label="Message"
-                      placeholder="Décrivez votre projet ou votre demande en détail..."
-                      rows={5}
-                      required
-                    />
-                    
-                    <SecureFileInput
-                      id="files"
-                      name="files"
-                      label="Fichiers joints (optionnel)"
-                      accept="image/*,application/pdf,text/*"
-                      multiple={true}
-                      maxFiles={3}
-                      maxSize={10}
-                    />
-                    
-                    <button
-                      type="submit"
-                      className="w-full bg-primary-500 hover:bg-primary-600 text-white font-bold py-4 px-8 rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-xl active:scale-95 flex items-center justify-center space-x-3 disabled:opacity-60 disabled:cursor-not-allowed disabled:transform-none disabled:hover:scale-100"
-                      disabled={isLoading}
-                    >
-                      {isLoading ? (
-                        <svg className="animate-spin h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                          <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
-                          <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z"></path>
-                        </svg>
-                      ) : (
-                        <>
-                          <FaPaperPlane className="w-5 h-5" />
-                          <span>Envoyer ma demande</span>
-                        </>
-                      )}
-                    </button>
+                </div>
+              </motion.div>
+            )}
 
-                    <p className="text-sm text-gray-400 text-center leading-relaxed">
-                      * Champs obligatoires. Vos données sont traitées de manière strictement confidentielle 
-                      conformément au RGPD.
-                    </p>
-                  </form>
-                  </FieldErrorsContext.Provider>
-              )}
+            {/* Photo - Droite */}
+            {isSafari ? (
+              <div className="glassmorphism-card p-0 overflow-hidden">
+                <div className="relative w-full h-96">
+                  <Image
+                    src="/assets/images/XAVIER DE CAUMONT 2.jpg"
+                    alt="Xavier de Caumont - Fondateur Rénov Route"
+                    fill
+                    className="object-cover object-top"
+                    priority
+                  />
+                </div>
+                <div className="p-6 bg-gradient-to-t from-black/80 to-transparent absolute bottom-0 left-0 right-0">
+                  <p className="text-white text-xl font-semibold">Xavier de Caumont</p>
+                  <p className="text-gray-300">Fondateur de Rénov Route</p>
+                </div>
+              </div>
+            ) : (
+              <motion.div 
+                className="glassmorphism-card p-0 overflow-hidden relative"
+                initial={{ opacity: 0, x: 30 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.8, delay: 0.4, ease: [0.2, 0.8, 0.2, 1] }}
+              >
+                <div className="relative w-full h-96">
+                  <Image
+                    src="/assets/images/XAVIER DE CAUMONT 2.jpg"
+                    alt="Xavier de Caumont - Fondateur Rénov Route"
+                    fill
+                    className="object-cover object-top"
+                    priority
+                  />
+                </div>
+                <div className="p-6 bg-gradient-to-t from-black/80 to-transparent absolute bottom-0 left-0 right-0">
+                  <p className="text-white text-xl font-semibold">Xavier de Caumont</p>
+                  <p className="text-gray-300">Fondateur de Rénov Route</p>
+                </div>
+              </motion.div>
+            )}
+          </div>
+
+          {/* Section À Propos */}
+          <div className="max-w-4xl mx-auto">
+            {isSafari ? (
+              <div className="glassmorphism-card p-8">
+                <h3 className="text-2xl font-semibold text-white mb-6">À Propos de Rénov Route</h3>
+                <div className="space-y-4 text-gray-300">
+                  <p>
+                    La sécurité routière est un véritable enjeu pour les gouvernements successifs depuis plus de 10 ans. 
+                    La mortalité routière a chuté de moitié, mais reste supérieure à 3000 morts par an.
+                  </p>
+                  <p>
+                    La signalétique et l'état des routes sont mis en cause dans 47% des accidents. 
+                    (source 40 millions d'automobilistes)
+                  </p>
+                  <p>
+                    Les communes et les entreprises ont la responsabilité de l'entretien de leur réseau/parkings, 
+                    mais les budgets tendent à se resserrer.
+                  </p>
+                  <p>
+                    La société Rénov Route a vu le jour en mars 2016 par la rencontre d'hommes passionnés par les métiers 
+                    de la route et l'innovation dans le domaine de la réparation routière.
+                  </p>
+                </div>
+              </div>
+            ) : (
+              <motion.div 
+                className="glassmorphism-card p-8"
+                initial={{ opacity: 0, y: 30 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.6, ease: [0.2, 0.8, 0.2, 1] }}
+              >
+                <h3 className="text-2xl font-semibold text-white mb-6">À Propos de Rénov Route</h3>
+                <div className="space-y-4 text-gray-300">
+                  <p>
+                    La sécurité routière est un véritable enjeu pour les gouvernements successifs depuis plus de 10 ans. 
+                    La mortalité routière a chuté de moitié, mais reste supérieure à 3000 morts par an.
+                  </p>
+                  <p>
+                    La signalétique et l'état des routes sont mis en cause dans 47% des accidents. 
+                    (source 40 millions d'automobilistes)
+                  </p>
+                  <p>
+                    Les communes et les entreprises ont la responsabilité de l'entretien de leur réseau/parkings, 
+                    mais les budgets tendent à se resserrer.
+                  </p>
+                  <p>
+                    La société Rénov Route a vu le jour en mars 2016 par la rencontre d'hommes passionnés par les métiers 
+                    de la route et l'innovation dans le domaine de la réparation routière.
+                  </p>
+                </div>
               </motion.div>
             )}
           </div>

@@ -9,20 +9,6 @@ import Link from 'next/link';
 const competences = [
   {
     id: 1,
-    title: 'Réparation de nids de poule',
-    description: 'Procédé innovant et résistant pour réparer efficacement les nids de poule avec des produits résistants adaptés à votre situation',
-    icon: '🔧',
-    features: [
-      'Réparation rapide et durable',
-      'Matériaux de qualité',
-      'Intervention sur tous types de routes'
-    ],
-    gradient: 'from-blue-500 to-cyan-500',
-    bgGradient: 'from-blue-600/20 to-cyan-600/20',
-    slug: 'reparation-nids-de-poule'
-  },
-  {
-    id: 2,
     title: 'Traçage et retraçage de parking',
     description: 'Un parking bien entretenu attire les clients et améliore l\'expérience utilisateur.',
     icon: '🅿️',
@@ -36,46 +22,60 @@ const competences = [
     slug: 'tracage-retracage-parking'
   },
   {
-    id: 3,
-    title: 'Marquage routier',
-    description: 'Signalisation horizontale pour améliorer la sécurité et la circulation.',
-    icon: '🛣️',
+    id: 2,
+    title: 'Signalisation verticale',
+    description: 'Tous les panneaux verticaux de parking (exemple : stop, panneau PMR, cédez le passage, etc.)',
+    icon: '🚦',
     features: [
-      'Lignes de circulation',
-      'Signalisation de sécurité',
-      'Marquage personnalisé'
+      'Panneaux de signalisation',
+      'Installation professionnelle',
+      'Conformité aux normes'
     ],
     gradient: 'from-orange-500 to-red-500',
     bgGradient: 'from-orange-600/20 to-red-600/20',
-    slug: 'marquage-routier'
+    slug: 'signalisation-verticale'
   },
   {
-    id: 4,
-    title: 'Réparation d\'enrobé à la résine',
-    description: 'Réparation partielle de vos surfaces avec de la résine.',
+    id: 3,
+    title: 'Résine de sol et marquage d\'intérieur',
+    description: 'Solutions complètes de résine pour sols et marquage intérieur professionnel.',
     icon: '🏗️',
     features: [
-      'Enrobé résine à froid',
-      'Réparation de trous',
+      'Résine de sol durable',
+      'Marquage intérieur',
       'Finition professionnelle'
     ],
     gradient: 'from-purple-500 to-pink-500',
     bgGradient: 'from-purple-600/20 to-pink-600/20',
-    slug: 'reparation-enrobe-resine'
+    slug: 'resine-sol-marquage-interieur'
+  },
+  {
+    id: 4,
+    title: 'Réparation de nids de poule',
+    description: 'Procédé innovant et résistant pour réparer efficacement les nids de poule avec des produits résistants adaptés à votre situation',
+    icon: '🔧',
+    features: [
+      'Réparation rapide et durable',
+      'Matériaux de qualité',
+      'Intervention sur tous types de routes'
+    ],
+    gradient: 'from-red-500 to-red-600',
+    bgGradient: 'from-red-600/20 to-red-700/20',
+    slug: 'reparation-nids-de-poule'
   },
   {
     id: 5,
-    title: 'Entretien préventif',
-    description: 'Maintenance régulière pour prolonger la durée de vie de vos infrastructures.',
-    icon: '🔍',
+    title: 'Accessoires de parking',
+    description: 'Équipements de sécurité et d\'organisation pour optimiser la circulation et protéger les infrastructures de votre parking.',
+    icon: '🛡️',
     features: [
-      'Inspection régulière',
-      'Réparations préventives',
-      'Conseils d\'entretien'
+      'Bornes anti-bélier',
+      'Ralentisseurs',
+      'Butées de parking'
     ],
     gradient: 'from-teal-500 to-blue-500',
     bgGradient: 'from-teal-600/20 to-blue-600/20',
-    slug: 'entretien-preventif'
+    slug: 'accessoires-parking'
   },
   {
     id: 6,
@@ -128,14 +128,6 @@ export default function CompetencesPage() {
                     "@type": "Offer",
                     "itemOffered": {
                       "@type": "Service",
-                      "name": "Réparation de nids de poule",
-                      "description": "Procédé innovant et résistant pour réparer efficacement les nids de poule avec des produits résistants adaptés à votre situation"
-                    }
-                  },
-                  {
-                    "@type": "Offer",
-                    "itemOffered": {
-                      "@type": "Service",
                       "name": "Traçage et retraçage de parking",
                       "description": "Un parking bien entretenu attire les clients et améliore l'expérience utilisateur"
                     }
@@ -144,24 +136,32 @@ export default function CompetencesPage() {
                     "@type": "Offer",
                     "itemOffered": {
                       "@type": "Service",
-                      "name": "Marquage routier",
-                      "description": "Signalisation horizontale pour améliorer la sécurité et la circulation"
+                      "name": "Signalisation verticale",
+                      "description": "Tous les panneaux verticaux de parking (exemple : stop, panneau PMR, cédez le passage, etc.)"
                     }
                   },
                   {
                     "@type": "Offer",
                     "itemOffered": {
                       "@type": "Service",
-                      "name": "Réparation d'enrobé résine",
-                      "description": "Réparation complète de vos surfaces avec de la résine"
+                      "name": "Résine de sol et marquage d'intérieur",
+                      "description": "Solutions complètes de résine pour sols et marquage intérieur professionnel"
                     }
                   },
                   {
                     "@type": "Offer",
                     "itemOffered": {
                       "@type": "Service",
-                      "name": "Entretien préventif",
-                      "description": "Maintenance régulière pour prolonger la durée de vie de vos infrastructures"
+                      "name": "Réparation de nids de poule",
+                      "description": "Procédé innovant et résistant pour réparer efficacement les nids de poule avec des produits résistants adaptés à votre situation"
+                    }
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Accessoires de parking",
+                      "description": "Inclut des éléments tels que bornes anti-bélier, ralentisseurs et butées de parking"
                     }
                   },
                   {
@@ -240,19 +240,19 @@ export default function CompetencesPage() {
         
         <div className="relative max-w-7xl mx-auto">
           {/* Services Grid */}
-          <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mb-12 sm:mb-16 lg:mb-20">
+          <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mb-12 sm:mb-16 lg:mb-20 items-stretch">
             {competences.map((competence, index) => (
               isSafari ? (
                 <Link
                   key={competence.id}
                   href={`/competences/${competence.slug}`}
-                  className="group relative block"
+                  className="group relative block h-full"
                 >
                   <div className={`
                     relative p-6 sm:p-8 rounded-[1.5rem] transition-all duration-500 transform group-hover:scale-105 group-hover:-translate-y-2
                     glassmorphism-card backdrop-blur-md border border-white/20
                     hover:border-white/30 hover:shadow-2xl hover:shadow-${competence.gradient.split(' ')[0].split('-')[1]}-500/20
-                    group-hover:backdrop-blur-lg cursor-pointer
+                    group-hover:backdrop-blur-lg cursor-pointer h-full flex flex-col
                   `}>
                     {/* Icon */}
                     <div className={`
@@ -271,7 +271,7 @@ export default function CompetencesPage() {
                     </p>
                     
                     {/* Features */}
-                    <ul className="space-y-2 sm:space-y-3">
+                    <ul className="space-y-2 sm:space-y-3 flex-grow">
                       {competence.features.map((feature, featureIndex) => (
                         <li key={featureIndex} className="flex items-center text-gray-300 group-hover:text-gray-200 transition-colors">
                           <div className={`
@@ -302,12 +302,12 @@ export default function CompetencesPage() {
                     ease: [0.2, 0.8, 0.2, 1]
                   }}
                 >
-                  <Link href={`/competences/${competence.slug}`} className="block">
+                  <Link href={`/competences/${competence.slug}`} className="block h-full">
                     <div className={`
                       relative p-6 sm:p-8 rounded-[1.5rem] transition-all duration-500 transform group-hover:scale-105 group-hover:-translate-y-2
                       glassmorphism-card backdrop-blur-md border border-white/20
                       hover:border-white/30 hover:shadow-2xl hover:shadow-${competence.gradient.split(' ')[0].split('-')[1]}-500/20
-                      group-hover:backdrop-blur-lg cursor-pointer
+                      group-hover:backdrop-blur-lg cursor-pointer h-full flex flex-col
                     `}>
                       {/* Icon */}
                       <div className={`
@@ -325,18 +325,18 @@ export default function CompetencesPage() {
                         {competence.description}
                       </p>
                       
-                      {/* Features */}
-                      <ul className="space-y-2 sm:space-y-3">
-                        {competence.features.map((feature, featureIndex) => (
-                          <li key={featureIndex} className="flex items-center text-gray-300 group-hover:text-gray-200 transition-colors">
-                            <div className={`
-                              w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-gradient-to-r ${competence.gradient} mr-2 sm:mr-3 flex-shrink-0
-                              group-hover:scale-125 transition-transform duration-300
-                            `}></div>
-                            <span className="text-xs sm:text-sm">{feature}</span>
-                          </li>
-                        ))}
-                      </ul>
+                    {/* Features */}
+                    <ul className="space-y-2 sm:space-y-3 flex-grow">
+                      {competence.features.map((feature, featureIndex) => (
+                        <li key={featureIndex} className="flex items-center text-gray-300 group-hover:text-gray-200 transition-colors">
+                          <div className={`
+                            w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-gradient-to-r ${competence.gradient} mr-2 sm:mr-3 flex-shrink-0
+                            group-hover:scale-125 transition-transform duration-300
+                          `}></div>
+                          <span className="text-xs sm:text-sm">{feature}</span>
+                        </li>
+                      ))}
+                    </ul>
                       
                       {/* Hover effect overlay */}
                       <div className={`

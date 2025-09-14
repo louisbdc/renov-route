@@ -64,12 +64,12 @@ export default function ReparationNidsDePoulePage() {
               {isSafari ? (
                 <div className="glassmorphism-card p-6 sm:p-8 md:p-12 rounded-[2rem] mb-6 sm:mb-8 backdrop-blur-md">
                   <div className="flex items-center justify-center mb-6">
-                    <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-[1.5rem] bg-gradient-to-r from-blue-500 to-cyan-500 flex items-center justify-center text-3xl sm:text-4xl">
+                    <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-[1.5rem] bg-gradient-to-r from-red-500 to-red-600 flex items-center justify-center text-3xl sm:text-4xl">
                       🔧
                     </div>
                   </div>
                   <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 sm:mb-6 leading-tight">
-                    Réparation de <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">Nids de Poule</span>
+                    Réparation de <span className="bg-gradient-to-r from-red-400 to-red-500 bg-clip-text text-transparent">Nids de Poule</span>
                   </h1>
                   <p className="text-lg sm:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
                     Procédé innovant et résistant pour réparer efficacement les nids de poule 
@@ -89,7 +89,7 @@ export default function ReparationNidsDePoulePage() {
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.6, delay: 0.2 }}
                   >
-                    <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-[1.5rem] bg-gradient-to-r from-blue-500 to-cyan-500 flex items-center justify-center text-3xl sm:text-4xl">
+                    <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-[1.5rem] bg-gradient-to-r from-red-500 to-red-600 flex items-center justify-center text-3xl sm:text-4xl">
                       🔧
                     </div>
                   </motion.div>
@@ -99,7 +99,7 @@ export default function ReparationNidsDePoulePage() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.4 }}
                   >
-                    Réparation de <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">Nids de Poule</span>
+                    Réparation de <span className="bg-gradient-to-r from-red-400 to-red-500 bg-clip-text text-transparent">Nids de Poule</span>
                   </motion.h1>
                   <motion.p 
                     className="text-lg sm:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed"
@@ -121,8 +121,8 @@ export default function ReparationNidsDePoulePage() {
             
             {/* Glassmorphism background elements */}
             <div className="absolute inset-0 bg-gradient-to-br from-white/3 via-transparent to-white/3 backdrop-blur-sm"></div>
-            <div className="absolute top-1/4 left-1/4 w-64 sm:w-96 h-64 sm:h-96 bg-blue-500/8 rounded-full blur-3xl"></div>
-            <div className="absolute bottom-1/4 right-1/4 w-64 sm:w-96 h-64 sm:h-96 bg-cyan-500/8 rounded-full blur-3xl"></div>
+            <div className="absolute top-1/4 left-1/4 w-64 sm:w-96 h-64 sm:h-96 bg-red-500/8 rounded-full blur-3xl"></div>
+            <div className="absolute bottom-1/4 right-1/4 w-64 sm:w-96 h-64 sm:h-96 bg-red-600/8 rounded-full blur-3xl"></div>
             
             <div className="relative max-w-6xl mx-auto">
               <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
@@ -219,7 +219,7 @@ export default function ReparationNidsDePoulePage() {
                     isSafari ? (
                       <div key={index} className="glassmorphism-card p-4 sm:p-6 rounded-[1rem] backdrop-blur-md border border-white/10">
                         <div className="flex items-start space-x-4">
-                          <div className="w-12 h-12 rounded-[0.75rem] bg-gradient-to-r from-blue-500 to-cyan-500 flex items-center justify-center text-xl flex-shrink-0">
+                          <div className="w-12 h-12 rounded-[0.75rem] bg-gradient-to-r from-red-500 to-red-600 flex items-center justify-center text-xl flex-shrink-0">
                             {feature.icon}
                           </div>
                           <div>
@@ -237,7 +237,7 @@ export default function ReparationNidsDePoulePage() {
                         transition={{ duration: 0.6, delay: 0.8 + (index * 0.1) }}
                       >
                         <div className="flex items-start space-x-4">
-                          <div className="w-12 h-12 rounded-[0.75rem] bg-gradient-to-r from-blue-500 to-cyan-500 flex items-center justify-center text-xl flex-shrink-0">
+                          <div className="w-12 h-12 rounded-[0.75rem] bg-gradient-to-r from-red-500 to-red-600 flex items-center justify-center text-xl flex-shrink-0">
                             {feature.icon}
                           </div>
                           <div>
@@ -262,7 +262,7 @@ export default function ReparationNidsDePoulePage() {
                 {isSafari ? (
                   <div className="glassmorphism-card p-6 sm:p-8 rounded-[1.5rem] backdrop-blur-md border border-white/20">
                     <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4 sm:mb-6">
-                      Notre <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">Processus</span> de Réparation
+                      Notre <span className="bg-gradient-to-r from-red-400 to-red-500 bg-clip-text text-transparent">Processus</span> de Réparation
                     </h2>
                     <p className="text-lg text-gray-300 max-w-3xl mx-auto">
                       Un processus structuré et professionnel pour garantir des résultats durables
@@ -281,7 +281,7 @@ export default function ReparationNidsDePoulePage() {
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.8, delay: 0.4 }}
                     >
-                      Notre <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">Processus</span> de Réparation
+                      Notre <span className="bg-gradient-to-r from-red-400 to-red-500 bg-clip-text text-transparent">Processus</span> de Réparation
                     </motion.h2>
                     <motion.p 
                       className="text-lg text-gray-300 max-w-3xl mx-auto"
@@ -320,7 +320,7 @@ export default function ReparationNidsDePoulePage() {
                 ].map((step, index) => (
                   isSafari ? (
                     <div key={index} className="glassmorphism-card p-6 rounded-[1.5rem] backdrop-blur-md border border-white/20 text-center">
-                      <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-gradient-to-r from-blue-500 to-cyan-500 flex items-center justify-center text-white font-bold text-xl">
+                      <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-gradient-to-r from-red-500 to-red-600 flex items-center justify-center text-white font-bold text-xl">
                         {step.step}
                       </div>
                       <h3 className="text-lg sm:text-xl font-bold text-white mb-3">{step.title}</h3>
@@ -334,7 +334,7 @@ export default function ReparationNidsDePoulePage() {
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.6, delay: 0.8 + (index * 0.1) }}
                     >
-                      <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-gradient-to-r from-blue-500 to-cyan-500 flex items-center justify-center text-white font-bold text-xl">
+                      <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-gradient-to-r from-red-500 to-red-600 flex items-center justify-center text-white font-bold text-xl">
                         {step.step}
                       </div>
                       <h3 className="text-lg sm:text-xl font-bold text-white mb-3">{step.title}</h3>
@@ -353,14 +353,14 @@ export default function ReparationNidsDePoulePage() {
             
             {/* Glassmorphism background elements */}
             <div className="absolute inset-0 bg-gradient-to-br from-white/3 via-transparent to-white/3 backdrop-blur-sm"></div>
-            <div className="absolute top-1/4 left-1/4 w-64 sm:w-96 h-64 sm:h-96 bg-blue-500/8 rounded-full blur-3xl"></div>
-            <div className="absolute bottom-1/4 right-1/4 w-64 sm:w-96 h-64 sm:h-96 bg-cyan-500/8 rounded-full blur-3xl"></div>
+            <div className="absolute top-1/4 left-1/4 w-64 sm:w-96 h-64 sm:h-96 bg-red-500/8 rounded-full blur-3xl"></div>
+            <div className="absolute bottom-1/4 right-1/4 w-64 sm:w-96 h-64 sm:h-96 bg-red-600/8 rounded-full blur-3xl"></div>
             
             <div className="relative max-w-4xl mx-auto text-center">
               {isSafari ? (
                 <div className="glassmorphism-card p-6 sm:p-8 md:p-12 rounded-[2rem] backdrop-blur-md border border-white/20">
                   <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 sm:mb-6">
-                    Besoin d'une <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">réparation</span> ?
+                    Besoin d'une <span className="bg-gradient-to-r from-red-400 to-red-500 bg-clip-text text-transparent">réparation</span> ?
                   </h2>
                   <p className="text-lg sm:text-xl text-gray-300 mb-6 sm:mb-8 max-w-2xl mx-auto">
                     Contactez-nous pour un diagnostic gratuit et un devis personnalisé. 
@@ -369,10 +369,10 @@ export default function ReparationNidsDePoulePage() {
                   <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
                     <a 
                       href="/devis" 
-                      className="group relative bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 text-white font-semibold py-3 sm:py-4 px-6 sm:px-8 rounded-[1rem] transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:shadow-blue-500/25 backdrop-blur-sm border border-white/20 text-sm sm:text-base"
+                      className="group relative bg-gradient-to-r from-red-500 to-red-600 hover:from-blue-600 hover:to-cyan-600 text-white font-semibold py-3 sm:py-4 px-6 sm:px-8 rounded-[1rem] transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:shadow-red-500/25 backdrop-blur-sm border border-white/20 text-sm sm:text-base"
                     >
                       <span className="relative z-10">Demander un devis</span>
-                      <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-[1rem] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                      <div className="absolute inset-0 bg-gradient-to-r from-red-600 to-red-700 rounded-[1rem] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     </a>
                     <a 
                       href="/contact" 
@@ -395,7 +395,7 @@ export default function ReparationNidsDePoulePage() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.4 }}
                   >
-                    Besoin d'une <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">réparation</span> ?
+                    Besoin d'une <span className="bg-gradient-to-r from-red-400 to-red-500 bg-clip-text text-transparent">réparation</span> ?
                   </motion.h2>
                   <motion.p 
                     className="text-lg sm:text-xl text-gray-300 mb-6 sm:mb-8 max-w-2xl mx-auto"
@@ -414,10 +414,10 @@ export default function ReparationNidsDePoulePage() {
                   >
                     <a 
                       href="/devis" 
-                      className="group relative bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 text-white font-semibold py-3 sm:py-4 px-6 sm:px-8 rounded-[1rem] transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:shadow-blue-500/25 backdrop-blur-sm border border-white/20 text-sm sm:text-base"
+                      className="group relative bg-gradient-to-r from-red-500 to-red-600 hover:from-blue-600 hover:to-cyan-600 text-white font-semibold py-3 sm:py-4 px-6 sm:px-8 rounded-[1rem] transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:shadow-red-500/25 backdrop-blur-sm border border-white/20 text-sm sm:text-base"
                     >
                       <span className="relative z-10">Demander un devis</span>
-                      <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-[1rem] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                      <div className="absolute inset-0 bg-gradient-to-r from-red-600 to-red-700 rounded-[1rem] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     </a>
                     <a 
                       href="/contact" 
