@@ -8,14 +8,14 @@ import { useEffect } from 'react';
 import ServiceStructuredData from '@/components/ServiceStructuredData';
 import SEOHead from '@/components/SEOHead';
 
-export default function TracageRetracageParkingPage() {
+export default function AccessoiresParkingPage() {
   const { isSafari } = useSafariOptimization();
 
   useEffect(() => {
     // Ajouter la balise canonique
     const canonicalLink = document.createElement('link');
     canonicalLink.rel = 'canonical';
-    canonicalLink.href = 'https://renov-route.com/competences/tracage-retracage-parking';
+    canonicalLink.href = 'https://renov-route.com/competences/accessoires-parking';
     
     // Vérifier si elle n'existe pas déjà
     const existingCanonical = document.querySelector('link[rel="canonical"]');
@@ -26,36 +26,36 @@ export default function TracageRetracageParkingPage() {
 
   return (
     <>
-      <ServiceStructuredData serviceType="tracage-retracage-parking" />
+      <ServiceStructuredData serviceType="accessoires-parking" />
       <SEOHead 
-        title="Traçage Retraçage Parking - Marquage Professionnel Durable"
-        description="Traçage et retraçage de parking professionnel avec marquage au sol durable. Respect des normes en vigueur, finition soignée. Améliorez l'expérience client de votre parking. Devis gratuit."
-        keywords="traçage parking, retraçage parking, marquage parking professionnel, marquage au sol parking, traçage parking durable, marquage parking normes, finition marquage parking, devis traçage parking"
-        pageKey="tracage-retracage-parking"
-        canonicalUrl="https://renov-route.com/competences/tracage-retracage-parking"
+        title="Accessoires Parking - Bornes, Ralentisseurs & Butées"
+        description="Équipements de sécurité et d'organisation pour optimiser la circulation et protéger les infrastructures de votre parking : bornes anti-bélier, ralentisseurs, butées de parking."
+        keywords="accessoires parking, bornes anti-bélier, ralentisseurs, butées parking, équipements parking, sécurité parking, organisation parking"
+        pageKey="accessoires-parking"
+        canonicalUrl="https://renov-route.com/competences/accessoires-parking"
       />
-        <title>Traçage et Retraçage de Parking - Marquage Professionnel | Renov Route</title>
-        <meta name="description" content="Traçage et retraçage de parking professionnel. Marquage au sol durable, respect des normes, finition soignée. Améliorez l'expérience client de votre parking." />
-        <meta name="keywords" content="traçage parking, marquage parking, retraçage parking, marquage au sol, parking professionnel, signalisation parking, marquage durable" />
+        <title>Accessoires de Parking - Bornes, Ralentisseurs, Butées | Renov Route</title>
+        <meta name="description" content="Accessoires de parking professionnels : bornes anti-bélier, ralentisseurs, butées de parking. Installation et maintenance d'équipements de sécurité pour parkings." />
+        <meta name="keywords" content="accessoires parking, bornes anti-bélier, ralentisseurs, butées parking, équipements sécurité, mobilier urbain, protection parking" />
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-        <meta property="og:title" content="Traçage et Retraçage de Parking - Marquage Professionnel | Renov Route" />
-        <meta property="og:description" content="Traçage et retraçage de parking professionnel. Marquage au sol durable, respect des normes, finition soignée." />
-        <meta property="og:url" content="https://renov-route.com/competences/tracage-retracage-parking" />
+        <meta property="og:title" content="Accessoires de Parking - Bornes, Ralentisseurs, Butées | Renov Route" />
+        <meta property="og:description" content="Accessoires de parking professionnels : bornes anti-bélier, ralentisseurs, butées de parking." />
+        <meta property="og:url" content="https://renov-route.com/competences/accessoires-parking" />
         <meta property="og:type" content="website" />
-        <meta name="twitter:title" content="Traçage et Retraçage de Parking - Marquage Professionnel | Renov Route" />
-        <meta name="twitter:description" content="Traçage et retraçage de parking professionnel. Marquage au sol durable, respect des normes." />
+        <meta name="twitter:title" content="Accessoires de Parking - Bornes, Ralentisseurs, Butées | Renov Route" />
+        <meta name="twitter:description" content="Accessoires de parking professionnels : bornes anti-bélier, ralentisseurs, butées de parking." />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "name": "Traçage et Retraçage de Parking",
-            "description": "Traçage et retraçage de parking professionnel. Marquage au sol durable, respect des normes, finition soignée.",
+            "name": "Accessoires de Parking",
+            "description": "Accessoires de parking professionnels : bornes anti-bélier, ralentisseurs, butées de parking.",
             "provider": {
               "@type": "LocalBusiness",
               "name": "Renov Route"
             },
             "areaServed": "France",
-            "serviceType": "Marquage de parking"
+            "serviceType": "Équipements de parking"
           })}
         </script>
       <Layout>
@@ -76,7 +76,7 @@ export default function TracageRetracageParkingPage() {
                   <span>/</span>
                   <Link href="/competences" className="hover:text-white transition-colors">Compétences</Link>
                   <span>/</span>
-                  <span className="text-white">Traçage et retraçage de parking</span>
+                  <span className="text-white">Accessoires de parking</span>
                 </div>
               </nav>
 
@@ -84,16 +84,16 @@ export default function TracageRetracageParkingPage() {
               {isSafari ? (
                 <div className="glassmorphism-card p-6 sm:p-8 md:p-12 rounded-[2rem] mb-6 sm:mb-8 backdrop-blur-md">
                   <div className="flex items-center justify-center mb-6">
-                    <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-[1.5rem] bg-gradient-to-r from-green-500 to-emerald-500 flex items-center justify-center text-3xl sm:text-4xl">
-                      🅿️
+                    <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-[1.5rem] bg-gradient-to-r from-teal-500 to-blue-500 flex items-center justify-center text-3xl sm:text-4xl">
+                      🛡️
                     </div>
                   </div>
                   <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 sm:mb-6 leading-tight">
-                    Traçage et <span className="bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent">Retraçage de Parking</span>
+                    <span className="bg-gradient-to-r from-teal-400 to-blue-400 bg-clip-text text-transparent">Accessoires de Parking</span>
                   </h1>
                   <p className="text-lg sm:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-                    Un parking bien entretenu attire les clients et améliore l'expérience utilisateur. 
-                    Marquage professionnel durable et respect des normes en vigueur.
+                    Équipements de sécurité et accessoires pour parkings : bornes anti-bélier, 
+                    ralentisseurs, butées de parking et mobilier urbain professionnel.
                   </p>
                 </div>
               ) : (
@@ -109,8 +109,8 @@ export default function TracageRetracageParkingPage() {
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.6, delay: 0.2 }}
                   >
-                    <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-[1.5rem] bg-gradient-to-r from-green-500 to-emerald-500 flex items-center justify-center text-3xl sm:text-4xl">
-                      🅿️
+                    <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-[1.5rem] bg-gradient-to-r from-teal-500 to-blue-500 flex items-center justify-center text-3xl sm:text-4xl">
+                      🛡️
                     </div>
                   </motion.div>
                   <motion.h1 
@@ -119,7 +119,7 @@ export default function TracageRetracageParkingPage() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.4 }}
                   >
-                    Traçage et <span className="bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent">Retraçage de Parking</span>
+                    <span className="bg-gradient-to-r from-teal-400 to-blue-400 bg-clip-text text-transparent">Accessoires de Parking</span>
                   </motion.h1>
                   <motion.p 
                     className="text-lg sm:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed"
@@ -127,8 +127,8 @@ export default function TracageRetracageParkingPage() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.6 }}
                   >
-                    Un parking bien entretenu attire les clients et améliore l'expérience utilisateur. 
-                    Marquage professionnel durable et respect des normes en vigueur.
+                    Équipements de sécurité et accessoires pour parkings : bornes anti-bélier, 
+                    ralentisseurs, butées de parking et mobilier urbain professionnel.
                   </motion.p>
                 </motion.div>
               )}
@@ -141,8 +141,8 @@ export default function TracageRetracageParkingPage() {
             
             {/* Glassmorphism background elements */}
             <div className="absolute inset-0 bg-gradient-to-br from-white/3 via-transparent to-white/3 backdrop-blur-sm"></div>
-            <div className="absolute top-1/4 left-1/4 w-64 sm:w-96 h-64 sm:h-96 bg-green-500/8 rounded-full blur-3xl"></div>
-            <div className="absolute bottom-1/4 right-1/4 w-64 sm:w-96 h-64 sm:h-96 bg-emerald-500/8 rounded-full blur-3xl"></div>
+            <div className="absolute top-1/4 left-1/4 w-64 sm:w-96 h-64 sm:h-96 bg-teal-500/8 rounded-full blur-3xl"></div>
+            <div className="absolute bottom-1/4 right-1/4 w-64 sm:w-96 h-64 sm:h-96 bg-blue-500/8 rounded-full blur-3xl"></div>
             
             <div className="relative max-w-6xl mx-auto">
               <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
@@ -151,25 +151,24 @@ export default function TracageRetracageParkingPage() {
                   {isSafari ? (
                     <div className="glassmorphism-card p-6 sm:p-8 rounded-[1.5rem] backdrop-blur-md border border-white/20">
                       <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6">
-                        Marquage de parking professionnel
+                        Équipements de sécurité pour parkings
                       </h2>
                       <div className="space-y-4 text-gray-300">
                         <p className="text-lg leading-relaxed">
-                          Le marquage de parking est un élément essentiel de l'image de votre établissement. 
-                          Un parking bien tracé améliore la circulation, optimise l'utilisation de l'espace 
-                          et renforce la sécurité des usagers.
+                          Les accessoires de parking sont essentiels pour organiser la circulation, 
+                          protéger les infrastructures et assurer la sécurité des usagers. 
+                          Ils contribuent à optimiser l'utilisation de l'espace et à prévenir les accidents.
                         </p>
                         <p className="text-lg leading-relaxed">
-                          Notre expertise couvre tous types de parkings : centres commerciaux, entreprises, 
-                          hôtels, industries, restaurants, et espaces publics. Nous utilisons des peintures de haute 
-                          qualité et des techniques professionnelles pour garantir une durabilité exceptionnelle.
+                          Nous installons une gamme complète d'équipements : bornes anti-bélier pour 
+                          protéger les bâtiments, ralentisseurs pour contrôler la vitesse, butées de 
+                          parking pour délimiter les places, et divers accessoires de sécurité et 
+                          d'organisation.
                         </p>
                         <p className="text-lg leading-relaxed">
-                          Nous respectons scrupuleusement les normes en vigueur et nous adaptons à vos 
-                          besoins spécifiques pour créer un marquage sur mesure qui valorise votre établissement.
-                        </p>
-                        <p className="text-lg leading-relaxed">
-                          Nous réalisons également les travaux d'accessibilité PMR.
+                          Tous nos équipements sont sélectionnés pour leur robustesse et leur conformité 
+                          aux normes. Nous vous conseillons sur le choix et l'implantation optimale 
+                          selon vos contraintes spécifiques.
                         </p>
                       </div>
                     </div>
@@ -186,7 +185,7 @@ export default function TracageRetracageParkingPage() {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6, delay: 0.4 }}
                       >
-                        Marquage de parking professionnel
+                        Équipements de sécurité pour parkings
                       </motion.h2>
                       <motion.div 
                         className="space-y-4 text-gray-300"
@@ -195,21 +194,20 @@ export default function TracageRetracageParkingPage() {
                         transition={{ duration: 0.8, delay: 0.6 }}
                       >
                         <p className="text-lg leading-relaxed">
-                          Le marquage de parking est un élément essentiel de l'image de votre établissement. 
-                          Un parking bien tracé améliore la circulation, optimise l'utilisation de l'espace 
-                          et renforce la sécurité des usagers.
+                          Les accessoires de parking sont essentiels pour organiser la circulation, 
+                          protéger les infrastructures et assurer la sécurité des usagers. 
+                          Ils contribuent à optimiser l'utilisation de l'espace et à prévenir les accidents.
                         </p>
                         <p className="text-lg leading-relaxed">
-                          Notre expertise couvre tous types de parkings : centres commerciaux, entreprises, 
-                          hôtels, industries, restaurants, et espaces publics. Nous utilisons des peintures de haute 
-                          qualité et des techniques professionnelles pour garantir une durabilité exceptionnelle.
+                          Nous installons une gamme complète d'équipements : bornes anti-bélier pour 
+                          protéger les bâtiments, ralentisseurs pour contrôler la vitesse, butées de 
+                          parking pour délimiter les places, et divers accessoires de sécurité et 
+                          d'organisation.
                         </p>
                         <p className="text-lg leading-relaxed">
-                          Nous respectons scrupuleusement les normes en vigueur et nous adaptons à vos 
-                          besoins spécifiques pour créer un marquage sur mesure qui valorise votre établissement.
-                        </p>
-                        <p className="text-lg leading-relaxed">
-                          Nous réalisons également les travaux d'accessibilité PMR.
+                          Tous nos équipements sont sélectionnés pour leur robustesse et leur conformité 
+                          aux normes. Nous vous conseillons sur le choix et l'implantation optimale 
+                          selon vos contraintes spécifiques.
                         </p>
                       </motion.div>
                     </motion.div>
@@ -220,30 +218,30 @@ export default function TracageRetracageParkingPage() {
                 <div className="space-y-6">
                   {[
                     {
-                      icon: "🎯",
-                      title: "Précision maximale",
-                      description: "Tracés parfaitement droits et alignés grâce à nos outils professionnels"
-                    },
-                    {
-                      icon: "⚖️",
-                      title: "Respect des normes",
-                      description: "Conformité totale aux réglementations en vigueur et aux standards de sécurité"
-                    },
-                    {
                       icon: "🛡️",
-                      title: "Durabilité exceptionnelle",
-                      description: "Peintures haute résistance aux intempéries et au trafic intense"
+                      title: "Protection renforcée",
+                      description: "Équipements robustes pour protéger vos infrastructures et véhicules"
                     },
                     {
-                      icon: "🎨",
-                      title: "Personnalisation",
-                      description: "Marquage sur mesure adapté à votre identité visuelle et vos besoins"
+                      icon: "🚗",
+                      title: "Contrôle de circulation",
+                      description: "Gestion efficace des flux de véhicules et de la vitesse"
+                    },
+                    {
+                      icon: "📐",
+                      title: "Installation précise",
+                      description: "Pose professionnelle respectant les normes et contraintes techniques"
+                    },
+                    {
+                      icon: "🔧",
+                      title: "Maintenance incluse",
+                      description: "Service après-vente et maintenance pour garantir la durabilité"
                     }
                   ].map((feature, index) => (
                     isSafari ? (
                       <div key={index} className="glassmorphism-card p-4 sm:p-6 rounded-[1rem] backdrop-blur-md border border-white/10">
                         <div className="flex items-start space-x-4">
-                          <div className="w-12 h-12 rounded-[0.75rem] bg-gradient-to-r from-green-500 to-emerald-500 flex items-center justify-center text-xl flex-shrink-0">
+                          <div className="w-12 h-12 rounded-[0.75rem] bg-gradient-to-r from-teal-500 to-blue-500 flex items-center justify-center text-xl flex-shrink-0">
                             {feature.icon}
                           </div>
                           <div>
@@ -261,7 +259,7 @@ export default function TracageRetracageParkingPage() {
                         transition={{ duration: 0.6, delay: 0.8 + (index * 0.1) }}
                       >
                         <div className="flex items-start space-x-4">
-                          <div className="w-12 h-12 rounded-[0.75rem] bg-gradient-to-r from-green-500 to-emerald-500 flex items-center justify-center text-xl flex-shrink-0">
+                          <div className="w-12 h-12 rounded-[0.75rem] bg-gradient-to-r from-teal-500 to-blue-500 flex items-center justify-center text-xl flex-shrink-0">
                             {feature.icon}
                           </div>
                           <div>
@@ -277,7 +275,7 @@ export default function TracageRetracageParkingPage() {
             </div>
           </section>
 
-          {/* Services Section */}
+          {/* Products Section */}
           <section className="py-12 sm:py-16 lg:py-20 px-4 relative">
             <div className="absolute inset-0 bg-gradient-to-br from-gray-800 via-gray-900 to-gray-800"></div>
             
@@ -286,10 +284,10 @@ export default function TracageRetracageParkingPage() {
                 {isSafari ? (
                   <div className="glassmorphism-card p-6 sm:p-8 rounded-[1.5rem] backdrop-blur-md border border-white/20">
                     <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4 sm:mb-6">
-                      Nos <span className="bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent">Services</span> de marquage
+                      Nos <span className="bg-gradient-to-r from-teal-400 to-blue-400 bg-clip-text text-transparent">Équipements</span>
                     </h2>
                     <p className="text-lg text-gray-300 max-w-3xl mx-auto">
-                      Une gamme complète de services pour tous vos besoins de marquage de parking
+                      Une gamme complète d'accessoires de parking pour tous vos besoins
                     </p>
                   </div>
                 ) : (
@@ -305,7 +303,7 @@ export default function TracageRetracageParkingPage() {
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.8, delay: 0.4 }}
                     >
-                      Nos <span className="bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent">Services</span> de marquage
+                      Nos <span className="bg-gradient-to-r from-teal-400 to-blue-400 bg-clip-text text-transparent">Équipements</span>
                     </motion.h2>
                     <motion.p 
                       className="text-lg text-gray-300 max-w-3xl mx-auto"
@@ -313,7 +311,7 @@ export default function TracageRetracageParkingPage() {
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.8, delay: 0.6 }}
                     >
-                      Une gamme complète de services pour tous vos besoins de marquage de parking
+                      Une gamme complète d'accessoires de parking pour tous vos besoins
                     </motion.p>
                   </motion.div>
                 )}
@@ -322,43 +320,43 @@ export default function TracageRetracageParkingPage() {
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
                 {[
                   {
-                    icon: "🚗",
-                    title: "Marquage de places",
-                    description: "Délimitation précise des places de parking avec numérotation et orientation"
+                    icon: "🏛️",
+                    title: "Bornes anti-bélier",
+                    description: "Protection efficace des façades et infrastructures contre les chocs"
                   },
                   {
-                    icon: "♿",
-                    title: "Places handicapées",
-                    description: "Marquage conforme aux normes PMR avec signalétique adaptée et accessibilité optimale (bandes de guidage, repères tactiles, etc.)"
+                    icon: "🚧",
+                    title: "Ralentisseurs",
+                    description: "Contrôle de la vitesse pour améliorer la sécurité de circulation"
                   },
                   {
-                    icon: "🚛",
-                    title: "Places poids lourds",
-                    description: "Zones dédiées aux véhicules de transport et livraison"
+                    icon: "🛑",
+                    title: "Butées de parking",
+                    description: "Délimitation précise des places de stationnement"
                   },
                   {
-                    icon: "🚶",
-                    title: "Passages piétons",
-                    description: "Marquage des zones de circulation piétonne et de sécurité"
+                    icon: "🚪",
+                    title: "Barrières et portiques",
+                    description: "Contrôle d'accès et délimitation des zones de parking"
                   },
                   {
-                    icon: "🚫",
-                    title: "Zones interdites",
-                    description: "Signalisation des zones de circulation restreinte ou interdite"
+                    icon: "💡",
+                    title: "Éclairage de sécurité",
+                    description: "Solutions d'éclairage pour améliorer la visibilité et la sécurité"
                   },
                   {
-                    icon: "🔄",
-                    title: "Retraçage",
-                    description: "Rénovation et actualisation des marquages existants"
+                    icon: "📋",
+                    title: "Signalétique",
+                    description: "Panneaux d'information et de direction pour guider les usagers"
                   }
-                ].map((service, index) => (
+                ].map((product, index) => (
                   isSafari ? (
                     <div key={index} className="glassmorphism-card p-6 rounded-[1.5rem] backdrop-blur-md border border-white/20 text-center">
-                      <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-gradient-to-r from-green-500 to-emerald-500 flex items-center justify-center text-2xl">
-                        {service.icon}
+                      <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-gradient-to-r from-teal-500 to-blue-500 flex items-center justify-center text-2xl">
+                        {product.icon}
                       </div>
-                      <h3 className="text-lg sm:text-xl font-bold text-white mb-3">{service.title}</h3>
-                      <p className="text-gray-300 text-sm sm:text-base">{service.description}</p>
+                      <h3 className="text-lg sm:text-xl font-bold text-white mb-3">{product.title}</h3>
+                      <p className="text-gray-300 text-sm sm:text-base">{product.description}</p>
                     </div>
                   ) : (
                     <motion.div 
@@ -368,11 +366,11 @@ export default function TracageRetracageParkingPage() {
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.6, delay: 0.8 + (index * 0.1) }}
                     >
-                      <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-gradient-to-r from-green-500 to-emerald-500 flex items-center justify-center text-2xl">
-                        {service.icon}
+                      <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-gradient-to-r from-teal-500 to-blue-500 flex items-center justify-center text-2xl">
+                        {product.icon}
                       </div>
-                      <h3 className="text-lg sm:text-xl font-bold text-white mb-3">{service.title}</h3>
-                      <p className="text-gray-300 text-sm sm:text-base">{service.description}</p>
+                      <h3 className="text-lg sm:text-xl font-bold text-white mb-3">{product.title}</h3>
+                      <p className="text-gray-300 text-sm sm:text-base">{product.description}</p>
                     </motion.div>
                   )
                 ))}
@@ -380,7 +378,7 @@ export default function TracageRetracageParkingPage() {
             </div>
           </section>
 
-          {/* Process Section */}
+          {/* Benefits Section */}
           <section className="py-12 sm:py-16 lg:py-20 px-4 relative">
             <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900"></div>
             
@@ -389,10 +387,10 @@ export default function TracageRetracageParkingPage() {
                 {isSafari ? (
                   <div className="glassmorphism-card p-6 sm:p-8 rounded-[1.5rem] backdrop-blur-md border border-white/20">
                     <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4 sm:mb-6">
-                      Notre <span className="bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent">Méthode</span> de Travail
+                      <span className="bg-gradient-to-r from-teal-400 to-blue-400 bg-clip-text text-transparent">Avantages</span> de nos Équipements
                     </h2>
                     <p className="text-lg text-gray-300 max-w-3xl mx-auto">
-                      Un processus structuré pour garantir des résultats professionnels et durables
+                      Pourquoi choisir nos accessoires de parking pour vos espaces
                     </p>
                   </div>
                 ) : (
@@ -408,7 +406,7 @@ export default function TracageRetracageParkingPage() {
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.8, delay: 0.4 }}
                     >
-                      Notre <span className="bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent">Méthode</span> de Travail
+                      <span className="bg-gradient-to-r from-teal-400 to-blue-400 bg-clip-text text-transparent">Avantages</span> de nos Équipements
                     </motion.h2>
                     <motion.p 
                       className="text-lg text-gray-300 max-w-3xl mx-auto"
@@ -416,7 +414,7 @@ export default function TracageRetracageParkingPage() {
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.8, delay: 0.6 }}
                     >
-                      Un processus structuré pour garantir des résultats professionnels et durables
+                      Pourquoi choisir nos accessoires de parking pour vos espaces
                     </motion.p>
                   </motion.div>
                 )}
@@ -425,33 +423,33 @@ export default function TracageRetracageParkingPage() {
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
                 {[
                   {
-                    step: "01",
-                    title: "Analyse du Site",
-                    description: "Étude du parking et définition des besoins spécifiques"
+                    icon: "🛡️",
+                    title: "Sécurité renforcée",
+                    description: "Protection optimale des personnes, véhicules et infrastructures"
                   },
                   {
-                    step: "02",
-                    title: "Conception",
-                    description: "Création du plan de marquage adapté à vos contraintes"
+                    icon: "💰",
+                    title: "Économies",
+                    description: "Réduction des coûts de réparation et d'assurance"
                   },
                   {
-                    step: "03",
-                    title: "Préparation",
-                    description: "Nettoyage et préparation de la surface pour un marquage optimal"
+                    icon: "⚡",
+                    title: "Installation rapide",
+                    description: "Mise en place efficace avec interruption minimale"
                   },
                   {
-                    step: "04",
-                    title: "Réalisation",
-                    description: "Application du marquage avec précision et finition professionnelle"
+                    icon: "🔧",
+                    title: "Maintenance simple",
+                    description: "Équipements robustes nécessitant peu d'entretien"
                   }
-                ].map((step, index) => (
+                ].map((benefit, index) => (
                   isSafari ? (
                     <div key={index} className="glassmorphism-card p-6 rounded-[1.5rem] backdrop-blur-md border border-white/20 text-center">
-                      <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-gradient-to-r from-green-500 to-emerald-500 flex items-center justify-center text-white font-bold text-xl">
-                        {step.step}
+                      <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-gradient-to-r from-teal-500 to-blue-500 flex items-center justify-center text-2xl">
+                        {benefit.icon}
                       </div>
-                      <h3 className="text-lg sm:text-xl font-bold text-white mb-3">{step.title}</h3>
-                      <p className="text-gray-300 text-sm sm:text-base">{step.description}</p>
+                      <h3 className="text-lg sm:text-xl font-bold text-white mb-3">{benefit.title}</h3>
+                      <p className="text-gray-300 text-sm sm:text-base">{benefit.description}</p>
                     </div>
                   ) : (
                     <motion.div 
@@ -461,11 +459,11 @@ export default function TracageRetracageParkingPage() {
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.6, delay: 0.8 + (index * 0.1) }}
                     >
-                      <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-gradient-to-r from-green-500 to-emerald-500 flex items-center justify-center text-white font-bold text-xl">
-                        {step.step}
+                      <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-gradient-to-r from-teal-500 to-blue-500 flex items-center justify-center text-2xl">
+                        {benefit.icon}
                       </div>
-                      <h3 className="text-lg sm:text-xl font-bold text-white mb-3">{step.title}</h3>
-                      <p className="text-gray-300 text-sm sm:text-base">{step.description}</p>
+                      <h3 className="text-lg sm:text-xl font-bold text-white mb-3">{benefit.title}</h3>
+                      <p className="text-gray-300 text-sm sm:text-base">{benefit.description}</p>
                     </motion.div>
                   )
                 ))}
@@ -480,26 +478,26 @@ export default function TracageRetracageParkingPage() {
             
             {/* Glassmorphism background elements */}
             <div className="absolute inset-0 bg-gradient-to-br from-white/3 via-transparent to-white/3 backdrop-blur-sm"></div>
-            <div className="absolute top-1/4 left-1/4 w-64 sm:w-96 h-64 sm:h-96 bg-green-500/8 rounded-full blur-3xl"></div>
-            <div className="absolute bottom-1/4 right-1/4 w-64 sm:w-96 h-64 sm:h-96 bg-emerald-500/8 rounded-full blur-3xl"></div>
+            <div className="absolute top-1/4 left-1/4 w-64 sm:w-96 h-64 sm:h-96 bg-teal-500/8 rounded-full blur-3xl"></div>
+            <div className="absolute bottom-1/4 right-1/4 w-64 sm:w-96 h-64 sm:h-96 bg-blue-500/8 rounded-full blur-3xl"></div>
             
             <div className="relative max-w-4xl mx-auto text-center">
               {isSafari ? (
                 <div className="glassmorphism-card p-6 sm:p-8 md:p-12 rounded-[2rem] backdrop-blur-md border border-white/20">
                   <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 sm:mb-6">
-                    Prêt à <span className="bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent">améliorer</span> votre parking ?
+                    Sécurisez votre <span className="bg-gradient-to-r from-teal-400 to-blue-400 bg-clip-text text-transparent">parking</span>
                   </h2>
                   <p className="text-lg sm:text-xl text-gray-300 mb-6 sm:mb-8 max-w-2xl mx-auto">
-                    Contactez-nous pour un devis personnalisé et découvrez comment nous pouvons 
-                    optimiser votre parking avec un marquage professionnel de qualité.
+                    Contactez-nous pour un devis personnalisé et découvrez comment nos accessoires 
+                    de parking peuvent améliorer la sécurité et l'organisation de vos espaces.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
                     <a 
                       href="/devis" 
-                      className="group relative bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white font-semibold py-3 sm:py-4 px-6 sm:px-8 rounded-[1rem] transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:shadow-green-500/25 backdrop-blur-sm border border-white/20 text-sm sm:text-base"
+                      className="group relative bg-gradient-to-r from-teal-500 to-blue-500 hover:from-teal-600 hover:to-blue-600 text-white font-semibold py-3 sm:py-4 px-6 sm:px-8 rounded-[1rem] transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:shadow-teal-500/25 backdrop-blur-sm border border-white/20 text-sm sm:text-base"
                     >
                       <span className="relative z-10">Demander un devis</span>
-                      <div className="absolute inset-0 bg-gradient-to-r from-green-600 to-emerald-600 rounded-[1rem] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                      <div className="absolute inset-0 bg-gradient-to-r from-teal-600 to-blue-600 rounded-[1rem] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     </a>
                     <a 
                       href="/qui-sommes-nous" 
@@ -522,7 +520,7 @@ export default function TracageRetracageParkingPage() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.4 }}
                   >
-                    Prêt à <span className="bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent">améliorer</span> votre parking ?
+                    Sécurisez votre <span className="bg-gradient-to-r from-teal-400 to-blue-400 bg-clip-text text-transparent">parking</span>
                   </motion.h2>
                   <motion.p 
                     className="text-lg sm:text-xl text-gray-300 mb-6 sm:mb-8 max-w-2xl mx-auto"
@@ -530,8 +528,8 @@ export default function TracageRetracageParkingPage() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.6 }}
                   >
-                    Contactez-nous pour un devis personnalisé et découvrez comment nous pouvons 
-                    optimiser votre parking avec un marquage professionnel de qualité.
+                    Contactez-nous pour un devis personnalisé et découvrez comment nos accessoires 
+                    de parking peuvent améliorer la sécurité et l'organisation de vos espaces.
                   </motion.p>
                   <motion.div 
                     className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center"
@@ -541,10 +539,10 @@ export default function TracageRetracageParkingPage() {
                   >
                     <a 
                       href="/devis" 
-                      className="group relative bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white font-semibold py-3 sm:py-4 px-6 sm:px-8 rounded-[1rem] transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:shadow-green-500/25 backdrop-blur-sm border border-white/20 text-sm sm:text-base"
+                      className="group relative bg-gradient-to-r from-teal-500 to-blue-500 hover:from-teal-600 hover:to-blue-600 text-white font-semibold py-3 sm:py-4 px-6 sm:px-8 rounded-[1rem] transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:shadow-teal-500/25 backdrop-blur-sm border border-white/20 text-sm sm:text-base"
                     >
                       <span className="relative z-10">Demander un devis</span>
-                      <div className="absolute inset-0 bg-gradient-to-r from-green-600 to-emerald-600 rounded-[1rem] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                      <div className="absolute inset-0 bg-gradient-to-r from-teal-600 to-blue-600 rounded-[1rem] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     </a>
                     <a 
                       href="/qui-sommes-nous" 

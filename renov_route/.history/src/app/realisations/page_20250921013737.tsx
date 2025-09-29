@@ -2,6 +2,7 @@ import { Suspense } from 'react';
 import Layout from '@/components/Layout';
 import ClientRealisationsContent from '@/components/realisations/ClientRealisationsContent';
 import ClientSEOHead from '@/components/ClientSEOHead';
+import { caseStudies } from '@/lib/data/case-studies';
 
 export default function RealisationsPage() {
   return (
@@ -69,5 +70,13 @@ export default function RealisationsPage() {
         </Suspense>
       </Layout>
     </>
+  );
+}
+
+export default function RealisationsPage() {
+  return (
+    <Suspense fallback={<div>Chargement...</div>}>
+      <RealisationsContent />
+    </Suspense>
   );
 }
