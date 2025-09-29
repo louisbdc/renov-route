@@ -11,7 +11,7 @@ export default function SEOLinks({ className = "" }: SEOLinksProps) {
         
         {/* Services */}
         <div>
-          <h3 className="font-semibold mb-3">Nos Services</h3>
+          <h3 className="font-semibold mb-3 text-gray-900">Nos Services</h3>
           <ul className="space-y-2">
             <li><Link href="/competences/tracage-retracage-parking">Traçage de parking</Link></li>
             <li><Link href="/competences/signalisation-verticale">Signalisation verticale</Link></li>
@@ -49,7 +49,7 @@ export default function SEOLinks({ className = "" }: SEOLinksProps) {
 
         {/* Informations */}
         <div>
-          <h3 className="font-semibold mb-3">Informations</h3>
+          <h3 className="font-semibold mb-3 text-gray-900">Informations</h3>
           <ul className="space-y-2">
             <li><Link href="/realisations">Nos réalisations</Link></li>
             <li><Link href="/qui-sommes-nous">Qui sommes-nous</Link></li>
