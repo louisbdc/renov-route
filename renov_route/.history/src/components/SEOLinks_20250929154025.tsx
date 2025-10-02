@@ -1,0 +1,65 @@
+import Link from 'next/link';
+
+interface SEOLinksProps {
+  className?: string;
+}
+
+export default function SEOLinks({ className = "" }: SEOLinksProps) {
+  return (
+    <footer className={`border-t py-8 ${className}`}>
+      <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 text-sm">
+        
+        {/* Services */}
+        <div>
+          <h3 className="font-semibold mb-3">Nos Services</h3>
+          <ul className="space-y-2">
+            <li><Link href="/competences/tracage-retracage-parking">Traçage de parking</Link></li>
+            <li><Link href="/competences/signalisation-verticale">Signalisation verticale</Link></li>
+            <li><Link href="/competences/reparation-nids-de-poule">Réparation nids de poule</Link></li>
+            <li><Link href="/competences/resine-sol-marquage-interieur">Résine de sol</Link></li>
+            <li><Link href="/competences/accessoires-parking">Accessoires parking</Link></li>
+            <li><Link href="/competences/conseil-expertise">Conseil & expertise</Link></li>
+          </ul>
+        </div>
+
+        {/* Zones d'intervention */}
+        <div>
+          <h3 className="font-semibold mb-3">Zones d'intervention</h3>
+          <ul className="space-y-2">
+              <li><Link href="/competences">Lyon</Link></li>
+            <li><Link href="/competences">Rhône-Alpes</Link></li>
+            <li><Link href="/competences">Auvergne-Rhône-Alpes</Link></li>
+            <li><Link href="/competences">Paris</Link></li>
+            <li><Link href="/competences">Marseille</Link></li>
+            <li><Link href="/competences">Toulouse</Link></li>
+          </ul>
+        </div>
+
+        {/* Secteurs d'activité */}
+        <div>
+          <h3 className="font-semibold mb-3">Secteurs d'activité</h3>
+          <ul className="space-y-2">
+            <li><Link href="/competences">Commerces</Link></li>
+            <li><Link href="/competences">Industrie</Link></li>
+            <li><Link href="/competences">Collectivités</Link></li>
+            <li><Link href="/competences">Centres commerciaux</Link></li>
+            <li><Link href="/competences">Entreprises</Link></li>
+          </ul>
+        </div>
+
+        {/* Informations */}
+        <div>
+          <h3 className="font-semibold mb-3">Informations</h3>
+          <ul className="space-y-2">
+            <li><Link href="/realisations">Nos réalisations</Link></li>
+            <li><Link href="/qui-sommes-nous">Qui sommes-nous</Link></li>
+            <li><Link href="/devis">Devis</Link></li>
+            <li><Link href="/privacy-policy">Politique de confidentialité</Link></li>
+            <li><Link href="/competences">FAQ</Link></li>
+          </ul>
+        </div>
+
+      </div>
+    </footer>
+  );
+}
