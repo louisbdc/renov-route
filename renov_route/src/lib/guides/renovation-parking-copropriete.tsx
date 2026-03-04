@@ -69,7 +69,7 @@ export default function Content() {
       <ul>
         <li>Réparation des nids de poule et fissures</li>
         <li><Link href="/competences/tracage-retracage-parking">Retraçage complet du marquage au sol</Link> (places, flèches, passages piétons)</li>
-        <li>Installation ou remplacement de la signalisation verticale</li>
+        <li>Installation ou remplacement de la signalisation verticale — consultez notre guide pour établir un <Link href="/guides/signalisation-parking-copropriete">plan de signalisation en copropriété</Link></li>
         <li>Mise en conformité des places PMR</li>
         <li>Pose d&apos;<Link href="/competences/accessoires-parking">accessoires de parking</Link> (butées de roues, potelets, miroirs)</li>
       </ul>

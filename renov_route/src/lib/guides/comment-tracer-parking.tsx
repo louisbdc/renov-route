@@ -43,7 +43,7 @@ export default function Content() {
       <h3>Définir les besoins</h3>
       <ul>
         <li>Combien de places sont nécessaires ?</li>
-        <li>Faut-il des places PMR ? (Obligatoire pour les ERP et parkings de plus de 50 places)</li>
+        <li>Faut-il des places PMR ? (Obligatoire pour les ERP soumis aux <Link href="/guides/accessibilite-parking-erp-normes">normes d&apos;accessibilité ERP</Link> et parkings de plus de 50 places)</li>
         <li>Y a-t-il des zones spécifiques : livraison, poids lourds, deux-roues, véhicules électriques ?</li>
         <li>Le parking est-il ouvert au public ou réservé ?</li>
       </ul>

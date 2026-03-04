@@ -660,7 +660,11 @@ export default function Content() {
         <Link href="/competences/tracage-retracage-parking">
           marquage au sol
         </Link>{' '}
-        de votre surface commerciale.
+        de votre surface commerciale. Pour les sp&eacute;cificit&eacute;s du{' '}
+        <Link href="/guides/marquage-sol-supermarche-grande-surface">
+          marquage au sol en supermarch&eacute;
+        </Link>
+        , consultez notre guide d&eacute;di&eacute;.
       </p>
     </>
   )

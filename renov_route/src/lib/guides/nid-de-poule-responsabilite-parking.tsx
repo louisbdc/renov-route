@@ -131,7 +131,7 @@ export default function Content() {
 
       <h3>3. Réparer rapidement et durablement</h3>
       <p>
-        Ne laissez pas traîner. Plus vous attendez, plus le nid de poule s'agrandit et plus le risque augmente. Choisissez une méthode de réparation durable : la <Link href="/guides/enrobe-froid-vs-resine-nids-de-poule">résine polyuréthane dure 5 à 10 ans</Link>, contre quelques mois pour l'enrobé à froid. Le surcoût initial est vite amorti.
+        Ne laissez pas traîner. Plus vous attendez, plus le nid de poule s'agrandit et plus le risque augmente. Choisissez une méthode de réparation durable : la <Link href="/guides/enrobe-froid-vs-resine-nids-de-poule">résine polyuréthane dure 5 à 10 ans</Link>, contre quelques mois pour l'enrobé à froid. Le surcoût initial est vite amorti. Si le budget est limité, il est aussi possible de <Link href="/guides/reparer-nid-de-poule-soi-meme">réparer un nid de poule soi-même</Link> en attendant l'intervention d'un professionnel.
       </p>
       <p>
         Notre équipe intervient sous 48h en cas d'urgence pour la <Link href="/competences/reparation-nids-de-poule">réparation de nids de poule</Link>. <Link href="/devis">Demandez un devis gratuit</Link>, nous vous répondons sous 24h.

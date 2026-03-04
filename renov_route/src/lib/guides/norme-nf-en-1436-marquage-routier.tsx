@@ -393,7 +393,11 @@ export default function Content() {
 
       <p>
         Sophie, gestionnaire d&apos;un parking souterrain de 200 places
-        &agrave; Lyon 6e, a demand&eacute; &agrave; 3 prestataires les classes
+        &agrave; Lyon 6e (d&eacute;couvrez notre guide{' '}
+        <Link href="/guides/signalisation-horizontale-lyon-marquage">
+          signalisation horizontale &agrave; Lyon
+        </Link>
+        ), a demand&eacute; &agrave; 3 prestataires les classes
         NF EN 1436 de leurs produits. Un seul a pu fournir les fiches
         techniques avec les classifications. Elle a retenu ce prestataire
         (Q2/R2/S1/P5). Deux ans plus tard, le marquage est intact. Les

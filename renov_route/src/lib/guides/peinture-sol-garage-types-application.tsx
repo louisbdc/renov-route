@@ -325,7 +325,7 @@ export default function Content() {
 
       <h2>Peinture ou resine : que choisir pour un garage ?</h2>
       <p>
-        La confusion est frequente entre peinture de sol et resine de sol.
+        La confusion est frequente entre peinture de sol et resine de sol. Pour un <Link href="/guides/resine-epoxy-ou-peinture-sol-comparatif">comparatif resine epoxy vs peinture</Link> applique aux parkings, consultez notre guide dedie.
       </p>
 
       <h3>Peinture de sol (couche mince)</h3>

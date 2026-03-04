@@ -131,7 +131,7 @@ export default function Content() {
 
       <h2>Signalisation spécifique des parkings de copropriété</h2>
       <p>
-        La signalisation d&apos;un parking de copropriété répond à des enjeux particuliers.
+        La <Link href="/guides/signalisation-parking-copropriete">signalisation en copropriété</Link> répond à des enjeux particuliers.
       </p>
 
       <h3>Obligations légales</h3>

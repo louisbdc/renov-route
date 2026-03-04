@@ -27,7 +27,7 @@ export default function Content() {
 
       <h2>Enrobé à froid : la solution d'urgence (et ses limites)</h2>
       <p>
-        L'enrobé à froid est un mélange de granulats et de bitume fluxé ou émulsionné, conditionné en sacs de 25 kg ou en vrac. On le déverse dans le nid de poule, on le compacte à la dame ou au rouleau, et la circulation peut reprendre immédiatement. C'est la méthode la plus répandue en France pour le rebouchage de nids de poule.
+        L'enrobé à froid est un mélange de granulats et de bitume fluxé ou émulsionné, conditionné en sacs de 25 kg ou en vrac. On le déverse dans le nid de poule, on le compacte à la dame ou au rouleau, et la circulation peut reprendre immédiatement. C'est la méthode la plus répandue en France pour le rebouchage de nids de poule, notamment par ceux qui souhaitent <Link href="/guides/reparer-nid-de-poule-soi-meme">réparer un nid de poule soi-même</Link>.
       </p>
 
       <h3>Avantages de l'enrobé à froid</h3>

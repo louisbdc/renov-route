@@ -48,7 +48,7 @@ export default function Content() {
         <li>Elle n&apos;offre pas assez de r&eacute;sistance chimique (huiles moteur, liquide de frein)</li>
       </ul>
       <p>
-        Pour les parkings de surface, la peinture acrylique reste pertinente : consultez notre guide sur la <Link href="/guides/peinture-sol-garage-types-application">peinture sol garage</Link>.
+        Pour les parkings de surface, la peinture acrylique reste pertinente : consultez notre guide sur la <Link href="/guides/peinture-sol-garage-types-application">peinture sol garage</Link>. Pour d&eacute;cider entre les deux, notre <Link href="/guides/resine-epoxy-ou-peinture-sol-comparatif">comparatif r&eacute;sine ou peinture</Link> d&eacute;taille les crit&egrave;res de choix.
       </p>
 
       <h2>Les 3 r&eacute;sines adapt&eacute;es aux parkings souterrains</h2>

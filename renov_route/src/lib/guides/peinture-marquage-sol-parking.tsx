@@ -85,7 +85,7 @@ export default function Content() {
         <li>Ne convient pas aux surfaces irrégulières (nids de poule, fissures)</li>
       </ul>
       <p>
-        <strong>Idéal pour :</strong> grandes surfaces commerciales, parkings d&apos;hypermarchés, zones de passage piéton à forte fréquentation. Quand la durabilité justifie l&apos;investissement.
+        <strong>Idéal pour :</strong> <Link href="/guides/marquage-sol-supermarche-grande-surface">grandes surfaces commerciales</Link>, parkings d&apos;hypermarchés, zones de passage piéton à forte fréquentation. Quand la durabilité justifie l&apos;investissement.
       </p>
       <p>
         Quand Frédéric, responsable technique d&apos;un Leclerc près de Villefranche-sur-Saône, a remplacé sa peinture acrylique par du thermoplastique en 2022, son coût de marquage annuel a baissé de 35 %. Les retouches annuelles ont disparu. Le marquage thermoplastique, appliqué sur un parking de 400 places, tient depuis quatre ans sans intervention.

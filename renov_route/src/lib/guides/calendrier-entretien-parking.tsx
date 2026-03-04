@@ -157,7 +157,12 @@ export default function Content() {
         C'est le mois le plus important de l'année pour la maintenance de votre
         parking. L'hiver laisse des traces : les cycles gel/dégel ont agrandi
         les fissures, le sel a attaqué le revêtement, et le trafic hivernal a
-        usé le marquage.
+        usé le marquage. Pour les dégâts spécifiques de cette saison, consultez
+        nos{' '}
+        <Link href="/guides/nids-de-poule-hiver-2026-solutions">
+          solutions nids de poule hiver 2026
+        </Link>
+        .
       </p>
 
       <p>

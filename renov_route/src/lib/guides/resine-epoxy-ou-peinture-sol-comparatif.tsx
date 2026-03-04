@@ -4,7 +4,7 @@ import Link from 'next/link'
 export const meta: Guide = {
   slug: 'resine-epoxy-ou-peinture-sol-comparatif',
   title: 'R\u00e9sine \u00e9poxy ou peinture sol : que choisir pour votre parking ?',
-  metaTitle: 'R\u00e9sine \u00e9poxy ou peinture sol : que choisir pour votre parking ?',
+  metaTitle: 'R\u00e9sine \u00e9poxy ou peinture sol : que choisir ?',
   metaDescription: 'R\u00e9sine \u00e9poxy ou peinture sol parking : comparatif prix, dur\u00e9e de vie, r\u00e9sistance et entretien. Le bon choix selon votre usage et votre budget.',
   publishDate: '2026-03-04',
   category: 'marquage-parking',

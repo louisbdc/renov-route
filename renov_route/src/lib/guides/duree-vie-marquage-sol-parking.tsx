@@ -178,7 +178,7 @@ export default function Content() {
 
       <h3>3. Le climat</h3>
       <ul>
-        <li><strong>Gel/d&eacute;gel</strong> : les cycles de gel fragilisent le liant de la peinture. &Agrave; Lyon, 40 &agrave; 60 cycles gel/d&eacute;gel par hiver</li>
+        <li><strong>Gel/d&eacute;gel</strong> : les cycles de gel fragilisent le liant de la peinture. &Agrave; Lyon, 40 &agrave; 60 cycles gel/d&eacute;gel par hiver (voir notre guide du <Link href="/guides/signalisation-horizontale-lyon-marquage">marquage au sol &agrave; Lyon</Link>)</li>
         <li><strong>UV</strong> : la peinture blanchit et perd sa pigmentation sous les UV intenses (parking ext&eacute;rieur sud)</li>
         <li><strong>Pluie</strong> : l&apos;eau stagnante d&eacute;colle les bords du marquage, surtout si l&apos;enrob&eacute; est poreux</li>
       </ul>

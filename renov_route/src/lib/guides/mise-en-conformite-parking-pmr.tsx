@@ -42,7 +42,7 @@ export default function Content() {
 
       <h3>Copropriétés</h3>
       <p>
-        Les parkings de copropriété sont concernés lorsqu&apos;ils desservent un ERP ou lorsque des travaux de rénovation sont entrepris. Dans ce cas, la mise aux normes PMR doit être intégrée au projet. Pour en savoir plus sur la rénovation globale, consultez notre <Link href="/guides/renovation-parking-copropriete">guide de rénovation parking copropriété</Link>.
+        Les parkings de copropriété sont concernés lorsqu&apos;ils desservent un ERP (consultez les <Link href="/guides/accessibilite-parking-erp-normes">obligations d&apos;accessibilité ERP</Link>) ou lorsque des travaux de rénovation sont entrepris. Dans ce cas, la mise aux normes PMR doit être intégrée au projet. Pour en savoir plus sur la rénovation globale, consultez notre <Link href="/guides/renovation-parking-copropriete">guide de rénovation parking copropriété</Link>.
       </p>
 
       <p>

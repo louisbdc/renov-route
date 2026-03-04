@@ -54,7 +54,7 @@ export default function Content() {
 
       <h2>Signe 2 : Des nids de poule apparaissent</h2>
       <p>
-        Les nids de poule ne sont pas qu'un problème esthétique. Ce sont des trous dans la chaussée qui s'agrandissent avec le temps, le trafic et les cycles gel-dégel. Un nid de poule de 10 cm en janvier peut mesurer 30 cm en avril.
+        Les nids de poule ne sont pas qu'un problème esthétique. Ce sont des trous dans la chaussée qui s'agrandissent avec le temps, le trafic et les <Link href="/guides/nids-de-poule-hiver-2026-solutions">cycles gel-dégel hivernaux</Link>. Un nid de poule de 10 cm en janvier peut mesurer 30 cm en avril.
       </p>
 
       <p><strong>Les conséquences :</strong></p>
