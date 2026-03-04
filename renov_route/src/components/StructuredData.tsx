@@ -41,23 +41,70 @@ export default function StructuredData({ type }: StructuredDataProps) {
         "name": "Lyon"
       }
     ],
-    "openingHours": "Mo-Fr 08:00-18:00",
+    "serviceType": [
+      "Traçage marquage routier",
+      "Marquage parking",
+      "Retraçage parking",
+      "Réparation nids de poule",
+      "Enrobé résine",
+      "Marquage routier",
+      "Signalisation horizontale",
+      "Rénovation parking"
+    ],
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "08:00",
+        "closes": "18:00"
+      }
+    ],
     "priceRange": "€€",
     "paymentAccepted": "Cash, Credit Card, Bank Transfer",
     "currenciesAccepted": "EUR",
     "foundingDate": "2014",
     "numberOfEmployees": "5-10",
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "127",
-      "bestRating": "5",
-      "worstRating": "1"
-    },
     "sameAs": [
       "https://www.facebook.com/renovroute",
       "https://www.linkedin.com/company/renov-route",
       "https://www.instagram.com/renov_route"
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "reviewCount": "2",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "review": [
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Bertrand de LONGEVIALLE"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "datePublished": "2018-01-01",
+        "reviewBody": "Compétence et réactivité ! je recommande !"
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Estelle Pons"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "datePublished": "2018-01-01",
+        "reviewBody": "Une solution simple, rapide et peu onéreuse pour reboucher des trous en formation sur les routes et parking. Un bon plan pour les copropriétés"
+      }
     ]
   };
 

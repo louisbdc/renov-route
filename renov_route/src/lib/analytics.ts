@@ -1,5 +1,4 @@
-'use client'
-
+import { useMemo } from 'react'
 import { CookieManager } from './cookies'
 
 // Configuration Google Analytics
@@ -214,7 +213,8 @@ export class GoogleAnalytics {
 export function useAnalytics() {
   const analytics = GoogleAnalytics.getInstance()
 
-  return {
+  // useMemo avec deps vides : analytics est un singleton, ses références sont stables
+  return useMemo(() => ({
     trackPageView: analytics.trackPageView.bind(analytics),
     trackFormSubmission: analytics.trackFormSubmission.bind(analytics),
     trackPhoneCall: analytics.trackPhoneCall.bind(analytics),
@@ -224,8 +224,9 @@ export function useAnalytics() {
     trackCaseStudyView: analytics.trackCaseStudyView.bind(analytics),
     trackPartnerClick: analytics.trackPartnerClick.bind(analytics),
     disable: analytics.disable.bind(analytics),
-    enable: analytics.enable.bind(analytics)
-  }
+    enable: analytics.enable.bind(analytics),
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }), [])
 }
 
 // Fonction utilitaire pour initialiser l'analytics au chargement de la page

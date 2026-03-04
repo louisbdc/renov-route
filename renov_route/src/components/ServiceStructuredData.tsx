@@ -55,6 +55,7 @@ export default function ServiceStructuredData({ serviceType }: ServiceStructured
           "name": "Réparation de nids de poule",
           "description": "Réparation professionnelle de nids de poule avec de la résine haute performance. Procédé innovant, durable et résistant aux intempéries. Intervention rapide sur routes, parkings et voies privées.",
           "url": "https://renov-route.com/competences/reparation-nids-de-poule",
+          "image": "https://renov-route.com/assets/images/realisations/civrieux-zebra-fosse_1.avif",
           "offers": {
             "@type": "Offer",
             "price": "0",
@@ -100,6 +101,7 @@ export default function ServiceStructuredData({ serviceType }: ServiceStructured
           "name": "Traçage et retraçage de parking",
           "description": "Marquage professionnel et durable pour optimiser l'utilisation de vos espaces de stationnement. Respect des normes en vigueur avec finition soignée et durable.",
           "url": "https://renov-route.com/competences/tracage-retracage-parking",
+          "image": "https://renov-route.com/assets/images/realisations/intermarche-neuville-parking_2.avif",
           "offers": {
             "@type": "Offer",
             "price": "0",
@@ -115,6 +117,7 @@ export default function ServiceStructuredData({ serviceType }: ServiceStructured
           "name": "Signalisation verticale",
           "description": "Installation de tous les panneaux verticaux de parking : stop, panneau PMR, cédez le passage, etc. Installation professionnelle avec conformité aux normes.",
           "url": "https://renov-route.com/competences/signalisation-verticale",
+          "image": "https://renov-route.com/assets/images/realisations/avenieres-pmr-parcours_1.avif",
           "offers": {
             "@type": "Offer",
             "price": "0",
@@ -130,6 +133,7 @@ export default function ServiceStructuredData({ serviceType }: ServiceStructured
           "name": "Résine de sol et marquage d'intérieur",
           "description": "Solutions complètes de résine pour sols et marquage intérieur professionnel. Résine de sol durable avec finition professionnelle.",
           "url": "https://renov-route.com/competences/resine-sol-marquage-interieur",
+          "image": "https://renov-route.com/assets/images/realisations/carglass-angouleme-zebra_1.avif",
           "offers": {
             "@type": "Offer",
             "price": "0",
@@ -145,6 +149,7 @@ export default function ServiceStructuredData({ serviceType }: ServiceStructured
           "name": "Accessoires de parking",
           "description": "Équipements de sécurité et d'organisation pour optimiser la circulation et protéger les infrastructures de votre parking : bornes anti-bélier, ralentisseurs, butées de parking.",
           "url": "https://renov-route.com/competences/accessoires-parking",
+          "image": "https://renov-route.com/assets/images/realisations/em-lyon-bornes-anti-stationnement_1.avif",
           "offers": {
             "@type": "Offer",
             "price": "0",
@@ -160,6 +165,7 @@ export default function ServiceStructuredData({ serviceType }: ServiceStructured
           "name": "Conseil et expertise",
           "description": "Notre équipe vous accompagne dans vos projets d'amélioration avec études de faisabilité, devis personnalisés et suivi de projet.",
           "url": "https://renov-route.com/competences/conseil-expertise",
+          "image": "https://renov-route.com/assets/images/realisations/lidl-normes-pmr-resine_1.avif",
           "offers": {
             "@type": "Offer",
             "price": "0",

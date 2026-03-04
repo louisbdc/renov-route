@@ -1,19 +1,11 @@
+import React from 'react'
 import Cookies from 'js-cookie'
 
 // Types pour les cookies
 export interface CookieConsent {
   necessary: boolean
   analytics: boolean
-  marketing: boolean
-  preferences: boolean
   timestamp: string
-}
-
-export interface UserPreferences {
-  region?: string
-  preferredContactMethod?: 'phone' | 'email'
-  lastVisit?: string
-  language?: string
 }
 
 export interface ConversionTracking {
@@ -27,7 +19,6 @@ export interface ConversionTracking {
 // Configuration des cookies
 export const COOKIE_CONFIG = {
   CONSENT: 'renov_route_consent',
-  PREFERENCES: 'renov_route_preferences',
   CONVERSION: 'renov_route_conversion',
   SESSION: 'renov_route_session',
   ANALYTICS: 'renov_route_analytics'
@@ -36,7 +27,6 @@ export const COOKIE_CONFIG = {
 // Durées d'expiration (en jours)
 export const COOKIE_EXPIRY = {
   CONSENT: 365, // 1 an
-  PREFERENCES: 90, // 3 mois
   CONVERSION: 30, // 1 mois
   SESSION: 1, // 1 jour
   ANALYTICS: 30 // 1 mois
@@ -52,10 +42,10 @@ export class CookieManager {
   // Obtenir le consentement actuel
   static getConsent(): CookieConsent | null {
     if (!this.isSupported()) return null
-    
+
     const consent = Cookies.get(COOKIE_CONFIG.CONSENT)
     if (!consent) return null
-    
+
     try {
       return JSON.parse(consent)
     } catch {
@@ -66,54 +56,21 @@ export class CookieManager {
   // Définir le consentement
   static setConsent(consent: Partial<CookieConsent>): void {
     if (!this.isSupported()) return
-    
+
     const currentConsent = this.getConsent() || {
       necessary: true,
       analytics: false,
-      marketing: false,
-      preferences: false,
       timestamp: new Date().toISOString()
     }
-    
+
     const newConsent: CookieConsent = {
       ...currentConsent,
       ...consent,
       timestamp: new Date().toISOString()
     }
-    
+
     Cookies.set(COOKIE_CONFIG.CONSENT, JSON.stringify(newConsent), {
       expires: COOKIE_EXPIRY.CONSENT,
-      secure: true,
-      sameSite: 'strict'
-    })
-  }
-
-  // Obtenir les préférences utilisateur
-  static getPreferences(): UserPreferences | null {
-    if (!this.isSupported()) return null
-    
-    const preferences = Cookies.get(COOKIE_CONFIG.PREFERENCES)
-    if (!preferences) return null
-    
-    try {
-      return JSON.parse(preferences)
-    } catch {
-      return null
-    }
-  }
-
-  // Définir les préférences utilisateur
-  static setPreferences(preferences: Partial<UserPreferences>): void {
-    if (!this.isSupported()) return
-    
-    const currentPreferences = this.getPreferences() || {}
-    const newPreferences: UserPreferences = {
-      ...currentPreferences,
-      ...preferences
-    }
-    
-    Cookies.set(COOKIE_CONFIG.PREFERENCES, JSON.stringify(newPreferences), {
-      expires: COOKIE_EXPIRY.PREFERENCES,
       secure: true,
       sameSite: 'strict'
     })
@@ -122,10 +79,10 @@ export class CookieManager {
   // Obtenir le suivi des conversions
   static getConversionTracking(): ConversionTracking | null {
     if (!this.isSupported()) return null
-    
+
     const tracking = Cookies.get(COOKIE_CONFIG.CONVERSION)
     if (!tracking) return null
-    
+
     try {
       return JSON.parse(tracking)
     } catch {
@@ -136,18 +93,18 @@ export class CookieManager {
   // Mettre à jour le suivi des conversions
   static updateConversionTracking(updates: Partial<ConversionTracking>): void {
     if (!this.isSupported()) return
-    
+
     const currentTracking = this.getConversionTracking() || {
       visitedPages: [],
       formSubmissions: 0
     }
-    
+
     const newTracking: ConversionTracking = {
       ...currentTracking,
       ...updates,
       visitedPages: [...new Set([...currentTracking.visitedPages, ...(updates.visitedPages || [])])]
     }
-    
+
     Cookies.set(COOKIE_CONFIG.CONVERSION, JSON.stringify(newTracking), {
       expires: COOKIE_EXPIRY.CONVERSION,
       secure: true,
@@ -159,7 +116,7 @@ export class CookieManager {
   static trackPageVisit(page: string): void {
     const consent = this.getConsent()
     if (!consent?.analytics) return
-    
+
     this.updateConversionTracking({
       visitedPages: [page],
       lastAction: `visited_${page}`
@@ -170,28 +127,26 @@ export class CookieManager {
   static trackFormSubmission(formType: string): void {
     const consent = this.getConsent()
     if (!consent?.analytics) return
-    
+
     const currentTracking = this.getConversionTracking() || { visitedPages: [], formSubmissions: 0 }
-    
+
     this.updateConversionTracking({
       formSubmissions: currentTracking.formSubmissions + 1,
       lastAction: `form_submitted_${formType}`
     })
   }
 
-  // Supprimer tous les cookies (sauf nécessaires)
+  // Supprimer tous les cookies
   static clearAllCookies(): void {
     if (!this.isSupported()) return
-    
-    // Supprimer nos cookies personnalisés
+
     Object.values(COOKIE_CONFIG).forEach(cookieName => {
       Cookies.remove(cookieName)
-      // Supprimer aussi avec différents chemins et domaines
       Cookies.remove(cookieName, { path: '/' })
       Cookies.remove(cookieName, { path: '/', domain: window.location.hostname })
       Cookies.remove(cookieName, { path: '/', domain: '.' + window.location.hostname })
     })
-    
+
     // Supprimer les cookies Google Analytics
     const gaCookies = ['_ga', '_ga_*', '_gid', '_gat', '_gat_*', '_gcl_au', '_gcl_aw', '_gcl_dc', '_gcl_gb']
     gaCookies.forEach(cookieName => {
@@ -200,14 +155,7 @@ export class CookieManager {
       Cookies.remove(cookieName, { path: '/', domain: window.location.hostname })
       Cookies.remove(cookieName, { path: '/', domain: '.' + window.location.hostname })
     })
-    
-    // Supprimer les cookies de session et autres cookies communs
-    const commonCookies = ['JSESSIONID', 'PHPSESSID', 'ASP.NET_SessionId', 'connect.sid']
-    commonCookies.forEach(cookieName => {
-      Cookies.remove(cookieName)
-      Cookies.remove(cookieName, { path: '/' })
-    })
-    
+
     // Supprimer tous les cookies du domaine actuel
     const allCookies = document.cookie.split(';')
     allCookies.forEach(cookie => {
@@ -220,26 +168,23 @@ export class CookieManager {
         Cookies.remove(name, { path: '/', domain: '.' + window.location.hostname })
       }
     })
-    
+
     // Réinitialiser le consentement
     this.setConsent({
       necessary: true,
       analytics: false,
-      marketing: false,
-      preferences: false
     })
   }
 
   // Supprimer les cookies non-essentiels
   static clearNonEssentialCookies(): void {
     if (!this.isSupported()) return
-    
+
     const nonEssentialCookies = [
       COOKIE_CONFIG.ANALYTICS,
       COOKIE_CONFIG.CONVERSION,
-      COOKIE_CONFIG.PREFERENCES
     ]
-    
+
     nonEssentialCookies.forEach(cookieName => {
       Cookies.remove(cookieName)
     })
@@ -248,10 +193,10 @@ export class CookieManager {
   // Obtenir les statistiques de cookies
   static getCookieStats(): { total: number; essential: number; nonEssential: number } {
     if (!this.isSupported()) return { total: 0, essential: 0, nonEssential: 0 }
-    
+
     const allCookies = document.cookie.split(';').map(c => c.trim().split('=')[0])
     const essentialCookies = [COOKIE_CONFIG.CONSENT, COOKIE_CONFIG.SESSION]
-    
+
     const isEssential = (name: string) => essentialCookies.includes(name as unknown as typeof essentialCookies[number])
     return {
       total: allCookies.length,
@@ -282,8 +227,6 @@ export const useCookieConsent = () => {
     const newConsent = {
       necessary: true,
       analytics: true,
-      marketing: true,
-      preferences: true
     }
     CookieManager.setConsent(newConsent)
     setConsent(CookieManager.getConsent())
@@ -293,8 +236,6 @@ export const useCookieConsent = () => {
     const newConsent = {
       necessary: true,
       analytics: false,
-      marketing: false,
-      preferences: false
     }
     CookieManager.setConsent(newConsent)
     CookieManager.clearNonEssentialCookies()
@@ -310,6 +251,3 @@ export const useCookieConsent = () => {
     hasConsent: !!consent && !!consent.timestamp
   }
 }
-
-// Import React pour le hook
-import React from 'react'

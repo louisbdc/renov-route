@@ -1,16 +1,14 @@
-'use client';
+'use client'
 
-import { CaseStudy } from '@/lib/data/case-studies';
-import CaseCard from './CaseCard';
+import { CaseStudy } from '@/lib/data/case-studies'
+import CaseCard from './CaseCard'
 
 interface CaseGridProps {
-  caseStudies: CaseStudy[];
-  onOpenModal: (caseStudy: CaseStudy) => void;
-  className?: string;
-  isSafari?: boolean;
+  caseStudies: CaseStudy[]
+  className?: string
 }
 
-export default function CaseGrid({ caseStudies, onOpenModal, className = '', isSafari = false }: CaseGridProps) {
+export default function CaseGrid({ caseStudies, className = '' }: CaseGridProps) {
   if (caseStudies.length === 0) {
     return (
       <div className={`text-center py-16 ${className}`}>
@@ -28,7 +26,7 @@ export default function CaseGrid({ caseStudies, onOpenModal, className = '', isS
           </p>
         </div>
       </div>
-    );
+    )
   }
 
   return (
@@ -37,11 +35,9 @@ export default function CaseGrid({ caseStudies, onOpenModal, className = '', isS
         <CaseCard
           key={caseStudy.id}
           caseStudy={caseStudy}
-          onOpenModal={onOpenModal}
           index={index}
-          isSafari={isSafari}
         />
       ))}
     </div>
-  );
+  )
 }

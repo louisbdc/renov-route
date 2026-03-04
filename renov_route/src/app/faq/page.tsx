@@ -2,15 +2,14 @@
 
 import Layout from '@/components/Layout';
 import SEOFAQ from '@/components/SEOFAQ';
-import SEOHead from '@/components/SEOHead';
 import StructuredData from '@/components/StructuredData';
-import SafariAnimationFix, { useSafariOptimization } from '@/components/SafariAnimationFix';
-import { motion } from 'framer-motion';
+import BreadcrumbSchema from '@/components/BreadcrumbSchema';
+import SafariAnimationFix from '@/components/SafariAnimationFix';
+import { MotionDiv } from '@/components/MotionWrapper';
 import Link from 'next/link';
+import Script from 'next/script';
 
 export default function FAQPage() {
-  const { isSafari: _isSafari } = useSafariOptimization();
-
   const faqs = [
     {
       question: "Qu'est-ce que le marquage au sol et quels sont les différents types ?",
@@ -84,130 +83,125 @@ export default function FAQPage() {
 
   return (
     <>
-      <SEOHead
-        title="FAQ Marquage au Sol - Questions Fréquentes | Renov Route"
-        description="Toutes les réponses à vos questions sur le marquage au sol, peinture parking, réparation nids de poule à Lyon et dans le Rhône. devis et conseils d'experts."
-        keywords="marquage au sol lyon, peinture parking, réparation nid de poule, peinture epoxy, marquage saint-étienne, renov résine, entreprise marquage"
-        pageKey="faq"
-        canonicalUrl="https://renov-route.com/faq"
-      />
-      
       <StructuredData type="faq" />
+      <Script
+        id="faqpage-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: faqs.map((faq) => ({
+              '@type': 'Question',
+              name: faq.question,
+              acceptedAnswer: {
+                '@type': 'Answer',
+                text: faq.answer,
+              },
+            })),
+          }),
+        }}
+      />
+      <BreadcrumbSchema items={[
+        { name: "Accueil", url: "https://renov-route.com/" },
+        { name: "FAQ", url: "https://renov-route.com/faq/" }
+      ]} />
 
       <Layout>
         <SafariAnimationFix>
           {/* Hero Section */}
           <section className="pt-24 sm:pt-28 lg:pt-32 pb-12 sm:pb-16 px-4 relative overflow-hidden">
-            <div className="absolute inset-0 bg-gradient-to-br from-gray-800 via-gray-900 to-gray-800"></div>
-            <div className="absolute inset-0 bg-[url('/assets/images/background_home_page.avif')] bg-cover bg-center opacity-20"></div>
-            
-            {/* Glassmorphism overlay */}
-            <div className="absolute inset-0 bg-gradient-to-br from-white/3 via-transparent to-white/3 backdrop-blur-sm"></div>
-            
-            <div className="relative max-w-6xl mx-auto text-center">
-              {/* Breadcrumb */}
-              <nav className="mb-6 sm:mb-8">
-                <div className="flex items-center justify-center space-x-2 text-sm text-gray-300">
+            <div className="absolute inset-0 bg-[#141922]" />
+            <div className="absolute inset-0 bg-[url('/assets/images/background_home_page.avif')] bg-cover bg-center opacity-20" />
+            <div className="absolute inset-0 bg-gradient-to-b from-[#141922]/40 via-transparent to-[#141922]" />
+
+            <div className="relative max-w-4xl mx-auto text-center">
+              <nav className="mb-8">
+                <div className="flex items-center justify-center space-x-2 text-sm text-gray-400">
                   <Link href="/" className="hover:text-white transition-colors">Accueil</Link>
-                  <span>/</span>
-                  <span className="text-white">FAQ</span>
+                  <span className="text-gray-600">/</span>
+                  <span className="text-gray-200">FAQ</span>
                 </div>
               </nav>
 
-              <motion.h1 
-                className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6"
-                initial={{ opacity: 0, y: 30 }}
+              <MotionDiv
+                initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8 }}
+                transition={{ duration: 0.5 }}
               >
-                Questions Fréquentes
-              </motion.h1>
-              
-              <motion.p 
-                className="text-xl sm:text-2xl text-gray-300 mb-8 max-w-4xl mx-auto"
-                initial={{ opacity: 0, y: 30 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8, delay: 0.2 }}
-              >
-                Trouvez toutes les réponses à vos questions sur le marquage au sol, 
-                la peinture de parking et la réparation de chaussée
-              </motion.p>
-
-              <motion.div 
-                className="flex flex-col sm:flex-row gap-4 justify-center"
-                initial={{ opacity: 0, y: 30 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8, delay: 0.4 }}
-              >
-                <Link 
-                  href="/devis" 
-                  className="bg-blue-600 backdrop-blur-md border border-blue-400 text-white hover:bg-blue-700 hover:border-blue-300 px-8 py-3 rounded-xl font-semibold transition-all duration-300 shadow-lg"
-                >
-                  Demander un devis
-                </Link>
-                <Link 
-                  href="/qui-sommes-nous" 
-                  className="bg-white/10 backdrop-blur-md border border-white/20 text-white hover:bg-white/20 hover:border-white/30 px-8 py-3 rounded-xl font-semibold transition-all duration-300 shadow-lg"
-                >
-                  Nous Contacter
-                </Link>
-              </motion.div>
+                <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-5">
+                  Questions Fréquentes
+                </h1>
+                <p className="text-lg sm:text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+                  Trouvez toutes les réponses à vos questions sur le marquage au sol,
+                  la peinture de parking et la réparation de chaussée
+                </p>
+                <div className="flex flex-col sm:flex-row gap-3 justify-center">
+                  <Link
+                    href="/devis"
+                    className="bg-sky-500 hover:bg-sky-400 text-white font-semibold px-7 py-3 rounded-lg transition-colors duration-200"
+                  >
+                    Demander un devis
+                  </Link>
+                  <Link
+                    href="/qui-sommes-nous"
+                    className="border border-white/20 hover:border-white/40 text-white font-semibold px-7 py-3 rounded-lg transition-colors duration-200 hover:bg-white/5"
+                  >
+                    Nous Contacter
+                  </Link>
+                </div>
+              </MotionDiv>
             </div>
           </section>
 
           {/* FAQ Section */}
-          <section className="py-16 sm:py-20 px-4 relative overflow-hidden">
-            <div className="absolute inset-0 bg-gradient-to-br from-gray-800 via-gray-900 to-gray-800"></div>
-            
-            <div className="relative max-w-4xl mx-auto">
-              <motion.div
-                initial={{ opacity: 0, y: 30 }}
+          <section className="py-16 sm:py-20 px-4 bg-[#141922]">
+            <div className="max-w-3xl mx-auto">
+              <MotionDiv
+                initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8 }}
+                transition={{ duration: 0.5 }}
                 viewport={{ once: true }}
               >
                 <SEOFAQ faqs={faqs} className="space-y-6" />
-              </motion.div>
+              </MotionDiv>
             </div>
           </section>
 
           {/* CTA Section */}
-          <section className="py-16 sm:py-20 px-4 relative overflow-hidden">
-            <div className="absolute inset-0 bg-gradient-to-br from-gray-800 via-gray-900 to-gray-800"></div>
-            <div className="absolute inset-0 bg-[url('/assets/images/background_home_page.avif')] bg-cover bg-center opacity-20"></div>
-            
-            {/* Glassmorphism overlay */}
-            <div className="absolute inset-0 bg-gradient-to-br from-white/3 via-transparent to-white/3 backdrop-blur-sm"></div>
-            
-            <div className="relative max-w-4xl mx-auto text-center">
-              <motion.div
-                initial={{ opacity: 0, y: 30 }}
+          <section className="py-16 sm:py-20 px-4 relative overflow-hidden border-t border-white/5">
+            <div className="absolute inset-0 bg-[url('/assets/images/background_home_page.avif')] bg-cover bg-center opacity-15" />
+            <div className="absolute inset-0 bg-[#141922]/90" />
+
+            <div className="relative max-w-3xl mx-auto text-center">
+              <MotionDiv
+                initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8 }}
+                transition={{ duration: 0.5 }}
                 viewport={{ once: true }}
               >
-                <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
-                  Vous avez d'autres questions ?
+                <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4">
+                  Vous avez d&apos;autres questions ?
                 </h2>
-                <p className="text-xl text-gray-300 mb-8">
-                  Notre équipe d'experts est à votre disposition pour vous conseiller 
+                <p className="text-gray-400 mb-8">
+                  Notre équipe d&apos;experts est à votre disposition pour vous conseiller
                   et vous accompagner dans vos projets de marquage au sol.
                 </p>
-                <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <Link 
-                    href="/devis" 
-                    className="bg-white/10 backdrop-blur-md border border-white/20 text-white hover:bg-white/20 hover:border-white/30 px-8 py-3 rounded-xl font-semibold transition-all duration-300 shadow-lg"
+                <div className="flex flex-col sm:flex-row gap-3 justify-center">
+                  <Link
+                    href="/devis"
+                    className="bg-sky-500 hover:bg-sky-400 text-white font-semibold px-7 py-3 rounded-lg transition-colors duration-200"
                   >
                     Demander un Devis
                   </Link>
-                  <Link 
-                    href="/qui-sommes-nous" 
-                    className="bg-white/5 backdrop-blur-md border border-white/30 text-white hover:bg-white/15 hover:border-white/40 px-8 py-3 rounded-xl font-semibold transition-all duration-300 shadow-lg"
+                  <Link
+                    href="/qui-sommes-nous"
+                    className="border border-white/20 hover:border-white/40 text-white font-semibold px-7 py-3 rounded-lg transition-colors duration-200 hover:bg-white/5"
                   >
                     Nous Appeler
                   </Link>
                 </div>
-              </motion.div>
+              </MotionDiv>
             </div>
           </section>
         </SafariAnimationFix>

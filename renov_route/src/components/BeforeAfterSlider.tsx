@@ -8,7 +8,7 @@ interface BeforeAfterSliderProps {
   afterImage: string;
   beforeLabel?: string;
   afterLabel?: string;
-  alt?: string;
+  alt: string;
   className?: string;
 }
 
@@ -17,7 +17,7 @@ export default function BeforeAfterSlider({
   afterImage, 
   beforeLabel = "Avant", 
   afterLabel = "Après",
-  alt = "Comparaison avant/après",
+  alt,
   className = ""
 }: BeforeAfterSliderProps) {
   const [sliderPosition, setSliderPosition] = useState(50);

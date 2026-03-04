@@ -1,180 +1,88 @@
-'use client';
+'use client'
 
-import { useState, useMemo, useEffect, Suspense } from 'react';
-import { useSearchParams, useRouter } from 'next/navigation';
-import Hero from '@/components/realisations/Hero';
-import Filters, { FilterState } from '@/components/realisations/Filters';
-import CaseGrid from '@/components/realisations/CaseGrid';
-import FeaturedCase from '@/components/realisations/FeaturedCase';
-import CtaBand from '@/components/realisations/CtaBand';
-import CaseModal from '@/components/realisations/CaseModal';
-import SafariAnimationFix, { useSafariOptimization } from '@/components/SafariAnimationFix';
-import DynamicProjectMetadata from '@/components/DynamicProjectMetadata';
-import { caseStudies, CaseStudy } from '@/lib/data/case-studies';
+import { useState, useMemo, useEffect, Suspense } from 'react'
+import Hero from '@/components/realisations/Hero'
+import Filters, { FilterState } from '@/components/realisations/Filters'
+import CaseGrid from '@/components/realisations/CaseGrid'
+import FeaturedCase from '@/components/realisations/FeaturedCase'
+import CtaBand from '@/components/realisations/CtaBand'
+import SafariAnimationFix from '@/components/SafariAnimationFix'
+import { caseStudies } from '@/lib/data/case-studies'
 
 function RealisationsContent() {
-  const searchParams = useSearchParams();
-  const router = useRouter();
-  const { isSafari } = useSafariOptimization();
-
   const [filters, setFilters] = useState<FilterState>({
     categories: [],
     industries: [],
     years: [],
     search: ''
-  });
-  
-  const [selectedCase, setSelectedCase] = useState<CaseStudy | null>(null);
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const [visibleProjects, setVisibleProjects] = useState(9);
+  })
 
-  // Filter case studies based on current filters
+  const [visibleProjects, setVisibleProjects] = useState(9)
+
   const filteredCaseStudies = useMemo(() => {
     return caseStudies.filter(caseStudy => {
-      // Category filter - if categories are selected, case study must match one of them
       if (filters.categories.length > 0 && !filters.categories.includes(caseStudy.category)) {
-        return false;
+        return false
       }
-
-      // Industry filter - if industries are selected, case study must match one of them
       if (filters.industries.length > 0 && !filters.industries.includes(caseStudy.industry)) {
-        return false;
+        return false
       }
-
-      // Year filter - if years are selected, case study must match one of them
       if (filters.years.length > 0 && !filters.years.includes(caseStudy.year.toString())) {
-        return false;
+        return false
       }
-
-      // Search filter
       if (filters.search) {
-        const searchTerm = filters.search.toLowerCase();
+        const searchTerm = filters.search.toLowerCase()
         const searchableText = [
           caseStudy.title,
           caseStudy.client,
           caseStudy.industry,
           caseStudy.summary,
           ...caseStudy.stack
-        ].join(' ').toLowerCase();
-        
+        ].join(' ').toLowerCase()
         if (!searchableText.includes(searchTerm)) {
-          return false;
+          return false
         }
       }
+      return true
+    })
+  }, [filters])
 
-      return true;
-    });
-  }, [filters]);
+  const featuredCase = caseStudies[0]
 
-  // Get featured case study (first case)
-  const featuredCase = caseStudies[2];
-
-  // Get visible projects based on current filter and pagination
   const visibleCaseStudies = useMemo(() => {
-    return filteredCaseStudies.slice(0, visibleProjects);
-  }, [filteredCaseStudies, visibleProjects]);
+    return filteredCaseStudies.slice(0, visibleProjects)
+  }, [filteredCaseStudies, visibleProjects])
 
-  // Check if there are more projects to show
-  const hasMoreProjects = visibleProjects < filteredCaseStudies.length;
+  const hasMoreProjects = visibleProjects < filteredCaseStudies.length
 
-  // Reset visible projects when filters change
   useEffect(() => {
-    setVisibleProjects(9);
-  }, [filters]);
+    setVisibleProjects(9)
+  }, [filters])
 
   const handleLoadMore = () => {
-    setVisibleProjects(prev => Math.min(prev + 9, filteredCaseStudies.length));
-  };
-
-  const _handleOpenModal = (caseStudy: CaseStudy) => {
-    setSelectedCase(caseStudy);
-    setIsModalOpen(true);
-  };
-
-  const handleNavigateToProject = (caseStudy: CaseStudy) => {
-    // Sauvegarder la position de scroll dans sessionStorage avant la navigation
-    if (typeof window !== 'undefined') {
-      sessionStorage.setItem('realisations-scroll-position', window.scrollY.toString());
-    }
-    // Naviguer vers l'URL du projet au lieu d'ouvrir le modal
-    router.push(`/realisations?project=${caseStudy.id}`);
-  };
-
-  const handleCloseModal = () => {
-    // Fermer le modal
-    setIsModalOpen(false);
-    setSelectedCase(null);
-    
-    // Restaurer la position de scroll de manière invisible
-    if (typeof window !== 'undefined') {
-      const savedPosition = sessionStorage.getItem('realisations-scroll-position');
-      if (savedPosition) {
-        // Restaurer la position immédiatement et de manière invisible
-        // Utiliser un double requestAnimationFrame pour s'assurer que le DOM est prêt
-        requestAnimationFrame(() => {
-          requestAnimationFrame(() => {
-            window.scrollTo({
-              top: parseInt(savedPosition, 10),
-              left: 0,
-              behavior: 'instant' // Pas d'animation visible
-            });
-            
-            // Nettoyer la position sauvegardée
-            sessionStorage.removeItem('realisations-scroll-position');
-          });
-        });
-      }
-    }
-    
-    // Nettoyer l'URL en retirant le paramètre project
-    router.replace('/realisations', { scroll: false });
-  };
-
-  // Gérer l'ouverture automatique du modal basé sur le paramètre de requête
-  useEffect(() => {
-    const projectId = searchParams.get('project');
-    if (projectId) {
-      // Si on arrive directement sur la page avec un paramètre project (ex: depuis la page d'accueil),
-      // sauvegarder la position de scroll actuelle (qui est probablement 0)
-      if (typeof window !== 'undefined' && !sessionStorage.getItem('realisations-scroll-position')) {
-        sessionStorage.setItem('realisations-scroll-position', window.scrollY.toString());
-      }
-      
-      const caseStudy = caseStudies.find(cs => cs.id === projectId);
-      if (caseStudy) {
-        setSelectedCase(caseStudy);
-        setIsModalOpen(true);
-      }
-    }
-  }, [searchParams]);
+    setVisibleProjects(prev => Math.min(prev + 9, filteredCaseStudies.length))
+  }
 
   return (
     <SafariAnimationFix>
-      {/* Dynamic Metadata for Project Pages */}
-      <DynamicProjectMetadata />
-      
       {/* Hero Section */}
-      <Hero isSafari={isSafari} />
-
-      {/* Featured Case Study */}
-      {featuredCase && (
-        <section className="py-16">
-          <div className="container-custom">
-            <FeaturedCase 
-              caseStudy={featuredCase} 
-              onOpenModal={handleNavigateToProject}
-              isSafari={isSafari}
-            />
-          </div>
-        </section>
-      )}
+      <Hero />
 
       {/* Filters Section */}
-      <section id="case-studies" className="py-16">
+      <section id="case-studies" className="py-12">
         <div className="container-custom">
           <Filters onFilterChange={setFilters} />
         </div>
       </section>
+
+      {/* Featured Case Study */}
+      {featuredCase && (
+        <section className="py-8">
+          <div className="container-custom">
+            <FeaturedCase caseStudy={featuredCase} />
+          </div>
+        </section>
+      )}
 
       {/* Case Studies Grid */}
       <section id="projects-grid" className="py-16">
@@ -187,12 +95,8 @@ function RealisationsContent() {
               Affichage de {visibleCaseStudies.length} sur {filteredCaseStudies.length} projet{filteredCaseStudies.length > 1 ? 's' : ''} trouvé{filteredCaseStudies.length > 1 ? 's' : ''}
             </p>
           </div>
-          
-          <CaseGrid 
-            caseStudies={visibleCaseStudies} 
-            onOpenModal={handleNavigateToProject}
-            isSafari={isSafari}
-          />
+
+          <CaseGrid caseStudies={visibleCaseStudies} />
 
           {/* Load More Button */}
           {hasMoreProjects && (
@@ -207,7 +111,7 @@ function RealisationsContent() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                   </svg>
                 </span>
-                <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-[1rem] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-[1rem] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               </button>
             </div>
           )}
@@ -216,15 +120,8 @@ function RealisationsContent() {
 
       {/* CTA Band */}
       <CtaBand />
-
-      {/* Modal */}
-      <CaseModal
-        caseStudy={selectedCase}
-        isOpen={isModalOpen}
-        onClose={handleCloseModal}
-      />
     </SafariAnimationFix>
-  );
+  )
 }
 
 export default function ClientRealisationsContent() {
@@ -232,12 +129,12 @@ export default function ClientRealisationsContent() {
     <Suspense fallback={
       <div className="min-h-screen bg-gray-800 flex items-center justify-center">
         <div className="glassmorphism-card p-8 rounded-[2rem] border border-white/20 text-center">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-500 mx-auto mb-4"></div>
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-500 mx-auto mb-4" />
           <p className="text-white text-lg">Chargement des réalisations...</p>
         </div>
       </div>
     }>
       <RealisationsContent />
     </Suspense>
-  );
+  )
 }

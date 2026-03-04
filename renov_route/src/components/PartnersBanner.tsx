@@ -1,25 +1,30 @@
 'use client';
 
-import React, { useMemo, memo } from 'react';
+import React, { useMemo, memo, useCallback } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { partnerMappings, getFirstRelatedProject, PartnerMapping } from '@/lib/data/partner-mapping';
+import { useConversionTracking } from '@/components/AnalyticsTracker';
 
 // Composant optimisé pour chaque partenaire
 const PartnerItem = memo(({ partner, index, keyPrefix }: { partner: PartnerMapping; index: number; keyPrefix: string }) => {
   const relatedProject = useMemo(() => getFirstRelatedProject(partner.name), [partner.name]);
-  
+  const { trackPartnerClick } = useConversionTracking();
+
+  const handleClick = useCallback(() => {
+    trackPartnerClick(partner.name);
+  }, [trackPartnerClick, partner.name]);
+
   const logoContent = useMemo(() => (
     <div className="partner-logo">
       {partner.isImage ? (
         <Image
           src={partner.logo}
-          alt={`Logo ${partner.name} - Client Rénov Route pour marquage au sol et travaux de signalisation`}
+          alt={`Logo ${partner.name}`}
           width={100}
           height={100}
           quality={75}
-          priority={index < 6}
-          loading={index < 6 ? 'eager' : 'lazy'}
+          loading="lazy"
           className="partner-image"
           sizes="(max-width: 360px) 60px, (max-width: 480px) 70px, (max-width: 768px) 80px, 100px"
         />
@@ -27,13 +32,14 @@ const PartnerItem = memo(({ partner, index, keyPrefix }: { partner: PartnerMappi
         partner.logo
       )}
     </div>
-  ), [partner.isImage, partner.logo, partner.name, index]);
+  ), [partner.isImage, partner.logo, partner.name]);
 
   return (
     <div key={`${keyPrefix}-${index}`} className="partner-item">
       {relatedProject ? (
-        <Link 
-          href={`/realisations?project=${relatedProject}`}
+        <Link
+          href={`/realisations/${relatedProject}`}
+          onClick={handleClick}
           className="partner-link"
           title={`Voir les projets pour ${partner.name}`}
         >

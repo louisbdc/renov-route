@@ -1,15 +1,22 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Nos Compétences - Expert Traçage Marquage Routier',
-  description: 'Découvrez nos compétences en traçage marquage routier : réparation nids de poule, traçage parking, marquage routier, enrobé résine, entretien préventif. Solutions professionnelles pour tous vos besoins d\'infrastructure.',
-  keywords: 'compétences marquage routier, traçage parking professionnel, réparation nids de poule, signalisation verticale, résine de sol, accessoires parking, conseil expertise marquage, retraçage parking, marquage intérieur, bornes anti-bélier, ralentisseurs, butées parking',
-  // La canonique de section est retirée pour éviter d'écraser les canoniques des pages enfants
+  title: 'Compétences en Marquage Routier',
+  description: 'Nos compétences : traçage parking, réparation nids de poule, marquage routier, enrobé résine et entretien préventif. Solutions pro.',
+  alternates: {
+    canonical: 'https://renov-route.com/competences/',
+  },
   openGraph: {
-    title: 'Nos Compétences - Expert Traçage Marquage Routier | Renov Route',
-    description: 'Découvrez nos compétences en traçage marquage routier : réparation nids de poule, traçage parking, marquage routier, enrobé résine, entretien préventif.',
-    url: 'https://renov-route.com/competences',
-  }
+    title: 'Compétences en Marquage Routier | Rénov Route',
+    description: 'Nos compétences : traçage parking, réparation nids de poule, marquage routier, enrobé résine et entretien préventif.',
+    url: 'https://renov-route.com/competences/',
+    images: [{ url: 'https://renov-route.com/assets/images/og-image.jpg', width: 1200, height: 630, alt: 'Renov Route - Expert Marquage Routier' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Compétences en Marquage Routier',
+    description: 'Nos compétences : traçage parking, réparation nids de poule, marquage routier, enrobé résine et entretien préventif.',
+  },
 };
 
 export default function CompetencesLayout({

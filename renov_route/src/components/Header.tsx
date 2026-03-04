@@ -39,39 +39,40 @@ export default function Header() {
             {/* Logo */}
             <div className="flex items-center">
               <Link href="/" className="hover:opacity-80 transition-opacity duration-300 flex items-center space-x-2 sm:space-x-3" onClick={closeMobileMenu}>
-                <Image 
-                  src="/assets/logos/logo.avif" 
-                  alt="Rénov Route - Expert marquage au sol et réparation route Lyon" 
-                  width={32} 
+                <Image
+                  src="/assets/logos/logo.avif"
+                  alt="Rénov Route - Expert marquage au sol et réparation route Lyon"
+                  width={32}
                   height={32}
+                  priority
                   className="w-8 h-8 sm:w-10 sm:h-10 object-contain"
                 />
-                <h1 className="text-lg sm:text-2xl font-bold text-white">Renov-Route</h1>
+                <span className="text-lg sm:text-2xl font-bold text-white">Renov-Route</span>
               </Link>
             </div>
             
             {/* Desktop Navigation Links */}
             <nav className="hidden md:flex items-center space-x-8 lg:space-x-12">
-              <Link 
-                href="/" 
-                className="text-white/80 hover:text-white font-medium text-base lg:text-lg transition-all duration-300 hover:scale-105"
-              >
-                Accueil
-              </Link>
-              <Link 
+              <Link
                 href="/competences" 
                 className="text-white/80 hover:text-white font-medium text-base lg:text-lg transition-all duration-300 hover:scale-105"
               >
                 Compétences
               </Link>
-              <Link 
-                href="/realisations" 
+              <Link
+                href="/realisations"
                 className="text-white/80 hover:text-white font-medium text-base lg:text-lg transition-all duration-300 hover:scale-105"
               >
                 Réalisations
               </Link>
-              <Link 
-                href="/qui-sommes-nous" 
+              <Link
+                href="/guides"
+                className="text-white/80 hover:text-white font-medium text-base lg:text-lg transition-all duration-300 hover:scale-105"
+              >
+                Guides
+              </Link>
+              <Link
+                href="/qui-sommes-nous"
                 className="text-white/80 hover:text-white font-medium text-base lg:text-lg transition-all duration-300 hover:scale-105"
               >
                 Qui sommes-nous
@@ -111,29 +112,29 @@ export default function Header() {
             <div className="px-4 pb-4">
               <nav className="py-4">
                 <div className="space-y-2">
-                  <Link 
-                    href="/" 
-                    className="block text-white hover:text-gray-300 font-medium text-lg py-3 px-4 rounded-lg hover:bg-white/10 transition-all duration-300"
-                    onClick={closeMobileMenu}
-                  >
-                    Accueil
-                  </Link>
-                  <Link 
+                  <Link
                     href="/competences" 
                     className="block text-white hover:text-gray-300 font-medium text-lg py-3 px-4 rounded-lg hover:bg-white/10 transition-all duration-300"
                     onClick={closeMobileMenu}
                   >
                     Compétences
                   </Link>
-                  <Link 
-                    href="/realisations" 
+                  <Link
+                    href="/realisations"
                     className="block text-white hover:text-gray-300 font-medium text-lg py-3 px-4 rounded-lg hover:bg-white/10 transition-all duration-300"
                     onClick={closeMobileMenu}
                   >
                     Réalisations
                   </Link>
-                  <Link 
-                    href="/qui-sommes-nous" 
+                  <Link
+                    href="/guides"
+                    className="block text-white hover:text-gray-300 font-medium text-lg py-3 px-4 rounded-lg hover:bg-white/10 transition-all duration-300"
+                    onClick={closeMobileMenu}
+                  >
+                    Guides
+                  </Link>
+                  <Link
+                    href="/qui-sommes-nous"
                     className="block text-white hover:text-gray-300 font-medium text-lg py-3 px-4 rounded-lg hover:bg-white/10 transition-all duration-300"
                     onClick={closeMobileMenu}
                   >

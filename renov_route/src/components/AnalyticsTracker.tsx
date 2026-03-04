@@ -1,32 +1,20 @@
 'use client'
 
 import { useEffect } from 'react'
-import { useAnalytics, initializeAnalytics } from '@/lib/analytics'
+import { usePathname } from 'next/navigation'
+import { GoogleAnalytics, initializeAnalytics, useAnalytics } from '@/lib/analytics'
 import { CookieManager } from '@/lib/cookies'
 
-interface AnalyticsTrackerProps {
-  pageTitle: string
-  pagePath: string
-  children: React.ReactNode
-}
-
-// Composant pour tracker automatiquement les pages
-export default function AnalyticsTracker({ 
-  pageTitle, 
-  pagePath, 
-  children 
-}: AnalyticsTrackerProps) {
-  const analytics = useAnalytics()
+// Tracker automatique — détecte la route courante via usePathname
+export default function AnalyticsTracker() {
+  const pathname = usePathname()
 
   useEffect(() => {
-    // Initialiser l'analytics si pas encore fait
     initializeAnalytics()
-    
-    // Tracker la page vue
-    analytics.trackPageView(pagePath, pageTitle)
-  }, [pagePath, pageTitle, analytics])
+    GoogleAnalytics.getInstance().trackPageView(pathname, document.title)
+  }, [pathname])
 
-  return <>{children}</>
+  return null
 }
 
 // Hook pour tracker les interactions utilisateur
@@ -197,7 +185,6 @@ export function PartnerTracker({
 export function CookieStats() {
   const stats = CookieManager.getCookieStats()
   const consent = CookieManager.getConsent()
-  const preferences = CookieManager.getPreferences()
   const conversion = CookieManager.getConversionTracking()
 
   if (process.env.NODE_ENV !== 'development') {
@@ -206,21 +193,14 @@ export function CookieStats() {
 
   return (
     <div className="fixed bottom-4 right-4 bg-white border border-gray-300 rounded-lg shadow-lg p-4 max-w-sm text-xs">
-      <h4 className="font-semibold mb-2">🍪 Cookie Stats (Dev)</h4>
+      <h4 className="font-semibold mb-2">Cookie Stats (Dev)</h4>
       <div className="space-y-1">
         <div>Total cookies: {stats.total}</div>
         <div>Essentiels: {stats.essential}</div>
         <div>Non-essentiels: {stats.nonEssential}</div>
-        <div>Consentement: {consent ? '✓' : '✗'}</div>
+        <div>Consentement: {consent ? 'oui' : 'non'}</div>
         {consent && (
-          <>
-            <div>Analytics: {consent.analytics ? '✓' : '✗'}</div>
-            <div>Marketing: {consent.marketing ? '✓' : '✗'}</div>
-            <div>Préférences: {consent.preferences ? '✓' : '✗'}</div>
-          </>
-        )}
-        {preferences && (
-          <div>Région: {preferences.region || 'Non définie'}</div>
+          <div>Analytics: {consent.analytics ? 'oui' : 'non'}</div>
         )}
         {conversion && (
           <div>Pages visitées: {conversion.visitedPages.length}</div>

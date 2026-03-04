@@ -1,6 +1,12 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { createContext, useContext, useEffect, useState } from 'react';
+
+const SafariContext = createContext(false);
+
+export function useSafari(): boolean {
+  return useContext(SafariContext);
+}
 
 /**
  * Hook pour détecter Safari et appliquer des optimisations spécifiques
@@ -62,8 +68,10 @@ export default function SafariAnimationFix({ children, className = '' }: SafariA
   const animatingClasses = isAnimating ? 'animating' : '';
 
   return (
-    <div className={`${safariClasses} ${animatingClasses} ${className}`}>
-      {children}
-    </div>
+    <SafariContext.Provider value={isSafari}>
+      <div className={`${safariClasses} ${animatingClasses} ${className}`}>
+        {children}
+      </div>
+    </SafariContext.Provider>
   );
 }

@@ -57,7 +57,7 @@ export const partnerMappings: PartnerMapping[] = [
   },
   { 
     name: 'Armée de Terre', 
-    logo: '/assets/images/references/Logo_of_the_French_Army.png', 
+    logo: '/assets/images/references/Logo_of_the_French_Army.jpg', 
     isImage: true,
     relatedProjects: [] // Aucun projet Armée de Terre dans les données actuelles
   },

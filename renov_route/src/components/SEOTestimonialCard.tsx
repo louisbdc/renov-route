@@ -156,7 +156,7 @@ export default function SEOTestimonialCard({
                       <Image
                         key={index}
                         src={image}
-                        alt={`Image ${index + 1}`}
+                        alt={`Photo du projet ${testimonial.project ?? testimonial.service ?? 'Renov Route'}`}
                         width={64}
                         height={64}
                         className="w-16 h-16 rounded object-cover"

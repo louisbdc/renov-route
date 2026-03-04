@@ -1,0 +1,260 @@
+# Configuration OVH pour Next.js Static Export
+# Ce fichier gère le routage, la compression, le cache et les performances
+# Généré automatiquement après chaque build
+
+# ============================================
+# ACTIVATION DU RÉÉCRITURE D'URL
+# ============================================
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Forcer HTTPS (décommentez si vous avez un certificat SSL)
+  # RewriteCond %{HTTPS} off
+  # RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+  # Rediriger www vers non-www (ou inversement selon votre préférence)
+  # RewriteCond %{HTTP_HOST} ^www.(.*)$ [NC]
+  # RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+
+  # ============================================
+  # REDIRECTIONS 301 DES ANCIENNES URLs
+  # (doivent être placées AVANT la règle générale de routage)
+  # ============================================
+
+  # Page d'accueil
+  RewriteRule ^index\.html?$ / [R=301,L]
+  RewriteRule ^home\.html?$ / [R=301,L]
+  RewriteRule ^accueil\.html?$ / [R=301,L]
+
+  # Redirections spécifiques des anciennes URLs du site
+  RewriteRule ^marquage-routier-lyon-69/?$ /competences/tracage-retracage-parking [R=301,L]
+  RewriteRule ^contact/?$ /qui-sommes-nous [R=301,L]
+  RewriteRule ^blank-1/?$ /competences/resine-sol-marquage-interieur [R=301,L]
+  RewriteRule ^blank/?$ /competences/resine-sol-marquage-interieur [R=301,L]
+  RewriteRule ^peinture-marquage-sol-parking-lyon/?$ /competences/tracage-retracage-parking [R=301,L]
+  RewriteRule ^rebouchage-nids-poules-rhones-alpes/?$ /competences/reparation-nids-de-poule [R=301,L]
+  RewriteRule ^marquage/?$ /competences/tracage-retracage-parking [R=301,L]
+  RewriteRule ^renov-route/?$ /competences [R=301,L]
+
+  # Redirections géographiques vers les compétences correspondantes
+  RewriteRule ^marquage-parking-([^/]+)/?$ /competences/tracage-retracage-parking [R=301,L]
+  RewriteRule ^marquage([^/]+)/?$ /competences/tracage-retracage-parking [R=301,L]
+  RewriteRule ^tracage-parking-([^/]+)/?$ /competences/tracage-retracage-parking [R=301,L]
+  RewriteRule ^marquage-routier-([^/]+)/?$ /competences/tracage-retracage-parking [R=301,L]
+  RewriteRule ^reparation-nids-poule-([^/]+)/?$ /competences/reparation-nids-de-poule [R=301,L]
+  RewriteRule ^signalisation-([^/]+)/?$ /competences/signalisation-verticale [R=301,L]
+  RewriteRule ^accessoires-parking-([^/]+)/?$ /competences/accessoires-parking [R=301,L]
+  RewriteRule ^resine-sol-([^/]+)/?$ /competences/resine-sol-marquage-interieur [R=301,L]
+  RewriteRule ^conseil-expertise-([^/]+)/?$ /competences/conseil-expertise [R=301,L]
+
+  # Page compétences
+  RewriteRule ^services\.html?$ /competences [R=301,L]
+  RewriteRule ^prestations\.html?$ /competences [R=301,L]
+  RewriteRule ^nos-services\.html?$ /competences [R=301,L]
+
+  # Page qui sommes-nous
+  RewriteRule ^about\.html?$ /qui-sommes-nous [R=301,L]
+  RewriteRule ^a-propos\.html?$ /qui-sommes-nous [R=301,L]
+  RewriteRule ^equipe\.html?$ /qui-sommes-nous [R=301,L]
+
+  # Page réalisations (maintenant section sur la page d'accueil)
+  RewriteRule ^portfolio\.html?$ /#realisations [R=301,L]
+  RewriteRule ^projets\.html?$ /#realisations [R=301,L]
+  RewriteRule ^galerie\.html?$ /#realisations [R=301,L]
+  RewriteRule ^travaux\.html?$ /#realisations [R=301,L]
+  RewriteRule ^realisations/?$ /#realisations [R=301,L]
+
+  # Page devis/contact (maintenant section sur la page d'accueil)
+  RewriteRule ^contact\.html?$ /#contact [R=301,L]
+  RewriteRule ^demande-devis\.html?$ /#contact [R=301,L]
+  RewriteRule ^estimation\.html?$ /#contact [R=301,L]
+  RewriteRule ^devis/?$ /#contact [R=301,L]
+
+  # Pages de compétences spécifiques
+  RewriteRule ^marquage-parking\.html?$ /competences/tracage-retracage-parking [R=301,L]
+  RewriteRule ^tracage-parking\.html?$ /competences/tracage-retracage-parking [R=301,L]
+  RewriteRule ^retracage-parking\.html?$ /competences/tracage-retracage-parking [R=301,L]
+
+  RewriteRule ^panneaux-signalisation\.html?$ /competences/signalisation-verticale [R=301,L]
+  RewriteRule ^signalisation\.html?$ /competences/signalisation-verticale [R=301,L]
+  RewriteRule ^panneaux\.html?$ /competences/signalisation-verticale [R=301,L]
+
+  RewriteRule ^resine-sol\.html?$ /competences/resine-sol-marquage-interieur [R=301,L]
+  RewriteRule ^marquage-interieur\.html?$ /competences/resine-sol-marquage-interieur [R=301,L]
+  RewriteRule ^revetement-sol\.html?$ /competences/resine-sol-marquage-interieur [R=301,L]
+
+  RewriteRule ^reparation-route\.html?$ /competences/reparation-nids-de-poule [R=301,L]
+  RewriteRule ^nids-poule\.html?$ /competences/reparation-nids-de-poule [R=301,L]
+  RewriteRule ^reparation-chaussee\.html?$ /competences/reparation-nids-de-poule [R=301,L]
+
+  RewriteRule ^equipements-parking\.html?$ /competences/accessoires-parking [R=301,L]
+  RewriteRule ^bornes-parking\.html?$ /competences/accessoires-parking [R=301,L]
+  RewriteRule ^accessoires\.html?$ /competences/accessoires-parking [R=301,L]
+
+  RewriteRule ^conseil\.html?$ /competences/conseil-expertise [R=301,L]
+  RewriteRule ^expertise\.html?$ /competences/conseil-expertise [R=301,L]
+  RewriteRule ^accompagnement\.html?$ /competences/conseil-expertise [R=301,L]
+
+  # Redirections avec paramètres
+  RewriteRule ^services/([^/]+)\.html?$ /competences [R=301,L]
+  RewriteRule ^competences/([^/]+)\.html?$ /competences/$1 [R=301,L]
+
+  # Redirections d'anciens formats d'URL
+  RewriteRule ^page/([^/]+)\.html?$ /$1 [R=301,L]
+  RewriteRule ^category/([^/]+)\.html?$ /competences/$1 [R=301,L]
+
+  # Redirections de l'ancien site
+  RewriteRule ^old-site/(.*)$ /$1 [R=301,L]
+  RewriteRule ^ancien-site/(.*)$ /$1 [R=301,L]
+
+  # Redirection spécifique pour /competences/ vers /competences.html
+  RewriteRule ^competences/?$ /competences.html [R=301,L]
+
+  # Supprimer les trailing slashes pour les fichiers (sauf pour les dossiers)
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.*)/$ /$1 [R=301,L]
+
+  # ============================================
+  # ROUTAGE NEXT.JS
+  # (doit être en dernier pour gérer les routes non trouvées)
+  # ============================================
+  # Gérer les routes Next.js - si le fichier ou dossier n'existe pas, rediriger vers index.html
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_URI} !^/_next/
+  RewriteRule ^(.*)$ /index.html [L]
+</IfModule>
+
+# ============================================
+# COMPRESSION GZIP
+# ============================================
+<IfModule mod_deflate.c>
+  # Compresser les fichiers HTML, CSS, JavaScript, Text, XML et fonts
+  AddOutputFilterByType DEFLATE text/html
+  AddOutputFilterByType DEFLATE text/plain
+  AddOutputFilterByType DEFLATE text/xml
+  AddOutputFilterByType DEFLATE text/css
+  AddOutputFilterByType DEFLATE text/javascript
+  AddOutputFilterByType DEFLATE application/xml
+  AddOutputFilterByType DEFLATE application/xhtml+xml
+  AddOutputFilterByType DEFLATE application/rss+xml
+  AddOutputFilterByType DEFLATE application/javascript
+  AddOutputFilterByType DEFLATE application/x-javascript
+  AddOutputFilterByType DEFLATE application/json
+  AddOutputFilterByType DEFLATE application/ld+json
+  AddOutputFilterByType DEFLATE image/svg+xml
+  AddOutputFilterByType DEFLATE font/truetype
+  AddOutputFilterByType DEFLATE font/opentype
+  AddOutputFilterByType DEFLATE application/vnd.ms-fontobject
+  AddOutputFilterByType DEFLATE application/x-font-ttf
+  AddOutputFilterByType DEFLATE font/woff
+  AddOutputFilterByType DEFLATE font/woff2
+</IfModule>
+
+# ============================================
+# EN-TÊTES DE CACHE
+# ============================================
+<IfModule mod_expires.c>
+  ExpiresActive On
+
+  # Images - Cache 1 an
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/jpg "access plus 1 year"
+  ExpiresByType image/gif "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/avif "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType image/x-icon "access plus 1 year"
+
+  # Vidéos - Cache 1 an
+  ExpiresByType video/mp4 "access plus 1 year"
+  ExpiresByType video/webm "access plus 1 year"
+
+  # Fonts - Cache 1 an
+  ExpiresByType font/ttf "access plus 1 year"
+  ExpiresByType font/otf "access plus 1 year"
+  ExpiresByType font/woff "access plus 1 year"
+  ExpiresByType font/woff2 "access plus 1 year"
+  ExpiresByType application/font-woff "access plus 1 year"
+
+  # CSS et JavaScript - Cache 1 semaine (avec versioning Next.js, c'est suffisant)
+  ExpiresByType text/css "access plus 1 week"
+  ExpiresByType application/javascript "access plus 1 week"
+  ExpiresByType text/javascript "access plus 1 week"
+
+  # HTML - Pas de cache (toujours frais)
+  ExpiresByType text/html "access plus 0 seconds"
+
+  # JSON et XML - Cache 1 jour
+  ExpiresByType application/json "access plus 1 day"
+  ExpiresByType application/xml "access plus 1 day"
+  ExpiresByType text/xml "access plus 1 day"
+</IfModule>
+
+# ============================================
+# EN-TÊTES DE SÉCURITÉ
+# ============================================
+<IfModule mod_headers.c>
+  # Sécurité des en-têtes
+  Header set X-Content-Type-Options "nosniff"
+  Header set X-Frame-Options "SAMEORIGIN"
+  Header set X-XSS-Protection "1; mode=block"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+
+  # Politique de sécurité du contenu (ajustez selon vos besoins)
+  # Header set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://fonts.googleapis.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self';"
+
+  # Cache Control pour les fichiers statiques Next.js
+  <FilesMatch "\.(js|css|png|jpg|jpeg|gif|ico|svg|woff|woff2|ttf|eot|avif|webp)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+
+  # Pas de cache pour HTML
+  <FilesMatch "\.(html|htm)$">
+    Header set Cache-Control "no-cache, no-store, must-revalidate"
+    Header set Pragma "no-cache"
+    Header set Expires "0"
+  </FilesMatch>
+</IfModule>
+
+# ============================================
+# GESTION DES ERREURS
+# ============================================
+ErrorDocument 404 /404.html
+
+# ============================================
+# PROTECTION DES FICHIERS SENSIBLES
+# ============================================
+<FilesMatch "^\.">
+  Order allow,deny
+  Deny from all
+</FilesMatch>
+
+# ============================================
+# OPTIMISATIONS PERFORMANCES
+# ============================================
+# Désactiver l'affichage de la liste des répertoires
+Options -Indexes
+
+# Activer le suivi des liens symboliques
+Options +FollowSymLinks
+
+# ============================================
+# ENCODAGE DES CARACTÈRES
+# ============================================
+AddDefaultCharset UTF-8
+<IfModule mod_mime.c>
+  AddCharset UTF-8 .html .css .js .xml .json .rss .atom
+</IfModule>
+
+# ============================================
+# TYPE MIME POUR LES NOUVEAUX FORMATS
+# ============================================
+<IfModule mod_mime.c>
+  AddType image/avif .avif
+  AddType image/webp .webp
+  AddType font/woff2 .woff2
+  AddType application/manifest+json .webmanifest
+</IfModule>

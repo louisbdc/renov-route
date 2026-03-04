@@ -8,7 +8,7 @@ interface BeforeAfterProps {
   afterImage: string;
   beforeLabel?: string;
   afterLabel?: string;
-  alt?: string;
+  alt: string;
   className?: string;
 }
 
@@ -17,7 +17,7 @@ export default function BeforeAfter({
   afterImage, 
   beforeLabel = "Avant", 
   afterLabel = "Après",
-  alt = "Comparaison avant/après",
+  alt,
   className = ""
 }: BeforeAfterProps) {
   const [isHovered, setIsHovered] = useState(false);

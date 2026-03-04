@@ -5,6 +5,7 @@
 # Règles générales pour tous les robots
 User-agent: *
 Allow: /
+Allow: /_next/static/
 
 # Interdire l'indexation des fichiers techniques
 Disallow: /_next/
@@ -14,10 +15,7 @@ Disallow: /private/
 Disallow: /scripts/
 Disallow: /out/
 Disallow: /*.json$
-Disallow: /*.js$
-Disallow: /*.css$
 Disallow: /*.map$
-Disallow: /*.txt$
 
 # Autoriser les pages importantes
 Allow: /competences/
@@ -40,7 +38,6 @@ Allow: /*.avif$
 # Règles spécifiques pour Google
 User-agent: Googlebot
 Allow: /
-Crawl-delay: 1
 
 # Règles spécifiques pour Bing
 User-agent: Bingbot
@@ -84,8 +81,3 @@ Crawl-delay: 2
 
 # Sitemaps
 Sitemap: https://renov-route.com/sitemap.xml
-
-# Informations de contact
-# Contact: contact@renov-route.com
-# Host: renov-route.com
-# Dernière mise à jour: 2025-01-15

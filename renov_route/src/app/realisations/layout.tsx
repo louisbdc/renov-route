@@ -1,17 +1,22 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Nos Réalisations - Projets Traçage Marquage Routier',
-  description: 'Découvrez nos réalisations en traçage marquage routier : projets parking, marquage routier, réparation nids de poule. Portfolio de 1000+ projets réalisés avec succès.',
-  keywords: 'réalisations marquage routier, portfolio projets parking, projets traçage parking, réalisations réparation nids poule, projets Carrefour, projets Lidl, projets Intermarché, portfolio Renov Route',
+  title: 'Réalisations - Projets Marquage Routier',
+  description: 'Nos réalisations : traçage parking, marquage routier, réparation nids de poule. Plus de 1000 projets réalisés en France.',
   alternates: {
-    canonical: 'https://renov-route.com/realisations',
+    canonical: 'https://renov-route.com/realisations/',
   },
   openGraph: {
-    title: 'Nos Réalisations - Projets Traçage Marquage Routier | Renov Route',
-    description: 'Découvrez nos réalisations en traçage marquage routier : projets parking, marquage routier, réparation nids de poule. Portfolio de 1000+ projets réalisés avec succès.',
-    url: 'https://renov-route.com/realisations',
-  }
+    title: 'Réalisations - Projets Marquage Routier | Rénov Route',
+    description: 'Nos réalisations : traçage parking, marquage routier, réparation nids de poule. Plus de 1000 projets réalisés en France.',
+    url: 'https://renov-route.com/realisations/',
+    images: [{ url: 'https://renov-route.com/assets/images/og-image.jpg', width: 1200, height: 630, alt: 'Renov Route - Expert Marquage Routier' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Réalisations - Projets Marquage Routier',
+    description: 'Nos réalisations : traçage parking, marquage routier, réparation nids de poule. Plus de 1000 projets réalisés en France.',
+  },
 };
 
 export default function RealisationsLayout({

@@ -1,12 +1,16 @@
-import { Suspense } from 'react';
-import Layout from '@/components/Layout';
-import ClientRealisationsContent from '@/components/realisations/ClientRealisationsContent';
-import Script from 'next/script';
+import { Suspense } from 'react'
+import Layout from '@/components/Layout'
+import ClientRealisationsContent from '@/components/realisations/ClientRealisationsContent'
+import BreadcrumbSchema from '@/components/BreadcrumbSchema'
+import Script from 'next/script'
 
 export default function RealisationsPage() {
   return (
     <>
-      {/* Métadonnées gérées via metadata dans `layout.tsx` */}
+      <BreadcrumbSchema items={[
+        { name: "Accueil", url: "https://renov-route.com/" },
+        { name: "Réalisations", url: "https://renov-route.com/realisations/" }
+      ]} />
       <Script
         id="ldjson-realisations"
         type="application/ld+json"
@@ -57,10 +61,10 @@ export default function RealisationsPage() {
       />
       <Layout>
         <Suspense fallback={
-          <div className="min-h-screen bg-gray-800 flex items-center justify-center">
-            <div className="glassmorphism-card p-8 rounded-[2rem] border border-white/20 text-center">
-              <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-500 mx-auto mb-4"></div>
-              <p className="text-white text-lg">Chargement des réalisations...</p>
+          <div className="min-h-screen bg-[#141922] flex items-center justify-center">
+            <div className="text-center">
+              <div className="animate-spin rounded-full h-10 w-10 border-b-2 border-sky-500 mx-auto mb-4" />
+              <p className="text-gray-400">Chargement des réalisations...</p>
             </div>
           </div>
         }>
@@ -68,5 +72,5 @@ export default function RealisationsPage() {
         </Suspense>
       </Layout>
     </>
-  );
+  )
 }
