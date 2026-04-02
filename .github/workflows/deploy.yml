@@ -24,7 +24,37 @@ jobs:
         run: npx next build
         working-directory: renov_route
 
-      - name: Deploy to FTP
+      - name: Clean stale files from FTP root
+        run: |
+          sudo apt-get install -y lftp
+          lftp -u "$FTP_USERNAME","$FTP_PASSWORD" "$FTP_HOST" <<'SCRIPT'
+          # Remove files/folders deployed to root by mistake (keep www/ and other system dirs)
+          glob -a rm -f /*.html
+          glob -a rm -f /*.txt
+          glob -a rm -f /*.xml
+          glob -a rm -f /*.json
+          glob -a rm -f /*.js
+          glob -a rm -f /*.ico
+          glob -a rm -rf /_next
+          glob -a rm -rf /assets
+          glob -a rm -rf /competences
+          glob -a rm -rf /devis
+          glob -a rm -rf /faq
+          glob -a rm -rf /guides
+          glob -a rm -rf /marquage-au-sol-lyon
+          glob -a rm -rf /mentions-legales
+          glob -a rm -rf /privacy-policy
+          glob -a rm -rf /qui-sommes-nous
+          glob -a rm -rf /realisations
+          rm -f /.ftp-deploy-sync-state.json
+          bye
+          SCRIPT
+        env:
+          FTP_HOST: ${{ secrets.FTP_HOST }}
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+
+      - name: Deploy to www/
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ secrets.FTP_HOST }}
