@@ -4,9 +4,11 @@ import ServiceStructuredData from '@/components/ServiceStructuredData'
 import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import ServicePageLayout, {
   ServiceItemsGrid,
-  ServiceSteps,
   ServiceFAQ,
 } from '@/components/ServicePageLayout'
+import ServiceCaseStudy from '@/components/ServiceCaseStudy'
+import ServiceProcessTimeline from '@/components/ServiceProcessTimeline'
+import RelatedGuides, { COMPETENCE_GUIDES } from '@/components/RelatedGuides'
 import Link from 'next/link'
 import {
   TbClipboardList,
@@ -74,11 +76,14 @@ export default function ConseilExpertisePage() {
         heroIcon={<TbClipboardList size={28} />}
         heroTitle="Conseil & expertise"
         heroSubtitle="De l'audit de votre infrastructure à la réception du chantier : un accompagnement technique complet pour vos projets de voirie et de marquage."
+        heroBackgroundImage="/assets/images/xavier-de-caumont.jpg"
+        heroImageAlt="Xavier de Caumont, expert marquage routier et conseil technique chez Rénov Route"
+        accentColor="sky"
         descriptionHeading="Un accompagnement technique sur mesure"
         descriptionParagraphs={[
-          <>Chaque projet d&apos;infrastructure est unique. Notre équipe vous accompagne de la conception à la réalisation en s&apos;appuyant sur plus de 10 ans d&apos;expérience dans le <Link href="/competences/tracage-retracage-parking" className="text-sky-400 hover:text-sky-300 underline">marquage de parking</Link>, la <Link href="/competences/signalisation-verticale" className="text-sky-400 hover:text-sky-300 underline">signalisation verticale</Link> et les <Link href="/competences/resine-sol-marquage-interieur" className="text-sky-400 hover:text-sky-300 underline">revêtements en résine</Link>.</>,
+          <>Chaque projet d&apos;infrastructure est unique. Notre équipe vous accompagne de la conception à la réalisation en s&apos;appuyant sur plus de 10 ans d&apos;expérience dans le <Link href="/competences/tracage-retracage-parking" className="text-amber-400 hover:text-amber-300 underline">marquage de parking</Link>, la <Link href="/competences/signalisation-verticale" className="text-amber-400 hover:text-amber-300 underline">signalisation verticale</Link> et les <Link href="/competences/resine-sol-marquage-interieur" className="text-amber-400 hover:text-amber-300 underline">revêtements en résine</Link>.</>,
           'Nous vous aidons à identifier les solutions les plus adaptées à vos contraintes techniques et budgétaires, à anticiper les problèmes réglementaires et à planifier vos travaux pour minimiser les perturbations.',
-          <>Notre approche collaborative garantit une compréhension précise de vos enjeux et des recommandations réellement utiles. Découvrez nos <Link href="/realisations" className="text-sky-400 hover:text-sky-300 underline">projets réalisés</Link> ou <Link href="/devis" className="text-sky-400 hover:text-sky-300 underline">demandez un devis gratuit</Link>.</>,
+          <>Notre approche collaborative garantit une compréhension précise de vos enjeux et des recommandations réellement utiles. Découvrez nos <Link href="/realisations" className="text-amber-400 hover:text-amber-300 underline">projets réalisés</Link> ou <Link href="/devis" className="text-amber-400 hover:text-amber-300 underline">demandez un devis gratuit</Link>.</>,
         ]}
         features={FEATURES}
         ctaTitle="Un projet à évaluer ?"
@@ -90,7 +95,37 @@ export default function ConseilExpertisePage() {
           items={SERVICES}
           alt
         />
-        <ServiceSteps title="Notre méthode d'accompagnement" steps={STEPS} />
+        <ServiceCaseStudy
+          title="Exemples de missions"
+          subtitle="Quelques projets d'accompagnement réalisés."
+          cases={[
+            {
+              client: 'Copropriété 120 places — Lyon 6e',
+              problem: 'Parking vieillissant avec marquage illisible et signalisation non conforme PMR.',
+              solution: 'Audit complet, plan de rénovation en 3 phases, coordination des travaux de marquage et signalisation.',
+              result: 'Mise en conformité totale, réduction de 30% du budget initial grâce à l\'optimisation du phasage.',
+            },
+            {
+              client: 'Entrepôt logistique — Saint-Priest',
+              problem: 'Sol béton fissuré, zones de circulation non délimitées, risques de collision.',
+              solution: 'Diagnostic sol, préconisation résine + marquage de sécurité, planning d\'intervention hors exploitation.',
+              result: 'Zéro interruption d\'activité, sol remis à neuf avec marquage réglementaire complet.',
+            },
+          ]}
+        />
+        <ServiceProcessTimeline
+          title="Notre méthode d'accompagnement"
+          steps={STEPS.map((s, i) => ({
+            ...s,
+            image: [undefined, '/assets/images/processus/diagnostic.webp', undefined, '/assets/images/processus/reception.webp'][i],
+          }))}
+          alt
+        />
+        <RelatedGuides
+          title="Guides rénovation & conformité"
+          subtitle="Coûts, normes PMR et conseils pour vos projets de rénovation."
+          guides={COMPETENCE_GUIDES['conseil-expertise']}
+        />
         <ServiceFAQ items={FAQ} alt />
       </ServicePageLayout>
     </>

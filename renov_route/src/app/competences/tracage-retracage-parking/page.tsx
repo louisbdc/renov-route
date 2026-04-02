@@ -4,9 +4,11 @@ import ServiceStructuredData from '@/components/ServiceStructuredData'
 import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import ServicePageLayout, {
   ServiceItemsGrid,
-  ServiceSteps,
   ServiceFAQ,
 } from '@/components/ServicePageLayout'
+import ServiceProcessTimeline from '@/components/ServiceProcessTimeline'
+import ServiceBeforeAfter from '@/components/ServiceBeforeAfter'
+import RelatedGuides, { COMPETENCE_GUIDES } from '@/components/RelatedGuides'
 import Link from 'next/link'
 import {
   TbParking,
@@ -46,7 +48,7 @@ const SERVICES = [
 const STEPS = [
   { step: '01', title: 'Analyse du site', description: 'Visite sur place, étude du plan de circulation et identification des contraintes spécifiques.' },
   { step: '02', title: 'Plan de marquage', description: "Conception du plan d'implantation adapté à votre configuration et vos besoins." },
-  { step: '03', title: 'Préparation', description: 'Nettoyage haute pression de la surface, traitement des zones dégradées si nécessaire.' },
+  { step: '03', title: 'Préparation', description: 'Balayage mécanique de la surface, effacement de l\'ancien marquage et réparation des zones dégradées si nécessaire.' },
   { step: '04', title: 'Réalisation', description: 'Application du marquage avec contrôle qualité en fin de chantier avant réception.' },
 ]
 
@@ -95,13 +97,16 @@ export default function TracageRetracageParkingPage() {
       <ServicePageLayout
         breadcrumb={BREADCRUMB}
         heroIcon={<TbParking size={28} />}
-        heroTitle="Traçage & retraçage de parking"
-        heroSubtitle="Un parking bien marqué améliore la circulation, optimise l'espace et renforce la sécurité. Marquage professionnel conforme aux normes en vigueur."
-        descriptionHeading="Marquage de parking professionnel"
+        heroTitle="Marquage au sol parking — Traçage & retraçage"
+        heroSubtitle="Un marquage de parking professionnel améliore la circulation, optimise l'espace et renforce la sécurité. Traçage conforme aux normes en vigueur."
+        heroBackgroundImage="/assets/images/realisations/lidl-verpiliere-parking_1.avif"
+        heroImageAlt="Traçage de parking Lidl La Verpilière par Rénov Route"
+        accentColor="amber"
+        descriptionHeading="Marquage au sol parking : une expertise complète"
         descriptionParagraphs={[
-          'Le marquage de parking est un élément déterminant pour l\'image de votre établissement. Un parking bien tracé améliore la circulation, optimise l\'utilisation de l\'espace et renforce la sécurité des usagers.',
-          <>Notre expertise couvre tous types de parkings : centres commerciaux, entreprises, hôtels, industries, restaurants et espaces publics. Nous utilisons des peintures haute qualité et des techniques professionnelles pour une durabilité exceptionnelle. Si votre sol présente des dégradations, nous assurons également la <Link href="/competences/reparation-nids-de-poule" className="text-sky-400 hover:text-sky-300 underline">réparation de nids de poule</Link> avant le traçage.</>,
-          <>Nous respectons les normes en vigueur et nous adaptons à vos besoins spécifiques — y compris les travaux d&apos;accessibilité PMR et la pose d&apos;<Link href="/competences/accessoires-parking" className="text-sky-400 hover:text-sky-300 underline">accessoires de parking</Link> (bornes, butées, ralentisseurs). Découvrez nos <Link href="/realisations" className="text-sky-400 hover:text-sky-300 underline">projets réalisés</Link>.</>,
+          'Le marquage au sol de parking est un élément déterminant pour l\'image de votre établissement. Un parking bien marqué améliore la circulation, optimise l\'utilisation de l\'espace et renforce la sécurité des usagers.',
+          <>Notre expertise couvre tous types de parkings : centres commerciaux, entreprises, hôtels, industries, restaurants et espaces publics. Nous utilisons des peintures haute qualité et des techniques professionnelles pour une durabilité exceptionnelle. Si votre sol présente des dégradations, nous assurons également la <Link href="/competences/reparation-nids-de-poule" className="text-amber-400 hover:text-amber-300 underline">réparation de nids de poule</Link> avant le traçage.</>,
+          <>Nous respectons les normes en vigueur et nous adaptons à vos besoins spécifiques — y compris les travaux d&apos;accessibilité PMR et la pose d&apos;<Link href="/competences/accessoires-parking" className="text-amber-400 hover:text-amber-300 underline">accessoires de parking</Link> (bornes, butées, ralentisseurs). Découvrez nos <Link href="/realisations" className="text-amber-400 hover:text-amber-300 underline">projets réalisés</Link>.</>,
         ]}
         features={FEATURES}
         ctaTitle="Votre parking mérite un marquage professionnel"
@@ -113,9 +118,30 @@ export default function TracageRetracageParkingPage() {
           items={SERVICES}
           alt
         />
-        <ServiceSteps
+        <ServiceProcessTimeline
           title="Notre méthode d'intervention"
-          steps={STEPS}
+          subtitle="Un processus éprouvé sur plus de 1 000 parkings."
+          steps={STEPS.map((s, i) => ({
+            ...s,
+            image: [undefined, '/assets/images/processus/diagnostic.webp', '/assets/images/processus/preparation.webp', '/assets/images/processus/travaux.webp'][i],
+          }))}
+          alt
+        />
+        <ServiceBeforeAfter
+          title="Avant / Après"
+          subtitle="Le résultat d'un retraçage professionnel."
+          pairs={[
+            {
+              before: { src: '/assets/images/avant-apres/marquage-avant.webp', alt: 'Marquage parking effacé avant intervention' },
+              after: { src: '/assets/images/avant-apres/marquage-apres.webp', alt: 'Marquage parking neuf après retraçage' },
+              label: 'Retraçage parking',
+            },
+          ]}
+        />
+        <RelatedGuides
+          title="Guides marquage au sol"
+          subtitle="Réglementations, prix et bonnes pratiques pour vos projets de marquage."
+          guides={COMPETENCE_GUIDES['tracage-retracage-parking']}
         />
         <ServiceFAQ items={FAQ} alt />
       </ServicePageLayout>

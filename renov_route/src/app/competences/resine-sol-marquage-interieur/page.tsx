@@ -2,10 +2,14 @@
 
 import ServiceStructuredData from '@/components/ServiceStructuredData'
 import BreadcrumbSchema from '@/components/BreadcrumbSchema'
+import FAQSchema from '@/components/FAQSchema'
 import ServicePageLayout, {
   ServiceItemsGrid,
   ServiceFAQ,
 } from '@/components/ServicePageLayout'
+import RelatedGuides, { COMPETENCE_GUIDES } from '@/components/RelatedGuides'
+import ServiceBeforeAfter from '@/components/ServiceBeforeAfter'
+import { MotionDiv } from '@/components/MotionWrapper'
 import Link from 'next/link'
 import {
   TbBrush,
@@ -75,17 +79,21 @@ export default function ResineSolMarquageInterieurPage() {
     <>
       <ServiceStructuredData serviceType="resine-sol-marquage-interieur" />
       <BreadcrumbSchema items={BREADCRUMB} />
+      <FAQSchema items={FAQ} />
 
       <ServicePageLayout
         breadcrumb={BREADCRUMB}
         heroIcon={<TbBrush size={28} />}
-        heroTitle={<>Résine de sol &amp; marquage intérieur</>}
-        heroSubtitle="Revêtements époxy haute performance et marquage de zones pour vos espaces industriels, commerciaux et logistiques. Durable, esthétique, conforme."
-        descriptionHeading="Solutions de revêtement et marquage"
+        heroTitle={<>Résine de sol &amp; marquage intérieur à <strong className="text-amber-400">Lyon</strong></>}
+        heroSubtitle="Sol industriel Lyon : revêtements époxy haute performance et marquage de zones pour vos espaces industriels, commerciaux et logistiques. Durable, esthétique, conforme."
+        heroBackgroundImage="/assets/images/hero-resine-sol.webp"
+        heroImageAlt="Application de résine époxy sur sol industriel à Lyon par Rénov Route"
+        accentColor="violet"
+        descriptionHeading="Sol industriel Lyon : résine epoxy et marquage intérieur"
         descriptionParagraphs={[
-          'La résine époxy transforme vos sols industriels et commerciaux en surfaces durables, hygiéniques et esthétiques — parfaites pour les environnements soumis à des contraintes mécaniques ou chimiques importantes.',
-          <>Nous réalisons tous types de marquage intérieur : délimitation de zones de travail, allées de circulation, zones de stockage, marquage de sécurité réglementaire et signalétique au sol personnalisée. Pour les parkings, nous assurons aussi le <Link href="/competences/tracage-retracage-parking" className="text-sky-400 hover:text-sky-300 underline">traçage et retraçage de parking</Link> ainsi que la pose d&apos;<Link href="/competences/accessoires-parking" className="text-sky-400 hover:text-sky-300 underline">accessoires de parking</Link>.</>,
-          <>Notre expertise couvre les usines, entrepôts, ateliers, centres commerciaux, parkings couverts et espaces logistiques en Rhône-Alpes. Découvrez nos <Link href="/realisations" className="text-sky-400 hover:text-sky-300 underline">réalisations</Link>.</>,
+          'La résine époxy transforme vos sols industriels et commerciaux en surfaces durables, hygiéniques et esthétiques — parfaites pour les environnements soumis à des contraintes mécaniques ou chimiques importantes. Basés à Lyon, nous intervenons dans toute la région Rhône-Alpes.',
+          <>Nous réalisons tous types de marquage intérieur : délimitation de zones de travail, allées de circulation, zones de stockage, marquage de sécurité réglementaire et signalétique au sol personnalisée. Pour les parkings, nous assurons aussi le <Link href="/competences/tracage-retracage-parking" className="text-amber-400 hover:text-amber-300 underline">marquage au sol de parking</Link> ainsi que la pose d&apos;<Link href="/competences/accessoires-parking" className="text-amber-400 hover:text-amber-300 underline">accessoires de parking</Link>.</>,
+          <>Notre expertise en sol industriel à Lyon couvre les usines, entrepôts, ateliers, centres commerciaux, parkings couverts et espaces logistiques. Découvrez nos <Link href="/realisations" className="text-amber-400 hover:text-amber-300 underline">réalisations</Link> et consultez notre <Link href="/guides/resine-epoxy-ou-peinture-sol-comparatif" className="text-amber-400 hover:text-amber-300 underline">comparatif résine epoxy vs peinture de sol</Link>.</>,
         ]}
         features={FEATURES}
         ctaTitle="Transformez vos sols et espaces intérieurs"
@@ -97,11 +105,81 @@ export default function ResineSolMarquageInterieurPage() {
           items={SOLUTIONS}
           alt
         />
+        {/* Palette de couleurs résine époxy */}
+        <section className="py-16 sm:py-20 px-4 bg-[#141922]">
+          <div className="max-w-6xl mx-auto">
+            <div className="mb-10">
+              <h2 className="text-2xl sm:text-3xl font-bold text-white mb-3 font-display">Palette de couleurs résine</h2>
+              <p className="text-gray-400 text-base sm:text-lg max-w-2xl">Un large choix de teintes RAL pour s&apos;adapter à votre environnement.</p>
+            </div>
+
+            {/* Swatches grid */}
+            <div className="grid grid-cols-4 sm:grid-cols-6 lg:grid-cols-9 gap-3 sm:gap-4">
+              {[
+                { color: '#7B858A', name: 'Gris fenêtre', ral: 'RAL 7040' },
+                { color: '#4E5754', name: 'Gris agate', ral: 'RAL 7038' },
+                { color: '#2F353B', name: 'Gris anthracite', ral: 'RAL 7016' },
+                { color: '#1E2329', name: 'Gris noir', ral: 'RAL 7021' },
+                { color: '#C4C4BC', name: 'Gris clair', ral: 'RAL 7035' },
+                { color: '#BDB8A3', name: 'Beige gris', ral: 'RAL 7006' },
+                { color: '#E8D4B2', name: 'Beige', ral: 'RAL 1015' },
+                { color: '#D2A255', name: 'Jaune sable', ral: 'RAL 1002' },
+                { color: '#F0CA00', name: 'Jaune sécurité', ral: 'RAL 1003' },
+                { color: '#CC4422', name: 'Rouge feu', ral: 'RAL 3000' },
+                { color: '#8B3A29', name: 'Rouge brun', ral: 'RAL 3011' },
+                { color: '#C55A3B', name: 'Rouge corail', ral: 'RAL 3016' },
+                { color: '#E86840', name: 'Rouge orangé', ral: 'RAL 2001' },
+                { color: '#59712F', name: 'Vert réséda', ral: 'RAL 6011' },
+                { color: '#354733', name: 'Vert mousse', ral: 'RAL 6005' },
+                { color: '#20603D', name: 'Vert sécurité', ral: 'RAL 6024' },
+                { color: '#2271B3', name: 'Bleu signalisation', ral: 'RAL 5005' },
+                { color: '#1D334A', name: 'Bleu acier', ral: 'RAL 5011' },
+              ].map((swatch, i) => (
+                <MotionDiv
+                  key={i}
+                  initial={{ opacity: 0, scale: 0.9 }}
+                  whileInView={{ opacity: 1, scale: 1 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.3, delay: i * 0.03 }}
+                  className="group"
+                >
+                  <div
+                    className="aspect-square rounded-lg border border-white/10 group-hover:border-white/30 transition-all duration-200 group-hover:scale-105 group-hover:shadow-lg group-hover:shadow-black/30"
+                    style={{ backgroundColor: swatch.color }}
+                  />
+                  <p className="mt-2 text-xs text-gray-400 leading-tight hidden sm:block">{swatch.name}</p>
+                  <p className="text-[10px] text-gray-600 hidden sm:block">{swatch.ral}</p>
+                </MotionDiv>
+              ))}
+            </div>
+
+            <p className="mt-8 text-sm text-gray-500">
+              Toutes les teintes du nuancier RAL sont disponibles sur demande. Finitions mate, satinée ou brillante.
+            </p>
+          </div>
+        </section>
+        <ServiceBeforeAfter
+          title="Avant / Après"
+          subtitle="La transformation d'un sol industriel avec notre résine époxy."
+          pairs={[
+            {
+              before: { src: '/assets/images/avant-apres/resine-avant.webp', alt: 'Sol béton abîmé avant résine' },
+              after: { src: '/assets/images/avant-apres/resine-apres.webp', alt: 'Sol résine époxy neuf' },
+              label: 'Sol industriel',
+            },
+          ]}
+          alt
+        />
         <ServiceItemsGrid
           title="Secteurs d'intervention"
           subtitle="Nous adaptons nos solutions à chaque environnement de travail."
           items={SECTORS}
           cols={4}
+        />
+        <RelatedGuides
+          title="Guides résine de sol"
+          subtitle="Comparatifs, préparation et prix des revêtements de sol."
+          guides={COMPETENCE_GUIDES['resine-sol-marquage-interieur']}
         />
         <ServiceFAQ items={FAQ} alt />
       </ServicePageLayout>

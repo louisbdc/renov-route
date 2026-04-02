@@ -6,6 +6,8 @@ import ServicePageLayout, {
   ServiceItemsGrid,
   ServiceFAQ,
 } from '@/components/ServicePageLayout'
+import ServiceProductCatalog from '@/components/ServiceProductCatalog'
+import RelatedGuides, { COMPETENCE_GUIDES } from '@/components/RelatedGuides'
 import Link from 'next/link'
 import {
   TbShieldCheck,
@@ -13,12 +15,6 @@ import {
   TbCar,
   TbRuler,
   TbTool,
-  TbBuildingCastle,
-  TbRoad,
-  TbParking,
-  TbDoor,
-  TbBulb,
-  TbClipboardList,
   TbCurrencyEuro,
   TbBolt,
 } from 'react-icons/tb'
@@ -34,15 +30,6 @@ const FEATURES = [
   { icon: <TbCar size={20} />, title: 'Contrôle des flux', description: 'Ralentisseurs et butées pour maîtriser la vitesse et délimiter précisément les zones de stationnement.' },
   { icon: <TbRuler size={20} />, title: 'Installation normée', description: 'Pose professionnelle respectant les normes d\'implantation et les contraintes du site.' },
   { icon: <TbTool size={20} />, title: 'Durabilité & entretien', description: 'Matériaux résistants aux UV, aux chocs et aux conditions extérieures. Maintenance simplifiée.' },
-]
-
-const PRODUCTS = [
-  { icon: <TbBuildingCastle size={22} />, title: 'Bornes anti-bélier', description: 'Protection des façades, vitrines et accès contre les intrusions et chocs accidentels de véhicules.' },
-  { icon: <TbRoad size={22} />, title: 'Ralentisseurs', description: 'Dos d\'âne et coussins berlinois pour réguler la vitesse dans les zones de parking et voies privées.' },
-  { icon: <TbParking size={22} />, title: 'Butées de parking', description: 'Délimitation précise des places de stationnement, protection des murs et murets.' },
-  { icon: <TbDoor size={22} />, title: 'Barrières & portiques', description: 'Contrôle d\'accès physique et délimitation de zones réservées ou sécurisées.' },
-  { icon: <TbBulb size={22} />, title: 'Éclairage de sécurité', description: 'Balises et plots lumineux pour améliorer la visibilité nocturne dans les zones de circulation.' },
-  { icon: <TbClipboardList size={22} />, title: 'Signalétique de direction', description: 'Panneaux d\'information et de guidage pour orienter les usagers dans votre parking.' },
 ]
 
 const BENEFITS = [
@@ -78,26 +65,38 @@ export default function AccessoiresParkingPage() {
         heroIcon={<TbShieldCheck size={28} />}
         heroTitle="Accessoires de parking"
         heroSubtitle="Bornes anti-bélier, ralentisseurs, butées et barrières : tous les équipements pour sécuriser et organiser vos espaces de stationnement."
+        heroBackgroundImage="/assets/images/realisations/em-lyon-bornes-anti-stationnement_1.avif"
+        heroImageAlt="Bornes anti-stationnement installées à EM Lyon par Rénov Route"
+        accentColor="amber"
         descriptionHeading="Équipements de sécurité pour parkings"
         descriptionParagraphs={[
           'Les accessoires de parking protègent vos infrastructures, organisent la circulation et préviennent les accidents. Bien choisis et correctement installés, ils réduisent significativement les coûts de réparation et d\'assurance.',
-          <>Nous fournissons et posons une gamme complète d&apos;équipements : bornes anti-bélier pour protéger les façades, ralentisseurs pour réguler la vitesse, butées pour délimiter les places, et diverses solutions de contrôle d&apos;accès. Ces équipements complètent le <Link href="/competences/tracage-retracage-parking" className="text-sky-400 hover:text-sky-300 underline">marquage au sol de votre parking</Link> et la <Link href="/competences/signalisation-verticale" className="text-sky-400 hover:text-sky-300 underline">signalisation verticale</Link>.</>,
-          <>Chaque équipement est sélectionné pour sa robustesse et sa conformité aux normes. Pour les sols dégradés, nous proposons aussi la <Link href="/competences/reparation-nids-de-poule" className="text-sky-400 hover:text-sky-300 underline">réparation de nids de poule</Link>. Voir nos <Link href="/realisations" className="text-sky-400 hover:text-sky-300 underline">réalisations</Link>.</>,
+          <>Nous fournissons et posons une gamme complète d&apos;équipements : bornes anti-bélier pour protéger les façades, ralentisseurs pour réguler la vitesse, butées pour délimiter les places, et diverses solutions de contrôle d&apos;accès. Ces équipements complètent le <Link href="/competences/tracage-retracage-parking" className="text-amber-400 hover:text-amber-300 underline">marquage au sol de votre parking</Link> et la <Link href="/competences/signalisation-verticale" className="text-amber-400 hover:text-amber-300 underline">signalisation verticale</Link>.</>,
+          <>Chaque équipement est sélectionné pour sa robustesse et sa conformité aux normes. Pour les sols dégradés, nous proposons aussi la <Link href="/competences/reparation-nids-de-poule" className="text-amber-400 hover:text-amber-300 underline">réparation de nids de poule</Link>. Voir nos <Link href="/realisations" className="text-amber-400 hover:text-amber-300 underline">réalisations</Link>.</>,
         ]}
         features={FEATURES}
         ctaTitle="Sécurisez votre parking"
         ctaSubtitle="Conseil et devis gratuits. Fourniture et installation en Rhône-Alpes."
       >
-        <ServiceItemsGrid
+        <ServiceProductCatalog
           title="Nos équipements"
           subtitle="De la borne anti-bélier à la signalétique de direction."
-          items={PRODUCTS}
+          products={[
+            { name: 'Ralentisseur', description: 'Dos d\'âne en caoutchouc noir et jaune, haute visibilité.', image: '/assets/images/equipements/ralentisseur.webp', specs: ['Dimensions standard 50x40 cm', 'Bandes jaunes rétroréfléchissantes', 'Fixation par chevilles'] },
+            { name: 'Butée de roue', description: 'Butée en caoutchouc recyclé avec bandes jaunes.', image: '/assets/images/equipements/butee-roue.webp', specs: ['Longueur 55 cm', 'Bandes jaunes intégrées', 'Fixation au sol incluse'] },
+          ]}
+          cols={2}
           alt
         />
         <ServiceItemsGrid
           title="Pourquoi équiper votre parking ?"
           items={BENEFITS}
           cols={4}
+        />
+        <RelatedGuides
+          title="Guides accessoires & équipements"
+          subtitle="Normes, types et prix des équipements de parking."
+          guides={COMPETENCE_GUIDES['accessoires-parking']}
         />
         <ServiceFAQ items={FAQ} alt />
       </ServicePageLayout>

@@ -7,6 +7,7 @@ import ServicePageLayout, {
   ServiceSteps,
   ServiceFAQ,
 } from '@/components/ServicePageLayout'
+import RelatedGuides, { COMPETENCE_GUIDES } from '@/components/RelatedGuides'
 import Link from 'next/link'
 import {
   TbTrafficCone,
@@ -75,11 +76,14 @@ export default function SignalisationVerticalePage() {
         heroIcon={<TbTrafficCone size={28} />}
         heroTitle="Signalisation verticale"
         heroSubtitle="Installation et remplacement de tous types de panneaux : STOP, cédez le passage, PMR, sens interdits. Conformité réglementaire garantie."
+        heroBackgroundImage="/assets/images/hero-signalisation.webp"
+        heroImageAlt="Installation de panneaux de signalisation verticale sur parking par Rénov Route"
+        accentColor="emerald"
         descriptionHeading="Panneaux de signalisation professionnels"
         descriptionParagraphs={[
           'La signalisation verticale est indispensable pour organiser la circulation et garantir la sécurité dans les parkings et espaces de stationnement. Elle guide les usagers et informe sur les règles applicables.',
-          <>Nous installons tous types de panneaux : stop, cédez le passage, PMR, sens interdits, limitations de vitesse et panneaux d&apos;information. La signalisation verticale se combine avec le <Link href="/competences/tracage-retracage-parking" className="text-sky-400 hover:text-sky-300 underline">marquage au sol de votre parking</Link> et la pose d&apos;<Link href="/competences/accessoires-parking" className="text-sky-400 hover:text-sky-300 underline">accessoires de sécurité</Link>.</>,
-          <>Notre expertise couvre les parkings privés, espaces commerciaux, zones industrielles et collectivités. Consultez nos <Link href="/realisations" className="text-sky-400 hover:text-sky-300 underline">réalisations</Link> pour des exemples concrets.</>,
+          <>Nous installons tous types de panneaux : stop, cédez le passage, PMR, sens interdits, limitations de vitesse et panneaux d&apos;information. La signalisation verticale se combine avec le <Link href="/competences/tracage-retracage-parking" className="text-amber-400 hover:text-amber-300 underline">marquage au sol de votre parking</Link> et la pose d&apos;<Link href="/competences/accessoires-parking" className="text-amber-400 hover:text-amber-300 underline">accessoires de sécurité</Link>.</>,
+          <>Notre expertise couvre les parkings privés, espaces commerciaux, zones industrielles et collectivités. Consultez nos <Link href="/realisations" className="text-amber-400 hover:text-amber-300 underline">réalisations</Link> pour des exemples concrets.</>,
         ]}
         features={FEATURES}
         ctaTitle="Mettez votre signalisation en conformité"
@@ -92,6 +96,11 @@ export default function SignalisationVerticalePage() {
           alt
         />
         <ServiceSteps title="Notre processus d'installation" steps={STEPS} />
+        <RelatedGuides
+          title="Guides signalisation"
+          subtitle="Réglementation, types de panneaux et normes en vigueur."
+          guides={COMPETENCE_GUIDES['signalisation-verticale']}
+        />
         <ServiceFAQ items={FAQ} alt />
       </ServicePageLayout>
     </>

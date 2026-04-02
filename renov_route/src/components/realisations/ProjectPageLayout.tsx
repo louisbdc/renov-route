@@ -8,6 +8,26 @@ import ImageGallery from './ImageGallery'
 import { CaseStudy } from '@/lib/data/case-studies'
 import { MotionDiv } from '@/components/MotionWrapper'
 import { useConversionTracking } from '@/components/AnalyticsTracker'
+import RelatedGuides, { getGuidesForServices } from '@/components/RelatedGuides'
+
+const SERVICE_LINKS: Record<string, string> = {
+  'Retraçage Intégral': '/competences/tracage-retracage-parking',
+  'Retraçage Parking': '/competences/tracage-retracage-parking',
+  'Marquage Routier': '/competences/tracage-retracage-parking',
+  'Marquage Personnalisé': '/competences/tracage-retracage-parking',
+  'Passage Piéton': '/competences/tracage-retracage-parking',
+  'Marquage Anti-stationnement': '/competences/tracage-retracage-parking',
+  'Places Publicitaires': '/competences/tracage-retracage-parking',
+  'Signalisation': '/competences/signalisation-verticale',
+  'Peinture Époxy': '/competences/resine-sol-marquage-interieur',
+  'Résine Gravillonnée': '/competences/resine-sol-marquage-interieur',
+  'Grenaillage': '/competences/resine-sol-marquage-interieur',
+  'Marquage Industriel': '/competences/resine-sol-marquage-interieur',
+  'Zébra Intérieur': '/competences/resine-sol-marquage-interieur',
+  'Zébra Jaune/Noir': '/competences/resine-sol-marquage-interieur',
+  'Bornes Anti-stationnement': '/competences/accessoires-parking',
+  'Bandes de Guidage': '/competences/accessoires-parking',
+}
 
 interface ProjectPageLayoutProps {
   project: CaseStudy
@@ -112,14 +132,23 @@ export default function ProjectPageLayout({ project, relatedProjects }: ProjectP
                     Prestations réalisées
                   </h3>
                   <div className="flex flex-wrap gap-2">
-                    {project.stack.map((tech) => (
-                      <span
-                        key={tech}
-                        className="px-3 py-1 bg-white/5 border border-white/10 rounded-lg text-sm text-gray-300"
-                      >
-                        {tech}
-                      </span>
-                    ))}
+                    {project.stack.map((tech) => {
+                      const href = SERVICE_LINKS[tech]
+                      const className = "px-3 py-1 bg-white/5 border border-white/10 rounded-lg text-sm text-gray-300"
+                      return href ? (
+                        <Link
+                          key={tech}
+                          href={href}
+                          className={`${className} hover:border-amber-400/30 hover:text-amber-200 transition-colors`}
+                        >
+                          {tech}
+                        </Link>
+                      ) : (
+                        <span key={tech} className={className}>
+                          {tech}
+                        </span>
+                      )
+                    })}
                   </div>
                 </div>
 
@@ -149,14 +178,14 @@ export default function ProjectPageLayout({ project, relatedProjects }: ProjectP
                 </div>
 
                 {/* CTA */}
-                <div className="bg-gradient-to-br from-blue-500/20 to-cyan-500/20 border border-blue-500/30 rounded-xl p-6 text-center">
+                <div className="bg-gradient-to-br from-amber-500/20 to-amber-400/20 border border-amber-500/30 rounded-xl p-6 text-center">
                   <p className="text-white font-semibold mb-4">
                     Un projet similaire ?
                   </p>
                   <Link
                     href="/devis"
                     onClick={() => trackQuoteRequest(`projet_${project.slug}`)}
-                    className="block w-full bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 hover:scale-105"
+                    className="block w-full bg-gradient-to-r from-amber-500 to-amber-400 hover:from-amber-600 hover:to-amber-500 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 hover:scale-105"
                   >
                     Demander un devis
                   </Link>
@@ -204,6 +233,15 @@ export default function ProjectPageLayout({ project, relatedProjects }: ProjectP
           </section>
         )}
 
+        {/* Related Guides */}
+        {project.stack.length > 0 && (
+          <RelatedGuides
+            title="Guides en lien avec ce projet"
+            subtitle="Approfondissez les sujets abordés dans cette réalisation."
+            guides={getGuidesForServices(project.stack)}
+          />
+        )}
+
         {/* Bottom CTA Band */}
         <section className="py-12 lg:py-16">
           <div className="container-custom">
@@ -217,7 +255,7 @@ export default function ProjectPageLayout({ project, relatedProjects }: ProjectP
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link
                   href="/devis"
-                  className="bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 text-white font-semibold py-4 px-8 rounded-lg transition-all duration-300 hover:scale-105"
+                  className="bg-gradient-to-r from-amber-500 to-amber-400 hover:from-amber-600 hover:to-amber-500 text-white font-semibold py-4 px-8 rounded-lg transition-all duration-300 hover:scale-105"
                 >
                   Demander un devis
                 </Link>

@@ -13,7 +13,7 @@ export default function SEOLinks({ className = "" }: SEOLinksProps) {
         <div>
           <p className="font-semibold mb-3">Nos Services</p>
           <ul className="space-y-2">
-            <li><Link href="/competences/tracage-retracage-parking">Traçage de parking</Link></li>
+            <li><Link href="/competences/tracage-retracage-parking">Marquage au sol parking</Link></li>
             <li><Link href="/competences/signalisation-verticale">Signalisation verticale</Link></li>
             <li><Link href="/competences/reparation-nids-de-poule">Réparation nids de poule</Link></li>
             <li><Link href="/competences/resine-sol-marquage-interieur">Résine de sol</Link></li>
@@ -25,28 +25,51 @@ export default function SEOLinks({ className = "" }: SEOLinksProps) {
         {/* Zones d'intervention */}
         <div>
           <p className="font-semibold mb-3">Zones d&apos;intervention</p>
-          <p className="text-gray-400 leading-relaxed">
-            Lyon, Rhône-Alpes, Auvergne-Rhône-Alpes, Paris, Marseille, Toulouse — nous intervenons dans toute la France.
-          </p>
+          <ul className="space-y-2">
+            <li><Link href="/marquage-au-sol-lyon">Marquage au sol Lyon</Link></li>
+            <li className="text-gray-400">Villeurbanne, Vénissieux, Vaulx-en-Velin</li>
+            <li className="text-gray-400">Rhône-Alpes & toute la France</li>
+          </ul>
         </div>
 
-        {/* Secteurs d'activité */}
+        {/* Guides - Marquage & Normes */}
         <div>
-          <p className="font-semibold mb-3">Secteurs d&apos;activité</p>
-          <p className="text-gray-400 leading-relaxed">
-            Commerces, industrie, collectivités, centres commerciaux et entreprises.
-          </p>
-        </div>
-
-        {/* Guides */}
-        <div>
-          <p className="font-semibold mb-3">Guides</p>
+          <p className="font-semibold mb-3">Guides marquage</p>
           <ul className="space-y-2">
             <li><Link href="/guides">Tous nos guides</Link></li>
-            <li><Link href="/guides/renovation-parking-copropriete">Rénovation parking copropriété</Link></li>
             <li><Link href="/guides/prix-marquage-sol-parking">Prix marquage au sol</Link></li>
+            <li><Link href="/guides/reglementation-marquage-sol-parking">Réglementation marquage</Link></li>
             <li><Link href="/guides/normes-pmr-parking">Normes PMR parking</Link></li>
-            <li><Link href="/guides/enrobe-froid-vs-resine-nids-de-poule">Enrobé vs résine nids de poule</Link></li>
+            <li><Link href="/guides/dimension-place-de-parking-normes">Dimensions places parking</Link></li>
+            <li><Link href="/guides/signalisation-parking-reglementation">Signalisation parking</Link></li>
+            <li><Link href="/guides/marquage-au-sol-signification-couleurs">Couleurs marquage au sol</Link></li>
+          </ul>
+        </div>
+
+        {/* Guides - Rénovation & Équipements */}
+        <div>
+          <p className="font-semibold mb-3">Guides rénovation</p>
+          <ul className="space-y-2">
+            <li><Link href="/guides/renovation-parking-copropriete">Rénovation copropriété</Link></li>
+            <li><Link href="/guides/cout-renovation-parking">Coût rénovation parking</Link></li>
+            <li><Link href="/guides/enrobe-froid-vs-resine-nids-de-poule">Enrobé vs résine</Link></li>
+            <li><Link href="/guides/resine-epoxy-ou-peinture-sol-comparatif">Résine époxy vs peinture</Link></li>
+            <li><Link href="/guides/ralentisseur-parking-norme">Ralentisseur parking</Link></li>
+            <li><Link href="/guides/calendrier-entretien-parking">Entretien parking</Link></li>
+            <li><Link href="/guides/accessibilite-parking-erp-normes">Accessibilité ERP</Link></li>
+          </ul>
+        </div>
+
+        {/* Réalisations */}
+        <div>
+          <p className="font-semibold mb-3">Réalisations</p>
+          <ul className="space-y-2">
+            <li><Link href="/realisations">Tous nos projets</Link></li>
+            <li><Link href="/realisations/em-lyon-parking-saint-louis">EM Lyon parking</Link></li>
+            <li><Link href="/realisations/lidl-vienne-logos-xxl">Lidl Vienne logos</Link></li>
+            <li><Link href="/realisations/intermarche-neuville-parking">Intermarché Neuville</Link></li>
+            <li><Link href="/realisations/lidl-normes-pmr-resine">Lidl normes PMR</Link></li>
+            <li><Link href="/realisations/carglass-angouleme-zebra">Carglass Angoulême</Link></li>
           </ul>
         </div>
 

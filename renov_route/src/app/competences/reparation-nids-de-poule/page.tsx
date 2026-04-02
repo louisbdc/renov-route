@@ -6,6 +6,9 @@ import ServicePageLayout, {
   ServiceSteps,
   ServiceFAQ,
 } from '@/components/ServicePageLayout'
+import ServiceBeforeAfter from '@/components/ServiceBeforeAfter'
+import ServiceComparisonTable from '@/components/ServiceComparisonTable'
+import RelatedGuides, { COMPETENCE_GUIDES } from '@/components/RelatedGuides'
 import Link from 'next/link'
 import {
   TbHammer,
@@ -83,17 +86,50 @@ export default function ReparationNidsDePoulePage() {
         heroIcon={<TbHammer size={28} />}
         heroTitle="Réparation de nids de poule"
         heroSubtitle="Procédé innovant par injection de résine : une réparation durable, rapide et résistante aux intempéries. Moins coûteuse que le rechargement traditionnel."
+        heroBackgroundImage="/assets/images/hero-nids-de-poule.webp"
+        heroImageAlt="Réparation de nids de poule par résine polyuréthane sur parking à Lyon"
+        accentColor="orange"
         descriptionHeading="Notre expertise en réparation de chaussée"
         descriptionParagraphs={[
           'Les nids de poule dégradent vos infrastructures, endommagent les véhicules et exposent à des risques de responsabilité. Une réparation rapide et efficace est essentielle.',
-          <>Notre procédé à la résine révolutionne la maintenance routière. Contrairement à l&apos;enrobé à froid classique qui se dégrade en quelques mois, notre résine polyuréthane offre une adhérence exceptionnelle et une résistance durable aux cycles de gel-dégel. Nous proposons aussi des <Link href="/competences/resine-sol-marquage-interieur" className="text-sky-400 hover:text-sky-300 underline">revêtements en résine pour sols intérieurs</Link>.</>,
-          <>Après réparation, nous assurons le <Link href="/competences/tracage-retracage-parking" className="text-sky-400 hover:text-sky-300 underline">retraçage complet de votre parking</Link>. Intervention possible sur routes, parkings, cours d&apos;entreprises et voies privées — en région lyonnaise et toute la zone Rhône-Alpes. Consultez nos <Link href="/realisations" className="text-sky-400 hover:text-sky-300 underline">réalisations</Link>.</>,
+          <>Notre procédé à la résine révolutionne la maintenance routière. Contrairement à l&apos;enrobé à froid classique qui se dégrade en quelques mois, notre résine polyuréthane offre une adhérence exceptionnelle et une résistance durable aux cycles de gel-dégel. Nous proposons aussi des <Link href="/competences/resine-sol-marquage-interieur" className="text-amber-400 hover:text-amber-300 underline">revêtements en résine pour sols intérieurs</Link>.</>,
+          <>Après réparation, nous assurons le <Link href="/competences/tracage-retracage-parking" className="text-amber-400 hover:text-amber-300 underline">retraçage complet de votre parking</Link>. Intervention possible sur routes, parkings, cours d&apos;entreprises et voies privées — en région lyonnaise et toute la zone Rhône-Alpes. Consultez nos <Link href="/realisations" className="text-amber-400 hover:text-amber-300 underline">réalisations</Link>.</>,
         ]}
         features={FEATURES}
         ctaTitle="Nids de poule sur votre voirie ?"
         ctaSubtitle="Diagnostic gratuit sur site, devis sous 48 h. Intervention rapide en Rhône-Alpes."
       >
+        <ServiceBeforeAfter
+          title="Avant / Après"
+          subtitle="Voyez la différence d'une réparation à la résine haute performance."
+          pairs={[
+            {
+              before: { src: '/assets/images/avant-apres/nid-de-poule-avant.webp', alt: 'Nid de poule profond sur asphalte' },
+              after: { src: '/assets/images/avant-apres/nid-de-poule-apres.webp', alt: 'Surface réparée à la résine polyuréthane' },
+              label: 'Nid de poule',
+            },
+          ]}
+          alt
+        />
+        <ServiceComparisonTable
+          title="Résine vs enrobé à froid"
+          subtitle="Pourquoi la résine polyuréthane surpasse l'enrobé classique."
+          headers={['Critère', 'Résine polyuréthane', 'Enrobé à froid']}
+          rows={[
+            { label: 'Durée de vie', values: ['5 à 10 ans', '3 à 12 mois'] },
+            { label: 'Temps de séchage', values: ['1 à 2 heures', '24 à 48 heures'] },
+            { label: 'Résistance au gel', values: ['Jusqu\'à -5°C', 'Faible'] },
+            { label: 'Adhérence', values: ['Liaison chimique', 'Mécanique uniquement'] },
+            { label: 'Intervention hiver', values: ['Possible', 'Déconseillée'] },
+          ]}
+          highlightColumn={1}
+        />
         <ServiceSteps title="Notre processus de réparation" steps={STEPS} alt />
+        <RelatedGuides
+          title="Guides nids de poule & entretien"
+          subtitle="Responsabilité, méthodes de réparation et entretien préventif."
+          guides={COMPETENCE_GUIDES['reparation-nids-de-poule']}
+        />
         <ServiceFAQ items={FAQ} />
       </ServicePageLayout>
     </>
