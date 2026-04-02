@@ -1,83 +1,52 @@
-# Robots.txt optimisé pour Renov Route - Expert marquage routier
+# Robots.txt - Renov Route
 # https://renov-route.com
-# Cabinet spécialisé dans le marquage routier et la signalisation
 
-# Règles générales pour tous les robots
 User-agent: *
 Allow: /
 Allow: /_next/static/
 
-# Interdire l'indexation des fichiers techniques
+# Fichiers techniques
 Disallow: /_next/
 Disallow: /api/
 Disallow: /admin/
 Disallow: /private/
 Disallow: /scripts/
 Disallow: /out/
-Disallow: /*.json$
-Disallow: /*.map$
+Disallow: /*.json
+Disallow: /*.map
 
-# Autoriser les pages importantes
-Allow: /competences/
-Allow: /competences/accessoires-parking/
-Allow: /competences/conseil-expertise/
-Allow: /competences/reparation-nids-de-poule/
-Allow: /competences/resine-sol-marquage-interieur/
-Allow: /competences/signalisation-verticale/
-Allow: /competences/tracage-retracage-parking/
-Allow: /realisations/
-Allow: /qui-sommes-nous/
-Allow: /devis/
-Allow: /privacy-policy/
-Allow: /*.jpg$
-Allow: /*.png$
-Allow: /*.jpeg$
-Allow: /*.webp$
-Allow: /*.avif$
+# Pages fantomes et fragments Wix
+Disallow: /home
+Disallow: /blank
+Disallow: /blank-1
+Disallow: /blank-2
+Disallow: /*?lightbox=*
 
-# Règles spécifiques pour Google
-User-agent: Googlebot
-Allow: /
+# Anciennes URLs a ne plus crawler (redirections 301)
+Disallow: /marquage-routier-lyon-69
+Disallow: /peinture-marquage-sol-parking-lyon
+Disallow: /rebouchage-nids-poules-rhones-alpes
+Disallow: /auvergne-rhone-alpes
+Disallow: /devis-gratuit
+Disallow: /devis-tracage-gratuit
+Disallow: /nos-references
+Disallow: /services/renovation-parking
+Disallow: /contact
 
-# Règles spécifiques pour Bing
+# Ancien format realisations avec parametres
+Disallow: /realisations?*
+
+# Crawl-delay pour bots specifiques
 User-agent: Bingbot
-Allow: /
 Crawl-delay: 2
 
-# Règles spécifiques pour Yandex
 User-agent: YandexBot
-Allow: /
 Crawl-delay: 3
 
-# Règles spécifiques pour DuckDuckGo
 User-agent: DuckDuckBot
-Allow: /
 Crawl-delay: 1
 
-# Règles pour les robots de réseaux sociaux
-User-agent: facebookexternalhit
-Allow: /
-
-User-agent: Twitterbot
-Allow: /
-
-User-agent: LinkedInBot
-Allow: /
-
-# Règles pour les robots d'analyse
-User-agent: SemrushBot
-Allow: /
-
-User-agent: AhrefsBot
-Allow: /
-
-User-agent: MJ12bot
-Allow: /
-
-# Règles pour les autres moteurs
 User-agent: Slurp
-Allow: /
 Crawl-delay: 2
 
-# Sitemaps
 Sitemap: https://renov-route.com/sitemap.xml

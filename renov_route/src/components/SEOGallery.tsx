@@ -1,6 +1,5 @@
 'use client';
 
-import Script from 'next/script';
 import { useState } from 'react';
 import Image from 'next/image';
 
@@ -166,7 +165,7 @@ export default function SEOGallery({
                   
                   {showCategories && image.category && (
                     <div className="absolute top-2 right-2">
-                      <span className="bg-blue-500 text-white text-xs px-2 py-1 rounded-full">
+                      <span className="bg-amber-500 text-gray-900 text-xs px-2 py-1 rounded-full">
                         {image.category}
                       </span>
                     </div>
@@ -290,8 +289,8 @@ export default function SEOGallery({
         </div>
       )}
       
-      <Script
-        id="gallery-structured-data"
+      <script
+       
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(structuredData)

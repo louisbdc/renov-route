@@ -3,13 +3,13 @@ import Link from 'next/link'
 
 export const meta: Guide = {
   slug: 'accessibilite-parking-erp-normes',
-  title: 'Accessibilit\u00e9 parking ERP : normes PMR et obligations en 2026',
-  metaTitle: 'Accessibilit\u00e9 parking ERP : normes PMR et obligations 2026',
-  metaDescription: 'Accessibilit\u00e9 parking ERP : nombre de places PMR, dimensions, signalisation, pente maximale et sanctions. Normes 2026 et mise en conformit\u00e9. Guide complet.',
+  title: 'Accessibilité parking ERP : normes PMR et obligations en 2026',
+  metaTitle: 'Accessibilité parking ERP : normes PMR et obligations 2026',
+  metaDescription: 'Accessibilité parking ERP : nombre de places PMR, dimensions, signalisation, pente maximale et sanctions. Normes 2026 et mise en conformité. Guide complet.',
   publishDate: '2026-03-04',
   category: 'normes-pmr',
   readingTime: 8,
-  excerpt: 'Nombre de places PMR obligatoires, dimensions r\u00e9glementaires, signalisation, cheminement accessible et sanctions en cas de non-conformit\u00e9.',
+  excerpt: 'Nombre de places PMR obligatoires, dimensions réglementaires, signalisation, cheminement accessible et sanctions en cas de non-conformité.',
 }
 
 export default function Content() {
@@ -19,7 +19,7 @@ export default function Content() {
         Votre parking dessert un commerce, un cabinet m&eacute;dical, un restaurant ou un immeuble de bureaux recevant du public ? L&apos;accessibilit&eacute; aux personnes &agrave; mobilit&eacute; r&eacute;duite (PMR) n&apos;est pas optionnelle. C&apos;est une obligation l&eacute;gale depuis la loi du 11 f&eacute;vrier 2005, renforc&eacute;e par l&apos;arr&ecirc;t&eacute; du 20 avril 2017. Les sanctions vont jusqu&apos;&agrave; 45 000 euros d&apos;amende et la fermeture administrative.
       </p>
       <p>
-        Laurent, g&eacute;rant d&apos;un cabinet m&eacute;dical de 3 praticiens &agrave; Oullins (69), a re&ccedil;u la visite de la commission de s&eacute;curit&eacute; en septembre 2025. Le parking de 15 places ne comportait aucune place PMR. La commission a accord&eacute; un d&eacute;lai de 3 mois pour mise en conformit&eacute;. Co&ucirc;t des travaux : 1 200 euros (tra&ccedil;age d&apos;une place PMR avec surlargeur, pose d&apos;un panneau vertical, reprise de la pente du trottoir d&apos;acc&egrave;s). Sans cette mise en conformit&eacute;, le cabinet risquait une amende de 2 500 euros et une interdiction d&apos;accueil du public.
+        Laurent, g&eacute;rant d&apos;un cabinet m&eacute;dical de 3 praticiens &agrave; Oullins (69), a re&ccedil;u la visite de la commission de s&eacute;curit&eacute; en septembre 2025. Le parking de 15 places ne comportait aucune place PMR. La commission a accord&eacute; un d&eacute;lai de 3 mois pour mise en conformit&eacute;. Co&ucirc;t des travaux : quelques milliers d&apos;euros (tra&ccedil;age d&apos;une place PMR avec surlargeur, pose d&apos;un panneau vertical, reprise de la pente du trottoir d&apos;acc&egrave;s). Sans cette mise en conformit&eacute;, le cabinet risquait une amende et une interdiction d&apos;accueil du public.
       </p>
       <p>
         Ce guide d&eacute;taille les normes d&apos;accessibilit&eacute; parking applicables aux ERP et les &eacute;tapes de mise en conformit&eacute;.
@@ -121,7 +121,7 @@ export default function Content() {
         <li><strong>Un panneau de d&eacute;signation</strong> &agrave; l&apos;entr&eacute;e du parking indiquant le nombre et la localisation des places PMR</li>
       </ul>
       <p>
-        Sophie, propri&eacute;taire d&apos;un restaurant avec terrasse &agrave; Tassin-la-Demi-Lune (69), avait trac&eacute; une place PMR au sol mais sans panneau vertical. Lors du contr&ocirc;le, la place a &eacute;t&eacute; jug&eacute;e non conforme. La pose du panneau a co&ucirc;t&eacute; 120 euros (panneau + poteau + scellement). Le marquage au sol, lui, &eacute;tait conforme.
+        Sophie, propri&eacute;taire d&apos;un restaurant avec terrasse &agrave; Tassin-la-Demi-Lune (69), avait trac&eacute; une place PMR au sol mais sans panneau vertical. Lors du contr&ocirc;le, la place a &eacute;t&eacute; jug&eacute;e non conforme. La pose du panneau a repr&eacute;sent&eacute; un co&ucirc;t modeste (panneau + poteau + scellement). Le marquage au sol, lui, &eacute;tait conforme.
       </p>
 
       <h2>Cheminement accessible</h2>
@@ -184,12 +184,12 @@ export default function Content() {
             </tr>
           </thead>
           <tbody>
-            <tr><td>Tra&ccedil;age 1 place PMR (marquage + pictogramme + hachures)</td><td>200-400 euros</td></tr>
-            <tr><td>Panneau vertical PMR + poteau + scellement</td><td>100-200 euros</td></tr>
-            <tr><td>Reprise de pente (trottoir abaiss&eacute;)</td><td>500-1 500 euros</td></tr>
-            <tr><td>Rampe d&apos;acc&egrave;s (b&eacute;ton)</td><td>1 500-5 000 euros</td></tr>
-            <tr><td>Mise en conformit&eacute; compl&egrave;te (1-3 places PMR)</td><td>800-3 000 euros</td></tr>
-            <tr><td>Audit accessibilit&eacute; complet</td><td>500-1 500 euros</td></tr>
+            <tr><td>Tra&ccedil;age 1 place PMR (marquage + pictogramme + hachures)</td><td>&agrave; partir de 280 euros</td></tr>
+            <tr><td>Panneau vertical PMR + poteau + scellement</td><td>&agrave; partir de 150 euros</td></tr>
+            <tr><td>Reprise de pente (trottoir abaiss&eacute;)</td><td>&agrave; partir de 1 000 euros</td></tr>
+            <tr><td>Rampe d&apos;acc&egrave;s (b&eacute;ton)</td><td>&agrave; partir de 3 500 euros</td></tr>
+            <tr><td>Mise en conformit&eacute; compl&egrave;te (1-3 places PMR)</td><td>&agrave; partir de 2 000 euros</td></tr>
+            <tr><td>Audit accessibilit&eacute; complet</td><td>&agrave; partir de 1 000 euros</td></tr>
           </tbody>
         </table>
       </div>

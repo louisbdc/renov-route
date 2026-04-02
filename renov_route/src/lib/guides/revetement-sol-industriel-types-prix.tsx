@@ -19,7 +19,7 @@ export default function Content() {
         Un sol industriel sans revetement, c&apos;est un sol qui travaille contre vous. Poussiere de beton dans l&apos;air, taches de produits chimiques impossibles a nettoyer, glissance en zone humide, fissures qui s&apos;elargissent sous le passage des chariots. Le cout de la non-protection depasse celui du revetement en moins de 3 ans.
       </p>
       <p>
-        Stephane, directeur d&apos;un entrepot logistique de 2 800 m2 a Saint-Priest (69), a fait appliquer une resine epoxy autolissante sur l&apos;integralite de son sol en 2022. Avant les travaux, il remplacait 200 m2 de dalle beton fissuree chaque annee (cout : 12 000 euros/an). Depuis l&apos;application de la resine (investissement : 84 000 euros, soit 30 euros/m2), zero reparation en 3 ans. L&apos;entrepot a aussi gagne en luminosite (sol clair qui reflechit la lumiere) et en securite (marquage des zones de circulation integre dans la resine). Retour sur investissement : 18 mois.
+        Stephane, directeur d&apos;un entrepot logistique de 2 800 m2 a Saint-Priest (69), a fait appliquer une resine epoxy autolissante sur l&apos;integralite de son sol en 2022. Avant les travaux, il remplacait 200 m2 de dalle beton fissuree chaque annee, un poste de depense considerable. Depuis l&apos;application de la resine, zero reparation en 3 ans. L&apos;entrepot a aussi gagne en luminosite (sol clair qui reflechit la lumiere) et en securite (marquage des zones de circulation integre dans la resine). Retour sur investissement : 18 mois.
       </p>
       <p>
         Resine epoxy, polyurethane, methacrylate, peinture technique : chaque revetement repond a des contraintes specifiques. Ce guide compare les solutions, detaille les prix au m2 et explique les conditions d&apos;une application reussie en milieu industriel.
@@ -51,7 +51,7 @@ export default function Content() {
         <li>Rigide (fissure si le support bouge)</li>
       </ul>
       <p>
-        <strong>Prix :</strong> 25 a 50 euros/m2 (fourniture + pose), selon l&apos;epaisseur et la preparation du support.
+        <strong>Prix :</strong> a partir de 35 euros/m2 (fourniture + pose), selon l&apos;epaisseur et la preparation du support.
       </p>
       <p>
         <strong>Usage recommande :</strong> Entrepots, ateliers de production, salles blanches, cuisines industrielles, locaux pharmaceutiques.
@@ -76,7 +76,7 @@ export default function Content() {
         <li>Resistance chimique parfois inferieure a l&apos;epoxy</li>
       </ul>
       <p>
-        <strong>Prix :</strong> 35 a 70 euros/m2 (fourniture + pose).
+        <strong>Prix :</strong> a partir de 50 euros/m2 (fourniture + pose).
       </p>
       <p>
         <strong>Usage recommande :</strong> Chambres froides, zones de quai, rampes de chargement, ateliers avec variations de temperature, locaux alimentaires.
@@ -104,7 +104,7 @@ export default function Content() {
         <li>Epaisseur limitee (1 a 3 mm)</li>
       </ul>
       <p>
-        <strong>Prix :</strong> 50 a 100 euros/m2 (fourniture + pose).
+        <strong>Prix :</strong> a partir de 70 euros/m2 (fourniture + pose).
       </p>
       <p>
         <strong>Usage recommande :</strong> Entrepots logistiques 24h/24, lignes de production a arret minimal, agroalimentaire, sites sensibles.
@@ -129,7 +129,7 @@ export default function Content() {
         <li>S&apos;use rapidement dans les zones de trafic intense</li>
       </ul>
       <p>
-        <strong>Prix :</strong> 12 a 25 euros/m2 (fourniture + pose).
+        <strong>Prix :</strong> a partir de 18 euros/m2 (fourniture + pose).
       </p>
       <p>
         <strong>Usage recommande :</strong> Locaux techniques, stockage leger, zones de passage pieton, ateliers a faible sollicitation mecanique.
@@ -155,31 +155,31 @@ export default function Content() {
           <tbody>
             <tr>
               <td>Peinture sol industrielle</td>
-              <td>12 a 25 euros</td>
+              <td>a partir de 18 euros</td>
               <td>3-6 ans</td>
               <td>0,3-0,8 mm</td>
             </tr>
             <tr>
               <td>Resine epoxy autolissante</td>
-              <td>25 a 50 euros</td>
+              <td>a partir de 35 euros</td>
               <td>10-20 ans</td>
               <td>2-5 mm</td>
             </tr>
             <tr>
               <td>Resine polyurethane</td>
-              <td>35 a 70 euros</td>
+              <td>a partir de 50 euros</td>
               <td>12-25 ans</td>
               <td>2-4 mm</td>
             </tr>
             <tr>
               <td>Resine methacrylate (PMMA)</td>
-              <td>50 a 100 euros</td>
+              <td>a partir de 70 euros</td>
               <td>10-15 ans</td>
               <td>1-3 mm</td>
             </tr>
             <tr>
               <td>Systeme multicouche haute resistance</td>
-              <td>60 a 120 euros</td>
+              <td>a partir de 85 euros</td>
               <td>15-25 ans</td>
               <td>4-8 mm</td>
             </tr>
@@ -189,11 +189,11 @@ export default function Content() {
 
       <h3>Ce qui fait varier le prix</h3>
       <ul>
-        <li><strong>Preparation du support</strong> : un sol en mauvais etat (fissures, nids de poule, contamination chimique) peut ajouter 10 a 25 euros/m2. Pour les reparations lourdes, consultez notre <Link href="/competences/reparation-nids-de-poule">service de reparation de sol</Link></li>
-        <li><strong>Epaisseur du systeme</strong> : un systeme a 2 mm coute 30 a 40% de moins qu&apos;un systeme a 5 mm</li>
-        <li><strong>Finition antiderapante</strong> : les granulats ou textures antiderapantes ajoutent 5 a 15 euros/m2</li>
+        <li><strong>Preparation du support</strong> : un sol en mauvais etat (fissures, nids de poule, contamination chimique) peut representer un surcout significatif. Pour les reparations lourdes, consultez notre <Link href="/competences/reparation-nids-de-poule">service de reparation de sol</Link></li>
+        <li><strong>Epaisseur du systeme</strong> : un systeme a 2 mm coute sensiblement moins qu&apos;un systeme a 5 mm</li>
+        <li><strong>Finition antiderapante</strong> : les granulats ou textures antiderapantes representent un surcout a prevoir</li>
         <li><strong>Marquage integre</strong> : le tracage des zones de circulation directement dans la resine elimine le cout d&apos;un marquage separe. Consultez notre <Link href="/guides/prix-marquage-sol-parking">guide des prix de marquage</Link></li>
-        <li><strong>Surface totale</strong> : au-dessus de 1 000 m2, le prix au m2 baisse de 15 a 30%</li>
+        <li><strong>Surface totale</strong> : au-dessus de 1 000 m2, le prix au m2 baisse sensiblement</li>
       </ul>
 
       <h3>Budget type par site</h3>
@@ -210,28 +210,28 @@ export default function Content() {
             <tr>
               <td>Atelier mecanique</td>
               <td>200-500 m2</td>
-              <td>6 000 a 25 000 euros</td>
+              <td>a partir de 10 000 euros</td>
             </tr>
             <tr>
               <td>Entrepot logistique</td>
               <td>1 000-5 000 m2</td>
-              <td>25 000 a 150 000 euros</td>
+              <td>a partir de 40 000 euros</td>
             </tr>
             <tr>
               <td>Cuisine industrielle</td>
               <td>100-300 m2</td>
-              <td>4 000 a 18 000 euros</td>
+              <td>a partir de 7 000 euros</td>
             </tr>
             <tr>
               <td>Salle de production</td>
               <td>500-2 000 m2</td>
-              <td>15 000 a 80 000 euros</td>
+              <td>a partir de 25 000 euros</td>
             </tr>
           </tbody>
         </table>
       </div>
       <p>
-        Isabelle, responsable d&apos;un atelier de mecanique de precision a Meyzieu (69), hesitait entre une peinture de sol a 18 euros/m2 et une resine epoxy a 38 euros/m2 pour ses 350 m2. Elle a choisi la peinture (6 300 euros). Apres 2 ans, la peinture s&apos;ecaillait dans les zones de passage des chariots et sous les etablis ou des copeaux metalliques tombaient au sol. Elle a fait appliquer la resine epoxy par-dessus (apres poncage complet : 15 500 euros). Cout total sur 3 ans : 21 800 euros. La resine seule des le depart aurait coute 13 300 euros. L&apos;economie initiale a coute 8 500 euros de plus.
+        Isabelle, responsable d&apos;un atelier de mecanique de precision a Meyzieu (69), hesitait entre une peinture de sol et une resine epoxy pour ses 350 m2. Elle a choisi la peinture, moins chere a l&apos;achat. Apres 2 ans, la peinture s&apos;ecaillait dans les zones de passage des chariots et sous les etablis ou des copeaux metalliques tombaient au sol. Elle a fait appliquer la resine epoxy par-dessus (apres poncage complet). Cout total sur 3 ans : bien plus que si elle avait choisi la resine des le depart. L&apos;economie initiale lui a coute plusieurs milliers d&apos;euros supplementaires.
       </p>
 
       <h2>Preparation du support : la cle de la duree de vie</h2>
@@ -250,7 +250,7 @@ export default function Content() {
 
       <h3>Grenaillage</h3>
       <p>
-        Le grenaillage est la methode de preparation standard en milieu industriel. Des billes d&apos;acier sont projetees a haute vitesse sur le sol pour ouvrir les pores du beton et creer un profil d&apos;accrochage. Le grenaillage elimine aussi les anciennes peintures, les laitances de beton et les contaminations superficielles. Cout : 3 a 8 euros/m2.
+        Le grenaillage est la methode de preparation standard en milieu industriel. Des billes d&apos;acier sont projetees a haute vitesse sur le sol pour ouvrir les pores du beton et creer un profil d&apos;accrochage. Le grenaillage elimine aussi les anciennes peintures, les laitances de beton et les contaminations superficielles. Cout : a partir de 5 euros/m2.
       </p>
 
       <h3>Reparation des defauts</h3>
@@ -263,7 +263,7 @@ export default function Content() {
 
       <h3>Primaire d&apos;accrochage</h3>
       <p>
-        Le primaire epoxy dilue penetre dans les pores du beton et cree un pont d&apos;adherence entre le support et la resine de finition. Cout : 3 a 5 euros/m2. Etape obligatoire, jamais a supprimer.
+        Le primaire epoxy dilue penetre dans les pores du beton et cree un pont d&apos;adherence entre le support et la resine de finition. Cout : a partir de 4 euros/m2. Etape obligatoire, jamais a supprimer.
       </p>
 
       <h2>Marquage et zonage integres</h2>
@@ -344,7 +344,7 @@ export default function Content() {
 
       <h3>Combien coute un revetement de sol industriel au m2 ?</h3>
       <p>
-        De 12 a 120 euros/m2 selon le type de revetement et la preparation du support. La resine epoxy standard, la plus courante, se situe entre 25 et 50 euros/m2 pose incluse. La preparation du sol (grenaillage, reparation) represente 10 a 25 euros/m2 supplementaires sur un sol en mauvais etat.
+        Le budget varie selon le type de revetement et la preparation du support. La resine epoxy standard, la plus courante, demarre a partir de 35 euros/m2 pose incluse. La preparation du sol (grenaillage, reparation) represente un poste supplementaire significatif sur un sol en mauvais etat.
       </p>
 
       <h3>Quelle est la duree de vie d&apos;un sol en resine industrielle ?</h3>

@@ -77,7 +77,7 @@ export default function Content() {
 
       <blockquote>
         <p>
-          Fabien, responsable technique d&apos;un hôtel 3 étoiles à Villeurbanne, avait fait poser deux panneaux PMR par un artisan local. Lors d&apos;un contrôle de la commission d&apos;accessibilité, l&apos;inspecteur a noté que les panneaux étaient fixés à 1,80 m du sol, soit 50 cm trop bas. À cette hauteur, ils constituent un obstacle pour les personnes malvoyantes qui utilisent une canne. L&apos;hôtel a dû faire déposer et reposer les deux panneaux à la bonne hauteur. Coût de l&apos;erreur : 400 euros de main-d&apos;œuvre supplémentaire, alors que la pose correcte n&apos;aurait rien coûté de plus.
+          Fabien, responsable technique d&apos;un hôtel 3 étoiles à Villeurbanne, avait fait poser deux panneaux PMR par un artisan local. Lors d&apos;un contrôle de la commission d&apos;accessibilité, l&apos;inspecteur a noté que les panneaux étaient fixés à 1,80 m du sol, soit 50 cm trop bas. À cette hauteur, ils constituent un obstacle pour les personnes malvoyantes qui utilisent une canne. L&apos;hôtel a dû faire déposer et reposer les deux panneaux à la bonne hauteur. Co&ucirc;t de l&apos;erreur : plusieurs centaines d&apos;euros de main-d&apos;&oelig;uvre suppl&eacute;mentaire, alors que la pose correcte n&apos;aurait rien co&ucirc;t&eacute; de plus.
         </p>
       </blockquote>
 
@@ -103,11 +103,11 @@ export default function Content() {
             </tr>
           </thead>
           <tbody>
-            <tr><td>B6d sur poteau (500 x 500 mm)</td><td>120 à 250 euros</td></tr>
-            <tr><td>B6d sur mât existant</td><td>80 à 150 euros</td></tr>
-            <tr><td>Panonceau M6h</td><td>40 à 80 euros</td></tr>
-            <tr><td>Panneau directionnel PMR</td><td>100 à 200 euros</td></tr>
-            <tr><td>Panneau rappel sanctions</td><td>60 à 120 euros</td></tr>
+            <tr><td>B6d sur poteau (500 x 500 mm)</td><td>&agrave; partir de 180 euros</td></tr>
+            <tr><td>B6d sur m&acirc;t existant</td><td>&agrave; partir de 110 euros</td></tr>
+            <tr><td>Panonceau M6h</td><td>&agrave; partir de 55 euros</td></tr>
+            <tr><td>Panneau directionnel PMR</td><td>&agrave; partir de 150 euros</td></tr>
+            <tr><td>Panneau rappel sanctions</td><td>&agrave; partir de 85 euros</td></tr>
           </tbody>
         </table>
       </div>
@@ -138,9 +138,9 @@ export default function Content() {
             </tr>
           </thead>
           <tbody>
-            <tr><td>Préformé thermoplastique</td><td>80 à 150 euros/pictogramme</td><td>4-6 ans</td><td>Excellente (traits nets)</td></tr>
-            <tr><td>Peinte au pochoir (acrylique)</td><td>40 à 80 euros/pictogramme</td><td>2-3 ans</td><td>Bonne</td></tr>
-            <tr><td>Peinte à la main</td><td>30 à 60 euros/pictogramme</td><td>1-2 ans</td><td>Variable</td></tr>
+            <tr><td>Pr&eacute;form&eacute; thermoplastique</td><td>&agrave; partir de 100 euros/pictogramme</td><td>4-6 ans</td><td>Excellente (traits nets)</td></tr>
+            <tr><td>Peinte au pochoir (acrylique)</td><td>&agrave; partir de 55 euros/pictogramme</td><td>2-3 ans</td><td>Bonne</td></tr>
+            <tr><td>Peinte &agrave; la main</td><td>&agrave; partir de 40 euros/pictogramme</td><td>1-2 ans</td><td>Variable</td></tr>
           </tbody>
         </table>
       </div>
@@ -170,7 +170,7 @@ export default function Content() {
 
       <blockquote>
         <p>
-          Quand Sophie, directrice d&apos;une clinique vétérinaire à Écully, a fait retracer son parking de 25 places, elle a demandé à l&apos;entreprise de marquer aussi le cheminement PMR. L&apos;équipe a tracé les 2 places PMR avec pictogrammes, les passages piétons et les flèches directionnelles menant à l&apos;entrée. Lors du contrôle d&apos;accessibilité trois mois plus tard, la commission a souligné la qualité de la signalisation. Coût du marquage PMR complet (2 places + cheminement) : 650 euros. Un investissement qui a évité tout problème de conformité.
+          Quand Sophie, directrice d&apos;une clinique vétérinaire à Écully, a fait retracer son parking de 25 places, elle a demandé à l&apos;entreprise de marquer aussi le cheminement PMR. L&apos;équipe a tracé les 2 places PMR avec pictogrammes, les passages piétons et les flèches directionnelles menant à l&apos;entrée. Lors du contrôle d&apos;accessibilité trois mois plus tard, la commission a souligné la qualité de la signalisation. Co&ucirc;t du marquage PMR complet (2 places + cheminement) : quelques centaines d&apos;euros. Un investissement qui a évité tout problème de conformité.
         </p>
       </blockquote>
 
@@ -208,10 +208,10 @@ export default function Content() {
             </tr>
           </thead>
           <tbody>
-            <tr><td>Caoutchouc collé</td><td>40 à 60 euros/ml</td></tr>
-            <tr><td>Résine polyuréthane coulée</td><td>50 à 70 euros/ml</td></tr>
-            <tr><td>Inox collé</td><td>60 à 80 euros/ml</td></tr>
-            <tr><td>Béton préfabriqué</td><td>70 à 100 euros/ml</td></tr>
+            <tr><td>Caoutchouc coll&eacute;</td><td>&agrave; partir de 40 euros/ml</td></tr>
+            <tr><td>R&eacute;sine polyur&eacute;thane coul&eacute;e</td><td>&agrave; partir de 50 euros/ml</td></tr>
+            <tr><td>Inox coll&eacute;</td><td>&agrave; partir de 55 euros/ml</td></tr>
+            <tr><td>B&eacute;ton pr&eacute;fabriqu&eacute;</td><td>&agrave; partir de 70 euros/ml</td></tr>
           </tbody>
         </table>
       </div>
@@ -258,11 +258,11 @@ export default function Content() {
             </tr>
           </thead>
           <tbody>
-            <tr><td>Traçage de la place (lignes + bande latérale)</td><td>100 à 200 euros</td></tr>
-            <tr><td>Pictogramme au sol (pochoir + peinture)</td><td>50 à 150 euros</td></tr>
-            <tr><td>Panneau B6d sur poteau</td><td>120 à 250 euros</td></tr>
-            <tr><td>Bande podotactile (si abaissement de trottoir)</td><td>80 à 160 euros (2 ml)</td></tr>
-            <tr><td><strong>Total par place</strong></td><td><strong>350 à 760 euros</strong></td></tr>
+            <tr><td>Tra&ccedil;age de la place (lignes + bande lat&eacute;rale)</td><td>&agrave; partir de 150 euros</td></tr>
+            <tr><td>Pictogramme au sol (pochoir + peinture)</td><td>&agrave; partir de 100 euros</td></tr>
+            <tr><td>Panneau B6d sur poteau</td><td>&agrave; partir de 180 euros</td></tr>
+            <tr><td>Bande podotactile (si abaissement de trottoir)</td><td>&agrave; partir de 120 euros (2 ml)</td></tr>
+            <tr><td><strong>Total par place</strong></td><td><strong>&agrave; partir de 550 euros</strong></td></tr>
           </tbody>
         </table>
       </div>
@@ -277,10 +277,10 @@ export default function Content() {
             </tr>
           </thead>
           <tbody>
-            <tr><td>Retraçage des lignes</td><td>60 à 120 euros</td></tr>
-            <tr><td>Rafraîchissement du pictogramme</td><td>40 à 80 euros</td></tr>
-            <tr><td>Remplacement panneau B6d</td><td>80 à 150 euros</td></tr>
-            <tr><td><strong>Total par place</strong></td><td><strong>180 à 350 euros</strong></td></tr>
+            <tr><td>Retra&ccedil;age des lignes</td><td>&agrave; partir de 85 euros</td></tr>
+            <tr><td>Rafra&icirc;chissement du pictogramme</td><td>&agrave; partir de 55 euros</td></tr>
+            <tr><td>Remplacement panneau B6d</td><td>&agrave; partir de 110 euros</td></tr>
+            <tr><td><strong>Total par place</strong></td><td><strong>&agrave; partir de 250 euros</strong></td></tr>
           </tbody>
         </table>
       </div>
@@ -290,7 +290,7 @@ export default function Content() {
 
       <blockquote>
         <p>
-          Martine, syndic d&apos;une copropriété de 45 logements à Oullins, devait mettre en conformité 2 places PMR existantes et en créer une troisième. Le devis détaillait : retraçage des 2 places existantes avec pictogrammes neufs (280 euros), création de la 3e place avec traçage, pictogramme, panneau B6d et bande podotactile (620 euros). Total : 900 euros pour 3 places conformes. Le vote en AG est passé sans opposition, les copropriétaires ayant compris que 900 euros valaient mieux que 45 000 euros d&apos;amende. Pour le détail du processus en copropriété, consultez notre guide sur la <Link href="/guides/renovation-parking-copropriete">rénovation parking copropriété</Link>.
+          Martine, syndic d&apos;une copropriété de 45 logements à Oullins, devait mettre en conformité 2 places PMR existantes et en créer une troisième. Le devis détaillait : retra&ccedil;age des 2 places existantes avec pictogrammes neufs, cr&eacute;ation de la 3e place avec tra&ccedil;age, pictogramme, panneau B6d et bande podotactile. Total : moins d&apos;un millier d&apos;euros pour 3 places conformes. Le vote en AG est pass&eacute; sans opposition, les copropri&eacute;taires ayant compris que ce budget modeste valait mieux que 45 000 euros d&apos;amende. Pour le détail du processus en copropriété, consultez notre guide sur la <Link href="/guides/renovation-parking-copropriete">rénovation parking copropriété</Link>.
         </p>
       </blockquote>
 
@@ -369,7 +369,7 @@ export default function Content() {
         <li><strong>Pictogramme</strong> : 1,00 m x 1,20 m minimum, conforme ISO 7001, au centre de la place</li>
         <li><strong>Bande latérale</strong> : 0,80 m minimum, marquée par des hachures</li>
         <li><strong>Bandes podotactiles</strong> : 40 cm de profondeur, à chaque abaissement de trottoir</li>
-        <li><strong>Budget</strong> : 350 à 760 euros par place neuve, 180 à 350 euros par place à rafraîchir</li>
+        <li><strong>Budget</strong> : &agrave; partir de 550 euros par place neuve, &agrave; partir de 250 euros par place &agrave; rafra&icirc;chir</li>
       </ul>
       <p>
         La signalisation PMR est le volet le plus visible de la conformité. C&apos;est aussi le plus simple et le moins coûteux à corriger. Ne laissez pas un détail de signalisation vous exposer à 45 000 euros d&apos;amende.

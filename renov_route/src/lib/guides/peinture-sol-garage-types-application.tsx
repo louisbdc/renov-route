@@ -19,7 +19,7 @@ export default function Content() {
         Un sol de garage brut, ca se voit. Poussiere de beton qui se depose sur les vehicules, taches d&apos;huile qui s&apos;incrustent, fissures qui s&apos;elargissent a chaque hiver. La peinture de sol transforme une dalle grise et poreuse en surface nette, resistante et facile a nettoyer.
       </p>
       <p>
-        Julien, proprietaire d&apos;une maison a Ecully (69), a peint le sol de son garage de 35 m2 en resine epoxy bi-composant un samedi matin. Cout total : 280 euros (peinture + primaire + rouleau). Le dimanche soir, il garait sa voiture sur un sol gris anthracite, lisse et brillant. Deux ans plus tard, aucune tache d&apos;huile ne s&apos;est incrustee, la poussiere a disparu et le garage ressemble a un show-room. Temps de travail : 5 heures, pauses comprises.
+        Julien, proprietaire d&apos;une maison a Ecully (69), a peint le sol de son garage de 35 m2 en resine epoxy bi-composant un samedi matin. Budget maitrise pour la peinture, le primaire et le rouleau. Le dimanche soir, il garait sa voiture sur un sol gris anthracite, lisse et brillant. Deux ans plus tard, aucune tache d&apos;huile ne s&apos;est incrustee, la poussiere a disparu et le garage ressemble a un show-room. Temps de travail : 5 heures, pauses comprises.
       </p>
       <p>
         Peinture epoxy, polyurethane, alkyde-urethane : chaque type a ses performances, ses limites et son prix. Ce guide compare les options, detaille les prix au m2 et explique les etapes d&apos;une application reussie.
@@ -50,7 +50,7 @@ export default function Content() {
         <li>Application uniquement sur sol sec (humidite &lt; 4%)</li>
       </ul>
       <p>
-        <strong>Prix moyen :</strong> 6 a 12 euros/m2 en fourniture, 15 a 30 euros/m2 pose incluse.
+        <strong>Prix moyen :</strong> a partir de 8 euros/m2 en fourniture, a partir de 20 euros/m2 pose incluse.
       </p>
       <p>
         L&apos;epoxy est le choix recommande pour les garages fermes, les ateliers prives et les locaux techniques. Pour les garages semi-ouverts exposes au soleil, privilegiez la polyurethane.
@@ -76,7 +76,7 @@ export default function Content() {
         <li>Temps de sechage : 48 a 72 heures</li>
       </ul>
       <p>
-        <strong>Prix moyen :</strong> 8 a 15 euros/m2 en fourniture, 20 a 40 euros/m2 pose incluse.
+        <strong>Prix moyen :</strong> a partir de 10 euros/m2 en fourniture, a partir de 28 euros/m2 pose incluse.
       </p>
       <p>
         La polyurethane est recommandee pour les garages semi-ouverts, les garages avec porte basculante laissant entrer la lumiere et les abris de voiture.
@@ -101,7 +101,7 @@ export default function Content() {
         <li>Odeur forte (solvant organique)</li>
       </ul>
       <p>
-        <strong>Prix moyen :</strong> 3 a 7 euros/m2 en fourniture, 10 a 20 euros/m2 pose incluse.
+        <strong>Prix moyen :</strong> a partir de 5 euros/m2 en fourniture, a partir de 14 euros/m2 pose incluse.
       </p>
       <p>
         L&apos;alkyde-urethane convient pour les garages de rangement, les caves amenagees et les locaux a faible passage de vehicules.
@@ -127,7 +127,7 @@ export default function Content() {
         <li>Necessite des retouches frequentes</li>
       </ul>
       <p>
-        <strong>Prix moyen :</strong> 2 a 5 euros/m2 en fourniture.
+        <strong>Prix moyen :</strong> a partir de 3 euros/m2 en fourniture.
       </p>
       <p>
         L&apos;acrylique n&apos;est pas recommandee pour un garage ou circulent des vehicules. Elle convient pour les murs de garage, les garages de rangement sans voiture ou les sous-sols.
@@ -150,36 +150,36 @@ export default function Content() {
           <tbody>
             <tr>
               <td>Acrylique (eau)</td>
-              <td>2 a 5 euros</td>
-              <td>8 a 15 euros</td>
+              <td>a partir de 3 euros</td>
+              <td>a partir de 10 euros</td>
               <td>1-3 ans</td>
               <td>Rangement, cave</td>
             </tr>
             <tr>
               <td>Alkyde-urethane</td>
-              <td>3 a 7 euros</td>
-              <td>10 a 20 euros</td>
+              <td>a partir de 5 euros</td>
+              <td>a partir de 14 euros</td>
               <td>2-4 ans</td>
               <td>Garage faible trafic</td>
             </tr>
             <tr>
               <td>Epoxy bi-composant</td>
-              <td>6 a 12 euros</td>
-              <td>15 a 30 euros</td>
+              <td>a partir de 8 euros</td>
+              <td>a partir de 20 euros</td>
               <td>5-10 ans</td>
               <td>Garage, atelier</td>
             </tr>
             <tr>
               <td>Polyurethane</td>
-              <td>8 a 15 euros</td>
-              <td>20 a 40 euros</td>
+              <td>a partir de 10 euros</td>
+              <td>a partir de 28 euros</td>
               <td>7-12 ans</td>
               <td>Garage semi-ouvert</td>
             </tr>
             <tr>
               <td>Resine epoxy (epaisse)</td>
-              <td>25 a 45 euros</td>
-              <td>35 a 60 euros</td>
+              <td>a partir de 30 euros</td>
+              <td>a partir de 42 euros</td>
               <td>8-15 ans</td>
               <td>Parking, usage intensif</td>
             </tr>
@@ -196,12 +196,12 @@ export default function Content() {
         Pour un garage de 30 a 40 m2, voici les budgets a prevoir en fourniture :
       </p>
       <ul>
-        <li><strong>Budget serre (acrylique)</strong> : 60 a 200 euros</li>
-        <li><strong>Budget moyen (epoxy)</strong> : 180 a 480 euros</li>
-        <li><strong>Budget confort (polyurethane)</strong> : 240 a 600 euros</li>
+        <li><strong>Budget serre (acrylique)</strong> : a partir de 100 euros</li>
+        <li><strong>Budget moyen (epoxy)</strong> : a partir de 250 euros</li>
+        <li><strong>Budget confort (polyurethane)</strong> : a partir de 350 euros</li>
       </ul>
       <p>
-        Sophie, proprietaire d&apos;un pavillon a Villeurbanne (69), avait achete une peinture acrylique a 3 euros/m2 pour son garage de 32 m2. Cout : 96 euros. Six mois apres, des traces de pneus marquaient le sol et la peinture s&apos;ecaillait devant la porte. Elle a reponce tout le garage en epoxy bi-composant (320 euros + 2 heures de poncage pour retirer l&apos;acrylique). Total sur 2 ans : 416 euros pour un resultat qu&apos;elle aurait obtenu des le depart pour 320 euros. Le &quot;pas cher&quot; a coute 30% de plus.
+        Sophie, proprietaire d&apos;un pavillon a Villeurbanne (69), avait achete une peinture acrylique bon marche pour son garage de 32 m2. Six mois apres, des traces de pneus marquaient le sol et la peinture s&apos;ecaillait devant la porte. Elle a reponce tout le garage en epoxy bi-composant (avec 2 heures de poncage supplementaires pour retirer l&apos;acrylique). Total sur 2 ans : un budget nettement superieur a celui qu&apos;elle aurait depense en choisissant directement l&apos;epoxy. Le &quot;pas cher&quot; a coute bien plus au final.
       </p>
 
       <h2>Preparation du sol : l&apos;etape qui decide de tout</h2>
@@ -320,7 +320,7 @@ export default function Content() {
 
       <h3>5. Choisir la peinture la moins chere</h3>
       <p>
-        L&apos;acrylique a 3 euros/m2 dure 1 a 3 ans. L&apos;epoxy a 8 euros/m2 dure 5 a 10 ans. Sur 10 ans, l&apos;acrylique coute 3 applications (9 euros/m2 + 3 fois le temps de travail). L&apos;epoxy coute 1 application (8 euros/m2). Le calcul est simple.
+        L&apos;acrylique dure 1 a 3 ans. L&apos;epoxy dure 5 a 10 ans. Sur 10 ans, l&apos;acrylique necessite 3 applications (et 3 fois le temps de travail). L&apos;epoxy necessite 1 seule application. Le calcul est simple.
       </p>
 
       <h2>Peinture ou resine : que choisir pour un garage ?</h2>
@@ -333,7 +333,7 @@ export default function Content() {
         <li>Epaisseur : 0,1 a 0,5 mm</li>
         <li>Application : rouleau, en 2-3 couches</li>
         <li>Preparation : simple (poncage + primaire)</li>
-        <li>Prix : 2 a 15 euros/m2</li>
+        <li>Prix : a partir de 5 euros/m2</li>
         <li>Ideal pour : garages residentiels, ateliers prives, bricolage</li>
       </ul>
 
@@ -342,7 +342,7 @@ export default function Content() {
         <li>Epaisseur : 1 a 5 mm</li>
         <li>Application : spatule crantee ou raclette, systeme autolissant</li>
         <li>Preparation : lourde (grenaillage, ragreage)</li>
-        <li>Prix : 25 a 60 euros/m2</li>
+        <li>Prix : a partir de 35 euros/m2</li>
         <li>Ideal pour : parkings professionnels, locaux industriels, usage intensif</li>
       </ul>
       <p>
@@ -386,7 +386,7 @@ export default function Content() {
 
       <h3>Faut-il une peinture antiderapante pour le garage ?</h3>
       <p>
-        C&apos;est recommande pour les zones de passage pieton (devant la porte d&apos;entree dans la maison, marches). Ajoutez des granulats antiderapants dans la derniere couche de peinture ou choisissez une peinture avec finition antiderapante integree. Surcout : 2 a 5 euros/m2.
+        C&apos;est recommande pour les zones de passage pieton (devant la porte d&apos;entree dans la maison, marches). Ajoutez des granulats antiderapants dans la derniere couche de peinture ou choisissez une peinture avec finition antiderapante integree. Un leger surcout est a prevoir.
       </p>
 
       <h3>Peut-on peindre sur une ancienne peinture de sol ?</h3>
@@ -401,7 +401,7 @@ export default function Content() {
 
       <h2>Un garage propre, ca commence par le sol</h2>
       <p>
-        La peinture de sol de garage est l&apos;amelioration la plus visible et la plus rentable pour un garage residentiel. En une journee de travail et pour moins de 400 euros, un garage gris et poussiereux devient un espace propre, lumineux et facile a entretenir.
+        La peinture de sol de garage est l&apos;amelioration la plus visible et la plus rentable pour un garage residentiel. En une journee de travail et pour un budget accessible, un garage gris et poussiereux devient un espace propre, lumineux et facile a entretenir.
       </p>
       <p>
         Le choix se resume a une question : garage ferme et protege du soleil, choisissez l&apos;epoxy. Garage semi-ouvert ou expose a la lumiere, choisissez la polyurethane. Et oubliez l&apos;acrylique si vous y garez une voiture.

@@ -3,26 +3,27 @@ import Link from 'next/link'
 
 export const meta: Guide = {
   slug: 'mise-en-conformite-parking-pmr',
-  title: 'Mise en conformité parking PMR : étapes, obligations et coûts',
-  metaTitle: 'Mise en conformité parking PMR : étapes et coûts 2026',
-  metaDescription: 'Mise en conformité PMR de votre parking : étapes, obligations légales, coûts et délais. Guide pratique pour copropriétés et entreprises. Devis gratuit.',
+  title: 'Mise en conformité parking PMR : obligations, sanctions et coûts 2026',
+  metaTitle: 'Conformité accessibilité parking PMR 2026 : sanctions et coûts',
+  metaDescription: 'Mise en conformité PMR parking : sanctions jusqu\'à 45 000 euros, obligations 2026, coûts par poste. Guide pour copropriétés, ERP et entreprises. Devis gratuit.',
   publishDate: '2026-03-04',
+  updatedDate: '2026-03-31',
   category: 'normes-pmr',
-  readingTime: 11,
-  excerpt: 'Guide complet pour la mise en conformité PMR de votre parking : obligations légales, 5 étapes concrètes, budget détaillé par poste et erreurs à éviter.',
+  readingTime: 13,
+  excerpt: 'Guide complet pour la mise en conformité PMR de votre parking : sanctions renforcées en 2026, obligations légales, 5 étapes concrètes, budget détaillé par poste.',
 }
 
 export default function Content() {
   return (
     <>
       <p>
-        Saviez-vous qu&apos;un parking non conforme aux normes PMR peut entraîner une amende allant jusqu&apos;à <strong>45 000 euros par infraction</strong> constatée ? Pour les gestionnaires d&apos;ERP, cette sanction s&apos;accompagne d&apos;un risque pénal en cas d&apos;accident impliquant une personne à mobilité réduite.
+        <strong>Mise &agrave; jour mars 2026</strong> : les contr&ocirc;les de conformit&eacute; accessibilit&eacute; parking se sont intensifi&eacute;s depuis d&eacute;but 2026. Plusieurs communes de la m&eacute;tropole lyonnaise ont lanc&eacute; des campagnes d&apos;inspection syst&eacute;matique des parkings priv&eacute;s. Les sanctions pour non-conformit&eacute; parking PMR peuvent atteindre <strong>45 000 euros par infraction</strong> constat&eacute;e, et <strong>225 000 euros pour une personne morale</strong>.
       </p>
       <p>
-        Vous gérez un parking de commerce, d&apos;entreprise ou de copropriété, et vous n&apos;êtes pas certain d&apos;être aux normes ? Vous n&apos;êtes pas seul. En France, plus de 40 % des parkings privés ne respectent pas encore l&apos;intégralité des obligations d&apos;accessibilité, selon les estimations de la Délégation ministérielle à l&apos;accessibilité. La bonne nouvelle : la mise en conformité parking PMR est un projet encadré, planifiable et souvent plus abordable qu&apos;on ne l&apos;imagine.
+        Vous g&eacute;rez un parking de commerce, d&apos;entreprise ou de copropri&eacute;t&eacute;, et vous n&apos;&ecirc;tes pas certain d&apos;&ecirc;tre aux normes ? Vous n&apos;&ecirc;tes pas seul. En France, plus de 40 % des parkings privés ne respectent pas encore l&apos;int&eacute;gralit&eacute; des obligations d&apos;accessibilit&eacute;, selon les estimations de la D&eacute;l&eacute;gation minist&eacute;rielle &agrave; l&apos;accessibilit&eacute;. La bonne nouvelle : la mise en conformit&eacute; parking PMR est un projet encadr&eacute;, planifiable et souvent plus abordable qu&apos;on ne l&apos;imagine.
       </p>
       <p>
-        Dans ce guide, vous trouverez les obligations légales actuelles, les étapes concrètes pour mettre votre parking aux normes, les coûts détaillés par poste et un calendrier de mise en œuvre réaliste. Nous accompagnons des gestionnaires de parkings dans cette démarche depuis 2014, avec plus de 1 000 projets réalisés pour des enseignes comme Carrefour, Lidl ou McDonald&apos;s.
+        Dans ce guide, vous trouverez les obligations l&eacute;gales actuelles, les sanctions encourues en 2026, les &eacute;tapes concr&egrave;tes pour mettre votre parking existant aux normes PMR, les co&ucirc;ts d&eacute;taill&eacute;s par poste et un calendrier de mise en oeuvre r&eacute;aliste. Nous accompagnons des gestionnaires de parkings dans cette d&eacute;marche depuis 2014, avec plus de 1 000 projets r&eacute;alis&eacute;s pour des enseignes comme Carrefour, Lidl ou McDonald&apos;s.
       </p>
 
       <h2>Qui est concerné par l&apos;obligation PMR parking ?</h2>
@@ -103,7 +104,7 @@ export default function Content() {
 
       <blockquote>
         <p>
-          Nathalie, syndic dans le 3e arrondissement de Lyon, pensait que son parking de 35 places était conforme parce qu&apos;il disposait de deux places PMR. Lors d&apos;un contrôle en septembre 2025, l&apos;inspecteur a relevé trois non-conformités : le pictogramme au sol était effacé, la bande de circulation latérale ne faisait que 60 cm au lieu de 80 cm, et le panneau vertical manquait. Coût de la mise aux normes : 1 800 euros. Coût de l&apos;amende évitée : 45 000 euros.
+          Nathalie, syndic dans le 3e arrondissement de Lyon, pensait que son parking de 35 places était conforme parce qu&apos;il disposait de deux places PMR. Lors d&apos;un contrôle en septembre 2025, l&apos;inspecteur a relevé trois non-conformités : le pictogramme au sol était effacé, la bande de circulation latérale ne faisait que 60 cm au lieu de 80 cm, et le panneau vertical manquait. Co&ucirc;t de la mise aux normes : quelques milliers d&apos;euros. Co&ucirc;t de l&apos;amende &eacute;vit&eacute;e : 45 000 euros.
         </p>
       </blockquote>
 
@@ -214,12 +215,12 @@ export default function Content() {
             </tr>
           </thead>
           <tbody>
-            <tr><td>Diagnostic d&apos;accessibilité</td><td>0 à 500 euros</td><td>Gratuit si suivi de travaux</td></tr>
-            <tr><td>Marquage place PMR (traçage + pictogramme)</td><td>150 à 350 euros / place</td><td>Peinture certifiée NF EN 1436</td></tr>
-            <tr><td>Panneau B6d + pose</td><td>120 à 250 euros / panneau</td><td>Fixation au sol ou sur mât</td></tr>
-            <tr><td>Bande podotactile</td><td>40 à 80 euros / ml</td><td>Inox, résine ou caoutchouc</td></tr>
-            <tr><td>Abaissement de trottoir</td><td>800 à 2 000 euros / unité</td><td>Génie civil selon configuration</td></tr>
-            <tr><td>Reprise de chaussée (dévers, pente)</td><td>1 500 à 5 000 euros</td><td>Selon surface et travaux nécessaires</td></tr>
+            <tr><td>Diagnostic d&apos;accessibilité</td><td>&agrave; partir de 0 euro</td><td>Gratuit si suivi de travaux</td></tr>
+            <tr><td>Marquage place PMR (traçage + pictogramme)</td><td>&agrave; partir de 250 euros / place</td><td>Peinture certifiée NF EN 1436</td></tr>
+            <tr><td>Panneau B6d + pose</td><td>&agrave; partir de 180 euros / panneau</td><td>Fixation au sol ou sur mât</td></tr>
+            <tr><td>Bande podotactile</td><td>&agrave; partir de 55 euros / ml</td><td>Inox, résine ou caoutchouc</td></tr>
+            <tr><td>Abaissement de trottoir</td><td>&agrave; partir de 1 400 euros / unité</td><td>Génie civil selon configuration</td></tr>
+            <tr><td>Reprise de chaussée (dévers, pente)</td><td>&agrave; partir de 3 500 euros</td><td>Selon surface et travaux nécessaires</td></tr>
           </tbody>
         </table>
       </div>
@@ -227,23 +228,23 @@ export default function Content() {
       <h3>Exemples de budgets réels</h3>
       <p><strong>Parking de 30 places, commerce de proximité :</strong></p>
       <ul>
-        <li>1 place PMR à créer (marquage + panneau) : 400 euros</li>
-        <li>1 abaissement de trottoir : 1 200 euros</li>
-        <li><strong>Total : environ 1 600 euros</strong></li>
+        <li>1 place PMR &agrave; cr&eacute;er (marquage + panneau) : quelques centaines d&apos;euros</li>
+        <li>1 abaissement de trottoir : plus d&apos;un millier d&apos;euros</li>
+        <li><strong>Total : &agrave; partir de 2 000 euros</strong></li>
       </ul>
 
       <p><strong>Parking de 80 places, centre commercial :</strong></p>
       <ul>
-        <li>3 places PMR à mettre aux normes (retraçage + pictogrammes + bande latérale) : 900 euros</li>
-        <li>3 panneaux B6d : 540 euros</li>
-        <li>2 bandes podotactiles (8 ml) : 480 euros</li>
-        <li>1 reprise de cheminement : 2 000 euros</li>
-        <li><strong>Total : environ 3 920 euros</strong></li>
+        <li>3 places PMR &agrave; mettre aux normes (retra&ccedil;age + pictogrammes + bande lat&eacute;rale)</li>
+        <li>3 panneaux B6d</li>
+        <li>2 bandes podotactiles (8 ml)</li>
+        <li>1 reprise de cheminement</li>
+        <li><strong>Total : &agrave; partir de 5 000 euros</strong></li>
       </ul>
 
       <blockquote>
         <p>
-          Quand Olivier, directeur d&apos;un supermarché de 120 places dans l&apos;Ain, a reçu la visite de la commission d&apos;accessibilité en janvier 2026, il s&apos;attendait au pire. Le parking avait seulement 2 places PMR au lieu des 4 requises, les pictogrammes étaient à peine visibles et un poteau gênait le cheminement vers l&apos;entrée. Il a fait appel à notre équipe pour une mise en conformité complète. En trois jours, nous avons retracé les 4 places PMR aux dimensions réglementaires, posé les panneaux B6d, installé les bandes podotactiles et déplacé le poteau. Budget total : 4 200 euros. Deux mois plus tard, le second contrôle a validé la conformité totale.
+          Quand Olivier, directeur d&apos;un supermarché de 120 places dans l&apos;Ain, a reçu la visite de la commission d&apos;accessibilité en janvier 2026, il s&apos;attendait au pire. Le parking avait seulement 2 places PMR au lieu des 4 requises, les pictogrammes étaient à peine visibles et un poteau gênait le cheminement vers l&apos;entrée. Il a fait appel à notre équipe pour une mise en conformité complète. En trois jours, nous avons retracé les 4 places PMR aux dimensions réglementaires, posé les panneaux B6d, installé les bandes podotactiles et déplacé le poteau. Budget total : plusieurs milliers d&apos;euros. Deux mois plus tard, le second contrôle a validé la conformité totale.
         </p>
       </blockquote>
 
@@ -313,7 +314,7 @@ export default function Content() {
 
       <blockquote>
         <p>
-          Antoine, gérant de trois restaurants rapides en périphérie lyonnaise, a reçu trois PV d&apos;infraction le même mois. Aucun de ses parkings n&apos;avait de place PMR conforme. Montant cumulé des amendes : 12 000 euros. Il a ensuite investi 5 400 euros pour mettre les trois parkings aux normes. Au total, cette mise en conformité tardive lui a coûté 17 400 euros, soit plus de trois fois le prix des travaux seuls. Son conseil ? &quot;Faites-le tout de suite. Le coût des travaux, c&apos;est rien comparé aux amendes.&quot;
+          Antoine, gérant de trois restaurants rapides en périphérie lyonnaise, a reçu trois PV d&apos;infraction le même mois. Aucun de ses parkings n&apos;avait de place PMR conforme. Montant cumul&eacute; des amendes : plus de 10 000 euros. Il a ensuite investi plusieurs milliers d&apos;euros suppl&eacute;mentaires pour mettre les trois parkings aux normes. Au total, cette mise en conformit&eacute; tardive lui a co&ucirc;t&eacute; bien plus de trois fois le prix des travaux seuls. Son conseil ? &quot;Faites-le tout de suite. Le coût des travaux, c&apos;est rien comparé aux amendes.&quot;
         </p>
       </blockquote>
 
@@ -339,6 +340,35 @@ export default function Content() {
       <p>
         Pour le détail du processus en copropriété, consultez notre guide complet sur la <Link href="/guides/renovation-parking-copropriete">rénovation de parking en copropriété</Link>.
       </p>
+
+      <h2>Conformit&eacute; accessibilit&eacute; parking 2026 : ce qui change</h2>
+      <p>
+        L&apos;ann&eacute;e 2026 marque un tournant dans l&apos;application des normes d&apos;accessibilit&eacute; parking. Voici les &eacute;volutions notables pour les gestionnaires de parkings existants.
+      </p>
+
+      <h3>Renforcement des contr&ocirc;les</h3>
+      <p>
+        Les commissions communales d&apos;accessibilit&eacute; ont re&ccedil;u des moyens suppl&eacute;mentaires pour intensifier les contr&ocirc;les sur le terrain. Les contr&ocirc;les inopin&eacute;s se multiplient, en particulier dans les zones commerciales et les copropri&eacute;t&eacute;s avec locaux professionnels.
+      </p>
+
+      <h3>Sanctions renforc&eacute;es en pratique</h3>
+      <p>
+        Si les montants des amendes n&apos;ont pas chang&eacute; (45 000 euros personne physique, 225 000 euros personne morale), la tol&eacute;rance des commissions a nettement diminu&eacute;. Les gestionnaires qui n&apos;ont pas engag&eacute; de d&eacute;marche de mise en conformit&eacute; sont d&eacute;sormais verbalis&eacute;s plus syst&eacute;matiquement.
+      </p>
+
+      <h3>Am&eacute;nagement PMR de parking existant : les sp&eacute;cificit&eacute;s</h3>
+      <p>
+        Pour un parking existant, la mise aux normes PMR doit tenir compte des contraintes du site : configuration des places, pente du terrain, acc&egrave;s existants. Les solutions ne sont pas les m&ecirc;mes que pour un parking neuf. Notre &eacute;quipe adapte chaque am&eacute;nagement PMR &agrave; la configuration r&eacute;elle de votre parking, en privil&eacute;giant les solutions les moins intrusives et les plus &eacute;conomiques.
+      </p>
+      <p>
+        Les points cl&eacute;s pour un am&eacute;nagement PMR de parking existant :
+      </p>
+      <ul>
+        <li>Rep&eacute;rage des places les plus proches de l&apos;entr&eacute;e et les mieux adapt&eacute;es (sol plan, espace disponible)</li>
+        <li>Adaptation du marquage aux dimensions r&eacute;elles (certains parkings anciens ont des places plus &eacute;troites)</li>
+        <li>Cr&eacute;ation d&apos;un cheminement accessible sans n&eacute;cessairement refaire tout le rev&ecirc;tement</li>
+        <li>Pose de <Link href="/competences/signalisation-verticale">signalisation verticale</Link> adapt&eacute;e aux supports existants</li>
+      </ul>
 
       <h2>FAQ : mise en conformité parking PMR</h2>
 
@@ -376,7 +406,7 @@ export default function Content() {
         <li><strong>Diagnostiquez</strong> votre parking pour identifier les écarts de conformité</li>
         <li><strong>Calculez</strong> le nombre exact de places PMR obligatoires selon la capacité totale</li>
         <li><strong>Planifiez</strong> les travaux en intégrant les six critères de conformité (dimensions, marquage, panneau, localisation, cheminement, éclairage)</li>
-        <li><strong>Budgétez</strong> entre 1 500 et 5 000 euros pour un parking standard, davantage si des travaux de génie civil sont nécessaires</li>
+        <li><strong>Budg&eacute;tez</strong> &agrave; partir de 2 000 euros pour un parking standard, davantage si des travaux de g&eacute;nie civil sont n&eacute;cessaires</li>
         <li><strong>Entretenez</strong> régulièrement pour maintenir la conformité dans le temps</li>
       </ul>
       <p>

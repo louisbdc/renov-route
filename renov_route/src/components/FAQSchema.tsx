@@ -1,4 +1,4 @@
-import Script from 'next/script'
+'use client'
 
 interface FAQItem {
   question: string
@@ -28,8 +28,8 @@ export default function FAQSchema({ items }: FAQSchemaProps) {
   }
 
   return (
-    <Script
-      id="faq-structured-data"
+    <script
+     
       type="application/ld+json"
       dangerouslySetInnerHTML={{
         __html: JSON.stringify(structuredData),

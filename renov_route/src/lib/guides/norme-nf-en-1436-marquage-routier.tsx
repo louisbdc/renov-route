@@ -3,15 +3,15 @@ import Link from 'next/link'
 
 export const meta: Guide = {
   slug: 'norme-nf-en-1436-marquage-routier',
-  title: 'Norme NF EN 1436 : ce qu\u2019elle impose pour le marquage au sol de parking',
-  metaTitle: 'Norme NF EN 1436 : marquage routier et parking priv\u00e9',
+  title: 'Norme NF EN 1436 : ce qu’elle impose pour le marquage au sol de parking',
+  metaTitle: 'Norme NF EN 1436 : marquage routier et parking privé',
   metaDescription:
-    'Norme NF EN 1436 expliqu\u00e9e : r\u00e9tror\u00e9flexion, luminance, adh\u00e9rence du marquage au sol. Application en parking priv\u00e9, crit\u00e8res de qualit\u00e9 et dur\u00e9e de vie.',
+    'Norme NF EN 1436 expliquée : rétroréflexion, luminance, adhérence du marquage au sol. Application en parking privé, critères de qualité et durée de vie.',
   publishDate: '2026-03-04',
   category: 'normes-pmr',
   readingTime: 10,
   excerpt:
-    'R\u00e9tror\u00e9flexion, luminance, adh\u00e9rence, dur\u00e9e de vie : les 4 crit\u00e8res de la norme NF EN 1436 expliqu\u00e9s pour le marquage au sol de parking.',
+    'Rétroréflexion, luminance, adhérence, durée de vie : les 4 critères de la norme NF EN 1436 expliqués pour le marquage au sol de parking.',
 }
 
 export default function Content() {
@@ -30,13 +30,11 @@ export default function Content() {
         Julien, responsable technique d&apos;une cha&icirc;ne de
         supermarch&eacute;s dans le Rh&ocirc;ne, a fait retracer 3 parkings en
         2023 avec un prestataire qui utilisait une peinture non
-        certifi&eacute;e NF EN 1436. Prix attractif : 6 euros/m&sup2; au lieu
-        de 9 euros/m&sup2;. R&eacute;sultat : au bout de 8 mois, le marquage
+        certifi&eacute;e NF EN 1436. Prix attractif, bien en dessous du march&eacute;. R&eacute;sultat : au bout de 8 mois, le marquage
         &eacute;tait effac&eacute; sur les zones de manoeuvre. Le
         retra&ccedil;age a d&ucirc; &ecirc;tre refait enti&egrave;rement.
-        Co&ucirc;t total sur 2 ans : 14 euros/m&sup2; (2 passages) au lieu de
-        9 euros/m&sup2; (1 passage avec peinture certifi&eacute;e,
-        dur&eacute;e de vie 4-5 ans).
+        Co&ucirc;t total sur 2 ans : quasiment le double (2 passages) par rapport &agrave;
+        un seul passage avec peinture certifi&eacute;e (dur&eacute;e de vie 4-5 ans).
       </p>
 
       <p>
@@ -459,20 +457,20 @@ export default function Content() {
           <tbody>
             <tr>
               <td>Peinture acrylique (fourniture)</td>
-              <td>2-4 euros/m&sup2;</td>
-              <td>4-7 euros/m&sup2;</td>
+              <td>&agrave; partir de 3 euros/m&sup2;</td>
+              <td>&agrave; partir de 5 euros/m&sup2;</td>
               <td>+50-75%</td>
             </tr>
             <tr>
               <td>Peinture acrylique (pose comprise)</td>
-              <td>6-9 euros/m&sup2;</td>
-              <td>8-15 euros/m&sup2;</td>
+              <td>&agrave; partir de 7 euros/m&sup2;</td>
+              <td>&agrave; partir de 10 euros/m&sup2;</td>
               <td>+30-60%</td>
             </tr>
             <tr>
               <td>Thermoplastique (pose comprise)</td>
-              <td>12-18 euros/m&sup2;</td>
-              <td>15-25 euros/m&sup2;</td>
+              <td>&agrave; partir de 15 euros/m&sup2;</td>
+              <td>&agrave; partir de 18 euros/m&sup2;</td>
               <td>+25-40%</td>
             </tr>
           </tbody>
@@ -499,21 +497,21 @@ export default function Content() {
           <tbody>
             <tr>
               <td>Peinture non certifi&eacute;e</td>
-              <td>7 euros/m&sup2;</td>
+              <td>&agrave; partir de 7 euros/m&sup2;</td>
               <td>1-2 ans</td>
-              <td>3,50-7 euros/m&sup2;/an</td>
+              <td>&agrave; partir de 4 euros/m&sup2;/an</td>
             </tr>
             <tr>
               <td>Peinture certifi&eacute;e P5</td>
-              <td>12 euros/m&sup2;</td>
+              <td>&agrave; partir de 10 euros/m&sup2;</td>
               <td>3-5 ans</td>
-              <td>2,40-4 euros/m&sup2;/an</td>
+              <td>&agrave; partir de 2,50 euros/m&sup2;/an</td>
             </tr>
             <tr>
               <td>Thermoplastique certifi&eacute; P6</td>
-              <td>20 euros/m&sup2;</td>
+              <td>&agrave; partir de 18 euros/m&sup2;</td>
               <td>5-8 ans</td>
-              <td>2,50-4 euros/m&sup2;/an</td>
+              <td>&agrave; partir de 2,50 euros/m&sup2;/an</td>
             </tr>
           </tbody>
         </table>

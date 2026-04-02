@@ -1,14 +1,14 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Accessoires de Parking - Bornes, Ralentisseurs, Butées | Renov Route',
+  title: 'Accessoires Parking - Bornes et Ralentisseurs Lyon',
   description:
-    "Accessoires de parking professionnels : bornes anti-bélier, ralentisseurs, butées de parking. Installation et maintenance d'équipements de sécurité pour parkings.",
+    "Accessoires de parking professionnels à Lyon : bornes anti-bélier, ralentisseurs, butées de parking. Installation et maintenance. Devis gratuit.",
   alternates: {
     canonical: 'https://renov-route.com/competences/accessoires-parking/',
   },
   openGraph: {
-    title: 'Accessoires de Parking - Bornes, Ralentisseurs, Butées | Renov Route',
+    title: 'Accessoires Parking - Bornes et Ralentisseurs Lyon | Rénov Route',
     description:
       "Accessoires de parking professionnels : bornes anti-bélier, ralentisseurs, butées de parking. Installation et maintenance d'équipements de sécurité pour parkings.",
     url: 'https://renov-route.com/competences/accessoires-parking/',

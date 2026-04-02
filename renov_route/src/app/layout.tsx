@@ -1,9 +1,11 @@
 import type { Metadata, Viewport } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import CookieConsent from "@/components/CookieConsent";
 import AnalyticsTracker from "@/components/AnalyticsTracker";
 import { Agentation } from "agentation";
+
+const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -13,6 +15,12 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+});
+
+const spaceGrotesk = Space_Grotesk({
+  variable: "--font-space-grotesk",
+  subsets: ["latin"],
+  weight: ["500", "600", "700"],
 });
 
 export const viewport: Viewport = {
@@ -110,6 +118,24 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <head>
+        {/* Google Analytics — Consent Mode v2 (script unique pour garantir l'ordre) */}
+        {GA_ID && (
+          <script
+            dangerouslySetInnerHTML={{
+              __html: [
+                // 1. Initialiser dataLayer et gtag
+                `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}`,
+                // 2. Consent defaults AVANT tout (RGPD)
+                `gtag('consent','default',{'ad_storage':'denied','ad_user_data':'denied','ad_personalization':'denied','analytics_storage':'denied','wait_for_update':500});`,
+                // 3. Configurer GA4
+                `gtag('js',new Date());`,
+                `gtag('config','${GA_ID}',{send_page_view:false,anonymize_ip:true,cookie_flags:'SameSite=Strict;Secure'});`,
+                // 4. Charger gtag.js dynamiquement (APRÈS les defaults)
+                `var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=${GA_ID}';document.head.appendChild(s);`,
+              ].join('')
+            }}
+          />
+        )}
         <link
           rel="preload"
           as="image"
@@ -118,7 +144,7 @@ export default function RootLayout({
           fetchPriority="high"
         />
       </head>
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body className={`${geistSans.variable} ${geistMono.variable} ${spaceGrotesk.variable} antialiased`}>
         {children}
         <CookieConsent />
         <AnalyticsTracker />

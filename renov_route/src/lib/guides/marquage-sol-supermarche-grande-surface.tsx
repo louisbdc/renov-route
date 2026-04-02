@@ -3,13 +3,13 @@ import Link from 'next/link'
 
 export const meta: Guide = {
   slug: 'marquage-sol-supermarche-grande-surface',
-  title: 'Marquage au sol de parking supermarch\u00e9 et grande surface : plan, normes et prix',
-  metaTitle: 'Marquage au sol supermarch\u00e9 : plan, normes et prix',
-  metaDescription: 'Marquage au sol de parking supermarch\u00e9 et grande surface : plan de circulation, places PMR, zones livraison, peinture certifi\u00e9e et prix au m\u00b2. Devis gratuit.',
+  title: 'Marquage au sol de parking supermarché et grande surface : plan, normes et prix',
+  metaTitle: 'Marquage au sol supermarché : plan, normes et prix',
+  metaDescription: 'Marquage au sol de parking supermarché et grande surface : plan de circulation, places PMR, zones livraison, peinture certifiée et prix au m². Devis gratuit.',
   publishDate: '2026-03-04',
   category: 'marquage-parking',
   readingTime: 9,
-  excerpt: 'Plan de marquage type, normes sp\u00e9cifiques, fr\u00e9quence de retra\u00e7age et prix pour les parkings de supermarch\u00e9s et grandes surfaces.',
+  excerpt: 'Plan de marquage type, normes spécifiques, fréquence de retraçage et prix pour les parkings de supermarchés et grandes surfaces.',
 }
 
 export default function Content() {
@@ -53,7 +53,7 @@ export default function Content() {
         <li><strong>Faciliter les livraisons</strong> : acc&egrave;s camions s&eacute;par&eacute;, zone de man&oelig;uvre d&eacute;gag&eacute;e</li>
       </ol>
       <p>
-        Christophe, responsable technique de 3 Leclerc en r&eacute;gion lyonnaise, a revu le plan de circulation de son plus grand parking (280 places) apr&egrave;s 2 accidents pi&eacute;tons en 6 mois. Le nouveau plan comprend : 6 passages pi&eacute;tons marqu&eacute;s au thermoplastique, un sens unique dans toutes les all&eacute;es, des fl&egrave;ches directionnelles tous les 20 m&egrave;tres et des zones de ralentissement en entr&eacute;e. Co&ucirc;t du retra&ccedil;age complet : 3 800 euros. Depuis la mise en place (18 mois), z&eacute;ro accident d&eacute;clar&eacute;.
+        Christophe, responsable technique de 3 Leclerc en r&eacute;gion lyonnaise, a revu le plan de circulation de son plus grand parking (280 places) apr&egrave;s 2 accidents pi&eacute;tons en 6 mois. Le nouveau plan comprend : 6 passages pi&eacute;tons marqu&eacute;s au thermoplastique, un sens unique dans toutes les all&eacute;es, des fl&egrave;ches directionnelles tous les 20 m&egrave;tres et des zones de ralentissement en entr&eacute;e. Le co&ucirc;t du retra&ccedil;age complet est rest&eacute; ma&icirc;tris&eacute;, pour quelques milliers d&apos;euros. Depuis la mise en place (18 mois), z&eacute;ro accident d&eacute;clar&eacute;.
       </p>
 
       <h2>Sp&eacute;cificit&eacute;s du marquage en grande surface</h2>
@@ -210,20 +210,20 @@ export default function Content() {
             <tr>
               <td>Superette (300-800 m&sup2;)</td>
               <td>30-60</td>
-              <td>300-600 euros</td>
-              <td>800-1 500 euros</td>
+              <td>à partir de 400 euros</td>
+              <td>à partir de 1 000 euros</td>
             </tr>
             <tr>
               <td>Supermarch&eacute; (800-2 500 m&sup2;)</td>
               <td>60-150</td>
-              <td>600-1 500 euros</td>
-              <td>1 500-4 000 euros</td>
+              <td>à partir de 1 000 euros</td>
+              <td>à partir de 2 500 euros</td>
             </tr>
             <tr>
               <td>Hypermarch&eacute; (2 500+ m&sup2;)</td>
               <td>150-500+</td>
-              <td>1 500-5 000 euros</td>
-              <td>4 000-12 000 euros</td>
+              <td>à partir de 3 500 euros</td>
+              <td>à partir de 8 000 euros</td>
             </tr>
           </tbody>
         </table>
@@ -233,9 +233,9 @@ export default function Content() {
       <ul>
         <li><strong>Taille du parking</strong> : effet d&apos;&eacute;chelle &agrave; partir de 80 places (-15 &agrave; -25%)</li>
         <li><strong>Intervention de nuit</strong> : suppl&eacute;ment de 20-30%</li>
-        <li><strong>Thermoplastique</strong> (passages pi&eacute;tons) : 15-25 euros/m&sup2; vs 8-15 euros/m&sup2; pour la peinture acrylique</li>
-        <li><strong>Effacement pr&eacute;alable</strong> : 8-15 euros/m&sup2; si changement de plan de circulation</li>
-        <li><strong>Marquage drive</strong> : 150-400 euros pour 5-10 places num&eacute;rot&eacute;es</li>
+        <li><strong>Thermoplastique</strong> (passages pi&eacute;tons) : à partir de 17 euros/m&sup2; vs à partir de 10 euros/m&sup2; pour la peinture acrylique</li>
+        <li><strong>Effacement pr&eacute;alable</strong> : à partir de 10 euros/m&sup2; si changement de plan de circulation</li>
+        <li><strong>Marquage drive</strong> : à partir de 250 euros pour 5-10 places num&eacute;rot&eacute;es</li>
       </ul>
 
       <h2>FAQ : marquage parking supermarch&eacute;</h2>

@@ -40,7 +40,7 @@ export default function CtaBand({ className = '' }: CtaBandProps) {
               <Link
                 href="/devis"
                 onClick={() => trackQuoteRequest('realisations_cta_band')}
-                className="group relative px-8 py-4 bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 text-white font-bold text-body-lg rounded-lg transition-all duration-300 hover:scale-105 focus-ring"
+                className="group relative px-8 py-4 bg-gradient-to-r from-amber-500 to-amber-400 hover:from-amber-600 hover:to-amber-500 text-white font-bold text-body-lg rounded-lg transition-all duration-300 hover:scale-105 focus-ring"
               >
                 Demander un devis
               </Link>

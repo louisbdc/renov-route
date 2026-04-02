@@ -19,7 +19,7 @@ export default function Content() {
         Une barriere de parking, c&apos;est la frontiere entre un parking gere et un parking squatte. Sans controle d&apos;acces, les places reservees sont occupees par des vehicules non autorises, les rotations deviennent impossibles et les conflits entre usagers se multiplient.
       </p>
       <p>
-        Philippe, syndic d&apos;une copropriete de 120 logements a Caluire-et-Cuire (69), a installe une barriere levante automatique a l&apos;entree du parking souterrain apres des mois de tensions. Des vehicules exterieurs se garaient regulierement dans les places reservees aux residents. Les plaintes s&apos;accumulaient en AG. La barriere a ete votee a l&apos;unanimite. Cout total : 6 500 euros (barriere + badge + interphone). Resultat : zero intrusion depuis l&apos;installation, et des residents qui ne se plaignent plus.
+        Philippe, syndic d&apos;une copropriete de 120 logements a Caluire-et-Cuire (69), a installe une barriere levante automatique a l&apos;entree du parking souterrain apres des mois de tensions. Des vehicules exterieurs se garaient regulierement dans les places reservees aux residents. Les plaintes s&apos;accumulaient en AG. La barriere a ete votee a l&apos;unanimite. L&apos;investissement total (barriere + badge + interphone) representait plusieurs milliers d&apos;euros. Resultat : zero intrusion depuis l&apos;installation, et des residents qui ne se plaignent plus.
       </p>
       <p>
         Barriere levante, pivotante, basculante, automatique ou manuelle : chaque type repond a un usage et un budget different. Ce guide compare les options, detaille les prix et explique les regles d&apos;installation.
@@ -125,7 +125,7 @@ export default function Content() {
       </p>
       <p><strong>Avantages :</strong></p>
       <ul>
-        <li>Prix tres bas (100 a 500 euros)</li>
+        <li>Prix tres bas (a partir de 350 euros)</li>
         <li>Installation rapide (30 minutes)</li>
         <li>Amovible facilement</li>
       </ul>
@@ -158,38 +158,38 @@ export default function Content() {
           <tbody>
             <tr>
               <td>Barriere a chaine manuelle</td>
-              <td>100 a 500 euros</td>
-              <td>200 a 800 euros</td>
+              <td>a partir de 350 euros</td>
+              <td>a partir de 550 euros</td>
               <td>Non</td>
             </tr>
             <tr>
               <td>Barriere pivotante manuelle</td>
-              <td>300 a 800 euros</td>
-              <td>600 a 1 500 euros</td>
+              <td>a partir de 550 euros</td>
+              <td>a partir de 1 000 euros</td>
               <td>Non</td>
             </tr>
             <tr>
               <td>Barriere pivotante motorisee</td>
-              <td>1 000 a 2 500 euros</td>
-              <td>2 000 a 4 000 euros</td>
+              <td>a partir de 1 700 euros</td>
+              <td>a partir de 2 800 euros</td>
               <td>Oui</td>
             </tr>
             <tr>
               <td>Barriere levante electrique</td>
-              <td>1 500 a 4 000 euros</td>
-              <td>3 000 a 7 000 euros</td>
+              <td>a partir de 2 800 euros</td>
+              <td>a partir de 5 000 euros</td>
               <td>Oui</td>
             </tr>
             <tr>
               <td>Borne escamotable (unite)</td>
-              <td>1 500 a 5 000 euros</td>
-              <td>3 000 a 8 000 euros</td>
+              <td>a partir de 3 500 euros</td>
+              <td>a partir de 5 500 euros</td>
               <td>Oui</td>
             </tr>
             <tr>
               <td>Portail basculant/coulissant</td>
-              <td>3 000 a 10 000 euros</td>
-              <td>5 000 a 15 000 euros</td>
+              <td>a partir de 7 000 euros</td>
+              <td>a partir de 10 000 euros</td>
               <td>Oui</td>
             </tr>
           </tbody>
@@ -201,13 +201,13 @@ export default function Content() {
         Le prix de la barriere seule ne suffit pas. Prevoyez les couts suivants :
       </p>
       <ul>
-        <li><strong>Systeme de controle d&apos;acces</strong> : 500 a 3 000 euros (badge, telecommande, lecteur de plaque, interphone)</li>
-        <li><strong>Badges ou telecommandes</strong> : 15 a 50 euros par unite</li>
-        <li><strong>Travaux de genie civil</strong> : 500 a 2 000 euros (fondation, terrassement, alimentation electrique)</li>
-        <li><strong>Contrat de maintenance annuel</strong> : 200 a 800 euros par an</li>
+        <li><strong>Systeme de controle d&apos;acces</strong> : a partir de 2 000 euros (badge, telecommande, lecteur de plaque, interphone)</li>
+        <li><strong>Badges ou telecommandes</strong> : a partir de 35 euros par unite</li>
+        <li><strong>Travaux de genie civil</strong> : a partir de 1 400 euros (fondation, terrassement, alimentation electrique)</li>
+        <li><strong>Contrat de maintenance annuel</strong> : a partir de 550 euros par an</li>
       </ul>
       <p>
-        Carole, gestionnaire d&apos;un immeuble de bureaux a Ecully (69), a compare trois devis pour equiper son parking de 40 places. Le devis le moins cher (barriere levante basique a 2 800 euros pose incluse) n&apos;incluait pas le systeme de controle d&apos;acces. Le devis final retenu (5 200 euros) comprenait la barriere levante, un lecteur de badge, 50 badges residents, l&apos;interphone visiteur et le contrat de maintenance la premiere annee. Le &quot;devis pas cher&quot; aurait coute 1 000 euros de plus une fois les accessoires ajoutes separement.
+        Carole, gestionnaire d&apos;un immeuble de bureaux a Ecully (69), a compare trois devis pour equiper son parking de 40 places. Le devis le moins cher (barriere levante basique sans systeme de controle d&apos;acces) semblait attractif. Le devis final retenu, plus complet, comprenait la barriere levante, un lecteur de badge, 50 badges residents, l&apos;interphone visiteur et le contrat de maintenance la premiere annee. Le &quot;devis pas cher&quot; aurait coute bien plus une fois les accessoires ajoutes separement.
       </p>
 
       <h2>Choisir la barriere adaptee a son parking</h2>
@@ -231,9 +231,9 @@ export default function Content() {
 
       <h3>Budget disponible</h3>
       <ul>
-        <li><strong>Moins de 1 500 euros</strong> : barriere pivotante manuelle ou chaine</li>
-        <li><strong>1 500 a 5 000 euros</strong> : barriere levante electrique</li>
-        <li><strong>5 000 a 15 000 euros</strong> : portail motorise ou bornes escamotables</li>
+        <li><strong>Budget modere</strong> : barriere pivotante manuelle ou chaine</li>
+        <li><strong>Budget intermediaire</strong> : barriere levante electrique</li>
+        <li><strong>Budget eleve</strong> : portail motorise ou bornes escamotables</li>
       </ul>
 
       <h3>Contraintes techniques</h3>
@@ -287,7 +287,7 @@ export default function Content() {
 
       <h3>4. Negliger la maintenance</h3>
       <p>
-        Une barriere mal entretenue tombe en panne, reste ouverte et ne protege plus rien. Le contrat de maintenance annuel (200 a 800 euros) est un investissement, pas une depense.
+        Une barriere mal entretenue tombe en panne, reste ouverte et ne protege plus rien. Le contrat de maintenance annuel (a partir de 550 euros) est un investissement, pas une depense.
       </p>
 
       <h2>Entretien et duree de vie</h2>
@@ -316,12 +316,12 @@ export default function Content() {
             <tr>
               <td>Remplacement de la lisse</td>
               <td>Tous les 5-8 ans</td>
-              <td>200 a 500 euros</td>
+              <td>a partir de 350 euros</td>
             </tr>
             <tr>
               <td>Remplacement du moteur</td>
               <td>Tous les 10-15 ans</td>
-              <td>500 a 1 500 euros</td>
+              <td>a partir de 1 000 euros</td>
             </tr>
             <tr>
               <td>Mise a jour du systeme d&apos;acces</td>
@@ -346,12 +346,12 @@ export default function Content() {
 
       <h3>Combien coute une barriere de parking automatique ?</h3>
       <p>
-        Comptez 3 000 a 7 000 euros pour une barriere levante electrique avec systeme de controle d&apos;acces (badge ou telecommande), pose et mise en service incluses.
+        Comptez a partir de 5 000 euros pour une barriere levante electrique avec systeme de controle d&apos;acces (badge ou telecommande), pose et mise en service incluses.
       </p>
 
       <h3>Peut-on installer une barriere solaire ?</h3>
       <p>
-        Oui. Les barrieres solaires fonctionnent avec un panneau photovoltaique et une batterie. Elles conviennent aux parkings exterieurs avec un trafic modere (moins de 30 passages/jour). Le surcout par rapport a une barriere filaire est de 500 a 1 500 euros.
+        Oui. Les barrieres solaires fonctionnent avec un panneau photovoltaique et une batterie. Elles conviennent aux parkings exterieurs avec un trafic modere (moins de 30 passages/jour). Le surcout par rapport a une barriere filaire est de l&apos;ordre de quelques centaines a plus d&apos;un millier d&apos;euros.
       </p>
 
       <h3>La barriere doit-elle rester ouverte la nuit ?</h3>

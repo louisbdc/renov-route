@@ -5,59 +5,59 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
     {
       question: 'Quel est le prix moyen pour tracer un parking de 30 places ?',
       answer:
-        "Pour un parking de 30 places avec retra\u00e7age des lignes, fl\u00e8ches et passages pi\u00e9tons, comptez entre 1 800 \u20ac et 4 500 \u20ac HT selon le type de peinture et l'\u00e9tat du sol. Un devis personnalis\u00e9 permet d'affiner cette estimation.",
+        "Pour un parking de 30 places avec retraçage des lignes, flèches et passages piétons, comptez entre 1 800 € et 4 500 € HT selon le type de peinture et l'état du sol. Un devis personnalisé permet d'affiner cette estimation.",
     },
     {
       question:
-        'Le marquage au sol est-il d\u00e9ductible des charges de copropri\u00e9t\u00e9 ?',
+        'Le marquage au sol est-il déductible des charges de copropriété ?',
       answer:
-        "Oui, le retra\u00e7age de parking fait partie des charges d'entretien courant de la copropri\u00e9t\u00e9. Il est vot\u00e9 en AG \u00e0 la majorit\u00e9 simple (article 24) s'il s'agit d'un simple retra\u00e7age, ou \u00e0 la majorit\u00e9 absolue (article 25) pour une refonte compl\u00e8te.",
+        "Oui, le retraçage de parking fait partie des charges d'entretien courant de la copropriété. Il est voté en AG à la majorité simple (article 24) s'il s'agit d'un simple retraçage, ou à la majorité absolue (article 25) pour une refonte complète.",
     },
     {
       question:
-        'Quelle est la meilleure p\u00e9riode pour faire tracer son parking ?',
+        'Quelle est la meilleure période pour faire tracer son parking ?',
       answer:
-        "Le printemps (mars \u00e0 juin) et l'automne (septembre \u00e0 novembre) offrent les meilleures conditions. La peinture n\u00e9cessite un sol sec et une temp\u00e9rature sup\u00e9rieure \u00e0 5\u00b0C. L'\u00e9t\u00e9 est aussi favorable, mais les plannings sont plus charg\u00e9s.",
+        "Le printemps (mars à juin) et l'automne (septembre à novembre) offrent les meilleures conditions. La peinture nécessite un sol sec et une température supérieure à 5°C. L'été est aussi favorable, mais les plannings sont plus chargés.",
     },
     {
-      question: 'Combien de temps dure un chantier de tra\u00e7age ?',
+      question: 'Combien de temps dure un chantier de traçage ?',
       answer:
-        "Pour un parking de 50 places, comptez 1 \u00e0 2 jours de travaux. Le parking peut \u00eatre partiellement utilis\u00e9 pendant le chantier : nous travaillons par zones avec un s\u00e9chage de 1 \u00e0 3 heures par zone.",
+        "Pour un parking de 50 places, comptez 1 à 2 jours de travaux. Le parking peut être partiellement utilisé pendant le chantier : nous travaillons par zones avec un séchage de 1 à 3 heures par zone.",
     },
     {
-      question: "La TVA s'applique-t-elle au taux r\u00e9duit ?",
+      question: "La TVA s'applique-t-elle au taux réduit ?",
       answer:
-        "Non, le marquage au sol de parking rel\u00e8ve du taux de TVA normal (20%). Le taux r\u00e9duit de 10% ne s'applique qu'aux travaux d'am\u00e9lioration des logements de plus de 2 ans, pas aux parkings.",
+        "Non, le marquage au sol de parking relève du taux de TVA normal (20%). Le taux réduit de 10% ne s'applique qu'aux travaux d'amélioration des logements de plus de 2 ans, pas aux parkings.",
     },
   ],
   'normes-pmr-parking': [
     {
-      question: 'Une copropri\u00e9t\u00e9 doit-elle avoir des places PMR ?',
+      question: 'Une copropriété doit-elle avoir des places PMR ?',
       answer:
-        "Si le parking est li\u00e9 \u00e0 un ERP (commerce en pied d'immeuble, par exemple), oui. Pour un parking strictement r\u00e9sidentiel, les r\u00e8gles d\u00e9pendent de la date de construction : les immeubles neufs (apr\u00e8s 2007) doivent pr\u00e9voir des places adaptables. Pour les immeubles anciens, aucune obligation r\u00e9troactive sauf en cas de travaux importants.",
+        "Si le parking est lié à un ERP (commerce en pied d'immeuble, par exemple), oui. Pour un parking strictement résidentiel, les règles dépendent de la date de construction : les immeubles neufs (après 2007) doivent prévoir des places adaptables. Pour les immeubles anciens, aucune obligation rétroactive sauf en cas de travaux importants.",
     },
     {
       question:
-        'Peut-on verbaliser sur une place PMR dans un parking priv\u00e9 ?',
+        'Peut-on verbaliser sur une place PMR dans un parking privé ?',
       answer:
-        "Oui. Depuis la loi du 18 mars 2015, le stationnement abusif sur une place PMR est passible d'une amende de 135 \u20ac (4e classe), y compris dans les parkings priv\u00e9s ouverts \u00e0 la circulation publique (centres commerciaux, supermarch\u00e9s, h\u00f4pitaux).",
+        "Oui. Depuis la loi du 18 mars 2015, le stationnement abusif sur une place PMR est passible d'une amende de 135 € (4e classe), y compris dans les parkings privés ouverts à la circulation publique (centres commerciaux, supermarchés, hôpitaux).",
     },
     {
       question:
-        "Quelle est la diff\u00e9rence entre une place PMR et une place \u00ab adapt\u00e9e \u00bb ?",
+        "Quelle est la différence entre une place PMR et une place « adaptée » ?",
       answer:
-        "Une place PMR respecte toutes les normes de dimensions, de marquage et de signalisation. Une place \u00ab adapt\u00e9e \u00bb peut avoir des dimensions correctes mais manquer de signalisation ou de cheminement accessible. Seule la place PMR compl\u00e8te est conforme.",
+        "Une place PMR respecte toutes les normes de dimensions, de marquage et de signalisation. Une place « adaptée » peut avoir des dimensions correctes mais manquer de signalisation ou de cheminement accessible. Seule la place PMR complète est conforme.",
     },
     {
       question:
-        'Faut-il refaire les places PMR lors d\u2019un retra\u00e7age de parking ?',
+        'Faut-il refaire les places PMR lors d’un retraçage de parking ?',
       answer:
-        "Oui, c'est l'occasion id\u00e9ale. Lors d'un retra\u00e7age complet de parking, nous v\u00e9rifions syst\u00e9matiquement la conformit\u00e9 PMR et corrigeons les anomalies. C'est le moment le plus \u00e9conomique pour mettre \u00e0 jour vos places PMR.",
+        "Oui, c'est l'occasion idéale. Lors d'un retraçage complet de parking, nous vérifions systématiquement la conformité PMR et corrigeons les anomalies. C'est le moment le plus économique pour mettre à jour vos places PMR.",
     },
     {
       question: 'Les dimensions PMR changent-elles en 2026 ?',
       answer:
-        "Les dimensions r\u00e9glementaires (3,30 m x 5,00 m) n'ont pas chang\u00e9 depuis l'arr\u00eat\u00e9 du 20 avril 2017. Aucune modification n'est pr\u00e9vue en 2026. Ce qui \u00e9volue, c'est le niveau d'exigence des contr\u00f4les : les commissions d'accessibilit\u00e9 sont de plus en plus rigoureuses.",
+        "Les dimensions réglementaires (3,30 m x 5,00 m) n'ont pas changé depuis l'arrêté du 20 avril 2017. Aucune modification n'est prévue en 2026. Ce qui évolue, c'est le niveau d'exigence des contrôles : les commissions d'accessibilité sont de plus en plus rigoureuses.",
     },
   ],
   'nid-de-poule-responsabilite-parking': [
@@ -65,94 +65,94 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
       question:
         'Un client peut-il me poursuivre en justice pour un nid de poule ?',
       answer:
-        "Oui. Si votre assurance refuse d'indemniser ou si le montant des dommages est contest\u00e9, le client peut saisir le tribunal judiciaire (au-del\u00e0 de 10 000 \u20ac) ou le tribunal de proximit\u00e9 (en dessous de 10 000 \u20ac). En pratique, la plupart des litiges se r\u00e8glent \u00e0 l'amiable via les assurances.",
+        "Oui. Si votre assurance refuse d'indemniser ou si le montant des dommages est contesté, le client peut saisir le tribunal judiciaire (au-delà de 10 000 €) ou le tribunal de proximité (en dessous de 10 000 €). En pratique, la plupart des litiges se règlent à l'amiable via les assurances.",
     },
     {
       question:
-        'Mon assurance couvre-t-elle les dommages caus\u00e9s par un nid de poule ?',
+        'Mon assurance couvre-t-elle les dommages causés par un nid de poule ?',
       answer:
-        "Oui, si vous disposez d'une assurance responsabilit\u00e9 civile professionnelle (pour les entreprises) ou d'une multirisque immeuble (pour les copropri\u00e9t\u00e9s). V\u00e9rifiez que votre contrat couvre bien les \u00ab dommages caus\u00e9s par un d\u00e9faut d'entretien des parties communes \u00bb ou des \u00ab espaces ext\u00e9rieurs \u00bb.",
+        "Oui, si vous disposez d'une assurance responsabilité civile professionnelle (pour les entreprises) ou d'une multirisque immeuble (pour les copropriétés). Vérifiez que votre contrat couvre bien les « dommages causés par un défaut d'entretien des parties communes » ou des « espaces extérieurs ».",
     },
     {
       question:
         'Peut-on refuser de payer si le client roulait trop vite ?',
       answer:
-        "Partiellement. Si le client a contribu\u00e9 \u00e0 son propre dommage (vitesse excessive, inattention manifeste), votre responsabilit\u00e9 peut \u00eatre r\u00e9duite proportionnellement. C'est le principe du partage de responsabilit\u00e9. Mais le d\u00e9faut d'entretien du parking reste un fait objectif que vous ne pouvez pas contester.",
+        "Partiellement. Si le client a contribué à son propre dommage (vitesse excessive, inattention manifeste), votre responsabilité peut être réduite proportionnellement. C'est le principe du partage de responsabilité. Mais le défaut d'entretien du parking reste un fait objectif que vous ne pouvez pas contester.",
     },
     {
       question:
-        'Combien co\u00fbte la r\u00e9paration d\u2019un nid de poule ?',
+        'Combien coûte la réparation d’un nid de poule ?',
       answer:
-        "Le co\u00fbt d\u00e9pend de la m\u00e9thode et de la taille du nid de poule. Comptez 20 \u00e0 40 \u20ac HT pour un rebouchage \u00e0 l'enrob\u00e9 \u00e0 froid (temporaire, 3-6 mois) et 80 \u00e0 200 \u20ac HT pour une r\u00e9paration \u00e0 la r\u00e9sine polyur\u00e9thane (durable, 5-10 ans).",
+        "Le coût dépend de la méthode et de la taille du nid de poule. Comptez 20 à 40 € HT pour un rebouchage à l'enrobé à froid (temporaire, 3-6 mois) et 80 à 200 € HT pour une réparation à la résine polyuréthane (durable, 5-10 ans).",
     },
     {
       question:
-        'La commune peut-elle \u00eatre responsable d\u2019un nid de poule dans mon parking ?',
+        'La commune peut-elle être responsable d’un nid de poule dans mon parking ?',
       answer:
-        "Non. Si le parking est priv\u00e9, la commune n'a aucune obligation d'entretien. La responsabilit\u00e9 de la commune ne s'applique qu'aux voies publiques (routes communales, trottoirs, parkings publics). Pour un parking priv\u00e9, c'est le propri\u00e9taire ou le gestionnaire qui assume l'entretien.",
+        "Non. Si le parking est privé, la commune n'a aucune obligation d'entretien. La responsabilité de la commune ne s'applique qu'aux voies publiques (routes communales, trottoirs, parkings publics). Pour un parking privé, c'est le propriétaire ou le gestionnaire qui assume l'entretien.",
     },
   ],
   'enrobe-froid-vs-resine-nids-de-poule': [
     {
       question:
-        "Peut-on appliquer de la r\u00e9sine sur un ancien rebouchage \u00e0 l'enrob\u00e9 \u00e0 froid ?",
+        "Peut-on appliquer de la résine sur un ancien rebouchage à l'enrobé à froid ?",
       answer:
-        "Oui, \u00e0 condition de retirer l'enrob\u00e9 \u00e0 froid existant au pr\u00e9alable. La r\u00e9sine doit adh\u00e9rer au rev\u00eatement d'origine (bitume, enrob\u00e9), pas \u00e0 un mat\u00e9riau rapport\u00e9. Notre \u00e9quipe d\u00e9cape l'ancien rebouchage avant d'appliquer la r\u00e9sine.",
+        "Oui, à condition de retirer l'enrobé à froid existant au préalable. La résine doit adhérer au revêtement d'origine (bitume, enrobé), pas à un matériau rapporté. Notre équipe décape l'ancien rebouchage avant d'appliquer la résine.",
     },
     {
       question:
-        'La r\u00e9sine polyur\u00e9thane fonctionne-t-elle en hiver ?',
+        'La résine polyuréthane fonctionne-t-elle en hiver ?',
       answer:
-        "Oui. Nos formulations sont applicables jusqu'\u00e0 -5\u00b0C. Nous intervenons toute l'ann\u00e9e, y compris en p\u00e9riode hivernale. Les seules contraintes : le support doit \u00eatre sec (pas de pluie active) et la temp\u00e9rature doit rester au-dessus de -5\u00b0C pendant la polym\u00e9risation.",
+        "Oui. Nos formulations sont applicables jusqu'à -5°C. Nous intervenons toute l'année, y compris en période hivernale. Les seules contraintes : le support doit être sec (pas de pluie active) et la température doit rester au-dessus de -5°C pendant la polymérisation.",
     },
     {
       question:
-        'Combien de temps faut-il pour r\u00e9parer un nid de poule \u00e0 la r\u00e9sine ?',
+        'Combien de temps faut-il pour réparer un nid de poule à la résine ?',
       answer:
-        "Comptez 20 \u00e0 40 minutes par nid de poule (pr\u00e9paration + injection + lissage). La circulation pi\u00e9tonne est r\u00e9tablie en moins d'une heure, les v\u00e9hicules l\u00e9gers en 2 \u00e0 4 heures. Pour un parking de 10 \u00e0 20 nids de poule, une demi-journ\u00e9e suffit.",
+        "Comptez 20 à 40 minutes par nid de poule (préparation + injection + lissage). La circulation piétonne est rétablie en moins d'une heure, les véhicules légers en 2 à 4 heures. Pour un parking de 10 à 20 nids de poule, une demi-journée suffit.",
     },
     {
       question:
-        'Qui est responsable des nids de poule dans un parking priv\u00e9 ?',
+        'Qui est responsable des nids de poule dans un parking privé ?',
       answer:
-        "Le gestionnaire du parking (propri\u00e9taire, syndic, exploitant) est responsable de l'entretien de la chauss\u00e9e. En cas d'accident caus\u00e9 par un nid de poule (chute d'un pi\u00e9ton, dommage \u00e0 un v\u00e9hicule), sa responsabilit\u00e9 civile peut \u00eatre engag\u00e9e. L'absence de r\u00e9paration ou une r\u00e9paration insuffisante constituent un d\u00e9faut d'entretien.",
+        "Le gestionnaire du parking (propriétaire, syndic, exploitant) est responsable de l'entretien de la chaussée. En cas d'accident causé par un nid de poule (chute d'un piéton, dommage à un véhicule), sa responsabilité civile peut être engagée. L'absence de réparation ou une réparation insuffisante constituent un défaut d'entretien.",
     },
     {
       question:
-        'La r\u00e9sine est-elle compatible avec un retra\u00e7age de parking ?',
+        'La résine est-elle compatible avec un retraçage de parking ?',
       answer:
-        "Parfaitement. La surface de la r\u00e9sine polym\u00e9ris\u00e9e est lisse et homog\u00e8ne, ce qui permet d'appliquer la peinture de marquage directement dessus. Beaucoup de nos clients combinent la r\u00e9paration des nids de poule et le retra\u00e7age complet de leur parking en une seule intervention.",
+        "Parfaitement. La surface de la résine polymérisée est lisse et homogène, ce qui permet d'appliquer la peinture de marquage directement dessus. Beaucoup de nos clients combinent la réparation des nids de poule et le retraçage complet de leur parking en une seule intervention.",
     },
   ],
   'dimensions-nombre-places-pmr-parking': [
     {
       question:
-        'Peut-on mettre une place PMR en \u00e9pi ou en bataille ?',
+        'Peut-on mettre une place PMR en épi ou en bataille ?',
       answer:
-        "Oui, les deux configurations sont possibles. En \u00e9pi, la bande d'acc\u00e8s doit se trouver du c\u00f4t\u00e9 le plus large de la place (c\u00f4t\u00e9 o\u00f9 le v\u00e9hicule se pr\u00e9sente). En bataille (perpendiculaire), la bande d'acc\u00e8s est lat\u00e9rale, comme pour une place classique.",
+        "Oui, les deux configurations sont possibles. En épi, la bande d'accès doit se trouver du côté le plus large de la place (côté où le véhicule se présente). En bataille (perpendiculaire), la bande d'accès est latérale, comme pour une place classique.",
     },
     {
-      question: 'La place PMR doit-elle \u00eatre peinte en bleu ?',
+      question: 'La place PMR doit-elle être peinte en bleu ?',
       answer:
-        "Non, le fond bleu n'est pas obligatoire mais fortement recommand\u00e9. La r\u00e9glementation impose le pictogramme PMR et les lignes de d\u00e9limitation, mais pas de couleur de fond sp\u00e9cifique. En pratique, le marquage bleu est devenu un standard car il am\u00e9liore la visibilit\u00e9 et identifie imm\u00e9diatement la place.",
+        "Non, le fond bleu n'est pas obligatoire mais fortement recommandé. La réglementation impose le pictogramme PMR et les lignes de délimitation, mais pas de couleur de fond spécifique. En pratique, le marquage bleu est devenu un standard car il améliore la visibilité et identifie immédiatement la place.",
     },
     {
       question:
         'Faut-il une place PMR dans un parking de 10 places ?',
       answer:
-        "Oui. D\u00e8s qu'un parking d'ERP d\u00e9passe 1 place, il doit comporter au moins 2 places PMR (minimum r\u00e9glementaire). Pour un parking de 10 places, cela repr\u00e9sente 20 % de la capacit\u00e9.",
+        "Oui. Dès qu'un parking d'ERP dépasse 1 place, il doit comporter au moins 2 places PMR (minimum réglementaire). Pour un parking de 10 places, cela représente 20 % de la capacité.",
     },
     {
       question:
         'Peut-on transformer une place standard en place PMR sans refaire tout le parking ?',
       answer:
-        "Oui. Il suffit d'\u00e9largir la place concern\u00e9e (en r\u00e9duisant la place adjacente ou en supprimant une place) pour atteindre 3,30 m de large, puis de tracer le marquage PMR. C'est l'intervention la plus courante et la moins co\u00fbteuse (200 \u00e0 400 euros par place).",
+        "Oui. Il suffit d'élargir la place concernée (en réduisant la place adjacente ou en supprimant une place) pour atteindre 3,30 m de large, puis de tracer le marquage PMR. C'est l'intervention la plus courante et la moins coûteuse (200 à 400 euros par place).",
     },
     {
       question:
-        'Les dimensions PMR sont-elles les m\u00eames pour un parking souterrain ?',
+        'Les dimensions PMR sont-elles les mêmes pour un parking souterrain ?',
       answer:
-        "Oui, les dimensions au sol sont identiques. La seule diff\u00e9rence concerne la hauteur libre, qui doit \u00eatre de 2,15 m minimum pour permettre l'ouverture des hayons des v\u00e9hicules adapt\u00e9s.",
+        "Oui, les dimensions au sol sont identiques. La seule différence concerne la hauteur libre, qui doit être de 2,15 m minimum pour permettre l'ouverture des hayons des véhicules adaptés.",
     },
   ],
   'signalisation-pmr-parking': [
@@ -160,155 +160,155 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
       question:
         'Le panneau PMR est-il obligatoire en plus du marquage au sol ?',
       answer:
-        "Oui. Le panneau B6d et le pictogramme au sol sont deux \u00e9l\u00e9ments distincts, tous deux obligatoires. L'un ne remplace pas l'autre. Le panneau signale la place \u00e0 distance, le pictogramme l'identifie au sol.",
+        "Oui. Le panneau B6d et le pictogramme au sol sont deux éléments distincts, tous deux obligatoires. L'un ne remplace pas l'autre. Le panneau signale la place à distance, le pictogramme l'identifie au sol.",
     },
     {
       question: 'Quelle couleur pour le marquage PMR ?',
       answer:
-        "Le bleu est recommand\u00e9 par le CERTU pour distinguer les places PMR des places standard, mais le blanc est \u00e9galement conforme. Le pictogramme fauteuil roulant doit \u00eatre blanc. Le fond de la place peut \u00eatre bleu ou rester en enrob\u00e9 naturel.",
+        "Le bleu est recommandé par le CERTU pour distinguer les places PMR des places standard, mais le blanc est également conforme. Le pictogramme fauteuil roulant doit être blanc. Le fond de la place peut être bleu ou rester en enrobé naturel.",
     },
     {
       question:
         'Faut-il des bandes podotactiles dans un parking de plain-pied ?',
       answer:
-        "Si le parking est strictement de plain-pied sans aucun changement de niveau ni abaissement de trottoir, les bandes podotactiles ne sont pas obligatoires. En pratique, la plupart des parkings comportent au moins un abaissement de trottoir entre la zone de stationnement et le cheminement pi\u00e9ton.",
+        "Si le parking est strictement de plain-pied sans aucun changement de niveau ni abaissement de trottoir, les bandes podotactiles ne sont pas obligatoires. En pratique, la plupart des parkings comportent au moins un abaissement de trottoir entre la zone de stationnement et le cheminement piéton.",
     },
     {
       question:
-        'Le panneau B6d peut-il \u00eatre fix\u00e9 au mur au lieu d\u2019\u00eatre sur poteau ?',
+        'Le panneau B6d peut-il être fixé au mur au lieu d’être sur poteau ?',
       answer:
-        "Oui, \u00e0 condition de respecter la hauteur minimale de 2,30 m (bord inf\u00e9rieur) et d'\u00eatre visible depuis la voie de circulation. La fixation murale est courante dans les parkings souterrains.",
+        "Oui, à condition de respecter la hauteur minimale de 2,30 m (bord inférieur) et d'être visible depuis la voie de circulation. La fixation murale est courante dans les parkings souterrains.",
     },
     {
       question:
-        '\u00c0 quelle fr\u00e9quence faut-il renouveler le pictogramme PMR au sol ?',
+        'À quelle fréquence faut-il renouveler le pictogramme PMR au sol ?',
       answer:
-        "En moyenne tous les 3 \u00e0 5 ans pour un parking ext\u00e9rieur \u00e0 trafic moyen. Un parking de grande surface \u00e0 fort trafic peut n\u00e9cessiter un renouvellement tous les 2-3 ans. Les pictogrammes thermoplastiques durent plus longtemps que les pictogrammes peints.",
+        "En moyenne tous les 3 à 5 ans pour un parking extérieur à trafic moyen. Un parking de grande surface à fort trafic peut nécessiter un renouvellement tous les 2-3 ans. Les pictogrammes thermoplastiques durent plus longtemps que les pictogrammes peints.",
     },
   ],
   'mise-en-conformite-parking-pmr': [
     {
       question:
-        'La mise en conformit\u00e9 PMR est-elle obligatoire pour un parking priv\u00e9 ?',
+        'La mise en conformité PMR est-elle obligatoire pour un parking privé ?',
       answer:
-        "Oui, d\u00e8s lors que le parking dessert un ERP (commerce, bureau accueillant du public, immeuble avec locaux commerciaux). Les parkings strictement priv\u00e9s (maison individuelle) ne sont pas concern\u00e9s.",
+        "Oui, dès lors que le parking dessert un ERP (commerce, bureau accueillant du public, immeuble avec locaux commerciaux). Les parkings strictement privés (maison individuelle) ne sont pas concernés.",
     },
     {
       question:
-        'Combien de temps durent les travaux de mise en conformit\u00e9 ?',
+        'Combien de temps durent les travaux de mise en conformité ?',
       answer:
-        "Pour un parking de taille moyenne (30 \u00e0 100 places), comptez 1 \u00e0 3 jours de travaux. Le diagnostic pr\u00e9alable prend une demi-journ\u00e9e. Les travaux de g\u00e9nie civil (abaissements, reprises de chauss\u00e9e) peuvent allonger le d\u00e9lai.",
+        "Pour un parking de taille moyenne (30 à 100 places), comptez 1 à 3 jours de travaux. Le diagnostic préalable prend une demi-journée. Les travaux de génie civil (abaissements, reprises de chaussée) peuvent allonger le délai.",
     },
     {
       question:
-        'Peut-on faire la mise en conformit\u00e9 par \u00e9tapes ?',
+        'Peut-on faire la mise en conformité par étapes ?',
       answer:
-        "Oui, \u00e0 condition de respecter un calendrier pr\u00e9cis. Les places PMR (marquage + signalisation) sont la priorit\u00e9 absolue. Le cheminement accessible peut \u00eatre trait\u00e9 dans un second temps si les travaux sont programm\u00e9s.",
+        "Oui, à condition de respecter un calendrier précis. Les places PMR (marquage + signalisation) sont la priorité absolue. Le cheminement accessible peut être traité dans un second temps si les travaux sont programmés.",
     },
     {
       question:
-        'Qui peut contr\u00f4ler la conformit\u00e9 PMR de mon parking ?',
+        'Qui peut contrôler la conformité PMR de mon parking ?',
       answer:
-        "Les commissions communales d'accessibilit\u00e9, la DDTM (Direction D\u00e9partementale des Territoires et de la Mer) et les services de police ou gendarmerie. Les contr\u00f4les peuvent \u00eatre programm\u00e9s ou inopin\u00e9s.",
+        "Les commissions communales d'accessibilité, la DDTM (Direction Départementale des Territoires et de la Mer) et les services de police ou gendarmerie. Les contrôles peuvent être programmés ou inopinés.",
     },
     {
       question:
         'Mon parking a des places PMR mais elles ne sont plus visibles. Suis-je en infraction ?',
       answer:
-        "Oui. Des marquages effac\u00e9s \u00e9quivalent \u00e0 une absence de marquage. La signalisation doit \u00eatre visible et lisible en permanence. Un retra\u00e7age r\u00e9gulier est n\u00e9cessaire, g\u00e9n\u00e9ralement tous les 3 \u00e0 5 ans.",
+        "Oui. Des marquages effacés équivalent à une absence de marquage. La signalisation doit être visible et lisible en permanence. Un retraçage régulier est nécessaire, généralement tous les 3 à 5 ans.",
     },
   ],
   'cout-renovation-parking': [
     {
       question:
-        "Quel est le prix moyen d'une r\u00e9novation de parking ?",
+        "Quel est le prix moyen d'une rénovation de parking ?",
       answer:
-        "Pour une r\u00e9novation standard (retra\u00e7age + r\u00e9parations ponctuelles + signalisation + PMR), comptez entre 60 et 120 euros par place de parking. Soit 3 000 \u00e0 6 000 euros pour un parking de 50 places.",
+        "Pour une rénovation standard (retraçage + réparations ponctuelles + signalisation + PMR), comptez entre 60 et 120 euros par place de parking. Soit 3 000 à 6 000 euros pour un parking de 50 places.",
     },
     {
       question:
-        'Le co\u00fbt de r\u00e9novation inclut-il la mise aux normes PMR ?',
+        'Le coût de rénovation inclut-il la mise aux normes PMR ?',
       answer:
-        "Pas syst\u00e9matiquement. Certains devis s\u00e9parent les travaux de r\u00e9novation g\u00e9n\u00e9rale et la mise en conformit\u00e9 PMR. Demandez toujours un devis incluant le poste PMR pour \u00e9viter les surprises.",
+        "Pas systématiquement. Certains devis séparent les travaux de rénovation générale et la mise en conformité PMR. Demandez toujours un devis incluant le poste PMR pour éviter les surprises.",
     },
     {
       question:
-        'Peut-on r\u00e9nover un parking par \u00e9tapes pour \u00e9taler le budget ?',
+        'Peut-on rénover un parking par étapes pour étaler le budget ?',
       answer:
-        "Oui, c'est courant en copropri\u00e9t\u00e9. La priorit\u00e9 est la s\u00e9curit\u00e9 : r\u00e9paration de chauss\u00e9e et PMR d'abord, puis marquage et signalisation.",
+        "Oui, c'est courant en copropriété. La priorité est la sécurité : réparation de chaussée et PMR d'abord, puis marquage et signalisation.",
     },
     {
       question:
-        'Combien de temps dure un chantier de r\u00e9novation de parking ?',
+        'Combien de temps dure un chantier de rénovation de parking ?',
       answer:
-        "Comptez 1 \u00e0 3 jours pour une r\u00e9novation l\u00e9g\u00e8re (marquage + signalisation), 3 \u00e0 5 jours pour une r\u00e9novation standard et 1 \u00e0 3 semaines pour une r\u00e9novation lourde avec r\u00e9fection de chauss\u00e9e.",
+        "Comptez 1 à 3 jours pour une rénovation légère (marquage + signalisation), 3 à 5 jours pour une rénovation standard et 1 à 3 semaines pour une rénovation lourde avec réfection de chaussée.",
     },
     {
       question:
-        'Un devis de r\u00e9novation de parking est-il gratuit ?',
+        'Un devis de rénovation de parking est-il gratuit ?',
       answer:
-        "Chez R\u00e9nov'Route, le devis est toujours gratuit et sans engagement. Il inclut un diagnostic sur site et un chiffrage d\u00e9taill\u00e9 par poste.",
+        "Chez Rénov'Route, le devis est toujours gratuit et sans engagement. Il inclut un diagnostic sur site et un chiffrage détaillé par poste.",
     },
   ],
   'renovation-parking-entreprise': [
     {
       question:
-        'Quelle est la meilleure p\u00e9riode pour r\u00e9nover un parking ?',
+        'Quelle est la meilleure période pour rénover un parking ?',
       answer:
-        "Le printemps (avril-juin) et l'automne (septembre-octobre) sont les p\u00e9riodes id\u00e9ales. Les temp\u00e9ratures sont favorables \u00e0 l'application de peinture (plus de 5\u00b0C) et \u00e0 la polym\u00e9risation de la r\u00e9sine.",
+        "Le printemps (avril-juin) et l'automne (septembre-octobre) sont les périodes idéales. Les températures sont favorables à l'application de peinture (plus de 5°C) et à la polymérisation de la résine.",
     },
     {
       question:
-        'Faut-il un permis ou une autorisation pour r\u00e9nover un parking priv\u00e9 ?',
+        'Faut-il un permis ou une autorisation pour rénover un parking privé ?',
       answer:
-        "Non. La r\u00e9novation d'un parking priv\u00e9 (retra\u00e7age, r\u00e9paration de nids de poule, remplacement de panneaux) ne n\u00e9cessite aucune autorisation administrative. En revanche, si vous modifiez la structure du parking (ajout de places, changement de configuration, cr\u00e9ation de rampe d'acc\u00e8s), un permis de construire ou une d\u00e9claration pr\u00e9alable peut \u00eatre n\u00e9cessaire.",
+        "Non. La rénovation d'un parking privé (retraçage, réparation de nids de poule, remplacement de panneaux) ne nécessite aucune autorisation administrative. En revanche, si vous modifiez la structure du parking (ajout de places, changement de configuration, création de rampe d'accès), un permis de construire ou une déclaration préalable peut être nécessaire.",
     },
     {
-      question: 'Peut-on r\u00e9nover un parking par phases ?',
+      question: 'Peut-on rénover un parking par phases ?',
       answer:
-        "Oui, et c'est souvent la meilleure approche. Par exemple : les nids de poule en priorit\u00e9 (risque juridique), le retra\u00e7age dans un deuxi\u00e8me temps, la signalisation en troisi\u00e8me. Le phasage permet de r\u00e9partir le budget sur plusieurs mois.",
+        "Oui, et c'est souvent la meilleure approche. Par exemple : les nids de poule en priorité (risque juridique), le retraçage dans un deuxième temps, la signalisation en troisième. Le phasage permet de répartir le budget sur plusieurs mois.",
     },
     {
       question:
-        'Quelle garantie pour les travaux de r\u00e9novation de parking ?',
+        'Quelle garantie pour les travaux de rénovation de parking ?',
       answer:
-        "Chez R\u00e9nov'Route, nous garantissons 2 ans l'ensemble de nos travaux de marquage. Les r\u00e9parations de nids de poule par r\u00e9sine sont \u00e9galement garanties 2 ans. En pratique, nos marquages tiennent 3 \u00e0 5 ans et nos r\u00e9parations par r\u00e9sine 5 \u00e0 10 ans.",
+        "Chez Rénov'Route, nous garantissons 2 ans l'ensemble de nos travaux de marquage. Les réparations de nids de poule par résine sont également garanties 2 ans. En pratique, nos marquages tiennent 3 à 5 ans et nos réparations par résine 5 à 10 ans.",
     },
     {
       question: 'Le parking est-il utilisable pendant les travaux ?',
       answer:
-        "Oui. Nous organisons les interventions par zone pour maintenir au minimum 50 % de la capacit\u00e9 de stationnement en permanence. Les temps de s\u00e9chage sont de 1 \u00e0 3h pour la peinture et de 2 \u00e0 4h pour la r\u00e9sine.",
+        "Oui. Nous organisons les interventions par zone pour maintenir au minimum 50 % de la capacité de stationnement en permanence. Les temps de séchage sont de 1 à 3h pour la peinture et de 2 à 4h pour la résine.",
     },
   ],
   'peinture-marquage-sol-parking': [
     {
       question:
-        'Quelle est la meilleure peinture pour un parking ext\u00e9rieur ?',
+        'Quelle est la meilleure peinture pour un parking extérieur ?',
       answer:
-        "Pour un parking ext\u00e9rieur \u00e0 trafic moyen, la peinture acrylique certifi\u00e9e NF EN 1436 offre le meilleur rapport qualit\u00e9-prix. Pour un trafic intense (grande surface, zone logistique), la thermoplastique dure deux \u00e0 trois fois plus longtemps. \u00c9vitez la r\u00e9sine \u00e9poxy en ext\u00e9rieur : elle jaunit sous les UV.",
+        "Pour un parking extérieur à trafic moyen, la peinture acrylique certifiée NF EN 1436 offre le meilleur rapport qualité-prix. Pour un trafic intense (grande surface, zone logistique), la thermoplastique dure deux à trois fois plus longtemps. Évitez la résine époxy en extérieur : elle jaunit sous les UV.",
     },
     {
-      question: 'Peut-on peindre un marquage soi-m\u00eame ?',
+      question: 'Peut-on peindre un marquage soi-même ?',
       answer:
-        "Techniquement, oui pour de l'acrylique sur une petite surface. Mais sans mat\u00e9riel professionnel (traceuse calibr\u00e9e, gabarits), les lignes seront irr\u00e9guli\u00e8res et le r\u00e9sultat ne sera pas conforme aux normes de marquage.",
+        "Techniquement, oui pour de l'acrylique sur une petite surface. Mais sans matériel professionnel (traceuse calibrée, gabarits), les lignes seront irrégulières et le résultat ne sera pas conforme aux normes de marquage.",
     },
     {
       question:
         'Combien de temps faut-il attendre avant de circuler sur un marquage neuf ?',
       answer:
-        "Cela d\u00e9pend du produit. Acrylique : 1 \u00e0 2 heures. Thermoplastique : 5 \u00e0 15 minutes (temps de refroidissement). R\u00e9sine \u00e9poxy : 24 \u00e0 72 heures.",
+        "Cela dépend du produit. Acrylique : 1 à 2 heures. Thermoplastique : 5 à 15 minutes (temps de refroidissement). Résine époxy : 24 à 72 heures.",
     },
     {
       question:
-        'La peinture de marquage r\u00e9siste-t-elle au sel de d\u00e9neigement ?',
+        'La peinture de marquage résiste-t-elle au sel de déneigement ?',
       answer:
-        "Les peintures certifi\u00e9es NF EN 1436 sont formul\u00e9es pour r\u00e9sister aux cycles gel/d\u00e9gel et au sel de d\u00e9neigement. La thermoplastique est la plus r\u00e9sistante dans ces conditions.",
+        "Les peintures certifiées NF EN 1436 sont formulées pour résister aux cycles gel/dégel et au sel de déneigement. La thermoplastique est la plus résistante dans ces conditions.",
     },
     {
       question:
-        '\u00c0 quelle fr\u00e9quence faut-il refaire le marquage d\u2019un parking ?',
+        'À quelle fréquence faut-il refaire le marquage d’un parking ?',
       answer:
-        "En moyenne : tous les 2-3 ans pour l'acrylique, 4-6 ans pour la thermoplastique, 5-10 ans pour la r\u00e9sine. Ces chiffres varient selon le trafic, le climat et l'entretien.",
+        "En moyenne : tous les 2-3 ans pour l'acrylique, 4-6 ans pour la thermoplastique, 5-10 ans pour la résine. Ces chiffres varient selon le trafic, le climat et l'entretien.",
     },
   ],
   'ralentisseur-parking-norme': [
@@ -316,30 +316,30 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
       question:
         "Quelle est la hauteur maximale d'un ralentisseur de parking ?",
       answer:
-        "10 centim\u00e8tres, selon le d\u00e9cret 94-447 et la norme NF P 98-300. Les ralentisseurs modulaires en caoutchouc ont g\u00e9n\u00e9ralement une hauteur de 5 \u00e0 7 centim\u00e8tres.",
+        "10 centimètres, selon le décret 94-447 et la norme NF P 98-300. Les ralentisseurs modulaires en caoutchouc ont généralement une hauteur de 5 à 7 centimètres.",
     },
     {
       question:
-        'Peut-on installer un ralentisseur dans un parking priv\u00e9 ?',
+        'Peut-on installer un ralentisseur dans un parking privé ?',
       answer:
-        "Oui. Le d\u00e9cret 94-447 concerne les voies publiques, mais rien n'interdit d'installer un ralentisseur dans un parking priv\u00e9. Il est recommand\u00e9 de respecter les normes en vigueur pour limiter la responsabilit\u00e9 du gestionnaire en cas d'accident.",
+        "Oui. Le décret 94-447 concerne les voies publiques, mais rien n'interdit d'installer un ralentisseur dans un parking privé. Il est recommandé de respecter les normes en vigueur pour limiter la responsabilité du gestionnaire en cas d'accident.",
     },
     {
       question: "Quel est le prix d'un ralentisseur de parking ?",
       answer:
-        "De 300 euros pour un ralentisseur modulaire en caoutchouc \u00e0 5 000 euros pour un plateau sur\u00e9lev\u00e9 en enrob\u00e9, pose et signalisation comprises.",
+        "De 300 euros pour un ralentisseur modulaire en caoutchouc à 5 000 euros pour un plateau surélevé en enrobé, pose et signalisation comprises.",
     },
     {
       question:
         'Faut-il un panneau de signalisation avec un ralentisseur ?',
       answer:
-        "Oui. Tout ralentisseur doit \u00eatre pr\u00e9c\u00e9d\u00e9 d'un panneau C27 et accompagn\u00e9 d'un marquage au sol (triangles blancs). L'absence de signalisation constitue un manquement qui aggrave la responsabilit\u00e9 en cas d'accident.",
+        "Oui. Tout ralentisseur doit être précédé d'un panneau C27 et accompagné d'un marquage au sol (triangles blancs). L'absence de signalisation constitue un manquement qui aggrave la responsabilité en cas d'accident.",
     },
     {
       question:
-        "Quelle diff\u00e9rence entre dos d'\u00e2ne et coussin berlinois ?",
+        "Quelle différence entre dos d'âne et coussin berlinois ?",
       answer:
-        "Le dos d'\u00e2ne couvre toute la largeur de la voie et ralentit tous les v\u00e9hicules. Le coussin berlinois ne couvre qu'une partie de la chauss\u00e9e : les v\u00e9hicules larges (bus, camions, v\u00e9hicules de secours) peuvent passer sans \u00eatre ralentis.",
+        "Le dos d'âne couvre toute la largeur de la voie et ralentit tous les véhicules. Le coussin berlinois ne couvre qu'une partie de la chaussée : les véhicules larges (bus, camions, véhicules de secours) peuvent passer sans être ralentis.",
     },
   ],
   'couleur-marquage-sol-parking': [
@@ -347,214 +347,214 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
       question:
         'Quelle couleur pour les places de parking standard ?',
       answer:
-        "Le blanc. C'est la couleur r\u00e9glementaire pour toutes les lignes de d\u00e9limitation des places de stationnement, les fl\u00e8ches directionnelles, les passages pi\u00e9tons et les pictogrammes au sol.",
+        "Le blanc. C'est la couleur réglementaire pour toutes les lignes de délimitation des places de stationnement, les flèches directionnelles, les passages piétons et les pictogrammes au sol.",
     },
     {
       question:
         "Le jaune est-il obligatoire pour les zones d'interdiction ?",
       answer:
-        "Oui. L'IISR et le Code de la route imposent le jaune pour toutes les zones o\u00f9 le stationnement est interdit : hachures, z\u00e9bras, bordures peintes. Un marquage d'interdiction en blanc n'a pas de valeur r\u00e9glementaire.",
+        "Oui. L'IISR et le Code de la route imposent le jaune pour toutes les zones où le stationnement est interdit : hachures, zébras, bordures peintes. Un marquage d'interdiction en blanc n'a pas de valeur réglementaire.",
     },
     {
       question:
-        'Peut-on utiliser des couleurs personnalis\u00e9es dans un parking priv\u00e9 ?',
+        'Peut-on utiliser des couleurs personnalisées dans un parking privé ?',
       answer:
-        "Oui, \u00e0 condition de respecter les couleurs r\u00e9glementaires pour les \u00e9l\u00e9ments obligatoires (places PMR en blanc, interdictions en jaune, passages pi\u00e9tons en blanc). Les couleurs libres (vert, orange, gris) peuvent servir \u00e0 personnaliser les zones non r\u00e9glement\u00e9es.",
+        "Oui, à condition de respecter les couleurs réglementaires pour les éléments obligatoires (places PMR en blanc, interdictions en jaune, passages piétons en blanc). Les couleurs libres (vert, orange, gris) peuvent servir à personnaliser les zones non réglementées.",
     },
     {
       question: 'Quelle couleur pour les places PMR ?',
       answer:
-        "Le blanc pour les lignes de d\u00e9limitation et le pictogramme au sol. Le fond bleu est utilis\u00e9 pour le panneau vertical (panneau B6d) et peut \u00eatre reproduit au sol autour du pictogramme pour am\u00e9liorer la visibilit\u00e9.",
+        "Le blanc pour les lignes de délimitation et le pictogramme au sol. Le fond bleu est utilisé pour le panneau vertical (panneau B6d) et peut être reproduit au sol autour du pictogramme pour améliorer la visibilité.",
     },
     {
       question:
-        "Comment am\u00e9liorer la visibilit\u00e9 d'un marquage sur sol clair ?",
+        "Comment améliorer la visibilité d'un marquage sur sol clair ?",
       answer:
-        "Sur b\u00e9ton ou dallage clair, le contraste avec le marquage blanc peut \u00eatre insuffisant. Deux solutions : appliquer un fond sombre (bande noire ou gris fonc\u00e9) sous le marquage blanc, ou utiliser une peinture avec un taux de microbilles de verre plus \u00e9lev\u00e9 pour am\u00e9liorer la r\u00e9tror\u00e9flexion nocturne.",
+        "Sur béton ou dallage clair, le contraste avec le marquage blanc peut être insuffisant. Deux solutions : appliquer un fond sombre (bande noire ou gris foncé) sous le marquage blanc, ou utiliser une peinture avec un taux de microbilles de verre plus élevé pour améliorer la rétroréflexion nocturne.",
     },
   ],
   'comment-tracer-parking': [
     {
-      question: "Combien de temps dure le tra\u00e7age d'un parking ?",
+      question: "Combien de temps dure le traçage d'un parking ?",
       answer:
-        "Pour un parking de 50 \u00e0 100 places, comptez 1 \u00e0 2 jours de tra\u00e7age effectif, plus 1 jour de pr\u00e9paration du support. Le parking est praticable 2 \u00e0 3 heures apr\u00e8s l'application de la peinture acrylique.",
+        "Pour un parking de 50 à 100 places, comptez 1 à 2 jours de traçage effectif, plus 1 jour de préparation du support. Le parking est praticable 2 à 3 heures après l'application de la peinture acrylique.",
     },
     {
       question:
-        'Faut-il un permis ou une autorisation pour tracer un parking priv\u00e9 ?',
+        'Faut-il un permis ou une autorisation pour tracer un parking privé ?',
       answer:
-        "Non, le tra\u00e7age d'un parking priv\u00e9 ne n\u00e9cessite pas de permis. En revanche, si le parking est ouvert au public (ERP), il doit respecter les normes d'accessibilit\u00e9 PMR et les r\u00e8gles de signalisation.",
+        "Non, le traçage d'un parking privé ne nécessite pas de permis. En revanche, si le parking est ouvert au public (ERP), il doit respecter les normes d'accessibilité PMR et les règles de signalisation.",
     },
     {
       question: 'Peut-on tracer un parking sur du gravier ?',
       answer:
-        "Non, le marquage au sol n\u00e9cessite une surface dure et lisse (enrob\u00e9, b\u00e9ton, r\u00e9sine). Sur du gravier, on utilise des d\u00e9limiteurs physiques : rondins de bois, bordures b\u00e9ton, plots ou bandes de guidage.",
+        "Non, le marquage au sol nécessite une surface dure et lisse (enrobé, béton, résine). Sur du gravier, on utilise des délimiteurs physiques : rondins de bois, bordures béton, plots ou bandes de guidage.",
     },
     {
       question:
         "Quelle est la largeur minimale d'une place de parking ?",
       answer:
-        "La largeur minimale recommand\u00e9e est de 2,30 m, mais la norme courante est de 2,50 m. Les places PMR mesurent 3,30 m de large (place de 2,50 m + bande d'acc\u00e8s de 0,80 m).",
+        "La largeur minimale recommandée est de 2,30 m, mais la norme courante est de 2,50 m. Les places PMR mesurent 3,30 m de large (place de 2,50 m + bande d'accès de 0,80 m).",
     },
     {
-      question: "Combien co\u00fbte le tra\u00e7age d'un parking ?",
+      question: "Combien coûte le traçage d'un parking ?",
       answer:
-        "En moyenne : 8 \u00e0 15 euros/m\u00b2 en peinture acrylique, 15 \u00e0 25 euros/m\u00b2 en thermoplastique. Pour un parking de 50 places (environ 500 m\u00b2 de marquage), comptez entre 3 000 et 7 000 euros.",
+        "En moyenne : 8 à 15 euros/m² en peinture acrylique, 15 à 25 euros/m² en thermoplastique. Pour un parking de 50 places (environ 500 m² de marquage), comptez entre 3 000 et 7 000 euros.",
     },
   ],
   'passage-pieton-parking-norme': [
     {
       question:
-        'Le passage pi\u00e9ton est-il obligatoire dans un parking priv\u00e9 ?',
+        'Le passage piéton est-il obligatoire dans un parking privé ?',
       answer:
-        "Pas d'obligation l\u00e9gale dans un parking strictement priv\u00e9. Mais pour un parking ouvert au public (commerce, ERP), l'accessibilit\u00e9 PMR impose des cheminements s\u00e9curis\u00e9s incluant des passages pi\u00e9tons.",
+        "Pas d'obligation légale dans un parking strictement privé. Mais pour un parking ouvert au public (commerce, ERP), l'accessibilité PMR impose des cheminements sécurisés incluant des passages piétons.",
     },
     {
       question:
-        "Quelle est la largeur r\u00e9glementaire d'un passage pi\u00e9ton ?",
+        "Quelle est la largeur réglementaire d'un passage piéton ?",
       answer:
-        "Les bandes doivent mesurer 50 centim\u00e8tres de large, espac\u00e9es de 50 centim\u00e8tres. La largeur totale du passage d\u00e9pend du nombre de bandes (minimum 2,50 m\u00e8tres). En parking, une largeur de 2,50 \u00e0 4 m\u00e8tres est courante.",
+        "Les bandes doivent mesurer 50 centimètres de large, espacées de 50 centimètres. La largeur totale du passage dépend du nombre de bandes (minimum 2,50 mètres). En parking, une largeur de 2,50 à 4 mètres est courante.",
     },
     {
       question:
-        'Peut-on utiliser du jaune pour un passage pi\u00e9ton en parking ?',
+        'Peut-on utiliser du jaune pour un passage piéton en parking ?',
       answer:
-        "Non. Le passage pi\u00e9ton est toujours blanc en France. Le jaune est r\u00e9serv\u00e9 aux interdictions de stationner et aux z\u00e9bras.",
+        "Non. Le passage piéton est toujours blanc en France. Le jaune est réservé aux interdictions de stationner et aux zébras.",
     },
     {
       question: 'Les bandes podotactiles sont-elles obligatoires ?',
       answer:
-        "Oui, dans les parkings d'ERP (centres commerciaux, cliniques, h\u00f4tels, copropri\u00e9t\u00e9s avec acc\u00e8s visiteurs). Les bandes d'\u00e9veil de vigilance doivent \u00eatre plac\u00e9es \u00e0 50 centim\u00e8tres du bord de la chauss\u00e9e, sur toute la largeur du passage.",
+        "Oui, dans les parkings d'ERP (centres commerciaux, cliniques, hôtels, copropriétés avec accès visiteurs). Les bandes d'éveil de vigilance doivent être placées à 50 centimètres du bord de la chaussée, sur toute la largeur du passage.",
     },
     {
       question:
-        "Combien co\u00fbte le marquage d'un passage pi\u00e9ton ?",
+        "Combien coûte le marquage d'un passage piéton ?",
       answer:
-        "Comptez 200 \u00e0 500 euros par passage pi\u00e9ton en peinture acrylique (marquage + panneau). En thermoplastique ou r\u00e9sine, le co\u00fbt monte \u00e0 500-1 200 euros. L'ajout de bandes podotactiles repr\u00e9sente 150 \u00e0 300 euros suppl\u00e9mentaires par passage.",
+        "Comptez 200 à 500 euros par passage piéton en peinture acrylique (marquage + panneau). En thermoplastique ou résine, le coût monte à 500-1 200 euros. L'ajout de bandes podotactiles représente 150 à 300 euros supplémentaires par passage.",
     },
   ],
   'signalisation-parking-reglementation': [
     {
       question:
-        'La signalisation est-elle obligatoire dans un parking priv\u00e9 ?',
+        'La signalisation est-elle obligatoire dans un parking privé ?',
       answer:
-        "Pas d'obligation l\u00e9gale pour un parking strictement priv\u00e9 (copropri\u00e9t\u00e9 ferm\u00e9e, entreprise sans acc\u00e8s public). Mais la responsabilit\u00e9 civile du propri\u00e9taire est engag\u00e9e en cas d'accident li\u00e9 \u00e0 un d\u00e9faut de signalisation. Pour un parking ouvert au public (ERP, commerce), la signalisation est obligatoire.",
+        "Pas d'obligation légale pour un parking strictement privé (copropriété fermée, entreprise sans accès public). Mais la responsabilité civile du propriétaire est engagée en cas d'accident lié à un défaut de signalisation. Pour un parking ouvert au public (ERP, commerce), la signalisation est obligatoire.",
     },
     {
       question:
         'Quels panneaux sont obligatoires dans un parking de centre commercial ?',
       answer:
-        "Au minimum : panneau STOP ou c\u00e9dez le passage aux intersections, limitation de vitesse, signalisation des places PMR, panneau passage pi\u00e9ton, panneau de sortie.",
+        "Au minimum : panneau STOP ou cédez le passage aux intersections, limitation de vitesse, signalisation des places PMR, panneau passage piéton, panneau de sortie.",
     },
     {
-      question: "Combien co\u00fbte la signalisation d'un parking ?",
+      question: "Combien coûte la signalisation d'un parking ?",
       answer:
-        "Comptez 150 \u00e0 300 euros par panneau (fourniture et pose), soit 2 000 \u00e0 6 000 euros pour un parking de 50 \u00e0 200 places. Le marquage au sol repr\u00e9sente un budget suppl\u00e9mentaire de 1 500 \u00e0 4 000 euros selon la surface.",
+        "Comptez 150 à 300 euros par panneau (fourniture et pose), soit 2 000 à 6 000 euros pour un parking de 50 à 200 places. Le marquage au sol représente un budget supplémentaire de 1 500 à 4 000 euros selon la surface.",
     },
     {
       question:
         "Qui peut installer la signalisation d'un parking ?",
       answer:
-        "L'installation doit \u00eatre r\u00e9alis\u00e9e par un professionnel qualifi\u00e9 pour garantir la conformit\u00e9 des panneaux (mod\u00e8le, dimensions, r\u00e9tror\u00e9flexion, hauteur). Un installateur qualifi\u00e9 fournit une attestation de conformit\u00e9.",
+        "L'installation doit être réalisée par un professionnel qualifié pour garantir la conformité des panneaux (modèle, dimensions, rétroréflexion, hauteur). Un installateur qualifié fournit une attestation de conformité.",
     },
     {
       question:
-        'Faut-il un permis pour installer des panneaux dans un parking priv\u00e9 ?',
+        'Faut-il un permis pour installer des panneaux dans un parking privé ?',
       answer:
-        "Non. L'installation de signalisation dans un parking priv\u00e9 ne n\u00e9cessite pas d'autorisation administrative. En copropri\u00e9t\u00e9, un vote en AG est requis.",
+        "Non. L'installation de signalisation dans un parking privé ne nécessite pas d'autorisation administrative. En copropriété, un vote en AG est requis.",
     },
   ],
   'reglementation-marquage-sol-parking': [
     {
       question:
-        'Le marquage au sol est-il obligatoire dans un parking priv\u00e9 ?',
+        'Le marquage au sol est-il obligatoire dans un parking privé ?',
       answer:
-        "Non, pour un parking strictement priv\u00e9 (r\u00e9serv\u00e9 aux r\u00e9sidents ou employ\u00e9s sans acc\u00e8s public). Oui, pour un parking priv\u00e9 ouvert au public (commerce, h\u00f4tel, clinique, copropri\u00e9t\u00e9 avec visiteurs). Dans tous les cas, la responsabilit\u00e9 civile du propri\u00e9taire reste engag\u00e9e.",
+        "Non, pour un parking strictement privé (réservé aux résidents ou employés sans accès public). Oui, pour un parking privé ouvert au public (commerce, hôtel, clinique, copropriété avec visiteurs). Dans tous les cas, la responsabilité civile du propriétaire reste engagée.",
     },
     {
       question:
-        'Quelle est la norme de r\u00e9f\u00e9rence pour le marquage au sol ?',
+        'Quelle est la norme de référence pour le marquage au sol ?',
       answer:
-        "L'IISR (7e partie) pour les sp\u00e9cifications techniques (couleurs, dimensions, types de lignes). La norme NF EN 1436 pour les peintures (r\u00e9tror\u00e9flexion, adh\u00e9rence). L'arr\u00eat\u00e9 du 15 janvier 2007 pour l'accessibilit\u00e9 PMR.",
+        "L'IISR (7e partie) pour les spécifications techniques (couleurs, dimensions, types de lignes). La norme NF EN 1436 pour les peintures (rétroréflexion, adhérence). L'arrêté du 15 janvier 2007 pour l'accessibilité PMR.",
     },
     {
-      question: 'Peut-on tracer son parking soi-m\u00eame ?',
+      question: 'Peut-on tracer son parking soi-même ?',
       answer:
-        "Rien ne l'interdit pour un parking priv\u00e9. Mais un tra\u00e7age non professionnel risque de ne pas respecter les normes (dimensions, couleurs, peinture certifi\u00e9e) et d'engager la responsabilit\u00e9 du propri\u00e9taire.",
-    },
-    {
-      question:
-        '\u00c0 quelle fr\u00e9quence faut-il retracer un parking ?',
-      answer:
-        "Cela d\u00e9pend du trafic et du type de peinture. Peinture acrylique : retra\u00e7age tous les 1 \u00e0 2 ans en zone de fort trafic. Peinture thermoplastique : tous les 3 \u00e0 5 ans. R\u00e9sine : tous les 5 \u00e0 8 ans.",
+        "Rien ne l'interdit pour un parking privé. Mais un traçage non professionnel risque de ne pas respecter les normes (dimensions, couleurs, peinture certifiée) et d'engager la responsabilité du propriétaire.",
     },
     {
       question:
-        'Quelles sont les sanctions en cas de non-conformit\u00e9 ?',
+        'À quelle fréquence faut-il retracer un parking ?',
       answer:
-        "Amende administrative pouvant atteindre 45 000 euros pour les ERP. Mise en demeure de la commission d'accessibilit\u00e9. Responsabilit\u00e9 civile engag\u00e9e en cas d'accident. Refus d'indemnisation par l'assurance.",
+        "Cela dépend du trafic et du type de peinture. Peinture acrylique : retraçage tous les 1 à 2 ans en zone de fort trafic. Peinture thermoplastique : tous les 3 à 5 ans. Résine : tous les 5 à 8 ans.",
+    },
+    {
+      question:
+        'Quelles sont les sanctions en cas de non-conformité ?',
+      answer:
+        "Amende administrative pouvant atteindre 45 000 euros pour les ERP. Mise en demeure de la commission d'accessibilité. Responsabilité civile engagée en cas d'accident. Refus d'indemnisation par l'assurance.",
     },
   ],
   'resine-sol-parking-prix-types': [
     {
       question:
-        'La r\u00e9sine \u00e9poxy convient-elle pour un parking ext\u00e9rieur ?',
+        'La résine époxy convient-elle pour un parking extérieur ?',
       answer:
-        "Non. L'\u00e9poxy jaunit et se d\u00e9grade sous l'effet des UV. Pour un parking ext\u00e9rieur, utilisez une r\u00e9sine polyur\u00e9thane ou m\u00e9thacrylate, r\u00e9sistantes aux UV et aux intemp\u00e9ries.",
+        "Non. L'époxy jaunit et se dégrade sous l'effet des UV. Pour un parking extérieur, utilisez une résine polyuréthane ou méthacrylate, résistantes aux UV et aux intempéries.",
     },
     {
       question:
-        "Combien co\u00fbte la r\u00e9sine \u00e9poxy pour un parking de 100 places ?",
+        "Combien coûte la résine époxy pour un parking de 100 places ?",
       answer:
-        "Pour un parking de 100 places (environ 1 500 m\u00b2 de surface trait\u00e9e), comptez 37 500 \u00e0 67 500 euros en r\u00e9sine \u00e9poxy standard (25 \u00e0 45 euros/m\u00b2), pr\u00e9paration du sol incluse.",
+        "Pour un parking de 100 places (environ 1 500 m² de surface traitée), comptez 37 500 à 67 500 euros en résine époxy standard (25 à 45 euros/m²), préparation du sol incluse.",
     },
     {
       question:
-        'Peut-on appliquer de la r\u00e9sine sur un sol humide ?',
+        'Peut-on appliquer de la résine sur un sol humide ?',
       answer:
-        "L'\u00e9poxy et la polyur\u00e9thane n\u00e9cessitent un sol sec (humidit\u00e9 moins de 4%). Seul le m\u00e9thacrylate peut \u00eatre appliqu\u00e9 sur un support l\u00e9g\u00e8rement humide.",
+        "L'époxy et la polyuréthane nécessitent un sol sec (humidité moins de 4%). Seul le méthacrylate peut être appliqué sur un support légèrement humide.",
     },
     {
       question:
-        "Quelle est la dur\u00e9e de vie d'un sol en r\u00e9sine ?",
+        "Quelle est la durée de vie d'un sol en résine ?",
       answer:
-        "8 \u00e0 15 ans pour l'\u00e9poxy, 10 \u00e0 20 ans pour la polyur\u00e9thane, 10 \u00e0 15 ans pour le m\u00e9thacrylate. La dur\u00e9e de vie d\u00e9pend du trafic, de l'entretien et de la qualit\u00e9 de la pr\u00e9paration du support.",
+        "8 à 15 ans pour l'époxy, 10 à 20 ans pour la polyuréthane, 10 à 15 ans pour le méthacrylate. La durée de vie dépend du trafic, de l'entretien et de la qualité de la préparation du support.",
     },
     {
       question:
         "Faut-il fermer le parking pendant l'application ?",
       answer:
-        "Oui, par zones. L'application se fait g\u00e9n\u00e9ralement par demi-parking pour maintenir l'acc\u00e8s. En \u00e9poxy, comptez 48 \u00e0 72 heures d'immobilisation par zone. En m\u00e9thacrylate, 4 \u00e0 6 heures suffisent.",
+        "Oui, par zones. L'application se fait généralement par demi-parking pour maintenir l'accès. En époxy, comptez 48 à 72 heures d'immobilisation par zone. En méthacrylate, 4 à 6 heures suffisent.",
     },
   ],
   'barriere-parking-types-prix': [
     {
       question:
-        "Faut-il un permis pour installer une barri\u00e8re de parking ?",
+        "Faut-il un permis pour installer une barrière de parking ?",
       answer:
-        "Non, pour un parking priv\u00e9. Une d\u00e9claration pr\u00e9alable de travaux peut \u00eatre requise si l'installation modifie l'aspect ext\u00e9rieur du b\u00e2timent. En copropri\u00e9t\u00e9, un vote en AG est obligatoire.",
+        "Non, pour un parking privé. Une déclaration préalable de travaux peut être requise si l'installation modifie l'aspect extérieur du bâtiment. En copropriété, un vote en AG est obligatoire.",
     },
     {
       question:
-        "Combien co\u00fbte une barri\u00e8re de parking automatique ?",
+        "Combien coûte une barrière de parking automatique ?",
       answer:
-        "Comptez 3 000 \u00e0 7 000 euros pour une barri\u00e8re levante \u00e9lectrique avec syst\u00e8me de contr\u00f4le d'acc\u00e8s (badge ou t\u00e9l\u00e9commande), pose et mise en service incluses.",
+        "Comptez 3 000 à 7 000 euros pour une barrière levante électrique avec système de contrôle d'accès (badge ou télécommande), pose et mise en service incluses.",
     },
     {
-      question: 'Peut-on installer une barri\u00e8re solaire ?',
+      question: 'Peut-on installer une barrière solaire ?',
       answer:
-        "Oui. Les barri\u00e8res solaires fonctionnent avec un panneau photovolta\u00efque et une batterie. Elles conviennent aux parkings ext\u00e9rieurs avec un trafic mod\u00e9r\u00e9 (moins de 30 passages/jour). Le surco\u00fbt par rapport \u00e0 une barri\u00e8re filaire est de 500 \u00e0 1 500 euros.",
+        "Oui. Les barrières solaires fonctionnent avec un panneau photovoltaïque et une batterie. Elles conviennent aux parkings extérieurs avec un trafic modéré (moins de 30 passages/jour). Le surcoût par rapport à une barrière filaire est de 500 à 1 500 euros.",
     },
     {
       question:
-        'La barri\u00e8re doit-elle rester ouverte la nuit ?',
+        'La barrière doit-elle rester ouverte la nuit ?',
       answer:
-        "C'est au gestionnaire de d\u00e9cider. En copropri\u00e9t\u00e9, la barri\u00e8re est g\u00e9n\u00e9ralement ferm\u00e9e 24h/24 avec acc\u00e8s par badge. En parking commercial, elle est souvent ouverte pendant les heures d'ouverture et ferm\u00e9e la nuit.",
+        "C'est au gestionnaire de décider. En copropriété, la barrière est généralement fermée 24h/24 avec accès par badge. En parking commercial, elle est souvent ouverte pendant les heures d'ouverture et fermée la nuit.",
     },
     {
-      question: "Comment s\u00e9curiser l'acc\u00e8s aux secours ?",
+      question: "Comment sécuriser l'accès aux secours ?",
       answer:
-        "Toute barri\u00e8re doit \u00eatre \u00e9quip\u00e9e d'un d\u00e9brayage manuel (cl\u00e9 ou levier). Les ERP doivent pr\u00e9voir un syst\u00e8me d'ouverture automatique sur alerte incendie. Le triangle de pompiers (DGS) est requis dans certaines configurations.",
+        "Toute barrière doit être équipée d'un débrayage manuel (clé ou levier). Les ERP doivent prévoir un système d'ouverture automatique sur alerte incendie. Le triangle de pompiers (DGS) est requis dans certaines configurations.",
     },
   ],
   'peinture-sol-garage-types-application': [
@@ -562,219 +562,219 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
       question:
         'Quelle est la meilleure peinture pour un sol de garage ?',
       answer:
-        "La peinture \u00e9poxy bi-composant offre le meilleur rapport performance/prix pour un garage r\u00e9sidentiel. Elle r\u00e9siste aux passages de v\u00e9hicules, aux taches d'huile et dure 5 \u00e0 10 ans avec un entretien minimal.",
+        "La peinture époxy bi-composant offre le meilleur rapport performance/prix pour un garage résidentiel. Elle résiste aux passages de véhicules, aux taches d'huile et dure 5 à 10 ans avec un entretien minimal.",
     },
     {
-      question: 'Peut-on peindre un sol de garage soi-m\u00eame ?',
+      question: 'Peut-on peindre un sol de garage soi-même ?',
       answer:
-        "Oui. L'application d'une peinture de sol est accessible \u00e0 un bricoleur. Les \u00e9tapes critiques sont la pr\u00e9paration du support (nettoyage, d\u00e9graissage, pon\u00e7age) et le respect des temps de s\u00e9chage. Comptez une journ\u00e9e compl\u00e8te pour un garage de 30 \u00e0 40 m\u00b2.",
+        "Oui. L'application d'une peinture de sol est accessible à un bricoleur. Les étapes critiques sont la préparation du support (nettoyage, dégraissage, ponçage) et le respect des temps de séchage. Comptez une journée complète pour un garage de 30 à 40 m².",
     },
     {
       question:
-        'Faut-il une peinture antid\u00e9rapante pour le garage ?',
+        'Faut-il une peinture antidérapante pour le garage ?',
       answer:
-        "C'est recommand\u00e9 pour les zones de passage pi\u00e9ton. Ajoutez des granulats antid\u00e9rapants dans la derni\u00e8re couche de peinture ou choisissez une peinture avec finition antid\u00e9rapante int\u00e9gr\u00e9e. Surco\u00fbt : 2 \u00e0 5 euros/m\u00b2.",
+        "C'est recommandé pour les zones de passage piéton. Ajoutez des granulats antidérapants dans la dernière couche de peinture ou choisissez une peinture avec finition antidérapante intégrée. Surcoût : 2 à 5 euros/m².",
     },
     {
       question:
         'Peut-on peindre sur une ancienne peinture de sol ?',
       answer:
-        "Oui, si l'ancienne peinture est adh\u00e9rente et en bon \u00e9tat. Poncez l\u00e9g\u00e8rement pour cr\u00e9er une accroche, d\u00e9poussierez et appliquez. Si l'ancienne peinture s'\u00e9caille, il faut la retirer compl\u00e8tement.",
+        "Oui, si l'ancienne peinture est adhérente et en bon état. Poncez légèrement pour créer une accroche, dépoussierez et appliquez. Si l'ancienne peinture s'écaille, il faut la retirer complètement.",
     },
     {
       question:
         'Combien de temps dure une peinture de sol de garage ?',
       answer:
-        "De 1 \u00e0 12 ans selon le type : acrylique (1-3 ans), alkyde-ur\u00e9thane (2-4 ans), \u00e9poxy (5-10 ans), polyur\u00e9thane (7-12 ans). La dur\u00e9e de vie d\u00e9pend aussi de la pr\u00e9paration du sol et du volume de trafic.",
+        "De 1 à 12 ans selon le type : acrylique (1-3 ans), alkyde-uréthane (2-4 ans), époxy (5-10 ans), polyuréthane (7-12 ans). La durée de vie dépend aussi de la préparation du sol et du volume de trafic.",
     },
   ],
   'butee-parking-types-pose-prix': [
     {
-      question: 'Les but\u00e9es de parking sont-elles obligatoires ?',
+      question: 'Les butées de parking sont-elles obligatoires ?',
       answer:
-        "Non. Aucune r\u00e9glementation n'impose la pose de but\u00e9es dans un parking priv\u00e9. Elles sont cependant fortement recommand\u00e9es pour prot\u00e9ger les structures, les v\u00e9hicules et les pi\u00e9tons.",
+        "Non. Aucune réglementation n'impose la pose de butées dans un parking privé. Elles sont cependant fortement recommandées pour protéger les structures, les véhicules et les piétons.",
     },
     {
       question:
-        'Quelle but\u00e9e choisir pour un parking souterrain ?',
+        'Quelle butée choisir pour un parking souterrain ?',
       answer:
-        "La but\u00e9e en caoutchouc recycl\u00e9 est le meilleur choix pour un parking souterrain : l\u00e9g\u00e8re, absorbante, avec bandes r\u00e9fl\u00e9chissantes int\u00e9gr\u00e9es. Le b\u00e9ton est aussi adapt\u00e9 si le budget est serr\u00e9, mais ajoutez des bandes r\u00e9fl\u00e9chissantes.",
+        "La butée en caoutchouc recyclé est le meilleur choix pour un parking souterrain : légère, absorbante, avec bandes réfléchissantes intégrées. Le béton est aussi adapté si le budget est serré, mais ajoutez des bandes réfléchissantes.",
     },
     {
       question:
-        'Peut-on coller une but\u00e9e au lieu de la cheviller ?',
+        'Peut-on coller une butée au lieu de la cheviller ?',
       answer:
-        "Le collage seul n'est pas recommand\u00e9 pour les parkings \u00e0 trafic r\u00e9gulier. Le collage structurel peut fonctionner sur sol b\u00e9ton propre et sec, mais un chevillage de s\u00e9curit\u00e9 en compl\u00e9ment est toujours pr\u00e9f\u00e9rable.",
+        "Le collage seul n'est pas recommandé pour les parkings à trafic régulier. Le collage structurel peut fonctionner sur sol béton propre et sec, mais un chevillage de sécurité en complément est toujours préférable.",
     },
     {
       question:
-        'Combien de but\u00e9es faut-il pour un parking de 50 places ?',
+        'Combien de butées faut-il pour un parking de 50 places ?',
       answer:
-        "Comptez 1 but\u00e9e par place, moins les places PMR (qui ne doivent pas avoir de but\u00e9es). Pour 50 places dont 3 PMR : 47 but\u00e9es. Budget indicatif en caoutchouc pos\u00e9 inclus : 1 400 \u00e0 2 600 euros.",
+        "Comptez 1 butée par place, moins les places PMR (qui ne doivent pas avoir de butées). Pour 50 places dont 3 PMR : 47 butées. Budget indicatif en caoutchouc posé inclus : 1 400 à 2 600 euros.",
     },
     {
       question:
-        'Les but\u00e9es g\u00eanent-elles le nettoyage du parking ?',
+        'Les butées gênent-elles le nettoyage du parking ?',
       answer:
-        "L\u00e9g\u00e8rement. Les but\u00e9es chevill\u00e9es sont fixes et obligent \u00e0 nettoyer autour. Pour faciliter l'entretien, les but\u00e9es coll\u00e9es sont plus faciles \u00e0 retirer temporairement.",
+        "Légèrement. Les butées chevillées sont fixes et obligent à nettoyer autour. Pour faciliter l'entretien, les butées collées sont plus faciles à retirer temporairement.",
     },
   ],
   'dos-dane-parking-reglementation-pose': [
     {
       question:
-        "Un dos d'\u00e2ne est-il obligatoire dans un parking priv\u00e9 ?",
+        "Un dos d'âne est-il obligatoire dans un parking privé ?",
       answer:
-        "Non. Aucune loi n'impose l'installation de dos d'\u00e2ne dans un parking priv\u00e9. C'est une d\u00e9cision du gestionnaire ou de la copropri\u00e9t\u00e9. Cependant, en cas d'accident li\u00e9 \u00e0 une vitesse excessive, l'absence de dispositif de ralentissement peut \u00eatre retenue comme un manquement \u00e0 l'obligation de s\u00e9curit\u00e9.",
+        "Non. Aucune loi n'impose l'installation de dos d'âne dans un parking privé. C'est une décision du gestionnaire ou de la copropriété. Cependant, en cas d'accident lié à une vitesse excessive, l'absence de dispositif de ralentissement peut être retenue comme un manquement à l'obligation de sécurité.",
     },
     {
       question:
-        "Quelle est la hauteur maximale d'un dos d'\u00e2ne ?",
+        "Quelle est la hauteur maximale d'un dos d'âne ?",
       answer:
-        "10 cm, selon la norme NF P 98-300. Cette limite s'applique aux voies publiques mais constitue la r\u00e9f\u00e9rence pour les parkings priv\u00e9s. Un dos d'\u00e2ne plus haut expose le gestionnaire \u00e0 des r\u00e9clamations pour dommages aux v\u00e9hicules.",
+        "10 cm, selon la norme NF P 98-300. Cette limite s'applique aux voies publiques mais constitue la référence pour les parkings privés. Un dos d'âne plus haut expose le gestionnaire à des réclamations pour dommages aux véhicules.",
     },
     {
       question:
-        "Peut-on installer un dos d'\u00e2ne dans un parking souterrain ?",
+        "Peut-on installer un dos d'âne dans un parking souterrain ?",
       answer:
-        "Oui. Privil\u00e9giez les mod\u00e8les en caoutchouc \u00e0 profil bas (5 \u00e0 7 cm) pour respecter la garde au sol r\u00e9duite des v\u00e9hicules en parking souterrain. Ajoutez des bandes r\u00e9fl\u00e9chissantes pour compenser l'\u00e9clairage souvent faible.",
+        "Oui. Privilégiez les modèles en caoutchouc à profil bas (5 à 7 cm) pour respecter la garde au sol réduite des véhicules en parking souterrain. Ajoutez des bandes réfléchissantes pour compenser l'éclairage souvent faible.",
     },
     {
-      question: "Combien co\u00fbte un dos d'\u00e2ne pour parking ?",
+      question: "Combien coûte un dos d'âne pour parking ?",
       answer:
-        "Comptez 400 \u00e0 900 euros pos\u00e9 inclus pour un dos d'\u00e2ne modulaire en caoutchouc, et 800 \u00e0 2 000 euros pour un dos d'\u00e2ne en enrob\u00e9 permanent. La signalisation (panneau + marquage) ajoute 150 \u00e0 450 euros.",
+        "Comptez 400 à 900 euros posé inclus pour un dos d'âne modulaire en caoutchouc, et 800 à 2 000 euros pour un dos d'âne en enrobé permanent. La signalisation (panneau + marquage) ajoute 150 à 450 euros.",
     },
     {
       question:
-        "Faut-il un vote en AG pour installer un dos d'\u00e2ne en copropri\u00e9t\u00e9 ?",
+        "Faut-il un vote en AG pour installer un dos d'âne en copropriété ?",
       answer:
-        "Oui. L'installation d'un dos d'\u00e2ne dans le parking d'une copropri\u00e9t\u00e9 est d\u00e9cid\u00e9e en AG \u00e0 la majorit\u00e9 absolue (article 25 de la loi du 10 juillet 1965). Le syndic doit pr\u00e9senter un ou plusieurs devis aux copropri\u00e9taires.",
+        "Oui. L'installation d'un dos d'âne dans le parking d'une copropriété est décidée en AG à la majorité absolue (article 25 de la loi du 10 juillet 1965). Le syndic doit présenter un ou plusieurs devis aux copropriétaires.",
     },
   ],
   'revetement-sol-industriel-types-prix': [
     {
       question:
-        "Combien co\u00fbte un rev\u00eatement de sol industriel au m\u00b2 ?",
+        "Combien coûte un revêtement de sol industriel au m² ?",
       answer:
-        "De 12 \u00e0 120 euros/m\u00b2 selon le type de rev\u00eatement et la pr\u00e9paration du support. La r\u00e9sine \u00e9poxy standard, la plus courante, se situe entre 25 et 50 euros/m\u00b2 pos\u00e9 inclus.",
+        "De 12 à 120 euros/m² selon le type de revêtement et la préparation du support. La résine époxy standard, la plus courante, se situe entre 25 et 50 euros/m² posé inclus.",
     },
     {
       question:
-        "Quelle est la dur\u00e9e de vie d'un sol en r\u00e9sine industrielle ?",
+        "Quelle est la durée de vie d'un sol en résine industrielle ?",
       answer:
-        "10 \u00e0 25 ans pour une r\u00e9sine \u00e9poxy ou polyur\u00e9thane correctement pos\u00e9e sur un support bien pr\u00e9par\u00e9. La dur\u00e9e de vie d\u00e9pend du trafic, des contraintes chimiques et de l'entretien. Une peinture de sol industrielle dure 3 \u00e0 6 ans.",
+        "10 à 25 ans pour une résine époxy ou polyuréthane correctement posée sur un support bien préparé. La durée de vie dépend du trafic, des contraintes chimiques et de l'entretien. Une peinture de sol industrielle dure 3 à 6 ans.",
     },
     {
       question:
-        "Peut-on appliquer une r\u00e9sine sur un sol existant en mauvais \u00e9tat ?",
+        "Peut-on appliquer une résine sur un sol existant en mauvais état ?",
       answer:
-        "Oui, apr\u00e8s pr\u00e9paration. Le sol doit \u00eatre r\u00e9par\u00e9 (fissures, \u00e9clats, nids de poule), grenaill\u00e9 et ponc\u00e9. Si le b\u00e9ton est trop d\u00e9grad\u00e9, un ragr\u00e9age complet peut \u00eatre n\u00e9cessaire avant l'application de la r\u00e9sine.",
+        "Oui, après préparation. Le sol doit être réparé (fissures, éclats, nids de poule), grenaillé et poncé. Si le béton est trop dégradé, un ragréage complet peut être nécessaire avant l'application de la résine.",
     },
     {
-      question: 'Faut-il fermer le site pendant l\u2019application ?',
+      question: 'Faut-il fermer le site pendant l’application ?',
       answer:
-        "Oui, par zones. L'application se fait g\u00e9n\u00e9ralement par tiers ou par demi-surface pour maintenir l'activit\u00e9. En r\u00e9sine \u00e9poxy, comptez 48 \u00e0 72 heures d'immobilisation par zone. En m\u00e9thacrylate, 4 \u00e0 6 heures suffisent.",
+        "Oui, par zones. L'application se fait généralement par tiers ou par demi-surface pour maintenir l'activité. En résine époxy, comptez 48 à 72 heures d'immobilisation par zone. En méthacrylate, 4 à 6 heures suffisent.",
     },
     {
       question:
-        'La r\u00e9sine \u00e9poxy r\u00e9siste-t-elle aux produits chimiques ?',
+        'La résine époxy résiste-t-elle aux produits chimiques ?',
       answer:
-        "L'\u00e9poxy standard r\u00e9siste aux huiles, graisses, carburants et \u00e0 la plupart des produits d'entretien. Pour une r\u00e9sistance aux acides forts, aux solvants aromatiques ou aux produits chimiques concentr\u00e9s, une formulation novolaque ou vinylester est n\u00e9cessaire (surco\u00fbt de 20 \u00e0 40%).",
+        "L'époxy standard résiste aux huiles, graisses, carburants et à la plupart des produits d'entretien. Pour une résistance aux acides forts, aux solvants aromatiques ou aux produits chimiques concentrés, une formulation novolaque ou vinylester est nécessaire (surcoût de 20 à 40%).",
     },
   ],
   'panneau-pmr-parking-types-obligations': [
     {
       question:
-        'Un panneau PMR est-il obligatoire sur un parking priv\u00e9 ?',
+        'Un panneau PMR est-il obligatoire sur un parking privé ?',
       answer:
-        "Oui, si le parking est ouvert au public (commerce, entreprise accueillant des visiteurs, cabinet m\u00e9dical). Les parkings strictement priv\u00e9s (r\u00e9sidence ferm\u00e9e sans acc\u00e8s public) ne sont pas soumis \u00e0 cette obligation, mais la signalisation reste recommand\u00e9e.",
+        "Oui, si le parking est ouvert au public (commerce, entreprise accueillant des visiteurs, cabinet médical). Les parkings strictement privés (résidence fermée sans accès public) ne sont pas soumis à cette obligation, mais la signalisation reste recommandée.",
     },
     {
       question:
-        'Qui doit payer la mise en conformit\u00e9 PMR du parking ?',
+        'Qui doit payer la mise en conformité PMR du parking ?',
       answer:
-        "Le propri\u00e9taire ou l'exploitant du parking. En copropri\u00e9t\u00e9, c'est le syndicat des copropri\u00e9taires (vote en assembl\u00e9e g\u00e9n\u00e9rale). En centre commercial, c'est le gestionnaire du site.",
+        "Le propriétaire ou l'exploitant du parking. En copropriété, c'est le syndicat des copropriétaires (vote en assemblée générale). En centre commercial, c'est le gestionnaire du site.",
     },
     {
       question:
         'Peut-on utiliser un panneau PMR fait maison ?',
       answer:
-        "Non. Les panneaux doivent \u00eatre conformes \u00e0 l'Instruction Interminist\u00e9rielle sur la Signalisation Routi\u00e8re (IISR) et fabriqu\u00e9s selon les normes NF. Un panneau imprim\u00e9 sur du PVC ou du carton n'est pas r\u00e9glementaire et n'a aucune valeur juridique.",
+        "Non. Les panneaux doivent être conformes à l'Instruction Interministérielle sur la Signalisation Routière (IISR) et fabriqués selon les normes NF. Un panneau imprimé sur du PVC ou du carton n'est pas réglementaire et n'a aucune valeur juridique.",
     },
     {
       question:
-        "Quelle est la dur\u00e9e de vie d'un panneau PMR ?",
+        "Quelle est la durée de vie d'un panneau PMR ?",
       answer:
-        "10 \u00e0 15 ans pour un panneau en aluminium avec film r\u00e9tror\u00e9fl\u00e9chissant classe 1. Le film perd sa r\u00e9tror\u00e9flexion au fil du temps (UV, intemp\u00e9ries). Un panneau dont le film est d\u00e9grad\u00e9 doit \u00eatre remplac\u00e9.",
+        "10 à 15 ans pour un panneau en aluminium avec film rétroréfléchissant classe 1. Le film perd sa rétroréflexion au fil du temps (UV, intempéries). Un panneau dont le film est dégradé doit être remplacé.",
     },
     {
       question:
         'Faut-il un panneau par place PMR ou un seul pour le groupe ?',
       answer:
-        "Un panneau par place PMR, ou un panneau de zone (CE14) en entr\u00e9e du groupe de places + un panonceau individuel par place. La r\u00e8gle : chaque place doit \u00eatre identifiable individuellement depuis la voie de circulation.",
+        "Un panneau par place PMR, ou un panneau de zone (CE14) en entrée du groupe de places + un panonceau individuel par place. La règle : chaque place doit être identifiable individuellement depuis la voie de circulation.",
     },
   ],
   'panneau-limitation-vitesse-parking': [
     {
       question:
-        'La limitation de vitesse est-elle obligatoire dans un parking priv\u00e9 ?',
+        'La limitation de vitesse est-elle obligatoire dans un parking privé ?',
       answer:
-        "La loi n'impose pas de vitesse sp\u00e9cifique en parking priv\u00e9. Mais le gestionnaire a une obligation g\u00e9n\u00e9rale de s\u00e9curit\u00e9 envers les usagers (article 1242 du Code civil). L'absence de signalisation de vitesse peut \u00eatre retenue comme un manquement \u00e0 cette obligation en cas d'accident.",
+        "La loi n'impose pas de vitesse spécifique en parking privé. Mais le gestionnaire a une obligation générale de sécurité envers les usagers (article 1242 du Code civil). L'absence de signalisation de vitesse peut être retenue comme un manquement à cette obligation en cas d'accident.",
     },
     {
       question:
-        "Qui peut verbaliser un exc\u00e8s de vitesse dans un parking priv\u00e9 ?",
+        "Qui peut verbaliser un excès de vitesse dans un parking privé ?",
       answer:
-        "Sur un parking priv\u00e9 non ouvert \u00e0 la circulation publique, les forces de l'ordre ne peuvent pas dresser de contravention pour exc\u00e8s de vitesse. En revanche, sur un parking priv\u00e9 ouvert au public (centre commercial, h\u00f4pital), le Code de la route s'applique et les infractions sont verbalisables.",
+        "Sur un parking privé non ouvert à la circulation publique, les forces de l'ordre ne peuvent pas dresser de contravention pour excès de vitesse. En revanche, sur un parking privé ouvert au public (centre commercial, hôpital), le Code de la route s'applique et les infractions sont verbalisables.",
     },
     {
       question:
         'Quelle vitesse choisir : 10, 20 ou 30 km/h ?',
       answer:
-        "10 km/h pour les parkings couverts et souterrains (visibilit\u00e9 r\u00e9duite, virages serr\u00e9s). 20 km/h pour les parkings ext\u00e9rieurs avec flux pi\u00e9tons importants. 30 km/h uniquement pour les voies d'acc\u00e8s longues sans stationnement lat\u00e9ral. En cas de doute, choisir la vitesse la plus basse.",
+        "10 km/h pour les parkings couverts et souterrains (visibilité réduite, virages serrés). 20 km/h pour les parkings extérieurs avec flux piétons importants. 30 km/h uniquement pour les voies d'accès longues sans stationnement latéral. En cas de doute, choisir la vitesse la plus basse.",
     },
     {
       question:
-        'Faut-il un arr\u00eat\u00e9 municipal pour poser un panneau de limitation en parking priv\u00e9 ?',
+        'Faut-il un arrêté municipal pour poser un panneau de limitation en parking privé ?',
       answer:
-        "Non. Le propri\u00e9taire ou gestionnaire du parking peut poser des panneaux de limitation de vitesse sans autorisation administrative. Il est toutefois recommand\u00e9 d'utiliser des panneaux conformes aux normes NF.",
+        "Non. Le propriétaire ou gestionnaire du parking peut poser des panneaux de limitation de vitesse sans autorisation administrative. Il est toutefois recommandé d'utiliser des panneaux conformes aux normes NF.",
     },
     {
       question:
-        "Un panneau de vitesse suffit-il \u00e0 d\u00e9gager la responsabilit\u00e9 du gestionnaire ?",
+        "Un panneau de vitesse suffit-il à dégager la responsabilité du gestionnaire ?",
       answer:
-        "Le panneau est n\u00e9cessaire mais pas suffisant. Le juge v\u00e9rifie que le gestionnaire a pris des mesures proportionn\u00e9es au risque : panneau + ralentisseur + marquage au sol + \u00e9clairage. Un panneau seul sans dispositif physique de ralentissement peut \u00eatre jug\u00e9 insuffisant.",
+        "Le panneau est nécessaire mais pas suffisant. Le juge vérifie que le gestionnaire a pris des mesures proportionnées au risque : panneau + ralentisseur + marquage au sol + éclairage. Un panneau seul sans dispositif physique de ralentissement peut être jugé insuffisant.",
     },
   ],
   'sol-epoxy-entrepot-avantages-pose': [
     {
       question:
-        "Combien de temps dure un sol \u00e9poxy en entrep\u00f4t ?",
+        "Combien de temps dure un sol époxy en entrepôt ?",
       answer:
-        "10 \u00e0 20 ans selon l'\u00e9paisseur, le trafic et l'entretien. Un syst\u00e8me de 3 mm sous trafic intense (300+ passages de chariot/jour) dure 12-15 ans. Un syst\u00e8me de 2 mm sous trafic mod\u00e9r\u00e9 dure 8-12 ans.",
+        "10 à 20 ans selon l'épaisseur, le trafic et l'entretien. Un système de 3 mm sous trafic intense (300+ passages de chariot/jour) dure 12-15 ans. Un système de 2 mm sous trafic modéré dure 8-12 ans.",
     },
     {
       question:
-        "Peut-on appliquer de l'\u00e9poxy sur un vieux sol b\u00e9ton ?",
+        "Peut-on appliquer de l'époxy sur un vieux sol béton ?",
       answer:
-        "Oui, apr\u00e8s pr\u00e9paration compl\u00e8te. Le sol doit \u00eatre grenaill\u00e9, les fissures r\u00e9par\u00e9es et le taux d'humidit\u00e9 v\u00e9rifi\u00e9. Un vieux b\u00e9ton en bon \u00e9tat structural est un excellent support pour l'\u00e9poxy.",
+        "Oui, après préparation complète. Le sol doit être grenaillé, les fissures réparées et le taux d'humidité vérifié. Un vieux béton en bon état structural est un excellent support pour l'époxy.",
     },
     {
       question:
-        "L'entrep\u00f4t doit-il fermer pendant l'application ?",
+        "L'entrepôt doit-il fermer pendant l'application ?",
       answer:
-        "Non. L'application se fait par zones (tiers ou demi-surface). Pendant qu'une zone est trait\u00e9e, le reste de l'entrep\u00f4t fonctionne normalement. Seule la zone en cours d'application est inaccessible pendant 48-72h.",
+        "Non. L'application se fait par zones (tiers ou demi-surface). Pendant qu'une zone est traitée, le reste de l'entrepôt fonctionne normalement. Seule la zone en cours d'application est inaccessible pendant 48-72h.",
     },
     {
       question:
-        "\u00c9poxy ou polyur\u00e9thane pour un entrep\u00f4t ?",
+        "Époxy ou polyuréthane pour un entrepôt ?",
       answer:
-        "Epoxy pour la majorit\u00e9 des entrep\u00f4ts (temp\u00e9rature constante, trafic m\u00e9canique). Polyur\u00e9thane pour les entrep\u00f4ts frigorifiques (r\u00e9sistance aux chocs thermiques) ou les zones de quai (exposition aux UV et aux intemp\u00e9ries). L'\u00e9poxy offre une meilleure r\u00e9sistance m\u00e9canique et un prix inf\u00e9rieur.",
+        "Epoxy pour la majorité des entrepôts (température constante, trafic mécanique). Polyuréthane pour les entrepôts frigorifiques (résistance aux chocs thermiques) ou les zones de quai (exposition aux UV et aux intempéries). L'époxy offre une meilleure résistance mécanique et un prix inférieur.",
     },
     {
       question:
         'Le marquage des zones est-il inclus dans le prix ?',
       answer:
-        "Le marquage est g\u00e9n\u00e9ralement factur\u00e9 en suppl\u00e9ment (3-8 euros/m\u00b2 sur les zones marqu\u00e9es, pas sur toute la surface). Il est int\u00e9gr\u00e9 dans le m\u00eame chantier que la r\u00e9sine, ce qui \u00e9vite une seconde mobilisation.",
+        "Le marquage est généralement facturé en supplément (3-8 euros/m² sur les zones marquées, pas sur toute la surface). Il est intégré dans le même chantier que la résine, ce qui évite une seconde mobilisation.",
     },
   ],
   'signalisation-parking-copropriete': [
@@ -782,31 +782,31 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
       question:
         'Le syndic peut-il faire des travaux de signalisation sans vote en AG ?',
       answer:
-        "Les travaux d'entretien courant (retra\u00e7age \u00e0 l'identique, remplacement d'un panneau cass\u00e9) rel\u00e8vent de la gestion courante du syndic et n'exigent pas de vote en AG. En revanche, tout changement (nouveau panneau, modification du sens de circulation, ajout de places PMR) doit \u00eatre vot\u00e9.",
+        "Les travaux d'entretien courant (retraçage à l'identique, remplacement d'un panneau cassé) relèvent de la gestion courante du syndic et n'exigent pas de vote en AG. En revanche, tout changement (nouveau panneau, modification du sens de circulation, ajout de places PMR) doit être voté.",
     },
     {
       question:
         'Qui paie les travaux de signalisation du parking ?',
       answer:
-        "Les charges sont r\u00e9parties entre les copropri\u00e9taires qui disposent d'une place de parking, selon les tanti\u00e8mes de copropri\u00e9t\u00e9 d\u00e9finis dans le r\u00e8glement. Les copropri\u00e9taires sans place ne participent pas aux charges li\u00e9es au parking.",
+        "Les charges sont réparties entre les copropriétaires qui disposent d'une place de parking, selon les tantièmes de copropriété définis dans le règlement. Les copropriétaires sans place ne participent pas aux charges liées au parking.",
     },
     {
       question:
-        'Le parking de copropri\u00e9t\u00e9 doit-il avoir des places PMR ?',
+        'Le parking de copropriété doit-il avoir des places PMR ?',
       answer:
-        "Oui, pour les immeubles construits apr\u00e8s 2007 ou lors de travaux de r\u00e9novation. Le nombre de places PMR d\u00e9pend du nombre total de places (1 place PMR pour 1 \u00e0 25 places, 2 pour 26 \u00e0 50, etc.).",
+        "Oui, pour les immeubles construits après 2007 ou lors de travaux de rénovation. Le nombre de places PMR dépend du nombre total de places (1 place PMR pour 1 à 25 places, 2 pour 26 à 50, etc.).",
     },
     {
       question:
         'Peut-on imposer un sens de circulation dans le parking ?',
       answer:
-        "Oui, par vote en AG \u00e0 la majorit\u00e9 absolue (article 25 de la loi du 10 juillet 1965). Le sens de circulation modifie l'usage des parties communes, ce qui justifie cette majorit\u00e9.",
+        "Oui, par vote en AG à la majorité absolue (article 25 de la loi du 10 juillet 1965). Le sens de circulation modifie l'usage des parties communes, ce qui justifie cette majorité.",
     },
     {
       question:
-        "Combien co\u00fbte un retra\u00e7age complet du parking ?",
+        "Combien coûte un retraçage complet du parking ?",
       answer:
-        "De 8 \u00e0 15 euros par place pour un retra\u00e7age standard (lignes + num\u00e9ros). Pour 60 places, comptez 500 \u00e0 900 euros. Ajoutez 300-600 euros par place PMR \u00e0 cr\u00e9er et 120-250 euros par panneau suppl\u00e9mentaire.",
+        "De 8 à 15 euros par place pour un retraçage standard (lignes + numéros). Pour 60 places, comptez 500 à 900 euros. Ajoutez 300-600 euros par place PMR à créer et 120-250 euros par panneau supplémentaire.",
     },
   ],
   'ombriere-photovoltaique-parking-2026': [
@@ -814,154 +814,154 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
       question:
         "L'obligation concerne-t-elle aussi les parkings souterrains ?",
       answer:
-        "Non. L'obligation d'ombri\u00e8res photovolta\u00efques s'applique uniquement aux parkings ext\u00e9rieurs de plein air. Les parkings couverts ou souterrains ne sont pas concern\u00e9s.",
+        "Non. L'obligation d'ombrières photovoltaïques s'applique uniquement aux parkings extérieurs de plein air. Les parkings couverts ou souterrains ne sont pas concernés.",
     },
     {
       question:
-        'Peut-on remplacer les ombri\u00e8res par des arbres ?',
+        'Peut-on remplacer les ombrières par des arbres ?',
       answer:
-        "Partiellement. La loi Huwart permet de couvrir jusqu'\u00e0 65% de la surface requise par des dispositifs v\u00e9g\u00e9talis\u00e9s. Mais au moins 35% de la moiti\u00e9 du parking doit \u00eatre couverte par des ombri\u00e8res int\u00e9grant des panneaux photovolta\u00efques.",
+        "Partiellement. La loi Huwart permet de couvrir jusqu'à 65% de la surface requise par des dispositifs végétalisés. Mais au moins 35% de la moitié du parking doit être couverte par des ombrières intégrant des panneaux photovoltaïques.",
     },
     {
       question:
-        'Faut-il refaire le marquage apr\u00e8s la pose des ombri\u00e8res ?',
+        'Faut-il refaire le marquage après la pose des ombrières ?',
       answer:
-        "Les fondations des ombri\u00e8res (poteaux, plots) modifient rarement l'implantation des places de stationnement. En revanche, des retouches de marquage sont fr\u00e9quentes aux abords des poteaux. C'est pourquoi il est plus \u00e9conomique de refaire le marquage complet avant la pose.",
+        "Les fondations des ombrières (poteaux, plots) modifient rarement l'implantation des places de stationnement. En revanche, des retouches de marquage sont fréquentes aux abords des poteaux. C'est pourquoi il est plus économique de refaire le marquage complet avant la pose.",
     },
     {
       question:
-        'Quel lien entre ombri\u00e8res et bornes de recharge ?',
+        'Quel lien entre ombrières et bornes de recharge ?',
       answer:
-        "Les ombri\u00e8res photovolta\u00efques produisent de l'\u00e9nergie renouvelable qui peut alimenter directement les bornes de recharge. Depuis janvier 2025, les parkings de plus de 20 places doivent proposer au moins une borne.",
+        "Les ombrières photovoltaïques produisent de l'énergie renouvelable qui peut alimenter directement les bornes de recharge. Depuis janvier 2025, les parkings de plus de 20 places doivent proposer au moins une borne.",
     },
   ],
   'nouvelles-normes-signaletique-parking-2026': [
     {
       question:
-        "L'arr\u00eat\u00e9 s'applique-t-il aux parkings priv\u00e9s de copropri\u00e9t\u00e9 ?",
+        "L'arrêté s'applique-t-il aux parkings privés de copropriété ?",
       answer:
-        "L'arr\u00eat\u00e9 concerne les parkings ouverts au public (ERP, commerces, parkings relais). Les parkings priv\u00e9s de copropri\u00e9t\u00e9 ferm\u00e9s ne sont pas directement vis\u00e9s, mais les syndics ont int\u00e9r\u00eat \u00e0 anticiper.",
+        "L'arrêté concerne les parkings ouverts au public (ERP, commerces, parkings relais). Les parkings privés de copropriété fermés ne sont pas directement visés, mais les syndics ont intérêt à anticiper.",
     },
     {
       question:
         'Quelles sont les sanctions en cas de non-respect ?',
       answer:
-        "La non-conformit\u00e9 est constat\u00e9e lors des commissions de s\u00e9curit\u00e9. Le gestionnaire re\u00e7oit une mise en demeure avec un d\u00e9lai de r\u00e9gularisation. En cas de non-r\u00e9gularisation, des astreintes journali\u00e8res et des sanctions administratives s'appliquent. Pour les ERP, la fermeture administrative du parking est possible en cas de danger pour la s\u00e9curit\u00e9.",
+        "La non-conformité est constatée lors des commissions de sécurité. Le gestionnaire reçoit une mise en demeure avec un délai de régularisation. En cas de non-régularisation, des astreintes journalières et des sanctions administratives s'appliquent. Pour les ERP, la fermeture administrative du parking est possible en cas de danger pour la sécurité.",
     },
     {
       question:
-        'Peut-on \u00e9taler les travaux dans le temps ?',
+        'Peut-on étaler les travaux dans le temps ?',
       answer:
-        "Oui. La mise en conformit\u00e9 peut \u00eatre progressive, \u00e0 condition de commencer par les points critiques (s\u00e9curit\u00e9, PMR) et de documenter le plan d'action dans le registre de contr\u00f4le.",
+        "Oui. La mise en conformité peut être progressive, à condition de commencer par les points critiques (sécurité, PMR) et de documenter le plan d'action dans le registre de contrôle.",
     },
     {
       question:
-        "Faut-il un bureau de contr\u00f4le pour l'audit annuel ?",
+        "Faut-il un bureau de contrôle pour l'audit annuel ?",
       answer:
-        "L'arr\u00eat\u00e9 n'impose pas sp\u00e9cifiquement un bureau de contr\u00f4le agr\u00e9\u00e9 pour l'audit annuel. Un prestataire qualifi\u00e9 en signalisation routi\u00e8re peut r\u00e9aliser cet audit. L'important est la tra\u00e7abilit\u00e9 : le rapport doit \u00eatre consign\u00e9 dans le registre et disponible lors des contr\u00f4les.",
+        "L'arrêté n'impose pas spécifiquement un bureau de contrôle agréé pour l'audit annuel. Un prestataire qualifié en signalisation routière peut réaliser cet audit. L'important est la traçabilité : le rapport doit être consigné dans le registre et disponible lors des contrôles.",
     },
   ],
   'nids-de-poule-hiver-2026-solutions': [
     {
       question:
-        'Peut-on r\u00e9parer un nid de poule soi-m\u00eame ?',
+        'Peut-on réparer un nid de poule soi-même ?',
       answer:
-        "Les kits de r\u00e9paration vendus en grande surface (enrob\u00e9 \u00e0 froid en sac) permettent un colmatage temporaire pour les petits trous (moins de 15 cm). C'est un d\u00e9pannage, pas une r\u00e9paration. Pour un r\u00e9sultat durable, il faut un professionnel \u00e9quip\u00e9 et des mat\u00e9riaux adapt\u00e9s.",
+        "Les kits de réparation vendus en grande surface (enrobé à froid en sac) permettent un colmatage temporaire pour les petits trous (moins de 15 cm). C'est un dépannage, pas une réparation. Pour un résultat durable, il faut un professionnel équipé et des matériaux adaptés.",
     },
     {
       question:
-        'La r\u00e9paration par r\u00e9sine fonctionne-t-elle en hiver ?',
+        'La réparation par résine fonctionne-t-elle en hiver ?',
       answer:
-        "Oui. Les formulations modernes de r\u00e9sine polyur\u00e9thane sont con\u00e7ues pour polym\u00e9riser jusqu'\u00e0 -5\u00b0C. R\u00e9nov'Route intervient toute l'ann\u00e9e, y compris en hiver, en adaptant les mat\u00e9riaux aux conditions m\u00e9t\u00e9orologiques.",
+        "Oui. Les formulations modernes de résine polyuréthane sont conçues pour polymériser jusqu'à -5°C. Rénov'Route intervient toute l'année, y compris en hiver, en adaptant les matériaux aux conditions météorologiques.",
     },
     {
       question:
         "Combien de temps dure l'intervention ?",
       answer:
-        "Pour un parking de taille moyenne (100 \u00e0 200 places) avec 5 \u00e0 10 nids de poule, l'intervention prend g\u00e9n\u00e9ralement une journ\u00e9e. La circulation pi\u00e9tonne est r\u00e9tablie dans l'heure. Les v\u00e9hicules peuvent circuler apr\u00e8s 2 \u00e0 4 heures.",
+        "Pour un parking de taille moyenne (100 à 200 places) avec 5 à 10 nids de poule, l'intervention prend généralement une journée. La circulation piétonne est rétablie dans l'heure. Les véhicules peuvent circuler après 2 à 4 heures.",
     },
     {
       question:
-        'Faut-il retracer le parking apr\u00e8s la r\u00e9paration ?',
+        'Faut-il retracer le parking après la réparation ?',
       answer:
-        "Si les nids de poule ont endommag\u00e9 le marquage au sol, un retra\u00e7age partiel ou complet est recommand\u00e9. C'est souvent l'occasion de v\u00e9rifier la conformit\u00e9 globale du parking (places PMR, signalisation, passages pi\u00e9tons).",
+        "Si les nids de poule ont endommagé le marquage au sol, un retraçage partiel ou complet est recommandé. C'est souvent l'occasion de vérifier la conformité globale du parking (places PMR, signalisation, passages piétons).",
     },
   ],
   'signalisation-horizontale-lyon-marquage': [
     {
       question:
-        'Quelle est la meilleure p\u00e9riode pour faire du marquage au sol \u00e0 Lyon ?',
+        'Quelle est la meilleure période pour faire du marquage au sol à Lyon ?',
       answer:
-        "Avril \u00e0 juin et septembre \u00e0 octobre. La temp\u00e9rature doit \u00eatre sup\u00e9rieure \u00e0 5\u00b0C, le sol doit \u00eatre sec et les pr\u00e9visions m\u00e9t\u00e9o favorables sur 24 heures.",
+        "Avril à juin et septembre à octobre. La température doit être supérieure à 5°C, le sol doit être sec et les prévisions météo favorables sur 24 heures.",
     },
     {
       question:
-        "Combien co\u00fbte un retra\u00e7age complet de parking \u00e0 Lyon ?",
+        "Combien coûte un retraçage complet de parking à Lyon ?",
       answer:
-        "De 8 \u00e0 15 euros/place pour un retra\u00e7age standard. Un parking de 60 places co\u00fbte entre 500 et 900 euros. Ajoutez 300-600 euros par place PMR et 80-150 euros par passage pi\u00e9ton.",
+        "De 8 à 15 euros/place pour un retraçage standard. Un parking de 60 places coûte entre 500 et 900 euros. Ajoutez 300-600 euros par place PMR et 80-150 euros par passage piéton.",
     },
     {
       question:
-        'Faut-il un arr\u00eat\u00e9 de circulation pour marquer un parking priv\u00e9 ?',
+        'Faut-il un arrêté de circulation pour marquer un parking privé ?',
       answer:
-        "Non. L'arr\u00eat\u00e9 de circulation est obligatoire uniquement pour les interventions sur voie publique. Un parking priv\u00e9, m\u00eame ouvert au public, ne n\u00e9cessite pas d'arr\u00eat\u00e9. Il faut simplement baliser la zone de travaux et informer les usagers.",
+        "Non. L'arrêté de circulation est obligatoire uniquement pour les interventions sur voie publique. Un parking privé, même ouvert au public, ne nécessite pas d'arrêté. Il faut simplement baliser la zone de travaux et informer les usagers.",
     },
     {
       question:
-        "Quelle est la dur\u00e9e de vie du marquage au sol \u00e0 Lyon ?",
+        "Quelle est la durée de vie du marquage au sol à Lyon ?",
       answer:
-        "Avec une peinture acrylique certifi\u00e9e NF EN 1436 (classe P5) : 3 \u00e0 5 ans en parking, 1 \u00e0 2 ans sur voirie \u00e0 fort trafic. Le thermoplastique (classe P6) : 5 \u00e0 8 ans en parking.",
+        "Avec une peinture acrylique certifiée NF EN 1436 (classe P5) : 3 à 5 ans en parking, 1 à 2 ans sur voirie à fort trafic. Le thermoplastique (classe P6) : 5 à 8 ans en parking.",
     },
   ],
   'reparation-chaussee-parking-methodes-prix': [
     {
       question:
-        'Peut-on r\u00e9parer un parking sans le fermer ?',
+        'Peut-on réparer un parking sans le fermer ?',
       answer:
-        "Dans la plupart des cas, les r\u00e9parations se font par zones. Chaque zone est balis\u00e9e et interdite \u00e0 la circulation pendant l'intervention (quelques heures pour la r\u00e9sine, 2-4 heures pour l'enrob\u00e9 \u00e0 chaud). Le reste du parking reste accessible.",
+        "Dans la plupart des cas, les réparations se font par zones. Chaque zone est balisée et interdite à la circulation pendant l'intervention (quelques heures pour la résine, 2-4 heures pour l'enrobé à chaud). Le reste du parking reste accessible.",
     },
     {
       question:
-        "Quelle est la dur\u00e9e de vie d'une r\u00e9paration de chauss\u00e9e ?",
+        "Quelle est la durée de vie d'une réparation de chaussée ?",
       answer:
-        "Elle d\u00e9pend de la m\u00e9thode : 6-18 mois pour l'enrob\u00e9 \u00e0 froid, 5-10 ans pour la r\u00e9sine polyur\u00e9thane, 10-15 ans pour l'enrob\u00e9 \u00e0 chaud.",
+        "Elle dépend de la méthode : 6-18 mois pour l'enrobé à froid, 5-10 ans pour la résine polyuréthane, 10-15 ans pour l'enrobé à chaud.",
     },
     {
       question:
-        "Faut-il retracer les places apr\u00e8s une r\u00e9paration de chauss\u00e9e ?",
+        "Faut-il retracer les places après une réparation de chaussée ?",
       answer:
-        "Oui, si les r\u00e9parations ont touch\u00e9 des zones marqu\u00e9es. Le marquage d'origine est d\u00e9truit par la d\u00e9coupe ou recouvert par le mat\u00e9riau de r\u00e9paration. Le retra\u00e7age se fait apr\u00e8s s\u00e9chage complet de la r\u00e9paration (24 \u00e0 48 heures selon la m\u00e9thode).",
+        "Oui, si les réparations ont touché des zones marquées. Le marquage d'origine est détruit par la découpe ou recouvert par le matériau de réparation. Le retraçage se fait après séchage complet de la réparation (24 à 48 heures selon la méthode).",
     },
     {
       question:
-        "\u00c0 qui faire appel pour la r\u00e9paration de chauss\u00e9e d'un parking ?",
+        "À qui faire appel pour la réparation de chaussée d'un parking ?",
       answer:
-        "Un sp\u00e9cialiste de la r\u00e9novation de parking ma\u00eetrise toutes les m\u00e9thodes (r\u00e9sine, enrob\u00e9, pontage) et peut recommander la solution adapt\u00e9e \u00e0 chaque zone.",
+        "Un spécialiste de la rénovation de parking maîtrise toutes les méthodes (résine, enrobé, pontage) et peut recommander la solution adaptée à chaque zone.",
     },
   ],
   'bumper-supermarche-protection-frigo': [
     {
       question:
-        'Les bumpers sont-ils obligatoires dans un supermarch\u00e9 ?',
+        'Les bumpers sont-ils obligatoires dans un supermarché ?',
       answer:
-        "Non, il n'y a pas d'obligation l\u00e9gale d'installer des bumpers. Mais le Code du travail impose \u00e0 l'employeur de prot\u00e9ger les \u00e9quipements de travail et de pr\u00e9venir les risques. En cas de blessure caus\u00e9e par un meuble endommag\u00e9, l'absence de protection peut \u00eatre retenue comme un manquement \u00e0 l'obligation de s\u00e9curit\u00e9.",
+        "Non, il n'y a pas d'obligation légale d'installer des bumpers. Mais le Code du travail impose à l'employeur de protéger les équipements de travail et de prévenir les risques. En cas de blessure causée par un meuble endommagé, l'absence de protection peut être retenue comme un manquement à l'obligation de sécurité.",
     },
     {
       question:
         'Peut-on installer des bumpers sans fermer le magasin ?',
       answer:
-        "Oui. La pose se fait g\u00e9n\u00e9ralement en dehors des heures d'ouverture (t\u00f4t le matin ou apr\u00e8s fermeture). Le scellement chimique n\u00e9cessite 24h de s\u00e9chage, mais le bumper peut \u00eatre mis en service d\u00e8s que le scellement est pris (4-6 heures pour les r\u00e9sines rapides).",
+        "Oui. La pose se fait généralement en dehors des heures d'ouverture (tôt le matin ou après fermeture). Le scellement chimique nécessite 24h de séchage, mais le bumper peut être mis en service dès que le scellement est pris (4-6 heures pour les résines rapides).",
     },
     {
       question:
-        "Quelle diff\u00e9rence entre un bumper et une barri\u00e8re de protection ?",
+        "Quelle différence entre un bumper et une barrière de protection ?",
       answer:
-        "Le bumper est une barre basse (15-25 cm du sol) con\u00e7u pour stopper les chariots au niveau des roues. La barri\u00e8re de protection est plus haute (50-100 cm) et prot\u00e8ge contre les v\u00e9hicules ou les chariots \u00e9l\u00e9vateurs. En supermarch\u00e9, les bumpers suffisent pour les zones clients.",
+        "Le bumper est une barre basse (15-25 cm du sol) conçu pour stopper les chariots au niveau des roues. La barrière de protection est plus haute (50-100 cm) et protège contre les véhicules ou les chariots élévateurs. En supermarché, les bumpers suffisent pour les zones clients.",
     },
     {
-      question: 'Les bumpers ab\u00eement-ils le sol ?',
+      question: 'Les bumpers abîment-ils le sol ?',
       answer:
-        "La fixation par chevilles chimiques cr\u00e9e des trous de 12-16 mm de diam\u00e8tre dans la dalle. Si les bumpers sont retir\u00e9s, les trous peuvent \u00eatre rebouch\u00e9s avec un mortier de r\u00e9paration. Sur un sol en r\u00e9sine, un professionnel peut reprendre les points de per\u00e7age pour un r\u00e9sultat invisible.",
+        "La fixation par chevilles chimiques crée des trous de 12-16 mm de diamètre dans la dalle. Si les bumpers sont retirés, les trous peuvent être rebouchés avec un mortier de réparation. Sur un sol en résine, un professionnel peut reprendre les points de perçage pour un résultat invisible.",
     },
   ],
   'marquage-sol-supermarche-grande-surface': [
@@ -969,108 +969,108 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
       question:
         'Le marquage est-il obligatoire dans un parking de grande surface ?',
       answer:
-        "Le marquage des places PMR est obligatoire (arr\u00eat\u00e9 du 15 janvier 2007). Le marquage des autres places n'est pas l\u00e9galement obligatoire, mais il est indispensable pour la s\u00e9curit\u00e9, l'organisation du stationnement et la responsabilit\u00e9 du gestionnaire en cas d'accident.",
+        "Le marquage des places PMR est obligatoire (arrêté du 15 janvier 2007). Le marquage des autres places n'est pas légalement obligatoire, mais il est indispensable pour la sécurité, l'organisation du stationnement et la responsabilité du gestionnaire en cas d'accident.",
     },
     {
       question:
-        "Peut-on tracer un parking de supermarch\u00e9 en journ\u00e9e ?",
+        "Peut-on tracer un parking de supermarché en journée ?",
       answer:
-        "Oui, mais par zones avec balisage. La peinture acrylique s\u00e8che en 20-30 minutes et le parking est circulable apr\u00e8s 1 heure. En pratique, les grandes surfaces pr\u00e9f\u00e8rent les interventions de nuit pour \u00e9viter toute g\u00eane.",
+        "Oui, mais par zones avec balisage. La peinture acrylique sèche en 20-30 minutes et le parking est circulable après 1 heure. En pratique, les grandes surfaces préfèrent les interventions de nuit pour éviter toute gêne.",
     },
     {
       question:
         'Quelle peinture pour un parking de grande surface ?',
       answer:
-        "Une peinture acrylique certifi\u00e9e NF EN 1436 (classe P5 minimum) pour les zones de stationnement. Du thermoplastique (classe P6-P7) pour les passages pi\u00e9tons et les zones \u00e0 tr\u00e8s fort trafic (entr\u00e9es, sorties, manoeuvres).",
+        "Une peinture acrylique certifiée NF EN 1436 (classe P5 minimum) pour les zones de stationnement. Du thermoplastique (classe P6-P7) pour les passages piétons et les zones à très fort trafic (entrées, sorties, manoeuvres).",
     },
   ],
   'reparer-nid-de-poule-soi-meme': [
     {
       question:
-        "L'enrob\u00e9 \u00e0 froid en sac est-il efficace ?",
+        "L'enrobé à froid en sac est-il efficace ?",
       answer:
-        "Oui, pour des r\u00e9parations temporaires de petits nids de poule (moins de 30 cm) sur des parkings \u00e0 faible trafic. Non, pour des r\u00e9parations durables ou des zones \u00e0 fort trafic. L'enrob\u00e9 \u00e0 froid en sac n'a pas la densit\u00e9 ni l'adh\u00e9rence d'un enrob\u00e9 \u00e0 chaud ou d'une r\u00e9sine professionnelle.",
+        "Oui, pour des réparations temporaires de petits nids de poule (moins de 30 cm) sur des parkings à faible trafic. Non, pour des réparations durables ou des zones à fort trafic. L'enrobé à froid en sac n'a pas la densité ni l'adhérence d'un enrobé à chaud ou d'une résine professionnelle.",
     },
     {
       question:
-        'Peut-on utiliser du b\u00e9ton pour reboucher un nid de poule ?',
+        'Peut-on utiliser du béton pour reboucher un nid de poule ?',
       answer:
-        "Non. Le b\u00e9ton n'a pas la m\u00eame \u00e9lasticit\u00e9 que l'enrob\u00e9. Il se fissure sous les contraintes thermiques (dilatation/contraction) et sous le passage des v\u00e9hicules. Il se d\u00e9colle des bords en quelques mois.",
+        "Non. Le béton n'a pas la même élasticité que l'enrobé. Il se fissure sous les contraintes thermiques (dilatation/contraction) et sous le passage des véhicules. Il se décolle des bords en quelques mois.",
     },
     {
       question:
-        "Faut-il un permis ou une autorisation pour r\u00e9parer un nid de poule ?",
+        "Faut-il un permis ou une autorisation pour réparer un nid de poule ?",
       answer:
-        "Non, si le parking est priv\u00e9. Sur la voie publique, seules les collectivit\u00e9s ou leurs prestataires sont habilit\u00e9s \u00e0 intervenir. Signalez les nids de poule sur voie publique \u00e0 votre mairie.",
+        "Non, si le parking est privé. Sur la voie publique, seules les collectivités ou leurs prestataires sont habilités à intervenir. Signalez les nids de poule sur voie publique à votre mairie.",
     },
   ],
   'duree-vie-marquage-sol-parking': [
     {
       question:
-        "Quelle est la dur\u00e9e de vie d'un marquage au sol de parking ?",
+        "Quelle est la durée de vie d'un marquage au sol de parking ?",
       answer:
-        "De 3 \u00e0 5 ans avec une peinture acrylique certifi\u00e9e NF EN 1436 (classe P5). De 5 \u00e0 8 ans avec un thermoplastique (classe P6). De 7 \u00e0 10 ans avec une r\u00e9sine \u00e0 froid (classe P7). Les zones de manoeuvre et les passages pi\u00e9tons s'usent 2 \u00e0 3 fois plus vite.",
+        "De 3 à 5 ans avec une peinture acrylique certifiée NF EN 1436 (classe P5). De 5 à 8 ans avec un thermoplastique (classe P6). De 7 à 10 ans avec une résine à froid (classe P7). Les zones de manoeuvre et les passages piétons s'usent 2 à 3 fois plus vite.",
     },
     {
       question:
-        'Comment savoir si mon marquage doit \u00eatre refait ?',
+        'Comment savoir si mon marquage doit être refait ?',
       answer:
-        "3 signes : les lignes sont effac\u00e9es \u00e0 plus de 50%, les passages pi\u00e9tons ne sont plus visibles de nuit (perte de r\u00e9tror\u00e9flexion), les num\u00e9ros de place sont illisibles.",
+        "3 signes : les lignes sont effacées à plus de 50%, les passages piétons ne sont plus visibles de nuit (perte de rétroréflexion), les numéros de place sont illisibles.",
     },
     {
       question:
         'Le thermoplastique dure-t-il vraiment plus longtemps ?',
       answer:
-        "Oui, 2 \u00e0 3 fois plus longtemps que la peinture acrylique. Son \u00e9paisseur (1,5-3 mm vs 0,3-0,5 mm pour la peinture) explique cette diff\u00e9rence. Il est aussi plus r\u00e9sistant \u00e0 l'abrasion des pneus. Son co\u00fbt plus \u00e9lev\u00e9 (15-25 euros/m\u00b2 vs 8-15 euros/m\u00b2) est compens\u00e9 par une fr\u00e9quence de retra\u00e7age divis\u00e9e par 2.",
+        "Oui, 2 à 3 fois plus longtemps que la peinture acrylique. Son épaisseur (1,5-3 mm vs 0,3-0,5 mm pour la peinture) explique cette différence. Il est aussi plus résistant à l'abrasion des pneus. Son coût plus élevé (15-25 euros/m² vs 8-15 euros/m²) est compensé par une fréquence de retraçage divisée par 2.",
     },
   ],
   'calendrier-entretien-parking': [
     {
       question:
-        "Qui est responsable de l'entretien d'un parking de copropri\u00e9t\u00e9 ?",
+        "Qui est responsable de l'entretien d'un parking de copropriété ?",
       answer:
-        "Le syndic est responsable de l'entretien des parties communes, y compris le parking. Les d\u00e9cisions de travaux sont vot\u00e9es en assembl\u00e9e g\u00e9n\u00e9rale. Les travaux d'entretien courant rel\u00e8vent de la gestion courante du syndic ; les travaux de r\u00e9novation importants n\u00e9cessitent un vote \u00e0 la majorit\u00e9 absolue.",
+        "Le syndic est responsable de l'entretien des parties communes, y compris le parking. Les décisions de travaux sont votées en assemblée générale. Les travaux d'entretien courant relèvent de la gestion courante du syndic ; les travaux de rénovation importants nécessitent un vote à la majorité absolue.",
     },
     {
       question:
-        'Faut-il fermer le parking pendant les travaux de retra\u00e7age ?',
+        'Faut-il fermer le parking pendant les travaux de retraçage ?',
       answer:
-        "Pas forc\u00e9ment. Un prestataire organis\u00e9 travaille par zones pour maintenir l'acc\u00e8s \u00e0 une partie du parking pendant le chantier. Le temps de s\u00e9chage de la peinture est de 1 \u00e0 3 heures par zone. Pour un parking de 200 places, comptez 2 \u00e0 3 jours de travaux avec fermeture partielle par rotation.",
+        "Pas forcément. Un prestataire organisé travaille par zones pour maintenir l'accès à une partie du parking pendant le chantier. Le temps de séchage de la peinture est de 1 à 3 heures par zone. Pour un parking de 200 places, comptez 2 à 3 jours de travaux avec fermeture partielle par rotation.",
     },
     {
       question:
-        'Peut-on faire des retouches localis\u00e9es au lieu de tout retracer ?',
+        'Peut-on faire des retouches localisées au lieu de tout retracer ?',
       answer:
-        "Oui, et c'est m\u00eame recommand\u00e9. Les retouches cibl\u00e9es sur les zones les plus us\u00e9es (entr\u00e9es, sorties, places proches des acc\u00e8s) permettent de maintenir la conformit\u00e9 \u00e0 moindre co\u00fbt entre deux retra\u00e7ages complets.",
+        "Oui, et c'est même recommandé. Les retouches ciblées sur les zones les plus usées (entrées, sorties, places proches des accès) permettent de maintenir la conformité à moindre coût entre deux retraçages complets.",
     },
     {
-      question: '\u00c0 quelle fr\u00e9quence faut-il inspecter un parking ?',
+      question: 'À quelle fréquence faut-il inspecter un parking ?',
       answer:
-        'Deux inspections compl\u00e8tes par an (mars et septembre) sont le minimum. Les parkings \u00e0 fort trafic (plus de 500 v\u00e9hicules par jour) m\u00e9ritent une inspection visuelle rapide mensuelle des zones les plus sollicit\u00e9es.',
+        'Deux inspections complètes par an (mars et septembre) sont le minimum. Les parkings à fort trafic (plus de 500 véhicules par jour) méritent une inspection visuelle rapide mensuelle des zones les plus sollicitées.',
     },
   ],
   'norme-nf-en-1436-marquage-routier': [
     {
       question:
-        'La norme NF EN 1436 est-elle obligatoire en parking priv\u00e9 ?',
+        'La norme NF EN 1436 est-elle obligatoire en parking privé ?',
       answer:
-        "Non, au sens strict. Seuls les marquages sur voie publique doivent obligatoirement respecter la norme. Mais en parking priv\u00e9, l'utilisation de produits certifi\u00e9s NF EN 1436 est fortement recommand\u00e9e. En cas de litige ou d'accident, la conformit\u00e9 \u00e0 la norme constitue un \u00e9l\u00e9ment de preuve de la diligence du gestionnaire.",
+        "Non, au sens strict. Seuls les marquages sur voie publique doivent obligatoirement respecter la norme. Mais en parking privé, l'utilisation de produits certifiés NF EN 1436 est fortement recommandée. En cas de litige ou d'accident, la conformité à la norme constitue un élément de preuve de la diligence du gestionnaire.",
     },
     {
       question: 'Comment savoir si mon marquage actuel est conforme ?',
       answer:
-        "Visuellement, un marquage conforme NF EN 1436 se distingue par sa r\u00e9tror\u00e9flexion (il brille sous les phares la nuit gr\u00e2ce aux microbilles de verre). Un marquage mat et sans reflet est probablement non certifi\u00e9. Pour un diagnostic pr\u00e9cis, un audit technique avec mesure au r\u00e9troflectom\u00e8tre est possible.",
+        "Visuellement, un marquage conforme NF EN 1436 se distingue par sa rétroréflexion (il brille sous les phares la nuit grâce aux microbilles de verre). Un marquage mat et sans reflet est probablement non certifié. Pour un diagnostic précis, un audit technique avec mesure au rétroflectomètre est possible.",
     },
     {
       question:
-        'Quelle est la diff\u00e9rence entre NF EN 1436 et la marque NF ?',
+        'Quelle est la différence entre NF EN 1436 et la marque NF ?',
       answer:
-        "La norme NF EN 1436 d\u00e9finit les crit\u00e8res de performance. La marque NF est une certification d\u00e9livr\u00e9e par l'AFNOR qui atteste qu'un produit sp\u00e9cifique respecte ces crit\u00e8res. Un produit peut \u00eatre conforme NF EN 1436 (il respecte les crit\u00e8res) sans porter la marque NF (il n'a pas \u00e9t\u00e9 certifi\u00e9 par l'AFNOR).",
+        "La norme NF EN 1436 définit les critères de performance. La marque NF est une certification délivrée par l'AFNOR qui atteste qu'un produit spécifique respecte ces critères. Un produit peut être conforme NF EN 1436 (il respecte les critères) sans porter la marque NF (il n'a pas été certifié par l'AFNOR).",
     },
     {
       question: 'Les microbilles de verre sont-elles obligatoires ?',
       answer:
-        "Non, mais elles sont indispensables pour atteindre les classes de r\u00e9tror\u00e9flexion R2 et sup\u00e9rieures. Sans microbilles, le marquage n'est pas r\u00e9tror\u00e9fl\u00e9chissant et donc peu visible de nuit ou en parking couvert. Toute peinture certifi\u00e9e NF EN 1436 de classe R2 ou sup\u00e9rieure int\u00e8gre des microbilles.",
+        "Non, mais elles sont indispensables pour atteindre les classes de rétroréflexion R2 et supérieures. Sans microbilles, le marquage n'est pas rétroréfléchissant et donc peu visible de nuit ou en parking couvert. Toute peinture certifiée NF EN 1436 de classe R2 ou supérieure intègre des microbilles.",
     },
   ],
   'accessibilite-parking-erp-normes': [
@@ -1078,85 +1078,85 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
       question:
         "Mon parking n'a que 5 places, dois-je avoir une place PMR ?",
       answer:
-        "Oui. D\u00e8s la premi\u00e8re place de stationnement accessible au public, une place PMR est obligatoire. La r\u00e8gle des 2% avec arrondi \u00e0 l'entier sup\u00e9rieur s'applique : 5 places = 1 place PMR minimum.",
+        "Oui. Dès la première place de stationnement accessible au public, une place PMR est obligatoire. La règle des 2% avec arrondi à l'entier supérieur s'applique : 5 places = 1 place PMR minimum.",
     },
     {
       question:
-        'Les places PMR sont-elles obligatoires en parking priv\u00e9 ?',
+        'Les places PMR sont-elles obligatoires en parking privé ?',
       answer:
-        "Non, si le parking est strictement priv\u00e9 (usage exclusif des r\u00e9sidents d'une copropri\u00e9t\u00e9 sans ERP). Oui, si le parking dessert un ERP (commerce, bureau recevant du public, cabinet m\u00e9dical).",
+        "Non, si le parking est strictement privé (usage exclusif des résidents d'une copropriété sans ERP). Oui, si le parking dessert un ERP (commerce, bureau recevant du public, cabinet médical).",
     },
     {
       question:
-        'Que faire si la pente de mon parking d\u00e9passe 2% ?',
+        'Que faire si la pente de mon parking dépasse 2% ?',
       answer:
-        "La pente de la place PMR elle-m\u00eame doit \u00eatre inf\u00e9rieure \u00e0 2%. Si le parking est en pente, la place PMR doit \u00eatre implant\u00e9e dans la zone la plus plate. Si aucune zone ne permet une pente inf\u00e9rieure \u00e0 2%, des travaux de nivellement sont n\u00e9cessaires.",
+        "La pente de la place PMR elle-même doit être inférieure à 2%. Si le parking est en pente, la place PMR doit être implantée dans la zone la plus plate. Si aucune zone ne permet une pente inférieure à 2%, des travaux de nivellement sont nécessaires.",
     },
   ],
   'preparation-sol-avant-resine-epoxy': [
     {
       question:
-        "Peut-on appliquer de la r\u00e9sine \u00e9poxy sur un sol peint ?",
+        "Peut-on appliquer de la résine époxy sur un sol peint ?",
       answer:
-        "Non, la peinture existante doit \u00eatre int\u00e9gralement retir\u00e9e par grenaillage ou d\u00e9capage chimique. La r\u00e9sine \u00e9poxy appliqu\u00e9e sur une peinture se d\u00e9collera avec la peinture sous-jacente.",
+        "Non, la peinture existante doit être intégralement retirée par grenaillage ou décapage chimique. La résine époxy appliquée sur une peinture se décollera avec la peinture sous-jacente.",
     },
     {
       question:
-        'Faut-il grenailler un sol en b\u00e9ton neuf ?',
+        'Faut-il grenailler un sol en béton neuf ?',
       answer:
-        "Oui. Le b\u00e9ton neuf pr\u00e9sente une couche de laitance en surface qui emp\u00eache l'adh\u00e9rence de la r\u00e9sine. Le grenaillage ou le pon\u00e7age est obligatoire, m\u00eame sur un b\u00e9ton lisse d'apparence propre.",
+        "Oui. Le béton neuf présente une couche de laitance en surface qui empêche l'adhérence de la résine. Le grenaillage ou le ponçage est obligatoire, même sur un béton lisse d'apparence propre.",
     },
     {
       question:
-        'Combien de temps dure la pr\u00e9paration ?',
+        'Combien de temps dure la préparation ?',
       answer:
-        "Pour un parking de 50 places (environ 650 m\u00b2) : 2-3 jours de pr\u00e9paration (diagnostic + nettoyage + grenaillage + primaire). L'application de la r\u00e9sine de finition prend 1-2 jours suppl\u00e9mentaires.",
+        "Pour un parking de 50 places (environ 650 m²) : 2-3 jours de préparation (diagnostic + nettoyage + grenaillage + primaire). L'application de la résine de finition prend 1-2 jours supplémentaires.",
     },
   ],
   'resine-epoxy-ou-peinture-sol-comparatif': [
     {
       question:
-        'La r\u00e9sine \u00e9poxy jaunit-elle ?',
+        'La résine époxy jaunit-elle ?',
       answer:
-        "Oui, la r\u00e9sine \u00e9poxy standard jaunit sous les UV. En parking ext\u00e9rieur, l'alternative est la r\u00e9sine polyur\u00e9thane (aliphatique) qui r\u00e9siste aux UV. En parking couvert ou souterrain, le jaunissement n'est pas un probl\u00e8me.",
+        "Oui, la résine époxy standard jaunit sous les UV. En parking extérieur, l'alternative est la résine polyuréthane (aliphatique) qui résiste aux UV. En parking couvert ou souterrain, le jaunissement n'est pas un problème.",
     },
     {
       question:
-        'Peut-on mettre de la r\u00e9sine sur de la peinture ?',
+        'Peut-on mettre de la résine sur de la peinture ?',
       answer:
-        "Non. La peinture existante doit \u00eatre int\u00e9gralement retir\u00e9e (grenaillage ou d\u00e9capage). La r\u00e9sine appliqu\u00e9e sur une peinture se d\u00e9collera avec la peinture. C'est une erreur fr\u00e9quente qui co\u00fbte cher.",
+        "Non. La peinture existante doit être intégralement retirée (grenaillage ou décapage). La résine appliquée sur une peinture se décollera avec la peinture. C'est une erreur fréquente qui coûte cher.",
     },
     {
       question:
-        'Quelle est la solution interm\u00e9diaire ?',
+        'Quelle est la solution intermédiaire ?',
       answer:
-        "La peinture \u00e9poxy monocomposant. Elle co\u00fbte 10-20 euros/m\u00b2 (entre la peinture acrylique et la r\u00e9sine bicomposant), dure 3-5 ans et offre une r\u00e9sistance chimique moyenne. C'est un bon compromis pour les parkings \u00e0 trafic moyen sans agression chimique.",
+        "La peinture époxy monocomposant. Elle coûte 10-20 euros/m² (entre la peinture acrylique et la résine bicomposant), dure 3-5 ans et offre une résistance chimique moyenne. C'est un bon compromis pour les parkings à trafic moyen sans agression chimique.",
     },
     {
       question:
-        'Faut-il rev\u00eatir tout le sol ou juste tracer les lignes ?',
+        'Faut-il revêtir tout le sol ou juste tracer les lignes ?',
       answer:
-        "Pour un parking standard (copropri\u00e9t\u00e9, bureau), le tra\u00e7age des lignes en peinture suffit. Le rev\u00eatement complet en r\u00e9sine est r\u00e9serv\u00e9 aux usages intensifs (entrep\u00f4t, atelier, showroom) ou aux parkings souterrains.",
+        "Pour un parking standard (copropriété, bureau), le traçage des lignes en peinture suffit. Le revêtement complet en résine est réservé aux usages intensifs (entrepôt, atelier, showroom) ou aux parkings souterrains.",
     },
   ],
   'resine-sol-parking-souterrain': [
     {
       question:
-        'Peut-on mettre de la r\u00e9sine sur un sol humide ?',
+        'Peut-on mettre de la résine sur un sol humide ?',
       answer:
-        "Pas directement. L'humidit\u00e9 du support doit \u00eatre inf\u00e9rieure \u00e0 4,5% pour l'\u00e9poxy et 6% pour le polyur\u00e9thane. Si le taux est sup\u00e9rieur, un primaire anti-humidit\u00e9 doit \u00eatre appliqu\u00e9 avant la r\u00e9sine. Ce traitement ajoute 8-15 euros/m\u00b2 au budget.",
+        "Pas directement. L'humidité du support doit être inférieure à 4,5% pour l'époxy et 6% pour le polyuréthane. Si le taux est supérieur, un primaire anti-humidité doit être appliqué avant la résine. Ce traitement ajoute 8-15 euros/m² au budget.",
     },
     {
       question:
         'Combien de temps faut-il fermer le parking ?',
       answer:
-        "De 48 \u00e0 72 heures pour l'\u00e9poxy et le polyur\u00e9thane (24h entre chaque couche). De 4 \u00e0 8 heures pour la r\u00e9sine MMA. L'intervention se fait par zones (1/3 du parking \u00e0 la fois) pour maintenir l'acc\u00e8s aux r\u00e9sidents.",
+        "De 48 à 72 heures pour l'époxy et le polyuréthane (24h entre chaque couche). De 4 à 8 heures pour la résine MMA. L'intervention se fait par zones (1/3 du parking à la fois) pour maintenir l'accès aux résidents.",
     },
     {
       question:
-        'La r\u00e9sine r\u00e9siste-t-elle aux pneus chauds ?',
+        'La résine résiste-t-elle aux pneus chauds ?',
       answer:
-        "Oui, l'\u00e9poxy et le polyur\u00e9thane r\u00e9sistent aux temp\u00e9ratures de pneus apr\u00e8s roulage (jusqu'\u00e0 80\u00b0C). La r\u00e9sine MMA r\u00e9siste jusqu'\u00e0 100\u00b0C. Aucune de ces r\u00e9sines ne marque sous le poids d'un v\u00e9hicule \u00e0 l'arr\u00eat.",
+        "Oui, l'époxy et le polyuréthane résistent aux températures de pneus après roulage (jusqu'à 80°C). La résine MMA résiste jusqu'à 100°C. Aucune de ces résines ne marque sous le poids d'un véhicule à l'arrêt.",
     },
   ],
 }

@@ -19,7 +19,7 @@ export default function Content() {
         Un sol de parking brut, c&apos;est un sol qui se dégrade vite. Poussière, taches d&apos;huile, fissures, glissance par temps humide. La résine de sol transforme une dalle béton fragile en surface durable, étanche et facile à entretenir.
       </p>
       <p>
-        Damien, directeur technique d&apos;un groupe immobilier à Lyon, a fait appliquer une résine époxy dans le parking souterrain d&apos;une de ses résidences (180 places, 3 200 m²) en 2023. Avant les travaux, le sol béton générait des plaintes constantes : poussière sur les véhicules, taches d&apos;huile impossibles à nettoyer, marquage au sol qui ne tenait pas plus de 6 mois. Deux ans après l&apos;application de la résine, le sol est intact, le marquage tient parfaitement et les charges d&apos;entretien ont baissé de 60%. Investissement : 45 euros/m². Économies d&apos;entretien cumulées sur 10 ans : estimées à 80 000 euros.
+        Damien, directeur technique d&apos;un groupe immobilier à Lyon, a fait appliquer une résine époxy dans le parking souterrain d&apos;une de ses résidences (180 places, 3 200 m²) en 2023. Avant les travaux, le sol béton générait des plaintes constantes : poussière sur les véhicules, taches d&apos;huile impossibles à nettoyer, marquage au sol qui ne tenait pas plus de 6 mois. Deux ans après l&apos;application de la résine, le sol est intact, le marquage tient parfaitement et les charges d&apos;entretien ont baissé de 60%. L&apos;investissement a été rapidement amorti grâce aux économies d&apos;entretien significatives sur la durée.
       </p>
       <p>
         Résine époxy, polyuréthane, méthacrylate : chaque type a ses avantages, ses limites et son prix. Ce guide compare les options, détaille les prix au m² et explique les conditions d&apos;une application réussie.
@@ -114,31 +114,31 @@ export default function Content() {
           <tbody>
             <tr>
               <td>Époxy standard</td>
-              <td>25 à 45 euros/m²</td>
+              <td>à partir de 30 euros/m²</td>
               <td>8-15 ans</td>
               <td>Parking souterrain, garage</td>
             </tr>
             <tr>
               <td>Époxy antidérapante</td>
-              <td>35 à 55 euros/m²</td>
+              <td>à partir de 40 euros/m²</td>
               <td>8-15 ans</td>
               <td>Rampe, zone humide</td>
             </tr>
             <tr>
               <td>Polyuréthane</td>
-              <td>40 à 70 euros/m²</td>
+              <td>à partir de 50 euros/m²</td>
               <td>10-20 ans</td>
               <td>Parking extérieur, terrasse</td>
             </tr>
             <tr>
               <td>Méthacrylate (PMMA)</td>
-              <td>50 à 90 euros/m²</td>
+              <td>à partir de 60 euros/m²</td>
               <td>10-15 ans</td>
               <td>Parking forte fréquentation</td>
             </tr>
             <tr>
               <td>Peinture époxy (couche mince)</td>
-              <td>15 à 25 euros/m²</td>
+              <td>à partir de 18 euros/m²</td>
               <td>3-5 ans</td>
               <td>Garage privé, budget limité</td>
             </tr>
@@ -148,10 +148,10 @@ export default function Content() {
 
       <h3>Ce qui influence le prix</h3>
       <ul>
-        <li><strong>Préparation du support</strong> : grenaillage, ragréage, réparation de fissures. Un sol en mauvais état peut ajouter 10 à 20 euros/m²</li>
+        <li><strong>Préparation du support</strong> : grenaillage, ragréage, réparation de fissures. Un sol en mauvais état peut représenter un surcoût significatif</li>
         <li><strong>Nombre de couches</strong> : une couche d&apos;accrochage + 2 couches de finition est le standard. Un système monocouche coûte moins cher mais dure moins longtemps</li>
-        <li><strong>Surface totale</strong> : effet d&apos;échelle. Au-dessus de 500 m², le prix au m² baisse de 15 à 25%</li>
-        <li><strong>Finition antidérapante</strong> : l&apos;ajout de granulats antidérapants représente un surcoût de 5 à 10 euros/m²</li>
+        <li><strong>Surface totale</strong> : effet d&apos;échelle. Au-dessus de 500 m², le prix au m² baisse sensiblement</li>
+        <li><strong>Finition antidérapante</strong> : l&apos;ajout de granulats antidérapants représente un surcoût à prévoir</li>
         <li><strong>Marquage intégré</strong> : le traçage des places et des voies directement dans la résine élimine le coût d&apos;un marquage séparé</li>
       </ul>
       <p>
@@ -160,7 +160,7 @@ export default function Content() {
         <Link href="/guides/cout-renovation-parking">guide du coût de rénovation de parking</Link>.
       </p>
       <p>
-        Christine, gérante d&apos;un garage automobile de 400 m² à Tassin-la-Demi-Lune (69), hésitait entre une peinture époxy à 18 euros/m² et une résine époxy autolissante à 38 euros/m². Elle a choisi la peinture, moins chère. Résultat : après 3 ans, la peinture s&apos;écaille dans les zones de passage intensif. La résine de son voisin garagiste, posée à la même époque, est intacte. Christine va devoir poncer et réappliquer, soit un coût total supérieur à celui de la résine sur 10 ans.
+        Christine, gérante d&apos;un garage automobile de 400 m² à Tassin-la-Demi-Lune (69), hésitait entre une peinture époxy et une résine époxy autolissante. Elle a choisi la peinture, moins chère. Résultat : après 3 ans, la peinture s&apos;écaille dans les zones de passage intensif. La résine de son voisin garagiste, posée à la même époque, est intacte. Christine va devoir poncer et réappliquer, soit un coût total supérieur à celui de la résine sur 10 ans.
       </p>
 
       <h2>Conditions d&apos;application</h2>
@@ -228,7 +228,7 @@ export default function Content() {
       <h3>Peinture de sol (couche mince)</h3>
       <ul>
         <li>Épaisseur : 0,1 à 0,5 mm</li>
-        <li>Prix : 15 à 25 euros/m²</li>
+        <li>Prix : à partir de 18 euros/m²</li>
         <li>Durée de vie : 3 à 5 ans</li>
         <li>Usage : garage privé, zone à faible trafic</li>
       </ul>
@@ -236,7 +236,7 @@ export default function Content() {
       <h3>Résine de sol (revêtement épais)</h3>
       <ul>
         <li>Épaisseur : 1 à 5 mm</li>
-        <li>Prix : 25 à 90 euros/m²</li>
+        <li>Prix : à partir de 30 euros/m²</li>
         <li>Durée de vie : 8 à 20 ans</li>
         <li>Usage : parking commercial, industriel, souterrain</li>
       </ul>
@@ -266,7 +266,7 @@ export default function Content() {
 
       <h3>Réparation locale</h3>
       <p>
-        Un éclat ou une rayure profonde peut être réparé localement sans refaire l&apos;ensemble du sol. Un kit de réparation époxy coûte 50 à 150 euros et permet de traiter 1 à 2 m².
+        Un éclat ou une rayure profonde peut être réparé localement sans refaire l&apos;ensemble du sol. Un kit de réparation époxy permet de traiter 1 à 2 m² pour un budget modeste.
       </p>
 
       <h2>FAQ : résine sol parking</h2>
@@ -278,7 +278,7 @@ export default function Content() {
 
       <h3>Combien coûte la résine époxy pour un parking de 100 places ?</h3>
       <p>
-        Pour un parking de 100 places (environ 1 500 m² de surface traitée), comptez 37 500 à 67 500 euros en résine époxy standard (25 à 45 euros/m²), préparation du sol incluse.
+        Pour un parking de 100 places (environ 1 500 m² de surface traitée), le budget représente un investissement conséquent de plusieurs dizaines de milliers d&apos;euros en résine époxy standard, préparation du sol incluse. Demandez un devis personnalisé pour un chiffrage précis.
       </p>
 
       <h3>Peut-on appliquer de la résine sur un sol humide ?</h3>

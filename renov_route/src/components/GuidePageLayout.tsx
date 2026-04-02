@@ -84,7 +84,7 @@ export default function GuidePageLayout({ guide, children }: GuidePageLayoutProp
               transition={{ duration: 0.5 }}
               className="flex flex-wrap items-center gap-3 mb-5 text-sm"
             >
-              <span className="inline-block px-3 py-1 rounded-full bg-sky-500/15 text-sky-400 font-medium border border-sky-500/20">
+              <span className="inline-block px-3 py-1 rounded-full bg-amber-500/15 text-amber-400 font-medium border border-amber-500/20">
                 {categoryLabel}
               </span>
               <span className="text-gray-400">
@@ -141,7 +141,7 @@ export default function GuidePageLayout({ guide, children }: GuidePageLayoutProp
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <Link
                 href="/devis"
-                className="bg-sky-500 hover:bg-sky-400 text-white font-semibold py-3 px-7 rounded-lg transition-colors duration-200"
+                className="bg-amber-500 hover:bg-amber-400 text-gray-900 font-semibold py-3 px-7 rounded-lg transition-colors duration-200"
               >
                 Demander un devis gratuit
               </Link>
@@ -165,12 +165,12 @@ export default function GuidePageLayout({ guide, children }: GuidePageLayoutProp
                   <Link
                     key={related.slug}
                     href={`/guides/${related.slug}`}
-                    className="p-5 rounded-xl border border-white/10 bg-white/[0.03] hover:border-white/20 hover:bg-white/[0.05] transition-colors group"
+                    className="p-5 rounded-xl border border-white/10 bg-[#1a1f2a] hover:border-white/20 hover:bg-[#1d222d] transition-colors group"
                   >
-                    <span className="text-xs text-sky-400 font-medium">
+                    <span className="text-xs text-amber-400 font-medium">
                       {GUIDE_CATEGORIES[related.category]}
                     </span>
-                    <h3 className="font-semibold text-white mt-2 mb-2 group-hover:text-sky-300 transition-colors leading-snug">
+                    <h3 className="font-semibold text-white mt-2 mb-2 group-hover:text-amber-300 transition-colors leading-snug">
                       {related.title}
                     </h3>
                     <p className="text-gray-400 text-sm line-clamp-2">{related.excerpt}</p>

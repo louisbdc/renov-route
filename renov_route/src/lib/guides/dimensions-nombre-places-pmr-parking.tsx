@@ -78,7 +78,7 @@ export default function Content() {
         Les parkings d'entreprise non ouverts au public ne sont pas soumis à la réglementation ERP. Cependant, le Code du travail (article R4225-7) impose que les lieux de travail soient accessibles aux travailleurs handicapés. En pratique, prévoyez au minimum 1 place PMR par parking, idéalement 2 %.
       </p>
       <p>
-        Laurent, DRH d'une PME industrielle à Meyzieu (69), pensait que son parking de 25 places n'était pas concerné par les normes PMR. Quand un nouveau salarié en fauteuil roulant a été recruté, il a fallu créer une place PMR en urgence. Le retraçage de la place (280 euros) a été simple, mais le déplacement du poteau d'éclairage qui gênait l'accès au véhicule a coûté 1 200 euros de plus. S'il avait prévu la place PMR dès l'origine, le surcoût aurait été négligeable.
+        Laurent, DRH d'une PME industrielle à Meyzieu (69), pensait que son parking de 25 places n'était pas concerné par les normes PMR. Quand un nouveau salarié en fauteuil roulant a été recruté, il a fallu créer une place PMR en urgence. Le retra&ccedil;age de la place a &eacute;t&eacute; simple et peu co&ucirc;teux, mais le d&eacute;placement du poteau d'&eacute;clairage qui g&ecirc;nait l'acc&egrave;s au v&eacute;hicule a repr&eacute;sent&eacute; un co&ucirc;t bien sup&eacute;rieur. S'il avait prévu la place PMR dès l'origine, le surcoût aurait été négligeable.
       </p>
       <p>
         Vous ne savez pas combien de places PMR votre parking doit compter ? Notre équipe réalise un <Link href="/competences/conseil-expertise">diagnostic gratuit</Link> et vous remet un plan de mise en conformité chiffré.
@@ -166,7 +166,7 @@ export default function Content() {
         Quand le parking comporte plusieurs niveaux, au moins une place PMR doit se trouver en surface (niveau de plain-pied) ou au niveau de l'ascenseur.
       </p>
       <p>
-        Véronique, syndic d'une résidence de 120 lots à Villeurbanne (69), avait deux places PMR en sous-sol au niveau -2, accessibles uniquement par l'ascenseur du parking. Lors de la panne de l'ascenseur (3 semaines de réparation), aucune place PMR n'était accessible. Après une plainte d'un résident, le syndic a fait créer une place PMR supplémentaire en surface lors du retraçage général du parking. Coût supplémentaire : 350 euros (marquage + panneau PMR). L'investissement a évité un conflit juridique bien plus coûteux.
+        Véronique, syndic d'une résidence de 120 lots à Villeurbanne (69), avait deux places PMR en sous-sol au niveau -2, accessibles uniquement par l'ascenseur du parking. Lors de la panne de l'ascenseur (3 semaines de réparation), aucune place PMR n'était accessible. Après une plainte d'un résident, le syndic a fait créer une place PMR supplémentaire en surface lors du retraçage général du parking. Co&ucirc;t suppl&eacute;mentaire : quelques centaines d'euros (marquage + panneau PMR). L'investissement a évité un conflit juridique bien plus coûteux.
       </p>
 
       <h2>Le marquage au sol d'une place PMR</h2>
@@ -204,7 +204,7 @@ export default function Content() {
       </div>
 
       <p>
-        Romain, gérant d'une clinique vétérinaire à Écully (69), avait fait tracer ses deux places PMR par une entreprise de BTP généraliste. Lors d'un contrôle de la commission d'accessibilité, les deux places ont été jugées non conformes : la bande d'accès ne faisait que 0,60 m (au lieu de 0,80 m) et le pictogramme mesurait 0,30 m x 0,35 m (trop petit). Résultat : mise en demeure de mise en conformité sous 3 mois. Il nous a confié le retraçage des deux places conformément aux normes. Intervention en une demi-journée, 450 euros HT tout compris (marquage + pictogrammes + hachures).
+        Romain, gérant d'une clinique vétérinaire à Écully (69), avait fait tracer ses deux places PMR par une entreprise de BTP généraliste. Lors d'un contrôle de la commission d'accessibilité, les deux places ont été jugées non conformes : la bande d'accès ne faisait que 0,60 m (au lieu de 0,80 m) et le pictogramme mesurait 0,30 m x 0,35 m (trop petit). Résultat : mise en demeure de mise en conformité sous 3 mois. Il nous a confié le retraçage des deux places conformément aux normes. Intervention en une demi-journée, quelques centaines d'euros HT tout compris (marquage + pictogrammes + hachures).
       </p>
 
       <h2>Les sanctions en cas de non-conformité</h2>
@@ -227,7 +227,7 @@ export default function Content() {
         Au-delà de l'amende, l'absence de places PMR peut constituer une discrimination à l'embauche si un candidat en situation de handicap ne peut pas accéder aux locaux. Le risque juridique est réel, même pour les petites entreprises.
       </p>
       <p>
-        La mise en conformité est presque toujours moins coûteuse que les sanctions. Pour deux places PMR dans un parking existant, comptez entre 400 et 800 euros (marquage + panneaux), bien en deçà du moindre risque juridique.
+        La mise en conformité est presque toujours moins coûteuse que les sanctions. Pour deux places PMR dans un parking existant, comptez &agrave; partir de 600 euros (marquage + panneaux), bien en deçà du moindre risque juridique.
       </p>
 
       <h2>Comment mettre votre parking en conformité PMR</h2>
@@ -262,7 +262,7 @@ export default function Content() {
         <li>Pose du panneau vertical B6d</li>
       </ul>
       <p><strong>Durée</strong> : 1 à 2 heures par place PMR</p>
-      <p><strong>Coût</strong> : 200 à 400 euros HT par place (marquage complet + panneau)</p>
+      <p><strong>Co&ucirc;t</strong> : &agrave; partir de 300 euros HT par place (marquage complet + panneau)</p>
 
       <h3>Étape 4 : Vérification</h3>
       <p>Après le marquage, vérifiez :</p>
@@ -293,7 +293,7 @@ export default function Content() {
 
       <h3>Peut-on transformer une place standard en place PMR sans refaire tout le parking ?</h3>
       <p>
-        Oui. Il suffit d'élargir la place concernée (en réduisant la place adjacente ou en supprimant une place) pour atteindre 3,30 m de large, puis de tracer le marquage PMR. C'est l'intervention la plus courante et la moins coûteuse (200 à 400 euros par place).
+        Oui. Il suffit d'élargir la place concernée (en réduisant la place adjacente ou en supprimant une place) pour atteindre 3,30 m de large, puis de tracer le marquage PMR. C'est l'intervention la plus courante et la moins coûteuse (&agrave; partir de 300 euros par place).
       </p>
 
       <h3>Les dimensions PMR sont-elles les mêmes pour un parking souterrain ?</h3>

@@ -1,4 +1,4 @@
-import Script from 'next/script';
+'use client'
 
 interface StructuredDataProps {
   type: 'homepage' | 'competences' | 'realisations' | 'contact' | 'devis' | 'faq';
@@ -274,8 +274,7 @@ export default function StructuredData({ type }: StructuredDataProps) {
   };
 
   return (
-    <Script
-      id={`structured-data-${type}`}
+    <script
       type="application/ld+json"
       dangerouslySetInnerHTML={{
         __html: JSON.stringify(getSpecificData())

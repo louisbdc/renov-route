@@ -140,9 +140,9 @@ export default function Content() {
           <tbody>
             <tr>
               <td><strong>Prix au m²</strong></td>
-              <td>8-12 euros</td>
-              <td>15-25 euros</td>
-              <td>25-45 euros</td>
+              <td>à partir de 8 euros</td>
+              <td>à partir de 18 euros</td>
+              <td>à partir de 30 euros</td>
             </tr>
             <tr>
               <td><strong>Durée de vie</strong></td>
@@ -152,9 +152,9 @@ export default function Content() {
             </tr>
             <tr>
               <td><strong>Coût annuel estimé</strong></td>
-              <td>3-6 euros/m²/an</td>
-              <td>3-5 euros/m²/an</td>
-              <td>3-5 euros/m²/an</td>
+              <td>à partir de 4 euros/m²/an</td>
+              <td>à partir de 3 euros/m²/an</td>
+              <td>à partir de 3 euros/m²/an</td>
             </tr>
             <tr>
               <td><strong>Séchage</strong></td>
@@ -227,7 +227,7 @@ export default function Content() {
         Sur un enrobé neuf et lisse, les trois types fonctionnent. Sur un sol dégradé avec des fissures ou des <Link href="/competences/reparation-nids-de-poule">nids de poule</Link>, il faut d&apos;abord réparer avant de peindre. La thermoplastique, épaisse et rigide, tolère mal les irrégularités. L&apos;acrylique s&apos;adapte mieux aux surfaces imparfaites.
       </p>
       <p>
-        Sophie, gestionnaire d&apos;une résidence à Caluire-et-Cuire, a fait appliquer du thermoplastique sur un enrobé fissuré dans son parking de copropriété. Trois mois après, le marquage se décollait par plaques aux endroits fissurés. Il a fallu reprendre le support, réparer les fissures, puis retracer en acrylique haute performance. Double dépense. Un diagnostic préalable aurait évité 3 200 euros de travaux inutiles.
+        Sophie, gestionnaire d&apos;une résidence à Caluire-et-Cuire, a fait appliquer du thermoplastique sur un enrobé fissuré dans son parking de copropriété. Trois mois après, le marquage se décollait par plaques aux endroits fissurés. Il a fallu reprendre le support, réparer les fissures, puis retracer en acrylique haute performance. Double dépense. Un diagnostic préalable aurait évité plusieurs milliers d&apos;euros de travaux inutiles.
       </p>
 
       <h3>4. Les contraintes de délai</h3>
@@ -255,9 +255,9 @@ export default function Content() {
           <tbody>
             <tr>
               <td><strong>Prix initial (500 m²)</strong></td>
-              <td>5 000 euros</td>
-              <td>10 000 euros</td>
-              <td>17 500 euros</td>
+              <td>à partir de 5 000 euros</td>
+              <td>à partir de 12 000 euros</td>
+              <td>à partir de 20 000 euros</td>
             </tr>
             <tr>
               <td><strong>Retraçages sur 10 ans</strong></td>
@@ -267,9 +267,9 @@ export default function Content() {
             </tr>
             <tr>
               <td><strong>Coût total sur 10 ans</strong></td>
-              <td>15 000-20 000 euros</td>
-              <td>15 000-20 000 euros</td>
-              <td>17 500-25 000 euros</td>
+              <td>à partir de 20 000 euros</td>
+              <td>à partir de 18 000 euros</td>
+              <td>à partir de 22 000 euros</td>
             </tr>
           </tbody>
         </table>

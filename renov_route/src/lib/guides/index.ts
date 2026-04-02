@@ -42,6 +42,20 @@ import { meta as resineSolParkingSouterrain } from './resine-sol-parking-souterr
 import { meta as accessibiliteParkingErpNormes } from './accessibilite-parking-erp-normes'
 import { meta as preparationSolAvantResineEpoxy } from './preparation-sol-avant-resine-epoxy'
 import { meta as resineEpoxyOuPeintureSolComparatif } from './resine-epoxy-ou-peinture-sol-comparatif'
+import { meta as rampePourPmrNormesTypes } from './rampe-pour-pmr-normes-types'
+import { meta as dimensionPlaceDeParkingNormes } from './dimension-place-de-parking-normes'
+import { meta as parkingVisiteursAmenagement } from './parking-visiteurs-amenagement'
+import { meta as marquageAuSolSignificationCouleurs } from './marquage-au-sol-signification-couleurs'
+import { meta as logoParkingPictogrammes } from './logo-parking-pictogrammes'
+import { meta as placeBleuParkingZoneBleue } from './place-bleu-parking-zone-bleue'
+import { meta as panneauxParkingTypesReglementation } from './panneaux-parking-types-reglementation'
+import { meta as marquageAuSolTravauxChantier } from './marquage-au-sol-travaux-chantier'
+import { meta as marquageAuSolEntrepriseIndustriel } from './marquage-au-sol-entreprise-industriel'
+import { meta as signalisationHorizontaleEtVerticale } from './signalisation-horizontale-et-verticale'
+import { meta as marquageAuSolParkingPrive } from './marquage-au-sol-parking-prive'
+import { meta as marquageAuSolPisteCyclable } from './marquage-au-sol-piste-cyclable'
+import { meta as arceauParkingTypesPrix } from './arceau-parking-types-prix'
+import { meta as codeDeLaRouteMarquageAuSol } from './code-de-la-route-marquage-au-sol'
 
 const GUIDES: Guide[] = [
   renovationParkingCopropriete,
@@ -87,6 +101,20 @@ const GUIDES: Guide[] = [
   accessibiliteParkingErpNormes,
   preparationSolAvantResineEpoxy,
   resineEpoxyOuPeintureSolComparatif,
+  rampePourPmrNormesTypes,
+  dimensionPlaceDeParkingNormes,
+  parkingVisiteursAmenagement,
+  marquageAuSolSignificationCouleurs,
+  logoParkingPictogrammes,
+  placeBleuParkingZoneBleue,
+  marquageAuSolTravauxChantier,
+  marquageAuSolEntrepriseIndustriel,
+  marquageAuSolParkingPrive,
+  signalisationHorizontaleEtVerticale,
+  panneauxParkingTypesReglementation,
+  marquageAuSolPisteCyclable,
+  arceauParkingTypesPrix,
+  codeDeLaRouteMarquageAuSol,
 ]
 
 export default GUIDES

@@ -47,10 +47,10 @@ export default function Content() {
 
       <h3>Le coût de l'inaction</h3>
       <p>
-        Plus vous attendez, plus la rénovation coûte cher. Un nid de poule de 80 euros à réparer aujourd'hui en coûtera 200 dans six mois quand il aura doublé de taille. Des marquages à retracer maintenant pour 2 000 euros nécessiteront un décapage préalable de 800 euros supplémentaires si vous attendez qu'ils soient totalement effacés.
+        Plus vous attendez, plus la rénovation coûte cher. Un nid de poule réparable rapidement aujourd'hui coûtera deux à trois fois plus dans six mois quand il aura doublé de taille. Des marquages à retracer maintenant nécessiteront un décapage préalable coûteux si vous attendez qu'ils soient totalement effacés.
       </p>
       <p>
-        Isabelle, directrice d'un magasin de décoration à Tassin-la-Demi-Lune (69), repoussait la rénovation de son parking de 40 places depuis 3 ans. "Ce n'est pas urgent, on a d'autres priorités." Quand un client a crevé un pneu sur un nid de poule et envoyé la facture (310 euros), elle a pris rendez-vous pour un diagnostic. Le résultat : 4 500 euros de travaux (retraçage + 6 nids de poule + 3 panneaux). Si elle avait agi 2 ans plus tôt, le devis aurait été de 2 800 euros. L'attente lui a coûté 1 700 euros de plus, sans compter l'indemnisation du client.
+        Isabelle, directrice d'un magasin de décoration à Tassin-la-Demi-Lune (69), repoussait la rénovation de son parking de 40 places depuis 3 ans. "Ce n'est pas urgent, on a d'autres priorités." Quand un client a crevé un pneu sur un nid de poule et envoyé la facture, elle a pris rendez-vous pour un diagnostic. Le résultat : plusieurs milliers d'euros de travaux (retraçage + 6 nids de poule + 3 panneaux). Si elle avait agi 2 ans plus tôt, le budget aurait été nettement inférieur. L'attente lui a coûté bien plus cher, sans compter l'indemnisation du client.
       </p>
       <p>
         Vous avez un doute sur l'état de votre parking ? Notre équipe réalise un <Link href="/competences/conseil-expertise">diagnostic gratuit</Link> avec photos commentées et chiffrage détaillé.
@@ -151,11 +151,11 @@ export default function Content() {
             </tr>
           </thead>
           <tbody>
-            <tr><td>Retraçage complet (lignes + flèches + pictogrammes)</td><td>8 - 15 euros/m2</td></tr>
-            <tr><td>Places PMR (marquage + pictogramme + hachures)</td><td>200 - 400 euros/place</td></tr>
-            <tr><td>Passages piétons</td><td>150 - 300 euros/unité</td></tr>
-            <tr><td>Flèches directionnelles</td><td>50 - 100 euros/unité</td></tr>
-            <tr><td><strong>Budget type parking 50 places</strong></td><td><strong>1 500 - 3 500 euros</strong></td></tr>
+            <tr><td>Retraçage complet (lignes + flèches + pictogrammes)</td><td>à partir de 10 euros/m2</td></tr>
+            <tr><td>Places PMR (marquage + pictogramme + hachures)</td><td>à partir de 280 euros/place</td></tr>
+            <tr><td>Passages piétons</td><td>à partir de 200 euros/unité</td></tr>
+            <tr><td>Flèches directionnelles</td><td>à partir de 65 euros/unité</td></tr>
+            <tr><td><strong>Budget type parking 50 places</strong></td><td><strong>à partir de 2 500 euros</strong></td></tr>
           </tbody>
         </table>
       </div>
@@ -170,11 +170,11 @@ export default function Content() {
             </tr>
           </thead>
           <tbody>
-            <tr><td>Réparation nid de poule (résine polyuréthane)</td><td>80 - 200 euros/unité</td></tr>
-            <tr><td>Colmatage fissure (par mètre linéaire)</td><td>30 - 80 euros/ml</td></tr>
-            <tr><td>Réfection localisée (enrobé)</td><td>25 - 60 euros/m2</td></tr>
-            <tr><td>Reprise de drainage (caniveaux)</td><td>500 - 2 000 euros</td></tr>
-            <tr><td><strong>Budget type (10 nids de poule + fissures)</strong></td><td><strong>1 000 - 3 000 euros</strong></td></tr>
+            <tr><td>Réparation nid de poule (résine polyuréthane)</td><td>à partir de 130 euros/unité</td></tr>
+            <tr><td>Colmatage fissure (par mètre linéaire)</td><td>à partir de 55 euros/ml</td></tr>
+            <tr><td>Réfection localisée (enrobé)</td><td>à partir de 40 euros/m2</td></tr>
+            <tr><td>Reprise de drainage (caniveaux)</td><td>à partir de 1 400 euros</td></tr>
+            <tr><td><strong>Budget type (10 nids de poule + fissures)</strong></td><td><strong>à partir de 2 000 euros</strong></td></tr>
           </tbody>
         </table>
       </div>
@@ -189,10 +189,10 @@ export default function Content() {
             </tr>
           </thead>
           <tbody>
-            <tr><td>Panneau standard (fourniture + pose + scellement)</td><td>150 - 350 euros/unité</td></tr>
-            <tr><td>Panneau PMR B6d</td><td>200 - 400 euros/unité</td></tr>
-            <tr><td>Mât de panneau (si remplacement nécessaire)</td><td>100 - 250 euros/unité</td></tr>
-            <tr><td><strong>Budget type (5-8 panneaux)</strong></td><td><strong>750 - 2 500 euros</strong></td></tr>
+            <tr><td>Panneau standard (fourniture + pose + scellement)</td><td>à partir de 250 euros/unité</td></tr>
+            <tr><td>Panneau PMR B6d</td><td>à partir de 280 euros/unité</td></tr>
+            <tr><td>Mât de panneau (si remplacement nécessaire)</td><td>à partir de 170 euros/unité</td></tr>
+            <tr><td><strong>Budget type (5-8 panneaux)</strong></td><td><strong>à partir de 1 500 euros</strong></td></tr>
           </tbody>
         </table>
       </div>
@@ -207,11 +207,11 @@ export default function Content() {
             </tr>
           </thead>
           <tbody>
-            <tr><td>Butée de parking (caoutchouc)</td><td>50 - 100 euros/unité</td></tr>
-            <tr><td>Ralentisseur (par élément)</td><td>80 - 200 euros/unité</td></tr>
-            <tr><td>Borne fixe</td><td>150 - 400 euros/unité</td></tr>
-            <tr><td>Borne anti-bélier</td><td>300 - 800 euros/unité</td></tr>
-            <tr><td><strong>Budget type (remplacement partiel)</strong></td><td><strong>500 - 2 000 euros</strong></td></tr>
+            <tr><td>Butée de parking (caoutchouc)</td><td>à partir de 70 euros/unité</td></tr>
+            <tr><td>Ralentisseur (par élément)</td><td>à partir de 140 euros/unité</td></tr>
+            <tr><td>Borne fixe</td><td>à partir de 280 euros/unité</td></tr>
+            <tr><td>Borne anti-bélier</td><td>à partir de 500 euros/unité</td></tr>
+            <tr><td><strong>Budget type (remplacement partiel)</strong></td><td><strong>à partir de 1 400 euros</strong></td></tr>
           </tbody>
         </table>
       </div>
@@ -226,16 +226,16 @@ export default function Content() {
             </tr>
           </thead>
           <tbody>
-            <tr><td>Légère (retraçage seul)</td><td>1 500 - 3 500 euros</td></tr>
-            <tr><td>Moyenne (retraçage + nids de poule + quelques panneaux)</td><td>3 000 - 7 000 euros</td></tr>
-            <tr><td>Complète (tous postes)</td><td>5 000 - 12 000 euros</td></tr>
-            <tr><td>Lourde (avec réfection chaussée)</td><td>10 000 - 25 000 euros</td></tr>
+            <tr><td>Légère (retraçage seul)</td><td>à partir de 2 500 euros</td></tr>
+            <tr><td>Moyenne (retraçage + nids de poule + quelques panneaux)</td><td>à partir de 5 000 euros</td></tr>
+            <tr><td>Complète (tous postes)</td><td>à partir de 8 000 euros</td></tr>
+            <tr><td>Lourde (avec réfection chaussée)</td><td>à partir de 15 000 euros</td></tr>
           </tbody>
         </table>
       </div>
 
       <p>
-        Philippe, directeur de 3 restaurants rapides en Isère (38), avait besoin de rénover les parkings de ses 3 sites (35, 45 et 60 places). Plutôt que de traiter chaque site séparément, il nous a demandé un devis groupé. La mutualisation du déplacement et la planification sur 2 semaines ont permis de réduire le budget total de 15 %. Le coût final : 14 200 euros HT pour les 3 sites (retraçage complet + 18 nids de poule + 9 panneaux + 6 ralentisseurs), soit une économie de 2 500 euros par rapport à 3 devis séparés.
+        Philippe, directeur de 3 restaurants rapides en Isère (38), avait besoin de rénover les parkings de ses 3 sites (35, 45 et 60 places). Plutôt que de traiter chaque site séparément, il nous a demandé un devis groupé. La mutualisation du déplacement et la planification sur 2 semaines ont permis de réduire le budget total d'environ 15 %. Le regroupement des 3 sites (retraçage complet + 18 nids de poule + 9 panneaux + 6 ralentisseurs) a généré une économie significative par rapport à 3 devis séparés.
       </p>
       <p>
         Pour un chiffrage adapté à votre situation, <Link href="/devis">demandez un devis gratuit</Link>. Nous répondons sous 24h avec un chiffrage détaillé par poste.
@@ -317,12 +317,12 @@ export default function Content() {
 
       <h3>Erreur 2 : Choisir le prestataire le moins cher</h3>
       <p>
-        Un devis à 800 euros pour un retraçage de 50 places doit vous alerter. Soit la peinture n'est pas certifiée NF EN 1436 (durée de vie divisée par 2), soit la préparation du support est inexistante (adhérence médiocre), soit les dimensions des places ne seront pas conformes.
+        Un devis anormalement bas pour un retraçage de 50 places doit vous alerter. Soit la peinture n'est pas certifiée NF EN 1436 (durée de vie divisée par 2), soit la préparation du support est inexistante (adhérence médiocre), soit les dimensions des places ne seront pas conformes.
       </p>
 
       <h3>Erreur 3 : Oublier les places PMR</h3>
       <p>
-        Beaucoup de gestionnaires font retracer leur parking sans vérifier le nombre et les dimensions des places PMR. C'est l'occasion idéale de se mettre en conformité, pour un surcoût minime (200 à 400 euros par place PMR).
+        Beaucoup de gestionnaires font retracer leur parking sans vérifier le nombre et les dimensions des places PMR. C'est l'occasion idéale de se mettre en conformité, pour un surcoût minime (à partir de 280 euros par place PMR).
       </p>
 
       <h3>Erreur 4 : Ne pas informer les usagers</h3>
@@ -364,14 +364,14 @@ export default function Content() {
 
       <h2>Votre parking mérite mieux que le statu quo</h2>
       <p>
-        Un parking bien rénové, c'est un investissement qui se rentabilise en sécurité, en image et en tranquillité. Le coût d'une rénovation complète (5 000 à 12 000 euros pour un parking moyen) est dérisoire comparé au risque juridique d'un seul accident, à la perte de clients due à un parking répulsif, ou à l'amende pour non-conformité PMR.
+        Un parking bien rénové, c'est un investissement qui se rentabilise en sécurité, en image et en tranquillité. Le coût d'une rénovation complète (à partir de 8 000 euros pour un parking moyen) est dérisoire comparé au risque juridique d'un seul accident, à la perte de clients due à un parking répulsif, ou à l'amende pour non-conformité PMR.
       </p>
 
       <p><strong>Ce qu'il faut retenir :</strong></p>
       <ul>
         <li><strong>Inspectez les 6 postes</strong> : marquages, chaussée, signalisation, équipements, éclairage, drainage</li>
         <li><strong>Priorisez par urgence</strong> : nids de poule et PMR d'abord, retraçage ensuite, équipements en dernier</li>
-        <li><strong>Budgétez par poste</strong> : de 1 500 euros (retraçage seul) à 12 000 euros (rénovation complète)</li>
+        <li><strong>Budgétez par poste</strong> : à partir de 2 500 euros (retraçage seul) selon la taille et l'état du parking</li>
         <li><strong>Planifiez par zone</strong> : 2 à 4 jours pour un parking de 50 places, sans fermer le parking</li>
         <li><strong>N'attendez pas</strong> : chaque mois de retard augmente le budget</li>
       </ul>

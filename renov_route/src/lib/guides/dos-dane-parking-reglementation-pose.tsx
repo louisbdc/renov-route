@@ -19,7 +19,7 @@ export default function Content() {
         Un dos d&apos;ane dans un parking, ca ne se pose pas au hasard. Trop haut, il endommage les vehicules. Trop bas, personne ne ralentit. Mal signale, il provoque des accidents au lieu de les prevenir. La reglementation impose des dimensions precises, et un parking prive n&apos;est pas exempt de regles.
       </p>
       <p>
-        Antoine, directeur d&apos;un centre medical a Caluire-et-Cuire (69), a installe deux dos d&apos;ane dans son parking de 60 places apres un accident : un vehicule roulant a 30 km/h avait renverse un patient qui traversait le parking en fauteuil roulant. Fracture du poignet, arret de travail, mise en cause de la responsabilite du centre. Cout des deux dos d&apos;ane poses et signales : 1 800 euros. Depuis l&apos;installation, la vitesse moyenne dans le parking est passee de 25 km/h a 10 km/h. Zero incident en deux ans.
+        Antoine, directeur d&apos;un centre medical a Caluire-et-Cuire (69), a installe deux dos d&apos;ane dans son parking de 60 places apres un accident : un vehicule roulant a 30 km/h avait renverse un patient qui traversait le parking en fauteuil roulant. Fracture du poignet, arret de travail, mise en cause de la responsabilite du centre. L&apos;installation des deux dos d&apos;ane poses et signales a represente un investissement de quelques milliers d&apos;euros. Depuis l&apos;installation, la vitesse moyenne dans le parking est passee de 25 km/h a 10 km/h. Zero incident en deux ans.
       </p>
       <p>
         Dos d&apos;ane, ralentisseur, coussin berlinois : les termes sont souvent confondus. Ce guide clarifie les differences, detaille les normes applicables et explique les regles de pose pour un parking prive.
@@ -172,7 +172,7 @@ export default function Content() {
         <li>Esthetique industrielle</li>
       </ul>
       <p>
-        <strong>Prix :</strong> 200 a 500 euros par dos d&apos;ane (fourniture), 400 a 900 euros pose incluse.
+        <strong>Prix :</strong> a partir de 350 euros par dos d&apos;ane (fourniture), a partir de 600 euros pose incluse.
       </p>
 
       <h3>Dos d&apos;ane en enrobe (permanent)</h3>
@@ -193,7 +193,7 @@ export default function Content() {
         <li>Prix plus eleve</li>
       </ul>
       <p>
-        <strong>Prix :</strong> 800 a 2 000 euros par dos d&apos;ane, pose incluse.
+        <strong>Prix :</strong> a partir de 1 400 euros par dos d&apos;ane, pose incluse.
       </p>
 
       <h3>Coussin ralentisseur (profil bas)</h3>
@@ -212,7 +212,7 @@ export default function Content() {
         <li>Contournable si la voie est large</li>
       </ul>
       <p>
-        <strong>Prix :</strong> 150 a 400 euros par unite, pose incluse.
+        <strong>Prix :</strong> a partir de 280 euros par unite, pose incluse.
       </p>
       <p>
         Pour la fourniture et la pose de{' '}
@@ -235,20 +235,20 @@ export default function Content() {
           <tbody>
             <tr>
               <td>Coussin ralentisseur (profil bas)</td>
-              <td>80 a 200 euros</td>
-              <td>150 a 400 euros</td>
+              <td>a partir de 140 euros</td>
+              <td>a partir de 280 euros</td>
               <td>3-8 ans</td>
             </tr>
             <tr>
               <td>Dos d&apos;ane caoutchouc (modulaire)</td>
-              <td>200 a 500 euros</td>
-              <td>400 a 900 euros</td>
+              <td>a partir de 350 euros</td>
+              <td>a partir de 600 euros</td>
               <td>5-10 ans</td>
             </tr>
             <tr>
               <td>Dos d&apos;ane enrobe (permanent)</td>
               <td>-</td>
-              <td>800 a 2 000 euros</td>
+              <td>a partir de 1 400 euros</td>
               <td>15-25 ans</td>
             </tr>
           </tbody>
@@ -257,12 +257,12 @@ export default function Content() {
 
       <h3>Couts complementaires</h3>
       <ul>
-        <li><strong>Signalisation verticale</strong> : 50 a 150 euros par panneau (panneau de ralentisseur obligatoire)</li>
-        <li><strong>Marquage au sol</strong> : 100 a 300 euros (triangles de presignalisation peints au sol)</li>
-        <li><strong>Eclairage</strong> : 200 a 500 euros si le parking est mal eclaire dans la zone du dos d&apos;ane</li>
+        <li><strong>Signalisation verticale</strong> : a partir de 100 euros par panneau (panneau de ralentisseur obligatoire)</li>
+        <li><strong>Marquage au sol</strong> : a partir de 200 euros (triangles de presignalisation peints au sol)</li>
+        <li><strong>Eclairage</strong> : a partir de 350 euros si le parking est mal eclaire dans la zone du dos d&apos;ane</li>
       </ul>
       <p>
-        Fabienne, syndic d&apos;une copropriete de 80 logements a Venissieux (69), a fait poser trois dos d&apos;ane modulaires en caoutchouc dans le parking souterrain apres des plaintes repetees de residents. Les vehicules roulaient trop vite dans les allees. Devis retenu : 2 400 euros (3 dos d&apos;ane + signalisation + marquage). Reparti sur 80 lots : 30 euros par coproprietaire. En AG suivante, les plaintes pour vitesse excessive avaient disparu.
+        Fabienne, syndic d&apos;une copropriete de 80 logements a Venissieux (69), a fait poser trois dos d&apos;ane modulaires en caoutchouc dans le parking souterrain apres des plaintes repetees de residents. Les vehicules roulaient trop vite dans les allees. Le devis retenu pour les 3 dos d&apos;ane avec signalisation et marquage representait un investissement raisonnable, reparti sur 80 lots. En AG suivante, les plaintes pour vitesse excessive avaient disparu.
       </p>
 
       <h2>Signalisation obligatoire</h2>
@@ -324,7 +324,7 @@ export default function Content() {
 
       <h3>Remplacement</h3>
       <p>
-        Un module de dos d&apos;ane en caoutchouc use ou endommage se remplace individuellement sans demonter l&apos;ensemble. Cout : 50 a 150 euros par module.
+        Un module de dos d&apos;ane en caoutchouc use ou endommage se remplace individuellement sans demonter l&apos;ensemble. Cout : a partir de 100 euros par module.
       </p>
 
       <h2>FAQ : dos d&apos;ane parking</h2>
@@ -346,7 +346,7 @@ export default function Content() {
 
       <h3>Combien coute un dos d&apos;ane pour parking ?</h3>
       <p>
-        Comptez 400 a 900 euros pose incluse pour un dos d&apos;ane modulaire en caoutchouc, et 800 a 2 000 euros pour un dos d&apos;ane en enrobe permanent. La signalisation (panneau + marquage) ajoute 150 a 450 euros.
+        Comptez a partir de 600 euros pose incluse pour un dos d&apos;ane modulaire en caoutchouc, et a partir de 1 400 euros pour un dos d&apos;ane en enrobe permanent. La signalisation (panneau + marquage) ajoute quelques centaines d&apos;euros supplementaires.
       </p>
 
       <h3>Faut-il un vote en AG pour installer un dos d&apos;ane en copropriete ?</h3>

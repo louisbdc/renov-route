@@ -60,46 +60,36 @@ export async function sendDevisEmail(formElement: HTMLFormElement): Promise<void
   
   // Extraire les données du formulaire
   const formData = new FormData(formElement);
-  
+
   // Transformer les données pour le template avec nettoyage
   const projectTypes = formData.getAll('projectType') as string[];
-  const contactMethods = formData.getAll('contactMethod') as string[];
-  
+
   const templateParams = {
-    // Informations personnelles
-    firstName: cleanValue(formData.get('firstName') as string),
-    lastName: cleanValue(formData.get('lastName') as string),
+    firstName: cleanValue(formData.get('name') as string),
+    lastName: '',
     email: cleanValue(formData.get('email') as string),
     phone: cleanValue(formData.get('phone') as string),
-    
-    // Informations entreprise
-    company: cleanValue(formData.get('company') as string),
-    siret: cleanValue(formData.get('siret') as string),
-    
-    // Adresse du projet
-    address: cleanValue(formData.get('address') as string),
-    city: cleanValue(formData.get('city') as string),
-    postalCode: cleanValue(formData.get('postalCode') as string),
-    region: 'France', // Valeur fixe
-    
-    // Type de projet
+
+    // Champs supprimés — envoyés vides pour compatibilité template
+    company: '',
+    siret: '',
+    address: '',
+    city: '',
+    postalCode: '',
+    region: 'France',
+
     projectType: projectTypes.length > 0 ? projectTypes.join(', ') : 'Non spécifié',
-    otherProjectType: cleanValue(formData.get('otherProjectType') as string),
-    
-    // Détails du projet
+    otherProjectType: '',
+
     description: cleanValue(formData.get('description') as string),
-    
-    // Préférences de contact
-    contactMethod: contactMethods.length > 0 ? contactMethods.join(', ') : 'Non spécifié',
-    bestTime: cleanValue(formData.get('bestTime') as string),
+
+    contactMethod: '',
+    bestTime: '',
   };
-  
-  // Vérification des valeurs critiques
-  if (!templateParams.firstName || !templateParams.lastName || !templateParams.email) {
-    throw new Error('Les champs obligatoires (prénom, nom, email) sont manquants');
+
+  if (!templateParams.firstName || !templateParams.email) {
+    throw new Error('Les champs obligatoires (nom, email) sont manquants');
   }
-  
-  console.log('Envoi EmailJS avec les paramètres:', templateParams);
-  
+
   await emailjs.send(serviceId, templateIdDevis, templateParams);
 }

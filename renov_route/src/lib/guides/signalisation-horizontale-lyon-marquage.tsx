@@ -3,15 +3,15 @@ import Link from 'next/link'
 
 export const meta: Guide = {
   slug: 'signalisation-horizontale-lyon-marquage',
-  title: 'Signalisation horizontale \u00e0 Lyon : marquage au sol pour parkings, voiries et sites industriels',
+  title: 'Signalisation horizontale à Lyon : marquage au sol pour parkings, voiries et sites industriels',
   metaTitle: 'Signalisation horizontale Lyon : marquage au sol pro',
   metaDescription:
-    'Signalisation horizontale \u00e0 Lyon : marquage au sol de parking, voirie et zone industrielle. Types de peinture, normes NF EN 1436 et prix au m\u00b2. Devis gratuit.',
+    'Signalisation horizontale à Lyon : marquage au sol de parking, voirie et zone industrielle. Types de peinture, normes NF EN 1436 et prix au m². Devis gratuit.',
   publishDate: '2026-03-04',
   category: 'marquage-parking',
   readingTime: 10,
   excerpt:
-    'Marquage au sol \u00e0 Lyon : types de produits (acrylique, thermoplastique, r\u00e9sine), sp\u00e9cificit\u00e9s climatiques lyonnaises, normes et prix au m\u00b2.',
+    'Marquage au sol à Lyon : types de produits (acrylique, thermoplastique, résine), spécificités climatiques lyonnaises, normes et prix au m².',
 }
 
 export default function Content() {
@@ -364,42 +364,42 @@ export default function Content() {
           <tbody>
             <tr>
               <td>Tra&ccedil;age de place de parking</td>
-              <td>8-15 euros/place</td>
+              <td>à partir de 10 euros/place</td>
               <td>Peinture acrylique NF EN 1436</td>
             </tr>
             <tr>
               <td>Num&eacute;ro de place (pochoir)</td>
-              <td>5-10 euros/place</td>
+              <td>à partir de 7 euros/place</td>
               <td>Peinture au pochoir</td>
             </tr>
             <tr>
               <td>Place PMR compl&egrave;te</td>
-              <td>300-600 euros/place</td>
+              <td>à partir de 400 euros/place</td>
               <td>Marquage sol + panneau + poteau</td>
             </tr>
             <tr>
               <td>Passage pi&eacute;ton (4-6 bandes)</td>
-              <td>80-150 euros</td>
+              <td>à partir de 100 euros</td>
               <td>Peinture ou thermoplastique</td>
             </tr>
             <tr>
               <td>Fl&egrave;che directionnelle</td>
-              <td>15-30 euros/fl&egrave;che</td>
+              <td>à partir de 20 euros/fl&egrave;che</td>
               <td>Pochoir standard</td>
             </tr>
             <tr>
               <td>Marquage thermoplastique</td>
-              <td>15-25 euros/m&sup2;</td>
+              <td>à partir de 17 euros/m&sup2;</td>
               <td>Passages pi&eacute;tons, lignes de stop</td>
             </tr>
             <tr>
               <td>Marquage r&eacute;sine &eacute;poxy</td>
-              <td>20-40 euros/m&sup2;</td>
+              <td>à partir de 25 euros/m&sup2;</td>
               <td>Entrep&ocirc;ts, zones de s&eacute;curit&eacute;</td>
             </tr>
             <tr>
               <td>Effacement de marquage</td>
-              <td>8-15 euros/m&sup2;</td>
+              <td>à partir de 10 euros/m&sup2;</td>
               <td>Grenaillage ou d&eacute;capage chimique</td>
             </tr>
           </tbody>
@@ -471,9 +471,9 @@ export default function Content() {
       </h3>
 
       <p>
-        De 8 &agrave; 15 euros/place pour un retra&ccedil;age standard. Un
-        parking de 60 places co&ucirc;te entre 500 et 900 euros. Ajoutez
-        300-600 euros par place PMR et 80-150 euros par passage
+        &Agrave; partir de 10 euros/place pour un retra&ccedil;age standard. Un
+        parking de 60 places co&ucirc;te à partir de 600 euros. Ajoutez
+        à partir de 400 euros par place PMR et à partir de 100 euros par passage
         pi&eacute;ton. Pour les{' '}
         <Link href="/guides/couleur-marquage-sol-parking">
           couleurs de marquage

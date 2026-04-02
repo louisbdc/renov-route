@@ -1,4 +1,5 @@
-import Script from 'next/script';
+'use client'
+
 import Image from 'next/image';
 
 interface Testimonial {
@@ -135,7 +136,7 @@ export default function SEOTestimonialCard({
               
               {showProject && testimonial.project && (
                 <div className="mb-3">
-                  <span className="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full">
+                  <span className="inline-block bg-amber-500/15 text-amber-400 text-xs px-2 py-1 rounded-full">
                     Projet: {testimonial.project}
                   </span>
                 </div>
@@ -220,8 +221,8 @@ export default function SEOTestimonialCard({
         </div>
       </div>
       
-      <Script
-        id="testimonial-card-structured-data"
+      <script
+       
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(structuredData)

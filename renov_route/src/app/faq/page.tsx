@@ -7,8 +7,6 @@ import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 import SafariAnimationFix from '@/components/SafariAnimationFix';
 import { MotionDiv } from '@/components/MotionWrapper';
 import Link from 'next/link';
-import Script from 'next/script';
-
 export default function FAQPage() {
   const faqs = [
     {
@@ -78,30 +76,28 @@ export default function FAQPage() {
     {
       question: "Comment obtenir un devis pour marquage au sol ?",
       answer: "Pour obtenir un devis, contactez-nous par téléphone au 07 86 81 96 92, par email à contact@renov-route.com, ou via notre formulaire en ligne. Nous vous poserons quelques questions sur votre projet (type de marquage, surface, localisation, délais) et proposerons une visite sur site gratuite pour évaluer précisément vos besoins. Le devis détaillé vous sera transmis sous 24-48h avec toutes les options possibles."
+    },
+    {
+      question: "Quelle est la limitation de vitesse sur un parking privé ?",
+      answer: "Sur un parking privé, il n'existe pas de limitation de vitesse réglementaire imposée par le Code de la route. Cependant, il est fortement recommandé de limiter la vitesse à 10 ou 20 km/h pour la sécurité des piétons. Le gestionnaire du parking peut fixer ses propres règles et les matérialiser par des panneaux de limitation de vitesse et un marquage au sol approprié (ralentisseurs, passages piétons, flèches directionnelles). Nous installons les panneaux et le marquage correspondant."
+    },
+    {
+      question: "Quelles sont les sanctions en cas de non-conformité d'un parking aux normes PMR ?",
+      answer: "Le non-respect des normes d'accessibilité PMR sur un parking expose à des sanctions financières pouvant atteindre 45 000 € pour une personne physique et 225 000 € pour une personne morale. En cas de récidive, une peine d'emprisonnement de 6 mois peut s'ajouter. Depuis 2026, les contrôles sont renforcés. Les obligations incluent : 2% de places PMR (minimum 1 place), largeur de 3,30 m, signalisation horizontale et verticale, et cheminement accessible. Nous réalisons la mise en conformité complète."
+    },
+    {
+      question: "Quelles sont les obligations de conformité accessibilité parking en 2026 ?",
+      answer: "En 2026, les parkings doivent respecter les normes d'accessibilité de l'arrêté du 20 avril 2017 modifié : au moins 2% de places PMR (3,30 m de large minimum), signalisation horizontale (marquage bleu, pictogramme) et verticale (panneau B6d), cheminement praticable jusqu'à l'entrée du bâtiment, et pente maximale de 5%. Les ERP (Établissements Recevant du Public) doivent être en conformité sous peine de sanctions administratives et pénales. Nous proposons un audit de conformité gratuit."
+    },
+    {
+      question: "Qu'est-ce que le retraçage de parking et quand est-il nécessaire ?",
+      answer: "Le retraçage (ou retraçage) de parking consiste à renouveler les marquages au sol effacés ou dégradés par le temps, le trafic et les intempéries. Il est nécessaire quand les lignes sont effacées à plus de 30-50%, quand les couleurs sont délavées, ou après des travaux de voirie. Le retraçage est plus économique qu'un marquage neuf car il réutilise souvent les tracés existants. Nous recommandons un retraçage tous les 2 à 5 ans selon le trafic et l'exposition."
     }
   ];
 
   return (
     <>
       <StructuredData type="faq" />
-      <Script
-        id="faqpage-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'FAQPage',
-            mainEntity: faqs.map((faq) => ({
-              '@type': 'Question',
-              name: faq.question,
-              acceptedAnswer: {
-                '@type': 'Answer',
-                text: faq.answer,
-              },
-            })),
-          }),
-        }}
-      />
       <BreadcrumbSchema items={[
         { name: "Accueil", url: "https://renov-route.com/" },
         { name: "FAQ", url: "https://renov-route.com/faq/" }
@@ -129,7 +125,7 @@ export default function FAQPage() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
               >
-                <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-5">
+                <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-5 font-display">
                   Questions Fréquentes
                 </h1>
                 <p className="text-lg sm:text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
@@ -139,7 +135,7 @@ export default function FAQPage() {
                 <div className="flex flex-col sm:flex-row gap-3 justify-center">
                   <Link
                     href="/devis"
-                    className="bg-sky-500 hover:bg-sky-400 text-white font-semibold px-7 py-3 rounded-lg transition-colors duration-200"
+                    className="bg-amber-500 hover:bg-amber-400 text-gray-900 font-semibold px-7 py-3 rounded-lg transition-colors duration-200"
                   >
                     Demander un devis
                   </Link>
@@ -180,7 +176,7 @@ export default function FAQPage() {
                 transition={{ duration: 0.5 }}
                 viewport={{ once: true }}
               >
-                <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4">
+                <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 font-display">
                   Vous avez d&apos;autres questions ?
                 </h2>
                 <p className="text-gray-400 mb-8">
@@ -190,7 +186,7 @@ export default function FAQPage() {
                 <div className="flex flex-col sm:flex-row gap-3 justify-center">
                   <Link
                     href="/devis"
-                    className="bg-sky-500 hover:bg-sky-400 text-white font-semibold px-7 py-3 rounded-lg transition-colors duration-200"
+                    className="bg-amber-500 hover:bg-amber-400 text-gray-900 font-semibold px-7 py-3 rounded-lg transition-colors duration-200"
                   >
                     Demander un Devis
                   </Link>

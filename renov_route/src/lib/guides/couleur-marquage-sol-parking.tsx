@@ -16,7 +16,7 @@ export default function Content() {
   return (
     <>
       <p>
-        Jaune pour les interdictions de stationner, blanc pour les places standard, bleu pour les zones à durée limitée. En apparence, c&apos;est simple. Pourtant, quand Isabelle, gestionnaire d&apos;un centre commercial à Vienne (38), a fait retracer son parking en 2024, elle a reçu un courrier de la commission d&apos;accessibilité trois semaines plus tard : les places PMR avaient été marquées en jaune au lieu de blanc, et les zébras d&apos;interdiction en blanc au lieu de jaune. Coût de l&apos;erreur : un second chantier, 4 200 euros de travaux supplémentaires.
+        Jaune pour les interdictions de stationner, blanc pour les places standard, bleu pour les zones à durée limitée. En apparence, c&apos;est simple. Pourtant, quand Isabelle, gestionnaire d&apos;un centre commercial à Vienne (38), a fait retracer son parking en 2024, elle a reçu un courrier de la commission d&apos;accessibilité trois semaines plus tard : les places PMR avaient été marquées en jaune au lieu de blanc, et les zébras d&apos;interdiction en blanc au lieu de jaune. Coût de l&apos;erreur : un second chantier complet et plusieurs milliers d&apos;euros de travaux supplémentaires.
       </p>
       <p>
         La couleur du marquage au sol de parking n&apos;est pas un choix esthétique. C&apos;est une obligation réglementaire encadrée par l&apos;Instruction Interministérielle sur la Signalisation Routière (IISR) et le Code de la route. Chaque couleur a une signification précise et une utilisation normée.

@@ -4,18 +4,25 @@ import { useState, useEffect, useCallback, useRef } from 'react'
 import Image from 'next/image'
 
 const MEDIA = [
-  { type: 'image' as const, src: '/assets/images/background_home_page.avif' },
-  { type: 'video' as const, src: '/Ligne_1.mp4' },
-  { type: 'image' as const, src: '/assets/images/realisations/avenieres-pmr-parcours_3.avif' },
-  { type: 'video' as const, src: '/Ligne_2.mp4' },
+  { type: 'image' as const, src: '/assets/images/background_home_page.avif', alt: 'Marquage au sol professionnel sur parking à Lyon - Rénov Route' },
+  { type: 'video' as const, src: '/Ligne_1.mp4', alt: '' },
+  { type: 'image' as const, src: '/assets/images/realisations/avenieres-pmr-parcours_3.avif', alt: 'Signalisation PMR et parcours piétons aux Avenières par Rénov Route' },
+  { type: 'video' as const, src: '/Ligne_2.mp4', alt: '' },
 ]
 
 const IMAGE_HOLD_MS = 5000
+const VIDEO_LOAD_TIMEOUT_MS = 8000
+
+function getVideoIndex(mediaIndex: number): number {
+  return MEDIA.slice(0, mediaIndex).filter(m => m.type === 'video').length
+}
 
 export default function HeroSection({ children }: { children: React.ReactNode }) {
   const [active, setActive] = useState(0)
   const [imageKey, setImageKey] = useState(0)
+  const [videoReady, setVideoReady] = useState<Record<number, boolean>>({})
   const videoRefs = useRef<(HTMLVideoElement | null)[]>([])
+  const fallbackImageRef = useRef(0)
 
   const goTo = useCallback((index: number) => {
     setActive(index)
@@ -26,23 +33,78 @@ export default function HeroSection({ children }: { children: React.ReactNode })
     goTo((active + 1) % MEDIA.length)
   }, [active, goTo])
 
-  // Auto-advance for image
+  // Track last active image as fallback for unloaded videos
+  useEffect(() => {
+    if (MEDIA[active].type === 'image') {
+      fallbackImageRef.current = active
+    }
+  }, [active])
+
+  // Auto-advance for image slides
   useEffect(() => {
     if (MEDIA[active].type !== 'image') return
     const timer = setTimeout(advance, IMAGE_HOLD_MS)
     return () => clearTimeout(timer)
   }, [active, advance])
 
-  // Play video when it becomes active
+  // Play video when it becomes active AND is ready
   useEffect(() => {
-    const item = MEDIA[active]
-    if (item.type !== 'video') return
-    const videoIndex = MEDIA.slice(0, active).filter(m => m.type === 'video').length
-    const video = videoRefs.current[videoIndex]
+    if (MEDIA[active].type !== 'video') return
+    const vi = getVideoIndex(active)
+    if (!videoReady[vi]) return
+    const video = videoRefs.current[vi]
     if (!video) return
     video.currentTime = 0
     video.play().catch(() => advance())
-  }, [active, advance])
+  }, [active, advance, videoReady])
+
+  // Skip video if it takes too long to load
+  useEffect(() => {
+    if (MEDIA[active].type !== 'video') return
+    const vi = getVideoIndex(active)
+    if (videoReady[vi]) return
+    const timeout = setTimeout(advance, VIDEO_LOAD_TIMEOUT_MS)
+    return () => clearTimeout(timeout)
+  }, [active, advance, videoReady])
+
+  // Preload only the next video when an image is showing
+  useEffect(() => {
+    if (MEDIA[active].type !== 'image') return
+    const nextIndex = (active + 1) % MEDIA.length
+    if (MEDIA[nextIndex].type !== 'video') return
+    const vi = getVideoIndex(nextIndex)
+    const video = videoRefs.current[vi]
+    if (video && !videoReady[vi]) {
+      video.load()
+    }
+  }, [active, videoReady])
+
+  // Check initial readyState for already-cached videos
+  useEffect(() => {
+    videoRefs.current.forEach((video, vi) => {
+      if (video && video.readyState >= 3) {
+        setVideoReady(prev => prev[vi] ? prev : { ...prev, [vi]: true })
+      }
+    })
+  }, [])
+
+  const handleVideoCanPlay = useCallback((vi: number) => {
+    setVideoReady(prev => prev[vi] ? prev : { ...prev, [vi]: true })
+  }, [])
+
+  const getSlideOpacity = useCallback((index: number): number => {
+    if (active === index) {
+      if (MEDIA[index].type === 'image') return 1
+      const vi = getVideoIndex(index)
+      return videoReady[vi] ? 1 : 0
+    }
+    // Keep fallback image visible while active video loads
+    if (index === fallbackImageRef.current && MEDIA[active].type === 'video') {
+      const vi = getVideoIndex(active)
+      return videoReady[vi] ? 0 : 1
+    }
+    return 0
+  }, [active, videoReady])
 
   let videoCounter = 0
 
@@ -57,21 +119,19 @@ export default function HeroSection({ children }: { children: React.ReactNode })
 
       {/* Media layers — smooth crossfade */}
       {MEDIA.map((item, i) => {
-        const isActive = active === i
-
         if (item.type === 'image') {
           return (
             <div
               key={item.src}
               className="absolute inset-0 transition-opacity duration-[1800ms] ease-in-out"
-              style={{ opacity: isActive ? 1 : 0 }}
+              style={{ opacity: getSlideOpacity(i) }}
             >
               <Image
                 key={imageKey}
                 src={item.src}
-                alt="Marquage au sol professionnel sur parking - Renov Route"
+                alt={item.alt}
                 fill
-                priority
+                priority={i === 0}
                 className="object-cover"
                 sizes="100vw"
                 style={{ animation: 'hero-ken-burns 5s ease-out forwards' }}
@@ -85,13 +145,15 @@ export default function HeroSection({ children }: { children: React.ReactNode })
           <div
             key={item.src}
             className="absolute inset-0 transition-opacity duration-[1800ms] ease-in-out"
-            style={{ opacity: isActive ? 1 : 0 }}
+            style={{ opacity: getSlideOpacity(i) }}
           >
             <video
               ref={el => { videoRefs.current[vi] = el }}
               src={item.src}
               muted
               playsInline
+              preload="none"
+              onCanPlayThrough={() => handleVideoCanPlay(vi)}
               onEnded={advance}
               className="absolute inset-0 w-full h-full object-cover"
             />

@@ -103,7 +103,7 @@ function RealisationsContent() {
             <div className="text-center mt-12">
               <button
                 onClick={handleLoadMore}
-                className="group relative bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 text-white font-semibold py-4 px-8 rounded-[1rem] transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:shadow-blue-500/25 backdrop-blur-sm border border-white/20 text-lg"
+                className="group relative bg-gradient-to-r from-amber-500 to-amber-400 hover:from-amber-600 hover:to-amber-500 text-white font-semibold py-4 px-8 rounded-[1rem] transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:shadow-amber-500/25 backdrop-blur-sm border border-white/20 text-lg"
               >
                 <span className="relative z-10 flex items-center">
                   Découvrir plus de projets
@@ -111,7 +111,7 @@ function RealisationsContent() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                   </svg>
                 </span>
-                <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-[1rem] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <div className="absolute inset-0 bg-gradient-to-r from-amber-600 to-amber-500 rounded-[1rem] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               </button>
             </div>
           )}
@@ -129,7 +129,7 @@ export default function ClientRealisationsContent() {
     <Suspense fallback={
       <div className="min-h-screen bg-gray-800 flex items-center justify-center">
         <div className="glassmorphism-card p-8 rounded-[2rem] border border-white/20 text-center">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-500 mx-auto mb-4" />
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-amber-500 mx-auto mb-4" />
           <p className="text-white text-lg">Chargement des réalisations...</p>
         </div>
       </div>

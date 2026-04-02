@@ -3,41 +3,38 @@ import Link from 'next/link'
 
 export const meta: Guide = {
   slug: 'bumper-supermarche-protection-frigo',
-  title: 'Bumper de supermarch\u00e9 : prot\u00e9ger vos meubles frigorifiques des chocs',
-  metaTitle: 'Bumper supermarch\u00e9 : protection frigo, types et pose',
+  title: 'Bumper de supermarché : protéger vos meubles frigorifiques des chocs',
+  metaTitle: 'Bumper supermarché : protection frigo, types et pose',
   metaDescription:
-    'Bumper de supermarch\u00e9 : barres de protection pour meubles frigorifiques. Types (inox, acier, caoutchouc), dimensions, pose et prix. Guide complet.',
+    'Bumper de supermarché : barres de protection pour meubles frigorifiques. Types (inox, acier, caoutchouc), dimensions, pose et prix. Guide complet.',
   publishDate: '2026-03-04',
   category: 'securite-parking',
   readingTime: 10,
   excerpt:
-    'Barres de protection pour meubles frigorifiques en supermarch\u00e9 : types (inox, acier galvanis\u00e9, PEHD), hauteur de pose, fixation et prix au m\u00e8tre lin\u00e9aire.',
+    'Barres de protection pour meubles frigorifiques en supermarché : types (inox, acier galvanisé, PEHD), hauteur de pose, fixation et prix au mètre linéaire.',
 }
 
 export default function Content() {
   return (
     <>
       <p>
-        Un meuble frigorifique de supermarch&eacute; co&ucirc;te entre 3 000 et
-        12 000 euros. Un chariot lanc&eacute; &agrave; pleine vitesse dans un
+        Un meuble frigorifique de supermarch&eacute; co&ucirc;te plusieurs milliers d&apos;euros. Un chariot lanc&eacute; &agrave; pleine vitesse dans un
         rayon par un client press&eacute;, un transpalette mal
         manoeuvr&eacute; par un employ&eacute; pendant le
         r&eacute;approvisionnement, un chariot-cage qui d&eacute;rape sur un
         sol humide : chaque impact fragilise le meuble, d&eacute;forme la
         carrosserie et peut endommager le circuit frigorifique. Le remplacement
-        d&apos;un compresseur de froid positif co&ucirc;te 1 500 &agrave;
-        3 000 euros. Celui d&apos;un meuble complet, 5 000 &agrave;
-        12 000 euros.
+        d&apos;un compresseur de froid positif co&ucirc;te plusieurs milliers d&apos;euros. Celui d&apos;un meuble complet, encore davantage.
       </p>
 
       <p>
         Arnaud, directeur d&apos;un Intermarch&eacute; de 2 500 m&sup2;
         &agrave; Meyzieu (69), a remplac&eacute; 3 meubles frigorifiques en
         2 ans &agrave; cause de chocs de chariots. Co&ucirc;t total :
-        24 000 euros. Apr&egrave;s l&apos;installation de 45 m&egrave;tres
+        plus de 20 000 euros. Apr&egrave;s l&apos;installation de 45 m&egrave;tres
         lin&eacute;aires de bumpers en acier galvanis&eacute; devant ses
         lin&eacute;aires froid, le co&ucirc;t des r&eacute;parations est
-        tomb&eacute; &agrave; z&eacute;ro. Investissement : 2 800 euros, pose
+        tomb&eacute; &agrave; z&eacute;ro. Investissement : quelques milliers d&apos;euros, pose
         comprise. Retour sur investissement : 3 mois.
       </p>
 
@@ -80,7 +77,7 @@ export default function Content() {
         </li>
         <li>
           <strong>Co&ucirc;t du contenu</strong> : un meuble de
-          surgel&eacute;s contient 2 000 &agrave; 5 000 euros de marchandise.
+          surgel&eacute;s contient plusieurs milliers d&apos;euros de marchandise.
           Une panne de 24h = perte s&egrave;che
         </li>
       </ul>
@@ -152,8 +149,8 @@ export default function Content() {
       </ul>
 
       <p>
-        <strong>Prix</strong> : 25-50 euros/m&egrave;tre lin&eacute;aire
-        (fourniture), 40-80 euros/m&egrave;tre lin&eacute;aire (pose comprise)
+        <strong>Prix</strong> : &agrave; partir de 35 euros/m&egrave;tre lin&eacute;aire
+        (fourniture), &agrave; partir de 55 euros/m&egrave;tre lin&eacute;aire (pose comprise)
       </p>
 
       <h3>Bumper tubulaire en inox</h3>
@@ -195,8 +192,8 @@ export default function Content() {
       </ul>
 
       <p>
-        <strong>Prix</strong> : 50-120 euros/m&egrave;tre lin&eacute;aire
-        (fourniture), 80-160 euros/m&egrave;tre lin&eacute;aire (pose comprise)
+        <strong>Prix</strong> : &agrave; partir de 85 euros/m&egrave;tre lin&eacute;aire
+        (fourniture), &agrave; partir de 115 euros/m&egrave;tre lin&eacute;aire (pose comprise)
       </p>
 
       <h3>Bumper en profil acier avec bande caoutchouc</h3>
@@ -240,8 +237,8 @@ export default function Content() {
       </ul>
 
       <p>
-        <strong>Prix</strong> : 40-80 euros/m&egrave;tre lin&eacute;aire
-        (fourniture), 60-110 euros/m&egrave;tre lin&eacute;aire (pose comprise)
+        <strong>Prix</strong> : &agrave; partir de 55 euros/m&egrave;tre lin&eacute;aire
+        (fourniture), &agrave; partir de 80 euros/m&egrave;tre lin&eacute;aire (pose comprise)
       </p>
 
       <h3>
@@ -282,8 +279,8 @@ export default function Content() {
       </ul>
 
       <p>
-        <strong>Prix</strong> : 20-40 euros/m&egrave;tre lin&eacute;aire
-        (fourniture), 35-60 euros/m&egrave;tre lin&eacute;aire (pose comprise)
+        <strong>Prix</strong> : &agrave; partir de 28 euros/m&egrave;tre lin&eacute;aire
+        (fourniture), &agrave; partir de 42 euros/m&egrave;tre lin&eacute;aire (pose comprise)
       </p>
 
       <h2>Dimensionnement et hauteur de pose</h2>
@@ -445,27 +442,27 @@ export default function Content() {
           <tbody>
             <tr>
               <td>Acier galvanis&eacute; tubulaire</td>
-              <td>25-50 euros/ml</td>
-              <td>15-30 euros/ml</td>
-              <td>40-80 euros/ml</td>
+              <td>&agrave; partir de 35 euros/ml</td>
+              <td>&agrave; partir de 20 euros/ml</td>
+              <td>&agrave; partir de 55 euros/ml</td>
             </tr>
             <tr>
               <td>Inox tubulaire</td>
-              <td>50-120 euros/ml</td>
-              <td>20-40 euros/ml</td>
-              <td>80-160 euros/ml</td>
+              <td>&agrave; partir de 85 euros/ml</td>
+              <td>&agrave; partir de 30 euros/ml</td>
+              <td>&agrave; partir de 115 euros/ml</td>
             </tr>
             <tr>
               <td>Acier + bande caoutchouc</td>
-              <td>40-80 euros/ml</td>
-              <td>20-30 euros/ml</td>
-              <td>60-110 euros/ml</td>
+              <td>&agrave; partir de 55 euros/ml</td>
+              <td>&agrave; partir de 25 euros/ml</td>
+              <td>&agrave; partir de 80 euros/ml</td>
             </tr>
             <tr>
               <td>PEHD</td>
-              <td>20-40 euros/ml</td>
-              <td>15-20 euros/ml</td>
-              <td>35-60 euros/ml</td>
+              <td>&agrave; partir de 28 euros/ml</td>
+              <td>&agrave; partir de 15 euros/ml</td>
+              <td>&agrave; partir de 42 euros/ml</td>
             </tr>
           </tbody>
         </table>
@@ -488,19 +485,19 @@ export default function Content() {
               <td>Superette (300-500 m&sup2;)</td>
               <td>15-25 ml</td>
               <td>Acier galvanis&eacute;</td>
-              <td>600-2 000 euros</td>
+              <td>&agrave; partir de 1 000 euros</td>
             </tr>
             <tr>
               <td>Supermarch&eacute; (1 000-2 500 m&sup2;)</td>
               <td>40-80 ml</td>
               <td>Acier galvanis&eacute;</td>
-              <td>1 600-6 400 euros</td>
+              <td>&agrave; partir de 3 000 euros</td>
             </tr>
             <tr>
               <td>Hypermarch&eacute; (5 000+ m&sup2;)</td>
               <td>100-200 ml</td>
               <td>Acier galva + inox (vitrine)</td>
-              <td>5 000-20 000 euros</td>
+              <td>&agrave; partir de 8 000 euros</td>
             </tr>
           </tbody>
         </table>
@@ -510,12 +507,11 @@ export default function Content() {
         Fabrice, responsable maintenance d&apos;un Leclerc de 4 500 m&sup2;
         &agrave; Saint-Priest (69), a &eacute;quip&eacute; 120 m&egrave;tres
         lin&eacute;aires de bumpers en acier galvanis&eacute; devant les
-        lin&eacute;aires froid et surgel&eacute;s. Budget total : 7 200 euros
-        (60 euros/ml pose comprise). En 18 mois, z&eacute;ro
+        lin&eacute;aires froid et surgel&eacute;s. Budget total : quelques milliers d&apos;euros
+        pose comprise. En 18 mois, z&eacute;ro
         r&eacute;paration de meuble frigorifique contre 4 interventions
-        l&apos;ann&eacute;e pr&eacute;c&eacute;dente (co&ucirc;t moyen :
-        2 200 euros/intervention). &Eacute;conomie annuelle estim&eacute;e :
-        5 600 euros.
+        l&apos;ann&eacute;e pr&eacute;c&eacute;dente. &Eacute;conomie annuelle estim&eacute;e :
+        plusieurs milliers d&apos;euros.
       </p>
 
       <h2>Entretien et remplacement</h2>
@@ -640,8 +636,8 @@ export default function Content() {
       </h2>
 
       <p>
-        Un bumper &agrave; 60 euros/m&egrave;tre lin&eacute;aire prot&egrave;ge
-        un meuble &agrave; 8 000 euros. Le calcul est simple. Chaque impact
+        Un bumper &agrave; quelques dizaines d&apos;euros par m&egrave;tre lin&eacute;aire prot&egrave;ge
+        un meuble &agrave; plusieurs milliers d&apos;euros. Le calcul est simple. Chaque impact
         absorb&eacute; par le bumper est une r&eacute;paration
         &eacute;vit&eacute;e et une panne de froid de moins.
       </p>

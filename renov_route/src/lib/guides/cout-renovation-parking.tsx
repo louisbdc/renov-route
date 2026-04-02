@@ -16,10 +16,10 @@ export default function Content() {
   return (
     <>
       <p>
-        Un parking de 50 places dont le marquage est effacé, la chaussée fissurée et la signalisation absente : faut-il prévoir 3 000 ou 30 000 euros pour le remettre en état ? L&apos;écart est énorme, et c&apos;est bien le problème. Sans grille tarifaire claire, impossible de budgétiser correctement.
+        Un parking de 50 places dont le marquage est effacé, la chaussée fissurée et la signalisation absente : faut-il prévoir quelques milliers d&apos;euros ou plusieurs dizaines de milliers d&apos;euros pour le remettre en état ? L&apos;écart est énorme, et c&apos;est bien le problème. Sans grille tarifaire claire, impossible de budgétiser correctement.
       </p>
       <p>
-        La réalité, c&apos;est que le coût de rénovation d&apos;un parking varie du simple au décuple selon les travaux nécessaires. Un retraçage seul coûte entre 8 et 15 euros/m². Une réfection complète de chaussée peut atteindre 80 euros/m². Entre les deux, chaque poste a son propre tarif.
+        La réalité, c&apos;est que le coût de rénovation d&apos;un parking varie du simple au décuple selon les travaux nécessaires. Un retraçage seul coûte à partir de 10 euros/m². Une réfection complète de chaussée peut dépasser 80 euros/m². Entre les deux, chaque poste a son propre tarif.
       </p>
       <p>
         Ce guide détaille les prix au m² par type de travaux, les budgets moyens selon la taille du parking et les facteurs qui font varier la facture. Nous avons condensé ici les données de plus de 1 000 projets réalisés depuis 2014 pour des enseignes comme Carrefour, Lidl et McDonald&apos;s. Vous repartirez avec un budget prévisionnel réaliste pour votre projet.
@@ -44,14 +44,14 @@ export default function Content() {
             </tr>
           </thead>
           <tbody>
-            <tr><td>Peinture acrylique standard</td><td>8 à 12 euros/m²</td><td>2-3 ans</td></tr>
-            <tr><td>Peinture thermoplastique</td><td>12 à 18 euros/m²</td><td>4-6 ans</td></tr>
-            <tr><td>Résine époxy (intérieur)</td><td>20 à 40 euros/m²</td><td>5-10 ans</td></tr>
+            <tr><td>Peinture acrylique standard</td><td>à partir de 8 euros/m²</td><td>2-3 ans</td></tr>
+            <tr><td>Peinture thermoplastique</td><td>à partir de 12 euros/m²</td><td>4-6 ans</td></tr>
+            <tr><td>Résine époxy (intérieur)</td><td>à partir de 25 euros/m²</td><td>5-10 ans</td></tr>
           </tbody>
         </table>
       </div>
       <p>
-        <strong>Prix par place de parking</strong> : comptez entre 15 et 35 euros par place pour un retraçage standard (lignes + numéro). Ajoutez 80 à 150 euros par place PMR (pictogramme + bande latérale).
+        <strong>Prix par place de parking</strong> : comptez à partir de 25 euros par place pour un retraçage standard (lignes + numéro). Ajoutez à partir de 100 euros par place PMR (pictogramme + bande latérale).
       </p>
       <p>
         Pour un détail complet des tarifs de marquage, consultez notre <Link href="/guides/prix-marquage-sol-parking">guide des prix du marquage au sol parking</Link>.
@@ -75,17 +75,17 @@ export default function Content() {
             </tr>
           </thead>
           <tbody>
-            <tr><td>Enrobé à froid (temporaire)</td><td>20 à 40 euros/m²</td><td>3-6 mois</td><td>1-2 heures</td></tr>
-            <tr><td>Enrobé à chaud (classique)</td><td>40 à 70 euros/m²</td><td>5-10 ans</td><td>24-48 heures</td></tr>
-            <tr><td>Résine polyuréthane (injection)</td><td>50 à 100 euros/unité</td><td>5-10 ans</td><td>2-4 heures</td></tr>
-            <tr><td>Réfection complète de chaussée</td><td>60 à 120 euros/m²</td><td>15-20 ans</td><td>3-7 jours</td></tr>
+            <tr><td>Enrobé à froid (temporaire)</td><td>à partir de 25 euros/m²</td><td>3-6 mois</td><td>1-2 heures</td></tr>
+            <tr><td>Enrobé à chaud (classique)</td><td>à partir de 45 euros/m²</td><td>5-10 ans</td><td>24-48 heures</td></tr>
+            <tr><td>Résine polyuréthane (injection)</td><td>à partir de 65 euros/unité</td><td>5-10 ans</td><td>2-4 heures</td></tr>
+            <tr><td>Réfection complète de chaussée</td><td>à partir de 80 euros/m²</td><td>15-20 ans</td><td>3-7 jours</td></tr>
           </tbody>
         </table>
       </div>
 
       <blockquote>
         <p>
-          Quand Éric, responsable technique d&apos;un centre commercial de 200 places à Villefranche-sur-Saône, a comparé les devis pour réparer 12 nids de poule, il a reçu trois propositions. L&apos;enrobé à froid : 800 euros, mais à refaire dans six mois. L&apos;enrobé à chaud : 3 200 euros, avec une fermeture de deux jours. La résine polyuréthane : 1 800 euros, praticable en deux heures. Il a choisi la résine. Deux ans plus tard, aucun nid de poule n&apos;est réapparu. Le rapport qualité-prix-durée était le meilleur.
+          Quand Éric, responsable technique d&apos;un centre commercial de 200 places à Villefranche-sur-Saône, a comparé les devis pour réparer 12 nids de poule, il a reçu trois propositions. L&apos;enrobé à froid : quelques centaines d&apos;euros, mais à refaire dans six mois. L&apos;enrobé à chaud : plusieurs milliers d&apos;euros, avec une fermeture de deux jours. La résine polyuréthane : un budget intermédiaire maîtrisé, praticable en deux heures. Il a choisi la résine. Deux ans plus tard, aucun nid de poule n&apos;est réapparu. Le rapport qualité-prix-durée était le meilleur.
         </p>
       </blockquote>
       <p>
@@ -105,11 +105,11 @@ export default function Content() {
             </tr>
           </thead>
           <tbody>
-            <tr><td>Panneau STOP sur poteau</td><td>150 à 300 euros</td></tr>
-            <tr><td>Panneau limitation de vitesse</td><td>120 à 250 euros</td></tr>
-            <tr><td>Panneau PMR (B6d)</td><td>120 à 250 euros</td></tr>
-            <tr><td>Panneau directionnel</td><td>100 à 200 euros</td></tr>
-            <tr><td>Miroir de sécurité</td><td>200 à 500 euros</td></tr>
+            <tr><td>Panneau STOP sur poteau</td><td>à partir de 200 euros</td></tr>
+            <tr><td>Panneau limitation de vitesse</td><td>à partir de 170 euros</td></tr>
+            <tr><td>Panneau PMR (B6d)</td><td>à partir de 170 euros</td></tr>
+            <tr><td>Panneau directionnel</td><td>à partir de 140 euros</td></tr>
+            <tr><td>Miroir de sécurité</td><td>à partir de 350 euros</td></tr>
           </tbody>
         </table>
       </div>
@@ -127,11 +127,11 @@ export default function Content() {
             </tr>
           </thead>
           <tbody>
-            <tr><td>Borne anti-bélier</td><td>300 à 800 euros/unité</td></tr>
-            <tr><td>Butée de parking</td><td>50 à 150 euros/unité</td></tr>
-            <tr><td>Ralentisseur (module 50 cm)</td><td>80 à 200 euros/module</td></tr>
-            <tr><td>Poteau de signalisation</td><td>100 à 300 euros/unité</td></tr>
-            <tr><td>Arceau anti-stationnement</td><td>80 à 200 euros/unité</td></tr>
+            <tr><td>Borne anti-bélier</td><td>à partir de 500 euros/unité</td></tr>
+            <tr><td>Butée de parking</td><td>à partir de 100 euros/unité</td></tr>
+            <tr><td>Ralentisseur (module 50 cm)</td><td>à partir de 140 euros/module</td></tr>
+            <tr><td>Poteau de signalisation</td><td>à partir de 200 euros/unité</td></tr>
+            <tr><td>Arceau anti-stationnement</td><td>à partir de 140 euros/unité</td></tr>
           </tbody>
         </table>
       </div>
@@ -152,10 +152,10 @@ export default function Content() {
             </tr>
           </thead>
           <tbody>
-            <tr><td>Marquage place PMR (traçage + pictogramme)</td><td>150 à 350 euros/place</td></tr>
-            <tr><td>Panneau B6d + pose</td><td>120 à 250 euros</td></tr>
-            <tr><td>Bande podotactile</td><td>40 à 80 euros/ml</td></tr>
-            <tr><td>Abaissement de trottoir</td><td>800 à 2 000 euros/unité</td></tr>
+            <tr><td>Marquage place PMR (traçage + pictogramme)</td><td>à partir de 250 euros/place</td></tr>
+            <tr><td>Panneau B6d + pose</td><td>à partir de 170 euros</td></tr>
+            <tr><td>Bande podotactile</td><td>à partir de 55 euros/ml</td></tr>
+            <tr><td>Abaissement de trottoir</td><td>à partir de 1 400 euros/unité</td></tr>
           </tbody>
         </table>
       </div>
@@ -176,9 +176,9 @@ export default function Content() {
             </tr>
           </thead>
           <tbody>
-            <tr><td>Nettoyage haute pression</td><td>2 à 5 euros/m²</td></tr>
-            <tr><td>Décapage de marquage existant</td><td>5 à 15 euros/m²</td></tr>
-            <tr><td>Grenaillage (préparation pour résine)</td><td>8 à 20 euros/m²</td></tr>
+            <tr><td>Nettoyage haute pression</td><td>à partir de 3 euros/m²</td></tr>
+            <tr><td>Décapage de marquage existant</td><td>à partir de 10 euros/m²</td></tr>
+            <tr><td>Grenaillage (préparation pour résine)</td><td>à partir de 14 euros/m²</td></tr>
           </tbody>
         </table>
       </div>
@@ -193,9 +193,9 @@ export default function Content() {
             </tr>
           </thead>
           <tbody>
-            <tr><td>Borne lumineuse basse</td><td>200 à 500 euros/unité</td></tr>
-            <tr><td>Projecteur LED sur mât</td><td>500 à 1 500 euros/unité</td></tr>
-            <tr><td>Relampage parking souterrain</td><td>3 à 8 euros/m²</td></tr>
+            <tr><td>Borne lumineuse basse</td><td>à partir de 350 euros/unité</td></tr>
+            <tr><td>Projecteur LED sur mât</td><td>à partir de 1 000 euros/unité</td></tr>
+            <tr><td>Relampage parking souterrain</td><td>à partir de 5 euros/m²</td></tr>
           </tbody>
         </table>
       </div>
@@ -215,10 +215,10 @@ export default function Content() {
             </tr>
           </thead>
           <tbody>
-            <tr><td>20-30 places</td><td>1 500 à 3 000 euros</td></tr>
-            <tr><td>50-80 places</td><td>3 000 à 6 000 euros</td></tr>
-            <tr><td>100-150 places</td><td>5 000 à 10 000 euros</td></tr>
-            <tr><td>200+ places</td><td>8 000 à 15 000 euros</td></tr>
+            <tr><td>20-30 places</td><td>à partir de 2 500 euros</td></tr>
+            <tr><td>50-80 places</td><td>à partir de 5 000 euros</td></tr>
+            <tr><td>100-150 places</td><td>à partir de 8 000 euros</td></tr>
+            <tr><td>200+ places</td><td>à partir de 12 000 euros</td></tr>
           </tbody>
         </table>
       </div>
@@ -233,10 +233,10 @@ export default function Content() {
             </tr>
           </thead>
           <tbody>
-            <tr><td>20-30 places</td><td>3 000 à 8 000 euros</td></tr>
-            <tr><td>50-80 places</td><td>6 000 à 15 000 euros</td></tr>
-            <tr><td>100-150 places</td><td>12 000 à 25 000 euros</td></tr>
-            <tr><td>200+ places</td><td>20 000 à 50 000 euros</td></tr>
+            <tr><td>20-30 places</td><td>à partir de 6 000 euros</td></tr>
+            <tr><td>50-80 places</td><td>à partir de 12 000 euros</td></tr>
+            <tr><td>100-150 places</td><td>à partir de 20 000 euros</td></tr>
+            <tr><td>200+ places</td><td>à partir de 35 000 euros</td></tr>
           </tbody>
         </table>
       </div>
@@ -251,9 +251,9 @@ export default function Content() {
             </tr>
           </thead>
           <tbody>
-            <tr><td>20-30 places</td><td>15 000 à 40 000 euros</td></tr>
-            <tr><td>50-80 places</td><td>30 000 à 80 000 euros</td></tr>
-            <tr><td>100-150 places</td><td>60 000 à 150 000 euros</td></tr>
+            <tr><td>20-30 places</td><td>à partir de 30 000 euros</td></tr>
+            <tr><td>50-80 places</td><td>à partir de 55 000 euros</td></tr>
+            <tr><td>100-150 places</td><td>à partir de 100 000 euros</td></tr>
             <tr><td>200+ places</td><td>Sur devis détaillé</td></tr>
           </tbody>
         </table>
@@ -261,7 +261,7 @@ export default function Content() {
 
       <blockquote>
         <p>
-          Carole, gestionnaire d&apos;une résidence de 60 places à Caluire-et-Cuire, devait présenter un budget de rénovation au conseil syndical. Elle a demandé trois devis. Le premier, une entreprise de BTP généraliste, proposait 22 000 euros pour &quot;refaire le parking&quot;. Le deuxième détaillait les postes : retraçage (3 800 euros), réparation de 6 nids de poule (1 200 euros), 2 panneaux (400 euros), 2 places PMR (500 euros). Total : 5 900 euros. Le troisième était similaire à 6 200 euros. Elle a présenté le devis détaillé en AG. Vote acquis à la majorité simple. Les travaux ont duré deux jours.
+          Carole, gestionnaire d&apos;une résidence de 60 places à Caluire-et-Cuire, devait présenter un budget de rénovation au conseil syndical. Elle a demandé trois devis. Le premier, une entreprise de BTP généraliste, proposait plus de 20 000 euros pour &quot;refaire le parking&quot;. Le deuxième détaillait les postes : retraçage, réparation de nids de poule, panneaux et places PMR, pour un budget maîtrisé de quelques milliers d&apos;euros. Le troisième était dans le même ordre de grandeur. Elle a présenté le devis détaillé en AG. Vote acquis à la majorité simple. Les travaux ont duré deux jours.
         </p>
       </blockquote>
       <p>
@@ -280,7 +280,7 @@ export default function Content() {
 
       <h3>2. Le type de peinture choisi</h3>
       <p>
-        La peinture acrylique standard coûte 8 à 12 euros/m², mais dure 2-3 ans. La peinture thermoplastique coûte 50 % de plus, mais dure deux fois plus longtemps. Sur 10 ans, la thermoplastique revient moins cher.
+        La peinture acrylique standard coûte à partir de 8 euros/m², mais dure 2-3 ans. La peinture thermoplastique coûte 50 % de plus, mais dure deux fois plus longtemps. Sur 10 ans, la thermoplastique revient moins cher.
       </p>
 
       <h3>3. La surface totale à traiter</h3>
@@ -327,12 +327,12 @@ export default function Content() {
 
       <h3>Comparer les devis : le vrai coût</h3>
       <p>
-        Ne comparez pas uniquement le prix total. Comparez le coût sur la durée de vie. Un marquage thermoplastique à 15 euros/m² qui dure 5 ans revient à 3 euros/m²/an. Un marquage acrylique à 10 euros/m² qui dure 2 ans revient à 5 euros/m²/an. La solution la moins chère à l&apos;achat n&apos;est pas toujours la moins chère à l&apos;usage.
+        Ne comparez pas uniquement le prix total. Comparez le coût sur la durée de vie. Un marquage thermoplastique plus coûteux à l&apos;achat mais qui dure 5 ans revient moins cher par an qu&apos;un marquage acrylique moins cher qui ne dure que 2 ans. La solution la moins chère à l&apos;achat n&apos;est pas toujours la moins chère à l&apos;usage.
       </p>
 
       <blockquote>
         <p>
-          Thomas, directeur d&apos;un hypermarché dans la Loire, a retenu le devis le moins cher pour le retraçage de son parking de 300 places : 6 500 euros en peinture acrylique standard. Dix-huit mois plus tard, les marquages étaient déjà effacés par endroits. Il a dû refaire le traçage pour 7 200 euros. Total sur 3 ans : 13 700 euros. S&apos;il avait choisi la peinture thermoplastique dès le départ (9 800 euros), il aurait économisé 3 900 euros et évité une fermeture supplémentaire.
+          Thomas, directeur d&apos;un hypermarché dans la Loire, a retenu le devis le moins cher pour le retraçage de son parking de 300 places en peinture acrylique standard. Dix-huit mois plus tard, les marquages étaient déjà effacés par endroits. Il a dû refaire le traçage une seconde fois. Le total sur 3 ans a largement dépassé ce qu&apos;aurait coûté une peinture thermoplastique dès le départ, sans compter la fermeture supplémentaire.
         </p>
       </blockquote>
       <p>
@@ -370,7 +370,7 @@ export default function Content() {
 
       <h3>Quel est le prix moyen d&apos;une rénovation de parking ?</h3>
       <p>
-        Pour une rénovation standard (retraçage + réparations ponctuelles + signalisation + PMR), comptez entre 60 et 120 euros par place de parking. Soit 3 000 à 6 000 euros pour un parking de 50 places. Les prix varient selon l&apos;état initial et les travaux nécessaires.
+        Pour une rénovation standard (retraçage + réparations ponctuelles + signalisation + PMR), comptez à partir de 80 euros par place de parking. Le budget dépend de l&apos;état initial et des travaux nécessaires.
       </p>
 
       <h3>Le coût de rénovation inclut-il la mise aux normes PMR ?</h3>
@@ -399,9 +399,9 @@ export default function Content() {
       </p>
       <p>Les ordres de grandeur à retenir :</p>
       <ul>
-        <li><strong>Rénovation légère</strong> (marquage seul) : 8 à 15 euros/m²</li>
-        <li><strong>Rénovation standard</strong> (marquage + réparation + signalisation) : 60 à 120 euros/place</li>
-        <li><strong>Rénovation lourde</strong> (réfection de chaussée) : 60 à 120 euros/m²</li>
+        <li><strong>Rénovation légère</strong> (marquage seul) : à partir de 10 euros/m²</li>
+        <li><strong>Rénovation standard</strong> (marquage + réparation + signalisation) : à partir de 80 euros/place</li>
+        <li><strong>Rénovation lourde</strong> (réfection de chaussée) : à partir de 80 euros/m²</li>
       </ul>
       <p>
         Le meilleur moyen d&apos;obtenir un budget précis reste le devis sur site. Un professionnel identifie les postes réellement nécessaires, élimine les travaux superflus et propose les matériaux adaptés à votre usage.

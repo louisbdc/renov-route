@@ -3,13 +3,13 @@ import Link from 'next/link'
 
 export const meta: Guide = {
   slug: 'resine-epoxy-ou-peinture-sol-comparatif',
-  title: 'R\u00e9sine \u00e9poxy ou peinture sol : que choisir pour votre parking ?',
-  metaTitle: 'R\u00e9sine \u00e9poxy ou peinture sol : que choisir ?',
-  metaDescription: 'R\u00e9sine \u00e9poxy ou peinture sol parking : comparatif prix, dur\u00e9e de vie, r\u00e9sistance et entretien. Le bon choix selon votre usage et votre budget.',
+  title: 'Résine époxy ou peinture sol : que choisir pour votre parking ?',
+  metaTitle: 'Résine époxy ou peinture sol : que choisir ?',
+  metaDescription: 'Résine époxy ou peinture sol parking : comparatif prix, durée de vie, résistance et entretien. Le bon choix selon votre usage et votre budget.',
   publishDate: '2026-03-04',
   category: 'marquage-parking',
   readingTime: 8,
-  excerpt: 'Comparatif complet peinture sol vs r\u00e9sine \u00e9poxy : prix, dur\u00e9e de vie, r\u00e9sistance chimique, pr\u00e9paration et co\u00fbt r\u00e9el sur 10 ans.',
+  excerpt: 'Comparatif complet peinture sol vs résine époxy : prix, durée de vie, résistance chimique, préparation et coût réel sur 10 ans.',
 }
 
 export default function Content() {
@@ -19,7 +19,7 @@ export default function Content() {
         Vous devez r&eacute;nover le sol de votre parking et on vous propose deux options : peinture de sol ou r&eacute;sine &eacute;poxy. L&apos;&eacute;cart de prix est important (du simple au triple), mais l&apos;&eacute;cart de performance aussi. Le mauvais choix peut vous co&ucirc;ter plus cher que le bon sur 5 ans.
       </p>
       <p>
-        Thomas, responsable d&apos;une concession automobile de 40 places &agrave; V&eacute;nissieux (69), a fait peindre son parking client avec une peinture acrylique en 2022. Co&ucirc;t : 12 euros/m&sup2; pose comprise, soit 9 600 euros pour 800 m&sup2;. En 18 mois, la peinture se d&eacute;collait sous les gouttes d&apos;huile et les traces de pneus dans les zones de pr&eacute;sentation des v&eacute;hicules. La reprise en r&eacute;sine &eacute;poxy a co&ucirc;t&eacute; 35 euros/m&sup2;, soit 28 000 euros. S&apos;il avait choisi la r&eacute;sine d&egrave;s le d&eacute;part, le co&ucirc;t aurait &eacute;t&eacute; de 28 000 euros une seule fois au lieu de 37 600 euros au total.
+        Thomas, responsable d&apos;une concession automobile de 40 places &agrave; V&eacute;nissieux (69), a fait peindre son parking client avec une peinture acrylique en 2022. En 18 mois, la peinture se d&eacute;collait sous les gouttes d&apos;huile et les traces de pneus dans les zones de pr&eacute;sentation des v&eacute;hicules. La reprise en r&eacute;sine &eacute;poxy a repr&eacute;sent&eacute; un investissement bien plus cons&eacute;quent. S&apos;il avait choisi la r&eacute;sine d&egrave;s le d&eacute;part, il aurait &eacute;vit&eacute; de payer quasiment le double au total.
       </p>
       <p>
         Ce guide compare la peinture et la r&eacute;sine point par point pour vous aider &agrave; choisir le bon rev&ecirc;tement selon votre usage.
@@ -53,7 +53,7 @@ export default function Content() {
             <tr><td>R&eacute;sistance abrasion</td><td>Faible</td><td>Moyenne</td><td>Excellente</td></tr>
             <tr><td>R&eacute;sistance huile</td><td>Non</td><td>Partielle</td><td>Totale</td></tr>
             <tr><td>Pr&eacute;paration sol</td><td>Minimale</td><td>Nettoyage + pon&ccedil;age</td><td>Grenaillage obligatoire</td></tr>
-            <tr><td>Prix pose (m&sup2;)</td><td>5-12 euros</td><td>10-20 euros</td><td>25-50 euros</td></tr>
+            <tr><td>Prix pose (m&sup2;)</td><td>&agrave; partir de 8 euros</td><td>&agrave; partir de 14 euros</td><td>&agrave; partir de 35 euros</td></tr>
             <tr><td>Temps de s&eacute;chage</td><td>2-4h</td><td>12-24h</td><td>24-48h</td></tr>
             <tr><td>Application</td><td>Rouleau, airless</td><td>Rouleau, airless</td><td>Rouleau, raclette</td></tr>
             <tr><td>Aspect</td><td>Mat &agrave; satin</td><td>Satin</td><td>Brillant, lisse</td></tr>
@@ -100,16 +100,16 @@ export default function Content() {
             </tr>
           </thead>
           <tbody>
-            <tr><td>Prix pose</td><td>8 euros/m&sup2;</td><td>15 euros/m&sup2;</td><td>35 euros/m&sup2;</td></tr>
+            <tr><td>Prix pose</td><td>&agrave; partir de 8 euros/m&sup2;</td><td>&agrave; partir de 14 euros/m&sup2;</td><td>&agrave; partir de 35 euros/m&sup2;</td></tr>
             <tr><td>Dur&eacute;e de vie</td><td>3 ans</td><td>4 ans</td><td>12 ans</td></tr>
             <tr><td>Interventions sur 10 ans</td><td>3 poses + 1 retouche</td><td>2 poses + 1 retouche</td><td>1 pose</td></tr>
-            <tr><td>Co&ucirc;t total 10 ans</td><td>30 euros/m&sup2;</td><td>38 euros/m&sup2;</td><td>35 euros/m&sup2;</td></tr>
-            <tr><td>Co&ucirc;t/m&sup2;/an</td><td>3,00 euros</td><td>3,80 euros</td><td>3,50 euros</td></tr>
+            <tr><td>Co&ucirc;t total 10 ans</td><td>&agrave; partir de 30 euros/m&sup2;</td><td>&agrave; partir de 35 euros/m&sup2;</td><td>&agrave; partir de 35 euros/m&sup2;</td></tr>
+            <tr><td>Co&ucirc;t/m&sup2;/an</td><td>&agrave; partir de 3 euros</td><td>&agrave; partir de 3,50 euros</td><td>&agrave; partir de 3 euros</td></tr>
           </tbody>
         </table>
       </div>
       <p>
-        Coralie, gestionnaire d&apos;un parking de clinique de 80 places &agrave; &Eacute;cully (69), a compar&eacute; les deux options sur 10 ans. La peinture acrylique revenait &agrave; 24 000 euros (3 applications &agrave; 8 000 euros). La r&eacute;sine &eacute;poxy &agrave; 28 000 euros (1 seule application). &Eacute;cart : 4 000 euros sur 10 ans. Elle a choisi la r&eacute;sine pour &eacute;viter les 2 p&eacute;riodes de fermeture suppl&eacute;mentaires (chaque retra&ccedil;age = 3 jours d&apos;acc&egrave;s r&eacute;duit = perte de chiffre d&apos;affaires pour la clinique).
+        Coralie, gestionnaire d&apos;un parking de clinique de 80 places &agrave; &Eacute;cully (69), a compar&eacute; les deux options sur 10 ans. La peinture acrylique n&eacute;cessitait 3 applications successives, la r&eacute;sine &eacute;poxy une seule. Sur 10 ans, les budgets se rapprochaient. Elle a choisi la r&eacute;sine pour &eacute;viter les 2 p&eacute;riodes de fermeture suppl&eacute;mentaires (chaque retra&ccedil;age = 3 jours d&apos;acc&egrave;s r&eacute;duit = perte de chiffre d&apos;affaires pour la clinique).
       </p>
       <p>
         Pour les prix d&eacute;taill&eacute;s, consultez notre guide sur le <Link href="/guides/prix-marquage-sol-parking">prix du marquage sol parking</Link> et notre guide sur les <Link href="/guides/resine-sol-parking-prix-types">r&eacute;sines sol parking</Link>.
@@ -125,7 +125,7 @@ export default function Content() {
         <li>Pon&ccedil;age l&eacute;ger (disque diamant) optionnel</li>
         <li>Application directe ou avec primaire d&apos;accrochage</li>
       </ol>
-      <p>Co&ucirc;t pr&eacute;paration : 2-5 euros/m&sup2;. Dur&eacute;e : 1 jour.</p>
+      <p>Co&ucirc;t pr&eacute;paration : &agrave; partir de 3 euros/m&sup2;. Dur&eacute;e : 1 jour.</p>
 
       <h3>Pour la r&eacute;sine &eacute;poxy</h3>
       <p>La pr&eacute;paration pour la r&eacute;sine est plus exigeante :</p>
@@ -137,7 +137,7 @@ export default function Content() {
         <li>Contr&ocirc;le avant application</li>
       </ol>
       <p>
-        Co&ucirc;t pr&eacute;paration : 14-41 euros/m&sup2;. Dur&eacute;e : 2-3 jours. Pour les &eacute;tapes d&eacute;taill&eacute;es, consultez notre guide sur la <Link href="/guides/preparation-sol-avant-resine-epoxy">pr&eacute;paration de sol avant r&eacute;sine</Link>.
+        Co&ucirc;t pr&eacute;paration : &agrave; partir de 20 euros/m&sup2;. Dur&eacute;e : 2-3 jours. Pour les &eacute;tapes d&eacute;taill&eacute;es, consultez notre guide sur la <Link href="/guides/preparation-sol-avant-resine-epoxy">pr&eacute;paration de sol avant r&eacute;sine</Link>.
       </p>
       <p>
         La pr&eacute;paration repr&eacute;sente 40-50% du co&ucirc;t de la r&eacute;sine. C&apos;est aussi ce qui fait la diff&eacute;rence entre une r&eacute;sine qui tient 15 ans et une qui se d&eacute;colle en 12 mois.
@@ -175,7 +175,7 @@ export default function Content() {
 
       <h3>Quelle est la solution interm&eacute;diaire ?</h3>
       <p>
-        La peinture &eacute;poxy monocomposant. Elle co&ucirc;te 10-20 euros/m&sup2; (entre la peinture acrylique et la r&eacute;sine bicomposant), dure 3-5 ans et offre une r&eacute;sistance chimique moyenne. C&apos;est un bon compromis pour les parkings &agrave; trafic moyen sans agression chimique.
+        La peinture &eacute;poxy monocomposant. Elle se situe &agrave; un prix interm&eacute;diaire entre la peinture acrylique et la r&eacute;sine bicomposant, dure 3-5 ans et offre une r&eacute;sistance chimique moyenne. C&apos;est un bon compromis pour les parkings &agrave; trafic moyen sans agression chimique.
       </p>
 
       <h3>Faut-il rev&ecirc;tir tout le sol ou juste tracer les lignes ?</h3>

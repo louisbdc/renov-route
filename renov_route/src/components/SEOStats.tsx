@@ -1,4 +1,4 @@
-import Script from 'next/script';
+'use client'
 
 interface StatItem {
   label: string;
@@ -33,7 +33,7 @@ export default function SEOStats({
   const getColorClass = (color?: string) => {
     switch (color) {
       case 'blue':
-        return 'bg-blue-500 text-white';
+        return 'bg-amber-500 text-gray-900';
       case 'green':
         return 'bg-green-500 text-white';
       case 'yellow':
@@ -170,8 +170,8 @@ export default function SEOStats({
         </div>
       </div>
       
-      <Script
-        id="stats-structured-data"
+      <script
+       
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(structuredData)

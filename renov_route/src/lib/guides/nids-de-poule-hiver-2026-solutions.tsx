@@ -266,17 +266,17 @@ export default function Content() {
         <tbody>
           <tr>
             <td>1 à 3 petits (&lt; 30 cm)</td>
-            <td>200 à 500 €</td>
-            <td>500 à 1 200 €</td>
+            <td>&agrave; partir de 350 &euro;</td>
+            <td>&agrave; partir de 800 &euro;</td>
           </tr>
           <tr>
             <td>4 à 10 moyens (30-60 cm)</td>
-            <td>500 à 1 500 €</td>
-            <td>1 500 à 3 500 €</td>
+            <td>&agrave; partir de 1 000 &euro;</td>
+            <td>&agrave; partir de 2 500 &euro;</td>
           </tr>
           <tr>
             <td>Plus de 10 ou grands (&gt; 60 cm)</td>
-            <td>1 500 à 4 000 €</td>
+            <td>&agrave; partir de 2 500 &euro;</td>
             <td>Sur devis</td>
           </tr>
         </tbody>
@@ -285,8 +285,8 @@ export default function Content() {
       <p>
         <strong>Le calcul à 5 ans :</strong> un parking de copropriété avec 5 nids de
         poule moyens réparés à l&apos;enrobé à froid nécessitera environ 6 interventions
-        en 5 ans, soit un coût cumulé de 6 000 à 9 000 €. La même réparation en résine
-        polyuréthane coûte 2 000 à 3 500 € une seule fois.
+        en 5 ans, soit un co&ucirc;t cumul&eacute; de plusieurs milliers d&apos;euros. La m&ecirc;me r&eacute;paration en r&eacute;sine
+        polyur&eacute;thane co&ucirc;te bien moins cher sur la dur&eacute;e, en une seule intervention.
       </p>
 
       <p>

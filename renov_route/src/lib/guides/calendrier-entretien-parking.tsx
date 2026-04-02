@@ -65,13 +65,13 @@ export default function Content() {
           <tbody>
             <tr>
               <td>Maintenance préventive (planifiée)</td>
-              <td>3 000-5 000 euros</td>
+              <td>&agrave; partir de 3 500 euros</td>
               <td>2-3 jours/an</td>
               <td>Faibles</td>
             </tr>
             <tr>
               <td>Maintenance réactive (au cas par cas)</td>
-              <td>6 000-12 000 euros</td>
+              <td>&agrave; partir de 8 000 euros</td>
               <td>5-10 jours/an</td>
               <td>Élevés (accidents, amendes)</td>
             </tr>
@@ -549,27 +549,27 @@ export default function Content() {
           <tbody>
             <tr>
               <td>Marquage au sol (retouches + retraçage amorti)</td>
-              <td>1 500-2 500 euros</td>
+              <td>&agrave; partir de 1 800 euros</td>
               <td>35-40 %</td>
             </tr>
             <tr>
               <td>Réparation chaussée</td>
-              <td>800-1 500 euros</td>
+              <td>&agrave; partir de 1 000 euros</td>
               <td>20-25 %</td>
             </tr>
             <tr>
               <td>Signalisation et équipements</td>
-              <td>500-1 000 euros</td>
+              <td>&agrave; partir de 700 euros</td>
               <td>15-20 %</td>
             </tr>
             <tr>
               <td>Nettoyage et entretien courant</td>
-              <td>400-800 euros</td>
+              <td>&agrave; partir de 550 euros</td>
               <td>10-15 %</td>
             </tr>
             <tr>
               <td>Éclairage</td>
-              <td>300-500 euros</td>
+              <td>&agrave; partir de 350 euros</td>
               <td>5-10 %</td>
             </tr>
             <tr>
@@ -577,7 +577,7 @@ export default function Content() {
                 <strong>Total</strong>
               </td>
               <td>
-                <strong>3 500-6 300 euros</strong>
+                <strong>&agrave; partir de 4 500 euros</strong>
               </td>
               <td>
                 <strong>100 %</strong>
@@ -590,8 +590,7 @@ export default function Content() {
       <p>
         <strong>Astuce budget pour l'entretien parking annuel :</strong>{' '}
         amortissez le coût du retraçage complet sur la durée de vie de la
-        peinture. Un retraçage à 5 000 euros qui dure 3 ans représente
-        1 667 euros/an, pas 5 000 euros l'année du chantier. Cette approche
+        peinture. Un retra&ccedil;age de plusieurs milliers d'euros qui dure 3 ans se r&eacute;partit sur 3 exercices budg&eacute;taires. Cette approche
         lisse le budget et facilite l'approbation en assemblée générale pour les
         copropriétés.
       </p>

@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import { useState, useRef, useEffect, useCallback } from 'react';
+import { GoogleAnalytics } from '@/lib/analytics';
 
 interface BeforeAfterSliderProps {
   beforeImage: string;
@@ -23,9 +24,18 @@ export default function BeforeAfterSlider({
   const [sliderPosition, setSliderPosition] = useState(50);
   const [isDragging, setIsDragging] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
+  const hasTrackedInteraction = useRef(false);
+
+  const trackInteraction = () => {
+    if (!hasTrackedInteraction.current) {
+      hasTrackedInteraction.current = true;
+      GoogleAnalytics.getInstance().trackSliderInteraction(alt);
+    }
+  };
 
   const handleMouseDown = () => {
     setIsDragging(true);
+    trackInteraction();
   };
 
   const handleMouseUp = () => {
@@ -70,7 +80,7 @@ export default function BeforeAfterSlider({
         ref={containerRef}
         className="relative w-full h-80 cursor-ew-resize select-none"
         onMouseDown={handleMouseDown}
-        onTouchStart={() => setIsDragging(true)}
+        onTouchStart={() => { setIsDragging(true); trackInteraction(); }}
         onTouchEnd={() => setIsDragging(false)}
       >
         {/* Image de base (après) */}

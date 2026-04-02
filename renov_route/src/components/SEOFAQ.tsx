@@ -1,5 +1,5 @@
-import Script from 'next/script';
 import { useEffect } from 'react';
+import { GoogleAnalytics } from '@/lib/analytics';
 
 interface FAQItem {
   question: string;
@@ -32,7 +32,7 @@ export default function SEOFAQ({ faqs, className = "" }: SEOFAQProps) {
     details.forEach(detail => {
       detail.addEventListener('toggle', () => {
         const content = detail.querySelector('div:last-child') as HTMLElement;
-        
+
         if (detail.open) {
           // Animation d'ouverture
           if (content) {
@@ -44,6 +44,13 @@ export default function SEOFAQ({ faqs, className = "" }: SEOFAQProps) {
             content.style.maxHeight = '0px';
           }
         }
+
+        // FAQ toggle tracking
+        const question = detail.querySelector('h3')?.textContent || '';
+        GoogleAnalytics.getInstance().trackFaqToggle(
+          detail.open ? 'expand' : 'collapse',
+          question
+        );
       });
     });
   }, []);
@@ -60,7 +67,7 @@ export default function SEOFAQ({ faqs, className = "" }: SEOFAQProps) {
             >
               <summary className="cursor-pointer p-6 list-none">
                 <div className="flex items-center justify-between">
-                  <h3 className="text-xl font-semibold text-white leading-tight pr-4 group-hover:text-blue-200 transition-colors">
+                  <h3 className="text-xl font-semibold text-white leading-tight pr-4 group-hover:text-amber-200 transition-colors">
                     {faq.question}
                   </h3>
                   <div className="flex-shrink-0">
@@ -85,8 +92,8 @@ export default function SEOFAQ({ faqs, className = "" }: SEOFAQProps) {
         </div>
       </div>
       
-      <Script
-        id="faq-structured-data"
+      <script
+       
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(structuredData)

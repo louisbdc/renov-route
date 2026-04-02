@@ -3,13 +3,13 @@ import Link from 'next/link'
 
 export const meta: Guide = {
   slug: 'duree-vie-marquage-sol-parking',
-  title: 'Dur\u00e9e de vie du marquage au sol de parking : de 2 \u00e0 10 ans selon le produit',
+  title: 'Durée de vie du marquage au sol de parking : de 2 à 10 ans selon le produit',
   metaTitle: 'Duree de vie marquage au sol parking : facteurs et solutions',
-  metaDescription: 'Duree de vie du marquage au sol de parking : 2-10 ans selon le produit et le trafic. Facteurs d\u0027usure, comparatif peinture vs resine et conseils pour durer.',
+  metaDescription: 'Duree de vie du marquage au sol de parking : 2-10 ans selon le produit et le trafic. Facteurs d\'usure, comparatif peinture vs resine et conseils pour durer.',
   publishDate: '2026-03-04',
   category: 'marquage-parking',
   readingTime: 8,
-  excerpt: 'Dur\u00e9e de vie par type de produit (peinture, thermoplastique, r\u00e9sine), co\u00fbt par an d\u0027utilisation et 5 facteurs qui influencent la long\u00e9vit\u00e9 du marquage.',
+  excerpt: 'Durée de vie par type de produit (peinture, thermoplastique, résine), coût par an d\'utilisation et 5 facteurs qui influencent la longévité du marquage.',
 }
 
 export default function Content() {
@@ -19,7 +19,7 @@ export default function Content() {
         Un marquage au sol de parking, &ccedil;a dure combien de temps ? La r&eacute;ponse varie de 6 mois &agrave; 10 ans. Tout d&eacute;pend du produit utilis&eacute;, du trafic sur votre parking et des conditions climatiques. Un choix inadapt&eacute;, et vous retracez chaque ann&eacute;e. Un choix adapt&eacute;, et vous &ecirc;tes tranquille pendant 5 ans.
       </p>
       <p>
-        Guillaume, syndic d&apos;une copropri&eacute;t&eacute; de 70 lots &agrave; Villeurbanne (69), faisait retracer les 55 places de son parking tous les 18 mois. La peinture utilis&eacute;e (non certifi&eacute;e, classe P1-P3) s&apos;effa&ccedil;ait rapidement dans les zones de man&oelig;uvre. En 4 ans, 3 retra&ccedil;ages &agrave; 750 euros chacun : 2 250 euros. &Agrave; la 4e intervention, il a chang&eacute; de prestataire et de produit (<Link href="/guides/peinture-marquage-sol-parking">peinture certifi&eacute;e NF EN 1436 classe P5</Link>). Co&ucirc;t : 900 euros. R&eacute;sultat : le marquage tient depuis 3 ans et demi. &Eacute;conomie sur 5 ans : plus de 1 000 euros.
+        Guillaume, syndic d&apos;une copropri&eacute;t&eacute; de 70 lots &agrave; Villeurbanne (69), faisait retracer les 55 places de son parking tous les 18 mois. La peinture utilis&eacute;e (non certifi&eacute;e, classe P1-P3) s&apos;effa&ccedil;ait rapidement dans les zones de man&oelig;uvre. En 4 ans, 3 retra&ccedil;ages successifs ont repr&eacute;sent&eacute; un budget cons&eacute;quent. &Agrave; la 4e intervention, il a chang&eacute; de prestataire et de produit (<Link href="/guides/peinture-marquage-sol-parking">peinture certifi&eacute;e NF EN 1436 classe P5</Link>). R&eacute;sultat : le marquage tient depuis 3 ans et demi, pour un investissement initial l&eacute;g&egrave;rement sup&eacute;rieur mais largement rentabilis&eacute;.
       </p>
       <p>
         Ce guide compare la dur&eacute;e de vie des diff&eacute;rents produits de marquage et explique comment maximiser la long&eacute;vit&eacute; de votre investissement.
@@ -45,35 +45,35 @@ export default function Content() {
               <td>P1-P3</td>
               <td>1-2 ans</td>
               <td>6-12 mois</td>
-              <td>5-8 euros/m&sup2;</td>
+              <td>à partir de 5 euros/m&sup2;</td>
             </tr>
             <tr>
               <td>Peinture acrylique certifi&eacute;e</td>
               <td>P5</td>
               <td>3-5 ans</td>
               <td>1-2 ans</td>
-              <td>8-15 euros/m&sup2;</td>
+              <td>à partir de 10 euros/m&sup2;</td>
             </tr>
             <tr>
               <td>Thermoplastique (enduit &agrave; chaud)</td>
               <td>P6</td>
               <td>5-8 ans</td>
               <td>3-5 ans</td>
-              <td>15-25 euros/m&sup2;</td>
+              <td>à partir de 17 euros/m&sup2;</td>
             </tr>
             <tr>
               <td>R&eacute;sine &agrave; froid (MMA, &eacute;poxy)</td>
               <td>P7</td>
               <td>7-10 ans</td>
               <td>5-7 ans</td>
-              <td>20-40 euros/m&sup2;</td>
+              <td>à partir de 25 euros/m&sup2;</td>
             </tr>
             <tr>
               <td>Bande pr&eacute;form&eacute;e</td>
               <td>P7</td>
               <td>5-8 ans</td>
               <td>3-5 ans</td>
-              <td>25-45 euros/m&sup2;</td>
+              <td>à partir de 30 euros/m&sup2;</td>
             </tr>
           </tbody>
         </table>
@@ -99,27 +99,27 @@ export default function Content() {
           <tbody>
             <tr>
               <td>Peinture basique</td>
-              <td>7 euros/m&sup2;</td>
+              <td>à partir de 5 euros/m&sup2;</td>
               <td>1,5 an</td>
-              <td>4,70 euros/m&sup2;/an</td>
+              <td>élevé (retraçage fréquent)</td>
             </tr>
             <tr>
               <td>Peinture certifi&eacute;e P5</td>
-              <td>12 euros/m&sup2;</td>
+              <td>à partir de 10 euros/m&sup2;</td>
               <td>4 ans</td>
-              <td>3,00 euros/m&sup2;/an</td>
+              <td>mod&eacute;r&eacute; (meilleur rapport qualit&eacute;-prix)</td>
             </tr>
             <tr>
               <td>Thermoplastique P6</td>
-              <td>20 euros/m&sup2;</td>
+              <td>à partir de 17 euros/m&sup2;</td>
               <td>6 ans</td>
-              <td>3,30 euros/m&sup2;/an</td>
+              <td>mod&eacute;r&eacute;</td>
             </tr>
             <tr>
               <td>R&eacute;sine P7</td>
-              <td>30 euros/m&sup2;</td>
+              <td>à partir de 25 euros/m&sup2;</td>
               <td>8 ans</td>
-              <td>3,75 euros/m&sup2;/an</td>
+              <td>mod&eacute;r&eacute;</td>
             </tr>
           </tbody>
         </table>
@@ -222,7 +222,7 @@ export default function Content() {
         <li>Programmer des retouches ponctuelles sur les zones d&apos;usure avant que le marquage ne disparaisse compl&egrave;tement</li>
       </ul>
       <p>
-        Isabelle, gestionnaire d&apos;un parking de clinique de 120 places &agrave; &Eacute;cully (69), programme une retouche annuelle des 3 passages pi&eacute;tons et de l&apos;entr&eacute;e du parking (les zones les plus us&eacute;es). Co&ucirc;t : 200-300 euros/an. Le retra&ccedil;age complet n&apos;est n&eacute;cessaire que tous les 5-6 ans au lieu de 3-4 ans. &Eacute;conomie estim&eacute;e sur 10 ans : 2 000 euros.
+        Isabelle, gestionnaire d&apos;un parking de clinique de 120 places &agrave; &Eacute;cully (69), programme une retouche annuelle des 3 passages pi&eacute;tons et de l&apos;entr&eacute;e du parking (les zones les plus us&eacute;es). Ce budget annuel de retouche, tr&egrave;s mod&eacute;r&eacute;, permet d&apos;espacer le retra&ccedil;age complet tous les 5-6 ans au lieu de 3-4 ans. Sur 10 ans, l&apos;&eacute;conomie est significative.
       </p>
       <p>
         Pour planifier vos interventions, consultez notre <Link href="/guides/calendrier-entretien-parking">calendrier d&apos;entretien de parking</Link>.
@@ -242,7 +242,7 @@ export default function Content() {
 
       <h3>Le thermoplastique dure-t-il vraiment plus longtemps ?</h3>
       <p>
-        Oui, 2 &agrave; 3 fois plus longtemps que la peinture acrylique. Son &eacute;paisseur (1,5-3 mm vs 0,3-0,5 mm pour la peinture) explique cette diff&eacute;rence. Il est aussi plus r&eacute;sistant &agrave; l&apos;abrasion des pneus. Son co&ucirc;t plus &eacute;lev&eacute; (15-25 euros/m&sup2; vs 8-15 euros/m&sup2;) est compens&eacute; par une fr&eacute;quence de retra&ccedil;age divis&eacute;e par 2.
+        Oui, 2 &agrave; 3 fois plus longtemps que la peinture acrylique. Son &eacute;paisseur (1,5-3 mm vs 0,3-0,5 mm pour la peinture) explique cette diff&eacute;rence. Il est aussi plus r&eacute;sistant &agrave; l&apos;abrasion des pneus. Son co&ucirc;t plus &eacute;lev&eacute; &agrave; l&apos;achat est compens&eacute; par une fr&eacute;quence de retra&ccedil;age divis&eacute;e par 2.
       </p>
 
       <h2>Investir dans la dur&eacute;e, pas dans la r&eacute;p&eacute;tition</h2>

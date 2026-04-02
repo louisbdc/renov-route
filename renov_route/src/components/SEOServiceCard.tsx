@@ -1,4 +1,5 @@
-import Script from 'next/script';
+'use client'
+
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -65,13 +66,13 @@ export default function SEOServiceCard({
   const getCtaClass = () => {
     switch (service.cta?.type) {
       case 'primary':
-        return 'bg-blue-600 text-white hover:bg-blue-700';
+        return 'bg-amber-500 text-gray-900 hover:bg-amber-400';
       case 'secondary':
         return 'bg-gray-600 text-white hover:bg-gray-700';
       case 'outline':
-        return 'border border-blue-600 text-blue-600 hover:bg-blue-50';
+        return 'border border-amber-500 text-amber-400 hover:bg-amber-500/10';
       default:
-        return 'bg-blue-600 text-white hover:bg-blue-700';
+        return 'bg-amber-500 text-gray-900 hover:bg-amber-400';
     }
   };
 
@@ -124,7 +125,7 @@ export default function SEOServiceCard({
             <div className="flex items-start justify-between mb-4">
               <div className="flex items-center space-x-3">
                 {service.icon && (
-                  <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center text-xl">
+                  <div className="w-10 h-10 bg-amber-500/15 rounded-lg flex items-center justify-center text-xl">
                     {service.icon}
                   </div>
                 )}
@@ -133,7 +134,7 @@ export default function SEOServiceCard({
                     {service.name}
                   </h3>
                   {service.category && (
-                    <span className="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full mt-1">
+                    <span className="inline-block bg-amber-500/15 text-amber-400 text-xs px-2 py-1 rounded-full mt-1">
                       {service.category}
                     </span>
                   )}
@@ -176,7 +177,7 @@ export default function SEOServiceCard({
                 <ul className="space-y-1">
                   {service.features.map((feature, index) => (
                     <li key={index} className="flex items-center text-sm text-gray-600">
-                      <span className="w-1.5 h-1.5 bg-blue-500 rounded-full mr-2"></span>
+                      <span className="w-1.5 h-1.5 bg-amber-500 rounded-full mr-2"></span>
                       {feature}
                     </li>
                   ))}
@@ -246,7 +247,7 @@ export default function SEOServiceCard({
                   {service.tags.map((tag, index) => (
                     <span
                       key={index}
-                      className="inline-block bg-blue-100 text-blue-700 text-xs px-2 py-1 rounded-full"
+                      className="inline-block bg-amber-500/15 text-amber-400 text-xs px-2 py-1 rounded-full"
                     >
                       #{tag}
                     </span>
@@ -272,8 +273,8 @@ export default function SEOServiceCard({
         </div>
       </div>
       
-      <Script
-        id="service-card-structured-data"
+      <script
+       
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(structuredData)

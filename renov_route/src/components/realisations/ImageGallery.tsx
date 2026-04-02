@@ -5,6 +5,7 @@ import Image from 'next/image'
 import { AnimatePresence } from 'framer-motion'
 import { MotionDiv } from '@/components/MotionWrapper'
 import Lightbox from './Lightbox'
+import { GoogleAnalytics } from '@/lib/analytics'
 
 interface ImageGalleryProps {
   images: string[]
@@ -17,17 +18,24 @@ export default function ImageGallery({ images, title }: ImageGalleryProps) {
   const [showZoomIcon, setShowZoomIcon] = useState(true)
   const touchStartX = useRef<number | null>(null)
 
+  const ga = GoogleAnalytics.getInstance()
+
   if (!images || images.length === 0) return null
 
   const nextImage = () => {
-    setCurrentIndex((prev) => (prev + 1) % images.length)
+    const newIndex = (currentIndex + 1) % images.length
+    ga.trackLightboxNav(title, 'next', newIndex)
+    setCurrentIndex(newIndex)
   }
 
   const prevImage = () => {
-    setCurrentIndex((prev) => (prev - 1 + images.length) % images.length)
+    const newIndex = (currentIndex - 1 + images.length) % images.length
+    ga.trackLightboxNav(title, 'prev', newIndex)
+    setCurrentIndex(newIndex)
   }
 
   const goToImage = (index: number) => {
+    ga.trackLightboxNav(title, 'thumbnail', index)
     setCurrentIndex(index)
   }
 
@@ -49,7 +57,7 @@ export default function ImageGallery({ images, title }: ImageGalleryProps) {
       <>
         <div className="relative aspect-video rounded-lg overflow-hidden mx-2 my-4 group">
           <button
-            onClick={() => setIsLightboxOpen(true)}
+            onClick={() => { ga.trackLightboxOpen(title, 0); setIsLightboxOpen(true); }}
             className="absolute inset-0 w-full h-full focus-ring z-0"
             aria-label="Voir l'image en taille réelle"
           >
@@ -71,7 +79,7 @@ export default function ImageGallery({ images, title }: ImageGalleryProps) {
           images={images}
           currentIndex={0}
           isOpen={isLightboxOpen}
-          onClose={() => setIsLightboxOpen(false)}
+          onClose={() => { ga.trackLightboxClose(title, 0); setIsLightboxOpen(false); }}
           onNext={nextImage}
           onPrev={prevImage}
           onGoTo={goToImage}
@@ -90,7 +98,7 @@ export default function ImageGallery({ images, title }: ImageGalleryProps) {
         onTouchEnd={handleTouchEnd}
       >
         <button
-          onClick={() => setIsLightboxOpen(true)}
+          onClick={() => { ga.trackLightboxOpen(title, currentIndex); setIsLightboxOpen(true); }}
           className="absolute inset-0 w-full h-full focus-ring z-0"
           aria-label="Voir l'image en taille réelle"
         >
@@ -190,7 +198,7 @@ export default function ImageGallery({ images, title }: ImageGalleryProps) {
         images={images}
         currentIndex={currentIndex}
         isOpen={isLightboxOpen}
-        onClose={() => setIsLightboxOpen(false)}
+        onClose={() => { ga.trackLightboxClose(title, currentIndex); setIsLightboxOpen(false); }}
         onNext={nextImage}
         onPrev={prevImage}
         onGoTo={goToImage}

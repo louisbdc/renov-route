@@ -3,15 +3,15 @@ import Link from 'next/link'
 
 export const meta: Guide = {
   slug: 'reparation-chaussee-parking-methodes-prix',
-  title: 'R\u00e9paration de chauss\u00e9e en parking : m\u00e9thodes, prix et dur\u00e9e de vie',
-  metaTitle: 'R\u00e9paration chauss\u00e9e parking : m\u00e9thodes, prix et dur\u00e9e',
+  title: 'Réparation de chaussée en parking : méthodes, prix et durée de vie',
+  metaTitle: 'Réparation chaussée parking : méthodes, prix et durée',
   metaDescription:
-    'R\u00e9paration de chauss\u00e9e en parking priv\u00e9 : fissures, affaissements, nids de poule. M\u00e9thodes (enrob\u00e9, r\u00e9sine, patch), prix au m\u00b2 et d\u00e9lais. Guide complet.',
+    'Réparation de chaussée en parking privé : fissures, affaissements, nids de poule. Méthodes (enrobé, résine, patch), prix au m² et délais. Guide complet.',
   publishDate: '2026-03-04',
   category: 'renovation-parking',
   readingTime: 10,
   excerpt:
-    'Fissures, affaissements, nids de poule : les m\u00e9thodes de r\u00e9paration de chauss\u00e9e en parking, leur prix au m\u00b2 et leur dur\u00e9e de vie compar\u00e9e.',
+    'Fissures, affaissements, nids de poule : les méthodes de réparation de chaussée en parking, leur prix au m² et leur durée de vie comparée.',
 }
 
 export default function Content() {
@@ -34,10 +34,10 @@ export default function Content() {
         R&eacute;sultat : l&apos;eau s&apos;est infiltr&eacute;e sous
         l&apos;enrob&eacute;, a fragilis&eacute; la fondation, et la fissure
         est devenue un affaissement de 8 m&sup2;. Co&ucirc;t de la
-        r&eacute;paration initiale estim&eacute;e &agrave; 400 euros.
-        Co&ucirc;t r&eacute;el de la reprise 2 ans plus tard : 3 200 euros,
+        r&eacute;paration initiale estim&eacute;e &agrave; quelques centaines d&apos;euros.
+        Co&ucirc;t r&eacute;el de la reprise 2 ans plus tard : plusieurs milliers d&apos;euros,
         soit 8 fois plus. Sans compter le retra&ccedil;age des 6 places
-        touch&eacute;es (120 euros suppl&eacute;mentaires).
+        touch&eacute;es.
       </p>
 
       <p>
@@ -393,7 +393,7 @@ export default function Content() {
           d&apos;aggravation)
         </li>
         <li>
-          Co&ucirc;t faible (5-15 euros/m&egrave;tre lin&eacute;aire)
+          Co&ucirc;t faible (&agrave; partir de 10 euros/m&egrave;tre lin&eacute;aire)
         </li>
         <li>Intervention rapide</li>
       </ul>
@@ -432,19 +432,19 @@ export default function Content() {
           <tbody>
             <tr>
               <td>Enrob&eacute; &agrave; froid</td>
-              <td>15-30 euros/m&sup2;</td>
+              <td>&agrave; partir de 20 euros/m&sup2;</td>
               <td>6-18 mois</td>
               <td>Pas de minimum</td>
             </tr>
             <tr>
               <td>R&eacute;sine polyur&eacute;thane</td>
-              <td>50-120 euros/m&sup2;</td>
+              <td>&agrave; partir de 80 euros/m&sup2;</td>
               <td>5-10 ans</td>
               <td>0,1 m&sup2;</td>
             </tr>
             <tr>
               <td>Enrob&eacute; &agrave; chaud (r&eacute;paration)</td>
-              <td>40-80 euros/m&sup2;</td>
+              <td>&agrave; partir de 55 euros/m&sup2;</td>
               <td>10-15 ans</td>
               <td>5 m&sup2;</td>
             </tr>
@@ -452,13 +452,13 @@ export default function Content() {
               <td>
                 Enrob&eacute; &agrave; chaud (r&eacute;fection compl&egrave;te)
               </td>
-              <td>25-50 euros/m&sup2;</td>
+              <td>&agrave; partir de 35 euros/m&sup2;</td>
               <td>15-20 ans</td>
               <td>100 m&sup2;</td>
             </tr>
             <tr>
               <td>Pontage de fissures</td>
-              <td>5-15 euros/ml</td>
+              <td>&agrave; partir de 10 euros/ml</td>
               <td>3-5 ans</td>
               <td>1 ml</td>
             </tr>
@@ -483,25 +483,25 @@ export default function Content() {
               <td>3-5 nids de poule isol&eacute;s</td>
               <td>2-5 m&sup2;</td>
               <td>R&eacute;sine polyur&eacute;thane</td>
-              <td>300-600 euros</td>
+              <td>&agrave; partir de 400 euros</td>
             </tr>
             <tr>
               <td>Fa&iuml;en&ccedil;age localis&eacute; (1 zone)</td>
               <td>10-20 m&sup2;</td>
               <td>Enrob&eacute; &agrave; chaud (r&eacute;paration)</td>
-              <td>500-1 500 euros</td>
+              <td>&agrave; partir de 1 000 euros</td>
             </tr>
             <tr>
               <td>Fissures multiples</td>
               <td>50-100 ml</td>
               <td>Pontage</td>
-              <td>300-1 000 euros</td>
+              <td>&agrave; partir de 700 euros</td>
             </tr>
             <tr>
               <td>Voie de circulation d&eacute;grad&eacute;e</td>
               <td>50-100 m&sup2;</td>
               <td>Enrob&eacute; &agrave; chaud (r&eacute;paration)</td>
-              <td>2 500-6 000 euros</td>
+              <td>&agrave; partir de 4 000 euros</td>
             </tr>
             <tr>
               <td>R&eacute;fection compl&egrave;te petite surface</td>
@@ -509,7 +509,7 @@ export default function Content() {
               <td>
                 Enrob&eacute; &agrave; chaud (r&eacute;fection)
               </td>
-              <td>6 000-20 000 euros</td>
+              <td>&agrave; partir de 10 000 euros</td>
             </tr>
           </tbody>
         </table>
@@ -519,11 +519,11 @@ export default function Content() {
         Laurent, directeur d&apos;un h&ocirc;tel Ibis &agrave; Bron (69),
         devait r&eacute;parer 12 nids de poule et 2 zones d&apos;affaissement
         (15 m&sup2; au total) sur le parking de 80 places. Trois devis
-        re&ccedil;us : 1 800 euros en enrob&eacute; &agrave; froid (solution
-        provisoire), 4 200 euros en r&eacute;sine polyur&eacute;thane pour les
+        re&ccedil;us : un premier devis en enrob&eacute; &agrave; froid (solution
+        provisoire, le moins cher), un deuxi&egrave;me en r&eacute;sine polyur&eacute;thane pour les
         nids de poule + enrob&eacute; &agrave; chaud pour les affaissements
-        (solution mixte durable), 8 500 euros pour la r&eacute;fection
-        compl&egrave;te de la voie de circulation (45 m&sup2;). Il a choisi la
+        (solution mixte durable, budget interm&eacute;diaire), et un troisi&egrave;me pour la r&eacute;fection
+        compl&egrave;te de la voie de circulation (45 m&sup2;, le plus cher). Il a choisi la
         solution mixte. Trois ans plus tard, aucune reprise n&eacute;cessaire.
       </p>
 
@@ -599,10 +599,9 @@ export default function Content() {
       <h3>Le co&ucirc;t de la non-intervention</h3>
 
       <p>
-        Une fissure de 5 mm non trait&eacute;e co&ucirc;te 5 &agrave;
-        10 euros/ml &agrave; r&eacute;parer par pontage. En 2-3 ans,
+        Une fissure de 5 mm non trait&eacute;e co&ucirc;te &agrave; peine quelques euros par m&egrave;tre lin&eacute;aire &agrave; r&eacute;parer par pontage. En 2-3 ans,
         l&apos;eau s&apos;infiltre, fragilise la fondation, et la fissure
-        devient un affaissement qui co&ucirc;te 50 &agrave; 100 euros/m&sup2;
+        devient un affaissement qui co&ucirc;te plusieurs dizaines d&apos;euros par m&sup2;
         &agrave; r&eacute;parer. Le rapport est de 1 &agrave; 10 entre la
         r&eacute;paration pr&eacute;ventive et la r&eacute;paration curative.
       </p>
@@ -625,13 +624,13 @@ export default function Content() {
                 Inspection visuelle (relever fissures, d&eacute;formations)
               </td>
               <td>
-                Gratuit (ou diagnostic pro : 200-500 euros)
+                Gratuit (ou diagnostic pro : &agrave; partir de 350 euros)
               </td>
             </tr>
             <tr>
               <td>Annuel</td>
               <td>Pontage des fissures &gt; 3 mm</td>
-              <td>5-15 euros/ml</td>
+              <td>&agrave; partir de 10 euros/ml</td>
             </tr>
             <tr>
               <td>Tous les 3-5 ans</td>

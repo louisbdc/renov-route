@@ -3,13 +3,13 @@ import Link from 'next/link'
 
 export const meta: Guide = {
   slug: 'preparation-sol-avant-resine-epoxy',
-  title: 'Comment pr\u00e9parer un sol avant r\u00e9sine \u00e9poxy : les 6 \u00e9tapes',
-  metaTitle: 'Pr\u00e9paration sol avant r\u00e9sine \u00e9poxy : les 6 \u00e9tapes cl\u00e9s',
-  metaDescription: 'Pr\u00e9paration sol avant r\u00e9sine \u00e9poxy : diagnostic, grenaillage, r\u00e9paration fissures, primaire. 6 \u00e9tapes pour une adh\u00e9rence parfaite et un r\u00e9sultat durable.',
+  title: 'Comment préparer un sol avant résine époxy : les 6 étapes',
+  metaTitle: 'Préparation sol avant résine époxy : les 6 étapes clés',
+  metaDescription: 'Préparation sol avant résine époxy : diagnostic, grenaillage, réparation fissures, primaire. 6 étapes pour une adhérence parfaite et un résultat durable.',
   publishDate: '2026-03-04',
   category: 'marquage-parking',
   readingTime: 8,
-  excerpt: 'Les 6 \u00e9tapes de pr\u00e9paration d\u0027un sol b\u00e9ton avant application de r\u00e9sine \u00e9poxy : diagnostic, nettoyage, grenaillage, r\u00e9paration, primaire et contr\u00f4le.',
+  excerpt: 'Les 6 étapes de préparation d\'un sol béton avant application de résine époxy : diagnostic, nettoyage, grenaillage, réparation, primaire et contrôle.',
 }
 
 export default function Content() {
@@ -19,7 +19,7 @@ export default function Content() {
         La pr&eacute;paration du sol repr&eacute;sente 80% de la r&eacute;ussite d&apos;un rev&ecirc;tement en r&eacute;sine &eacute;poxy. Un sol bien pr&eacute;par&eacute; garantit une adh&eacute;rence optimale et une dur&eacute;e de vie de 10-15 ans. Un sol mal pr&eacute;par&eacute;, m&ecirc;me avec la meilleure r&eacute;sine du march&eacute;, se d&eacute;colle en 6-12 mois.
       </p>
       <p>
-        Patrick, responsable maintenance d&apos;un entrep&ocirc;t logistique de 2 000 m&sup2; &agrave; Saint-Priest (69), a fait appliquer une r&eacute;sine &eacute;poxy sur le sol en b&eacute;ton de son entrep&ocirc;t en 2023. Le prestataire a saut&eacute; l&apos;&eacute;tape du grenaillage pour gagner du temps et r&eacute;duire le devis de 3 000 euros. En 10 mois, la r&eacute;sine se d&eacute;collait par plaques sur 40% de la surface. La reprise (d&eacute;capage + grenaillage + nouvelle r&eacute;sine) a co&ucirc;t&eacute; 48 000 euros, le double du devis initial. Les 3 000 euros &eacute;conomis&eacute;s sur la pr&eacute;paration ont co&ucirc;t&eacute; 24 000 euros de plus.
+        Patrick, responsable maintenance d&apos;un entrep&ocirc;t logistique de 2 000 m&sup2; &agrave; Saint-Priest (69), a fait appliquer une r&eacute;sine &eacute;poxy sur le sol en b&eacute;ton de son entrep&ocirc;t en 2023. Le prestataire a saut&eacute; l&apos;&eacute;tape du grenaillage pour gagner du temps et r&eacute;duire le devis. En 10 mois, la r&eacute;sine se d&eacute;collait par plaques sur 40% de la surface. La reprise (d&eacute;capage + grenaillage + nouvelle r&eacute;sine) a co&ucirc;t&eacute; le double du devis initial. L&apos;&eacute;conomie r&eacute;alis&eacute;e sur la pr&eacute;paration a fini par co&ucirc;ter plusieurs fois son montant en travaux suppl&eacute;mentaires.
       </p>
       <p>
         Ce guide d&eacute;taille les 6 &eacute;tapes de pr&eacute;paration d&apos;un sol avant application de r&eacute;sine &eacute;poxy.
@@ -35,11 +35,11 @@ export default function Content() {
         Le taux d&apos;humidit&eacute; du b&eacute;ton doit &ecirc;tre inf&eacute;rieur &agrave; 4,5% pour la r&eacute;sine &eacute;poxy (6% pour le polyur&eacute;thane). Deux m&eacute;thodes de mesure :
       </p>
       <ul>
-        <li><strong>Bombe carbure</strong> (m&eacute;thode de r&eacute;f&eacute;rence) : &eacute;chantillon de b&eacute;ton broy&eacute; dans un r&eacute;cipient &eacute;tanche avec du carbure de calcium. La pression d&eacute;gag&eacute;e indique le taux d&apos;humidit&eacute;. Pr&eacute;cision : +/- 0,2%. Co&ucirc;t : 50-100 euros/test</li>
+        <li><strong>Bombe carbure</strong> (m&eacute;thode de r&eacute;f&eacute;rence) : &eacute;chantillon de b&eacute;ton broy&eacute; dans un r&eacute;cipient &eacute;tanche avec du carbure de calcium. La pression d&eacute;gag&eacute;e indique le taux d&apos;humidit&eacute;. Pr&eacute;cision : +/- 0,2%. Co&ucirc;t : accessible</li>
         <li><strong>Hygrom&egrave;tre &eacute;lectronique</strong> : sonde enfonc&eacute;e dans le b&eacute;ton. Moins pr&eacute;cis (+/- 1%) mais non destructif. Co&ucirc;t : mesure incluse dans le diagnostic</li>
       </ul>
       <p>
-        Si le taux d&apos;humidit&eacute; d&eacute;passe le seuil, deux options : attendre le s&eacute;chage naturel (plusieurs semaines) ou appliquer un primaire anti-humidit&eacute; (+8-15 euros/m&sup2;).
+        Si le taux d&apos;humidit&eacute; d&eacute;passe le seuil, deux options : attendre le s&eacute;chage naturel (plusieurs semaines) ou appliquer un primaire anti-humidit&eacute; (surcout &agrave; pr&eacute;voir).
       </p>
 
       <h3>Test de duret&eacute;</h3>
@@ -91,7 +91,7 @@ export default function Content() {
           <tbody>
             <tr><td>Profondeur de profil</td><td>0,5-1,5 mm (CSP 3-5)</td></tr>
             <tr><td>Rendement</td><td>100-300 m&sup2;/heure</td></tr>
-            <tr><td>Co&ucirc;t</td><td>5-10 euros/m&sup2;</td></tr>
+            <tr><td>Co&ucirc;t</td><td>&agrave; partir de 7 euros/m&sup2;</td></tr>
             <tr><td>Avantage</td><td>Propre (aspiration int&eacute;gr&eacute;e), rapide</td></tr>
           </tbody>
         </table>
@@ -112,7 +112,7 @@ export default function Content() {
           <tbody>
             <tr><td>Profondeur de profil</td><td>0,3-0,8 mm (CSP 2-3)</td></tr>
             <tr><td>Rendement</td><td>50-150 m&sup2;/heure</td></tr>
-            <tr><td>Co&ucirc;t</td><td>8-15 euros/m&sup2;</td></tr>
+            <tr><td>Co&ucirc;t</td><td>&agrave; partir de 10 euros/m&sup2;</td></tr>
             <tr><td>Avantage</td><td>Adapt&eacute; aux petites surfaces, coins</td></tr>
           </tbody>
         </table>
@@ -155,9 +155,9 @@ export default function Content() {
         Le primaire d&apos;accrochage est la couche de liaison entre le b&eacute;ton et la r&eacute;sine de finition :
       </p>
       <ul>
-        <li><strong>Primaire &eacute;poxy classique</strong> : pour les supports secs (&lt; 4,5% d&apos;humidit&eacute;). Co&ucirc;t : 3-6 euros/m&sup2;</li>
-        <li><strong>Primaire anti-humidit&eacute;</strong> (&eacute;poxy tol&eacute;rant l&apos;eau) : pour les supports humides ou les <Link href="/guides/resine-sol-parking-souterrain">parkings souterrains</Link>. Co&ucirc;t : 8-15 euros/m&sup2;</li>
-        <li><strong>Primaire de consolidation</strong> : pour les b&eacute;tons poreux ou friables. P&eacute;n&egrave;tre en profondeur et renforce la couche superficielle. Co&ucirc;t : 5-10 euros/m&sup2;</li>
+        <li><strong>Primaire &eacute;poxy classique</strong> : pour les supports secs (&lt; 4,5% d&apos;humidit&eacute;). Co&ucirc;t : &agrave; partir de 4 euros/m&sup2;</li>
+        <li><strong>Primaire anti-humidit&eacute;</strong> (&eacute;poxy tol&eacute;rant l&apos;eau) : pour les supports humides ou les <Link href="/guides/resine-sol-parking-souterrain">parkings souterrains</Link>. Co&ucirc;t : &agrave; partir de 10 euros/m&sup2;</li>
+        <li><strong>Primaire de consolidation</strong> : pour les b&eacute;tons poreux ou friables. P&eacute;n&egrave;tre en profondeur et renforce la couche superficielle. Co&ucirc;t : &agrave; partir de 7 euros/m&sup2;</li>
       </ul>
       <p>
         Le primaire doit &ecirc;tre appliqu&eacute; dans les 4 heures suivant le grenaillage pour &eacute;viter la re-contamination du support (poussi&egrave;re, humidit&eacute;). Consultez notre guide sur les <Link href="/guides/resine-sol-parking-prix-types">r&eacute;sines sol parking</Link> pour les syst&egrave;mes complets.
@@ -183,12 +183,12 @@ export default function Content() {
             </tr>
           </thead>
           <tbody>
-            <tr><td>Diagnostic (humidit&eacute;, duret&eacute;, adh&eacute;rence)</td><td>1-3 euros</td></tr>
-            <tr><td>Nettoyage/d&eacute;contamination</td><td>2-5 euros</td></tr>
-            <tr><td>Grenaillage</td><td>5-10 euros</td></tr>
-            <tr><td>R&eacute;paration fissures/d&eacute;fauts</td><td>3-8 euros</td></tr>
-            <tr><td>Primaire d&apos;accrochage</td><td>3-15 euros</td></tr>
-            <tr><td><strong>Total pr&eacute;paration</strong></td><td><strong>14-41 euros/m&sup2;</strong></td></tr>
+            <tr><td>Diagnostic (humidit&eacute;, duret&eacute;, adh&eacute;rence)</td><td>&agrave; partir de 2 euros</td></tr>
+            <tr><td>Nettoyage/d&eacute;contamination</td><td>&agrave; partir de 3 euros</td></tr>
+            <tr><td>Grenaillage</td><td>&agrave; partir de 7 euros</td></tr>
+            <tr><td>R&eacute;paration fissures/d&eacute;fauts</td><td>&agrave; partir de 5 euros</td></tr>
+            <tr><td>Primaire d&apos;accrochage</td><td>&agrave; partir de 4 euros</td></tr>
+            <tr><td><strong>Total pr&eacute;paration</strong></td><td><strong>&agrave; partir de 20 euros/m&sup2;</strong></td></tr>
           </tbody>
         </table>
       </div>

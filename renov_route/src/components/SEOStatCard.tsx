@@ -1,4 +1,4 @@
-import Script from 'next/script';
+'use client'
 
 interface StatItem {
   label: string;
@@ -29,7 +29,7 @@ export default function SEOStatCard({
   showTrend = true
 }: SEOStatCardProps) {
   const colorClasses = {
-    blue: 'bg-blue-500 text-white',
+    blue: 'bg-amber-500 text-gray-900',
     green: 'bg-green-500 text-white',
     yellow: 'bg-yellow-500 text-white',
     red: 'bg-red-500 text-white',
@@ -121,8 +121,8 @@ export default function SEOStatCard({
         </div>
       </div>
       
-      <Script
-        id="stat-card-structured-data"
+      <script
+       
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(structuredData)

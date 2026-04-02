@@ -34,7 +34,7 @@ export default function PrivacyPolicyPage() {
               Politique de confidentialité
             </h1>
             <p className="text-gray-500 text-sm">
-              Dernière mise à jour : mars 2026
+              Dernière mise à jour : 5 mars 2026
             </p>
           </div>
 
@@ -70,6 +70,13 @@ export default function PrivacyPolicyPage() {
                 <li>Source de trafic</li>
                 <li>Type de navigateur et appareil</li>
                 <li>Nombre de soumissions de formulaires</li>
+                <li>Profondeur de défilement (scroll depth) par page</li>
+                <li>Interactions avec les formulaires (champs consultés, erreurs de validation)</li>
+                <li>Clics de navigation (menu, liens internes, liens sociaux)</li>
+                <li>Utilisation des filtres de recherche</li>
+                <li>Interactions avec les galeries d&apos;images et comparateurs avant/après</li>
+                <li>Interactions avec la FAQ (questions consultées)</li>
+                <li>Choix de consentement cookies</li>
               </ul>
             </section>
 
@@ -88,9 +95,11 @@ export default function PrivacyPolicyPage() {
                 <div className="border border-white/10 rounded-lg p-4">
                   <p className="text-white font-medium mb-1">Cookies d&apos;analyse</p>
                   <p className="text-gray-400 text-sm">
-                    Google Analytics pour comprendre l&apos;utilisation du site, et un cookie de suivi interne
-                    enregistrant les pages visitées et les soumissions de formulaires. Durée : 30 jours maximum.
-                    Ces cookies ne sont activés qu&apos;avec votre consentement.
+                    Google Analytics 4 pour comprendre l&apos;utilisation du site : pages visitées, profondeur de
+                    défilement, interactions avec les formulaires et filtres, clics de navigation, utilisation des
+                    galeries d&apos;images et de la FAQ, et un cookie de suivi interne enregistrant les pages visitées
+                    et les soumissions de formulaires. Durée : 30 jours maximum.
+                    Ces cookies ne sont activés qu&apos;avec votre consentement explicite (Consent Mode v2).
                   </p>
                 </div>
               </div>
@@ -102,6 +111,7 @@ export default function PrivacyPolicyPage() {
                 <li>Répondre à vos demandes de contact et de devis</li>
                 <li>Améliorer notre site web et nos services</li>
                 <li>Analyser le trafic et l&apos;utilisation du site</li>
+                <li>Analyser l&apos;engagement des utilisateurs avec les différentes fonctionnalités du site pour améliorer l&apos;ergonomie et le contenu</li>
                 <li>Respecter nos obligations légales</li>
               </ul>
             </section>

@@ -42,6 +42,20 @@ import ResineSolParkingSouterrain from './resine-sol-parking-souterrain'
 import AccessibiliteParkingErpNormes from './accessibilite-parking-erp-normes'
 import PreparationSolAvantResineEpoxy from './preparation-sol-avant-resine-epoxy'
 import ResineEpoxyOuPeintureSolComparatif from './resine-epoxy-ou-peinture-sol-comparatif'
+import RampePourPmrNormesTypes from './rampe-pour-pmr-normes-types'
+import ArceauParkingTypesPrix from './arceau-parking-types-prix'
+import ParkingVisiteursAmenagement from './parking-visiteurs-amenagement'
+import PanneauxParkingTypesReglementation from './panneaux-parking-types-reglementation'
+import DimensionPlaceDeParkingNormes from './dimension-place-de-parking-normes'
+import CodeDeLaRouteMarquageAuSol from './code-de-la-route-marquage-au-sol'
+import LogoParkingPictogrammes from './logo-parking-pictogrammes'
+import PlaceBleuParkingZoneBleue from './place-bleu-parking-zone-bleue'
+import MarquageAuSolSignificationCouleurs from './marquage-au-sol-signification-couleurs'
+import MarquageAuSolEntrepriseIndustriel from './marquage-au-sol-entreprise-industriel'
+import MarquageAuSolParkingPrive from './marquage-au-sol-parking-prive'
+import MarquageAuSolPisteCyclable from './marquage-au-sol-piste-cyclable'
+import SignalisationHorizontaleEtVerticale from './signalisation-horizontale-et-verticale'
+import MarquageAuSolTravauxChantier from './marquage-au-sol-travaux-chantier'
 
 const CONTENT_MAP: Record<string, ComponentType> = {
   'renovation-parking-copropriete': RenovationParkingCopropriete,
@@ -87,6 +101,20 @@ const CONTENT_MAP: Record<string, ComponentType> = {
   'accessibilite-parking-erp-normes': AccessibiliteParkingErpNormes,
   'preparation-sol-avant-resine-epoxy': PreparationSolAvantResineEpoxy,
   'resine-epoxy-ou-peinture-sol-comparatif': ResineEpoxyOuPeintureSolComparatif,
+  'rampe-pour-pmr-normes-types': RampePourPmrNormesTypes,
+  'arceau-parking-types-prix': ArceauParkingTypesPrix,
+  'parking-visiteurs-amenagement': ParkingVisiteursAmenagement,
+  'panneaux-parking-types-reglementation': PanneauxParkingTypesReglementation,
+  'dimension-place-de-parking-normes': DimensionPlaceDeParkingNormes,
+  'code-de-la-route-marquage-au-sol': CodeDeLaRouteMarquageAuSol,
+  'logo-parking-pictogrammes': LogoParkingPictogrammes,
+  'place-bleu-parking-zone-bleue': PlaceBleuParkingZoneBleue,
+  'marquage-au-sol-signification-couleurs': MarquageAuSolSignificationCouleurs,
+  'marquage-au-sol-entreprise-industriel': MarquageAuSolEntrepriseIndustriel,
+  'marquage-au-sol-parking-prive': MarquageAuSolParkingPrive,
+  'marquage-au-sol-piste-cyclable': MarquageAuSolPisteCyclable,
+  'signalisation-horizontale-et-verticale': SignalisationHorizontaleEtVerticale,
+  'marquage-au-sol-travaux-chantier': MarquageAuSolTravauxChantier,
 }
 
 export default CONTENT_MAP

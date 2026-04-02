@@ -19,7 +19,7 @@ export default function Content() {
         47% des accidents corporels en parking impliquent un piéton. Ce chiffre de la Sécurité routière devrait suffire à convaincre tout gestionnaire de prendre le sujet au sérieux.
       </p>
       <p>
-        Pourtant, sur le terrain, les passages piétons sont souvent le parent pauvre de l&apos;aménagement de parking. Des bandes effacées, des dimensions fantaisistes, une absence totale de signalisation verticale. Quand Vincent, directeur d&apos;un centre commercial à Meyzieu (69), a fait auditer son parking de 350 places après un accident piéton en 2024, le diagnostic était accablant : aucun des six passages piétons n&apos;était conforme. Largeur insuffisante, absence de bandes podotactiles, zéro panneau. Coût de la mise en conformité : 8 500 euros. Coût de l&apos;accident (arrêt de travail + indemnisation) : 35 000 euros.
+        Pourtant, sur le terrain, les passages piétons sont souvent le parent pauvre de l&apos;aménagement de parking. Des bandes effacées, des dimensions fantaisistes, une absence totale de signalisation verticale. Quand Vincent, directeur d&apos;un centre commercial à Meyzieu (69), a fait auditer son parking de 350 places après un accident piéton en 2024, le diagnostic était accablant : aucun des six passages piétons n&apos;était conforme. Largeur insuffisante, absence de bandes podotactiles, zéro panneau. Co&ucirc;t de la mise en conformit&eacute; : plusieurs milliers d&apos;euros. Co&ucirc;t de l&apos;accident (arr&ecirc;t de travail + indemnisation) : plusieurs dizaines de milliers d&apos;euros.
       </p>
       <p>
         Le passage piéton en parking est encadré par des normes précises, que le parking soit public ou privé. Ce guide vous donne toutes les règles : dimensions, couleur, signalisation, accessibilité PMR et erreurs à éviter.
@@ -161,7 +161,7 @@ export default function Content() {
         Il n&apos;existe pas de ratio réglementaire (nombre de passages par nombre de places). La règle de bon sens : un passage piéton chaque fois qu&apos;un flux piéton régulier croise une voie de circulation véhicule. En pratique, comptez 1 passage piéton pour 50 à 80 places de parking.
       </p>
       <p>
-        Alain, syndic d&apos;une copropriété de 200 logements à Caluire-et-Cuire (69), a fait tracer quatre passages piétons dans le parking souterrain de la résidence après qu&apos;un résident âgé a été frôlé par un véhicule. Les passages ont été placés aux quatre points de croisement entre les voies de circulation et les accès aux ascenseurs. Coût total : 2 800 euros pour les quatre passages (marquage + panneaux + bandes podotactiles).
+        Alain, syndic d&apos;une copropriété de 200 logements à Caluire-et-Cuire (69), a fait tracer quatre passages piétons dans le parking souterrain de la résidence après qu&apos;un résident âgé a été frôlé par un véhicule. Les passages ont été placés aux quatre points de croisement entre les voies de circulation et les accès aux ascenseurs. Co&ucirc;t total : quelques milliers d&apos;euros pour les quatre passages (marquage + panneaux + bandes podotactiles).
       </p>
 
       <h2>Les 5 erreurs les plus fréquentes</h2>
@@ -263,7 +263,7 @@ export default function Content() {
 
       <h3>Combien coûte le marquage d&apos;un passage piéton ?</h3>
       <p>
-        Comptez 200 à 500 euros par passage piéton en peinture acrylique (marquage + panneau). En thermoplastique ou résine, le coût monte à 500-1 200 euros. L&apos;ajout de bandes podotactiles représente 150 à 300 euros supplémentaires par passage.
+        Comptez &agrave; partir de 350 euros par passage pi&eacute;ton en peinture acrylique (marquage + panneau). En thermoplastique ou r&eacute;sine, le co&ucirc;t monte &agrave; partir de 800 euros. L&apos;ajout de bandes podotactiles repr&eacute;sente &agrave; partir de 200 euros suppl&eacute;mentaires par passage.
       </p>
 
       <h2>Protéger les piétons, protéger votre responsabilité</h2>

@@ -3,6 +3,8 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { categories, industries, years } from '@/lib/data/case-studies';
+import { GoogleAnalytics } from '@/lib/analytics';
+import { useDebounce } from '@/hooks/useAnalyticsTracking';
 
 // Hook pour gérer la taille de l'écran de manière sûre
 function useIsDesktop() {
@@ -51,20 +53,26 @@ export default function Filters({ onFilterChange, className = '' }: FilterProps)
     onFilterChange(filters);
   }, [filters, onFilterChange]);
 
+  const ga = GoogleAnalytics.getInstance()
+  const debouncedSearch = useDebounce(filters.search, 1000)
+
+  useEffect(() => {
+    if (debouncedSearch) {
+      ga.trackFilterSearch(debouncedSearch)
+    }
+  }, [debouncedSearch, ga])
+
   const toggleFilter = (key: 'categories' | 'industries' | 'years', value: string) => {
     setFilters(prev => {
       const currentArray = prev[key];
       const isSelected = currentArray.includes(value);
-      
-      let newArray;
-      if (isSelected) {
-        // Retirer la sélection
-        newArray = currentArray.filter(item => item !== value);
-      } else {
-        // Ajouter la sélection
-        newArray = [...currentArray, value];
-      }
-      
+
+      ga.trackFilterToggle(key, value, isSelected ? 'remove' : 'add')
+
+      const newArray = isSelected
+        ? currentArray.filter(item => item !== value)
+        : [...currentArray, value];
+
       return { ...prev, [key]: newArray };
     });
   };
@@ -74,6 +82,7 @@ export default function Filters({ onFilterChange, className = '' }: FilterProps)
   };
 
   const clearFilters = () => {
+    ga.trackFilterClear()
     setFilters({
       categories: [],
       industries: [],

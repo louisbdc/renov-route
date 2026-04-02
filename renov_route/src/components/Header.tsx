@@ -3,10 +3,12 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import { useAnalytics } from '@/lib/analytics';
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const analytics = useAnalytics();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -20,6 +22,7 @@ export default function Header() {
 
 
   const toggleMobileMenu = () => {
+    analytics.trackMobileMenu(isMobileMenuOpen ? 'close' : 'open');
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
@@ -54,26 +57,30 @@ export default function Header() {
             {/* Desktop Navigation Links */}
             <nav className="hidden md:flex items-center space-x-8 lg:space-x-12">
               <Link
-                href="/competences" 
+                href="/competences"
                 className="text-white/80 hover:text-white font-medium text-base lg:text-lg transition-all duration-300 hover:scale-105"
+                onClick={() => analytics.trackNavClick('header_desktop', 'Compétences', '/competences')}
               >
                 Compétences
               </Link>
               <Link
                 href="/realisations"
                 className="text-white/80 hover:text-white font-medium text-base lg:text-lg transition-all duration-300 hover:scale-105"
+                onClick={() => analytics.trackNavClick('header_desktop', 'Réalisations', '/realisations')}
               >
                 Réalisations
               </Link>
               <Link
                 href="/guides"
                 className="text-white/80 hover:text-white font-medium text-base lg:text-lg transition-all duration-300 hover:scale-105"
+                onClick={() => analytics.trackNavClick('header_desktop', 'Guides', '/guides')}
               >
                 Guides
               </Link>
               <Link
                 href="/qui-sommes-nous"
                 className="text-white/80 hover:text-white font-medium text-base lg:text-lg transition-all duration-300 hover:scale-105"
+                onClick={() => analytics.trackNavClick('header_desktop', 'Qui sommes-nous', '/qui-sommes-nous')}
               >
                 Qui sommes-nous
               </Link>
@@ -81,9 +88,10 @@ export default function Header() {
 
             {/* Desktop CTA Button */}
             <div className="hidden md:flex items-center">
-              <Link 
-                href="/devis" 
-                className="bg-white/20 hover:bg-white/30 text-white font-semibold px-4 lg:px-6 py-2 lg:py-3 rounded-md transition-all duration-300 hover:scale-105 backdrop-blur-sm border border-white/30 text-sm lg:text-base"
+              <Link
+                href="/devis"
+                className="bg-amber-500 hover:bg-amber-400 text-gray-900 font-semibold px-4 lg:px-6 py-2 lg:py-3 rounded-md transition-all duration-300 hover:scale-105 backdrop-blur-sm border border-white/30 text-sm lg:text-base"
+                onClick={() => analytics.trackCtaClick('header', 'Demander un devis', '/devis')}
               >
                 Demander un devis
               </Link>
@@ -113,30 +121,30 @@ export default function Header() {
               <nav className="py-4">
                 <div className="space-y-2">
                   <Link
-                    href="/competences" 
+                    href="/competences"
                     className="block text-white hover:text-gray-300 font-medium text-lg py-3 px-4 rounded-lg hover:bg-white/10 transition-all duration-300"
-                    onClick={closeMobileMenu}
+                    onClick={() => { analytics.trackNavClick('header_mobile', 'Compétences', '/competences'); closeMobileMenu(); }}
                   >
                     Compétences
                   </Link>
                   <Link
                     href="/realisations"
                     className="block text-white hover:text-gray-300 font-medium text-lg py-3 px-4 rounded-lg hover:bg-white/10 transition-all duration-300"
-                    onClick={closeMobileMenu}
+                    onClick={() => { analytics.trackNavClick('header_mobile', 'Réalisations', '/realisations'); closeMobileMenu(); }}
                   >
                     Réalisations
                   </Link>
                   <Link
                     href="/guides"
                     className="block text-white hover:text-gray-300 font-medium text-lg py-3 px-4 rounded-lg hover:bg-white/10 transition-all duration-300"
-                    onClick={closeMobileMenu}
+                    onClick={() => { analytics.trackNavClick('header_mobile', 'Guides', '/guides'); closeMobileMenu(); }}
                   >
                     Guides
                   </Link>
                   <Link
                     href="/qui-sommes-nous"
                     className="block text-white hover:text-gray-300 font-medium text-lg py-3 px-4 rounded-lg hover:bg-white/10 transition-all duration-300"
-                    onClick={closeMobileMenu}
+                    onClick={() => { analytics.trackNavClick('header_mobile', 'Qui sommes-nous', '/qui-sommes-nous'); closeMobileMenu(); }}
                   >
                     Qui sommes-nous
                   </Link>
@@ -144,10 +152,10 @@ export default function Header() {
                 
                 {/* Mobile CTA Button */}
                 <div className="mt-4 pt-4 border-t border-white/20">
-                  <Link 
-                    href="/devis" 
-                    className="block w-full bg-white/20 hover:bg-white/30 text-white font-semibold py-3 px-4 rounded-lg transition-all duration-300 text-center backdrop-blur-sm border border-white/30"
-                    onClick={closeMobileMenu}
+                  <Link
+                    href="/devis"
+                    className="block w-full bg-amber-500 hover:bg-amber-400 text-gray-900 font-semibold py-3 px-4 rounded-lg transition-all duration-300 text-center backdrop-blur-sm border border-white/30"
+                    onClick={() => { analytics.trackCtaClick('header', 'Demander un devis', '/devis'); closeMobileMenu(); }}
                   >
                     Demander un devis
                   </Link>

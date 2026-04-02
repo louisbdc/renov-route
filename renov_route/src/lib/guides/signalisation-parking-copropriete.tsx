@@ -4,16 +4,16 @@ import Link from 'next/link'
 export const meta: Guide = {
   slug: 'signalisation-parking-copropriete',
   title:
-    'Signalisation de parking en copropri\u00e9t\u00e9 : panneaux, marquage et obligations',
+    'Signalisation de parking en copropriété : panneaux, marquage et obligations',
   metaTitle:
-    'Signalisation parking copropri\u00e9t\u00e9 : obligations et prix',
+    'Signalisation parking copropriété : obligations et prix',
   metaDescription:
-    'Signalisation de parking en copropri\u00e9t\u00e9 : panneaux obligatoires, marquage au sol, normes PMR, vote en AG et budget. Guide complet pour les syndics.',
+    'Signalisation de parking en copropriété : panneaux obligatoires, marquage au sol, normes PMR, vote en AG et budget. Guide complet pour les syndics.',
   publishDate: '2026-03-04',
   category: 'securite-parking',
   readingTime: 10,
   excerpt:
-    'Panneaux obligatoires, marquage au sol, normes PMR, vote en AG et budgets : tout savoir pour la signalisation de votre parking de copropri\u00e9t\u00e9.',
+    'Panneaux obligatoires, marquage au sol, normes PMR, vote en AG et budgets : tout savoir pour la signalisation de votre parking de copropriété.',
 }
 
 export default function Content() {
@@ -36,13 +36,12 @@ export default function Content() {
         la commission d&apos;accessibilit&eacute; en novembre 2023. Le parking
         souterrain de 62 places n&apos;avait ni place PMR marqu&eacute;e, ni
         panneau, ni signalisation de s&eacute;curit&eacute;. Co&ucirc;t de la
-        mise en conformit&eacute; r&eacute;alis&eacute;e en urgence : 4 800
-        euros (2 places PMR compl&egrave;tes, 8 panneaux, marquage des voies de
+        mise en conformit&eacute; r&eacute;alis&eacute;e en urgence : plusieurs
+        milliers d&apos;euros (2 places PMR compl&egrave;tes, 8 panneaux, marquage des voies de
         circulation). Si les travaux avaient &eacute;t&eacute;
         int&eacute;gr&eacute;s dans le plan pluriannuel de travaux, le
         co&ucirc;t aurait &eacute;t&eacute; liss&eacute; sur 3 ans et
-        int&eacute;gr&eacute; &agrave; un renouvellement global du marquage
-        (budget total : 6 500 euros pour 62 places, soit 105 euros/place).
+        int&eacute;gr&eacute; &agrave; un renouvellement global du marquage.
       </p>
 
       <p>
@@ -196,15 +195,15 @@ export default function Content() {
       <ul>
         <li>
           <strong>Peinture au sol</strong> : num&eacute;ro peint dans chaque
-          place (m&eacute;thode la plus courante, 8-15 euros/place)
+          place (m&eacute;thode la plus courante, &agrave; partir de 10 euros/place)
         </li>
         <li>
           <strong>Plaquette murale</strong> : plaque en aluminium fix&eacute;e
-          au mur devant chaque place (15-30 euros/place)
+          au mur devant chaque place (&agrave; partir de 20 euros/place)
         </li>
         <li>
           <strong>Pochoir + peinture</strong> : num&eacute;ro au pochoir
-          standardis&eacute; (5-10 euros/place)
+          standardis&eacute; (&agrave; partir de 7 euros/place)
         </li>
       </ul>
 
@@ -226,7 +225,7 @@ export default function Content() {
         <li>Coordonn&eacute;es du syndic</li>
       </ul>
 
-      <p>Prix : 100-300 euros (panneau personnalis&eacute; en aluminium).</p>
+      <p>Prix : &agrave; partir de 200 euros (panneau personnalis&eacute; en aluminium).</p>
 
       <p>
         Marc, pr&eacute;sident du conseil syndical d&apos;une
@@ -236,7 +235,7 @@ export default function Content() {
         double file dans les all&eacute;es. Le panneau, associ&eacute; &agrave;
         2 panneaux de limitation &agrave; 10 km/h et au retra&ccedil;age des
         num&eacute;ros de places (effac&eacute;s depuis 8 ans), a
-        co&ucirc;t&eacute; 1 200 euros au total. Les conflits ont
+        co&ucirc;t&eacute; un peu plus d&apos;un millier d&apos;euros au total. Les conflits ont
         cess&eacute; en 3 semaines.
       </p>
 
@@ -436,47 +435,47 @@ export default function Content() {
           <tbody>
             <tr>
               <td>Tra&ccedil;age d&apos;une place (lignes)</td>
-              <td>8-15 euros/place</td>
+              <td>&agrave; partir de 10 euros/place</td>
               <td>Peinture acrylique ou &eacute;poxy</td>
             </tr>
             <tr>
               <td>Num&eacute;ro de place (peinture au sol)</td>
-              <td>5-10 euros/place</td>
+              <td>&agrave; partir de 7 euros/place</td>
               <td>Pochoir standard</td>
             </tr>
             <tr>
               <td>Num&eacute;ro de place (plaquette murale)</td>
-              <td>15-30 euros/place</td>
+              <td>&agrave; partir de 20 euros/place</td>
               <td>Aluminium, viss&eacute;e</td>
             </tr>
             <tr>
               <td>Place PMR compl&egrave;te (sol + panneau)</td>
-              <td>300-600 euros/place</td>
+              <td>&agrave; partir de 400 euros/place</td>
               <td>Marquage + panneau + poteau</td>
             </tr>
             <tr>
               <td>Panneau limitation vitesse (B14)</td>
-              <td>120-250 euros</td>
+              <td>&agrave; partir de 180 euros</td>
               <td>Panneau + poteau + pose</td>
             </tr>
             <tr>
               <td>Panneau sens interdit (B1)</td>
-              <td>100-200 euros</td>
+              <td>&agrave; partir de 150 euros</td>
               <td>Panneau + poteau + pose</td>
             </tr>
             <tr>
               <td>Fl&egrave;ches directionnelles (au sol)</td>
-              <td>15-30 euros/fl&egrave;che</td>
+              <td>&agrave; partir de 20 euros/fl&egrave;che</td>
               <td>Peinture routi&egrave;re</td>
             </tr>
             <tr>
               <td>Passage pi&eacute;ton (au sol)</td>
-              <td>80-150 euros/passage</td>
+              <td>&agrave; partir de 100 euros/passage</td>
               <td>4-6 bandes de 50 cm</td>
             </tr>
             <tr>
               <td>Panneau r&egrave;glement int&eacute;rieur</td>
-              <td>100-300 euros</td>
+              <td>&agrave; partir de 200 euros</td>
               <td>Aluminium personnalis&eacute;</td>
             </tr>
           </tbody>
@@ -499,20 +498,20 @@ export default function Content() {
             <tr>
               <td>Petite (20-30 places, 1 niveau)</td>
               <td>20-30</td>
-              <td>2 000-4 000 euros</td>
-              <td>800-1 500 euros</td>
+              <td>&agrave; partir de 3 000 euros</td>
+              <td>&agrave; partir de 1 200 euros</td>
             </tr>
             <tr>
               <td>Moyenne (40-80 places, 1-2 niveaux)</td>
               <td>40-80</td>
-              <td>4 000-8 000 euros</td>
-              <td>1 500-3 500 euros</td>
+              <td>&agrave; partir de 6 000 euros</td>
+              <td>&agrave; partir de 2 500 euros</td>
             </tr>
             <tr>
               <td>Grande (100+ places, 2-3 niveaux)</td>
               <td>100+</td>
-              <td>8 000-15 000 euros</td>
-              <td>3 000-6 000 euros</td>
+              <td>&agrave; partir de 12 000 euros</td>
+              <td>&agrave; partir de 5 000 euros</td>
             </tr>
           </tbody>
         </table>
@@ -520,12 +519,12 @@ export default function Content() {
 
       <p>
         Nathalie, syndic d&apos;une copropri&eacute;t&eacute; de 150 lots
-        &agrave; Lyon 3e, a fait voter un budget de 12 000 euros pour la
+        &agrave; Lyon 3e, a fait voter un budget de plus de 10 000 euros pour la
         signalisation compl&egrave;te du parking souterrain de 120 places sur
         2 niveaux. Le devis comprenait : retra&ccedil;age de 120 places + 4
         places PMR + 12 panneaux (vitesse, sens, PMR, niveaux) +
         fl&egrave;ches directionnelles + num&eacute;rotation.
-        R&eacute;parti sur 150 lots, le co&ucirc;t est de 80 euros par
+        R&eacute;parti sur 150 lots, le co&ucirc;t est rest&eacute; tr&egrave;s raisonnable par
         copropri&eacute;taire. Le vote a &eacute;t&eacute; adopt&eacute;
         &agrave; la majorit&eacute; simple (retra&ccedil;age &agrave;
         l&apos;identique + mise en conformit&eacute; PMR).
@@ -587,9 +586,8 @@ export default function Content() {
 
       <p>
         Le syndic peut constituer une provision pour travaux dans le budget
-        pr&eacute;visionnel annuel. Un montant de 0,50 &agrave; 1,00
-        euro/place/mois couvre les frais de retra&ccedil;age
-        p&eacute;riodique (600-1 200 euros/an pour 100 places).
+        pr&eacute;visionnel annuel. Un montant d&apos;environ 1 euro/place/mois couvre les frais de retra&ccedil;age
+        p&eacute;riodique.
       </p>
 
       <h2>FAQ : signalisation parking copropri&eacute;t&eacute;</h2>
@@ -644,10 +642,10 @@ export default function Content() {
       <h3>Combien co&ucirc;te un retra&ccedil;age complet du parking ?</h3>
 
       <p>
-        De 8 &agrave; 15 euros par place pour un retra&ccedil;age standard
-        (lignes + num&eacute;ros). Pour 60 places, comptez 500 &agrave; 900
-        euros. Ajoutez 300-600 euros par place PMR &agrave; cr&eacute;er et
-        120-250 euros par panneau suppl&eacute;mentaire.
+        &Agrave; partir de 10 euros par place pour un retra&ccedil;age standard
+        (lignes + num&eacute;ros). Pour 60 places, comptez &agrave; partir de 700
+        euros. Ajoutez &agrave; partir de 400 euros par place PMR &agrave; cr&eacute;er et
+        &agrave; partir de 180 euros par panneau suppl&eacute;mentaire.
       </p>
 
       <h2>

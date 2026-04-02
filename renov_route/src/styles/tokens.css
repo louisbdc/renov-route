@@ -2,7 +2,9 @@
 
 :root {
   /* Primary Colors */
-  --primary: #6AD7FF;
+  --primary: #F59E0B;
+  --primary-light: #FBBF24;
+  --primary-dark: #D97706;
   --accent: #9B7BFF;
   --neon-accent: #00FFD1;
   
@@ -116,7 +118,7 @@
 
 /* Typography Classes */
 .text-display {
-  font-family: "Clash Display", ui-serif, Georgia, serif;
+  font-family: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
   font-weight: 700;
   line-height: 1.1;
 }

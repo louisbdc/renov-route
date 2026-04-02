@@ -9,37 +9,37 @@ export interface PartnerMapping {
 export const partnerMappings: PartnerMapping[] = [
   { 
     name: 'Carrefour', 
-    logo: '/assets/images/references/Logo_Carrefour.png', 
+    logo: '/assets/images/references/Logo_Carrefour.webp', 
     isImage: true,
     relatedProjects: [] // Aucun projet Carrefour dans les données actuelles
   },
   { 
     name: 'Lidl', 
-    logo: '/assets/images/references/Lidl-Logo.png', 
+    logo: '/assets/images/references/Lidl-Logo.webp', 
     isImage: true,
     relatedProjects: ['lidl-verpiliere-parking']
   },
   { 
     name: 'Intermarché', 
-    logo: '/assets/images/references/Intermarche_logo.png', 
+    logo: '/assets/images/references/Intermarche_logo.webp', 
     isImage: true,
     relatedProjects: ['intermarche-neuville-parking']
   },
   { 
     name: 'Richardson', 
-    logo: '/assets/images/references/Logo-RICHARDSON.jpg', 
+    logo: '/assets/images/references/Logo-RICHARDSON.webp', 
     isImage: true,
     relatedProjects: ['richardson-saint-etienne-passage']
   },
   { 
     name: 'ALDI', 
-    logo: '/assets/images/references/Aldi_logo.png', 
+    logo: '/assets/images/references/Aldi_logo.webp', 
     isImage: true,
     relatedProjects: [] // Aucun projet ALDI dans les données actuelles
   },
   { 
     name: 'Apave', 
-    logo: '/assets/images/references/Apave-Logo.png', 
+    logo: '/assets/images/references/Apave-Logo.webp', 
     isImage: true,
     relatedProjects: [] // Aucun projet Apave dans les données actuelles
   },
@@ -51,37 +51,37 @@ export const partnerMappings: PartnerMapping[] = [
   },
   { 
     name: 'McDonald\'s', 
-    logo: '/assets/images/references/McDonald_logo.png', 
+    logo: '/assets/images/references/McDonald_logo.webp', 
     isImage: true,
     relatedProjects: [] // Aucun projet McDonald's dans les données actuelles
   },
   { 
     name: 'Armée de Terre', 
-    logo: '/assets/images/references/Logo_of_the_French_Army.jpg', 
+    logo: '/assets/images/references/Logo_of_the_French_Army.webp', 
     isImage: true,
     relatedProjects: [] // Aucun projet Armée de Terre dans les données actuelles
   },
   { 
     name: 'Suez', 
-    logo: '/assets/images/references/Logo_Suez.png', 
+    logo: '/assets/images/references/Logo_Suez.webp', 
     isImage: true,
     relatedProjects: [] // Aucun projet Suez dans les données actuelles
   },
   { 
     name: 'Groupe Casino', 
-    logo: '/assets/images/references/Logo_of_Casino.png', 
+    logo: '/assets/images/references/Logo_of_Casino.webp', 
     isImage: true,
     relatedProjects: [] // Aucun projet Casino dans les données actuelles
   },
   { 
     name: 'Armée de l\'Air', 
-    logo: '/assets/images/references/logo-armee-air.png', 
+    logo: '/assets/images/references/logo-armee-air.webp', 
     isImage: true,
     relatedProjects: [] // Aucun projet Armée de l'Air dans les données actuelles
   },
   { 
     name: 'La Halle', 
-    logo: '/assets/images/references/la-halle.png', 
+    logo: '/assets/images/references/la-halle.webp', 
     isImage: true,
     relatedProjects: [] // Aucun projet La Halle dans les données actuelles
   },
@@ -99,19 +99,19 @@ export const partnerMappings: PartnerMapping[] = [
   },
   { 
     name: 'Kiloutou', 
-    logo: '/assets/images/references/Kiloutou_logo.jpg', 
+    logo: '/assets/images/references/Kiloutou_logo.webp', 
     isImage: true,
     relatedProjects: [] // Aucun projet Kiloutou dans les données actuelles
   },
   { 
     name: 'Transports Hexa Trans', 
-    logo: '/assets/images/references/logo-hexatrans.png', 
+    logo: '/assets/images/references/logo-hexatrans.webp', 
     isImage: true,
     relatedProjects: [] // Aucun projet Hexa Trans dans les données actuelles
   },
   { 
     name: 'La Poste', 
-    logo: '/assets/images/references/Logo-laposte.png', 
+    logo: '/assets/images/references/Logo-laposte.webp', 
     isImage: true,
     relatedProjects: [] // Aucun projet La Poste dans les données actuelles
   },

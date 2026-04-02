@@ -5,6 +5,8 @@ import Layout from '@/components/Layout'
 import SafariAnimationFix from '@/components/SafariAnimationFix'
 import { MotionDiv, MotionH1, MotionP } from '@/components/MotionWrapper'
 import { useConversionTracking } from '@/components/AnalyticsTracker'
+import StructuredData from '@/components/StructuredData'
+import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import {
   TbParking,
   TbTrafficCone,
@@ -64,6 +66,11 @@ export default function CompetencesPage() {
   const { trackServiceInterest, trackQuoteRequest } = useConversionTracking()
   return (
     <>
+      <StructuredData type="competences" />
+      <BreadcrumbSchema items={[
+        { name: "Accueil", url: "https://renov-route.com/" },
+        { name: "Compétences", url: "https://renov-route.com/competences/" }
+      ]} />
       <script type="application/ld+json">
         {JSON.stringify({
           '@context': 'https://schema.org',
@@ -100,7 +107,7 @@ export default function CompetencesPage() {
                 initial={{ opacity: 0, y: 16 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
-                className="inline-flex items-center gap-2 text-sm text-sky-400 border border-sky-400/20 bg-sky-400/5 rounded-full px-4 py-1.5 mb-8"
+                className="inline-flex items-center gap-2 text-sm text-amber-400 border border-amber-400/20 bg-amber-400/5 rounded-full px-4 py-1.5 mb-8"
               >
                 Lyon &amp; Rhône-Alpes
               </MotionDiv>
@@ -109,9 +116,9 @@ export default function CompetencesPage() {
                 initial={{ opacity: 0, y: 16 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.1 }}
-                className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6 leading-tight"
+                className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6 leading-tight font-display"
               >
-                Nos Compétences
+                Nos Compétences en Marquage Routier
               </MotionH1>
 
               <MotionP
@@ -126,30 +133,50 @@ export default function CompetencesPage() {
             </div>
           </section>
 
+          {/* Descriptive section */}
+          <section className="py-12 sm:py-16 px-4 bg-[#0C0F14]">
+            <div className="max-w-4xl mx-auto">
+              <MotionDiv
+                initial={{ opacity: 0, y: 16 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.3 }}
+                className="space-y-4 text-gray-300 leading-relaxed text-lg"
+              >
+                <p>
+                  Depuis plus de 10 ans, Rénov Route accompagne les entreprises, collectivités et gestionnaires de parkings dans tous leurs projets de marquage au sol et de voirie en région Rhône-Alpes et sur l&apos;ensemble du territoire français. Notre équipe intervient sur plus de 200 chantiers par an, du simple retraçage de places de parking à la rénovation complète de surfaces industrielles.
+                </p>
+                <p>
+                  Nos six domaines d&apos;expertise couvrent l&apos;intégralité de la chaîne : traçage et retraçage de parking, signalisation verticale, résine de sol et marquage intérieur, réparation de nids de poule, accessoires de sécurité et conseil technique. Un interlocuteur unique coordonne chaque projet, du diagnostic initial à la réception des travaux, pour garantir des délais maîtrisés et un résultat conforme aux normes en vigueur.
+                </p>
+              </MotionDiv>
+            </div>
+          </section>
+
           {/* Services grid */}
           <section className="py-16 sm:py-20 px-4 bg-[#0C0F14]">
             <div className="max-w-6xl mx-auto">
+              <h2 className="text-2xl sm:text-3xl font-bold text-white mb-10 font-display">Nos domaines d&apos;intervention</h2>
               <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-px bg-white/5 rounded-2xl overflow-hidden border border-white/5">
                 {SERVICES.map((service) => (
                   <Link
                     key={service.slug}
                     href={`/competences/${service.slug}`}
                     onClick={() => trackServiceInterest(service.title)}
-                    className="group relative flex flex-col p-6 sm:p-8 bg-[#0C0F14] hover:bg-white/[0.03] transition-colors"
+                    className="group relative flex flex-col p-6 sm:p-8 bg-[#0C0F14] hover:bg-[#1a1f2a] transition-colors"
                   >
                     <div className="flex items-start justify-between mb-6">
                       <span className="text-xs font-mono text-gray-600 tabular-nums">{service.num}</span>
-                      <div className="text-sky-400 group-hover:text-sky-300 transition-colors">
+                      <div className="text-amber-400 group-hover:text-amber-300 transition-colors">
                         {service.icon}
                       </div>
                     </div>
-                    <h2 className="text-lg font-semibold text-white mb-3 group-hover:text-sky-100 transition-colors leading-snug">
+                    <h3 className="text-lg font-semibold text-white mb-3 group-hover:text-amber-100 transition-colors leading-snug">
                       {service.title}
-                    </h2>
+                    </h3>
                     <p className="text-gray-400 text-sm leading-relaxed flex-grow mb-5">
                       {service.description}
                     </p>
-                    <div className="flex items-center gap-1.5 text-sm text-sky-400 group-hover:gap-2.5 transition-all duration-200">
+                    <div className="flex items-center gap-1.5 text-sm text-amber-400 group-hover:gap-2.5 transition-all duration-200">
                       <span>Découvrir</span>
                       <TbArrowRight size={16} />
                     </div>
@@ -159,12 +186,50 @@ export default function CompetencesPage() {
             </div>
           </section>
 
+          {/* Guides associés */}
+          <section className="py-16 sm:py-20 px-4 bg-[#0C0F14] border-t border-white/5">
+            <div className="max-w-6xl mx-auto">
+              <h2 className="text-2xl sm:text-3xl font-bold text-white mb-3 font-display">Guides pratiques associés</h2>
+              <p className="text-gray-400 text-base sm:text-lg max-w-2xl mb-10">
+                Retrouvez nos guides détaillés pour approfondir chaque sujet.
+              </p>
+              <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+                {[
+                  { title: 'Prix marquage au sol parking', href: '/guides/prix-marquage-sol-parking/', tag: 'Marquage' },
+                  { title: 'Réglementation marquage au sol', href: '/guides/reglementation-marquage-sol-parking/', tag: 'Marquage' },
+                  { title: 'Normes PMR parking', href: '/guides/normes-pmr-parking/', tag: 'PMR' },
+                  { title: 'Résine de sol parking : prix et types', href: '/guides/resine-sol-parking-prix-types/', tag: 'Résine' },
+                  { title: 'Nids de poule : solutions 2026', href: '/guides/nids-de-poule-hiver-2026-solutions/', tag: 'Réparation' },
+                  { title: 'Signalisation parking : réglementation', href: '/guides/signalisation-parking-reglementation/', tag: 'Signalisation' },
+                  { title: 'Butée de parking : types et pose', href: '/guides/butee-parking-types-pose-prix/', tag: 'Accessoires' },
+                  { title: 'Ralentisseur parking : normes', href: '/guides/ralentisseur-parking-norme/', tag: 'Accessoires' },
+                  { title: 'Coût rénovation parking', href: '/guides/cout-renovation-parking/', tag: 'Budget' },
+                ].map((guide) => (
+                  <Link
+                    key={guide.href}
+                    href={guide.href}
+                    className="group flex items-start gap-4 p-5 rounded-xl border border-white/5 bg-[#1a1f2a] hover:border-white/15 hover:bg-[#1d222d] transition-colors"
+                  >
+                    <span className="text-xs font-medium text-amber-400 bg-amber-400/10 rounded-full px-2.5 py-1 whitespace-nowrap">{guide.tag}</span>
+                    <span className="text-sm text-white group-hover:text-amber-100 transition-colors leading-snug">{guide.title}</span>
+                  </Link>
+                ))}
+              </div>
+              <div className="text-center mt-8">
+                <Link href="/guides/" className="inline-flex items-center gap-2 text-sm text-amber-400 hover:text-amber-300 transition-colors">
+                  Voir tous nos guides
+                  <TbArrowRight size={16} />
+                </Link>
+              </div>
+            </div>
+          </section>
+
           {/* CTA band */}
           <section className="py-14 sm:py-16 px-4 relative overflow-hidden border-t border-white/5">
             <div className="absolute inset-0 bg-[url('/assets/images/realisations/background_competence_page.avif')] bg-cover bg-center opacity-10" />
             <div className="absolute inset-0 bg-[#0C0F14]/92" />
             <div className="relative max-w-3xl mx-auto text-center">
-              <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4">
+              <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 font-display">
                 Un projet en tête ?
               </h2>
               <p className="text-gray-300 mb-8">
@@ -174,7 +239,7 @@ export default function CompetencesPage() {
                 <Link
                   href="/devis"
                   onClick={() => trackQuoteRequest('competences_cta')}
-                  className="bg-sky-500 hover:bg-sky-400 text-white font-semibold py-3 px-7 rounded-lg transition-colors duration-200"
+                  className="bg-amber-500 hover:bg-amber-400 text-gray-900 font-semibold py-3 px-7 rounded-lg transition-colors duration-200"
                 >
                   Demander un devis
                 </Link>

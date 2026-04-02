@@ -3,13 +3,13 @@ import Link from 'next/link'
 
 export const meta: Guide = {
   slug: 'resine-sol-parking-souterrain',
-  title: 'R\u00e9sine sol parking souterrain : quel rev\u00eatement choisir ?',
-  metaTitle: 'R\u00e9sine sol parking souterrain : types, prix et pose',
-  metaDescription: 'R\u00e9sine sol parking souterrain : \u00e9poxy, polyur\u00e9thane ou MMA ? Avantages, prix au m\u00b2, pr\u00e9paration du support et dur\u00e9e de vie. Guide complet et devis gratuit.',
+  title: 'Résine sol parking souterrain : quel revêtement choisir ?',
+  metaTitle: 'Résine sol parking souterrain : types, prix et pose',
+  metaDescription: 'Résine sol parking souterrain : époxy, polyuréthane ou MMA ? Avantages, prix au m², préparation du support et durée de vie. Guide complet et devis gratuit.',
   publishDate: '2026-03-04',
   category: 'marquage-parking',
   readingTime: 8,
-  excerpt: 'Comparatif \u00e9poxy, polyur\u00e9thane et MMA pour les parkings souterrains : prix, dur\u00e9e de vie, pr\u00e9paration du support et erreurs \u00e0 \u00e9viter.',
+  excerpt: 'Comparatif époxy, polyuréthane et MMA pour les parkings souterrains : prix, durée de vie, préparation du support et erreurs à éviter.',
 }
 
 export default function Content() {
@@ -19,7 +19,7 @@ export default function Content() {
         Un parking souterrain subit des contraintes que les parkings de surface ne connaissent pas. Humidit&eacute; permanente, remont&eacute;es capillaires, faible ventilation, absence de lumi&egrave;re naturelle : le sol doit r&eacute;sister &agrave; tout cela en plus du trafic v&eacute;hicule. Un simple coup de peinture ne suffit pas.
       </p>
       <p>
-        Marc, gestionnaire d&apos;un parking souterrain de 85 places sous un immeuble de bureaux &agrave; Lyon Part-Dieu, a fait appliquer une peinture &eacute;poxy monocomposant en 2022. Co&ucirc;t : 18 euros/m&sup2;. En 14 mois, le rev&ecirc;tement se d&eacute;collait par plaques dans les zones humides (joints de dilatation, bas de rampe). Le probl&egrave;me : pas de traitement pr&eacute;alable des remont&eacute;es d&apos;humidit&eacute;. La reprise avec une r&eacute;sine polyur&eacute;thane souple + primaire anti-humidit&eacute; a co&ucirc;t&eacute; 35 euros/m&sup2;, mais tient depuis 2 ans sans d&eacute;gradation.
+        Marc, gestionnaire d&apos;un parking souterrain de 85 places sous un immeuble de bureaux &agrave; Lyon Part-Dieu, a fait appliquer une peinture &eacute;poxy monocomposant en 2022. En 14 mois, le rev&ecirc;tement se d&eacute;collait par plaques dans les zones humides (joints de dilatation, bas de rampe). Le probl&egrave;me : pas de traitement pr&eacute;alable des remont&eacute;es d&apos;humidit&eacute;. La reprise avec une r&eacute;sine polyur&eacute;thane souple + primaire anti-humidit&eacute; a repr&eacute;sent&eacute; un investissement bien plus cons&eacute;quent, mais tient depuis 2 ans sans d&eacute;gradation.
       </p>
       <p>
         Ce guide compare les r&eacute;sines adapt&eacute;es aux parkings souterrains et explique comment &eacute;viter les erreurs de choix.
@@ -69,7 +69,7 @@ export default function Content() {
             <tr><td>&Eacute;paisseur</td><td>0,3-2 mm (syst&egrave;me multicouche)</td></tr>
             <tr><td>Dur&eacute;e de vie</td><td>8-15 ans</td></tr>
             <tr><td>R&eacute;sistance chimique</td><td>Excellente (huiles, carburants, sel)</td></tr>
-            <tr><td>Prix pose</td><td>25-50 euros/m&sup2;</td></tr>
+            <tr><td>Prix pose</td><td>&agrave; partir de 35 euros/m&sup2;</td></tr>
             <tr><td>Temps de s&eacute;chage</td><td>24-48h (circulable), 7 jours (durcissement complet)</td></tr>
             <tr><td>Contrainte</td><td>N&eacute;cessite un taux d&apos;humidit&eacute; du support &lt; 4,5%</td></tr>
           </tbody>
@@ -95,7 +95,7 @@ export default function Content() {
             <tr><td>&Eacute;paisseur</td><td>1-3 mm</td></tr>
             <tr><td>Dur&eacute;e de vie</td><td>10-20 ans</td></tr>
             <tr><td>R&eacute;sistance chimique</td><td>Tr&egrave;s bonne</td></tr>
-            <tr><td>Prix pose</td><td>35-65 euros/m&sup2;</td></tr>
+            <tr><td>Prix pose</td><td>&agrave; partir de 45 euros/m&sup2;</td></tr>
             <tr><td>Temps de s&eacute;chage</td><td>24-72h</td></tr>
             <tr><td>Avantage</td><td>Souple, absorbe les micro-fissures</td></tr>
           </tbody>
@@ -121,7 +121,7 @@ export default function Content() {
             <tr><td>&Eacute;paisseur</td><td>2-4 mm</td></tr>
             <tr><td>Dur&eacute;e de vie</td><td>10-15 ans</td></tr>
             <tr><td>R&eacute;sistance chimique</td><td>Excellente</td></tr>
-            <tr><td>Prix pose</td><td>40-80 euros/m&sup2;</td></tr>
+            <tr><td>Prix pose</td><td>&agrave; partir de 55 euros/m&sup2;</td></tr>
             <tr><td>Temps de s&eacute;chage</td><td>1-2h (circulable)</td></tr>
             <tr><td>Avantage</td><td>Pose possible &agrave; basse temp&eacute;rature (jusqu&apos;&agrave; -20&deg;C)</td></tr>
           </tbody>
@@ -143,9 +143,9 @@ export default function Content() {
             </tr>
           </thead>
           <tbody>
-            <tr><td>Prix/m&sup2;</td><td>25-50 euros</td><td>35-65 euros</td><td>40-80 euros</td></tr>
+            <tr><td>Prix/m&sup2;</td><td>&agrave; partir de 35 euros</td><td>&agrave; partir de 45 euros</td><td>&agrave; partir de 55 euros</td></tr>
             <tr><td>Dur&eacute;e de vie</td><td>8-15 ans</td><td>10-20 ans</td><td>10-15 ans</td></tr>
-            <tr><td>Co&ucirc;t/m&sup2;/an</td><td>2,50-4,00 euros</td><td>2,50-4,50 euros</td><td>3,00-6,00 euros</td></tr>
+            <tr><td>Co&ucirc;t/m&sup2;/an</td><td>&agrave; partir de 3 euros</td><td>&agrave; partir de 3 euros</td><td>&agrave; partir de 4 euros</td></tr>
             <tr><td>R&eacute;sistance humidit&eacute;</td><td>Moyenne</td><td>Bonne</td><td>Bonne</td></tr>
             <tr><td>Souplesse</td><td>Rigide</td><td>Souple</td><td>Semi-souple</td></tr>
             <tr><td>Temps d&apos;arr&ecirc;t</td><td>48-72h</td><td>48-72h</td><td>2-4h</td></tr>
@@ -163,13 +163,13 @@ export default function Content() {
       </p>
       <ol>
         <li><strong>Diagnostic humidit&eacute;</strong> : test &agrave; la bombe carbure (taux &lt; 4,5% pour l&apos;&eacute;poxy, &lt; 6% pour le polyur&eacute;thane)</li>
-        <li><strong>Traitement des remont&eacute;es</strong> : application d&apos;un primaire anti-humidit&eacute; si n&eacute;cessaire (+8-15 euros/m&sup2;)</li>
+        <li><strong>Traitement des remont&eacute;es</strong> : application d&apos;un primaire anti-humidit&eacute; si n&eacute;cessaire (surcout &agrave; pr&eacute;voir)</li>
         <li><strong>Grenaillage ou pon&ccedil;age</strong> : ouverture des pores du b&eacute;ton pour garantir l&apos;adh&eacute;rence de la r&eacute;sine</li>
         <li><strong>R&eacute;paration des fissures</strong> : injection de r&eacute;sine dans les fissures actives</li>
         <li><strong>Nettoyage</strong> : aspiration industrielle + d&eacute;graissage</li>
       </ol>
       <p>
-        Nathalie, syndic d&apos;une r&eacute;sidence de 120 lots &agrave; Villeurbanne, a fait poser une r&eacute;sine &eacute;poxy dans le parking souterrain de 65 places sans diagnostic humidit&eacute; pr&eacute;alable. En 8 mois, 30% de la surface se d&eacute;collait. La reprise compl&egrave;te (grenaillage + primaire anti-humidit&eacute; + r&eacute;sine polyur&eacute;thane) a co&ucirc;t&eacute; le double du budget initial. Le diagnostic humidit&eacute; aurait co&ucirc;t&eacute; 500 euros.
+        Nathalie, syndic d&apos;une r&eacute;sidence de 120 lots &agrave; Villeurbanne, a fait poser une r&eacute;sine &eacute;poxy dans le parking souterrain de 65 places sans diagnostic humidit&eacute; pr&eacute;alable. En 8 mois, 30% de la surface se d&eacute;collait. La reprise compl&egrave;te (grenaillage + primaire anti-humidit&eacute; + r&eacute;sine polyur&eacute;thane) a co&ucirc;t&eacute; le double du budget initial. Le diagnostic humidit&eacute; aurait co&ucirc;t&eacute; une fraction infime de ce montant.
       </p>
       <p>
         Pour les &eacute;tapes d&eacute;taill&eacute;es, consultez notre guide sur la <Link href="/guides/preparation-sol-avant-resine-epoxy">pr&eacute;paration de sol avant r&eacute;sine</Link>.
@@ -186,12 +186,12 @@ export default function Content() {
             </tr>
           </thead>
           <tbody>
-            <tr><td>&Eacute;poxy syst&egrave;me complet</td><td>30-50 euros</td><td>19 500-32 500 euros</td></tr>
-            <tr><td>Polyur&eacute;thane syst&egrave;me complet</td><td>40-65 euros</td><td>26 000-42 250 euros</td></tr>
-            <tr><td>MMA syst&egrave;me complet</td><td>45-80 euros</td><td>29 250-52 000 euros</td></tr>
-            <tr><td>Pr&eacute;paration seule (grenaillage)</td><td>8-15 euros</td><td>5 200-9 750 euros</td></tr>
-            <tr><td>Primaire anti-humidit&eacute;</td><td>8-15 euros</td><td>5 200-9 750 euros</td></tr>
-            <tr><td>Marquage (lignes, num&eacute;ros, PMR)</td><td>8-15 euros</td><td>5 200-9 750 euros</td></tr>
+            <tr><td>&Eacute;poxy syst&egrave;me complet</td><td>&agrave; partir de 35 euros</td><td>&agrave; partir de 23 000 euros</td></tr>
+            <tr><td>Polyur&eacute;thane syst&egrave;me complet</td><td>&agrave; partir de 45 euros</td><td>&agrave; partir de 30 000 euros</td></tr>
+            <tr><td>MMA syst&egrave;me complet</td><td>&agrave; partir de 55 euros</td><td>&agrave; partir de 36 000 euros</td></tr>
+            <tr><td>Pr&eacute;paration seule (grenaillage)</td><td>&agrave; partir de 10 euros</td><td>&agrave; partir de 6 500 euros</td></tr>
+            <tr><td>Primaire anti-humidit&eacute;</td><td>&agrave; partir de 10 euros</td><td>&agrave; partir de 6 500 euros</td></tr>
+            <tr><td>Marquage (lignes, num&eacute;ros, PMR)</td><td>&agrave; partir de 10 euros</td><td>&agrave; partir de 6 500 euros</td></tr>
           </tbody>
         </table>
       </div>
@@ -203,7 +203,7 @@ export default function Content() {
 
       <h3>Peut-on mettre de la r&eacute;sine sur un sol humide ?</h3>
       <p>
-        Pas directement. L&apos;humidit&eacute; du support doit &ecirc;tre inf&eacute;rieure &agrave; 4,5% pour l&apos;&eacute;poxy et 6% pour le polyur&eacute;thane. Si le taux est sup&eacute;rieur, un primaire anti-humidit&eacute; doit &ecirc;tre appliqu&eacute; avant la r&eacute;sine. Ce traitement ajoute 8-15 euros/m&sup2; au budget.
+        Pas directement. L&apos;humidit&eacute; du support doit &ecirc;tre inf&eacute;rieure &agrave; 4,5% pour l&apos;&eacute;poxy et 6% pour le polyur&eacute;thane. Si le taux est sup&eacute;rieur, un primaire anti-humidit&eacute; doit &ecirc;tre appliqu&eacute; avant la r&eacute;sine. Ce traitement repr&eacute;sente un surcout &agrave; pr&eacute;voir dans le budget.
       </p>
 
       <h3>Combien de temps faut-il fermer le parking ?</h3>

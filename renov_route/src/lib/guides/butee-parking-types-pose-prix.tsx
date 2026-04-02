@@ -19,7 +19,7 @@ export default function Content() {
         Une butee de parking, c&apos;est un detail qui evite les degats. Sans elle, les vehicules roulent trop loin, cognent les murs, ecrasent les bordures ou empietent sur la place voisine. Un bloc de 55 centimetres au sol qui protege les structures, les pietons et les vehicules eux-memes.
       </p>
       <p>
-        Marc, gestionnaire d&apos;un parking de centre commercial a Bron (69), a fait poser 180 butees en caoutchouc recycle apres un incident : un SUV avait percute le mur du fond en se garant, endommageant un tuyau d&apos;evacuation des eaux. Reparation : 2 800 euros. Cout des 180 butees posees : 3 600 euros. Depuis l&apos;installation, zero impact contre les murs. L&apos;investissement a ete rembourse au premier incident evite.
+        Marc, gestionnaire d&apos;un parking de centre commercial a Bron (69), a fait poser 180 butees en caoutchouc recycle apres un incident : un SUV avait percute le mur du fond en se garant, endommageant un tuyau d&apos;evacuation des eaux. La reparation a coute plusieurs milliers d&apos;euros. L&apos;equipement complet en butees a represente un investissement comparable. Depuis l&apos;installation, zero impact contre les murs. L&apos;investissement a ete rembourse au premier incident evite.
       </p>
       <p>
         Butee beton, caoutchouc, acier, plastique : chaque materiau repond a un usage et un budget different. Ce guide compare les options, detaille les prix et explique les regles de pose.
@@ -51,7 +51,7 @@ export default function Content() {
       </ul>
       <p>
         <strong>Dimensions standard :</strong> 55 x 15 x 10 cm (longueur x largeur x hauteur).{' '}
-        <strong>Prix :</strong> 15 a 35 euros l&apos;unite (hors pose).
+        <strong>Prix :</strong> a partir de 25 euros l&apos;unite (hors pose).
       </p>
       <p>
         <strong>Usage recommande :</strong> Parkings de copropriete, centres commerciaux, parkings couverts, zones a trafic modere a eleve.
@@ -79,7 +79,7 @@ export default function Content() {
       </ul>
       <p>
         <strong>Dimensions standard :</strong> 60 x 15 x 10 cm.{' '}
-        <strong>Prix :</strong> 10 a 25 euros l&apos;unite (hors pose).
+        <strong>Prix :</strong> a partir de 18 euros l&apos;unite (hors pose).
       </p>
       <p>
         <strong>Usage recommande :</strong> Parkings exterieurs, parkings industriels, zones de livraison, parkings a fort trafic poids lourds.
@@ -106,7 +106,7 @@ export default function Content() {
       </ul>
       <p>
         <strong>Dimensions standard :</strong> 80 x 10 x 8 cm.{' '}
-        <strong>Prix :</strong> 30 a 60 euros l&apos;unite (hors pose).
+        <strong>Prix :</strong> a partir de 40 euros l&apos;unite (hors pose).
       </p>
       <p>
         <strong>Usage recommande :</strong> Parkings prestige, concessions automobiles, parkings aeroportuaires, sites ou l&apos;esthetique compte.
@@ -131,7 +131,7 @@ export default function Content() {
         <li>Duree de vie : 5 a 8 ans</li>
       </ul>
       <p>
-        <strong>Prix :</strong> 12 a 28 euros l&apos;unite (hors pose).
+        <strong>Prix :</strong> a partir de 20 euros l&apos;unite (hors pose).
       </p>
       <p>
         <strong>Usage recommande :</strong> Parkings residentiels, parkings de bureaux, zones temporaires, parkings a faible trafic.
@@ -158,29 +158,29 @@ export default function Content() {
           <tbody>
             <tr>
               <td>Plastique recycle (HDPE)</td>
-              <td>12 a 28 euros</td>
-              <td>25 a 45 euros</td>
+              <td>a partir de 20 euros</td>
+              <td>a partir de 30 euros</td>
               <td>5-8 ans</td>
               <td>4-6 kg</td>
             </tr>
             <tr>
               <td>Caoutchouc recycle</td>
-              <td>15 a 35 euros</td>
-              <td>30 a 55 euros</td>
+              <td>a partir de 25 euros</td>
+              <td>a partir de 40 euros</td>
               <td>5-10 ans</td>
               <td>8-12 kg</td>
             </tr>
             <tr>
               <td>Beton</td>
-              <td>10 a 25 euros</td>
-              <td>25 a 50 euros</td>
+              <td>a partir de 18 euros</td>
+              <td>a partir de 35 euros</td>
               <td>20-30 ans</td>
               <td>15-30 kg</td>
             </tr>
             <tr>
               <td>Acier galvanise</td>
-              <td>30 a 60 euros</td>
-              <td>50 a 90 euros</td>
+              <td>a partir de 40 euros</td>
+              <td>a partir de 60 euros</td>
               <td>15-25 ans</td>
               <td>5-10 kg</td>
             </tr>
@@ -199,12 +199,12 @@ export default function Content() {
       </ul>
       <p><strong>Exemples de budget :</strong></p>
       <ul>
-        <li><strong>Copropriete 30 places</strong> (caoutchouc) : 30 x 45 euros = 1 350 euros pose incluse</li>
-        <li><strong>Centre commercial 200 places</strong> (caoutchouc) : 200 x 40 euros = 8 000 euros pose incluse</li>
-        <li><strong>Parking industriel 50 places</strong> (beton) : 50 x 40 euros = 2 000 euros pose incluse</li>
+        <li><strong>Copropriete 30 places</strong> (caoutchouc) : a partir de 1 800 euros pose incluse</li>
+        <li><strong>Centre commercial 200 places</strong> (caoutchouc) : a partir de 10 000 euros pose incluse</li>
+        <li><strong>Parking industriel 50 places</strong> (beton) : a partir de 2 500 euros pose incluse</li>
       </ul>
       <p>
-        Nathalie, syndic d&apos;une copropriete de 45 logements a Oullins (69), a fait voter la pose de butees en caoutchouc lors de la renovation du parking souterrain. Le devis retenu : 1 800 euros pour 38 butees posees (les 7 places PMR n&apos;ont pas de butees). Reparti sur 45 coproprietaires : 40 euros par lot. Depuis la pose, les rayures sur les murs du parking ont cesse et les plaintes en AG ont disparu.
+        Nathalie, syndic d&apos;une copropriete de 45 logements a Oullins (69), a fait voter la pose de butees en caoutchouc lors de la renovation du parking souterrain. Le devis retenu representait quelques milliers d&apos;euros pour 38 butees posees (les 7 places PMR n&apos;ont pas de butees). Reparti sur 45 coproprietaires, l&apos;investissement par lot etait tres raisonnable. Depuis la pose, les rayures sur les murs du parking ont cesse et les plaintes en AG ont disparu.
       </p>
 
       <h2>Regles de pose</h2>
@@ -285,7 +285,7 @@ export default function Content() {
 
       <h3>Remplacement</h3>
       <p>
-        Une butee endommagee (cassee, fendue, deplacee) doit etre remplacee rapidement. Le remplacement d&apos;une butee chevillee prend 15 a 30 minutes. Le cout de remplacement (fourniture + pose) : 30 a 60 euros par butee.
+        Une butee endommagee (cassee, fendue, deplacee) doit etre remplacee rapidement. Le remplacement d&apos;une butee chevillee prend 15 a 30 minutes. Le cout de remplacement (fourniture + pose) : a partir de 40 euros par butee.
       </p>
 
       <h2>FAQ : butee de parking</h2>
@@ -307,7 +307,7 @@ export default function Content() {
 
       <h3>Combien de butees faut-il pour un parking de 50 places ?</h3>
       <p>
-        Comptez 1 butee par place, moins les places PMR (qui ne doivent pas avoir de butees). Pour 50 places dont 3 PMR : 47 butees. Budget indicatif en caoutchouc pose incluse : 1 400 a 2 600 euros.
+        Comptez 1 butee par place, moins les places PMR (qui ne doivent pas avoir de butees). Pour 50 places dont 3 PMR : 47 butees. Budget indicatif en caoutchouc pose incluse : a partir de 2 500 euros.
       </p>
 
       <h3>Les butees genent-elles le nettoyage du parking ?</h3>

@@ -4,15 +4,15 @@ import Link from 'next/link'
 export const meta: Guide = {
   slug: 'panneau-limitation-vitesse-parking',
   title:
-    'Panneau limitation de vitesse en parking : r\u00e9glementation, choix et pose',
-  metaTitle: 'Panneau limitation vitesse parking : r\u00e8gles et pose',
+    'Panneau limitation de vitesse en parking : réglementation, choix et pose',
+  metaTitle: 'Panneau limitation vitesse parking : règles et pose',
   metaDescription:
-    'Panneau limitation de vitesse en parking priv\u00e9 : 10, 20 ou 30 km/h ? R\u00e9glementation, types de panneaux, prix et pose. Guide complet pour s\u00e9curiser votre parking.',
+    'Panneau limitation de vitesse en parking privé : 10, 20 ou 30 km/h ? Réglementation, types de panneaux, prix et pose. Guide complet pour sécuriser votre parking.',
   publishDate: '2026-03-04',
   category: 'securite-parking',
   readingTime: 10,
   excerpt:
-    'Vitesse r\u00e9glementaire en parking, types de panneaux B14/B30, r\u00e8gles de pose et prix : tout savoir pour s\u00e9curiser votre parking.',
+    'Vitesse réglementaire en parking, types de panneaux B14/B30, règles de pose et prix : tout savoir pour sécuriser votre parking.',
 }
 
 export default function Content() {
@@ -36,8 +36,8 @@ export default function Content() {
         traversait &agrave; pied entre deux rang&eacute;es de voitures.
         L&apos;enfant n&apos;a eu que des contusions, mais l&apos;absence de
         signalisation a &eacute;t&eacute; point&eacute;e dans le rapport
-        d&apos;expert. Co&ucirc;t de la mise en conformit&eacute; : 1 400 euros
-        (6 panneaux + 2 ralentisseurs). Co&ucirc;t du litige
+        d&apos;expert. Le co&ucirc;t de la mise en conformit&eacute;
+        (6 panneaux + 2 ralentisseurs) est rest&eacute; tr&egrave;s raisonnable. Co&ucirc;t du litige
         &eacute;vit&eacute; : inestimable.
       </p>
 
@@ -191,7 +191,7 @@ export default function Content() {
       </ul>
 
       <p>
-        <strong>Prix :</strong> 40-120 euros selon le diam&egrave;tre.
+        <strong>Prix :</strong> a partir de 80 euros selon le diam&egrave;tre.
       </p>
 
       <h3>Panneau B33 (fin de limitation)</h3>
@@ -213,7 +213,7 @@ export default function Content() {
       </ul>
 
       <p>
-        <strong>Prix :</strong> 40-100 euros selon le diam&egrave;tre.
+        <strong>Prix :</strong> a partir de 70 euros selon le diam&egrave;tre.
       </p>
 
       <h3>Panneau de zone (B30)</h3>
@@ -235,7 +235,7 @@ export default function Content() {
       </ul>
 
       <p>
-        <strong>Prix :</strong> 80-180 euros.
+        <strong>Prix :</strong> a partir de 120 euros.
       </p>
 
       <p>
@@ -271,7 +271,7 @@ export default function Content() {
       </ul>
 
       <p>
-        <strong>Prix :</strong> 50-200 euros selon la personnalisation.
+        <strong>Prix :</strong> a partir de 130 euros selon la personnalisation.
       </p>
 
       <p>
@@ -313,8 +313,8 @@ export default function Content() {
         service et une rampe vers le niveau -1. Les v&eacute;hicules entrant par
         les acc&egrave;s secondaires ne voyaient aucune limitation.
         Apr&egrave;s un audit de s&eacute;curit&eacute;, elle a fait poser 5
-        panneaux (3 entr&eacute;es + 2 rappels en rampe) pour un budget de
-        1 100 euros pose comprise.
+        panneaux (3 entr&eacute;es + 2 rappels en rampe) pour un budget
+        raisonnable, pose comprise.
       </p>
 
       <h3>Hauteur et position de pose</h3>
@@ -346,17 +346,17 @@ export default function Content() {
         <li>
           <strong>Poteau scell&eacute;</strong> : forage + scellement chimique
           dans le b&eacute;ton ou l&apos;enrob&eacute;. Solution permanente.
-          Co&ucirc;t : 80-150 euros par poteau
+          Co&ucirc;t : a partir de 100 euros par poteau
         </li>
         <li>
           <strong>Fixation murale</strong> : &eacute;querre de fixation sur mur
-          ou poteau de structure (parking couvert). Co&ucirc;t : 40-80 euros par
+          ou poteau de structure (parking couvert). Co&ucirc;t : a partir de 55 euros par
           fixation
         </li>
         <li>
           <strong>Poteau sur platine boulonn&eacute;e</strong> : fixation
           d&eacute;montable, adapt&eacute;e aux dalles de parking. Co&ucirc;t :
-          60-120 euros par poteau
+          a partir de 80 euros par poteau
         </li>
       </ul>
 
@@ -435,42 +435,42 @@ export default function Content() {
           <tbody>
             <tr>
               <td>Panneau B14 (400 mm)</td>
-              <td>40-70 euros</td>
+              <td>a partir de 50 euros</td>
               <td>Aluminium, classe 1</td>
             </tr>
             <tr>
               <td>Panneau B14 (600 mm)</td>
-              <td>60-120 euros</td>
+              <td>a partir de 80 euros</td>
               <td>Aluminium, classe 1 ou 2</td>
             </tr>
             <tr>
               <td>Panneau B30 zone (600x800 mm)</td>
-              <td>80-180 euros</td>
+              <td>a partir de 120 euros</td>
               <td>Panneau de zone</td>
             </tr>
             <tr>
               <td>Panneau B33 fin de limitation</td>
-              <td>40-100 euros</td>
+              <td>a partir de 70 euros</td>
               <td>Diam&egrave;tre variable</td>
             </tr>
             <tr>
               <td>Panneau personnalis&eacute;</td>
-              <td>50-200 euros</td>
+              <td>a partir de 130 euros</td>
               <td>Avec logo, r&egrave;glement</td>
             </tr>
             <tr>
               <td>Poteau acier galvanis&eacute; (3 m)</td>
-              <td>25-50 euros</td>
+              <td>a partir de 35 euros</td>
               <td>Diam&egrave;tre 60 mm</td>
             </tr>
             <tr>
               <td>Scellement au sol</td>
-              <td>80-150 euros</td>
+              <td>a partir de 100 euros</td>
               <td>Par poteau</td>
             </tr>
             <tr>
               <td>Fixation murale</td>
-              <td>40-80 euros</td>
+              <td>a partir de 55 euros</td>
               <td>Par panneau</td>
             </tr>
           </tbody>
@@ -492,27 +492,27 @@ export default function Content() {
             <tr>
               <td>Copropri&eacute;t&eacute; (1 entr&eacute;e, 30 places)</td>
               <td>2 panneaux</td>
-              <td>250-500 euros</td>
+              <td>a partir de 350 euros</td>
             </tr>
             <tr>
               <td>Commerce (2 entr&eacute;es, 80 places)</td>
               <td>4 panneaux</td>
-              <td>500-1 000 euros</td>
+              <td>a partir de 700 euros</td>
             </tr>
             <tr>
               <td>Supermarch&eacute; (3 entr&eacute;es, 200 places)</td>
               <td>6-8 panneaux</td>
-              <td>1 000-2 000 euros</td>
+              <td>a partir de 1 400 euros</td>
             </tr>
             <tr>
               <td>Clinique / h&ocirc;pital</td>
               <td>5-10 panneaux</td>
-              <td>800-2 500 euros</td>
+              <td>a partir de 1 700 euros</td>
             </tr>
             <tr>
               <td>Parking souterrain &agrave; niveaux</td>
               <td>8-15 panneaux</td>
-              <td>1 200-3 500 euros</td>
+              <td>a partir de 2 400 euros</td>
             </tr>
           </tbody>
         </table>
@@ -522,7 +522,7 @@ export default function Content() {
 
       <p>
         Le co&ucirc;t d&apos;une signalisation compl&egrave;te de limitation de
-        vitesse (500-2 000 euros pour un parking moyen) est d&eacute;risoire
+        vitesse (quelques centaines &agrave; quelques milliers d&apos;euros pour un parking moyen) est d&eacute;risoire
         compar&eacute; aux cons&eacute;quences d&apos;un accident :
       </p>
 

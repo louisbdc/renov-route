@@ -3,13 +3,13 @@ import Link from 'next/link'
 
 export const meta: Guide = {
   slug: 'reparer-nid-de-poule-soi-meme',
-  title: 'R\u00e9parer un nid de poule soi-m\u00eame : est-ce possible ?',
-  metaTitle: 'R\u00e9parer un nid de poule soi-m\u00eame : possible ou pas ?',
-  metaDescription: 'R\u00e9parer un nid de poule soi-m\u00eame : enrob\u00e9 \u00e0 froid, r\u00e9sine, outils n\u00e9cessaires. Quand le DIY fonctionne et quand il faut un professionnel. Guide pratique.',
+  title: 'Réparer un nid de poule soi-même : est-ce possible ?',
+  metaTitle: 'Réparer un nid de poule soi-même : possible ou pas ?',
+  metaDescription: 'Réparer un nid de poule soi-même : enrobé à froid, résine, outils nécessaires. Quand le DIY fonctionne et quand il faut un professionnel. Guide pratique.',
   publishDate: '2026-03-04',
   category: 'nids-de-poule',
   readingTime: 8,
-  excerpt: 'Quand la r\u00e9paration DIY d\u0027un nid de poule fonctionne, quand elle est contre-productive, et comment faire si vous d\u00e9cidez de la tenter.',
+  excerpt: 'Quand la réparation DIY d\'un nid de poule fonctionne, quand elle est contre-productive, et comment faire si vous décidez de la tenter.',
 }
 
 export default function Content() {

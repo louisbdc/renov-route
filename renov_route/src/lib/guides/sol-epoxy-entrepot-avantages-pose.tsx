@@ -3,15 +3,15 @@ import Link from 'next/link'
 
 export const meta: Guide = {
   slug: 'sol-epoxy-entrepot-avantages-pose',
-  title: 'Sol \u00e9poxy pour entrep\u00f4t : avantages, pr\u00e9paration et prix au m\u00b2',
-  metaTitle: 'Sol \u00e9poxy entrep\u00f4t : avantages, pose et prix au m\u00b2',
+  title: 'Sol époxy pour entrepôt : avantages, préparation et prix au m²',
+  metaTitle: 'Sol époxy entrepôt : avantages, pose et prix au m²',
   metaDescription:
-    'Sol \u00e9poxy pour entrep\u00f4t logistique : r\u00e9sistance au trafic, pr\u00e9paration du support, \u00e9paisseur et prix au m\u00b2. Guide complet pour prot\u00e9ger votre sol d\u2019entrep\u00f4t.',
+    'Sol époxy pour entrepôt logistique : résistance au trafic, préparation du support, épaisseur et prix au m². Guide complet pour protéger votre sol d’entrepôt.',
   publishDate: '2026-03-04',
   category: 'renovation-parking',
   readingTime: 10,
   excerpt:
-    'R\u00e9sine \u00e9poxy autolissante en entrep\u00f4t : r\u00e9sistance m\u00e9canique, \u00e9paisseur adapt\u00e9e, pr\u00e9paration du support et prix au m\u00b2.',
+    'Résine époxy autolissante en entrepôt : résistance mécanique, épaisseur adaptée, préparation du support et prix au m².',
 }
 
 export default function Content() {
@@ -38,9 +38,8 @@ export default function Content() {
         une dalle qui g&eacute;n&eacute;rait de la poussi&egrave;re visible sur
         les pi&egrave;ces stock&eacute;es. Le co&ucirc;t de la remise en
         &eacute;tat (r&eacute;paration des fissures + grenaillage +
-        r&eacute;sine &eacute;poxy) : 42 euros/m&sup2; au lieu des 28
-        euros/m&sup2; qu&apos;il aurait pay&eacute;s sur un sol neuf. Sur
-        3 000 m&sup2;, l&apos;attente lui a co&ucirc;t&eacute; 42 000 euros de
+        r&eacute;sine &eacute;poxy) a &eacute;t&eacute; nettement sup&eacute;rieur &agrave; ce qu&apos;il aurait pay&eacute; sur un sol neuf. Sur
+        3 000 m&sup2;, l&apos;attente lui a co&ucirc;t&eacute; plusieurs dizaines de milliers d&apos;euros de
         plus.
       </p>
 
@@ -156,25 +155,25 @@ export default function Content() {
               <td>1-2 mm (couche mince)</td>
               <td>Transpalettes manuels, pi&eacute;ton</td>
               <td>5-8 ans</td>
-              <td>18-30 euros/m&sup2;</td>
+              <td>&agrave; partir de 22 euros/m&sup2;</td>
             </tr>
             <tr>
               <td>2-3 mm (standard)</td>
               <td>Chariots &eacute;l&eacute;vateurs &lt; 3 tonnes</td>
               <td>10-15 ans</td>
-              <td>25-45 euros/m&sup2;</td>
+              <td>&agrave; partir de 32 euros/m&sup2;</td>
             </tr>
             <tr>
               <td>3-5 mm (haute r&eacute;sistance)</td>
               <td>Chariots lourds, trafic intense</td>
               <td>15-20 ans</td>
-              <td>35-60 euros/m&sup2;</td>
+              <td>&agrave; partir de 42 euros/m&sup2;</td>
             </tr>
             <tr>
               <td>5-8 mm (multicouche)</td>
               <td>Industrie lourde, impacts</td>
               <td>20-25 ans</td>
-              <td>55-90 euros/m&sup2;</td>
+              <td>&agrave; partir de 65 euros/m&sup2;</td>
             </tr>
           </tbody>
         </table>
@@ -219,7 +218,7 @@ export default function Content() {
         Apr&egrave;s 3 ans, les all&eacute;es principales (o&ugrave; les
         chariots virent) montraient des signes d&apos;usure
         pr&eacute;matur&eacute;e. Le prestataire a d&ucirc; refaire les
-        600 m&sup2; d&apos;all&eacute;es en 3 mm (co&ucirc;t : 27 000 euros).
+        600 m&sup2; d&apos;all&eacute;es en 3 mm, un investissement suppl&eacute;mentaire cons&eacute;quent.
         Sur les 2 400 m&sup2; restants, le syst&egrave;me de 2 mm tient
         correctement car le trafic est plus faible. La bonne &eacute;paisseur
         d&egrave;s le d&eacute;part aurait &eacute;vit&eacute; la reprise.
@@ -248,7 +247,7 @@ export default function Content() {
       </p>
 
       <p>
-        Co&ucirc;t : 3-8 euros/m&sup2; selon l&apos;&eacute;tat du sol.
+        Co&ucirc;t : &agrave; partir de 5 euros/m&sup2; selon l&apos;&eacute;tat du sol.
       </p>
 
       <h3>R&eacute;paration des d&eacute;fauts</h3>
@@ -282,7 +281,7 @@ export default function Content() {
       </p>
 
       <p>
-        Co&ucirc;t : 10-25 euros/m&sup2; suppl&eacute;mentaires sur un sol en
+        Co&ucirc;t : un surcout significatif est &agrave; pr&eacute;voir sur un sol en
         mauvais &eacute;tat.
       </p>
 
@@ -304,7 +303,7 @@ export default function Content() {
         Le primaire &eacute;poxy dilu&eacute; p&eacute;n&egrave;tre dans les
         pores du b&eacute;ton et cr&eacute;e un pont d&apos;adh&eacute;rence
         entre le support et la r&eacute;sine de finition. Cette couche est
-        obligatoire. Co&ucirc;t : 3-5 euros/m&sup2;.
+        obligatoire. Co&ucirc;t : &agrave; partir de 4 euros/m&sup2;.
       </p>
 
       <h2>
@@ -424,27 +423,27 @@ export default function Content() {
           <tbody>
             <tr>
               <td>Grenaillage</td>
-              <td>3-8 euros</td>
+              <td>&agrave; partir de 5 euros</td>
               <td>10-15%</td>
             </tr>
             <tr>
               <td>R&eacute;paration des d&eacute;fauts</td>
-              <td>0-25 euros</td>
+              <td>selon &eacute;tat du sol</td>
               <td>0-30% (selon &eacute;tat)</td>
             </tr>
             <tr>
               <td>Primaire d&apos;accrochage</td>
-              <td>3-5 euros</td>
+              <td>&agrave; partir de 4 euros</td>
               <td>8-12%</td>
             </tr>
             <tr>
               <td>R&eacute;sine &eacute;poxy (2-3 mm)</td>
-              <td>15-30 euros</td>
+              <td>&agrave; partir de 20 euros</td>
               <td>40-55%</td>
             </tr>
             <tr>
               <td>Marquage des zones</td>
-              <td>3-8 euros</td>
+              <td>&agrave; partir de 5 euros</td>
               <td>5-15%</td>
             </tr>
             <tr>
@@ -452,7 +451,7 @@ export default function Content() {
                 <strong>Total (sol en bon &eacute;tat)</strong>
               </td>
               <td>
-                <strong>25-45 euros</strong>
+                <strong>&agrave; partir de 32 euros</strong>
               </td>
               <td />
             </tr>
@@ -461,7 +460,7 @@ export default function Content() {
                 <strong>Total (sol en mauvais &eacute;tat)</strong>
               </td>
               <td>
-                <strong>35-70 euros</strong>
+                <strong>&agrave; partir de 50 euros</strong>
               </td>
               <td />
             </tr>
@@ -483,23 +482,23 @@ export default function Content() {
           <tbody>
             <tr>
               <td>500 m&sup2;</td>
-              <td>12 500 - 22 500 euros</td>
-              <td>17 500 - 30 000 euros</td>
+              <td>&agrave; partir de 16 000 euros</td>
+              <td>&agrave; partir de 22 000 euros</td>
             </tr>
             <tr>
               <td>1 000 m&sup2;</td>
-              <td>22 000 - 40 000 euros</td>
-              <td>30 000 - 55 000 euros</td>
+              <td>&agrave; partir de 30 000 euros</td>
+              <td>&agrave; partir de 42 000 euros</td>
             </tr>
             <tr>
               <td>3 000 m&sup2;</td>
-              <td>60 000 - 105 000 euros</td>
-              <td>82 000 - 150 000 euros</td>
+              <td>&agrave; partir de 80 000 euros</td>
+              <td>&agrave; partir de 110 000 euros</td>
             </tr>
             <tr>
               <td>5 000 m&sup2;</td>
-              <td>90 000 - 160 000 euros</td>
-              <td>125 000 - 225 000 euros</td>
+              <td>&agrave; partir de 120 000 euros</td>
+              <td>&agrave; partir de 170 000 euros</td>
             </tr>
           </tbody>
         </table>
@@ -585,7 +584,7 @@ export default function Content() {
 
       <p>
         Le marquage est g&eacute;n&eacute;ralement factur&eacute; en
-        suppl&eacute;ment (3-8 euros/m&sup2; sur les zones marqu&eacute;es, pas
+        suppl&eacute;ment (sur les zones marqu&eacute;es uniquement, pas
         sur toute la surface). Il est int&eacute;gr&eacute; dans le m&ecirc;me
         chantier que la r&eacute;sine, ce qui &eacute;vite une seconde
         mobilisation. Le{' '}
@@ -606,7 +605,7 @@ export default function Content() {
         d&eacute;grade et d&eacute;grader le sol, c&apos;est d&eacute;grader
         la productivit&eacute; (poussi&egrave;re sur les produits, pannes de
         chariot, temps de nettoyage, accidents). L&apos;investissement dans un
-        sol &eacute;poxy (25-60 euros/m&sup2;) se rembourse en 2-4 ans par la
+        sol &eacute;poxy se rembourse en quelques ann&eacute;es par la
         r&eacute;duction des co&ucirc;ts de maintenance et
         d&apos;entretien.
       </p>

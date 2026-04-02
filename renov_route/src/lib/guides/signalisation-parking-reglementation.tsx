@@ -19,7 +19,7 @@ export default function Content() {
         Un parking sans signalisation, c&apos;est un parking où chaque croisement devient une négociation silencieuse entre conducteurs. Priorité à droite ? Sens unique ? Zone piétons ? Sans panneaux ni marquage, personne ne sait.
       </p>
       <p>
-        Laurent, responsable technique d&apos;une résidence de 180 logements à Villeurbanne (69), a découvert ce problème après trois accrochages en deux mois dans le parking souterrain de la copropriété. Les résidents se plaignaient depuis des mois : aucun panneau de sens de circulation, pas de limitation de vitesse, pas de signalisation des places PMR. L&apos;assurance a refusé de couvrir le troisième sinistre, arguant d&apos;un &quot;défaut d&apos;aménagement manifeste&quot;. Coût de la mise en conformité : 4 200 euros. Coût des trois sinistres non couverts : 12 000 euros de réparations.
+        Laurent, responsable technique d&apos;une résidence de 180 logements à Villeurbanne (69), a découvert ce problème après trois accrochages en deux mois dans le parking souterrain de la copropriété. Les résidents se plaignaient depuis des mois : aucun panneau de sens de circulation, pas de limitation de vitesse, pas de signalisation des places PMR. L&apos;assurance a refusé de couvrir le troisième sinistre, arguant d&apos;un &quot;défaut d&apos;aménagement manifeste&quot;. Co&ucirc;t de la mise en conformit&eacute; : plusieurs milliers d&apos;euros. Co&ucirc;t des trois sinistres non couverts : bien plus de 10 000 euros de r&eacute;parations.
       </p>
       <p>
         La signalisation de parking ne se résume pas à quelques panneaux posés au hasard. C&apos;est un système complet, panneaux verticaux et marquage au sol, encadré par des normes précises. Ce guide détaille les obligations, les types de panneaux, les règles d&apos;installation et les erreurs à éviter.
@@ -96,7 +96,7 @@ export default function Content() {
         Un panneau de sortie clair évite les manoeuvres dangereuses et les conducteurs perdus qui remontent une voie en sens inverse. Les flèches directionnelles (M3) complètent utilement la signalisation de sortie.
       </p>
       <p>
-        Carole, directrice d&apos;un hôtel 3 étoiles à Écully (69), a fait refaire toute la signalisation de son parking de 80 places après un audit de conformité en 2025. Le parking n&apos;avait que deux panneaux : un STOP rouillé et un sens interdit à moitié caché par un buisson. L&apos;installateur a posé 14 panneaux au total (3 limitations de vitesse, 2 STOP, 4 sens uniques, 2 PMR, 2 passages piétons, 1 sortie). Coût total : 3 600 euros, pose comprise. Depuis, plus un seul accrochage.
+        Carole, directrice d&apos;un hôtel 3 étoiles à Écully (69), a fait refaire toute la signalisation de son parking de 80 places après un audit de conformité en 2025. Le parking n&apos;avait que deux panneaux : un STOP rouillé et un sens interdit à moitié caché par un buisson. L&apos;installateur a posé 14 panneaux au total (3 limitations de vitesse, 2 STOP, 4 sens uniques, 2 PMR, 2 passages piétons, 1 sortie). Co&ucirc;t total : plusieurs milliers d&apos;euros, pose comprise. Depuis, plus un seul accrochage.
       </p>
 
       <h2>Le marquage au sol : complément indispensable</h2>
@@ -155,7 +155,7 @@ export default function Content() {
         L&apos;installation de signalisation dans un parking de copropriété doit être votée en assemblée générale. C&apos;est une décision qui relève de l&apos;article 24 de la loi du 10 juillet 1965 (majorité simple des copropriétaires présents ou représentés).
       </p>
       <p>
-        Thierry, président du conseil syndical d&apos;une copropriété de 95 lots à Saint-Priest (69), a fait voter un plan de signalisation complet pour le parking souterrain. Le devis présentait trois niveaux : signalisation minimale (1 200 euros), standard (2 800 euros) et complète (4 500 euros). L&apos;AG a voté le niveau standard : 6 panneaux de sens de circulation, 2 limitations de vitesse à 10 km/h, numérotation des places et 3 flèches directionnelles au sol. Les accrochages sont passés de 5 par an à zéro depuis l&apos;installation.
+        Thierry, président du conseil syndical d&apos;une copropriété de 95 lots à Saint-Priest (69), a fait voter un plan de signalisation complet pour le parking souterrain. Le devis présentait trois niveaux : signalisation minimale, standard et compl&egrave;te, avec des budgets croissants adapt&eacute;s &agrave; chaque niveau. L&apos;AG a voté le niveau standard : 6 panneaux de sens de circulation, 2 limitations de vitesse à 10 km/h, numérotation des places et 3 flèches directionnelles au sol. Les accrochages sont passés de 5 par an à zéro depuis l&apos;installation.
       </p>
 
       <h2>Les 5 erreurs les plus fréquentes</h2>
@@ -225,7 +225,7 @@ export default function Content() {
 
       <h3>Budget d&apos;entretien annuel</h3>
       <p>
-        Pour un parking de 100 places, prévoyez un budget annuel de signalisation de 500 à 1 500 euros, couvrant le remplacement des panneaux abîmés et le retraçage partiel du marquage au sol. C&apos;est un investissement dérisoire comparé au coût d&apos;un accident ou d&apos;une mise en demeure pour non-conformité.
+        Pour un parking de 100 places, pr&eacute;voyez un budget annuel de signalisation &agrave; partir de 1 000 euros, couvrant le remplacement des panneaux abîmés et le retraçage partiel du marquage au sol. C&apos;est un investissement dérisoire comparé au coût d&apos;un accident ou d&apos;une mise en demeure pour non-conformité.
       </p>
 
       <h2>FAQ : signalisation de parking</h2>
@@ -242,7 +242,7 @@ export default function Content() {
 
       <h3>Combien coûte la signalisation d&apos;un parking ?</h3>
       <p>
-        Comptez 150 à 300 euros par panneau (fourniture et pose), soit 2 000 à 6 000 euros pour un parking de 50 à 200 places. Le marquage au sol représente un budget supplémentaire de 1 500 à 4 000 euros selon la surface.
+        Comptez &agrave; partir de 200 euros par panneau (fourniture et pose), soit &agrave; partir de 3 000 euros pour un parking de 50 &agrave; 200 places. Le marquage au sol repr&eacute;sente un budget suppl&eacute;mentaire &agrave; partir de 2 500 euros selon la surface.
       </p>
 
       <h3>Qui peut installer la signalisation d&apos;un parking ?</h3>

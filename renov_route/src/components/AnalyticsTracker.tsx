@@ -2,19 +2,55 @@
 
 import { useEffect } from 'react'
 import { usePathname } from 'next/navigation'
+import Link from 'next/link'
 import { GoogleAnalytics, initializeAnalytics, useAnalytics } from '@/lib/analytics'
 import { CookieManager } from '@/lib/cookies'
+import { useScrollDepthTracking } from '@/hooks/useAnalyticsTracking'
 
 // Tracker automatique — détecte la route courante via usePathname
 export default function AnalyticsTracker() {
   const pathname = usePathname()
 
+  // Restaurer le consentement une seule fois au montage
   useEffect(() => {
     initializeAnalytics()
+  }, [])
+
+  // Tracker les pages vues à chaque changement de route
+  useEffect(() => {
     GoogleAnalytics.getInstance().trackPageView(pathname, document.title)
   }, [pathname])
 
+  // Scroll depth tracking
+  useScrollDepthTracking()
+
   return null
+}
+
+// Composant CTA avec tracking
+export function CtaTracker({
+  location,
+  children,
+  className = '',
+  href,
+}: {
+  location: string
+  children: React.ReactNode
+  className?: string
+  href: string
+}) {
+  const analytics = useAnalytics()
+
+  const handleClick = () => {
+    const text = typeof children === 'string' ? children : ''
+    analytics.trackCtaClick(location, text, href)
+  }
+
+  return (
+    <Link href={href} className={className} onClick={handleClick}>
+      {children}
+    </Link>
+  )
 }
 
 // Hook pour tracker les interactions utilisateur

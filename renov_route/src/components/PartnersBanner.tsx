@@ -20,7 +20,7 @@ const PartnerItem = memo(({ partner, index, keyPrefix }: { partner: PartnerMappi
       {partner.isImage ? (
         <Image
           src={partner.logo}
-          alt={`Logo ${partner.name}`}
+          alt={`Logo ${partner.name} - Client Rénov Route marquage au sol`}
           width={100}
           height={100}
           quality={75}

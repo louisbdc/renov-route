@@ -8,97 +8,112 @@ RewriteEngine On
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-# Redirections 301 des anciennes URLs vers les nouvelles
-# Basées sur les URLs réelles du site
+# Redirect www to non-www
+RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
 
-# Page d'accueil
-RewriteRule ^index\.html?$ / [R=301,L]
-RewriteRule ^home\.html?$ / [R=301,L]
-RewriteRule ^accueil\.html?$ / [R=301,L]
-
-# Redirections spécifiques des anciennes URLs du site
-RewriteRule ^marquage-routier-lyon-69/?$ /competences/tracage-retracage-parking [R=301,L]
-RewriteRule ^contact/?$ /qui-sommes-nous [R=301,L]
-RewriteRule ^blank-1/?$ /competences/resine-sol-marquage-interieur [R=301,L]
-RewriteRule ^peinture-marquage-sol-parking-lyon/?$ /competences/tracage-retracage-parking [R=301,L]
-
-# Redirections géographiques vers les compétences correspondantes
-RewriteRule ^marquage-parking-([^/]+)/?$ /competences/tracage-retracage-parking [R=301,L]
-RewriteRule ^marquage([^/]+)/?$ /competences/tracage-retracage-parking [R=301,L]
-RewriteRule ^tracage-parking-([^/]+)/?$ /competences/tracage-retracage-parking [R=301,L]
-RewriteRule ^marquage-routier-([^/]+)/?$ /competences/tracage-retracage-parking [R=301,L]
-RewriteRule ^reparation-nids-poule-([^/]+)/?$ /competences/reparation-nids-de-poule [R=301,L]
-RewriteRule ^signalisation-([^/]+)/?$ /competences/signalisation-verticale [R=301,L]
-RewriteRule ^accessoires-parking-([^/]+)/?$ /competences/accessoires-parking [R=301,L]
-RewriteRule ^resine-sol-([^/]+)/?$ /competences/resine-sol-marquage-interieur [R=301,L]
-RewriteRule ^conseil-expertise-([^/]+)/?$ /competences/conseil-expertise [R=301,L]
-
-# Page compétences
-RewriteRule ^services\.html?$ /competences [R=301,L]
-RewriteRule ^prestations\.html?$ /competences [R=301,L]
-RewriteRule ^nos-services\.html?$ /competences [R=301,L]
-
-# Page qui sommes-nous
-RewriteRule ^about\.html?$ /qui-sommes-nous [R=301,L]
-RewriteRule ^a-propos\.html?$ /qui-sommes-nous [R=301,L]
-RewriteRule ^equipe\.html?$ /qui-sommes-nous [R=301,L]
-
-# Page réalisations
-RewriteRule ^portfolio\.html?$ /realisations [R=301,L]
-RewriteRule ^projets\.html?$ /realisations [R=301,L]
-RewriteRule ^galerie\.html?$ /realisations [R=301,L]
-RewriteRule ^travaux\.html?$ /realisations [R=301,L]
-
-# Page devis
-RewriteRule ^contact\.html?$ /devis [R=301,L]
-RewriteRule ^demande-devis\.html?$ /devis [R=301,L]
-RewriteRule ^estimation\.html?$ /devis [R=301,L]
-
-# Pages de compétences spécifiques
-RewriteRule ^marquage-parking\.html?$ /competences/tracage-retracage-parking [R=301,L]
-RewriteRule ^tracage-parking\.html?$ /competences/tracage-retracage-parking [R=301,L]
-RewriteRule ^retracage-parking\.html?$ /competences/tracage-retracage-parking [R=301,L]
-
-RewriteRule ^panneaux-signalisation\.html?$ /competences/signalisation-verticale [R=301,L]
-RewriteRule ^signalisation\.html?$ /competences/signalisation-verticale [R=301,L]
-RewriteRule ^panneaux\.html?$ /competences/signalisation-verticale [R=301,L]
-
-RewriteRule ^resine-sol\.html?$ /competences/resine-sol-marquage-interieur [R=301,L]
-RewriteRule ^marquage-interieur\.html?$ /competences/resine-sol-marquage-interieur [R=301,L]
-RewriteRule ^revetement-sol\.html?$ /competences/resine-sol-marquage-interieur [R=301,L]
-
-RewriteRule ^reparation-route\.html?$ /competences/reparation-nids-de-poule [R=301,L]
-RewriteRule ^nids-poule\.html?$ /competences/reparation-nids-de-poule [R=301,L]
-RewriteRule ^reparation-chaussee\.html?$ /competences/reparation-nids-de-poule [R=301,L]
-
-RewriteRule ^equipements-parking\.html?$ /competences/accessoires-parking [R=301,L]
-RewriteRule ^bornes-parking\.html?$ /competences/accessoires-parking [R=301,L]
-RewriteRule ^accessoires\.html?$ /competences/accessoires-parking [R=301,L]
-
-RewriteRule ^conseil\.html?$ /competences/conseil-expertise [R=301,L]
-RewriteRule ^expertise\.html?$ /competences/conseil-expertise [R=301,L]
-RewriteRule ^accompagnement\.html?$ /competences/conseil-expertise [R=301,L]
-
-# Redirections avec paramètres
-RewriteRule ^services/([^/]+)\.html?$ /competences [R=301,L]
-RewriteRule ^competences/([^/]+)\.html?$ /competences/$1 [R=301,L]
-
-# Redirections d'anciens formats d'URL
-RewriteRule ^page/([^/]+)\.html?$ /$1 [R=301,L]
-RewriteRule ^category/([^/]+)\.html?$ /competences/$1 [R=301,L]
-
-# Redirections de l'ancien site (exemples à adapter)
-RewriteRule ^old-site/(.*)$ /$1 [R=301,L]
-RewriteRule ^ancien-site/(.*)$ /$1 [R=301,L]
-
-# Supprimer les trailing slashes pour les fichiers
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)/$ /$1 [R=301,L]
-
-# Ajouter trailing slash pour les dossiers
+# Ajouter trailing slash pour les dossiers (URLs absolues pour éviter :443)
 RewriteCond %{REQUEST_FILENAME} -d
 RewriteCond %{REQUEST_URI} !/$
-RewriteRule ^(.*)$ /$1/ [R=301,L]
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1/ [R=301,L]
+
+# Redirections 301 des anciennes URLs vers les nouvelles
+# Toutes les cibles utilisent des URLs absolues avec trailing slash
+# pour éviter le port :443 et les doubles redirections
+
+# Page d'accueil
+RewriteRule ^index\.html?$ https://%{HTTP_HOST}/ [R=301,L]
+RewriteRule ^home\.html?$ https://%{HTTP_HOST}/ [R=301,L]
+RewriteRule ^accueil\.html?$ https://%{HTTP_HOST}/ [R=301,L]
+
+# Redirections spécifiques des anciennes URLs du site
+RewriteRule ^marquage-routier-lyon-69/?$ https://%{HTTP_HOST}/competences/tracage-retracage-parking/ [R=301,L]
+RewriteRule ^contact/?$ https://%{HTTP_HOST}/qui-sommes-nous/ [R=301,L]
+RewriteRule ^blank-1/?$ https://%{HTTP_HOST}/competences/resine-sol-marquage-interieur/ [R=301,L]
+RewriteRule ^blank-2/?$ https://%{HTTP_HOST}/competences/resine-sol-marquage-interieur/ [R=301,L]
+RewriteRule ^peinture-marquage-sol-parking-lyon/?$ https://%{HTTP_HOST}/competences/tracage-retracage-parking/ [R=301,L]
+RewriteRule ^home/?$ https://%{HTTP_HOST}/ [R=301,L]
+RewriteRule ^nos-references/?$ https://%{HTTP_HOST}/realisations/ [R=301,L]
+RewriteRule ^devis-gratuit/?$ https://%{HTTP_HOST}/devis/ [R=301,L]
+RewriteRule ^devis-tracage-gratuit/?$ https://%{HTTP_HOST}/devis/ [R=301,L]
+RewriteRule ^services/renovation-parking/?$ https://%{HTTP_HOST}/competences/ [R=301,L]
+RewriteRule ^auvergne-rhone-alpes/?$ https://%{HTTP_HOST}/competences/ [R=301,L]
+
+# Anciennes URLs realisations avec parametre ?project=
+RewriteCond %{QUERY_STRING} (?:^|&)project=([a-z0-9-]+) [NC]
+RewriteRule ^realisations/?$ https://%{HTTP_HOST}/realisations/%1/? [R=301,L]
+
+# Redirections géographiques vers les compétences correspondantes
+RewriteRule ^marquage-parking-([^/]+)/?$ https://%{HTTP_HOST}/competences/tracage-retracage-parking/ [R=301,L]
+RewriteRule ^marquage-([^/]+)/?$ https://%{HTTP_HOST}/competences/tracage-retracage-parking/ [R=301,L]
+RewriteRule ^tracage-parking-([^/]+)/?$ https://%{HTTP_HOST}/competences/tracage-retracage-parking/ [R=301,L]
+RewriteRule ^marquage-routier-([^/]+)/?$ https://%{HTTP_HOST}/competences/tracage-retracage-parking/ [R=301,L]
+RewriteRule ^reparation-nids-poule-([^/]+)/?$ https://%{HTTP_HOST}/competences/reparation-nids-de-poule/ [R=301,L]
+RewriteRule ^signalisation-([^/]+)/?$ https://%{HTTP_HOST}/competences/signalisation-verticale/ [R=301,L]
+RewriteRule ^accessoires-parking-([^/]+)/?$ https://%{HTTP_HOST}/competences/accessoires-parking/ [R=301,L]
+RewriteRule ^resine-sol-([^/]+)/?$ https://%{HTTP_HOST}/competences/resine-sol-marquage-interieur/ [R=301,L]
+RewriteRule ^conseil-expertise-([^/]+)/?$ https://%{HTTP_HOST}/competences/conseil-expertise/ [R=301,L]
+
+# Page compétences
+RewriteRule ^services\.html?$ https://%{HTTP_HOST}/competences/ [R=301,L]
+RewriteRule ^prestations\.html?$ https://%{HTTP_HOST}/competences/ [R=301,L]
+RewriteRule ^nos-services\.html?$ https://%{HTTP_HOST}/competences/ [R=301,L]
+
+# Page qui sommes-nous
+RewriteRule ^about\.html?$ https://%{HTTP_HOST}/qui-sommes-nous/ [R=301,L]
+RewriteRule ^a-propos\.html?$ https://%{HTTP_HOST}/qui-sommes-nous/ [R=301,L]
+RewriteRule ^equipe\.html?$ https://%{HTTP_HOST}/qui-sommes-nous/ [R=301,L]
+
+# Page réalisations
+RewriteRule ^portfolio\.html?$ https://%{HTTP_HOST}/realisations/ [R=301,L]
+RewriteRule ^projets\.html?$ https://%{HTTP_HOST}/realisations/ [R=301,L]
+RewriteRule ^galerie\.html?$ https://%{HTTP_HOST}/realisations/ [R=301,L]
+RewriteRule ^travaux\.html?$ https://%{HTTP_HOST}/realisations/ [R=301,L]
+
+# Page devis
+RewriteRule ^contact\.html?$ https://%{HTTP_HOST}/devis/ [R=301,L]
+RewriteRule ^demande-devis\.html?$ https://%{HTTP_HOST}/devis/ [R=301,L]
+RewriteRule ^estimation\.html?$ https://%{HTTP_HOST}/devis/ [R=301,L]
+
+# Pages de compétences spécifiques
+RewriteRule ^marquage-parking\.html?$ https://%{HTTP_HOST}/competences/tracage-retracage-parking/ [R=301,L]
+RewriteRule ^tracage-parking\.html?$ https://%{HTTP_HOST}/competences/tracage-retracage-parking/ [R=301,L]
+RewriteRule ^retracage-parking\.html?$ https://%{HTTP_HOST}/competences/tracage-retracage-parking/ [R=301,L]
+
+RewriteRule ^panneaux-signalisation\.html?$ https://%{HTTP_HOST}/competences/signalisation-verticale/ [R=301,L]
+RewriteRule ^signalisation\.html?$ https://%{HTTP_HOST}/competences/signalisation-verticale/ [R=301,L]
+RewriteRule ^panneaux\.html?$ https://%{HTTP_HOST}/competences/signalisation-verticale/ [R=301,L]
+
+RewriteRule ^resine-sol\.html?$ https://%{HTTP_HOST}/competences/resine-sol-marquage-interieur/ [R=301,L]
+RewriteRule ^marquage-interieur\.html?$ https://%{HTTP_HOST}/competences/resine-sol-marquage-interieur/ [R=301,L]
+RewriteRule ^revetement-sol\.html?$ https://%{HTTP_HOST}/competences/resine-sol-marquage-interieur/ [R=301,L]
+
+RewriteRule ^reparation-route\.html?$ https://%{HTTP_HOST}/competences/reparation-nids-de-poule/ [R=301,L]
+RewriteRule ^nids-poule\.html?$ https://%{HTTP_HOST}/competences/reparation-nids-de-poule/ [R=301,L]
+RewriteRule ^reparation-chaussee\.html?$ https://%{HTTP_HOST}/competences/reparation-nids-de-poule/ [R=301,L]
+
+RewriteRule ^equipements-parking\.html?$ https://%{HTTP_HOST}/competences/accessoires-parking/ [R=301,L]
+RewriteRule ^bornes-parking\.html?$ https://%{HTTP_HOST}/competences/accessoires-parking/ [R=301,L]
+RewriteRule ^accessoires\.html?$ https://%{HTTP_HOST}/competences/accessoires-parking/ [R=301,L]
+
+RewriteRule ^conseil\.html?$ https://%{HTTP_HOST}/competences/conseil-expertise/ [R=301,L]
+RewriteRule ^expertise\.html?$ https://%{HTTP_HOST}/competences/conseil-expertise/ [R=301,L]
+RewriteRule ^accompagnement\.html?$ https://%{HTTP_HOST}/competences/conseil-expertise/ [R=301,L]
+
+# Redirections avec paramètres
+RewriteRule ^services/([^/]+)\.html?$ https://%{HTTP_HOST}/competences/ [R=301,L]
+RewriteRule ^competences/([^/]+)\.html?$ https://%{HTTP_HOST}/competences/$1/ [R=301,L]
+
+# Redirections d'anciens formats d'URL
+RewriteRule ^page/([^/]+)\.html?$ https://%{HTTP_HOST}/$1/ [R=301,L]
+RewriteRule ^category/([^/]+)\.html?$ https://%{HTTP_HOST}/competences/$1/ [R=301,L]
+
+# Redirections de l'ancien site
+RewriteRule ^old-site/(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+RewriteRule ^ancien-site/(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+# Redirection /tarifs/ vers le guide de prix pertinent
+RewriteRule ^tarifs/?$ https://%{HTTP_HOST}/guides/prix-marquage-sol-parking/ [R=301,L]
 
 # Gestion des erreurs personnalisées
 ErrorDocument 404 /404.html

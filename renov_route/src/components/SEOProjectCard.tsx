@@ -1,4 +1,5 @@
-import Script from 'next/script';
+'use client'
+
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -94,7 +95,7 @@ export default function SEOProjectCard({
       case 'in-progress':
         return 'bg-yellow-100 text-yellow-800';
       case 'planned':
-        return 'bg-blue-100 text-blue-800';
+        return 'bg-amber-500/15 text-amber-400';
       default:
         return 'bg-gray-100 text-gray-800';
     }
@@ -103,13 +104,13 @@ export default function SEOProjectCard({
   const getCtaClass = () => {
     switch (project.cta?.type) {
       case 'primary':
-        return 'bg-blue-600 text-white hover:bg-blue-700';
+        return 'bg-amber-500 text-gray-900 hover:bg-amber-400';
       case 'secondary':
         return 'bg-gray-600 text-white hover:bg-gray-700';
       case 'outline':
-        return 'border border-blue-600 text-blue-600 hover:bg-blue-50';
+        return 'border border-amber-500 text-amber-400 hover:bg-amber-500/10';
       default:
-        return 'bg-blue-600 text-white hover:bg-blue-700';
+        return 'bg-amber-500 text-gray-900 hover:bg-amber-400';
     }
   };
 
@@ -183,7 +184,7 @@ export default function SEOProjectCard({
                   {project.title}
                 </h3>
                 {project.category && (
-                  <span className="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full">
+                  <span className="inline-block bg-amber-500/15 text-amber-400 text-xs px-2 py-1 rounded-full">
                     {project.category}
                   </span>
                 )}
@@ -348,8 +349,8 @@ export default function SEOProjectCard({
         </div>
       </div>
       
-      <Script
-        id="project-card-structured-data"
+      <script
+       
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(structuredData)

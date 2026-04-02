@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "FAQ Marquage au Sol - Questions Fréquentes",
   description:
-    "Réponses à vos questions sur le marquage au sol, peinture parking et réparation nids de poule à Lyon et dans le Rhône. Conseils d'experts.",
+    "Réponses à vos questions sur le marquage au sol, peinture parking et réparation nids de poule à Lyon et Rhône-Alpes. Conseils d'experts Rénov Route.",
   alternates: {
     canonical: "https://renov-route.com/faq/",
   },

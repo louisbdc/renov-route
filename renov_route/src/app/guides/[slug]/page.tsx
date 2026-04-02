@@ -1,11 +1,9 @@
 import type { Metadata } from 'next'
 import { guides } from '@/lib/guides'
 import CONTENT_MAP from '@/lib/guides/content-map'
-import FAQ_DATA from '@/lib/guides/faq-data'
 import GuidePageLayout from '@/components/GuidePageLayout'
 import ArticleSchema from '@/components/ArticleSchema'
 import BreadcrumbSchema from '@/components/BreadcrumbSchema'
-import FAQSchema from '@/components/FAQSchema'
 import { notFound } from 'next/navigation'
 
 type Props = {
@@ -55,7 +53,6 @@ export default async function GuidePage({ params }: Props) {
   if (!ContentComponent) return notFound()
 
   const url = `https://renov-route.com/guides/${guide.slug}/`
-  const faqItems = FAQ_DATA[slug] ?? []
 
   return (
     <>
@@ -73,7 +70,6 @@ export default async function GuidePage({ params }: Props) {
           { name: guide.title, url },
         ]}
       />
-      {faqItems.length > 0 && <FAQSchema items={faqItems} />}
       <GuidePageLayout guide={guide}>
         <ContentComponent />
       </GuidePageLayout>

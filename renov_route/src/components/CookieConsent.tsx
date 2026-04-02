@@ -16,7 +16,7 @@ export default function CookieConsent({ className = '' }: CookieConsentProps) {
 
   useEffect(() => {
     if (!isLoading && !hasConsent) {
-      const timer = setTimeout(() => setIsVisible(true), 2500)
+      const timer = setTimeout(() => setIsVisible(true), 100)
       return () => clearTimeout(timer)
     } else if (hasConsent) {
       setIsVisible(false)
@@ -29,16 +29,20 @@ export default function CookieConsent({ className = '' }: CookieConsentProps) {
 
   const handleAcceptAll = () => {
     acceptAll()
+    GoogleAnalytics.getInstance().enable()
+    GoogleAnalytics.getInstance().trackCookieConsent('accept_all')
     setIsVisible(false)
   }
 
   const handleRejectAll = () => {
+    GoogleAnalytics.getInstance().trackCookieConsent('reject_all')
     rejectAll()
     GoogleAnalytics.getInstance().disable()
     setIsVisible(false)
   }
 
   const handleCustomize = () => {
+    GoogleAnalytics.getInstance().trackCookieConsent('customize')
     setShowDetails(!showDetails)
   }
 
@@ -65,9 +69,9 @@ export default function CookieConsent({ className = '' }: CookieConsentProps) {
                         <input
                           type="checkbox"
                           id="necessary"
-                          checked={consent?.necessary || false}
+                          checked={true}
                           disabled
-                          className="mt-1 w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 focus:ring-2"
+                          className="mt-1 w-4 h-4 text-amber-400 bg-gray-100 border-gray-300 rounded focus:ring-amber-500 focus:ring-2"
                         />
                         <div>
                           <label htmlFor="necessary" className="font-medium text-white text-base">
@@ -85,7 +89,7 @@ export default function CookieConsent({ className = '' }: CookieConsentProps) {
                           id="analytics-details"
                           checked={consent?.analytics || false}
                           onChange={(e) => updateConsent({ analytics: e.target.checked })}
-                          className="mt-1 w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 focus:ring-2"
+                          className="mt-1 w-4 h-4 text-amber-400 bg-gray-100 border-gray-300 rounded focus:ring-amber-500 focus:ring-2"
                         />
                         <div>
                           <label htmlFor="analytics-details" className="font-medium text-white text-base cursor-pointer">
@@ -118,7 +122,7 @@ export default function CookieConsent({ className = '' }: CookieConsentProps) {
 
                 <button
                   onClick={handleAcceptAll}
-                  className="px-4 py-2 text-sm font-semibold text-white bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 rounded-[0.75rem] transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
+                  className="px-4 py-2 text-sm font-semibold text-white bg-gradient-to-r from-amber-500 to-amber-400 hover:from-amber-600 hover:to-amber-500 rounded-[0.75rem] transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
                 >
                   Accepter tout
                 </button>
@@ -129,7 +133,7 @@ export default function CookieConsent({ className = '' }: CookieConsentProps) {
               <div className="flex flex-wrap gap-4 text-xs text-gray-300">
                 <Link
                   href="/privacy-policy"
-                  className="hover:text-blue-400 transition-colors duration-300"
+                  className="hover:text-amber-400 transition-colors duration-300"
                 >
                   Politique de confidentialité
                 </Link>
@@ -140,7 +144,7 @@ export default function CookieConsent({ className = '' }: CookieConsentProps) {
                       window.location.reload()
                     }
                   }}
-                  className="hover:text-blue-400 transition-colors duration-300"
+                  className="hover:text-amber-400 transition-colors duration-300"
                 >
                   Supprimer tous les cookies
                 </button>
@@ -177,7 +181,7 @@ export function CookiePreferences() {
       <div className="p-4 sm:p-6 glassmorphism-card backdrop-blur-md border border-yellow-500/30 rounded-[1rem]">
         <p className="text-yellow-300">
           Aucune préférence de cookies définie.
-          <Link href="/" className="underline ml-1 text-blue-400 hover:text-blue-300 transition-colors">Retourner à l&apos;accueil</Link>
+          <Link href="/" className="underline ml-1 text-amber-400 hover:text-amber-300 transition-colors">Retourner à l&apos;accueil</Link>
         </p>
       </div>
     )
@@ -220,7 +224,7 @@ export function CookiePreferences() {
                 onChange={(e) => handleAnalyticsChange(e.target.checked)}
                 className="sr-only peer"
               />
-              <div className="w-11 h-6 bg-gray-600 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-500/30 rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-gradient-to-r peer-checked:from-blue-500 peer-checked:to-cyan-500"></div>
+              <div className="w-11 h-6 bg-gray-600 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-amber-500/30 rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-gradient-to-r peer-checked:from-amber-500 peer-checked:to-amber-400"></div>
             </label>
           </div>
         </div>
@@ -240,7 +244,7 @@ export function CookiePreferences() {
             </button>
             <button
               onClick={handleSave}
-              className="px-4 py-2 text-sm font-semibold text-white bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 rounded-[0.75rem] transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
+              className="px-4 py-2 text-sm font-semibold text-white bg-gradient-to-r from-amber-500 to-amber-400 hover:from-amber-600 hover:to-amber-500 rounded-[0.75rem] transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
             >
               {isSaved ? 'Sauvegardé' : 'Sauvegarder'}
             </button>

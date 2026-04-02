@@ -1,4 +1,4 @@
-import Script from 'next/script';
+'use client'
 
 interface BreadcrumbItem {
   name: string;
@@ -22,8 +22,7 @@ export default function BreadcrumbSchema({ items }: BreadcrumbSchemaProps) {
   };
 
   return (
-    <Script
-      id="breadcrumb-structured-data"
+    <script
       type="application/ld+json"
       dangerouslySetInnerHTML={{
         __html: JSON.stringify(structuredData)

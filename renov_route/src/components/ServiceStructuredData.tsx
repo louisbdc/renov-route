@@ -1,4 +1,4 @@
-import Script from 'next/script';
+'use client'
 
 interface ServiceStructuredDataProps {
   serviceType: 'reparation-nids-de-poule' | 'tracage-retracage-parking' | 'signalisation-verticale' | 'resine-sol-marquage-interieur' | 'accessoires-parking' | 'conseil-expertise';
@@ -181,7 +181,7 @@ export default function ServiceStructuredData({ serviceType }: ServiceStructured
   };
 
   return (
-    <Script
+    <script
       id={`service-structured-data-${serviceType}`}
       type="application/ld+json"
       dangerouslySetInnerHTML={{

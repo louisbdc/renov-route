@@ -48,7 +48,7 @@ export default function Content() {
         <li>Le parking est-il ouvert au public ou réservé ?</li>
       </ul>
       <p>
-        Quand Laurent, responsable technique d&apos;un Intermarché près de Bourg-en-Bresse, a voulu retracer son parking de 3 200 m², il a d&apos;abord fait réaliser un relevé topographique. Le terrain avait une pente de 3 % sur la partie nord, invisible à l&apos;œil nu. Sans ce relevé, les places de la zone basse auraient été 20 cm plus étroites que prévu à cause du ruissellement qui avait érodé le bord d&apos;enrobé. Le diagnostic a coûté 400 euros ; il a évité 6 000 euros de reprises.
+        Quand Laurent, responsable technique d&apos;un Intermarché près de Bourg-en-Bresse, a voulu retracer son parking de 3 200 m², il a d&apos;abord fait réaliser un relevé topographique. Le terrain avait une pente de 3 % sur la partie nord, invisible à l&apos;œil nu. Sans ce relevé, les places de la zone basse auraient été 20 cm plus étroites que prévu à cause du ruissellement qui avait érodé le bord d&apos;enrobé. Le diagnostic a représenté un investissement modeste qui a évité plusieurs milliers d&apos;euros de reprises.
       </p>
       <p>
         <strong>Vous avez un projet de traçage de parking ?</strong> <Link href="/devis">Demandez un diagnostic gratuit</Link> à nos experts. Nous réalisons le relevé et vous proposons un plan de marquage sous 24h.
@@ -209,7 +209,7 @@ export default function Content() {
         <li>Application d&apos;un primaire d&apos;adhérence avant la peinture</li>
       </ul>
       <p>
-        Nadia, syndic d&apos;une résidence de 80 lots à Villeurbanne, a fait tracer son parking sans préparation préalable. Le prestataire a peint directement sur un enrobé taché d&apos;huile par 15 ans de stationnement. Résultat : le marquage s&apos;est décollé en moins de 6 semaines aux endroits les plus graissés. La reprise a coûté 2 800 euros, nettoyage haute pression compris. Le premier traçage aurait coûté 1 500 euros de plus avec une préparation correcte.
+        Nadia, syndic d&apos;une résidence de 80 lots à Villeurbanne, a fait tracer son parking sans préparation préalable. Le prestataire a peint directement sur un enrobé taché d&apos;huile par 15 ans de stationnement. Résultat : le marquage s&apos;est décollé en moins de 6 semaines aux endroits les plus graissés. La reprise a coûté près du double du traçage initial, nettoyage haute pression compris. Une préparation correcte dès le départ aurait coûté bien moins cher.
       </p>
 
       <h2>Étape 5 : choisir la bonne peinture</h2>
@@ -229,19 +229,19 @@ export default function Content() {
           <tbody>
             <tr>
               <td>Acrylique à l&apos;eau</td>
-              <td>8-12 euros</td>
+              <td>à partir de 8 euros</td>
               <td>2-3 ans</td>
               <td>Copropriétés, trafic modéré</td>
             </tr>
             <tr>
               <td>Thermoplastique</td>
-              <td>15-25 euros</td>
+              <td>à partir de 15 euros</td>
               <td>4-6 ans</td>
               <td>Grandes surfaces, fort trafic</td>
             </tr>
             <tr>
               <td>Résine époxy/PU</td>
-              <td>25-45 euros</td>
+              <td>à partir de 30 euros</td>
               <td>5-10 ans</td>
               <td>Parkings souterrains, industriel</td>
             </tr>
@@ -382,7 +382,7 @@ export default function Content() {
         Un parking avec des lignes au sol mais sans panneaux STOP, sans signalisation PMR et sans limitation de vitesse n&apos;est pas conforme. Et en cas d&apos;accident, la responsabilité du gestionnaire est engagée.
       </p>
       <p>
-        Damien, directeur d&apos;un hôtel-restaurant à Brignais, a fait tracer son parking de 35 places par un peintre en bâtiment. Pas de plan, pas de places PMR, pas de panneaux. Lors d&apos;un contrôle de la commission de sécurité, l&apos;établissement a reçu une mise en demeure de mise en conformité sous 6 mois. Damien a dû refaire l&apos;intégralité du marquage avec un prestataire spécialisé, installer des panneaux et créer 2 places PMR. Coût total : 8 500 euros, soit trois fois le prix d&apos;un traçage professionnel fait correctement dès le départ.
+        Damien, directeur d&apos;un hôtel-restaurant à Brignais, a fait tracer son parking de 35 places par un peintre en bâtiment. Pas de plan, pas de places PMR, pas de panneaux. Lors d&apos;un contrôle de la commission de sécurité, l&apos;établissement a reçu une mise en demeure de mise en conformité sous 6 mois. Damien a dû refaire l&apos;intégralité du marquage avec un prestataire spécialisé, installer des panneaux et créer 2 places PMR. Le coût total a représenté environ trois fois le prix d&apos;un traçage professionnel fait correctement dès le départ.
       </p>
 
       <h2>Tracer soi-même ou faire appel à un professionnel ?</h2>
@@ -410,7 +410,7 @@ export default function Content() {
         <li>Un interlocuteur unique du diagnostic à la réception</li>
       </ul>
       <p>
-        Pour un parking de 50 places, le coût d&apos;un traçage professionnel se situe entre 3 000 et 6 000 euros selon le type de peinture et l&apos;état du support.
+        Pour un parking de 50 places, le coût d&apos;un traçage professionnel se situe à partir de 4 000 euros selon le type de peinture et l&apos;état du support.
       </p>
 
       <h2>FAQ : tracer un parking</h2>
@@ -437,7 +437,7 @@ export default function Content() {
 
       <h3>Combien coûte le traçage d&apos;un parking ?</h3>
       <p>
-        Le prix varie selon la surface, le type de peinture et l&apos;état du support. En moyenne : 8 à 15 euros/m² en peinture acrylique, 15 à 25 euros/m² en thermoplastique. Pour un parking de 50 places (environ 500 m² de marquage), comptez entre 3 000 et 7 000 euros. Consultez notre guide <Link href="/guides/prix-marquage-sol-parking">prix du marquage au sol de parking</Link> pour un budget détaillé.
+        Le prix varie selon la surface, le type de peinture et l&apos;état du support. En ordre de grandeur : à partir de 8 euros/m² en peinture acrylique, à partir de 15 euros/m² en thermoplastique. Pour un parking de 50 places, comptez à partir de 4 000 euros. Consultez notre guide <Link href="/guides/prix-marquage-sol-parking">prix du marquage au sol de parking</Link> pour un budget détaillé.
       </p>
 
       <h2>Conclusion : un traçage réussi se prépare</h2>

@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { GoogleAnalytics } from '@/lib/analytics';
 
 interface Testimonial {
   id: string;
@@ -68,18 +69,25 @@ export default function TestimonialCarousel({ className = '' }: TestimonialCarou
     return () => clearInterval(interval);
   }, [isAutoPlaying]);
 
+  const ga = GoogleAnalytics.getInstance()
+
   const goToSlide = (index: number) => {
+    ga.trackTestimonialNav('dot', index);
     setCurrentIndex(index);
     setIsAutoPlaying(false);
   };
 
   const nextSlide = () => {
-    setCurrentIndex((prev) => (prev + 1) % testimonials.length);
+    const newIndex = (currentIndex + 1) % testimonials.length;
+    ga.trackTestimonialNav('next', newIndex);
+    setCurrentIndex(newIndex);
     setIsAutoPlaying(false);
   };
 
   const prevSlide = () => {
-    setCurrentIndex((prev) => (prev - 1 + testimonials.length) % testimonials.length);
+    const newIndex = (currentIndex - 1 + testimonials.length) % testimonials.length;
+    ga.trackTestimonialNav('prev', newIndex);
+    setCurrentIndex(newIndex);
     setIsAutoPlaying(false);
   };
 

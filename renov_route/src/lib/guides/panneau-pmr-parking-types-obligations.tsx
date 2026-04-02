@@ -6,12 +6,12 @@ export const meta: Guide = {
   title: 'Panneau PMR parking : types obligatoires, dimensions et guide de pose',
   metaTitle: 'Panneau PMR parking : types, obligations et pose',
   metaDescription:
-    'Panneau PMR parking : mod\u00e8les obligatoires, dimensions r\u00e9glementaires, hauteur de pose et prix. Guide complet pour la mise en conformit\u00e9 de vos places handicap\u00e9es.',
+    'Panneau PMR parking : modèles obligatoires, dimensions réglementaires, hauteur de pose et prix. Guide complet pour la mise en conformité de vos places handicapées.',
   publishDate: '2026-03-04',
   category: 'normes-pmr',
   readingTime: 10,
   excerpt:
-    'Types de panneaux PMR obligatoires en parking, dimensions r\u00e9glementaires, r\u00e8gles de pose et prix : tout savoir pour \u00eatre en conformit\u00e9.',
+    'Types de panneaux PMR obligatoires en parking, dimensions réglementaires, règles de pose et prix : tout savoir pour être en conformité.',
 }
 
 export default function Content() {
@@ -35,9 +35,9 @@ export default function Content() {
         &eacute;taient marqu&eacute;es au sol mais d&eacute;pourvues de
         panneaux. Apr&egrave;s un signalement, il a d&ucirc; faire poser les
         panneaux en urgence : 4 panneaux sur poteaux avec scellement, pour un
-        total de 1 200 euros. S&apos;il avait int&eacute;gr&eacute; la
+        investissement cons&eacute;quent. S&apos;il avait int&eacute;gr&eacute; la
         signalisation verticale d&egrave;s la cr&eacute;ation du parking, le
-        surco&ucirc;t aurait &eacute;t&eacute; de 600 euros (pose group&eacute;e
+        surco&ucirc;t aurait &eacute;t&eacute; bien moindre (pose group&eacute;e
         avec le tra&ccedil;age). L&apos;urgence a doubl&eacute; la facture.
       </p>
 
@@ -302,9 +302,9 @@ export default function Content() {
         des places, contre le mur. R&eacute;sultat : invisibles depuis la voie
         de circulation. Les conducteurs PMR passaient devant sans les voir et se
         garaient ailleurs. Il a fallu d&eacute;placer les 6 panneaux en
-        t&ecirc;te de place (co&ucirc;t suppl&eacute;mentaire : 480 euros de
-        main d&apos;oeuvre). La bonne position d&egrave;s le d&eacute;part
-        aurait &eacute;vit&eacute; ce surco&ucirc;t.
+        t&ecirc;te de place, engendrant un surco&ucirc;t
+        de main d&apos;oeuvre &eacute;vitable. La bonne position d&egrave;s le d&eacute;part
+        aurait &eacute;vit&eacute; cette d&eacute;pense suppl&eacute;mentaire.
       </p>
 
       <h3>Fixation</h3>
@@ -315,13 +315,13 @@ export default function Content() {
         <li>
           <strong>Scellement au sol</strong> : forage + scellement chimique dans
           le b&eacute;ton ou l&apos;enrob&eacute;. M&eacute;thode standard,
-          tenue 15-20 ans. Co&ucirc;t : 80-150 euros par poteau
+          tenue 15-20 ans. Co&ucirc;t : a partir de 100 euros par poteau
         </li>
         <li>
           <strong>Platine boulonn&eacute;e</strong> : platine en acier
           fix&eacute;e par chevilles chimiques. D&eacute;montable,
           adapt&eacute;e aux parkings souterrains ou aux dalles. Co&ucirc;t :
-          60-120 euros par poteau
+          a partir de 80 euros par poteau
         </li>
       </ul>
 
@@ -375,32 +375,32 @@ export default function Content() {
           <tbody>
             <tr>
               <td>Panneau B6d (rond 400 mm) + panonceau M6h</td>
-              <td>45-80 euros</td>
+              <td>a partir de 55 euros</td>
               <td>Aluminium, classe 1</td>
             </tr>
             <tr>
               <td>Panneau B6d (rond 600 mm) + panonceau M6h</td>
-              <td>65-120 euros</td>
+              <td>a partir de 80 euros</td>
               <td>Aluminium, classe 1 ou 2</td>
             </tr>
             <tr>
               <td>Panneau CE14 (carr&eacute; 500 mm)</td>
-              <td>50-90 euros</td>
+              <td>a partir de 60 euros</td>
               <td>Aluminium, classe 1</td>
             </tr>
             <tr>
               <td>Poteau acier galvanis&eacute; (3 m)</td>
-              <td>25-50 euros</td>
+              <td>a partir de 35 euros</td>
               <td>Diam&egrave;tre 60 mm</td>
             </tr>
             <tr>
               <td>Scellement au sol (par poteau)</td>
-              <td>80-150 euros</td>
+              <td>a partir de 100 euros</td>
               <td>Forage + scellement chimique</td>
             </tr>
             <tr>
               <td>Platine boulonn&eacute;e (par poteau)</td>
-              <td>60-120 euros</td>
+              <td>a partir de 80 euros</td>
               <td>Chevilles chimiques incluses</td>
             </tr>
           </tbody>
@@ -421,17 +421,17 @@ export default function Content() {
           <tbody>
             <tr>
               <td>Panneau + poteau + scellement</td>
-              <td>150-280 euros</td>
+              <td>a partir de 190 euros</td>
               <td>Installation compl&egrave;te sur parking ext&eacute;rieur</td>
             </tr>
             <tr>
               <td>Panneau mural (parking souterrain)</td>
-              <td>80-150 euros</td>
+              <td>a partir de 100 euros</td>
               <td>Fixation sur mur ou poteau existant</td>
             </tr>
             <tr>
               <td>Panneau sur poteau existant</td>
-              <td>60-100 euros</td>
+              <td>a partir de 70 euros</td>
               <td>Ajout de panonceau sur support en place</td>
             </tr>
           </tbody>
@@ -453,22 +453,22 @@ export default function Content() {
             <tr>
               <td>Commerce &lt; 50 places</td>
               <td>2</td>
-              <td>300-560 euros</td>
+              <td>a partir de 380 euros</td>
             </tr>
             <tr>
               <td>Supermarch&eacute; 100-200 places</td>
               <td>4-8</td>
-              <td>600-2 240 euros</td>
+              <td>a partir de 1 500 euros</td>
             </tr>
             <tr>
               <td>Centre commercial &gt; 500 places</td>
               <td>12-25</td>
-              <td>1 800-7 000 euros</td>
+              <td>a partir de 4 800 euros</td>
             </tr>
             <tr>
               <td>Clinique / h&ocirc;pital</td>
               <td>5-15</td>
-              <td>750-4 200 euros</td>
+              <td>a partir de 2 800 euros</td>
             </tr>
           </tbody>
         </table>
@@ -479,10 +479,9 @@ export default function Content() {
         &acirc;g&eacute;es &agrave; Oullins (69), devait &eacute;quiper 8
         places PMR en signalisation verticale. Elle a opt&eacute; pour des
         panneaux muraux fix&eacute;s sur les poteaux de structure du parking
-        couvert : 95 euros par place (panneau + fixation murale), soit 760 euros
-        au total. La m&ecirc;me installation en poteaux scell&eacute;s aurait
-        co&ucirc;t&eacute; 1 800 euros. Le choix du support existant a
-        r&eacute;duit la facture de 58%.
+        couvert, une solution bien plus &eacute;conomique que des poteaux
+        scell&eacute;s au sol. Le choix du support existant a
+        r&eacute;duit la facture de plus de moiti&eacute;.
       </p>
 
       <h2>Nombre de places PMR obligatoires</h2>
@@ -660,7 +659,7 @@ export default function Content() {
         C&apos;est l&apos;&eacute;l&eacute;ment qui rend la place PMR visible
         et utilisable. Sans panneau, la place existe sur le plan mais pas dans
         la r&eacute;alit&eacute; quotidienne des usagers PMR. Le co&ucirc;t est
-        modeste (150-280 euros par place en installation compl&egrave;te)
+        modeste (a partir de 190 euros par place en installation compl&egrave;te)
         compar&eacute; aux sanctions possibles (45 000 euros) et surtout
         compar&eacute; &agrave; l&apos;enjeu : permettre aux personnes &agrave;
         mobilit&eacute; r&eacute;duite d&apos;acc&eacute;der &agrave; vos
