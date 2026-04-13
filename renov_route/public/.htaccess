@@ -33,13 +33,63 @@ RewriteCond %{QUERY_STRING} (?:^|&)project=([a-z0-9-]+) [NC]
 RewriteRule ^realisations/?$ /realisations/%1/? [R=301,L]
 
 # Redirections géographiques vers les compétences correspondantes
+# IMPORTANT: Exclure les sections actuelles (/guides/, /competences/, etc.)
+# pour ne pas rediriger les nouvelles URLs vers les anciennes
+RewriteCond %{REQUEST_URI} !^/guides/
+RewriteCond %{REQUEST_URI} !^/competences/
+RewriteCond %{REQUEST_URI} !^/devis/
+RewriteCond %{REQUEST_URI} !^/realisations/
+RewriteCond %{REQUEST_URI} !^/qui-sommes-nous/
+RewriteCond %{REQUEST_URI} !^/marquage-au-sol-lyon/
 RewriteRule ^marquage-parking-([^/]+)/?$ /competences/tracage-retracage-parking/ [R=301,L]
+
+RewriteCond %{REQUEST_URI} !^/guides/
+RewriteCond %{REQUEST_URI} !^/competences/
+RewriteCond %{REQUEST_URI} !^/devis/
+RewriteCond %{REQUEST_URI} !^/realisations/
+RewriteCond %{REQUEST_URI} !^/qui-sommes-nous/
 RewriteRule ^tracage-parking-([^/]+)/?$ /competences/tracage-retracage-parking/ [R=301,L]
+
+RewriteCond %{REQUEST_URI} !^/guides/
+RewriteCond %{REQUEST_URI} !^/competences/
+RewriteCond %{REQUEST_URI} !^/devis/
+RewriteCond %{REQUEST_URI} !^/realisations/
+RewriteCond %{REQUEST_URI} !^/qui-sommes-nous/
 RewriteRule ^marquage-routier-([^/]+)/?$ /competences/tracage-retracage-parking/ [R=301,L]
+
+RewriteCond %{REQUEST_URI} !^/guides/
+RewriteCond %{REQUEST_URI} !^/competences/
+RewriteCond %{REQUEST_URI} !^/devis/
+RewriteCond %{REQUEST_URI} !^/realisations/
+RewriteCond %{REQUEST_URI} !^/qui-sommes-nous/
 RewriteRule ^reparation-nids-poule-([^/]+)/?$ /competences/reparation-nids-de-poule/ [R=301,L]
+
+RewriteCond %{REQUEST_URI} !^/guides/
+RewriteCond %{REQUEST_URI} !^/competences/
+RewriteCond %{REQUEST_URI} !^/devis/
+RewriteCond %{REQUEST_URI} !^/realisations/
+RewriteCond %{REQUEST_URI} !^/qui-sommes-nous/
 RewriteRule ^signalisation-([^/]+)/?$ /competences/signalisation-verticale/ [R=301,L]
+
+RewriteCond %{REQUEST_URI} !^/guides/
+RewriteCond %{REQUEST_URI} !^/competences/
+RewriteCond %{REQUEST_URI} !^/devis/
+RewriteCond %{REQUEST_URI} !^/realisations/
+RewriteCond %{REQUEST_URI} !^/qui-sommes-nous/
 RewriteRule ^accessoires-parking-([^/]+)/?$ /competences/accessoires-parking/ [R=301,L]
+
+RewriteCond %{REQUEST_URI} !^/guides/
+RewriteCond %{REQUEST_URI} !^/competences/
+RewriteCond %{REQUEST_URI} !^/devis/
+RewriteCond %{REQUEST_URI} !^/realisations/
+RewriteCond %{REQUEST_URI} !^/qui-sommes-nous/
 RewriteRule ^resine-sol-([^/]+)/?$ /competences/resine-sol-marquage-interieur/ [R=301,L]
+
+RewriteCond %{REQUEST_URI} !^/guides/
+RewriteCond %{REQUEST_URI} !^/competences/
+RewriteCond %{REQUEST_URI} !^/devis/
+RewriteCond %{REQUEST_URI} !^/realisations/
+RewriteCond %{REQUEST_URI} !^/qui-sommes-nous/
 RewriteRule ^conseil-expertise-([^/]+)/?$ /competences/conseil-expertise/ [R=301,L]
 
 # Redirections d'anciens formats d'URL
