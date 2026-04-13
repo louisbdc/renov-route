@@ -5,7 +5,7 @@ export const meta: Guide = {
   slug: 'code-de-la-route-marquage-au-sol',
   title: 'Code de la route marquage au sol : guide complet 2026',
   metaTitle: 'Code de la route marquage au sol : guide complet | Renov&apos;Route',
-  metaDescription: 'Tout savoir sur le marquage au sol code de la route : lignes, couleurs, fl&egrave;ches, passages pi&eacute;tons. Signification, normes NF EN 1436 et entretien. Guide expert.',
+  metaDescription: 'Interprétez chaque marquage au sol : lignes, couleurs, symboles. Normes, signification et obligations. Expert depuis 2014.',
   publishDate: '2026-03-31',
   category: 'marquage-parking',
   readingTime: 12,
