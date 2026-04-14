@@ -1,11 +1,7 @@
-# Robots.txt - Renov Route
-# https://renov-route.com
-
 User-agent: *
 Allow: /
 Allow: /_next/static/
 
-# Fichiers techniques
 Disallow: /_next/
 Disallow: /api/
 Disallow: /admin/
@@ -15,15 +11,8 @@ Disallow: /out/
 Disallow: /*.json
 Disallow: /*.map
 
-# Pages fantomes Wix et parametres lightbox
 Disallow: /*?lightbox=*
 
-# IMPORTANT: N'bloquer PAS les URLs qui sont redirigees en 301 dans .htaccess
-# Les anciennes URLs /home, /blank*, /realisations?project=* sont toutes redirigees
-# Laisser Google les crawler → voir la 301 → suivre la redirection
-# Bloquer + rediriger = erreur d'indexation dans GSC
-
-# Crawl-delay pour bots specifiques
 User-agent: Bingbot
 Crawl-delay: 2
 
