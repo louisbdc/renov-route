@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     default: "Rénov Route : Marquage au Sol & Réparation Route Lyon (69)",
     template: "%s | Rénov Route"
   },
-  description: "Spécialiste du marquage au sol et rénovation de parking à Lyon et Rhône-Alpes depuis 2014. Plus de 1 000 projets réalisés. Devis gratuit sous 24h.",
+  description: "Marquage au sol à Lyon : traçage parking, peinture routière, nids de poule. Devis gratuit, intervention sous 48h. 1 000+ projets depuis 2014.",
   applicationName: 'Renov Route',
   manifest: '/manifest.json',
   appleWebApp: {

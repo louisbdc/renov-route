@@ -22,16 +22,9 @@ Disallow: /blank-1
 Disallow: /blank-2
 Disallow: /*?lightbox=*
 
-# Anciennes URLs a ne plus crawler (redirections 301)
-Disallow: /marquage-routier-lyon-69
-Disallow: /peinture-marquage-sol-parking-lyon
-Disallow: /rebouchage-nids-poules-rhones-alpes
-Disallow: /auvergne-rhone-alpes
-Disallow: /devis-gratuit
-Disallow: /devis-tracage-gratuit
-Disallow: /nos-references
-Disallow: /services/renovation-parking
-Disallow: /contact
+# Anciennes URLs a ne plus crawler (redirections 301 gerees par .htaccess)
+# Les anciennes URLs ne sont PAS bloquees ici - les redirections 301 du .htaccess les gerent
+# Bloquer une URL qui est redirigee cree une contradiction et cause une erreur d'indexation
 
 # Ancien format realisations avec parametres
 Disallow: /realisations?*
