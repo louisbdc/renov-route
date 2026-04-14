@@ -156,13 +156,13 @@ export default function CompetencesPage() {
           <section className="py-16 sm:py-20 px-4 bg-[#0C0F14]">
             <div className="max-w-6xl mx-auto">
               <h2 className="text-2xl sm:text-3xl font-bold text-white mb-10 font-display">Nos domaines d&apos;intervention</h2>
-              <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-px bg-white/5 rounded-2xl overflow-hidden border border-white/5">
+              <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-px bg-[#0C0F14] rounded-2xl overflow-hidden border border-white/10">
                 {SERVICES.map((service) => (
                   <Link
                     key={service.slug}
                     href={`/competences/${service.slug}`}
                     onClick={() => trackServiceInterest(service.title)}
-                    className="group relative flex flex-col p-6 sm:p-8 bg-[#0C0F14] hover:bg-[#1a1f2a] transition-colors"
+                    className="group relative flex flex-col p-6 sm:p-8 bg-[#1a1f2a] border border-white/10 hover:bg-[#242b37] hover:border-white/15 transition-colors"
                   >
                     <div className="flex items-start justify-between mb-6">
                       <span className="text-xs font-mono text-gray-600 tabular-nums">{service.num}</span>
