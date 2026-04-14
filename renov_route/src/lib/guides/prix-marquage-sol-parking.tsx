@@ -5,7 +5,7 @@ export const meta: Guide = {
   slug: 'prix-marquage-sol-parking',
   title: 'Prix marquage au sol parking : tarifs détaillés et devis (2026)',
   metaTitle: 'Prix marquage au sol parking : tarifs 2026 | Rénov\'Route',
-  metaDescription: 'Prix marquage au sol de parking à partir de 5 €/m² selon le type. Fourchettes de tarifs, facteurs de prix et devis gratuit sous 24h.',
+  metaDescription: 'Marquage parking copropriété : tarifs, solutions, conformité. Prix et devis gratuit sous 24h.',
   publishDate: '2026-03-04',
   category: 'prix-tarifs',
   readingTime: 10,

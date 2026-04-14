@@ -5,7 +5,7 @@ export const meta: Guide = {
   slug: 'logo-parking-pictogrammes',
   title: 'Logo parking : guide complet des pictogrammes et marquage au sol',
   metaTitle: 'Logo parking : pictogrammes, normes et marquage | Renov\u2019Route',
-  metaDescription: 'Guide complet sur les logos et pictogrammes parking : PMR, velo, electrique, direction. Normes, dimensions, techniques de marquage au sol. Devis gratuit sous 24h.',
+  metaDescription: 'Logo parking : pictogrammes, normes, marquage. PMR, vélo, électrique. Guide + devis gratuit.',
   publishDate: '2026-03-31',
   category: 'marquage-parking',
   readingTime: 12,

@@ -5,7 +5,7 @@ export const meta: Guide = {
   slug: 'mise-en-conformite-parking-pmr',
   title: 'Mise en conformité parking PMR : obligations, sanctions et coûts 2026',
   metaTitle: 'Conformité accessibilité parking PMR 2026 : sanctions et coûts',
-  metaDescription: 'Parking non-conforme PMR ? Risque d\'amende jusqu\'à 45 000 EUR. Étapes, coûts et timeline pour vous mettre aux normes. Devis gratuit.',
+  metaDescription: 'Aménagement PMR parking : conformité, sanctions jusqu\'à 45 000 EUR. Étapes, coûts, timeline. Devis gratuit.',
   publishDate: '2026-03-04',
   updatedDate: '2026-03-31',
   category: 'normes-pmr',
