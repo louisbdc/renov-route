@@ -134,7 +134,7 @@ export default function ServicePageLayout({
                     initial={{ opacity: 0, x: 16 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.4, delay: 0.1 + i * 0.07 }}
-                    className="flex items-start gap-4 p-4 sm:p-5 rounded-xl border border-white/10 bg-[#1a1f2a] hover:border-white/20 transition-colors"
+                    className="flex items-start gap-4 p-4 sm:p-5 rounded-xl border border-white/10 bg-[#141922] hover:border-white/20 transition-colors"
                   >
                     <div className="mt-0.5 text-amber-400 flex-shrink-0 text-xl">{feature.icon}</div>
                     <div>
@@ -211,7 +211,7 @@ export function ServiceItemsGrid({
           {items.map((item, i) => (
             <div
               key={i}
-              className="p-5 rounded-xl border border-white/10 bg-[#1a1f2a] hover:border-white/20 hover:bg-[#1d222d] transition-colors"
+              className="p-5 rounded-xl border border-white/10 bg-[#141922] hover:border-white/20 hover:bg-[#1d222d] transition-colors"
             >
               <div className="text-amber-400 mb-3 text-2xl">{item.icon}</div>
               <h3 className="font-semibold text-white mb-2">{item.title}</h3>

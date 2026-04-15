@@ -68,7 +68,7 @@ export default function ContactPage() {
               <div className="grid lg:grid-cols-2 gap-8 mb-8">
                 {/* Coordonnées */}
                 <MotionDiv
-                  className="p-8 rounded-2xl border border-white/10 bg-[#1a1f2a]"
+                  className="p-8 rounded-2xl border border-white/10 bg-[#141922]"
                   initial={{ opacity: 0, x: -20 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.5, delay: 0.1 }}
@@ -151,7 +151,7 @@ export default function ContactPage() {
 
               {/* À Propos */}
               <MotionDiv
-                className="max-w-4xl mx-auto p-8 rounded-2xl border border-white/10 bg-[#1a1f2a]"
+                className="max-w-4xl mx-auto p-8 rounded-2xl border border-white/10 bg-[#141922]"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.3 }}

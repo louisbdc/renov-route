@@ -160,7 +160,7 @@ export default function Home() {
               ].map((stat, index) => (
                 <MotionDiv
                   key={index}
-                  className="text-center p-5 rounded-xl border border-white/10 bg-[#1a1f2a]"
+                  className="text-center p-5 rounded-xl border border-white/10 bg-[#141922]"
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
@@ -230,7 +230,7 @@ export default function Home() {
               ].map((item, index) => (
                 <MotionDiv
                   key={index}
-                  className="relative p-6 rounded-xl border border-white/10 bg-[#1a1f2a] text-center"
+                  className="relative p-6 rounded-xl border border-white/10 bg-[#141922] text-center"
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
@@ -274,7 +274,7 @@ export default function Home() {
               {services.map((service, index) => (
                 <Link key={index} href={service.href}>
                   <MotionDiv
-                    className="h-full p-6 rounded-xl border border-white/10 bg-[#1a1f2a] hover:border-white/20 hover:bg-[#1d222d] transition-colors group"
+                    className="h-full p-6 rounded-xl border border-white/10 bg-[#141922] hover:border-white/20 hover:bg-[#1d222d] transition-colors group"
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
@@ -379,7 +379,7 @@ export default function Home() {
               ].map((review, index) => (
                 <MotionDiv
                   key={index}
-                  className="p-6 rounded-xl border border-white/10 bg-[#1a1f2a]"
+                  className="p-6 rounded-xl border border-white/10 bg-[#141922]"
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
@@ -402,7 +402,7 @@ export default function Home() {
             </div>
 
             <MotionDiv
-              className="text-center mt-10 p-6 sm:p-8 rounded-xl border border-white/10 bg-[#1a1f2a]"
+              className="text-center mt-10 p-6 sm:p-8 rounded-xl border border-white/10 bg-[#141922]"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -454,7 +454,7 @@ export default function Home() {
               ].map((guide, index) => (
                 <Link key={guide.href} href={guide.href}>
                   <MotionDiv
-                    className="h-full p-6 rounded-xl border border-white/10 bg-[#1a1f2a] hover:border-white/20 hover:bg-[#1d222d] transition-colors group"
+                    className="h-full p-6 rounded-xl border border-white/10 bg-[#141922] hover:border-white/20 hover:bg-[#1d222d] transition-colors group"
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
@@ -484,7 +484,7 @@ export default function Home() {
             </div>
 
             <MotionDiv
-              className="max-w-2xl p-6 sm:p-8 rounded-2xl border border-white/10 bg-[#1a1f2a]"
+              className="max-w-2xl p-6 sm:p-8 rounded-2xl border border-white/10 bg-[#141922]"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}

@@ -165,7 +165,7 @@ export default function GuidePageLayout({ guide, children }: GuidePageLayoutProp
                   <Link
                     key={related.slug}
                     href={`/guides/${related.slug}`}
-                    className="p-5 rounded-xl border border-white/10 bg-[#1a1f2a] hover:border-white/20 hover:bg-[#1d222d] transition-colors group"
+                    className="p-5 rounded-xl border border-white/10 bg-[#141922] hover:border-white/20 hover:bg-[#1d222d] transition-colors group"
                   >
                     <span className="text-xs text-amber-400 font-medium">
                       {GUIDE_CATEGORIES[related.category]}

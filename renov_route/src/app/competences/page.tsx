@@ -162,7 +162,7 @@ export default function CompetencesPage() {
                     key={service.slug}
                     href={`/competences/${service.slug}`}
                     onClick={() => trackServiceInterest(service.title)}
-                    className="group relative flex flex-col p-6 sm:p-8 bg-[#1a1f2a] border border-white/10 hover:bg-[#242b37] hover:border-white/15 transition-colors"
+                    className="group relative flex flex-col p-6 sm:p-8 bg-[#141922] border border-white/10 hover:bg-[#242b37] hover:border-white/15 transition-colors"
                   >
                     <div className="flex items-start justify-between mb-6">
                       <span className="text-xs font-mono text-gray-600 tabular-nums">{service.num}</span>
@@ -208,7 +208,7 @@ export default function CompetencesPage() {
                   <Link
                     key={guide.href}
                     href={guide.href}
-                    className="group flex items-start gap-4 p-5 rounded-xl border border-white/5 bg-[#1a1f2a] hover:border-white/15 hover:bg-[#1d222d] transition-colors"
+                    className="group flex items-start gap-4 p-5 rounded-xl border border-white/5 bg-[#141922] hover:border-white/15 hover:bg-[#1d222d] transition-colors"
                   >
                     <span className="text-xs font-medium text-amber-400 bg-amber-400/10 rounded-full px-2.5 py-1 whitespace-nowrap">{guide.tag}</span>
                     <span className="text-sm text-white group-hover:text-amber-100 transition-colors leading-snug">{guide.title}</span>

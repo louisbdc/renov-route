@@ -175,7 +175,7 @@ export default function MarquageAuSolLyonPage() {
                 <Link
                   key={i}
                   href={service.link}
-                  className="flex items-start gap-3 p-5 rounded-xl border border-white/10 bg-[#1a1f2a] hover:border-amber-500/30 hover:bg-[#1d222d] transition-colors group"
+                  className="flex items-start gap-3 p-5 rounded-xl border border-white/10 bg-[#141922] hover:border-amber-500/30 hover:bg-[#1d222d] transition-colors group"
                 >
                   <div className="text-amber-400 mt-0.5 flex-shrink-0">{service.icon}</div>
                   <div>
@@ -204,7 +204,7 @@ export default function MarquageAuSolLyonPage() {
                 { zone: 'Nord et Est', villes: 'Caluire, Rillieux, Meyzieu, Décines, Chassieu, Genas, Miribel' },
                 { zone: 'Rhône-Alpes', villes: 'Saint-Étienne, Grenoble, Valence, Vienne, Bourgoin-Jallieu, Villefranche' },
               ].map((area, i) => (
-                <div key={i} className="p-5 rounded-xl border border-white/10 bg-[#1a1f2a]">
+                <div key={i} className="p-5 rounded-xl border border-white/10 bg-[#141922]">
                   <h3 className="font-semibold text-white mb-2">{area.zone}</h3>
                   <p className="text-gray-400 text-sm leading-relaxed">{area.villes}</p>
                 </div>
@@ -239,7 +239,7 @@ export default function MarquageAuSolLyonPage() {
                 <Link
                   key={i}
                   href={guide.href}
-                  className="p-5 rounded-xl border border-white/10 bg-[#1a1f2a] hover:border-amber-500/30 hover:bg-[#1d222d] transition-colors group"
+                  className="p-5 rounded-xl border border-white/10 bg-[#141922] hover:border-amber-500/30 hover:bg-[#1d222d] transition-colors group"
                 >
                   <h3 className="font-semibold text-white group-hover:text-amber-400 transition-colors mb-1">{guide.title}</h3>
                   <p className="text-gray-400 text-sm">{guide.desc}</p>

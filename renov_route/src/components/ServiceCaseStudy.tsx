@@ -33,7 +33,7 @@ export default function ServiceCaseStudy({
           {cases.map((caseItem, i) => (
             <div
               key={i}
-              className="rounded-xl border border-white/10 bg-[#1a1f2a] overflow-hidden"
+              className="rounded-xl border border-white/10 bg-[#141922] overflow-hidden"
             >
               <div className="p-6">
                 <div className="flex items-center gap-3 mb-4">

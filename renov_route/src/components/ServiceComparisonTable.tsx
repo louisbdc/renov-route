@@ -50,7 +50,7 @@ export default function ServiceComparisonTable({
               {rows.map((row, i) => (
                 <tr
                   key={i}
-                  className="border-b border-white/5 last:border-b-0 hover:bg-[#1a1f2a] transition-colors"
+                  className="border-b border-white/5 last:border-b-0 hover:bg-[#141922] transition-colors"
                 >
                   <td className="px-5 py-4 text-gray-300 font-medium">{row.label}</td>
                   {row.values.map((value, j) => (

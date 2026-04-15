@@ -33,7 +33,7 @@ export default function RelatedGuides({
             <Link
               key={guide.href}
               href={guide.href}
-              className="group flex items-start gap-3 p-4 rounded-lg border border-white/10 bg-[#1a1f2a] hover:border-white/20 hover:bg-[#1d222d] transition-colors"
+              className="group flex items-start gap-3 p-4 rounded-lg border border-white/10 bg-[#141922] hover:border-white/20 hover:bg-[#1d222d] transition-colors"
             >
               <TbBook2 size={20} className="text-amber-400 mt-0.5 shrink-0" />
               <span className="text-sm text-gray-300 group-hover:text-white transition-colors leading-snug">

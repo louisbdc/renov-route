@@ -15,7 +15,7 @@ export default function StatCard({
 }: StatCardProps) {
   return (
     <div
-      className={`text-center p-5 rounded-xl border border-white/10 bg-[#1a1f2a] ${className}`}
+      className={`text-center p-5 rounded-xl border border-white/10 bg-[#141922] ${className}`}
     >
       {icon && (
         <div className="flex justify-center mb-2 text-amber-400">

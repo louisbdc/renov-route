@@ -43,7 +43,7 @@ export default function ServiceProductCatalog({
           {products.map((product, i) => (
             <div
               key={i}
-              className="rounded-xl border border-white/10 bg-[#1a1f2a] overflow-hidden hover:border-amber-500/30 transition-colors group"
+              className="rounded-xl border border-white/10 bg-[#141922] overflow-hidden hover:border-amber-500/30 transition-colors group"
             >
               {product.image && (
                 <div className="relative aspect-square bg-[#141922]">
