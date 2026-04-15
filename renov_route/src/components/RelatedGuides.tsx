@@ -22,7 +22,7 @@ export default function RelatedGuides({
   if (guides.length === 0) return null
 
   return (
-    <section className={`py-12 sm:py-16 px-4 bg-[#141922] ${className}`}>
+    <section className={`py-12 sm:py-16 px-4 bg-[#0a0d11] ${className}`}>
       <div className="max-w-6xl mx-auto">
         <div className="mb-8">
           <h2 className="text-xl sm:text-2xl font-bold text-white mb-2 font-display">{title}</h2>
@@ -33,7 +33,7 @@ export default function RelatedGuides({
             <Link
               key={guide.href}
               href={guide.href}
-              className="group flex items-start gap-3 p-4 rounded-lg border border-white/10 bg-[#141922] hover:border-white/20 hover:bg-[#1d222d] transition-colors"
+              className="group flex items-start gap-3 p-4 rounded-lg border border-white/10 bg-[#0a0d11] hover:border-white/20 hover:bg-[#141922] transition-colors"
             >
               <TbBook2 size={20} className="text-amber-400 mt-0.5 shrink-0" />
               <span className="text-sm text-gray-300 group-hover:text-white transition-colors leading-snug">

@@ -56,7 +56,7 @@ export default function GuidesPage() {
 
         {/* Hero */}
         <section className="pt-24 sm:pt-28 lg:pt-32 pb-12 sm:pb-16 px-4 relative overflow-hidden">
-          <div className="absolute inset-0 bg-[#141922]" />
+          <div className="absolute inset-0 bg-[#0a0d11]" />
           <div className="absolute inset-0 bg-[url('/assets/images/realisations/background_competence_page.avif')] bg-cover bg-center opacity-20" />
           <div className="absolute inset-0 bg-gradient-to-b from-[#141922]/20 via-transparent to-[#141922]" />
 
@@ -82,7 +82,7 @@ export default function GuidesPage() {
         </section>
 
         {/* Filters + Grid */}
-        <section className="pb-16 sm:pb-20 px-4 bg-[#141922]">
+        <section className="pb-16 sm:pb-20 px-4 bg-[#0a0d11]">
           <div className="max-w-5xl mx-auto">
 
             {/* Category filters */}
@@ -142,7 +142,7 @@ export default function GuidesPage() {
         {/* CTA */}
         <section className="py-12 sm:py-16 px-4 relative overflow-hidden border-t border-white/5">
           <div className="absolute inset-0 bg-[url('/assets/images/realisations/background_competence_page.avif')] bg-cover bg-center opacity-15" />
-          <div className="absolute inset-0 bg-[#141922]/90" />
+          <div className="absolute inset-0 bg-[#0a0d11]/90" />
           <div className="relative max-w-2xl mx-auto text-center">
             <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 font-display">
               Un projet de parking ?

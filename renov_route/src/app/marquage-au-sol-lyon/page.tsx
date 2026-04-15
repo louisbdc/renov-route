@@ -162,7 +162,7 @@ export default function MarquageAuSolLyonPage() {
         />
 
         {/* Links to detailed service pages */}
-        <section className="py-16 sm:py-20 px-4 bg-[#141922]">
+        <section className="py-16 sm:py-20 px-4 bg-[#0a0d11]">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 font-display">
               En savoir plus sur nos prestations
@@ -175,7 +175,7 @@ export default function MarquageAuSolLyonPage() {
                 <Link
                   key={i}
                   href={service.link}
-                  className="flex items-start gap-3 p-5 rounded-xl border border-white/10 bg-[#141922] hover:border-amber-500/30 hover:bg-[#1d222d] transition-colors group"
+                  className="flex items-start gap-3 p-5 rounded-xl border border-white/10 bg-[#0a0d11] hover:border-amber-500/30 hover:bg-[#141922] transition-colors group"
                 >
                   <div className="text-amber-400 mt-0.5 flex-shrink-0">{service.icon}</div>
                   <div>
@@ -204,7 +204,7 @@ export default function MarquageAuSolLyonPage() {
                 { zone: 'Nord et Est', villes: 'Caluire, Rillieux, Meyzieu, Décines, Chassieu, Genas, Miribel' },
                 { zone: 'Rhône-Alpes', villes: 'Saint-Étienne, Grenoble, Valence, Vienne, Bourgoin-Jallieu, Villefranche' },
               ].map((area, i) => (
-                <div key={i} className="p-5 rounded-xl border border-white/10 bg-[#141922]">
+                <div key={i} className="p-5 rounded-xl border border-white/10 bg-[#0a0d11]">
                   <h3 className="font-semibold text-white mb-2">{area.zone}</h3>
                   <p className="text-gray-400 text-sm leading-relaxed">{area.villes}</p>
                 </div>
@@ -221,7 +221,7 @@ export default function MarquageAuSolLyonPage() {
         />
 
         {/* Guides & resources */}
-        <section className="py-16 sm:py-20 px-4 bg-[#141922]">
+        <section className="py-16 sm:py-20 px-4 bg-[#0a0d11]">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 font-display">
               Guides pratiques
@@ -239,7 +239,7 @@ export default function MarquageAuSolLyonPage() {
                 <Link
                   key={i}
                   href={guide.href}
-                  className="p-5 rounded-xl border border-white/10 bg-[#141922] hover:border-amber-500/30 hover:bg-[#1d222d] transition-colors group"
+                  className="p-5 rounded-xl border border-white/10 bg-[#0a0d11] hover:border-amber-500/30 hover:bg-[#141922] transition-colors group"
                 >
                   <h3 className="font-semibold text-white group-hover:text-amber-400 transition-colors mb-1">{guide.title}</h3>
                   <p className="text-gray-400 text-sm">{guide.desc}</p>

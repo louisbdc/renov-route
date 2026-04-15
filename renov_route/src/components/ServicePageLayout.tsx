@@ -57,7 +57,7 @@ export default function ServicePageLayout({
 
         {/* Hero */}
         <section className="pt-24 sm:pt-28 lg:pt-32 pb-16 sm:pb-20 px-4 relative overflow-hidden">
-          <div className="absolute inset-0 bg-[#141922]" />
+          <div className="absolute inset-0 bg-[#0a0d11]" />
           <Image
             src={heroBackgroundImage || '/assets/images/realisations/background_competence_page.avif'}
             alt={heroImageAlt || ''}
@@ -116,7 +116,7 @@ export default function ServicePageLayout({
         </section>
 
         {/* Description + Features */}
-        <section className="py-16 sm:py-20 px-4 bg-[#141922]">
+        <section className="py-16 sm:py-20 px-4 bg-[#0a0d11]">
           <div className="max-w-6xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-start">
               <div>
@@ -134,7 +134,7 @@ export default function ServicePageLayout({
                     initial={{ opacity: 0, x: 16 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.4, delay: 0.1 + i * 0.07 }}
-                    className="flex items-start gap-4 p-4 sm:p-5 rounded-xl border border-white/10 bg-[#141922] hover:border-white/20 transition-colors"
+                    className="flex items-start gap-4 p-4 sm:p-5 rounded-xl border border-white/10 bg-[#0a0d11] hover:border-white/20 transition-colors"
                   >
                     <div className="mt-0.5 text-amber-400 flex-shrink-0 text-xl">{feature.icon}</div>
                     <div>
@@ -154,7 +154,7 @@ export default function ServicePageLayout({
         {/* CTA */}
         <section className="py-16 sm:py-20 px-4 relative overflow-hidden border-t border-white/5">
           <div className="absolute inset-0 bg-[url('/assets/images/realisations/background_competence_page.avif')] bg-cover bg-center opacity-15" />
-          <div className="absolute inset-0 bg-[#141922]/90" />
+          <div className="absolute inset-0 bg-[#0a0d11]/90" />
           <div className="relative max-w-2xl mx-auto text-center">
             <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 font-display">{ctaTitle}</h2>
             <p className="text-gray-300 mb-8 leading-relaxed">{ctaSubtitle}</p>
@@ -201,7 +201,7 @@ export function ServiceItemsGrid({
     : 'sm:grid-cols-2 lg:grid-cols-3'
 
   return (
-    <section className={`py-16 sm:py-20 px-4 ${alt ? 'bg-[#0C0F14]' : 'bg-[#141922]'}`}>
+    <section className={`py-16 sm:py-20 px-4 ${alt ? 'bg-[#0C0F14]' : 'bg-[#0a0d11]'}`}>
       <div className="max-w-6xl mx-auto">
         <div className="mb-8 sm:mb-10">
           <h2 className="text-2xl sm:text-3xl font-bold text-white mb-2 font-display">{title}</h2>
@@ -211,7 +211,7 @@ export function ServiceItemsGrid({
           {items.map((item, i) => (
             <div
               key={i}
-              className="p-5 rounded-xl border border-white/10 bg-[#141922] hover:border-white/20 hover:bg-[#1d222d] transition-colors"
+              className="p-5 rounded-xl border border-white/10 bg-[#0a0d11] hover:border-white/20 hover:bg-[#141922] transition-colors"
             >
               <div className="text-amber-400 mb-3 text-2xl">{item.icon}</div>
               <h3 className="font-semibold text-white mb-2">{item.title}</h3>
@@ -234,7 +234,7 @@ export function ServiceSteps({
   alt?: boolean
 }) {
   return (
-    <section className={`py-16 sm:py-20 px-4 ${alt ? 'bg-[#0C0F14]' : 'bg-[#141922]'}`}>
+    <section className={`py-16 sm:py-20 px-4 ${alt ? 'bg-[#0C0F14]' : 'bg-[#0a0d11]'}`}>
       <div className="max-w-6xl mx-auto">
         <h2 className="text-2xl sm:text-3xl font-bold text-white mb-10 sm:mb-12 font-display">{title}</h2>
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -260,7 +260,7 @@ export function ServiceFAQ({
   alt?: boolean
 }) {
   return (
-    <section className={`py-16 sm:py-20 px-4 ${alt ? 'bg-[#0C0F14]' : 'bg-[#141922]'}`}>
+    <section className={`py-16 sm:py-20 px-4 ${alt ? 'bg-[#0C0F14]' : 'bg-[#0a0d11]'}`}>
       <div className="max-w-3xl mx-auto">
         <h2 className="text-2xl sm:text-3xl font-bold text-white mb-10 font-display">Questions fréquentes</h2>
         <div className="space-y-7">

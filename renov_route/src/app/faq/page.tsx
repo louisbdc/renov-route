@@ -107,7 +107,7 @@ export default function FAQPage() {
         <SafariAnimationFix>
           {/* Hero Section */}
           <section className="pt-24 sm:pt-28 lg:pt-32 pb-12 sm:pb-16 px-4 relative overflow-hidden">
-            <div className="absolute inset-0 bg-[#141922]" />
+            <div className="absolute inset-0 bg-[#0a0d11]" />
             <div className="absolute inset-0 bg-[url('/assets/images/background_home_page.avif')] bg-cover bg-center opacity-20" />
             <div className="absolute inset-0 bg-gradient-to-b from-[#141922]/40 via-transparent to-[#141922]" />
 
@@ -151,7 +151,7 @@ export default function FAQPage() {
           </section>
 
           {/* FAQ Section */}
-          <section className="py-16 sm:py-20 px-4 bg-[#141922]">
+          <section className="py-16 sm:py-20 px-4 bg-[#0a0d11]">
             <div className="max-w-3xl mx-auto">
               <MotionDiv
                 initial={{ opacity: 0, y: 20 }}
@@ -167,7 +167,7 @@ export default function FAQPage() {
           {/* CTA Section */}
           <section className="py-16 sm:py-20 px-4 relative overflow-hidden border-t border-white/5">
             <div className="absolute inset-0 bg-[url('/assets/images/background_home_page.avif')] bg-cover bg-center opacity-15" />
-            <div className="absolute inset-0 bg-[#141922]/90" />
+            <div className="absolute inset-0 bg-[#0a0d11]/90" />
 
             <div className="relative max-w-3xl mx-auto text-center">
               <MotionDiv

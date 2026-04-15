@@ -22,7 +22,7 @@ export default function ServiceCaseStudy({
   alt = false,
 }: ServiceCaseStudyProps) {
   return (
-    <section className={`py-16 sm:py-20 px-4 ${alt ? 'bg-[#0C0F14]' : 'bg-[#141922]'}`}>
+    <section className={`py-16 sm:py-20 px-4 ${alt ? 'bg-[#0C0F14]' : 'bg-[#0a0d11]'}`}>
       <div className="max-w-6xl mx-auto">
         <div className="mb-10">
           <h2 className="text-2xl sm:text-3xl font-bold text-white mb-3 font-display">{title}</h2>
@@ -33,7 +33,7 @@ export default function ServiceCaseStudy({
           {cases.map((caseItem, i) => (
             <div
               key={i}
-              className="rounded-xl border border-white/10 bg-[#141922] overflow-hidden"
+              className="rounded-xl border border-white/10 bg-[#0a0d11] overflow-hidden"
             >
               <div className="p-6">
                 <div className="flex items-center gap-3 mb-4">

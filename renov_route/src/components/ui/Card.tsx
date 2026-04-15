@@ -13,11 +13,11 @@ interface CardProps {
 
 const variantStyles: Record<CardVariant, string> = {
   glass:
-    'border border-white/10 bg-[#141922]',
+    'border border-white/10 bg-[#0a0d11]',
   solid:
     'border border-white/10 bg-[#1d222d]',
   interactive:
-    'border border-white/10 bg-[#141922] hover:border-amber-500/40 hover:bg-[#1d222d] hover:-translate-y-1 transition-all duration-300',
+    'border border-white/10 bg-[#0a0d11] hover:border-amber-500/40 hover:bg-[#141922] hover:-translate-y-1 transition-all duration-300',
 }
 
 const paddingStyles: Record<CardPadding, string> = {

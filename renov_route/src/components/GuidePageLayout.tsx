@@ -54,7 +54,7 @@ export default function GuidePageLayout({ guide, children }: GuidePageLayoutProp
 
         {/* Hero */}
         <section className="pt-24 sm:pt-28 lg:pt-32 pb-12 sm:pb-16 px-4 relative overflow-hidden">
-          <div className="absolute inset-0 bg-[#141922]" />
+          <div className="absolute inset-0 bg-[#0a0d11]" />
           <div className="absolute inset-0 bg-[url('/assets/images/realisations/background_competence_page.avif')] bg-cover bg-center opacity-20" />
           <div className="absolute inset-0 bg-gradient-to-b from-[#141922]/20 via-transparent to-[#141922]" />
 
@@ -109,7 +109,7 @@ export default function GuidePageLayout({ guide, children }: GuidePageLayoutProp
         </section>
 
         {/* Article content */}
-        <section className="pb-16 sm:pb-20 px-4 bg-[#141922]">
+        <section className="pb-16 sm:pb-20 px-4 bg-[#0a0d11]">
           <div className="max-w-3xl mx-auto">
             <MotionDiv
               initial={{ opacity: 0, y: 16 }}
@@ -125,7 +125,7 @@ export default function GuidePageLayout({ guide, children }: GuidePageLayoutProp
         {/* CTA */}
         <section className="py-12 sm:py-16 px-4 relative overflow-hidden border-t border-white/5">
           <div className="absolute inset-0 bg-[url('/assets/images/realisations/background_competence_page.avif')] bg-cover bg-center opacity-15" />
-          <div className="absolute inset-0 bg-[#141922]/90" />
+          <div className="absolute inset-0 bg-[#0a0d11]/90" />
           <div className="relative max-w-2xl mx-auto text-center">
             <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4">
               Besoin d&apos;un devis pour votre parking ?
@@ -157,7 +157,7 @@ export default function GuidePageLayout({ guide, children }: GuidePageLayoutProp
 
         {/* Related guides */}
         {relatedGuides.length > 0 && (
-          <section className="py-12 sm:py-16 px-4 bg-[#141922] border-t border-white/5">
+          <section className="py-12 sm:py-16 px-4 bg-[#0a0d11] border-t border-white/5">
             <div className="max-w-3xl mx-auto">
               <h2 className="text-xl sm:text-2xl font-bold text-white mb-8">Articles liés</h2>
               <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -165,7 +165,7 @@ export default function GuidePageLayout({ guide, children }: GuidePageLayoutProp
                   <Link
                     key={related.slug}
                     href={`/guides/${related.slug}`}
-                    className="p-5 rounded-xl border border-white/10 bg-[#141922] hover:border-white/20 hover:bg-[#1d222d] transition-colors group"
+                    className="p-5 rounded-xl border border-white/10 bg-[#0a0d11] hover:border-white/20 hover:bg-[#141922] transition-colors group"
                   >
                     <span className="text-xs text-amber-400 font-medium">
                       {GUIDE_CATEGORIES[related.category]}

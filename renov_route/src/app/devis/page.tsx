@@ -113,10 +113,10 @@ export default function DevisPage() {
       />
       <Layout>
         <SafariAnimationFix>
-          <section className="pt-24 sm:pt-32 pb-20 px-4 bg-[#141922]">
+          <section className="pt-24 sm:pt-32 pb-20 px-4 bg-[#0a0d11]">
             <div className="max-w-6xl mx-auto">
               {isSubmitted ? (
-                <div className="max-w-2xl mx-auto text-center py-16 border border-white/10 bg-[#141922] rounded-2xl px-8">
+                <div className="max-w-2xl mx-auto text-center py-16 border border-white/10 bg-[#0a0d11] rounded-2xl px-8">
                   <div className="w-16 h-16 bg-green-500/20 border border-green-500/30 rounded-full flex items-center justify-center mx-auto mb-6">
                     <svg className="w-8 h-8 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
@@ -156,7 +156,7 @@ export default function DevisPage() {
                     </MotionDiv>
 
                     <MotionDiv
-                      className="border border-white/10 bg-[#141922] rounded-2xl p-6 sm:p-8"
+                      className="border border-white/10 bg-[#0a0d11] rounded-2xl p-6 sm:p-8"
                       initial={{ opacity: 0, y: 20 }}
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.5, delay: 0.1 }}
@@ -243,7 +243,7 @@ export default function DevisPage() {
                       {advantages.map((advantage, index) => (
                         <div
                           key={index}
-                          className="p-5 rounded-xl border border-white/10 bg-[#141922]"
+                          className="p-5 rounded-xl border border-white/10 bg-[#0a0d11]"
                         >
                           <div className="flex items-start gap-3">
                             <div className="text-amber-400 mt-0.5">{advantage.icon}</div>

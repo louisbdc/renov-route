@@ -214,7 +214,7 @@ export default function ServiceProcessTimeline({
   )
 
   return (
-    <section className={`py-16 sm:py-24 px-4 ${alt ? 'bg-[#0C0F14]' : 'bg-[#141922]'}`}>
+    <section className={`py-16 sm:py-24 px-4 ${alt ? 'bg-[#0C0F14]' : 'bg-[#0a0d11]'}`}>
       <div className="max-w-5xl mx-auto">
         {heading}
 
@@ -234,12 +234,12 @@ export default function ServiceProcessTimeline({
                 style={{ top: `calc(${topPercent}% + 2rem)` }}
               >
                 {isSafari ? (
-                  <div className="w-10 h-10 rounded-full bg-[#141922] border-2 border-amber-500/50 flex items-center justify-center">
+                  <div className="w-10 h-10 rounded-full bg-[#0a0d11] border-2 border-amber-500/50 flex items-center justify-center">
                     <span className="text-amber-400 font-bold font-display text-sm">{step.step}</span>
                   </div>
                 ) : (
                   <motion.div
-                    className="w-10 h-10 rounded-full bg-[#141922] border-2 border-amber-500/50 flex items-center justify-center"
+                    className="w-10 h-10 rounded-full bg-[#0a0d11] border-2 border-amber-500/50 flex items-center justify-center"
                     initial={{ scale: 0 }}
                     whileInView={{ scale: 1 }}
                     viewport={{ once: true, amount: 0.5 }}

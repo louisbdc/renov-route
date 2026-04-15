@@ -160,7 +160,7 @@ export default function Home() {
               ].map((stat, index) => (
                 <MotionDiv
                   key={index}
-                  className="text-center p-5 rounded-xl border border-white/10 bg-[#141922]"
+                  className="text-center p-5 rounded-xl border border-white/10 bg-[#0a0d11]"
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
@@ -186,7 +186,7 @@ export default function Home() {
         </section>
 
         {/* Comment ça marche */}
-        <section className="py-16 sm:py-20 px-4 bg-[#141922]">
+        <section className="py-16 sm:py-20 px-4 bg-[#0a0d11]">
           <div className="max-w-6xl mx-auto">
             <MotionDiv
               className="mb-10 sm:mb-12 text-center"
@@ -230,7 +230,7 @@ export default function Home() {
               ].map((item, index) => (
                 <MotionDiv
                   key={index}
-                  className="relative p-6 rounded-xl border border-white/10 bg-[#141922] text-center"
+                  className="relative p-6 rounded-xl border border-white/10 bg-[#0a0d11] text-center"
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
@@ -274,7 +274,7 @@ export default function Home() {
               {services.map((service, index) => (
                 <Link key={index} href={service.href}>
                   <MotionDiv
-                    className="h-full p-6 rounded-xl border border-white/10 bg-[#141922] hover:border-white/20 hover:bg-[#1d222d] transition-colors group"
+                    className="h-full p-6 rounded-xl border border-white/10 bg-[#0a0d11] hover:border-white/20 hover:bg-[#141922] transition-colors group"
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
@@ -298,7 +298,7 @@ export default function Home() {
         </section>
 
         {/* References Section */}
-        <section id="references" className="py-16 sm:py-20 px-4 bg-[#141922]">
+        <section id="references" className="py-16 sm:py-20 px-4 bg-[#0a0d11]">
           <div className="max-w-6xl mx-auto">
             <MotionDiv
               className="mb-10 sm:mb-12"
@@ -379,7 +379,7 @@ export default function Home() {
               ].map((review, index) => (
                 <MotionDiv
                   key={index}
-                  className="p-6 rounded-xl border border-white/10 bg-[#141922]"
+                  className="p-6 rounded-xl border border-white/10 bg-[#0a0d11]"
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
@@ -402,7 +402,7 @@ export default function Home() {
             </div>
 
             <MotionDiv
-              className="text-center mt-10 p-6 sm:p-8 rounded-xl border border-white/10 bg-[#141922]"
+              className="text-center mt-10 p-6 sm:p-8 rounded-xl border border-white/10 bg-[#0a0d11]"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -428,7 +428,7 @@ export default function Home() {
         </section>
 
         {/* Guides Section */}
-        <section id="guides" className="py-16 sm:py-20 px-4 bg-[#141922]">
+        <section id="guides" className="py-16 sm:py-20 px-4 bg-[#0a0d11]">
           <div className="max-w-6xl mx-auto">
             <MotionDiv
               className="mb-10 sm:mb-12"
@@ -454,7 +454,7 @@ export default function Home() {
               ].map((guide, index) => (
                 <Link key={guide.href} href={guide.href}>
                   <MotionDiv
-                    className="h-full p-6 rounded-xl border border-white/10 bg-[#141922] hover:border-white/20 hover:bg-[#1d222d] transition-colors group"
+                    className="h-full p-6 rounded-xl border border-white/10 bg-[#0a0d11] hover:border-white/20 hover:bg-[#141922] transition-colors group"
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
@@ -484,7 +484,7 @@ export default function Home() {
             </div>
 
             <MotionDiv
-              className="max-w-2xl p-6 sm:p-8 rounded-2xl border border-white/10 bg-[#141922]"
+              className="max-w-2xl p-6 sm:p-8 rounded-2xl border border-white/10 bg-[#0a0d11]"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}

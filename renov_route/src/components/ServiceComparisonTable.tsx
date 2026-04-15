@@ -21,7 +21,7 @@ export default function ServiceComparisonTable({
   alt = false,
 }: ServiceComparisonTableProps) {
   return (
-    <section className={`py-16 sm:py-20 px-4 ${alt ? 'bg-[#0C0F14]' : 'bg-[#141922]'}`}>
+    <section className={`py-16 sm:py-20 px-4 ${alt ? 'bg-[#0C0F14]' : 'bg-[#0a0d11]'}`}>
       <div className="max-w-4xl mx-auto">
         <div className="mb-10">
           <h2 className="text-2xl sm:text-3xl font-bold text-white mb-3 font-display">{title}</h2>
@@ -50,7 +50,7 @@ export default function ServiceComparisonTable({
               {rows.map((row, i) => (
                 <tr
                   key={i}
-                  className="border-b border-white/5 last:border-b-0 hover:bg-[#141922] transition-colors"
+                  className="border-b border-white/5 last:border-b-0 hover:bg-[#0a0d11] transition-colors"
                 >
                   <td className="px-5 py-4 text-gray-300 font-medium">{row.label}</td>
                   {row.values.map((value, j) => (
