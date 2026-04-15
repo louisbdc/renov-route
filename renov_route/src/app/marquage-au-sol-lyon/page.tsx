@@ -189,7 +189,7 @@ export default function MarquageAuSolLyonPage() {
         </section>
 
         {/* Zone d'intervention */}
-        <section className="py-16 sm:py-20 px-4 bg-white/[0.025]">
+        <section className="py-16 sm:py-20 px-4 bg-[#0C0F14]">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 font-display">
               Notre zone d&apos;intervention

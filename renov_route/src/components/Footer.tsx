@@ -20,7 +20,7 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="bg-white/[0.025] py-8 px-4 border-t border-white/10">
+    <footer className="bg-[#0C0F14] py-8 px-4 border-t border-white/10">
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col space-y-6">
           {/* Links */}

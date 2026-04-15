@@ -13,7 +13,7 @@ export default function Section({
   className = '',
   id,
 }: SectionProps) {
-  const bg = alt ? 'bg-white/[0.025]' : 'bg-[#141922]'
+  const bg = alt ? 'bg-[#0C0F14]' : 'bg-[#141922]'
 
   return (
     <section

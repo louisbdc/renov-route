@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "gsc-analyzer": {
+      "source": "coreyrab/gsc-skills",
+      "sourceType": "github",
+      "computedHash": "8a1a273e54e800a074bf0417404395bdcde7e6ac719b7c8f7f746c960c7a2f1c"
+    }
+  }
+}

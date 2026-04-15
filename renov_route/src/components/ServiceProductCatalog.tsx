@@ -32,7 +32,7 @@ export default function ServiceProductCatalog({
         : 'sm:grid-cols-2 lg:grid-cols-3'
 
   return (
-    <section className={`py-16 sm:py-20 px-4 ${alt ? 'bg-white/[0.025]' : 'bg-[#141922]'}`}>
+    <section className={`py-16 sm:py-20 px-4 ${alt ? 'bg-[#0C0F14]' : 'bg-[#141922]'}`}>
       <div className="max-w-6xl mx-auto">
         <div className="mb-10">
           <h2 className="text-2xl sm:text-3xl font-bold text-white mb-3 font-display">{title}</h2>
@@ -46,7 +46,7 @@ export default function ServiceProductCatalog({
               className="rounded-xl border border-white/10 bg-[#1a1f2a] overflow-hidden hover:border-amber-500/30 transition-colors group"
             >
               {product.image && (
-                <div className="relative aspect-square bg-white/[0.02]">
+                <div className="relative aspect-square bg-[#141922]">
                   <Image
                     src={product.image}
                     alt={`${product.name} - ${product.description}`}

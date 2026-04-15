@@ -214,7 +214,7 @@ export default function ServiceProcessTimeline({
   )
 
   return (
-    <section className={`py-16 sm:py-24 px-4 ${alt ? 'bg-white/[0.025]' : 'bg-[#141922]'}`}>
+    <section className={`py-16 sm:py-24 px-4 ${alt ? 'bg-[#0C0F14]' : 'bg-[#141922]'}`}>
       <div className="max-w-5xl mx-auto">
         {heading}
 

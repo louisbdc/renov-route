@@ -149,7 +149,7 @@ export default function Home() {
 
       <SafariAnimationFix>
         {/* Chiffres clés + Introduction */}
-        <section className="py-16 sm:py-20 px-4 bg-white/[0.025]">
+        <section className="py-16 sm:py-20 px-4 bg-[#0C0F14]">
           <div className="max-w-6xl mx-auto">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12">
               {[
@@ -261,7 +261,7 @@ export default function Home() {
         </section>
 
         {/* Services Section */}
-        <section id="services" className="py-16 sm:py-20 px-4 bg-white/[0.025] border-t border-white/5">
+        <section id="services" className="py-16 sm:py-20 px-4 bg-[#0C0F14] border-t border-white/5">
           <div className="max-w-6xl mx-auto">
             <div className="mb-10 sm:mb-12">
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-3">Nos compétences en traçage marquage routier</h2>
@@ -349,7 +349,7 @@ export default function Home() {
         </section>
 
         {/* Testimonials Section */}
-        <section id="temoignages" className="py-16 sm:py-20 px-4 bg-white/[0.025]">
+        <section id="temoignages" className="py-16 sm:py-20 px-4 bg-[#0C0F14]">
           <div className="max-w-6xl mx-auto">
             <MotionDiv
               className="mb-10 sm:mb-12"
@@ -477,7 +477,7 @@ export default function Home() {
         </section>
 
         {/* Contact Section */}
-        <section id="contact" className="py-16 sm:py-20 px-4 bg-white/[0.025]">
+        <section id="contact" className="py-16 sm:py-20 px-4 bg-[#0C0F14]">
           <div className="max-w-6xl mx-auto">
             <div className="mb-10 sm:mb-12">
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-3">Contactez-nous pour vos projets de marquage routier</h2>
@@ -549,7 +549,7 @@ export default function Home() {
         </section>
 
         {/* FAQ Section */}
-        <section id="faq" className="py-16 sm:py-20 px-4 bg-white/[0.025]">
+        <section id="faq" className="py-16 sm:py-20 px-4 bg-[#0C0F14]">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-10">Questions Fréquentes</h2>
             <div className="space-y-7">

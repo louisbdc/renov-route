@@ -201,7 +201,7 @@ export function ServiceItemsGrid({
     : 'sm:grid-cols-2 lg:grid-cols-3'
 
   return (
-    <section className={`py-16 sm:py-20 px-4 ${alt ? 'bg-white/[0.025]' : 'bg-[#141922]'}`}>
+    <section className={`py-16 sm:py-20 px-4 ${alt ? 'bg-[#0C0F14]' : 'bg-[#141922]'}`}>
       <div className="max-w-6xl mx-auto">
         <div className="mb-8 sm:mb-10">
           <h2 className="text-2xl sm:text-3xl font-bold text-white mb-2 font-display">{title}</h2>
@@ -234,7 +234,7 @@ export function ServiceSteps({
   alt?: boolean
 }) {
   return (
-    <section className={`py-16 sm:py-20 px-4 ${alt ? 'bg-white/[0.025]' : 'bg-[#141922]'}`}>
+    <section className={`py-16 sm:py-20 px-4 ${alt ? 'bg-[#0C0F14]' : 'bg-[#141922]'}`}>
       <div className="max-w-6xl mx-auto">
         <h2 className="text-2xl sm:text-3xl font-bold text-white mb-10 sm:mb-12 font-display">{title}</h2>
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -260,7 +260,7 @@ export function ServiceFAQ({
   alt?: boolean
 }) {
   return (
-    <section className={`py-16 sm:py-20 px-4 ${alt ? 'bg-white/[0.025]' : 'bg-[#141922]'}`}>
+    <section className={`py-16 sm:py-20 px-4 ${alt ? 'bg-[#0C0F14]' : 'bg-[#141922]'}`}>
       <div className="max-w-3xl mx-auto">
         <h2 className="text-2xl sm:text-3xl font-bold text-white mb-10 font-display">Questions fréquentes</h2>
         <div className="space-y-7">
