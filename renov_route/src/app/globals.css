@@ -36,14 +36,22 @@
 }
 
 body {
-    background-color: var(--background);
+    background: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-geist-sans), sans-serif;
+}
+
+/* Grid pattern overlay - z-index 1 so it's above sections but below cards (z-index 2) */
+body::after {
+    content: '';
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 1;
     background-image:
         linear-gradient(rgba(245, 158, 11, 0.03) 1px, transparent 1px),
         linear-gradient(90deg, rgba(245, 158, 11, 0.03) 1px, transparent 1px);
     background-size: 40px 40px;
-    background-attachment: fixed;
-    color: var(--foreground);
-    font-family: var(--font-geist-sans), sans-serif;
 }
 
 .font-display {
@@ -91,20 +99,31 @@ body {
     animation: gradient 20s ease infinite;
 }
 
-/* Glassmorphism effects */
+/* Glassmorphism effects - NO backdrop-filter to prevent grid bleed-through */
 .glass-card {
     background: rgb(26, 32, 44);
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
     border: 1px solid rgba(55, 65, 81, 0.5);
-    isolation: isolate;
+    position: relative;
+    z-index: 1;
+}
+
+/* Override Tailwind backdrop-blur classes to prevent grid pattern showing through */
+[class*="backdrop-blur"] {
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+}
+
+/* Cards with solid backgrounds should be above the grid pattern (z-index: 1) */
+[class*="bg-[#"][class*="rounded"] {
+    position: relative;
     z-index: 2;
 }
 
-/* Isolate all elements with backdrop-filter from background pattern */
-[class*="backdrop-blur"] {
-    isolation: isolate;
+/* Utility class for solid cards */
+.solid-card {
+    position: relative;
     z-index: 2;
+    background: #0a0d11;
 }
 
 /* Smooth scrolling */
@@ -506,24 +525,15 @@ html {
     animation: gradient 3s ease infinite;
 }
 
-/* Glassmorphism card enhanced */
+/* Glassmorphism card enhanced - NO backdrop-filter to prevent grid bleed-through */
 .glassmorphism-card {
     background: rgb(26, 32, 44);
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
     border: 1px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 8px 32px 0 rgba(31, 41, 55, 0.37);
     position: relative;
     overflow: hidden;
     border-radius: 1.5rem;
-    /* Isolate from background pattern */
-    isolation: isolate;
-    z-index: 2;
-    /* Safari optimization */
-    transform: translateZ(0);
-    -webkit-transform: translateZ(0);
-    backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
+    z-index: 1;
 }
 
 .glassmorphism-card::before {
