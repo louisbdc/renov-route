@@ -149,7 +149,7 @@ export default function Home() {
 
       <SafariAnimationFix>
         {/* Chiffres clés + Introduction */}
-        <section className="py-16 sm:py-20 px-4 bg-[#0C0F14]">
+        <section className="py-16 sm:py-20 px-4 bg-[#1f2733]">
           <div className="max-w-6xl mx-auto">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12">
               {[
@@ -160,7 +160,7 @@ export default function Home() {
               ].map((stat, index) => (
                 <MotionDiv
                   key={index}
-                  className="text-center p-5 rounded-xl border border-white/10 bg-[#0a0d11]"
+                  className="text-center p-5 rounded-xl border border-white/10 bg-[#1a2129]"
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
@@ -186,7 +186,7 @@ export default function Home() {
         </section>
 
         {/* Comment ça marche */}
-        <section className="py-16 sm:py-20 px-4 bg-[#0a0d11]">
+        <section className="py-16 sm:py-20 px-4 bg-[#1a2129]">
           <div className="max-w-6xl mx-auto">
             <MotionDiv
               className="mb-10 sm:mb-12 text-center"
@@ -230,7 +230,7 @@ export default function Home() {
               ].map((item, index) => (
                 <MotionDiv
                   key={index}
-                  className="relative p-6 rounded-xl border border-white/10 bg-[#0a0d11] text-center"
+                  className="relative p-6 rounded-xl border border-white/10 bg-[#1a2129] text-center"
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
@@ -261,7 +261,7 @@ export default function Home() {
         </section>
 
         {/* Services Section */}
-        <section id="services" className="py-16 sm:py-20 px-4 bg-[#0C0F14] border-t border-white/5">
+        <section id="services" className="py-16 sm:py-20 px-4 bg-[#1f2733] border-t border-white/5">
           <div className="max-w-6xl mx-auto">
             <div className="mb-10 sm:mb-12">
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-3">Nos compétences en traçage marquage routier</h2>
@@ -274,7 +274,7 @@ export default function Home() {
               {services.map((service, index) => (
                 <Link key={index} href={service.href}>
                   <MotionDiv
-                    className="h-full p-6 rounded-xl border border-white/10 bg-[#0a0d11] hover:border-white/20 hover:bg-[#141922] transition-colors group"
+                    className="h-full p-6 rounded-xl border border-white/10 bg-[#1a2129] hover:border-white/20 hover:bg-[#141922] transition-colors group"
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
@@ -298,7 +298,7 @@ export default function Home() {
         </section>
 
         {/* References Section */}
-        <section id="references" className="py-16 sm:py-20 px-4 bg-[#0a0d11]">
+        <section id="references" className="py-16 sm:py-20 px-4 bg-[#1a2129]">
           <div className="max-w-6xl mx-auto">
             <MotionDiv
               className="mb-10 sm:mb-12"
@@ -349,7 +349,7 @@ export default function Home() {
         </section>
 
         {/* Testimonials Section */}
-        <section id="temoignages" className="py-16 sm:py-20 px-4 bg-[#0C0F14]">
+        <section id="temoignages" className="py-16 sm:py-20 px-4 bg-[#1f2733]">
           <div className="max-w-6xl mx-auto">
             <MotionDiv
               className="mb-10 sm:mb-12"
@@ -379,7 +379,7 @@ export default function Home() {
               ].map((review, index) => (
                 <MotionDiv
                   key={index}
-                  className="p-6 rounded-xl border border-white/10 bg-[#0a0d11]"
+                  className="p-6 rounded-xl border border-white/10 bg-[#1a2129]"
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
@@ -402,7 +402,7 @@ export default function Home() {
             </div>
 
             <MotionDiv
-              className="text-center mt-10 p-6 sm:p-8 rounded-xl border border-white/10 bg-[#0a0d11]"
+              className="text-center mt-10 p-6 sm:p-8 rounded-xl border border-white/10 bg-[#1a2129]"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -428,7 +428,7 @@ export default function Home() {
         </section>
 
         {/* Guides Section */}
-        <section id="guides" className="py-16 sm:py-20 px-4 bg-[#0a0d11]">
+        <section id="guides" className="py-16 sm:py-20 px-4 bg-[#1a2129]">
           <div className="max-w-6xl mx-auto">
             <MotionDiv
               className="mb-10 sm:mb-12"
@@ -454,7 +454,7 @@ export default function Home() {
               ].map((guide, index) => (
                 <Link key={guide.href} href={guide.href}>
                   <MotionDiv
-                    className="h-full p-6 rounded-xl border border-white/10 bg-[#0a0d11] hover:border-white/20 hover:bg-[#141922] transition-colors group"
+                    className="h-full p-6 rounded-xl border border-white/10 bg-[#1a2129] hover:border-white/20 hover:bg-[#141922] transition-colors group"
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
@@ -477,14 +477,14 @@ export default function Home() {
         </section>
 
         {/* Contact Section */}
-        <section id="contact" className="py-16 sm:py-20 px-4 bg-[#0C0F14]">
+        <section id="contact" className="py-16 sm:py-20 px-4 bg-[#1f2733]">
           <div className="max-w-6xl mx-auto">
             <div className="mb-10 sm:mb-12">
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-3">Contactez-nous pour vos projets de marquage routier</h2>
             </div>
 
             <MotionDiv
-              className="max-w-2xl p-6 sm:p-8 rounded-2xl border border-white/10 bg-[#0a0d11]"
+              className="max-w-2xl p-6 sm:p-8 rounded-2xl border border-white/10 bg-[#1a2129]"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -549,7 +549,7 @@ export default function Home() {
         </section>
 
         {/* FAQ Section */}
-        <section id="faq" className="py-16 sm:py-20 px-4 bg-[#0C0F14]">
+        <section id="faq" className="py-16 sm:py-20 px-4 bg-[#1f2733]">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-10">Questions Fréquentes</h2>
             <div className="space-y-7">
