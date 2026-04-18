@@ -47,4 +47,3 @@ jobs:
           local-dir: renov_route/out/
           state-name: _ftp-deploy-sync-state.json
           server-dir: www/
-          skip-delete: true
