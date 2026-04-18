@@ -71,7 +71,7 @@ export default function CustomDropdown({
 
   return (
     <div className={`relative ${className}`} ref={dropdownRef}>
-      <label htmlFor={id} className="block text-gray-300 font-medium mb-2">
+      <label htmlFor={id} className="block text-slate-600 font-medium mb-2">
         {label} {required && <span className="text-red-400">*</span>}
       </label>
       
@@ -92,12 +92,12 @@ export default function CustomDropdown({
             isOpen ? 'ring-2 ring-primary-500 border-primary-500' : ''
           }`}
         >
-          <span className={`${selectedOption ? 'text-white' : 'text-gray-400'}`}>
+          <span className={`${selectedOption ? 'text-[#0F172A]' : 'text-slate-500'}`}>
             {selectedOption ? selectedOption.label : placeholder}
           </span>
           <span className="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none">
             <svg
-              className={`w-5 h-5 text-gray-400 transition-transform duration-200 ${
+              className={`w-5 h-5 text-slate-500 transition-transform duration-200 ${
                 isOpen ? 'rotate-180' : ''
               }`}
               fill="none"
@@ -125,7 +125,7 @@ export default function CustomDropdown({
                   className={`w-full px-4 py-3 text-left hover:bg-gray-700 transition-colors duration-150 flex items-center justify-between ${
                     selectedOption?.value === option.value
                       ? 'bg-primary-500/20 text-primary-400'
-                      : 'text-gray-300'
+                      : 'text-slate-600'
                   }`}
                 >
                   <span>{option.label}</span>

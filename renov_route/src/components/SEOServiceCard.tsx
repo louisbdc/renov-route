@@ -66,13 +66,13 @@ export default function SEOServiceCard({
   const getCtaClass = () => {
     switch (service.cta?.type) {
       case 'primary':
-        return 'bg-amber-500 text-gray-900 hover:bg-amber-400';
+        return 'bg-[#FACC15] text-[#0F172A] hover:bg-[#0F172A] hover:text-white';
       case 'secondary':
-        return 'bg-gray-600 text-white hover:bg-gray-700';
+        return 'bg-[#0F172A] text-white hover:bg-[#FACC15] hover:text-[#0F172A]';
       case 'outline':
-        return 'border border-amber-500 text-amber-400 hover:bg-amber-500/10';
+        return 'border-2 border-[#0F172A] text-[#0F172A] hover:bg-[#0F172A] hover:text-white';
       default:
-        return 'bg-amber-500 text-gray-900 hover:bg-amber-400';
+        return 'bg-[#FACC15] text-[#0F172A] hover:bg-[#0F172A] hover:text-white';
     }
   };
 
@@ -108,61 +108,61 @@ export default function SEOServiceCard({
   return (
     <>
       <div className={className}>
-        <div className="bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden">
+        <div className="bg-white border border-slate-200 card-editorial-hover overflow-hidden group">
           {service.image && (
-            <div className="h-48">
+            <div className="h-48 overflow-hidden">
               <Image
                 src={service.image}
                 alt={service.name}
                 width={400}
                 height={192}
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
               />
             </div>
           )}
-          
+
           <div className="p-6">
-            <div className="flex items-start justify-between mb-4">
-              <div className="flex items-center space-x-3">
+            <div className="flex items-start justify-between mb-5">
+              <div className="flex items-center gap-3">
                 {service.icon && (
-                  <div className="w-10 h-10 bg-amber-500/15 rounded-lg flex items-center justify-center text-xl">
+                  <div className="w-10 h-10 bg-[#FACC15] rounded-sm flex items-center justify-center text-xl text-[#0F172A]">
                     {service.icon}
                   </div>
                 )}
                 <div>
-                  <h3 className="text-xl font-semibold text-gray-900">
+                  <h3 className="text-lg font-black italic uppercase tracking-tight text-[#0F172A] leading-tight">
                     {service.name}
                   </h3>
                   {service.category && (
-                    <span className="inline-block bg-amber-500/15 text-amber-400 text-xs px-2 py-1 rounded-full mt-1">
+                    <span className="inline-block bg-[#0F172A] text-white text-[9px] font-black uppercase tracking-[0.2em] px-2 py-1 rounded-sm mt-2">
                       {service.category}
                     </span>
                   )}
                 </div>
               </div>
-              
+
               {showRating && service.rating && (
                 <div className="text-right">
-                  <div className="flex items-center space-x-1">
-                    <span className="text-yellow-400">★</span>
-                    <span className="text-sm font-medium">{service.rating.value}</span>
+                  <div className="flex items-center gap-1">
+                    <span className="text-[#FACC15]">★</span>
+                    <span className="text-sm font-bold text-[#0F172A]">{service.rating.value}</span>
                   </div>
-                  <div className="text-xs text-gray-500">
+                  <div className="text-[9px] font-bold uppercase tracking-[0.15em] text-slate-400">
                     ({service.rating.count} avis)
                   </div>
                 </div>
               )}
             </div>
-            
-            <p className="text-gray-700 mb-4">
+
+            <p className="text-slate-600 text-sm mb-5 font-medium leading-relaxed">
               {service.shortDescription || service.description}
             </p>
-            
+
             {showPrice && service.price && (
-              <div className="mb-4 p-3 bg-gray-50 rounded-lg">
+              <div className="mb-5 p-4 bg-[#F8FAFC] border-l-4 border-[#FACC15]">
                 <div className="flex items-center justify-between">
-                  <span className="text-sm text-gray-600">Prix</span>
-                  <span className="text-lg font-semibold text-gray-900">
+                  <span className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-400">Prix</span>
+                  <span className="text-lg font-black text-[#0F172A]">
                     {service.price.amount} {service.price.currency}
                     {service.price.unit && ` / ${service.price.unit}`}
                     {service.price.period && ` / ${service.price.period}`}
@@ -170,68 +170,68 @@ export default function SEOServiceCard({
                 </div>
               </div>
             )}
-            
+
             {showFeatures && service.features && service.features.length > 0 && (
-              <div className="mb-4">
-                <h4 className="text-sm font-semibold text-gray-900 mb-2">Caractéristiques</h4>
-                <ul className="space-y-1">
+              <div className="mb-5">
+                <h4 className="text-[10px] font-black uppercase tracking-[0.2em] text-[#0F172A] mb-3">Caractéristiques</h4>
+                <ul className="space-y-2">
                   {service.features.map((feature, index) => (
-                    <li key={index} className="flex items-center text-sm text-gray-600">
-                      <span className="w-1.5 h-1.5 bg-amber-500 rounded-full mr-2"></span>
+                    <li key={index} className="flex items-center text-sm text-slate-600 font-medium">
+                      <span className="w-1.5 h-1.5 bg-[#FACC15] mr-3 shrink-0"></span>
                       {feature}
                     </li>
                   ))}
                 </ul>
               </div>
             )}
-            
+
             {showBenefits && service.benefits && service.benefits.length > 0 && (
-              <div className="mb-4">
-                <h4 className="text-sm font-semibold text-gray-900 mb-2">Avantages</h4>
-                <ul className="space-y-1">
+              <div className="mb-5">
+                <h4 className="text-[10px] font-black uppercase tracking-[0.2em] text-[#0F172A] mb-3">Avantages</h4>
+                <ul className="space-y-2">
                   {service.benefits.map((benefit, index) => (
-                    <li key={index} className="flex items-center text-sm text-gray-600">
-                      <span className="w-1.5 h-1.5 bg-green-500 rounded-full mr-2"></span>
+                    <li key={index} className="flex items-center text-sm text-slate-600 font-medium">
+                      <span className="w-1.5 h-1.5 bg-[#16A34A] mr-3 shrink-0"></span>
                       {benefit}
                     </li>
                   ))}
                 </ul>
               </div>
             )}
-            
-            <div className="grid grid-cols-2 gap-4 mb-4 text-sm">
+
+            <div className="grid grid-cols-2 gap-3 mb-5 text-sm">
               {service.duration && (
                 <div>
-                  <span className="text-gray-600">Durée:</span>
-                  <span className="ml-1 font-medium">{service.duration}</span>
+                  <span className="text-[9px] font-black uppercase tracking-[0.2em] text-slate-400 block">Durée</span>
+                  <span className="font-bold text-[#0F172A]">{service.duration}</span>
                 </div>
               )}
               {service.warranty && (
                 <div>
-                  <span className="text-gray-600">Garantie:</span>
-                  <span className="ml-1 font-medium">{service.warranty}</span>
+                  <span className="text-[9px] font-black uppercase tracking-[0.2em] text-slate-400 block">Garantie</span>
+                  <span className="font-bold text-[#0F172A]">{service.warranty}</span>
                 </div>
               )}
               {service.availability && (
                 <div>
-                  <span className="text-gray-600">Disponibilité:</span>
-                  <span className="ml-1 font-medium">{service.availability}</span>
+                  <span className="text-[9px] font-black uppercase tracking-[0.2em] text-slate-400 block">Disponibilité</span>
+                  <span className="font-bold text-[#0F172A]">{service.availability}</span>
                 </div>
               )}
             </div>
-            
+
             {showProjects && service.projects && service.projects.count > 0 && (
-              <div className="mb-4">
-                <div className="flex items-center justify-between mb-2">
-                  <span className="text-sm font-semibold text-gray-900">Projets réalisés</span>
-                  <span className="text-sm text-gray-600">{service.projects.count}+</span>
+              <div className="mb-5">
+                <div className="flex items-center justify-between mb-3">
+                  <span className="text-[10px] font-black uppercase tracking-[0.2em] text-[#0F172A]">Projets réalisés</span>
+                  <span className="text-sm font-black text-[#0F172A]">{service.projects.count}+</span>
                 </div>
                 {service.projects.examples.length > 0 && (
-                  <div className="flex flex-wrap gap-1">
+                  <div className="flex flex-wrap gap-2">
                     {service.projects.examples.map((example, index) => (
                       <span
                         key={index}
-                        className="inline-block bg-gray-100 text-gray-700 text-xs px-2 py-1 rounded-full"
+                        className="inline-block bg-slate-100 text-[#0F172A] text-[10px] font-bold uppercase tracking-[0.1em] px-2 py-1 rounded-sm"
                       >
                         {example}
                       </span>
@@ -240,14 +240,14 @@ export default function SEOServiceCard({
                 )}
               </div>
             )}
-            
+
             {service.tags && service.tags.length > 0 && (
-              <div className="mb-4">
-                <div className="flex flex-wrap gap-1">
+              <div className="mb-5">
+                <div className="flex flex-wrap gap-2">
                   {service.tags.map((tag, index) => (
                     <span
                       key={index}
-                      className="inline-block bg-amber-500/15 text-amber-400 text-xs px-2 py-1 rounded-full"
+                      className="inline-block bg-[#FACC15] text-[#0F172A] text-[10px] font-black uppercase tracking-[0.15em] px-2 py-1 rounded-sm"
                     >
                       #{tag}
                     </span>
@@ -255,12 +255,12 @@ export default function SEOServiceCard({
                 </div>
               </div>
             )}
-            
+
             {showCta && service.cta && (
-              <div className="pt-4 border-t border-gray-200">
+              <div className="pt-5 border-t border-slate-200">
                 <Link
                   href={service.cta.link}
-                  className={`inline-flex items-center justify-center w-full px-4 py-2 rounded-lg font-medium transition-colors ${getCtaClass()}`}
+                  className={`inline-flex items-center justify-center w-full px-5 py-3 rounded-sm font-black text-[10px] uppercase tracking-[0.2em] transition-colors ${getCtaClass()}`}
                 >
                   {service.cta.text}
                   <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">

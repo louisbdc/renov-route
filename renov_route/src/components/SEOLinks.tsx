@@ -27,8 +27,8 @@ export default function SEOLinks({ className = "" }: SEOLinksProps) {
           <p className="font-semibold mb-3">Zones d&apos;intervention</p>
           <ul className="space-y-2">
             <li><Link href="/marquage-au-sol-lyon">Marquage au sol Lyon</Link></li>
-            <li className="text-gray-400">Villeurbanne, Vénissieux, Vaulx-en-Velin</li>
-            <li className="text-gray-400">Rhône-Alpes & toute la France</li>
+            <li className="text-slate-500">Villeurbanne, Vénissieux, Vaulx-en-Velin</li>
+            <li className="text-slate-500">Rhône-Alpes & toute la France</li>
           </ul>
         </div>
 

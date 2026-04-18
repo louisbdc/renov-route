@@ -58,32 +58,32 @@ export default function SEOFAQ({ faqs, className = "" }: SEOFAQProps) {
   return (
     <>
       <div className={className}>
-        <h2 className="text-2xl font-bold mb-8 text-white">Questions fréquentes - Traçage Marquage Routier</h2>
+        <h2 className="text-3xl sm:text-4xl font-black italic uppercase tracking-tighter mb-12 text-[#0F172A]">Questions fréquentes — Traçage Marquage Routier</h2>
         <div className="space-y-4">
           {faqs.map((faq, index) => (
-            <details 
-              key={index} 
-              className="group bg-white/10 backdrop-blur-md rounded-xl border border-white/20 hover:bg-white/15 hover:border-white/30 transition-all duration-300 shadow-lg overflow-hidden"
+            <details
+              key={index}
+              className="group bg-[#F8FAFC] border-l-4 border-[#0F172A] hover:border-[#FACC15] transition-all overflow-hidden"
             >
               <summary className="cursor-pointer p-6 list-none">
-                <div className="flex items-center justify-between">
-                  <h3 className="text-xl font-semibold text-white leading-tight pr-4 group-hover:text-amber-200 transition-colors">
+                <div className="flex items-center justify-between gap-4">
+                  <h3 className="text-base sm:text-lg font-black italic uppercase tracking-tight text-[#0F172A] leading-tight pr-4 group-hover:text-[#FACC15] transition-colors">
                     {faq.question}
                   </h3>
                   <div className="flex-shrink-0">
-                    <svg 
-                      className="w-6 h-6 text-white transform transition-transform duration-300 group-open:rotate-180" 
-                      fill="none" 
-                      stroke="currentColor" 
+                    <svg
+                      className="w-5 h-5 text-[#FACC15] transform transition-transform duration-300 group-open:rotate-180"
+                      fill="none"
+                      stroke="currentColor"
                       viewBox="0 0 24 24"
                     >
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
                     </svg>
                   </div>
                 </div>
               </summary>
-              <div className="px-6 pb-6 pt-2 border-t border-white/10 transition-all duration-300 ease-in-out overflow-hidden">
-                <p className="text-gray-200 leading-relaxed">
+              <div className="px-6 pb-6 pt-2 border-t border-slate-200 transition-all duration-300 ease-in-out overflow-hidden">
+                <p className="text-slate-600 leading-relaxed font-medium">
                   {faq.answer}
                 </p>
               </div>

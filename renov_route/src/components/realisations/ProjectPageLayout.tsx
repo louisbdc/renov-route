@@ -40,36 +40,36 @@ export default function ProjectPageLayout({ project, relatedProjects }: ProjectP
   return (
     <Layout>
       <SafariAnimationFix>
-        {/* Hero */}
-        <section className="relative min-h-[50vh] flex items-end overflow-hidden">
+        {/* Hero — dark editorial */}
+        <section className="relative min-h-[60vh] flex items-end overflow-hidden bg-[#0F172A]">
           <Image
             src={project.heroMedia}
             alt={project.title}
             fill
             priority
-            className="object-cover brightness-[0.35]"
+            className="object-cover grayscale opacity-30"
             sizes="100vw"
           />
-          <div className="relative z-10 container-custom pb-12 pt-32">
+          <div className="absolute inset-0 bg-gradient-to-t from-[#0F172A] via-[#0F172A]/60 to-[#0F172A]/20" />
+          <div className="relative z-10 container-custom pb-16 pt-32">
             <MotionDiv
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
             >
-              {/* Breadcrumb */}
-              <nav className="flex items-center gap-2 text-sm text-gray-400 mb-6">
-                <Link href="/" className="hover:text-white transition-colors">Accueil</Link>
-                <span>/</span>
-                <Link href="/realisations" className="hover:text-white transition-colors">Réalisations</Link>
-                <span>/</span>
-                <span className="text-white">{project.title}</span>
+              <nav className="flex items-center flex-wrap gap-x-3 gap-y-1 text-[10px] font-bold uppercase tracking-[0.2em] text-slate-400 mb-8">
+                <Link href="/" className="hover:text-[#FACC15] transition-colors">Accueil</Link>
+                <span className="text-slate-600">/</span>
+                <Link href="/realisations" className="hover:text-[#FACC15] transition-colors">Réalisations</Link>
+                <span className="text-slate-600">/</span>
+                <span className="text-white truncate max-w-xs inline-block align-bottom">{project.title}</span>
               </nav>
 
-              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
+              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black italic uppercase tracking-tighter leading-[0.95] text-white mb-6">
                 {project.title}
               </h1>
-              <p className="text-lg text-gray-300">
-                {project.client} &bull; {project.industry} &bull; {project.year}
+              <p className="text-[11px] font-black uppercase tracking-[0.25em] text-[#FACC15]">
+                {project.client} <span className="text-slate-500">·</span> {project.industry} <span className="text-slate-500">·</span> {project.year}
               </p>
             </MotionDiv>
           </div>
@@ -86,21 +86,21 @@ export default function ProjectPageLayout({ project, relatedProjects }: ProjectP
 
                 {/* Summary */}
                 <div>
-                  <h2 className="text-2xl font-semibold text-white mb-4">
+                  <h2 className="text-2xl font-semibold text-[#0F172A] mb-4">
                     Résumé du projet
                   </h2>
-                  <p className="text-gray-300 leading-relaxed text-lg">
+                  <p className="text-slate-600 leading-relaxed text-lg">
                     {project.summary}
                   </p>
                 </div>
 
                 {/* Detailed Description */}
                 <div>
-                  <h2 className="text-2xl font-semibold text-white mb-4">
+                  <h2 className="text-2xl font-semibold text-[#0F172A] mb-4">
                     Détails du projet
                   </h2>
                   <div className="prose prose-invert max-w-none">
-                    <p className="text-gray-300 leading-relaxed">
+                    <p className="text-slate-600 leading-relaxed">
                       {project.body}
                     </p>
                   </div>
@@ -111,15 +111,15 @@ export default function ProjectPageLayout({ project, relatedProjects }: ProjectP
               <div className="space-y-8">
                 {/* KPIs */}
                 {project.kpis.length > 0 && (
-                  <div className="bg-[#1a1f2e] border border-white/10 rounded-xl p-6">
-                    <h3 className="text-lg font-semibold text-white mb-4">
+                  <div className="bg-[#F8FAFC] border border-slate-200 rounded-xl p-6">
+                    <h3 className="text-lg font-semibold text-[#0F172A] mb-4">
                       Résultats clés
                     </h3>
                     <div className="space-y-4">
                       {project.kpis.map((kpi) => (
                         <div key={kpi.label} className="flex items-center justify-between">
-                          <span className="text-gray-400">{kpi.label}</span>
-                          <span className="text-xl font-bold text-primary">{kpi.value}</span>
+                          <span className="text-slate-500">{kpi.label}</span>
+                          <span className="text-xl font-bold text-[#FACC15]">{kpi.value}</span>
                         </div>
                       ))}
                     </div>
@@ -127,19 +127,19 @@ export default function ProjectPageLayout({ project, relatedProjects }: ProjectP
                 )}
 
                 {/* Prestations */}
-                <div className="bg-[#1a1f2e] border border-white/10 rounded-xl p-6">
-                  <h3 className="text-lg font-semibold text-white mb-4">
+                <div className="bg-[#F8FAFC] border border-slate-200 rounded-xl p-6">
+                  <h3 className="text-lg font-semibold text-[#0F172A] mb-4">
                     Prestations réalisées
                   </h3>
                   <div className="flex flex-wrap gap-2">
                     {project.stack.map((tech) => {
                       const href = SERVICE_LINKS[tech]
-                      const className = "px-3 py-1 bg-white/5 border border-white/10 rounded-lg text-sm text-gray-300"
+                      const className = "px-3 py-1 bg-white border border-slate-200 rounded-lg text-sm text-slate-600"
                       return href ? (
                         <Link
                           key={tech}
                           href={href}
-                          className={`${className} hover:border-amber-400/30 hover:text-amber-200 transition-colors`}
+                          className={`${className} hover:border-[#FACC15] hover:text-[#0F172A] transition-colors`}
                         >
                           {tech}
                         </Link>
@@ -153,39 +153,39 @@ export default function ProjectPageLayout({ project, relatedProjects }: ProjectP
                 </div>
 
                 {/* Project Info */}
-                <div className="bg-[#1a1f2e] border border-white/10 rounded-xl p-6">
-                  <h3 className="text-lg font-semibold text-white mb-4">
+                <div className="bg-[#F8FAFC] border border-slate-200 rounded-xl p-6">
+                  <h3 className="text-lg font-semibold text-[#0F172A] mb-4">
                     Informations
                   </h3>
                   <dl className="space-y-3">
                     <div>
-                      <dt className="text-sm text-gray-400">Client</dt>
-                      <dd className="text-white">{project.client}</dd>
+                      <dt className="text-sm text-slate-500">Client</dt>
+                      <dd className="text-[#0F172A]">{project.client}</dd>
                     </div>
                     <div>
-                      <dt className="text-sm text-gray-400">Secteur</dt>
-                      <dd className="text-white">{project.industry}</dd>
+                      <dt className="text-sm text-slate-500">Secteur</dt>
+                      <dd className="text-[#0F172A]">{project.industry}</dd>
                     </div>
                     <div>
-                      <dt className="text-sm text-gray-400">Année</dt>
-                      <dd className="text-white">{project.year}</dd>
+                      <dt className="text-sm text-slate-500">Année</dt>
+                      <dd className="text-[#0F172A]">{project.year}</dd>
                     </div>
                     <div>
-                      <dt className="text-sm text-gray-400">Catégorie</dt>
-                      <dd className="text-white capitalize">{project.category}</dd>
+                      <dt className="text-sm text-slate-500">Catégorie</dt>
+                      <dd className="text-[#0F172A] capitalize">{project.category}</dd>
                     </div>
                   </dl>
                 </div>
 
                 {/* CTA */}
-                <div className="bg-gradient-to-br from-amber-500/20 to-amber-400/20 border border-amber-500/30 rounded-xl p-6 text-center">
-                  <p className="text-white font-semibold mb-4">
+                <div className="bg-gradient-to-br from-[#FACC15]/10 to-[#FACC15]/20 border border-[#FACC15] rounded-xl p-6 text-center">
+                  <p className="text-[#0F172A] font-semibold mb-4">
                     Un projet similaire ?
                   </p>
                   <Link
                     href="/devis"
                     onClick={() => trackQuoteRequest(`projet_${project.slug}`)}
-                    className="block w-full bg-gradient-to-r from-amber-500 to-amber-400 hover:from-amber-600 hover:to-amber-500 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 hover:scale-105"
+                    className="block w-full bg-gradient-to-r from-[#FACC15] to-[#FACC15]  text-[#0F172A] font-semibold py-3 px-6 rounded-lg transition-all duration-300 hover:scale-105"
                   >
                     Demander un devis
                   </Link>
@@ -197,9 +197,9 @@ export default function ProjectPageLayout({ project, relatedProjects }: ProjectP
 
         {/* Related Projects */}
         {relatedProjects.length > 0 && (
-          <section className="py-12 lg:py-16 border-t border-white/10">
+          <section className="py-12 lg:py-16 border-t border-slate-200">
             <div className="container-custom">
-              <h2 className="text-2xl font-semibold text-white mb-8">
+              <h2 className="text-2xl font-semibold text-[#0F172A] mb-8">
                 Projets similaires
               </h2>
               <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -207,7 +207,7 @@ export default function ProjectPageLayout({ project, relatedProjects }: ProjectP
                   <Link
                     key={related.id}
                     href={`/realisations/${related.slug}`}
-                    className="group bg-[#1a1f2e] border border-white/10 rounded-xl overflow-hidden hover:border-white/20 transition-all duration-300"
+                    className="group bg-[#F8FAFC] border border-slate-200 rounded-xl overflow-hidden hover:border-slate-300 transition-all duration-300"
                   >
                     <div className="relative aspect-video">
                       <Image
@@ -219,10 +219,10 @@ export default function ProjectPageLayout({ project, relatedProjects }: ProjectP
                       />
                     </div>
                     <div className="p-4">
-                      <h3 className="font-semibold text-white group-hover:text-primary transition-colors mb-1">
+                      <h3 className="font-semibold text-[#0F172A] group-hover:text-[#FACC15] transition-colors mb-1">
                         {related.title}
                       </h3>
-                      <p className="text-sm text-gray-400">
+                      <p className="text-sm text-slate-500">
                         {related.client} &bull; {related.year}
                       </p>
                     </div>
@@ -245,23 +245,23 @@ export default function ProjectPageLayout({ project, relatedProjects }: ProjectP
         {/* Bottom CTA Band */}
         <section className="py-12 lg:py-16">
           <div className="container-custom">
-            <div className="bg-[#1a1f2e] border border-white/10 rounded-xl p-8 lg:p-12 text-center">
-              <h2 className="text-2xl lg:text-3xl font-bold text-white mb-4">
+            <div className="bg-[#F8FAFC] border border-slate-200 rounded-xl p-8 lg:p-12 text-center">
+              <h2 className="text-2xl lg:text-3xl font-bold text-[#0F172A] mb-4">
                 Vous avez un projet en tête ?
               </h2>
-              <p className="text-gray-300 mb-8 max-w-2xl mx-auto">
+              <p className="text-slate-600 mb-8 max-w-2xl mx-auto">
                 Contactez-nous pour discuter de votre projet de marquage routier.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link
                   href="/devis"
-                  className="bg-gradient-to-r from-amber-500 to-amber-400 hover:from-amber-600 hover:to-amber-500 text-white font-semibold py-4 px-8 rounded-lg transition-all duration-300 hover:scale-105"
+                  className="bg-gradient-to-r from-[#FACC15] to-[#FACC15]  text-[#0F172A] font-semibold py-4 px-8 rounded-lg transition-all duration-300 hover:scale-105"
                 >
                   Demander un devis
                 </Link>
                 <Link
                   href="/realisations"
-                  className="px-8 py-4 border-2 border-white/30 text-white font-semibold rounded-lg transition-all duration-300 hover:bg-white/10 hover:border-white/50"
+                  className="px-8 py-4 border-2 border-[#0F172A] text-[#0F172A] font-semibold rounded-lg transition-all duration-300 hover:bg-[#0F172A] hover:text-white"
                 >
                   Voir nos projets
                 </Link>

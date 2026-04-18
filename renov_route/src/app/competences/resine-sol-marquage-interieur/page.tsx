@@ -84,16 +84,16 @@ export default function ResineSolMarquageInterieurPage() {
       <ServicePageLayout
         breadcrumb={BREADCRUMB}
         heroIcon={<TbBrush size={28} />}
-        heroTitle={<>Résine de sol &amp; marquage intérieur à <strong className="text-amber-400">Lyon</strong></>}
+        heroTitle={<>Résine de sol &amp; marquage intérieur à <strong className="text-[#FACC15]">Lyon</strong></>}
         heroSubtitle="Sol industriel Lyon : revêtements époxy haute performance et marquage de zones pour vos espaces industriels, commerciaux et logistiques. Durable, esthétique, conforme."
         heroBackgroundImage="/assets/images/hero-resine-sol.webp"
         heroImageAlt="Application de résine époxy sur sol industriel à Lyon par Rénov Route"
         accentColor="violet"
         descriptionHeading="Sol industriel Lyon : résine epoxy et marquage intérieur"
         descriptionParagraphs={[
-          'La résine époxy transforme vos sols industriels et commerciaux en surfaces durables, hygiéniques et esthétiques — parfaites pour les environnements soumis à des contraintes mécaniques ou chimiques importantes. Basés à Lyon, nous intervenons dans toute la région Rhône-Alpes.',
-          <>Nous réalisons tous types de marquage intérieur : délimitation de zones de travail, allées de circulation, zones de stockage, marquage de sécurité réglementaire et signalétique au sol personnalisée. Pour les parkings, nous assurons aussi le <Link href="/competences/tracage-retracage-parking" className="text-amber-400 hover:text-amber-300 underline">marquage au sol de parking</Link> ainsi que la pose d&apos;<Link href="/competences/accessoires-parking" className="text-amber-400 hover:text-amber-300 underline">accessoires de parking</Link>.</>,
-          <>Notre expertise en sol industriel à Lyon couvre les usines, entrepôts, ateliers, centres commerciaux, parkings couverts et espaces logistiques. Découvrez nos <Link href="/realisations" className="text-amber-400 hover:text-amber-300 underline">réalisations</Link> et consultez notre <Link href="/guides/resine-epoxy-ou-peinture-sol-comparatif" className="text-amber-400 hover:text-amber-300 underline">comparatif résine epoxy vs peinture de sol</Link>.</>,
+          'La résine époxy transforme vos sols industriels et commerciaux en surfaces durables, hygiéniques et esthétiques, parfaites pour les environnements soumis à des contraintes mécaniques ou chimiques importantes. Basés à Lyon, nous intervenons dans toute la région Rhône-Alpes.',
+          <>Nous réalisons tous types de marquage intérieur : délimitation de zones de travail, allées de circulation, zones de stockage, marquage de sécurité réglementaire et signalétique au sol personnalisée. Pour les parkings, nous assurons aussi le <Link href="/competences/tracage-retracage-parking" className="text-[#FACC15] hover:text-[#0F172A] underline">marquage au sol de parking</Link> ainsi que la pose d&apos;<Link href="/competences/accessoires-parking" className="text-[#FACC15] hover:text-[#0F172A] underline">accessoires de parking</Link>.</>,
+          <>Notre expertise en sol industriel à Lyon couvre les usines, entrepôts, ateliers, centres commerciaux, parkings couverts et espaces logistiques. Découvrez nos <Link href="/realisations" className="text-[#FACC15] hover:text-[#0F172A] underline">réalisations</Link> et consultez notre <Link href="/guides/resine-epoxy-ou-peinture-sol-comparatif" className="text-[#FACC15] hover:text-[#0F172A] underline">comparatif résine epoxy vs peinture de sol</Link>.</>,
         ]}
         features={FEATURES}
         ctaTitle="Transformez vos sols et espaces intérieurs"
@@ -106,11 +106,11 @@ export default function ResineSolMarquageInterieurPage() {
           alt
         />
         {/* Palette de couleurs résine époxy */}
-        <section className="py-16 sm:py-20 px-4 bg-[#0a0d11]">
+        <section className="py-16 sm:py-20 px-4 bg-white">
           <div className="max-w-6xl mx-auto">
             <div className="mb-10">
-              <h2 className="text-2xl sm:text-3xl font-bold text-white mb-3 font-display">Palette de couleurs résine</h2>
-              <p className="text-gray-400 text-base sm:text-lg max-w-2xl">Un large choix de teintes RAL pour s&apos;adapter à votre environnement.</p>
+              <h2 className="text-2xl sm:text-3xl font-bold text-[#0F172A] mb-3 font-display">Palette de couleurs résine</h2>
+              <p className="text-slate-500 text-base sm:text-lg max-w-2xl">Un large choix de teintes RAL pour s&apos;adapter à votre environnement.</p>
             </div>
 
             {/* Swatches grid */}
@@ -144,16 +144,16 @@ export default function ResineSolMarquageInterieurPage() {
                   className="group"
                 >
                   <div
-                    className="aspect-square rounded-lg border border-white/10 group-hover:border-white/30 transition-all duration-200 group-hover:scale-105 group-hover:shadow-lg group-hover:shadow-black/30"
+                    className="aspect-square rounded-lg border border-slate-200 group-hover:border-[#FACC15] transition-all duration-200 group-hover:scale-105 group-hover:shadow-lg group-hover:shadow-black/30"
                     style={{ backgroundColor: swatch.color }}
                   />
-                  <p className="mt-2 text-xs text-gray-400 leading-tight hidden sm:block">{swatch.name}</p>
-                  <p className="text-[10px] text-gray-600 hidden sm:block">{swatch.ral}</p>
+                  <p className="mt-2 text-xs text-slate-500 leading-tight hidden sm:block">{swatch.name}</p>
+                  <p className="text-[10px] text-slate-400 hidden sm:block">{swatch.ral}</p>
                 </MotionDiv>
               ))}
             </div>
 
-            <p className="mt-8 text-sm text-gray-500">
+            <p className="mt-8 text-sm text-slate-400">
               Toutes les teintes du nuancier RAL sont disponibles sur demande. Finitions mate, satinée ou brillante.
             </p>
           </div>

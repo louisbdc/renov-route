@@ -29,18 +29,18 @@ export default function SEOStatCard({
   showTrend = true
 }: SEOStatCardProps) {
   const colorClasses = {
-    blue: 'bg-amber-500 text-gray-900',
-    green: 'bg-green-500 text-white',
-    yellow: 'bg-yellow-500 text-white',
-    red: 'bg-red-500 text-white',
-    purple: 'bg-purple-500 text-white',
-    indigo: 'bg-indigo-500 text-white'
+    blue: 'bg-amber-500 text-[#0F172A]',
+    green: 'bg-green-500 text-[#0F172A]',
+    yellow: 'bg-yellow-500 text-[#0F172A]',
+    red: 'bg-red-500 text-[#0F172A]',
+    purple: 'bg-purple-500 text-[#0F172A]',
+    indigo: 'bg-indigo-500 text-[#0F172A]'
   };
 
   const trendColors = {
     up: 'text-green-600',
     down: 'text-red-600',
-    stable: 'text-gray-600'
+    stable: 'text-slate-400'
   };
 
   const structuredData = {
@@ -69,24 +69,24 @@ export default function SEOStatCard({
                     {stat.icon}
                   </div>
                 )}
-                <h3 className="text-sm font-medium text-gray-600">
+                <h3 className="text-sm font-medium text-slate-400">
                   {stat.label}
                 </h3>
               </div>
               
               <div className="flex items-baseline">
-                <span className="text-2xl font-bold text-gray-900">
+                <span className="text-2xl font-bold text-[#0F172A]">
                   {stat.value}
                 </span>
                 {stat.unit && (
-                  <span className="ml-1 text-sm text-gray-600">
+                  <span className="ml-1 text-sm text-slate-400">
                     {stat.unit}
                   </span>
                 )}
               </div>
               
               {stat.description && (
-                <p className="text-sm text-gray-600 mt-1">
+                <p className="text-sm text-slate-400 mt-1">
                   {stat.description}
                 </p>
               )}
@@ -99,20 +99,20 @@ export default function SEOStatCard({
                     {stat.trend.direction === 'stable' && '→'}
                     {stat.trend.value}%
                   </span>
-                  <span className="ml-1 text-xs text-gray-500">
+                  <span className="ml-1 text-xs text-slate-400">
                     {stat.trend.period}
                   </span>
                 </div>
               )}
               
               {stat.source && (
-                <div className="mt-2 text-xs text-gray-500">
+                <div className="mt-2 text-xs text-slate-400">
                   Source: {stat.source}
                 </div>
               )}
               
               {stat.lastUpdated && (
-                <div className="mt-1 text-xs text-gray-400">
+                <div className="mt-1 text-xs text-slate-500">
                   Mis à jour: {new Date(stat.lastUpdated).toLocaleDateString('fr-FR')}
                 </div>
               )}

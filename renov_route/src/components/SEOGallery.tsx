@@ -138,7 +138,7 @@ export default function SEOGallery({
     <>
       <div className={className}>
         <div className="bg-white rounded-lg shadow-md border border-gray-200 p-6">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">
+          <h2 className="text-2xl font-bold text-[#0F172A] mb-6 text-center">
             Notre Galerie
           </h2>
           
@@ -157,7 +157,7 @@ export default function SEOGallery({
                   
                   {image.featured && (
                     <div className="absolute top-2 left-2">
-                      <span className="bg-yellow-500 text-white text-xs px-2 py-1 rounded-full font-medium">
+                      <span className="bg-yellow-500 text-[#0F172A] text-xs px-2 py-1 rounded-full font-medium">
                         ⭐ En vedette
                       </span>
                     </div>
@@ -165,7 +165,7 @@ export default function SEOGallery({
                   
                   {showCategories && image.category && (
                     <div className="absolute top-2 right-2">
-                      <span className="bg-amber-500 text-gray-900 text-xs px-2 py-1 rounded-full">
+                      <span className="bg-amber-500 text-[#0F172A] text-xs px-2 py-1 rounded-full">
                         {image.category}
                       </span>
                     </div>
@@ -173,7 +173,7 @@ export default function SEOGallery({
                   
                   <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">
                     <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                      <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <svg className="w-8 h-8 text-[#0F172A]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" />
                       </svg>
                     </div>
@@ -183,12 +183,12 @@ export default function SEOGallery({
                 {showCaptions && (image.title || image.caption) && (
                   <div className="mt-2">
                     {image.title && (
-                      <h3 className="text-sm font-semibold text-gray-900">
+                      <h3 className="text-sm font-semibold text-[#0F172A]">
                         {image.title}
                       </h3>
                     )}
                     {image.caption && (
-                      <p className="text-xs text-gray-600 mt-1">
+                      <p className="text-xs text-slate-400 mt-1">
                         {image.caption}
                       </p>
                     )}
@@ -196,7 +196,7 @@ export default function SEOGallery({
                 )}
                 
                 {showMetadata && (
-                  <div className="mt-2 space-y-1 text-xs text-gray-500">
+                  <div className="mt-2 space-y-1 text-xs text-slate-400">
                     {image.date && (
                       <div>📅 {new Date(image.date).toLocaleDateString('fr-FR')}</div>
                     )}
@@ -218,7 +218,7 @@ export default function SEOGallery({
                       {image.tags.map((tag, tagIndex) => (
                         <span
                           key={tagIndex}
-                          className="inline-block bg-gray-100 text-gray-700 text-xs px-2 py-1 rounded-full"
+                          className="inline-block bg-gray-100 text-slate-500 text-xs px-2 py-1 rounded-full"
                         >
                           #{tag}
                         </span>
@@ -238,7 +238,7 @@ export default function SEOGallery({
           <div className="relative max-w-4xl max-h-full">
             <button
               onClick={closeLightbox}
-              className="absolute top-4 right-4 text-white hover:text-gray-300 z-10"
+              className="absolute top-4 right-4 text-[#0F172A] hover:text-slate-600 z-10"
             >
               <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -247,7 +247,7 @@ export default function SEOGallery({
             
             <button
               onClick={prevImage}
-              className="absolute left-4 top-1/2 transform -translate-y-1/2 text-white hover:text-gray-300 z-10"
+              className="absolute left-4 top-1/2 transform -translate-y-1/2 text-[#0F172A] hover:text-slate-600 z-10"
             >
               <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
@@ -256,7 +256,7 @@ export default function SEOGallery({
             
             <button
               onClick={nextImage}
-              className="absolute right-4 top-1/2 transform -translate-y-1/2 text-white hover:text-gray-300 z-10"
+              className="absolute right-4 top-1/2 transform -translate-y-1/2 text-[#0F172A] hover:text-slate-600 z-10"
             >
               <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -272,7 +272,7 @@ export default function SEOGallery({
             />
             
             {(selectedImage.title || selectedImage.caption) && (
-              <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-75 text-white p-4">
+              <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-75 text-[#0F172A] p-4">
                 {selectedImage.title && (
                   <h3 className="text-lg font-semibold mb-2">
                     {selectedImage.title}

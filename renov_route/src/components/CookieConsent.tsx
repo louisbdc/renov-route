@@ -49,11 +49,11 @@ export default function CookieConsent({ className = '' }: CookieConsentProps) {
   return (
     <div className={`fixed bottom-0 left-0 right-0 z-50 ${className}`}>
       <div className="max-w-7xl mx-auto p-4 sm:p-6">
-        <div className="glassmorphism-card backdrop-blur-md border border-white/20 rounded-[1.5rem] shadow-2xl">
+        <div className="glassmorphism-card backdrop-blur-md border border-slate-300 rounded-[1.5rem] shadow-2xl">
           <div className="p-4 sm:p-6">
             <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
               <div className="flex-1">
-                <h3 className="text-lg sm:text-xl font-bold text-white mb-2 flex items-center">
+                <h3 className="text-lg sm:text-xl font-bold text-[#0F172A] mb-2 flex items-center">
                   Gestion des cookies
                 </h3>
                 <p className="text-sm sm:text-base text-gray-200 mb-4 leading-relaxed">
@@ -62,8 +62,8 @@ export default function CookieConsent({ className = '' }: CookieConsentProps) {
                 </p>
 
                 {showDetails && (
-                  <div className="mt-4 p-4 sm:p-6 glassmorphism-card backdrop-blur-sm border border-white/10 rounded-[1rem]">
-                    <h4 className="font-semibold text-white mb-4 text-lg">Types de cookies utilisés :</h4>
+                  <div className="mt-4 p-4 sm:p-6 glassmorphism-card backdrop-blur-sm border border-slate-200 rounded-[1rem]">
+                    <h4 className="font-semibold text-[#0F172A] mb-4 text-lg">Types de cookies utilisés :</h4>
                     <div className="space-y-4">
                       <div className="flex items-start gap-3">
                         <input
@@ -71,13 +71,13 @@ export default function CookieConsent({ className = '' }: CookieConsentProps) {
                           id="necessary"
                           checked={true}
                           disabled
-                          className="mt-1 w-4 h-4 text-amber-400 bg-gray-100 border-gray-300 rounded focus:ring-amber-500 focus:ring-2"
+                          className="mt-1 w-4 h-4 text-[#FACC15] bg-gray-100 border-gray-300 rounded focus:ring-amber-500 focus:ring-2"
                         />
                         <div>
-                          <label htmlFor="necessary" className="font-medium text-white text-base">
+                          <label htmlFor="necessary" className="font-medium text-[#0F172A] text-base">
                             Cookies nécessaires
                           </label>
-                          <p className="text-sm text-gray-300 mt-1">
+                          <p className="text-sm text-slate-600 mt-1">
                             Essentiels au fonctionnement du site (consentement cookies, session)
                           </p>
                         </div>
@@ -89,13 +89,13 @@ export default function CookieConsent({ className = '' }: CookieConsentProps) {
                           id="analytics-details"
                           checked={consent?.analytics || false}
                           onChange={(e) => updateConsent({ analytics: e.target.checked })}
-                          className="mt-1 w-4 h-4 text-amber-400 bg-gray-100 border-gray-300 rounded focus:ring-amber-500 focus:ring-2"
+                          className="mt-1 w-4 h-4 text-[#FACC15] bg-gray-100 border-gray-300 rounded focus:ring-amber-500 focus:ring-2"
                         />
                         <div>
-                          <label htmlFor="analytics-details" className="font-medium text-white text-base cursor-pointer">
+                          <label htmlFor="analytics-details" className="font-medium text-[#0F172A] text-base cursor-pointer">
                             Cookies d&apos;analyse
                           </label>
-                          <p className="text-sm text-gray-300 mt-1">
+                          <p className="text-sm text-slate-600 mt-1">
                             Google Analytics et suivi de navigation pour améliorer nos services
                           </p>
                         </div>
@@ -108,32 +108,32 @@ export default function CookieConsent({ className = '' }: CookieConsentProps) {
               <div className="flex flex-col sm:flex-row gap-3 lg:ml-6">
                 <button
                   onClick={handleCustomize}
-                  className="px-4 py-2 text-sm font-semibold text-white border border-white/30 rounded-[0.75rem] hover:bg-white/10 hover:border-white/50 transition-all duration-300 backdrop-blur-sm"
+                  className="px-4 py-2 text-sm font-semibold text-[#0F172A] border border-white/30 rounded-[0.75rem] hover:bg-[#F8FAFC] hover:border-slate-1000 transition-all duration-300 backdrop-blur-sm"
                 >
                   {showDetails ? 'Masquer les détails' : 'Personnaliser'}
                 </button>
 
                 <button
                   onClick={handleRejectAll}
-                  className="px-4 py-2 text-sm font-semibold text-white border border-white/30 rounded-[0.75rem] hover:bg-white/10 hover:border-white/50 transition-all duration-300 backdrop-blur-sm"
+                  className="px-4 py-2 text-sm font-semibold text-[#0F172A] border border-white/30 rounded-[0.75rem] hover:bg-[#F8FAFC] hover:border-slate-1000 transition-all duration-300 backdrop-blur-sm"
                 >
                   Refuser tout
                 </button>
 
                 <button
                   onClick={handleAcceptAll}
-                  className="px-4 py-2 text-sm font-semibold text-white bg-gradient-to-r from-amber-500 to-amber-400 hover:from-amber-600 hover:to-amber-500 rounded-[0.75rem] transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
+                  className="px-4 py-2 text-sm font-semibold text-[#0F172A] bg-gradient-to-r from-amber-500 to-amber-400 hover:from-amber-600 hover:to-amber-500 rounded-[0.75rem] transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
                 >
                   Accepter tout
                 </button>
               </div>
             </div>
 
-            <div className="mt-4 pt-4 border-t border-white/20">
-              <div className="flex flex-wrap gap-4 text-xs text-gray-300">
+            <div className="mt-4 pt-4 border-t border-slate-300">
+              <div className="flex flex-wrap gap-4 text-xs text-slate-600">
                 <Link
                   href="/privacy-policy"
-                  className="hover:text-amber-400 transition-colors duration-300"
+                  className="hover:text-[#FACC15] transition-colors duration-300"
                 >
                   Politique de confidentialité
                 </Link>
@@ -144,7 +144,7 @@ export default function CookieConsent({ className = '' }: CookieConsentProps) {
                       window.location.reload()
                     }
                   }}
-                  className="hover:text-amber-400 transition-colors duration-300"
+                  className="hover:text-[#FACC15] transition-colors duration-300"
                 >
                   Supprimer tous les cookies
                 </button>
@@ -181,7 +181,7 @@ export function CookiePreferences() {
       <div className="p-4 sm:p-6 glassmorphism-card backdrop-blur-md border border-yellow-500/30 rounded-[1rem]">
         <p className="text-yellow-300">
           Aucune préférence de cookies définie.
-          <Link href="/" className="underline ml-1 text-amber-400 hover:text-amber-300 transition-colors">Retourner à l&apos;accueil</Link>
+          <Link href="/" className="underline ml-1 text-[#FACC15] hover:text-[#0F172A] transition-colors">Retourner à l&apos;accueil</Link>
         </p>
       </div>
     )
@@ -189,8 +189,8 @@ export function CookiePreferences() {
 
   return (
     <div className="space-y-6">
-      <div className="glassmorphism-card p-6 sm:p-8 rounded-[1.5rem] backdrop-blur-md border border-white/20">
-        <h3 className="text-lg sm:text-xl font-bold text-white mb-2">
+      <div className="glassmorphism-card p-6 sm:p-8 rounded-[1.5rem] backdrop-blur-md border border-slate-300">
+        <h3 className="text-lg sm:text-xl font-bold text-[#0F172A] mb-2">
           Gestion de vos préférences de cookies
         </h3>
         <p className="text-gray-200">
@@ -199,11 +199,11 @@ export function CookiePreferences() {
       </div>
 
       <div className="space-y-4">
-        <div className="glassmorphism-card p-4 sm:p-6 rounded-[1rem] backdrop-blur-sm border border-white/10">
+        <div className="glassmorphism-card p-4 sm:p-6 rounded-[1rem] backdrop-blur-sm border border-slate-200">
           <div className="flex items-center justify-between">
             <div>
-              <h4 className="font-semibold text-white text-base">Cookies nécessaires</h4>
-              <p className="text-sm text-gray-300 mt-1">Toujours actifs — essentiels au fonctionnement</p>
+              <h4 className="font-semibold text-[#0F172A] text-base">Cookies nécessaires</h4>
+              <p className="text-sm text-slate-600 mt-1">Toujours actifs — essentiels au fonctionnement</p>
             </div>
             <div className="px-3 py-1 bg-green-500/20 text-green-300 text-sm rounded-full border border-green-500/30">
               Actif
@@ -211,11 +211,11 @@ export function CookiePreferences() {
           </div>
         </div>
 
-        <div className="glassmorphism-card p-4 sm:p-6 rounded-[1rem] backdrop-blur-sm border border-white/10">
+        <div className="glassmorphism-card p-4 sm:p-6 rounded-[1rem] backdrop-blur-sm border border-slate-200">
           <div className="flex items-center justify-between">
             <div>
-              <h4 className="font-semibold text-white text-base">Cookies d&apos;analyse</h4>
-              <p className="text-sm text-gray-300 mt-1">Google Analytics et suivi de navigation</p>
+              <h4 className="font-semibold text-[#0F172A] text-base">Cookies d&apos;analyse</h4>
+              <p className="text-sm text-slate-600 mt-1">Google Analytics et suivi de navigation</p>
             </div>
             <label className="relative inline-flex items-center cursor-pointer">
               <input
@@ -230,21 +230,21 @@ export function CookiePreferences() {
         </div>
       </div>
 
-      <div className="glassmorphism-card p-4 sm:p-6 rounded-[1rem] backdrop-blur-sm border border-white/10">
+      <div className="glassmorphism-card p-4 sm:p-6 rounded-[1rem] backdrop-blur-sm border border-slate-200">
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-          <div className="text-sm text-gray-300">
+          <div className="text-sm text-slate-600">
             Dernière mise à jour : {new Date(consent.timestamp).toLocaleDateString('fr-FR')}
           </div>
           <div className="flex flex-col sm:flex-row gap-3">
             <button
               onClick={() => CookieManager.clearNonEssentialCookies()}
-              className="px-4 py-2 text-sm font-semibold text-white border border-white/30 rounded-[0.75rem] hover:bg-white/10 hover:border-white/50 transition-all duration-300 backdrop-blur-sm"
+              className="px-4 py-2 text-sm font-semibold text-[#0F172A] border border-white/30 rounded-[0.75rem] hover:bg-[#F8FAFC] hover:border-slate-1000 transition-all duration-300 backdrop-blur-sm"
             >
               Supprimer les cookies non-essentiels
             </button>
             <button
               onClick={handleSave}
-              className="px-4 py-2 text-sm font-semibold text-white bg-gradient-to-r from-amber-500 to-amber-400 hover:from-amber-600 hover:to-amber-500 rounded-[0.75rem] transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
+              className="px-4 py-2 text-sm font-semibold text-[#0F172A] bg-gradient-to-r from-amber-500 to-amber-400 hover:from-amber-600 hover:to-amber-500 rounded-[0.75rem] transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
             >
               {isSaved ? 'Sauvegardé' : 'Sauvegarder'}
             </button>

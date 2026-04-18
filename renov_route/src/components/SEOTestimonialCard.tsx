@@ -44,7 +44,7 @@ export default function SEOTestimonialCard({
       <svg
         key={i}
         className={`w-4 h-4 ${
-          i < rating ? 'text-yellow-400' : 'text-gray-300'
+          i < rating ? 'text-yellow-400' : 'text-slate-600'
         }`}
         fill="currentColor"
         viewBox="0 0 20 20"
@@ -102,7 +102,7 @@ export default function SEOTestimonialCard({
             <div className="flex-1">
               <div className="flex items-center justify-between mb-2">
                 <div className="flex items-center space-x-2">
-                  <h4 className="text-sm font-semibold text-gray-900">
+                  <h4 className="text-sm font-semibold text-[#0F172A]">
                     {testimonial.author.name}
                   </h4>
                   {testimonial.verified && (
@@ -118,25 +118,25 @@ export default function SEOTestimonialCard({
               </div>
               
               {testimonial.author.title && (
-                <p className="text-sm text-gray-600 mb-2">
+                <p className="text-sm text-slate-400 mb-2">
                   {testimonial.author.title}
                   {testimonial.author.company && ` chez ${testimonial.author.company}`}
                 </p>
               )}
               
               {testimonial.author.location && (
-                <p className="text-xs text-gray-500 mb-3">
+                <p className="text-xs text-slate-400 mb-3">
                   📍 {testimonial.author.location}
                 </p>
               )}
               
-              <blockquote className="text-gray-700 italic mb-4">
+              <blockquote className="text-slate-500 italic mb-4">
                 "{testimonial.text}"
               </blockquote>
               
               {showProject && testimonial.project && (
                 <div className="mb-3">
-                  <span className="inline-block bg-amber-500/15 text-amber-400 text-xs px-2 py-1 rounded-full">
+                  <span className="inline-block bg-[#FACC15] text-[#0F172A] text-xs px-2 py-1 rounded-full">
                     Projet: {testimonial.project}
                   </span>
                 </div>
@@ -164,7 +164,7 @@ export default function SEOTestimonialCard({
                       />
                     ))}
                     {testimonial.images.length > 3 && (
-                      <div className="w-16 h-16 bg-gray-200 rounded flex items-center justify-center text-xs text-gray-600">
+                      <div className="w-16 h-16 bg-gray-200 rounded flex items-center justify-center text-xs text-slate-400">
                         +{testimonial.images.length - 3}
                       </div>
                     )}
@@ -182,7 +182,7 @@ export default function SEOTestimonialCard({
                 </div>
               )}
               
-              <div className="flex items-center justify-between text-xs text-gray-500">
+              <div className="flex items-center justify-between text-xs text-slate-400">
                 <span>
                   {new Date(testimonial.date).toLocaleDateString('fr-FR')}
                 </span>
@@ -196,7 +196,7 @@ export default function SEOTestimonialCard({
               
               {showStats && (testimonial.helpful !== undefined || testimonial.notHelpful !== undefined) && (
                 <div className="mt-3 pt-3 border-t border-gray-200">
-                  <div className="flex items-center space-x-4 text-xs text-gray-600">
+                  <div className="flex items-center space-x-4 text-xs text-slate-400">
                     {testimonial.helpful !== undefined && (
                       <span className="flex items-center">
                         <svg className="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">

@@ -105,18 +105,17 @@ export default function FAQPage() {
 
       <Layout>
         <SafariAnimationFix>
-          {/* Hero Section */}
-          <section className="pt-24 sm:pt-28 lg:pt-32 pb-12 sm:pb-16 px-4 relative overflow-hidden">
-            <div className="absolute inset-0 bg-[#0a0d11]" />
-            <div className="absolute inset-0 bg-[url('/assets/images/background_home_page.avif')] bg-cover bg-center opacity-20" />
-            <div className="absolute inset-0 bg-gradient-to-b from-[#141922]/40 via-transparent to-[#141922]" />
+          {/* Hero — dark editorial */}
+          <section className="pt-28 sm:pt-36 pb-16 sm:pb-20 px-6 relative overflow-hidden bg-[#0F172A]">
+            <div className="absolute inset-0 bg-[url('/assets/images/background_home_page.avif')] bg-cover bg-center grayscale opacity-15" />
+            <div className="absolute inset-0 bg-gradient-to-b from-[#0F172A]/40 via-[#0F172A]/80 to-[#0F172A]" />
 
-            <div className="relative max-w-4xl mx-auto text-center">
-              <nav className="mb-8">
-                <div className="flex items-center justify-center space-x-2 text-sm text-gray-400">
-                  <Link href="/" className="hover:text-white transition-colors">Accueil</Link>
-                  <span className="text-gray-600">/</span>
-                  <span className="text-gray-200">FAQ</span>
+            <div className="relative max-w-5xl mx-auto">
+              <nav className="mb-10">
+                <div className="flex items-center flex-wrap gap-x-3 gap-y-1 text-[10px] font-bold uppercase tracking-[0.2em] text-slate-400">
+                  <Link href="/" className="hover:text-[#FACC15] transition-colors">Accueil</Link>
+                  <span className="text-slate-600">/</span>
+                  <span className="text-white">FAQ</span>
                 </div>
               </nav>
 
@@ -125,25 +124,27 @@ export default function FAQPage() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
               >
-                <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-5 font-display">
-                  Questions Fréquentes
+                <span className="inline-block text-[11px] font-black uppercase tracking-[0.25em] text-[#FACC15] mb-6">
+                  Questions fréquentes
+                </span>
+                <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black italic uppercase tracking-tighter leading-[0.9] text-white mb-8">
+                  Toutes les <br /><span className="text-[#FACC15]">réponses.</span>
                 </h1>
-                <p className="text-lg sm:text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
-                  Trouvez toutes les réponses à vos questions sur le marquage au sol,
-                  la peinture de parking et la réparation de chaussée
+                <p className="text-lg text-slate-300 mb-10 max-w-2xl leading-relaxed font-medium">
+                  Trouvez toutes les réponses à vos questions sur le marquage au sol, la peinture de parking et la réparation de chaussée.
                 </p>
-                <div className="flex flex-col sm:flex-row gap-3 justify-center">
+                <div className="flex flex-col sm:flex-row gap-4">
                   <Link
                     href="/devis"
-                    className="bg-amber-500 hover:bg-amber-400 text-gray-900 font-semibold px-7 py-3 rounded-lg transition-colors duration-200"
+                    className="inline-flex items-center justify-center bg-[#FACC15] hover:bg-white text-[#0F172A] px-10 py-5 font-black uppercase text-xs tracking-[0.2em] rounded-sm transition-all shadow-[6px_6px_0_rgba(250,204,21,0.25)] active:translate-x-[2px] active:translate-y-[2px] active:shadow-none"
                   >
                     Demander un devis
                   </Link>
                   <Link
                     href="/qui-sommes-nous"
-                    className="border border-white/20 hover:border-white/40 text-white font-semibold px-7 py-3 rounded-lg transition-colors duration-200 hover:bg-white/5"
+                    className="inline-flex items-center justify-center border-2 border-white/20 text-white hover:bg-white/10 hover:border-white/40 px-10 py-5 font-black uppercase text-xs tracking-[0.2em] rounded-sm transition-all"
                   >
-                    Nous Contacter
+                    Nous contacter
                   </Link>
                 </div>
               </MotionDiv>
@@ -151,7 +152,7 @@ export default function FAQPage() {
           </section>
 
           {/* FAQ Section */}
-          <section className="py-16 sm:py-20 px-4 bg-[#0a0d11]">
+          <section className="py-20 sm:py-28 px-6 bg-white">
             <div className="max-w-3xl mx-auto">
               <MotionDiv
                 initial={{ opacity: 0, y: 20 }}
@@ -165,10 +166,8 @@ export default function FAQPage() {
           </section>
 
           {/* CTA Section */}
-          <section className="py-16 sm:py-20 px-4 relative overflow-hidden border-t border-white/5">
-            <div className="absolute inset-0 bg-[url('/assets/images/background_home_page.avif')] bg-cover bg-center opacity-15" />
-            <div className="absolute inset-0 bg-[#0a0d11]/90" />
-
+          <section className="py-24 sm:py-32 px-6 relative overflow-hidden bg-[#0F172A]">
+            <div className="absolute inset-0 z-0" style={{ backgroundImage: 'repeating-linear-gradient(45deg, #FACC15 0px, #FACC15 2px, transparent 2px, transparent 10px)', opacity: 0.08 }} />
             <div className="relative max-w-3xl mx-auto text-center">
               <MotionDiv
                 initial={{ opacity: 0, y: 20 }}
@@ -176,25 +175,24 @@ export default function FAQPage() {
                 transition={{ duration: 0.5 }}
                 viewport={{ once: true }}
               >
-                <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 font-display">
-                  Vous avez d&apos;autres questions ?
+                <h2 className="text-4xl sm:text-5xl md:text-6xl font-black italic uppercase tracking-tighter leading-[0.95] text-white mb-6">
+                  D&apos;autres <span className="text-[#FACC15]">questions ?</span>
                 </h2>
-                <p className="text-gray-400 mb-8">
-                  Notre équipe d&apos;experts est à votre disposition pour vous conseiller
-                  et vous accompagner dans vos projets de marquage au sol.
+                <p className="text-slate-300 text-lg mb-10 leading-relaxed font-medium">
+                  Notre équipe d&apos;experts est à votre disposition pour vous conseiller et vous accompagner dans vos projets.
                 </p>
-                <div className="flex flex-col sm:flex-row gap-3 justify-center">
+                <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <Link
                     href="/devis"
-                    className="bg-amber-500 hover:bg-amber-400 text-gray-900 font-semibold px-7 py-3 rounded-lg transition-colors duration-200"
+                    className="inline-flex items-center justify-center bg-[#FACC15] hover:bg-white text-[#0F172A] px-10 py-5 font-black uppercase text-xs tracking-[0.2em] rounded-sm transition-all shadow-[6px_6px_0_rgba(250,204,21,0.25)] active:translate-x-[2px] active:translate-y-[2px] active:shadow-none"
                   >
-                    Demander un Devis
+                    Demander un devis
                   </Link>
                   <Link
                     href="/qui-sommes-nous"
-                    className="border border-white/20 hover:border-white/40 text-white font-semibold px-7 py-3 rounded-lg transition-colors duration-200 hover:bg-white/5"
+                    className="inline-flex items-center justify-center border-2 border-white/20 text-white hover:bg-white/10 hover:border-white/40 px-10 py-5 font-black uppercase text-xs tracking-[0.2em] rounded-sm transition-all"
                   >
-                    Nous Appeler
+                    Nous appeler
                   </Link>
                 </div>
               </MotionDiv>

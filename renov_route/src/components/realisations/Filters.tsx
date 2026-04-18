@@ -94,15 +94,15 @@ export default function Filters({ onFilterChange, className = '' }: FilterProps)
   const activeFiltersCount = filters.categories.length + filters.industries.length + filters.years.length + (filters.search ? 1 : 0);
 
   return (
-    <section className={`glass-panel p-6 ${className}`}>
-      <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4 mb-6">
+    <section className={`bg-white border border-slate-200 p-8 ${className}`}>
+      <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4 mb-8">
         <div className="flex items-center gap-4">
-          <h2 className="text-h3 text-text-primary font-semibold">Filtrer les projets</h2>
+          <h2 className="text-xl font-black italic uppercase tracking-tight text-[#0F172A]">Filtrer les projets</h2>
           {activeFiltersCount > 0 && (
             <motion.span
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
-              className="px-2 py-1 bg-primary text-bg-base text-caption font-medium rounded-full"
+              className="px-2 py-1 bg-[#FACC15] text-[#0F172A] text-[10px] font-black uppercase tracking-[0.2em] rounded-sm"
             >
               {activeFiltersCount}
             </motion.span>
@@ -112,7 +112,7 @@ export default function Filters({ onFilterChange, className = '' }: FilterProps)
         <div className="flex items-center gap-4">
           <button
             onClick={() => setIsExpanded(!isExpanded)}
-            className="lg:hidden px-4 py-2 bg-glass-bg hover:bg-glass-bg-hover border border-glass-border rounded-lg transition-colors duration-200 focus-ring"
+            className="lg:hidden px-4 py-2.5 bg-white border border-slate-200 hover:border-[#0F172A] text-[10px] font-black uppercase tracking-[0.2em] text-[#0F172A] rounded-sm transition-colors focus-ring"
           >
             {isExpanded ? 'Masquer' : 'Filtres'} ({activeFiltersCount})
           </button>
@@ -120,7 +120,7 @@ export default function Filters({ onFilterChange, className = '' }: FilterProps)
           {activeFiltersCount > 0 && (
             <button
               onClick={clearFilters}
-              className="px-4 py-2 text-text-secondary hover:text-text-primary transition-colors duration-200 focus-ring"
+              className="px-4 py-2.5 text-[10px] font-black uppercase tracking-[0.2em] text-slate-500 hover:text-[#0F172A] transition-colors focus-ring"
             >
               Effacer tout
             </button>
@@ -137,27 +137,24 @@ export default function Filters({ onFilterChange, className = '' }: FilterProps)
             transition={{ duration: 0.3, ease: [0.2, 0.8, 0.2, 1] }}
             className="space-y-6"
           >
-            {/* Search */}
             <div className="relative">
               <input
                 type="text"
                 placeholder="Rechercher un projet..."
                 value={filters.search}
                 onChange={(e) => updateSearch(e.target.value)}
-                className="w-full px-4 py-3 bg-glass-bg border border-glass-border rounded-lg text-text-primary placeholder-text-muted focus:outline-none focus:border-primary focus-ring transition-colors duration-200"
+                className="w-full px-4 py-3 bg-[#F8FAFC] border border-slate-200 rounded-sm text-[#0F172A] placeholder-slate-400 focus:outline-none focus:border-[#0F172A] focus-ring transition-colors duration-200 font-medium"
               />
               <div className="absolute right-3 top-1/2 transform -translate-y-1/2">
-                <svg className="w-5 h-5 text-text-muted" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-5 h-5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                 </svg>
               </div>
             </div>
 
-            {/* Filter Groups */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {/* Category Filter */}
               <div>
-                <label className="block text-text-secondary text-caption font-medium mb-3">
+                <label className="block text-[10px] font-black uppercase tracking-[0.2em] text-slate-500 mb-3">
                   Catégorie
                 </label>
                 <div className="space-y-2">
@@ -167,32 +164,27 @@ export default function Filters({ onFilterChange, className = '' }: FilterProps)
                       <motion.button
                         key={category.id}
                         onClick={() => toggleFilter('categories', category.id)}
-                        className={`w-full text-left px-3 py-2 rounded-lg transition-all duration-200 focus-ring group relative overflow-hidden ${
+                        className={`w-full text-left px-3 py-2.5 text-xs font-bold transition-all duration-200 focus-ring group relative overflow-hidden rounded-sm ${
                           isSelected
-                            ? 'bg-glass-bg border-2 border-primary/50 shadow-lg backdrop-blur-sm'
-                            : 'bg-glass-bg hover:bg-glass-bg-hover border border-glass-border'
+                            ? 'bg-[#FACC15] text-[#0F172A] border border-[#FACC15]'
+                            : 'bg-white hover:bg-[#F8FAFC] border border-slate-200 text-[#0F172A]'
                         }`}
                         whileHover={{ scale: 1.02 }}
                         whileTap={{ scale: 0.98 }}
                       >
-                        {/* Indicateur de sélection */}
                         {isSelected && (
                           <motion.div
                             initial={{ scale: 0 }}
                             animate={{ scale: 1 }}
-                            className="absolute top-2 right-2 w-2 h-2 bg-primary rounded-full"
+                            className="absolute top-2 right-2 w-2 h-2 bg-[#0F172A]"
                           />
                         )}
                         
                         <span className="flex items-center justify-between">
-                          <span className={`transition-colors duration-200 ${
-                            isSelected ? 'text-primary font-medium' : 'text-text-primary'
-                          }`}>
+                          <span className="font-bold uppercase tracking-tight text-xs">
                             {category.label}
                           </span>
-                          <span className={`text-caption transition-colors duration-200 ${
-                            isSelected ? 'text-primary/70' : 'opacity-70'
-                          }`}>
+                          <span className="text-[10px] font-bold opacity-70">
                             ({category.count})
                           </span>
                         </span>
@@ -214,7 +206,7 @@ export default function Filters({ onFilterChange, className = '' }: FilterProps)
 
               {/* Industry Filter */}
               <div>
-                <label className="block text-text-secondary text-caption font-medium mb-3">
+                <label className="block text-[10px] font-black uppercase tracking-[0.2em] text-slate-500 mb-3">
                   Secteur
                 </label>
                 <div className="space-y-2">
@@ -224,26 +216,23 @@ export default function Filters({ onFilterChange, className = '' }: FilterProps)
                       <motion.button
                         key={industry}
                         onClick={() => toggleFilter('industries', industry)}
-                        className={`w-full text-left px-3 py-2 rounded-lg transition-all duration-200 focus-ring group relative overflow-hidden ${
+                        className={`w-full text-left px-3 py-2.5 text-xs font-bold transition-all duration-200 focus-ring group relative overflow-hidden rounded-sm ${
                           isSelected
-                            ? 'bg-glass-bg border-2 border-primary/50 shadow-lg backdrop-blur-sm'
-                            : 'bg-glass-bg hover:bg-glass-bg-hover border border-glass-border'
+                            ? 'bg-[#FACC15] text-[#0F172A] border border-[#FACC15]'
+                            : 'bg-white hover:bg-[#F8FAFC] border border-slate-200 text-[#0F172A]'
                         }`}
                         whileHover={{ scale: 1.02 }}
                         whileTap={{ scale: 0.98 }}
                       >
-                        {/* Indicateur de sélection */}
                         {isSelected && (
                           <motion.div
                             initial={{ scale: 0 }}
                             animate={{ scale: 1 }}
-                            className="absolute top-2 right-2 w-2 h-2 bg-primary rounded-full"
+                            className="absolute top-2 right-2 w-2 h-2 bg-[#0F172A]"
                           />
                         )}
                         
-                        <span className={`transition-colors duration-200 ${
-                          isSelected ? 'text-primary font-medium' : 'text-text-primary'
-                        }`}>
+                        <span className="font-bold uppercase tracking-tight text-xs">
                           {industry}
                         </span>
                         
@@ -264,7 +253,7 @@ export default function Filters({ onFilterChange, className = '' }: FilterProps)
 
               {/* Year Filter */}
               <div>
-                <label className="block text-text-secondary text-caption font-medium mb-3">
+                <label className="block text-[10px] font-black uppercase tracking-[0.2em] text-slate-500 mb-3">
                   Année
                 </label>
                 <div className="space-y-2">
@@ -275,26 +264,23 @@ export default function Filters({ onFilterChange, className = '' }: FilterProps)
                       <motion.button
                         key={year}
                         onClick={() => toggleFilter('years', yearStr)}
-                        className={`w-full text-left px-3 py-2 rounded-lg transition-all duration-200 focus-ring group relative overflow-hidden ${
+                        className={`w-full text-left px-3 py-2.5 text-xs font-bold transition-all duration-200 focus-ring group relative overflow-hidden rounded-sm ${
                           isSelected
-                            ? 'bg-glass-bg border-2 border-primary/50 shadow-lg backdrop-blur-sm'
-                            : 'bg-glass-bg hover:bg-glass-bg-hover border border-glass-border'
+                            ? 'bg-[#FACC15] text-[#0F172A] border border-[#FACC15]'
+                            : 'bg-white hover:bg-[#F8FAFC] border border-slate-200 text-[#0F172A]'
                         }`}
                         whileHover={{ scale: 1.02 }}
                         whileTap={{ scale: 0.98 }}
                       >
-                        {/* Indicateur de sélection */}
                         {isSelected && (
                           <motion.div
                             initial={{ scale: 0 }}
                             animate={{ scale: 1 }}
-                            className="absolute top-2 right-2 w-2 h-2 bg-primary rounded-full"
+                            className="absolute top-2 right-2 w-2 h-2 bg-[#0F172A]"
                           />
                         )}
                         
-                        <span className={`transition-colors duration-200 ${
-                          isSelected ? 'text-primary font-medium' : 'text-text-primary'
-                        }`}>
+                        <span className="font-bold text-xs tabular-nums">
                           {year}
                         </span>
                         

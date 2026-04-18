@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react'
 
-type CardVariant = 'glass' | 'solid' | 'interactive'
+type CardVariant = 'glass' | 'solid' | 'interactive' | 'editorial' | 'dark'
 type CardPadding = 'sm' | 'md' | 'lg'
 
 interface CardProps {
@@ -13,31 +13,35 @@ interface CardProps {
 
 const variantStyles: Record<CardVariant, string> = {
   glass:
-    'border border-white/10 bg-[#0a0d11]',
+    'border border-slate-200 bg-white text-[#0F172A]',
   solid:
-    'border border-white/10 bg-[#1d222d]',
+    'border border-slate-200 bg-white text-[#0F172A]',
   interactive:
-    'border border-white/10 bg-[#0a0d11] hover:border-amber-500/40 hover:bg-[#141922] hover:-translate-y-1 transition-all duration-300',
+    'border border-slate-200 bg-white text-[#0F172A] card-editorial-hover duration-300',
+  editorial:
+    'border-l-4 border-[#0F172A] bg-[#F8FAFC] text-[#0F172A]',
+  dark:
+    'border border-[#1E293B] bg-[#0F172A] text-white',
 }
 
 const paddingStyles: Record<CardPadding, string> = {
   sm: 'p-4',
-  md: 'p-5 sm:p-6',
-  lg: 'p-6 sm:p-8',
+  md: 'p-6',
+  lg: 'p-8',
 }
 
 export default function Card({
   children,
-  variant = 'glass',
+  variant = 'solid',
   padding = 'md',
   accentBorder = false,
   className = '',
 }: CardProps) {
-  const accent = accentBorder ? 'border-l-2 border-l-amber-500' : ''
+  const accent = accentBorder ? 'border-l-4 border-l-[#FACC15]' : ''
 
   return (
     <div
-      className={`rounded-xl ${variantStyles[variant]} ${paddingStyles[padding]} ${accent} ${className}`}
+      className={`rounded-sm ${variantStyles[variant]} ${paddingStyles[padding]} ${accent} ${className}`}
     >
       {children}
     </div>

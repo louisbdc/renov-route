@@ -69,13 +69,13 @@ export default function SecureForm({ children, onSubmit, className = '', fieldEr
             disabled={isSubmitting}
             className={`w-full py-4 px-8 rounded-lg font-semibold text-lg transition-all duration-300 transform ${
               isSubmitting
-                ? 'bg-gray-600 text-gray-400 cursor-not-allowed scale-95'
-                : 'bg-primary-500 hover:bg-primary-600 text-white hover:shadow-xl hover:scale-105 active:scale-95'
+                ? 'bg-slate-200 text-slate-400 cursor-not-allowed scale-95'
+                : 'bg-[#FACC15] hover:bg-[#0F172A] hover:text-white text-[#0F172A] hover:shadow-xl hover:scale-105 active:scale-95'
             }`}
           >
             {isSubmitting ? (
               <div className="flex items-center justify-center">
-                <svg className="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                <svg className="animate-spin -ml-1 mr-3 h-5 w-5 text-[#0F172A]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
                   <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
                   <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
                 </svg>
@@ -132,7 +132,7 @@ export function SecureInput({
 
   return (
     <div className={className}>
-      <label htmlFor={id} className="block text-gray-300 font-medium mb-2">
+      <label htmlFor={id} className="block text-slate-600 font-medium mb-2">
         {label} {required && <span className="text-red-400">*</span>}
       </label>
       <input
@@ -143,8 +143,8 @@ export function SecureInput({
         onChange={handleChange}
         placeholder={placeholder}
         required={required}
-        className={`w-full bg-gray-800 border text-gray-100 rounded-lg px-4 py-3 focus:ring-2 focus:ring-primary-500 focus:border-transparent outline-none transition-all ${
-          fieldError ? 'border-red-500' : 'border-gray-600'
+        className={`w-full bg-white border text-[#0F172A] rounded-lg px-4 py-3 focus:ring-2 focus:ring-[#FACC15] focus:border-transparent outline-none transition-all ${
+          fieldError ? 'border-red-500' : 'border-slate-200'
         }`}
         autoComplete={type === 'email' ? 'email' : type === 'tel' ? 'tel' : 'off'}
       />
@@ -196,7 +196,7 @@ export function SecureTextarea({
 
   return (
     <div className={className}>
-      <label htmlFor={id} className="block text-gray-300 font-medium mb-2">
+      <label htmlFor={id} className="block text-slate-600 font-medium mb-2">
         {label} {required && <span className="text-red-400">*</span>}
       </label>
       <textarea
@@ -207,8 +207,8 @@ export function SecureTextarea({
         placeholder={placeholder}
         required={required}
         rows={rows}
-        className={`w-full bg-gray-800 border text-gray-100 rounded-lg px-4 py-3 focus:ring-2 focus:ring-primary-500 focus:border-transparent outline-none transition-all resize-none ${
-          fieldError ? 'border-red-500' : 'border-gray-600'
+        className={`w-full bg-white border text-[#0F172A] rounded-lg px-4 py-3 focus:ring-2 focus:ring-[#FACC15] focus:border-transparent outline-none transition-all resize-none ${
+          fieldError ? 'border-red-500' : 'border-slate-200'
         }`}
       />
       {fieldError && (
@@ -247,7 +247,7 @@ export function SecureCheckbox({
   };
 
   return (
-    <label className={`flex items-center p-4 bg-gray-800 rounded-lg border border-gray-600 cursor-pointer hover:bg-gray-700 transition-colors ${className}`}>
+    <label className={`flex items-center p-4 bg-white rounded-lg border border-slate-200 cursor-pointer hover:bg-[#F8FAFC] transition-colors ${className}`}>
       <input 
         type="checkbox" 
         name={name}
@@ -256,7 +256,7 @@ export function SecureCheckbox({
         onChange={handleChange}
         className="mr-3 w-5 h-5"
       />
-      <span className="text-gray-300">{sanitizeString(label)}</span>
+      <span className="text-slate-600">{sanitizeString(label)}</span>
     </label>
   );
 }
@@ -480,7 +480,7 @@ export function SecureFileInput({
 
   return (
     <div className={className}>
-      <label htmlFor={id} className="block text-gray-300 font-medium mb-2">
+      <label htmlFor={id} className="block text-slate-600 font-medium mb-2">
         {label}
       </label>
       
@@ -489,8 +489,8 @@ export function SecureFileInput({
           fieldError 
             ? 'border-red-500 bg-red-900/10' 
             : dragActive 
-              ? 'border-primary-500 bg-primary-500/10' 
-              : 'border-gray-600 bg-gray-800/50 hover:border-gray-500'
+              ? 'border-[#FACC15] bg-[#FACC15]/10' 
+              : 'border-slate-200 bg-white/50 hover:border-[#FACC15]'
         }`}
         onDragEnter={handleDrag}
         onDragLeave={handleDrag}
@@ -528,13 +528,13 @@ export function SecureFileInput({
         />
         
         <div className="space-y-2">
-          <svg className="mx-auto h-12 w-12 text-gray-400" stroke="currentColor" fill="none" viewBox="0 0 48 48">
+          <svg className="mx-auto h-12 w-12 text-slate-500" stroke="currentColor" fill="none" viewBox="0 0 48 48">
             <path d="M28 8H12a4 4 0 00-4 4v20m32-12v8m0 0v8a4 4 0 01-4 4H12a4 4 0 01-4-4v-4m32-4l-3.172-3.172a4 4 0 00-5.656 0L28 28M8 32l9.172-9.172a4 4 0 015.656 0L28 28m0 0l4 4m4-24h8m-4-4v8m-12 4h.02" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
           </svg>
           
-          <div className="text-gray-300">
+          <div className="text-slate-600">
             <span 
-              className="font-medium text-primary-400 hover:text-primary-300 cursor-pointer"
+              className="font-medium text-[#0F172A] hover:text-[#FACC15] cursor-pointer"
               onClick={handleMobileClick}
             >
               {isMobile ? 'Appuyez pour ajouter des fichiers' : 'Cliquez pour ajouter des fichiers'}
@@ -542,10 +542,10 @@ export function SecureFileInput({
             {!isMobile && ' ou glissez-déposez vos fichiers ici'}
           </div>
           
-          <p className="text-sm text-gray-400">
+          <p className="text-sm text-slate-500">
             {multiple ? `Jusqu'à ${maxFiles} fichiers au total` : 'Un seul fichier'} • Max {maxSize}MB par fichier
             {selectedFiles && selectedFiles.length > 0 && (
-              <span className="block mt-1 text-primary-300">
+              <span className="block mt-1 text-[#FACC15]">
                 {selectedFiles.length} fichier(s) déjà sélectionné(s)
               </span>
             )}
@@ -580,16 +580,16 @@ export function SecureFileInput({
       {/* Liste des fichiers sélectionnés */}
       {selectedFiles && selectedFiles.length > 0 && (
         <div className="mt-4 space-y-2">
-          <p className="text-sm text-gray-300 font-medium">Fichiers sélectionnés :</p>
+          <p className="text-sm text-slate-600 font-medium">Fichiers sélectionnés :</p>
           {Array.from(selectedFiles).map((file, index) => (
-            <div key={index} className="flex items-center justify-between bg-gray-800 rounded-lg p-3">
+            <div key={index} className="flex items-center justify-between bg-white rounded-lg p-3">
               <div className="flex items-center space-x-3">
-                <svg className="w-5 h-5 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-5 h-5 text-[#0F172A]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                 </svg>
                 <div>
-                  <p className="text-sm text-gray-300 font-medium">{file.name}</p>
-                  <p className="text-xs text-gray-400">{formatFileSize(file.size)}</p>
+                  <p className="text-sm text-slate-600 font-medium">{file.name}</p>
+                  <p className="text-xs text-slate-500">{formatFileSize(file.size)}</p>
                 </div>
               </div>
               <button
@@ -618,12 +618,12 @@ export function SecureFileInput({
       {/* Menu mobile pour choisir le type de fichier */}
       {showMobileMenu && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
-          <div className="bg-gray-800 rounded-lg p-6 w-full max-w-sm">
+          <div className="bg-white rounded-lg p-6 w-full max-w-sm">
             <div className="flex items-center justify-between mb-4">
-              <h3 className="text-lg font-semibold text-white">Choisir le type de fichier</h3>
+              <h3 className="text-lg font-semibold text-[#0F172A]">Choisir le type de fichier</h3>
               <button
                 onClick={handleCloseMobileMenu}
-                className="text-gray-400 hover:text-white transition-colors"
+                className="text-slate-500 hover:text-[#0F172A] transition-colors"
               >
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -634,27 +634,27 @@ export function SecureFileInput({
             <div className="space-y-3">
               <button
                 onClick={handlePhotosClick}
-                className="w-full flex items-center space-x-3 p-4 bg-gray-700 hover:bg-gray-600 rounded-lg transition-colors"
+                className="w-full flex items-center space-x-3 p-4 bg-[#F8FAFC] hover:bg-[#F8FAFC] rounded-lg transition-colors"
               >
-                <svg className="w-6 h-6 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-6 h-6 text-[#FACC15]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
                 </svg>
                 <div className="text-left">
-                  <p className="text-white font-medium">Photos</p>
-                  <p className="text-gray-400 text-sm">Images depuis la galerie</p>
+                  <p className="text-[#0F172A] font-medium">Photos</p>
+                  <p className="text-slate-500 text-sm">Images depuis la galerie</p>
                 </div>
               </button>
               
               <button
                 onClick={handleFilesClick}
-                className="w-full flex items-center space-x-3 p-4 bg-gray-700 hover:bg-gray-600 rounded-lg transition-colors"
+                className="w-full flex items-center space-x-3 p-4 bg-[#F8FAFC] hover:bg-[#F8FAFC] rounded-lg transition-colors"
               >
                 <svg className="w-6 h-6 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                 </svg>
                 <div className="text-left">
-                  <p className="text-white font-medium">Fichiers</p>
-                  <p className="text-gray-400 text-sm">PDF, documents, etc.</p>
+                  <p className="text-[#0F172A] font-medium">Fichiers</p>
+                  <p className="text-slate-500 text-sm">PDF, documents, etc.</p>
                 </div>
               </button>
             </div>

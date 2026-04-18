@@ -22,32 +22,37 @@ export default function RelatedGuides({
   if (guides.length === 0) return null
 
   return (
-    <section className={`py-12 sm:py-16 px-4 bg-[#0a0d11] ${className}`}>
-      <div className="max-w-6xl mx-auto">
-        <div className="mb-8">
-          <h2 className="text-xl sm:text-2xl font-bold text-white mb-2 font-display">{title}</h2>
-          <p className="text-gray-400 text-sm sm:text-base">{subtitle}</p>
+    <section className={`py-20 sm:py-24 px-6 bg-[#F8FAFC] ${className}`}>
+      <div className="max-w-7xl mx-auto">
+        <div className="mb-12 max-w-2xl">
+          <span className="inline-block text-[11px] font-black uppercase tracking-[0.25em] text-[#FACC15] mb-4">
+            Documentation
+          </span>
+          <h2 className="text-4xl sm:text-5xl font-black italic uppercase tracking-tighter leading-[0.95] text-[#0F172A] mb-4">
+            {title}
+          </h2>
+          <p className="text-slate-500 text-base font-medium">{subtitle}</p>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {guides.map((guide) => (
             <Link
               key={guide.href}
               href={guide.href}
-              className="group flex items-start gap-3 p-4 rounded-lg border border-white/10 bg-[#0a0d11] hover:border-white/20 hover:bg-[#141922] transition-colors"
+              className="group flex items-start gap-4 p-6 bg-white border border-slate-200 card-editorial-hover"
             >
-              <TbBook2 size={20} className="text-amber-400 mt-0.5 shrink-0" />
-              <span className="text-sm text-gray-300 group-hover:text-white transition-colors leading-snug">
+              <TbBook2 size={20} className="text-[#FACC15] mt-0.5 shrink-0" />
+              <span className="text-sm text-[#0F172A] font-semibold group-hover:text-[#FACC15] transition-colors leading-snug">
                 {guide.title}
               </span>
             </Link>
           ))}
         </div>
-        <div className="mt-6">
+        <div className="mt-10">
           <Link
             href="/guides/"
-            className="inline-flex items-center gap-1.5 text-sm text-gray-400 hover:text-white transition-colors"
+            className="inline-flex items-center gap-3 text-[10px] font-black uppercase tracking-[0.25em] text-[#0F172A] border-b-2 border-[#0F172A] pb-1 hover:text-[#FACC15] hover:border-[#FACC15] transition-all"
           >
-            Tous nos guides <TbArrowRight size={16} />
+            Tous nos guides <TbArrowRight size={14} />
           </Link>
         </div>
       </div>

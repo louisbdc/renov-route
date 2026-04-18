@@ -33,21 +33,18 @@ export default function HeroSection({ children }: { children: React.ReactNode })
     goTo((active + 1) % MEDIA.length)
   }, [active, goTo])
 
-  // Track last active image as fallback for unloaded videos
   useEffect(() => {
     if (MEDIA[active].type === 'image') {
       fallbackImageRef.current = active
     }
   }, [active])
 
-  // Auto-advance for image slides
   useEffect(() => {
     if (MEDIA[active].type !== 'image') return
     const timer = setTimeout(advance, IMAGE_HOLD_MS)
     return () => clearTimeout(timer)
   }, [active, advance])
 
-  // Play video when it becomes active AND is ready
   useEffect(() => {
     if (MEDIA[active].type !== 'video') return
     const vi = getVideoIndex(active)
@@ -58,7 +55,6 @@ export default function HeroSection({ children }: { children: React.ReactNode })
     video.play().catch(() => advance())
   }, [active, advance, videoReady])
 
-  // Skip video if it takes too long to load
   useEffect(() => {
     if (MEDIA[active].type !== 'video') return
     const vi = getVideoIndex(active)
@@ -67,7 +63,6 @@ export default function HeroSection({ children }: { children: React.ReactNode })
     return () => clearTimeout(timeout)
   }, [active, advance, videoReady])
 
-  // Preload only the next video when an image is showing
   useEffect(() => {
     if (MEDIA[active].type !== 'image') return
     const nextIndex = (active + 1) % MEDIA.length
@@ -79,7 +74,6 @@ export default function HeroSection({ children }: { children: React.ReactNode })
     }
   }, [active, videoReady])
 
-  // Check initial readyState for already-cached videos
   useEffect(() => {
     videoRefs.current.forEach((video, vi) => {
       if (video && video.readyState >= 3) {
@@ -98,7 +92,6 @@ export default function HeroSection({ children }: { children: React.ReactNode })
       const vi = getVideoIndex(index)
       return videoReady[vi] ? 1 : 0
     }
-    // Keep fallback image visible while active video loads
     if (index === fallbackImageRef.current && MEDIA[active].type === 'video') {
       const vi = getVideoIndex(active)
       return videoReady[vi] ? 0 : 1
@@ -109,15 +102,15 @@ export default function HeroSection({ children }: { children: React.ReactNode })
   let videoCounter = 0
 
   return (
-    <section id="hero" className="relative min-h-screen flex items-center overflow-hidden bg-[#0a0d12]">
+    <section id="hero" className="relative min-h-screen flex items-center overflow-hidden bg-[#0F172A]">
       <style>{`
         @keyframes hero-ken-burns {
           0% { transform: scale(1) translate(0, 0); }
-          100% { transform: scale(1.15) translate(-2%, -1%); }
+          100% { transform: scale(1.12) translate(-2%, -1%); }
         }
       `}</style>
 
-      {/* Media layers — smooth crossfade */}
+      {/* Media layers — grayscale editorial */}
       {MEDIA.map((item, i) => {
         if (item.type === 'image') {
           return (
@@ -132,7 +125,7 @@ export default function HeroSection({ children }: { children: React.ReactNode })
                 alt={item.alt}
                 fill
                 priority={i === 0}
-                className="object-cover"
+                className="object-cover grayscale opacity-30"
                 sizes="100vw"
                 style={{ animation: 'hero-ken-burns 5s ease-out forwards' }}
               />
@@ -155,29 +148,26 @@ export default function HeroSection({ children }: { children: React.ReactNode })
               preload="none"
               onCanPlayThrough={() => handleVideoCanPlay(vi)}
               onEnded={advance}
-              className="absolute inset-0 w-full h-full object-cover"
+              className="absolute inset-0 w-full h-full object-cover grayscale opacity-30"
             />
           </div>
         )
       })}
 
-      {/* Cinematic vignette */}
-      <div
-        className="absolute inset-0 pointer-events-none z-[2]"
-        style={{ boxShadow: 'inset 0 0 200px 80px rgba(0,0,0,0.55)' }}
-      />
+      {/* Dark gradient overlay — left-weighted for readability */}
+      <div className="absolute inset-0 z-[2] bg-gradient-to-r from-[#0F172A] via-[#0F172A]/80 to-[#0F172A]/30" />
 
-      {/* Bottom gradient — seamless blend into page */}
-      <div className="absolute bottom-0 left-0 right-0 h-44 bg-gradient-to-t from-[#141922] via-[#141922]/60 to-transparent z-[2]" />
+      {/* Bottom fade into next section */}
+      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#0F172A] to-transparent z-[2]" />
 
-      {/* Slide indicators */}
-      <div className="absolute bottom-7 left-1/2 -translate-x-1/2 z-20 flex gap-2.5">
+      {/* Slide indicators — editorial yellow */}
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 flex gap-2">
         {MEDIA.map((_, i) => (
           <button
             key={i}
             onClick={() => goTo(i)}
-            className={`h-[3px] rounded-full transition-all duration-500 ${
-              active === i ? 'w-10 bg-white' : 'w-5 bg-white/25 hover:bg-white/50'
+            className={`h-[3px] transition-all duration-500 ${
+              active === i ? 'w-10 bg-[#FACC15]' : 'w-5 bg-white/25 hover:bg-white/50'
             }`}
             aria-label={`Slide ${i + 1}`}
           />

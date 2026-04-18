@@ -65,7 +65,7 @@ export default function SEOTestimonials({
       <div className={className}>
         <div className="mb-8">
           <h2 className="text-3xl font-bold mb-4">{title}</h2>
-          <p className="text-lg text-gray-700">{description}</p>
+          <p className="text-lg text-slate-500">{description}</p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -76,7 +76,7 @@ export default function SEOTestimonials({
                   {[...Array(5)].map((_, i) => (
                     <svg
                       key={i}
-                      className={`w-5 h-5 ${i < testimonial.rating ? 'text-yellow-400' : 'text-gray-300'}`}
+                      className={`w-5 h-5 ${i < testimonial.rating ? 'text-yellow-400' : 'text-slate-600'}`}
                       fill="currentColor"
                       viewBox="0 0 20 20"
                     >
@@ -84,7 +84,7 @@ export default function SEOTestimonials({
                     </svg>
                   ))}
                 </div>
-                <span className="ml-2 text-sm text-gray-600">
+                <span className="ml-2 text-sm text-slate-400">
                   {testimonial.rating}/5
                 </span>
                 {testimonial.verified && (
@@ -94,7 +94,7 @@ export default function SEOTestimonials({
                 )}
               </div>
 
-              <blockquote className="text-gray-700 mb-4 italic">
+              <blockquote className="text-slate-500 mb-4 italic">
                 "{testimonial.content}"
               </blockquote>
 
@@ -109,20 +109,20 @@ export default function SEOTestimonials({
                   />
                 )}
                 <div>
-                  <div className="font-semibold text-gray-900">
+                  <div className="font-semibold text-[#0F172A]">
                     {testimonial.author}
                   </div>
                   {testimonial.position && (
-                    <div className="text-sm text-gray-600">
+                    <div className="text-sm text-slate-400">
                       {testimonial.position}
                     </div>
                   )}
                   {testimonial.company && (
-                    <div className="text-sm text-gray-600">
+                    <div className="text-sm text-slate-400">
                       {testimonial.company}
                     </div>
                   )}
-                  <div className="text-xs text-gray-500">
+                  <div className="text-xs text-slate-400">
                     {new Date(testimonial.date).toLocaleDateString('fr-FR')}
                   </div>
                 </div>
@@ -135,13 +135,13 @@ export default function SEOTestimonials({
           <h3 className="text-xl font-semibold mb-4">
             Rejoignez nos clients satisfaits
           </h3>
-          <p className="text-gray-700 mb-6">
+          <p className="text-slate-500 mb-6">
             Découvrez pourquoi plus de 500 clients nous font confiance pour leurs projets de marquage routier.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="/devis"
-              className="inline-flex items-center px-6 py-3 bg-amber-500 text-gray-900 rounded-lg hover:bg-amber-400 transition-colors"
+              className="inline-flex items-center px-6 py-3 bg-amber-500 text-[#0F172A] rounded-lg hover:bg-amber-400 transition-colors"
             >
               <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
@@ -150,7 +150,7 @@ export default function SEOTestimonials({
             </a>
             <a
               href="/qui-sommes-nous"
-              className="inline-flex items-center px-6 py-3 border border-amber-500 text-amber-400 rounded-lg hover:bg-amber-500 hover:text-gray-900 transition-colors"
+              className="inline-flex items-center px-6 py-3 border border-amber-500 text-[#FACC15] rounded-lg hover:bg-amber-500 hover:text-[#0F172A] transition-colors"
             >
               <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />

@@ -120,10 +120,10 @@ export default function BeforeAfterSlider({
 
         {/* Labels */}
         <div className="absolute top-4 left-4 right-4 flex justify-between z-20">
-          <div className="px-3 py-1 rounded-full text-sm font-medium bg-primary-500 text-white">
+          <div className="px-3 py-1 rounded-full text-sm font-medium bg-primary-500 text-[#0F172A]">
             {beforeLabel}
           </div>
-          <div className="px-3 py-1 rounded-full text-sm font-medium bg-white/20 text-white backdrop-blur-sm">
+          <div className="px-3 py-1 rounded-full text-sm font-medium bg-white/20 text-[#0F172A] backdrop-blur-sm">
             {afterLabel}
           </div>
         </div>
@@ -131,7 +131,7 @@ export default function BeforeAfterSlider({
         {/* Instructions */}
         <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 z-20">
           <div className="bg-black/50 backdrop-blur-sm px-4 py-2 rounded-lg">
-            <p className="text-white text-sm font-medium">Glissez pour comparer</p>
+            <p className="text-[#0F172A] text-sm font-medium">Glissez pour comparer</p>
           </div>
         </div>
       </div>

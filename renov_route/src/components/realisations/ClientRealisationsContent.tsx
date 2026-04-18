@@ -85,33 +85,32 @@ function RealisationsContent() {
       )}
 
       {/* Case Studies Grid */}
-      <section id="projects-grid" className="py-16">
+      <section id="projects-grid" className="py-16 sm:py-24 bg-white">
         <div className="container-custom">
-          <div className="mb-8">
-            <h2 className="text-h2 text-text-primary font-semibold mb-4">
-              Tous nos projets
+          <div className="mb-12">
+            <span className="inline-block text-[11px] font-black uppercase tracking-[0.25em] text-[#FACC15] mb-4">
+              Portfolio
+            </span>
+            <h2 className="text-4xl sm:text-5xl font-black italic uppercase tracking-tighter leading-[0.95] text-[#0F172A] mb-4">
+              Tous nos projets.
             </h2>
-            <p className="text-text-secondary">
-              Affichage de {visibleCaseStudies.length} sur {filteredCaseStudies.length} projet{filteredCaseStudies.length > 1 ? 's' : ''} trouvé{filteredCaseStudies.length > 1 ? 's' : ''}
+            <p className="text-slate-500 font-medium text-[10px] uppercase tracking-[0.2em]">
+              {visibleCaseStudies.length} sur {filteredCaseStudies.length} projet{filteredCaseStudies.length > 1 ? 's' : ''} trouvé{filteredCaseStudies.length > 1 ? 's' : ''}
             </p>
           </div>
 
           <CaseGrid caseStudies={visibleCaseStudies} />
 
-          {/* Load More Button */}
           {hasMoreProjects && (
-            <div className="text-center mt-12">
+            <div className="text-center mt-16">
               <button
                 onClick={handleLoadMore}
-                className="group relative bg-gradient-to-r from-amber-500 to-amber-400 hover:from-amber-600 hover:to-amber-500 text-white font-semibold py-4 px-8 rounded-[1rem] transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:shadow-amber-500/25 backdrop-blur-sm border border-white/20 text-lg"
+                className="group inline-flex items-center gap-3 bg-[#FACC15] hover:bg-[#0F172A] hover:text-white text-[#0F172A] font-black uppercase text-xs tracking-[0.2em] py-5 px-10 rounded-sm transition-all shadow-[6px_6px_0_rgba(250,204,21,0.25)] active:translate-x-[2px] active:translate-y-[2px] active:shadow-none"
               >
-                <span className="relative z-10 flex items-center">
-                  Découvrir plus de projets
-                  <svg className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
-                </span>
-                <div className="absolute inset-0 bg-gradient-to-r from-amber-600 to-amber-500 rounded-[1rem] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                Découvrir plus de projets
+                <svg className="w-4 h-4 group-hover:translate-y-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
+                </svg>
               </button>
             </div>
           )}
@@ -127,10 +126,10 @@ function RealisationsContent() {
 export default function ClientRealisationsContent() {
   return (
     <Suspense fallback={
-      <div className="min-h-screen bg-gray-800 flex items-center justify-center">
-        <div className="glassmorphism-card p-8 rounded-[2rem] border border-white/20 text-center">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-amber-500 mx-auto mb-4" />
-          <p className="text-white text-lg">Chargement des réalisations...</p>
+      <div className="min-h-screen bg-white flex items-center justify-center">
+        <div className="p-10 border border-slate-200 bg-white text-center">
+          <div className="animate-spin rounded-full h-10 w-10 border-2 border-[#0F172A] border-t-transparent mx-auto mb-4" />
+          <p className="text-[#0F172A] text-[10px] font-black uppercase tracking-[0.2em]">Chargement</p>
         </div>
       </div>
     }>

@@ -5,7 +5,7 @@ type GridCols = 2 | 3 | 4
 interface GridProps {
   children: ReactNode
   cols?: GridCols
-  gap?: 'sm' | 'md' | 'lg'
+  gap?: 'sm' | 'md' | 'lg' | 'tight'
   className?: string
 }
 
@@ -16,9 +16,10 @@ const colStyles: Record<GridCols, string> = {
 }
 
 const gapStyles: Record<string, string> = {
+  tight: 'gap-px bg-slate-200',
   sm: 'gap-4',
-  md: 'gap-5',
-  lg: 'gap-6 sm:gap-8',
+  md: 'gap-6',
+  lg: 'gap-8 sm:gap-10',
 }
 
 export default function Grid({

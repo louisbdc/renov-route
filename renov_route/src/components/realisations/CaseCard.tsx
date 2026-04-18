@@ -28,51 +28,46 @@ export default function CaseCard({ caseStudy, index }: CaseCardProps) {
       <Link
         href={`/realisations/${caseStudy.slug}`}
         onClick={() => trackCaseStudyView(caseStudy.title)}
-        className="block bg-[#1a1f2e] border border-white/10 rounded-xl p-6 h-full transition-all duration-300 group-hover:scale-[1.02] group-hover:border-white/20 focus-ring"
+        className="block bg-white border border-slate-200 card-editorial-hover focus-ring h-full"
       >
-        {/* Image */}
-        <div className="relative mb-4 overflow-hidden rounded-lg">
+        <div className="relative overflow-hidden">
           <div className="aspect-video relative">
             <Image
               src={caseStudy.thumbnail}
               alt={caseStudy.title}
               fill
-              className="object-cover transition-transform duration-500 group-hover:scale-110"
+              className="object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105"
               sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, 25vw"
             />
+            <div className="absolute inset-0 bg-[#0F172A]/20 group-hover:bg-transparent transition-colors" />
           </div>
         </div>
 
-        {/* Content */}
-        <div className="space-y-3">
-          {/* Title */}
-          <h3 className="text-h3 text-white font-semibold group-hover:text-primary transition-colors duration-200">
-            {caseStudy.title}
-          </h3>
-
-          {/* Meta */}
-          <div className="flex flex-wrap gap-2 text-caption text-gray-400">
+        <div className="p-6 flex flex-col gap-3">
+          <div className="flex flex-wrap gap-2 text-[9px] font-black uppercase tracking-[0.25em] text-[#FACC15]">
             <span>{caseStudy.client}</span>
-            <span>&bull;</span>
+            <span className="text-slate-300">·</span>
             <span>{caseStudy.year}</span>
           </div>
 
-          {/* Summary */}
-          <p className="text-gray-300 text-body leading-relaxed line-clamp-2">
+          <h3 className="text-xl font-black italic uppercase tracking-tight text-[#0F172A] group-hover:text-[#FACC15] transition-colors leading-tight">
+            {caseStudy.title}
+          </h3>
+
+          <p className="text-slate-500 text-sm leading-relaxed line-clamp-2 font-medium">
             {caseStudy.summary}
           </p>
 
-          {/* CTA */}
           <div className="pt-2">
-            <span className="flex items-center gap-2 text-primary font-medium">
+            <span className="inline-flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.2em] text-[#0F172A]">
               Voir le projet
               <svg
-                className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-200"
+                className="w-4 h-4 text-[#FACC15] group-hover:translate-x-1 transition-transform duration-200"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
               >
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" />
               </svg>
             </span>
           </div>

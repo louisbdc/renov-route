@@ -1,13 +1,16 @@
 interface DashedDividerProps {
   className?: string
-  color?: 'amber' | 'white'
+  color?: 'amber' | 'white' | 'ink'
 }
 
 export default function DashedDivider({
   className = '',
   color = 'amber',
 }: DashedDividerProps) {
-  const strokeColor = color === 'amber' ? '#F59E0B' : 'rgba(255,255,255,0.2)'
+  const strokeColor =
+    color === 'amber' ? '#FACC15' :
+    color === 'white' ? 'rgba(255,255,255,0.3)' :
+    '#0F172A'
 
   return (
     <div className={`w-full py-2 ${className}`} aria-hidden="true">
@@ -24,9 +27,9 @@ export default function DashedDivider({
           y2="2"
           stroke={strokeColor}
           strokeWidth="3"
-          strokeDasharray="24 16"
-          strokeLinecap="round"
-          opacity="0.6"
+          strokeDasharray="20 12"
+          strokeLinecap="square"
+          opacity="0.8"
         />
       </svg>
     </div>

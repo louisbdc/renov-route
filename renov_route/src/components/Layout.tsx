@@ -1,5 +1,6 @@
 import Header from './Header';
 import Footer from './Footer';
+import ScrollProgressBar from './effects/ScrollProgressBar';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -7,9 +8,10 @@ interface LayoutProps {
 
 export default function Layout({ children }: LayoutProps) {
   return (
-    <div className="min-h-screen bg-gray-800">
+    <div className="min-h-screen bg-white text-[#0F172A] selection:bg-[#FACC15] selection:text-[#0F172A]">
+      <ScrollProgressBar />
       <Header />
-      <main>
+      <main className="relative">
         {children}
       </main>
       <Footer />

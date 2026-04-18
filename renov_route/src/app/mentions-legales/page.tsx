@@ -13,47 +13,47 @@ export const metadata: Metadata = {
 export default function MentionsLegalesPage() {
   return (
     <Layout>
-      <div className="pt-32 pb-20 px-4">
+      <div className="pt-32 pb-20 px-6 bg-white min-h-screen">
         <article className="max-w-3xl mx-auto">
-          <div className="mb-12">
-            <nav className="flex items-center gap-2 text-sm text-gray-500 mb-6">
-              <Link href="/" className="hover:text-white transition-colors">Accueil</Link>
-              <span>/</span>
-              <span className="text-gray-300">Mentions légales</span>
+          <div className="mb-16">
+            <nav className="flex items-center flex-wrap gap-x-3 gap-y-1 text-[10px] font-bold uppercase tracking-[0.2em] text-slate-400 mb-8">
+              <Link href="/" className="hover:text-[#0F172A] transition-colors">Accueil</Link>
+              <span className="text-slate-300">/</span>
+              <span className="text-[#0F172A]">Mentions légales</span>
             </nav>
-            <h1 className="text-3xl sm:text-4xl font-bold text-white">
-              Mentions légales
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-black italic uppercase tracking-tighter leading-[0.95] text-[#0F172A]">
+              Mentions légales.
             </h1>
           </div>
 
-          <div className="space-y-10 text-gray-400 leading-relaxed">
+          <div className="space-y-12 text-slate-600 leading-relaxed font-medium">
 
             <section>
-              <h2 className="text-xl font-semibold text-white mb-3">Éditeur</h2>
+              <h2 className="text-xl font-black italic uppercase tracking-tight text-[#0F172A] mb-4">Éditeur</h2>
               <p>
                 RENOV&apos;ROUTE, SARL au capital de 10 000 &euro;<br />
                 SIRET : 818 745 515 00010 — RCS Lyon<br />
                 6, allée du ruisseau de Ribbes, 69160 Tassin-la-Demi-Lune<br />
                 Téléphone : 07 86 81 96 92 — Email : contact@renov-route.fr
               </p>
-              <p className="mt-3">
+              <p className="mt-4">
                 Directeur de la publication : Xavier de Caumont
               </p>
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-white mb-3">Hébergeur</h2>
+              <h2 className="text-xl font-black italic uppercase tracking-tight text-[#0F172A] mb-4">Hébergeur</h2>
               <p>
                 OVH SAS — 2, rue Kellermann, 59100 Roubaix, France<br />
-                <a href="https://www.ovhcloud.com" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">www.ovhcloud.com</a>
+                <a href="https://www.ovhcloud.com" className="text-[#0F172A] underline decoration-[#FACC15] decoration-2 underline-offset-[3px] hover:bg-[#FACC15]" target="_blank" rel="noopener noreferrer">www.ovhcloud.com</a>
               </p>
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-white mb-3">Données personnelles</h2>
+              <h2 className="text-xl font-black italic uppercase tracking-tight text-[#0F172A] mb-4">Données personnelles</h2>
               <p>
                 Consultez notre{' '}
-                <Link href="/privacy-policy" className="text-primary hover:underline">
+                <Link href="/privacy-policy" className="text-[#0F172A] underline decoration-[#FACC15] decoration-2 underline-offset-[3px] hover:bg-[#FACC15]">
                   politique de confidentialité
                 </Link>.
               </p>

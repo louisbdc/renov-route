@@ -96,7 +96,7 @@ function ComparisonSlider({ pair }: { pair: BeforeAfterPair }) {
   return (
     <div
       ref={containerRef}
-      className="relative aspect-[3/2] sm:aspect-video w-full rounded-xl overflow-hidden border border-white/10 select-none touch-none"
+      className="relative aspect-[3/2] sm:aspect-video w-full rounded-xl overflow-hidden border border-slate-200 select-none touch-none"
       role="slider"
       aria-label="Comparaison avant/après"
       aria-valuenow={Math.round(position)}
@@ -133,13 +133,13 @@ function ComparisonSlider({ pair }: { pair: BeforeAfterPair }) {
 
       {/* Labels */}
       <div
-        className="absolute top-2 left-2 sm:top-3 sm:left-3 z-20 bg-red-500/90 text-white text-[10px] sm:text-xs font-bold px-2 sm:px-3 py-0.5 sm:py-1 rounded-full pointer-events-none transition-opacity duration-200"
+        className="absolute top-2 left-2 sm:top-3 sm:left-3 z-20 bg-red-500/90 text-[#0F172A] text-[10px] sm:text-xs font-bold px-2 sm:px-3 py-0.5 sm:py-1 rounded-full pointer-events-none transition-opacity duration-200"
         style={{ opacity: position > 12 ? 1 : 0 }}
       >
         AVANT
       </div>
       <div
-        className="absolute top-2 right-2 sm:top-3 sm:right-3 z-20 bg-emerald-500/90 text-white text-[10px] sm:text-xs font-bold px-2 sm:px-3 py-0.5 sm:py-1 rounded-full pointer-events-none transition-opacity duration-200"
+        className="absolute top-2 right-2 sm:top-3 sm:right-3 z-20 bg-emerald-500/90 text-[#0F172A] text-[10px] sm:text-xs font-bold px-2 sm:px-3 py-0.5 sm:py-1 rounded-full pointer-events-none transition-opacity duration-200"
         style={{ opacity: position < 88 ? 1 : 0 }}
       >
         APRÈS
@@ -175,11 +175,11 @@ export default function ServiceBeforeAfter({
   const activePair = pairs[activeIndex]
 
   return (
-    <section className={`py-16 sm:py-20 px-4 ${alt ? 'bg-[#0C0F14]' : 'bg-[#0a0d11]'}`}>
+    <section className={`py-16 sm:py-20 px-4 ${alt ? 'bg-[#F8FAFC]' : 'bg-white'}`}>
       <div className="max-w-4xl mx-auto">
         <div className="mb-10">
-          <h2 className="text-2xl sm:text-3xl font-bold text-white mb-3 font-display">{title}</h2>
-          {subtitle && <p className="text-gray-400 text-base sm:text-lg max-w-2xl">{subtitle}</p>}
+          <h2 className="text-2xl sm:text-3xl font-bold text-[#0F172A] mb-3 font-display">{title}</h2>
+          {subtitle && <p className="text-slate-500 text-base sm:text-lg max-w-2xl">{subtitle}</p>}
         </div>
 
         {pairs.length > 1 && (
@@ -191,8 +191,8 @@ export default function ServiceBeforeAfter({
                 onClick={() => setActiveIndex(i)}
                 className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
                   i === activeIndex
-                    ? 'bg-amber-500 text-gray-900'
-                    : 'border border-white/10 text-gray-400 hover:text-white hover:border-white/20'
+                    ? 'bg-amber-500 text-[#0F172A]'
+                    : 'border border-slate-200 text-slate-500 hover:text-[#0F172A] hover:border-slate-300'
                 }`}
               >
                 {pair.label || `Exemple ${i + 1}`}
@@ -203,7 +203,7 @@ export default function ServiceBeforeAfter({
 
         <ComparisonSlider pair={activePair} />
 
-        <p className="text-gray-500 text-xs sm:text-sm mt-3 text-center">
+        <p className="text-slate-400 text-xs sm:text-sm mt-3 text-center">
           Glissez pour comparer
         </p>
       </div>

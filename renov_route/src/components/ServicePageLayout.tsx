@@ -55,30 +55,29 @@ export default function ServicePageLayout({
     <Layout>
       <SafariAnimationFix>
 
-        {/* Hero */}
-        <section className="pt-24 sm:pt-28 lg:pt-32 pb-16 sm:pb-20 px-4 relative overflow-hidden">
-          <div className="absolute inset-0 bg-[#0a0d11]" />
+        {/* Hero — dark editorial */}
+        <section className="pt-28 sm:pt-36 pb-20 sm:pb-24 px-6 relative overflow-hidden bg-[#0F172A]">
           <Image
             src={heroBackgroundImage || '/assets/images/realisations/background_competence_page.avif'}
             alt={heroImageAlt || ''}
             fill
-            className="absolute inset-0 object-cover opacity-30"
+            className="absolute inset-0 object-cover grayscale opacity-20"
             sizes="100vw"
             priority
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-[#141922]/20 via-transparent to-[#141922]" />
+          <div className="absolute inset-0 bg-gradient-to-b from-[#0F172A]/60 via-[#0F172A]/80 to-[#0F172A]" />
 
-          <div className="relative max-w-4xl mx-auto text-center">
-            <nav aria-label="Fil d'Ariane" className="mb-8">
-              <ol className="flex items-center justify-center flex-wrap gap-x-2 gap-y-1 text-sm text-gray-400">
+          <div className="relative max-w-5xl mx-auto">
+            <nav aria-label="Fil d'Ariane" className="mb-10">
+              <ol className="flex items-center flex-wrap gap-x-3 gap-y-1 text-[10px] font-bold uppercase tracking-[0.2em] text-slate-400">
                 {breadcrumb.map((item, i) => (
                   <React.Fragment key={i}>
-                    {i > 0 && <li aria-hidden="true" className="text-gray-600 select-none">/</li>}
+                    {i > 0 && <li aria-hidden="true" className="text-slate-600 select-none">/</li>}
                     <li>
                       {i < breadcrumb.length - 1 ? (
-                        <Link href={item.url} className="hover:text-white transition-colors">{item.name}</Link>
+                        <Link href={item.url} className="hover:text-[#FACC15] transition-colors">{item.name}</Link>
                       ) : (
-                        <span className="text-gray-200">{item.name}</span>
+                        <span className="text-white">{item.name}</span>
                       )}
                     </li>
                   </React.Fragment>
@@ -90,16 +89,19 @@ export default function ServicePageLayout({
               initial={{ opacity: 0, y: 16 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
-              className="inline-flex items-center justify-center w-14 h-14 mb-6 rounded-xl bg-white/5 border border-white/10 text-amber-400"
+              className="inline-flex items-center gap-3 text-[#FACC15] mb-8"
             >
-              {heroIcon}
+              <div className="text-[#FACC15]">{heroIcon}</div>
+              <span className="text-[11px] font-black uppercase tracking-[0.25em]">
+                Compétence
+              </span>
             </MotionDiv>
 
             <MotionH1
               initial={{ opacity: 0, y: 16 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.1 }}
-              className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-5 leading-tight font-display"
+              className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black italic uppercase tracking-tighter leading-[0.9] text-white mb-8"
             >
               {heroTitle}
             </MotionH1>
@@ -108,7 +110,7 @@ export default function ServicePageLayout({
               initial={{ opacity: 0, y: 16 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
-              className="text-lg text-gray-300 max-w-2xl mx-auto leading-relaxed"
+              className="text-lg text-slate-300 max-w-2xl leading-relaxed font-medium"
             >
               {heroSubtitle}
             </MotionP>
@@ -116,30 +118,30 @@ export default function ServicePageLayout({
         </section>
 
         {/* Description + Features */}
-        <section className="py-16 sm:py-20 px-4 bg-[#0a0d11]">
-          <div className="max-w-6xl mx-auto">
-            <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-start">
+        <section className="py-20 sm:py-28 px-6 bg-white">
+          <div className="max-w-7xl mx-auto">
+            <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-start">
               <div>
-                <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6 font-display">
+                <h2 className="text-4xl sm:text-5xl font-black italic uppercase tracking-tighter leading-[0.95] text-[#0F172A] mb-8">
                   {descriptionHeading}
                 </h2>
-                <div className="space-y-4 text-gray-300 leading-relaxed text-base sm:text-lg">
+                <div className="space-y-5 text-slate-600 leading-relaxed text-base sm:text-lg font-medium">
                   {descriptionParagraphs.map((p, i) => <p key={i}>{p}</p>)}
                 </div>
               </div>
-              <div className="space-y-3">
+              <div className="space-y-4">
                 {features.map((feature, i) => (
                   <MotionDiv
                     key={i}
                     initial={{ opacity: 0, x: 16 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.4, delay: 0.1 + i * 0.07 }}
-                    className="flex items-start gap-4 p-4 sm:p-5 rounded-xl border border-white/10 bg-[#0a0d11] hover:border-white/20 transition-colors"
+                    className="flex items-start gap-4 p-6 bg-[#F8FAFC] border-l-4 border-[#0F172A] hover:border-[#FACC15] transition-colors"
                   >
-                    <div className="mt-0.5 text-amber-400 flex-shrink-0 text-xl">{feature.icon}</div>
+                    <div className="mt-1 text-[#FACC15] flex-shrink-0 text-xl">{feature.icon}</div>
                     <div>
-                      <h3 className="font-semibold text-white mb-1">{feature.title}</h3>
-                      <p className="text-gray-400 text-sm leading-relaxed">{feature.description}</p>
+                      <h3 className="font-black uppercase tracking-tight text-[#0F172A] mb-1">{feature.title}</h3>
+                      <p className="text-slate-500 text-sm leading-relaxed font-medium">{feature.description}</p>
                     </div>
                   </MotionDiv>
                 ))}
@@ -148,27 +150,28 @@ export default function ServicePageLayout({
           </div>
         </section>
 
-        {/* Variable middle sections from each page */}
+        {/* Variable middle sections */}
         {children}
 
-        {/* CTA */}
-        <section className="py-16 sm:py-20 px-4 relative overflow-hidden border-t border-white/5">
-          <div className="absolute inset-0 bg-[url('/assets/images/realisations/background_competence_page.avif')] bg-cover bg-center opacity-15" />
-          <div className="absolute inset-0 bg-[#0a0d11]/90" />
-          <div className="relative max-w-2xl mx-auto text-center">
-            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 font-display">{ctaTitle}</h2>
-            <p className="text-gray-300 mb-8 leading-relaxed">{ctaSubtitle}</p>
-            <div className="flex flex-col sm:flex-row gap-3 justify-center">
+        {/* Final CTA */}
+        <section className="py-24 sm:py-32 px-6 relative overflow-hidden bg-[#0F172A]">
+          <div className="absolute inset-0 z-0" style={{ backgroundImage: 'repeating-linear-gradient(45deg, #FACC15 0px, #FACC15 2px, transparent 2px, transparent 10px)', opacity: 0.08 }} />
+          <div className="relative max-w-3xl mx-auto text-center">
+            <h2 className="text-4xl sm:text-5xl md:text-6xl font-black italic uppercase tracking-tighter leading-[0.95] text-white mb-6">
+              {ctaTitle}
+            </h2>
+            <p className="text-slate-300 text-lg mb-12 leading-relaxed font-medium">{ctaSubtitle}</p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 href="/devis"
                 onClick={() => trackQuoteRequest(`service_${heroTitle}`)}
-                className="bg-amber-500 hover:bg-amber-400 text-gray-900 font-semibold py-3 px-7 rounded-lg transition-colors duration-200"
+                className="inline-flex items-center justify-center bg-[#FACC15] hover:bg-white text-[#0F172A] px-10 py-5 font-black uppercase text-xs tracking-[0.2em] rounded-sm transition-all shadow-[6px_6px_0_rgba(250,204,21,0.25)] active:translate-x-[2px] active:translate-y-[2px] active:shadow-none"
               >
                 Demander un devis gratuit
               </Link>
               <Link
                 href="/competences"
-                className="border border-white/20 hover:border-white/40 text-white font-semibold py-3 px-7 rounded-lg transition-colors duration-200 hover:bg-white/5"
+                className="inline-flex items-center justify-center border-2 border-white/20 text-white hover:bg-white/10 hover:border-white/40 px-10 py-5 font-black uppercase text-xs tracking-[0.2em] rounded-sm transition-all"
               >
                 Nos autres compétences
               </Link>
@@ -201,21 +204,21 @@ export function ServiceItemsGrid({
     : 'sm:grid-cols-2 lg:grid-cols-3'
 
   return (
-    <section className={`py-16 sm:py-20 px-4 ${alt ? 'bg-[#0C0F14]' : 'bg-[#0a0d11]'}`}>
-      <div className="max-w-6xl mx-auto">
-        <div className="mb-8 sm:mb-10">
-          <h2 className="text-2xl sm:text-3xl font-bold text-white mb-2 font-display">{title}</h2>
-          {subtitle && <p className="text-gray-400">{subtitle}</p>}
+    <section className={`py-20 sm:py-28 px-6 ${alt ? 'bg-[#F8FAFC]' : 'bg-white'}`}>
+      <div className="max-w-7xl mx-auto">
+        <div className="mb-12 max-w-2xl">
+          <h2 className="text-4xl sm:text-5xl font-black italic uppercase tracking-tighter leading-[0.95] text-[#0F172A] mb-4">{title}</h2>
+          {subtitle && <p className="text-slate-500 font-medium">{subtitle}</p>}
         </div>
-        <div className={`grid gap-4 sm:gap-5 ${gridCols}`}>
+        <div className={`grid gap-px bg-slate-200 border border-slate-200 ${gridCols}`}>
           {items.map((item, i) => (
             <div
               key={i}
-              className="p-5 rounded-xl border border-white/10 bg-[#0a0d11] hover:border-white/20 hover:bg-[#141922] transition-colors"
+              className="p-8 bg-white hover:bg-[#F8FAFC] transition-colors group"
             >
-              <div className="text-amber-400 mb-3 text-2xl">{item.icon}</div>
-              <h3 className="font-semibold text-white mb-2">{item.title}</h3>
-              <p className="text-gray-400 text-sm leading-relaxed">{item.description}</p>
+              <div className="text-[#FACC15] mb-4 text-2xl">{item.icon}</div>
+              <h3 className="font-black italic uppercase tracking-tight text-[#0F172A] mb-3 group-hover:text-[#FACC15] transition-colors">{item.title}</h3>
+              <p className="text-slate-500 text-sm leading-relaxed font-medium">{item.description}</p>
             </div>
           ))}
         </div>
@@ -234,16 +237,16 @@ export function ServiceSteps({
   alt?: boolean
 }) {
   return (
-    <section className={`py-16 sm:py-20 px-4 ${alt ? 'bg-[#0C0F14]' : 'bg-[#0a0d11]'}`}>
-      <div className="max-w-6xl mx-auto">
-        <h2 className="text-2xl sm:text-3xl font-bold text-white mb-10 sm:mb-12 font-display">{title}</h2>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+    <section className={`py-20 sm:py-28 px-6 ${alt ? 'bg-[#F8FAFC]' : 'bg-white'}`}>
+      <div className="max-w-7xl mx-auto">
+        <h2 className="text-4xl sm:text-5xl font-black italic uppercase tracking-tighter leading-[0.95] text-[#0F172A] mb-12 sm:mb-16">{title}</h2>
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-10">
           {steps.map((step, i) => (
             <div key={i}>
-              <div className="text-5xl font-bold text-white/10 mb-3 leading-none tabular-nums">{step.step}</div>
-              <div className="w-8 h-px bg-amber-500/50 mb-4" />
-              <h3 className="font-semibold text-white mb-2">{step.title}</h3>
-              <p className="text-gray-400 text-sm leading-relaxed">{step.description}</p>
+              <div className="text-6xl font-black italic tracking-tighter text-slate-200 mb-4 leading-none tabular-nums">{step.step}</div>
+              <div className="w-12 h-1 bg-[#FACC15] mb-5" />
+              <h3 className="font-black italic uppercase tracking-tight text-[#0F172A] mb-2">{step.title}</h3>
+              <p className="text-slate-500 text-sm leading-relaxed font-medium">{step.description}</p>
             </div>
           ))}
         </div>
@@ -260,14 +263,14 @@ export function ServiceFAQ({
   alt?: boolean
 }) {
   return (
-    <section className={`py-16 sm:py-20 px-4 ${alt ? 'bg-[#0C0F14]' : 'bg-[#0a0d11]'}`}>
+    <section className={`py-20 sm:py-28 px-6 ${alt ? 'bg-[#F8FAFC]' : 'bg-white'}`}>
       <div className="max-w-3xl mx-auto">
-        <h2 className="text-2xl sm:text-3xl font-bold text-white mb-10 font-display">Questions fréquentes</h2>
-        <div className="space-y-7">
+        <h2 className="text-4xl sm:text-5xl font-black italic uppercase tracking-tighter leading-[0.95] text-[#0F172A] mb-12">Questions fréquentes</h2>
+        <div className="space-y-8">
           {items.map((item, i) => (
-            <div key={i} className="border-l-2 border-amber-500/40 pl-5">
-              <h3 className="font-semibold text-white mb-2">{item.question}</h3>
-              <p className="text-gray-400 text-sm leading-relaxed">{item.answer}</p>
+            <div key={i} className="border-l-4 border-[#0F172A] pl-6 py-4">
+              <h3 className="font-black italic uppercase tracking-tight text-[#0F172A] mb-3">{item.question}</h3>
+              <p className="text-slate-600 text-base leading-relaxed font-medium">{item.answer}</p>
             </div>
           ))}
         </div>

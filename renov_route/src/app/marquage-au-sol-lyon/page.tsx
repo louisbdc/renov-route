@@ -138,7 +138,7 @@ export default function MarquageAuSolLyonPage() {
       <ServicePageLayout
         breadcrumb={BREADCRUMB}
         heroIcon={<TbMapPin size={28} />}
-        heroTitle={<>Marquage au sol à <strong className="text-amber-400">Lyon</strong></>}
+        heroTitle={<>Marquage au sol à <strong className="text-[#FACC15]">Lyon</strong></>}
         heroSubtitle="Entreprise spécialisée en marquage au sol depuis 2014. Parking, voirie, industriel, sport, PMR : nous intervenons sur tous types de surfaces à Lyon et en Rhône-Alpes."
         heroBackgroundImage="/assets/images/realisations/lidl-verpiliere-parking_1.avif"
         heroImageAlt="Marquage au sol parking à Lyon par Rénov Route"
@@ -146,8 +146,8 @@ export default function MarquageAuSolLyonPage() {
         descriptionHeading="Votre entreprise de marquage au sol à Lyon"
         descriptionParagraphs={[
           "Depuis 2014, Rénov Route est spécialisée dans le marquage au sol à Lyon et dans toute la région Rhône-Alpes. Avec plus de 1 000 chantiers réalisés, nous accompagnons les entreprises, collectivités, copropriétés et gestionnaires de sites dans tous leurs projets de signalisation horizontale.",
-          <>Nos équipes interviennent sur tous types de surfaces et de marquages : <Link href="/competences/tracage-retracage-parking/" className="text-amber-400 hover:text-amber-300 underline">traçage de parking</Link>, marquage de voirie, <Link href="/competences/resine-sol-marquage-interieur/" className="text-amber-400 hover:text-amber-300 underline">résine de sol industriel</Link>, traçage sportif et <Link href="/guides/mise-en-conformite-parking-pmr/" className="text-amber-400 hover:text-amber-300 underline">mise en conformité PMR</Link>.</>,
-          <>Nous utilisons exclusivement des peintures routières certifiées NF EN 1436 et des résines haute performance pour garantir un résultat durable. Si votre sol nécessite une remise en état avant le marquage, nous assurons également la <Link href="/competences/reparation-nids-de-poule/" className="text-amber-400 hover:text-amber-300 underline">réparation de nids de poule</Link> et la préparation de surface.</>,
+          <>Nos équipes interviennent sur tous types de surfaces et de marquages : <Link href="/competences/tracage-retracage-parking/" className="text-[#FACC15] hover:text-[#0F172A] underline">traçage de parking</Link>, marquage de voirie, <Link href="/competences/resine-sol-marquage-interieur/" className="text-[#FACC15] hover:text-[#0F172A] underline">résine de sol industriel</Link>, traçage sportif et <Link href="/guides/mise-en-conformite-parking-pmr/" className="text-[#FACC15] hover:text-[#0F172A] underline">mise en conformité PMR</Link>.</>,
+          <>Nous utilisons exclusivement des peintures routières certifiées NF EN 1436 et des résines haute performance pour garantir un résultat durable. Si votre sol nécessite une remise en état avant le marquage, nous assurons également la <Link href="/competences/reparation-nids-de-poule/" className="text-[#FACC15] hover:text-[#0F172A] underline">réparation de nids de poule</Link> et la préparation de surface.</>,
         ]}
         features={FEATURES}
         ctaTitle="Un projet de marquage au sol à Lyon ?"
@@ -162,12 +162,12 @@ export default function MarquageAuSolLyonPage() {
         />
 
         {/* Links to detailed service pages */}
-        <section className="py-16 sm:py-20 px-4 bg-[#0a0d11]">
+        <section className="py-16 sm:py-20 px-4 bg-white">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 font-display">
+            <h2 className="text-2xl sm:text-3xl font-bold text-[#0F172A] mb-4 font-display">
               En savoir plus sur nos prestations
             </h2>
-            <p className="text-gray-400 mb-8">
+            <p className="text-slate-500 mb-8">
               Chaque type de marquage a ses spécificités. Consultez nos pages dédiées pour plus de détails.
             </p>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -175,12 +175,12 @@ export default function MarquageAuSolLyonPage() {
                 <Link
                   key={i}
                   href={service.link}
-                  className="flex items-start gap-3 p-5 rounded-xl border border-white/10 bg-[#0a0d11] hover:border-amber-500/30 hover:bg-[#141922] transition-colors group"
+                  className="flex items-start gap-3 p-5 rounded-xl border border-slate-200 bg-white hover:border-[#FACC15] hover:bg-[#F8FAFC] transition-colors group"
                 >
-                  <div className="text-amber-400 mt-0.5 flex-shrink-0">{service.icon}</div>
+                  <div className="text-[#FACC15] mt-0.5 flex-shrink-0">{service.icon}</div>
                   <div>
-                    <h3 className="font-semibold text-white group-hover:text-amber-400 transition-colors">{service.title}</h3>
-                    <p className="text-gray-500 text-sm mt-1">Voir le détail</p>
+                    <h3 className="font-semibold text-[#0F172A] group-group-hover:text-[#FACC15] transition-colors">{service.title}</h3>
+                    <p className="text-slate-400 text-sm mt-1">Voir le détail</p>
                   </div>
                 </Link>
               ))}
@@ -189,13 +189,13 @@ export default function MarquageAuSolLyonPage() {
         </section>
 
         {/* Zone d'intervention */}
-        <section className="py-16 sm:py-20 px-4 bg-[#0C0F14]">
+        <section className="py-16 sm:py-20 px-4 bg-[#F8FAFC]">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 font-display">
+            <h2 className="text-2xl sm:text-3xl font-bold text-[#0F172A] mb-4 font-display">
               Notre zone d&apos;intervention
             </h2>
-            <p className="text-gray-300 mb-8 max-w-3xl leading-relaxed">
-              Basés à <strong className="text-white">Tassin-la-Demi-Lune (69160)</strong>, nous intervenons dans toute l&apos;agglomération lyonnaise et la région Auvergne-Rhône-Alpes.
+            <p className="text-slate-600 mb-8 max-w-3xl leading-relaxed">
+              Basés à <strong className="text-[#0F172A]">Tassin-la-Demi-Lune (69160)</strong>, nous intervenons dans toute l&apos;agglomération lyonnaise et la région Auvergne-Rhône-Alpes.
             </p>
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
               {[
@@ -204,9 +204,9 @@ export default function MarquageAuSolLyonPage() {
                 { zone: 'Nord et Est', villes: 'Caluire, Rillieux, Meyzieu, Décines, Chassieu, Genas, Miribel' },
                 { zone: 'Rhône-Alpes', villes: 'Saint-Étienne, Grenoble, Valence, Vienne, Bourgoin-Jallieu, Villefranche' },
               ].map((area, i) => (
-                <div key={i} className="p-5 rounded-xl border border-white/10 bg-[#0a0d11]">
-                  <h3 className="font-semibold text-white mb-2">{area.zone}</h3>
-                  <p className="text-gray-400 text-sm leading-relaxed">{area.villes}</p>
+                <div key={i} className="p-5 rounded-xl border border-slate-200 bg-white">
+                  <h3 className="font-semibold text-[#0F172A] mb-2">{area.zone}</h3>
+                  <p className="text-slate-500 text-sm leading-relaxed">{area.villes}</p>
                 </div>
               ))}
             </div>
@@ -221,12 +221,12 @@ export default function MarquageAuSolLyonPage() {
         />
 
         {/* Guides & resources */}
-        <section className="py-16 sm:py-20 px-4 bg-[#0a0d11]">
+        <section className="py-16 sm:py-20 px-4 bg-white">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 font-display">
+            <h2 className="text-2xl sm:text-3xl font-bold text-[#0F172A] mb-4 font-display">
               Guides pratiques
             </h2>
-            <p className="text-gray-400 mb-8">Prix, normes, réglementation : nos guides pour préparer votre projet.</p>
+            <p className="text-slate-500 mb-8">Prix, normes, réglementation : nos guides pour préparer votre projet.</p>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {[
                 { title: 'Prix marquage au sol parking', href: '/guides/prix-marquage-sol-parking/', desc: 'Tarifs au mètre linéaire, par place, devis type.' },
@@ -239,10 +239,10 @@ export default function MarquageAuSolLyonPage() {
                 <Link
                   key={i}
                   href={guide.href}
-                  className="p-5 rounded-xl border border-white/10 bg-[#0a0d11] hover:border-amber-500/30 hover:bg-[#141922] transition-colors group"
+                  className="p-5 rounded-xl border border-slate-200 bg-white hover:border-[#FACC15] hover:bg-[#F8FAFC] transition-colors group"
                 >
-                  <h3 className="font-semibold text-white group-hover:text-amber-400 transition-colors mb-1">{guide.title}</h3>
-                  <p className="text-gray-400 text-sm">{guide.desc}</p>
+                  <h3 className="font-semibold text-[#0F172A] group-hover:text-[#FACC15] transition-colors mb-1">{guide.title}</h3>
+                  <p className="text-slate-500 text-sm">{guide.desc}</p>
                 </Link>
               ))}
             </div>

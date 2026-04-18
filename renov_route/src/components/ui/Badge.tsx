@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react'
 
-type BadgeColor = 'amber' | 'orange' | 'blue' | 'emerald' | 'violet' | 'sky' | 'gray'
+type BadgeColor = 'amber' | 'orange' | 'blue' | 'emerald' | 'violet' | 'sky' | 'gray' | 'ink' | 'accent'
 
 interface BadgeProps {
   children: ReactNode
@@ -9,13 +9,15 @@ interface BadgeProps {
 }
 
 const colorStyles: Record<BadgeColor, string> = {
-  amber: 'bg-amber-500/15 text-amber-400 border-amber-500/30',
-  orange: 'bg-orange-500/15 text-orange-400 border-orange-500/30',
-  blue: 'bg-blue-500/15 text-blue-400 border-blue-500/30',
-  emerald: 'bg-emerald-500/15 text-emerald-400 border-emerald-500/30',
-  violet: 'bg-violet-500/15 text-violet-400 border-violet-500/30',
-  sky: 'bg-sky-500/15 text-sky-400 border-sky-500/30',
-  gray: 'bg-white/10 text-gray-300 border-white/20',
+  amber: 'bg-[#FACC15] text-[#0F172A] border-transparent',
+  orange: 'bg-[#FACC15] text-[#0F172A] border-transparent',
+  blue: 'bg-[#0F172A] text-white border-transparent',
+  emerald: 'bg-white text-[#0F172A] border-[#0F172A]',
+  violet: 'bg-[#0F172A] text-[#FACC15] border-transparent',
+  sky: 'bg-white text-[#0F172A] border-slate-200',
+  gray: 'bg-slate-100 text-[#0F172A] border-slate-200',
+  ink: 'bg-[#0F172A] text-white border-transparent',
+  accent: 'bg-[#FACC15] text-[#0F172A] border-transparent',
 }
 
 export default function Badge({
@@ -25,7 +27,7 @@ export default function Badge({
 }: BadgeProps) {
   return (
     <span
-      className={`inline-flex items-center px-3 py-1 text-xs font-medium rounded-full border ${colorStyles[color]} ${className}`}
+      className={`inline-flex items-center px-3 py-1 text-[10px] font-black uppercase tracking-[0.2em] rounded-sm border ${colorStyles[color]} ${className}`}
     >
       {children}
     </span>

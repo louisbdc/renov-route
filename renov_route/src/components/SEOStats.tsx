@@ -33,19 +33,19 @@ export default function SEOStats({
   const getColorClass = (color?: string) => {
     switch (color) {
       case 'blue':
-        return 'bg-amber-500 text-gray-900';
+        return 'bg-amber-500 text-[#0F172A]';
       case 'green':
-        return 'bg-green-500 text-white';
+        return 'bg-green-500 text-[#0F172A]';
       case 'yellow':
-        return 'bg-yellow-500 text-white';
+        return 'bg-yellow-500 text-[#0F172A]';
       case 'red':
-        return 'bg-red-500 text-white';
+        return 'bg-red-500 text-[#0F172A]';
       case 'purple':
-        return 'bg-purple-500 text-white';
+        return 'bg-purple-500 text-[#0F172A]';
       case 'indigo':
-        return 'bg-indigo-500 text-white';
+        return 'bg-indigo-500 text-[#0F172A]';
       default:
-        return 'bg-gray-500 text-white';
+        return 'bg-gray-500 text-[#0F172A]';
     }
   };
 
@@ -56,9 +56,9 @@ export default function SEOStats({
       case 'down':
         return 'text-red-600';
       case 'stable':
-        return 'text-gray-600';
+        return 'text-slate-400';
       default:
-        return 'text-gray-600';
+        return 'text-slate-400';
     }
   };
 
@@ -101,7 +101,7 @@ export default function SEOStats({
     <>
       <div className={className}>
         <div className="bg-white rounded-lg shadow-md border border-gray-200 p-6">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">
+          <h2 className="text-2xl font-bold text-[#0F172A] mb-6 text-center">
             Nos Statistiques
           </h2>
           
@@ -116,11 +116,11 @@ export default function SEOStats({
                       </div>
                     )}
                     <div>
-                      <h3 className="text-sm font-medium text-gray-600">
+                      <h3 className="text-sm font-medium text-slate-400">
                         {stat.label}
                       </h3>
                       {stat.description && (
-                        <p className="text-xs text-gray-500 mt-1">
+                        <p className="text-xs text-slate-400 mt-1">
                           {stat.description}
                         </p>
                       )}
@@ -129,11 +129,11 @@ export default function SEOStats({
                 </div>
                 
                 <div className="flex items-baseline">
-                  <span className="text-3xl font-bold text-gray-900">
+                  <span className="text-3xl font-bold text-[#0F172A]">
                     {stat.value}
                   </span>
                   {stat.unit && (
-                    <span className="ml-1 text-sm text-gray-600">
+                    <span className="ml-1 text-sm text-slate-400">
                       {stat.unit}
                     </span>
                   )}
@@ -147,20 +147,20 @@ export default function SEOStats({
                       {stat.trend.direction === 'stable' && '→'}
                       {stat.trend.value}%
                     </span>
-                    <span className="ml-1 text-xs text-gray-500">
+                    <span className="ml-1 text-xs text-slate-400">
                       {stat.trend.period}
                     </span>
                   </div>
                 )}
                 
                 {stat.source && (
-                  <div className="mt-2 text-xs text-gray-500">
+                  <div className="mt-2 text-xs text-slate-400">
                     Source: {stat.source}
                   </div>
                 )}
                 
                 {stat.lastUpdated && (
-                  <div className="mt-1 text-xs text-gray-400">
+                  <div className="mt-1 text-xs text-slate-500">
                     Mis à jour: {new Date(stat.lastUpdated).toLocaleDateString('fr-FR')}
                   </div>
                 )}

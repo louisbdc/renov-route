@@ -74,7 +74,7 @@ export default function SEOEvents({
   const getStatusColor = (status?: string) => {
     switch (status) {
       case 'upcoming':
-        return 'bg-amber-500/15 text-amber-400';
+        return 'bg-[#FACC15] text-[#0F172A]';
       case 'ongoing':
         return 'bg-green-100 text-green-800';
       case 'completed':
@@ -104,13 +104,13 @@ export default function SEOEvents({
   const getCtaClass = (type: string) => {
     switch (type) {
       case 'primary':
-        return 'bg-amber-500 text-gray-900 hover:bg-amber-400';
+        return 'bg-amber-500 text-[#0F172A] hover:bg-amber-400';
       case 'secondary':
-        return 'bg-gray-600 text-white hover:bg-gray-700';
+        return 'bg-gray-600 text-[#0F172A] hover:bg-gray-700';
       case 'outline':
-        return 'border border-amber-500 text-amber-400 hover:bg-amber-500/10';
+        return 'border-2 border-[#FACC15] text-[#0F172A] hover:bg-[#FACC15]';
       default:
-        return 'bg-amber-500 text-gray-900 hover:bg-amber-400';
+        return 'bg-amber-500 text-[#0F172A] hover:bg-amber-400';
     }
   };
 
@@ -187,7 +187,7 @@ export default function SEOEvents({
     <>
       <div className={className}>
         <div className="bg-white rounded-lg shadow-md border border-gray-200 p-6">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">
+          <h2 className="text-2xl font-bold text-[#0F172A] mb-6 text-center">
             Nos Événements
           </h2>
           
@@ -209,11 +209,11 @@ export default function SEOEvents({
                 <div className="p-6">
                   <div className="flex items-start justify-between mb-4">
                     <div>
-                      <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                      <h3 className="text-xl font-semibold text-[#0F172A] mb-2">
                         {event.name}
                       </h3>
                       {event.category && (
-                        <span className="inline-block bg-amber-500/15 text-amber-400 text-xs px-2 py-1 rounded-full">
+                        <span className="inline-block bg-[#FACC15] text-[#0F172A] text-xs px-2 py-1 rounded-full">
                           {event.category}
                         </span>
                       )}
@@ -226,12 +226,12 @@ export default function SEOEvents({
                     )}
                   </div>
                   
-                  <p className="text-gray-700 mb-4">
+                  <p className="text-slate-500 mb-4">
                     {event.shortDescription || event.description}
                   </p>
                   
                   <div className="space-y-3 text-sm mb-4">
-                    <div className="flex items-center text-gray-600">
+                    <div className="flex items-center text-slate-400">
                       <span className="mr-2">📅</span>
                       <span>
                         {formatDate(event.startDate)}
@@ -242,7 +242,7 @@ export default function SEOEvents({
                     </div>
                     
                     {showLocation && event.location && (
-                      <div className="flex items-center text-gray-600">
+                      <div className="flex items-center text-slate-400">
                         <span className="mr-2">📍</span>
                         <span>
                           {event.location.name}, {event.location.city}
@@ -251,14 +251,14 @@ export default function SEOEvents({
                     )}
                     
                     {event.online && (
-                      <div className="flex items-center text-gray-600">
+                      <div className="flex items-center text-slate-400">
                         <span className="mr-2">🌐</span>
                         <span>Événement en ligne</span>
                       </div>
                     )}
                     
                     {showPrice && event.price && (
-                      <div className="flex items-center text-gray-600">
+                      <div className="flex items-center text-slate-400">
                         <span className="mr-2">💰</span>
                         <span>
                           {event.price.free ? 'Gratuit' : `${event.price.amount} ${event.price.currency}`}
@@ -267,14 +267,14 @@ export default function SEOEvents({
                     )}
                     
                     {showOrganizer && event.organizer && (
-                      <div className="flex items-center text-gray-600">
+                      <div className="flex items-center text-slate-400">
                         <span className="mr-2">👤</span>
                         <span>Organisé par {event.organizer.name}</span>
                       </div>
                     )}
                     
                     {showCapacity && event.capacity && (
-                      <div className="flex items-center text-gray-600">
+                      <div className="flex items-center text-slate-400">
                         <span className="mr-2">👥</span>
                         <span>
                           {event.remaining !== undefined ? `${event.remaining} places restantes` : `${event.capacity} places`}
@@ -289,7 +289,7 @@ export default function SEOEvents({
                         {event.tags.map((tag, index) => (
                           <span
                             key={index}
-                            className="inline-block bg-gray-100 text-gray-700 text-xs px-2 py-1 rounded-full"
+                            className="inline-block bg-gray-100 text-slate-500 text-xs px-2 py-1 rounded-full"
                           >
                             #{tag}
                           </span>

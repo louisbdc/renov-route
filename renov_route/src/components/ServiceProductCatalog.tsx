@@ -32,43 +32,43 @@ export default function ServiceProductCatalog({
         : 'sm:grid-cols-2 lg:grid-cols-3'
 
   return (
-    <section className={`py-16 sm:py-20 px-4 ${alt ? 'bg-[#0C0F14]' : 'bg-[#0a0d11]'}`}>
-      <div className="max-w-6xl mx-auto">
-        <div className="mb-10">
-          <h2 className="text-2xl sm:text-3xl font-bold text-white mb-3 font-display">{title}</h2>
-          {subtitle && <p className="text-gray-400 text-base sm:text-lg max-w-2xl">{subtitle}</p>}
+    <section className={`py-20 sm:py-28 px-6 ${alt ? 'bg-[#F8FAFC]' : 'bg-white'}`}>
+      <div className="max-w-7xl mx-auto">
+        <div className="mb-12">
+          <h2 className="text-4xl sm:text-5xl font-black italic uppercase tracking-tighter leading-[0.95] text-[#0F172A] mb-4">{title}</h2>
+          {subtitle && <p className="text-slate-500 text-base sm:text-lg max-w-2xl font-medium">{subtitle}</p>}
         </div>
 
-        <div className={`grid gap-5 ${gridCols}`}>
+        <div className={`grid gap-px bg-slate-200 border border-slate-200 ${gridCols}`}>
           {products.map((product, i) => (
             <div
               key={i}
-              className="rounded-xl border border-white/10 bg-[#0a0d11] overflow-hidden hover:border-amber-500/30 transition-colors group"
+              className="bg-white hover:bg-[#F8FAFC] overflow-hidden transition-colors group"
             >
               {product.image && (
-                <div className="relative aspect-square bg-[#0a0d11]">
+                <div className="relative aspect-square overflow-hidden">
                   <Image
                     src={product.image}
                     alt={`${product.name} - ${product.description}`}
                     fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-300"
+                    className="object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   />
                 </div>
               )}
-              <div className="p-5">
-                <div className="flex items-center gap-3 mb-2">
+              <div className="p-6">
+                <div className="flex items-center gap-3 mb-3">
                   {product.icon && (
-                    <div className="text-amber-400">{product.icon}</div>
+                    <div className="text-[#FACC15]">{product.icon}</div>
                   )}
-                  <h3 className="font-semibold text-white">{product.name}</h3>
+                  <h3 className="font-black italic uppercase tracking-tight text-[#0F172A] group-hover:text-[#FACC15] transition-colors">{product.name}</h3>
                 </div>
-                <p className="text-gray-400 text-sm leading-relaxed mb-3">{product.description}</p>
+                <p className="text-slate-500 text-sm leading-relaxed mb-4 font-medium">{product.description}</p>
                 {product.specs && product.specs.length > 0 && (
-                  <ul className="space-y-1">
+                  <ul className="space-y-1.5">
                     {product.specs.map((spec, j) => (
-                      <li key={j} className="text-xs text-gray-500 flex items-center gap-2">
-                        <span className="w-1 h-1 rounded-full bg-amber-500 flex-shrink-0" />
+                      <li key={j} className="text-xs text-slate-600 flex items-center gap-2 font-medium">
+                        <span className="w-1.5 h-1.5 bg-[#FACC15] flex-shrink-0" />
                         {spec}
                       </li>
                     ))}

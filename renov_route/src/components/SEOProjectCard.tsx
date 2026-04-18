@@ -95,7 +95,7 @@ export default function SEOProjectCard({
       case 'in-progress':
         return 'bg-yellow-100 text-yellow-800';
       case 'planned':
-        return 'bg-amber-500/15 text-amber-400';
+        return 'bg-[#FACC15] text-[#0F172A]';
       default:
         return 'bg-gray-100 text-gray-800';
     }
@@ -104,13 +104,13 @@ export default function SEOProjectCard({
   const getCtaClass = () => {
     switch (project.cta?.type) {
       case 'primary':
-        return 'bg-amber-500 text-gray-900 hover:bg-amber-400';
+        return 'bg-amber-500 text-[#0F172A] hover:bg-amber-400';
       case 'secondary':
-        return 'bg-gray-600 text-white hover:bg-gray-700';
+        return 'bg-gray-600 text-[#0F172A] hover:bg-gray-700';
       case 'outline':
-        return 'border border-amber-500 text-amber-400 hover:bg-amber-500/10';
+        return 'border-2 border-[#FACC15] text-[#0F172A] hover:bg-[#FACC15]';
       default:
-        return 'bg-amber-500 text-gray-900 hover:bg-amber-400';
+        return 'bg-amber-500 text-[#0F172A] hover:bg-amber-400';
     }
   };
 
@@ -162,7 +162,7 @@ export default function SEOProjectCard({
               />
               {project.featured && (
                 <div className="absolute top-4 left-4">
-                  <span className="bg-yellow-500 text-white text-xs px-2 py-1 rounded-full font-medium">
+                  <span className="bg-yellow-500 text-[#0F172A] text-xs px-2 py-1 rounded-full font-medium">
                     Projet en vedette
                   </span>
                 </div>
@@ -180,18 +180,18 @@ export default function SEOProjectCard({
           <div className="p-6">
             <div className="flex items-start justify-between mb-4">
               <div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                <h3 className="text-xl font-semibold text-[#0F172A] mb-2">
                   {project.title}
                 </h3>
                 {project.category && (
-                  <span className="inline-block bg-amber-500/15 text-amber-400 text-xs px-2 py-1 rounded-full">
+                  <span className="inline-block bg-[#FACC15] text-[#0F172A] text-xs px-2 py-1 rounded-full">
                     {project.category}
                   </span>
                 )}
               </div>
             </div>
             
-            <p className="text-gray-700 mb-4">
+            <p className="text-slate-500 mb-4">
               {project.shortDescription || project.description}
             </p>
             
@@ -208,8 +208,8 @@ export default function SEOProjectCard({
                     />
                   )}
                   <div>
-                    <span className="text-sm text-gray-600">Client:</span>
-                    <span className="ml-1 font-medium text-gray-900">
+                    <span className="text-sm text-slate-400">Client:</span>
+                    <span className="ml-1 font-medium text-[#0F172A]">
                       {project.client.name}
                     </span>
                   </div>
@@ -219,7 +219,7 @@ export default function SEOProjectCard({
             
             {showLocation && project.location && (
               <div className="mb-4">
-                <div className="flex items-center text-sm text-gray-600">
+                <div className="flex items-center text-sm text-slate-400">
                   <span className="mr-2">📍</span>
                   <span>
                     {project.location.city}, {project.location.region}
@@ -230,7 +230,7 @@ export default function SEOProjectCard({
             
             {showServices && project.services && project.services.length > 0 && (
               <div className="mb-4">
-                <h4 className="text-sm font-semibold text-gray-900 mb-2">Services</h4>
+                <h4 className="text-sm font-semibold text-[#0F172A] mb-2">Services</h4>
                 <div className="flex flex-wrap gap-1">
                   {project.services.map((service, index) => (
                     <span
@@ -247,13 +247,13 @@ export default function SEOProjectCard({
             <div className="grid grid-cols-2 gap-4 mb-4 text-sm">
               {showDuration && project.duration && (
                 <div>
-                  <span className="text-gray-600">Durée:</span>
+                  <span className="text-slate-400">Durée:</span>
                   <span className="ml-1 font-medium">{project.duration}</span>
                 </div>
               )}
               {showBudget && project.budget && (
                 <div>
-                  <span className="text-gray-600">Budget:</span>
+                  <span className="text-slate-400">Budget:</span>
                   <span className="ml-1 font-medium">
                     {project.budget.amount} {project.budget.currency}
                     {project.budget.range && ` (${project.budget.range})`}
@@ -262,7 +262,7 @@ export default function SEOProjectCard({
               )}
               {showTeam && project.team && (
                 <div>
-                  <span className="text-gray-600">Équipe:</span>
+                  <span className="text-slate-400">Équipe:</span>
                   <span className="ml-1 font-medium">{project.team.size} personnes</span>
                 </div>
               )}
@@ -270,10 +270,10 @@ export default function SEOProjectCard({
             
             {showChallenges && project.challenges && project.challenges.length > 0 && (
               <div className="mb-4">
-                <h4 className="text-sm font-semibold text-gray-900 mb-2">Défis</h4>
+                <h4 className="text-sm font-semibold text-[#0F172A] mb-2">Défis</h4>
                 <ul className="space-y-1">
                   {project.challenges.map((challenge, index) => (
-                    <li key={index} className="flex items-start text-sm text-gray-600">
+                    <li key={index} className="flex items-start text-sm text-slate-400">
                       <span className="w-1.5 h-1.5 bg-red-500 rounded-full mr-2 mt-2"></span>
                       {challenge}
                     </li>
@@ -284,10 +284,10 @@ export default function SEOProjectCard({
             
             {showSolutions && project.solutions && project.solutions.length > 0 && (
               <div className="mb-4">
-                <h4 className="text-sm font-semibold text-gray-900 mb-2">Solutions</h4>
+                <h4 className="text-sm font-semibold text-[#0F172A] mb-2">Solutions</h4>
                 <ul className="space-y-1">
                   {project.solutions.map((solution, index) => (
-                    <li key={index} className="flex items-start text-sm text-gray-600">
+                    <li key={index} className="flex items-start text-sm text-slate-400">
                       <span className="w-1.5 h-1.5 bg-green-500 rounded-full mr-2 mt-2"></span>
                       {solution}
                     </li>
@@ -298,12 +298,12 @@ export default function SEOProjectCard({
             
             {showResults && project.results && project.results.metrics.length > 0 && (
               <div className="mb-4">
-                <h4 className="text-sm font-semibold text-gray-900 mb-2">Résultats</h4>
+                <h4 className="text-sm font-semibold text-[#0F172A] mb-2">Résultats</h4>
                 <div className="grid grid-cols-1 gap-2">
                   {project.results.metrics.map((metric, index) => (
                     <div key={index} className="flex items-center justify-between text-sm">
-                      <span className="text-gray-600">{metric.label}:</span>
-                      <span className="font-medium text-gray-900">
+                      <span className="text-slate-400">{metric.label}:</span>
+                      <span className="font-medium text-[#0F172A]">
                         {metric.value}
                         {metric.improvement && (
                           <span className="ml-1 text-green-600">
@@ -323,7 +323,7 @@ export default function SEOProjectCard({
                   {project.tags.map((tag, index) => (
                     <span
                       key={index}
-                      className="inline-block bg-gray-100 text-gray-700 text-xs px-2 py-1 rounded-full"
+                      className="inline-block bg-gray-100 text-slate-500 text-xs px-2 py-1 rounded-full"
                     >
                       #{tag}
                     </span>

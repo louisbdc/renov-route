@@ -113,26 +113,26 @@ export default function DevisPage() {
       />
       <Layout>
         <SafariAnimationFix>
-          <section className="pt-24 sm:pt-32 pb-20 px-4 bg-[#0a0d11]">
+          <section className="pt-24 sm:pt-32 pb-20 px-4 bg-white">
             <div className="max-w-6xl mx-auto">
               {isSubmitted ? (
-                <div className="max-w-2xl mx-auto text-center py-16 border border-white/10 bg-[#0a0d11] rounded-2xl px-8">
+                <div className="max-w-2xl mx-auto text-center py-16 border border-slate-200 bg-white rounded-2xl px-8">
                   <div className="w-16 h-16 bg-green-500/20 border border-green-500/30 rounded-full flex items-center justify-center mx-auto mb-6">
                     <svg className="w-8 h-8 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                   </div>
-                  <h2 className="text-2xl font-bold text-white mb-4 font-display">Devis Envoyé !</h2>
-                  <p className="text-gray-300 text-lg mb-4">
+                  <h2 className="text-2xl font-bold text-[#0F172A] mb-4 font-display">Devis Envoyé !</h2>
+                  <p className="text-slate-600 text-lg mb-4">
                     Merci pour votre confiance. Nous vous recontacterons dans les 24h
                     pour vous proposer un devis personnalisé.
                   </p>
-                  <p className="text-amber-400 text-sm font-medium mb-8">
+                  <p className="text-[#FACC15] text-sm font-medium mb-8">
                     Un email de confirmation vous a été envoyé
                   </p>
                   <button
                     onClick={handleNewDevis}
-                    className="bg-amber-500 hover:bg-amber-400 text-gray-900 font-bold py-3 px-8 rounded-lg transition-colors duration-200"
+                    className="bg-[#FACC15] hover:bg-[#0F172A] hover:text-white text-[#0F172A] font-bold py-3 px-8 rounded-lg transition-colors duration-200"
                   >
                     Faire une nouvelle demande
                   </button>
@@ -147,16 +147,16 @@ export default function DevisPage() {
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.5 }}
                     >
-                      <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4 font-display">
+                      <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#0F172A] mb-4 font-display">
                         Demandez votre devis gratuit
                       </h1>
-                      <p className="text-gray-400 leading-relaxed">
+                      <p className="text-slate-500 leading-relaxed">
                         Remplissez le formulaire ci-dessous. Nous vous recontacterons sous 24 heures avec une estimation personnalisée.
                       </p>
                     </MotionDiv>
 
                     <MotionDiv
-                      className="border border-white/10 bg-[#0a0d11] rounded-2xl p-6 sm:p-8"
+                      className="border border-slate-200 bg-white rounded-2xl p-6 sm:p-8"
                       initial={{ opacity: 0, y: 20 }}
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.5, delay: 0.1 }}
@@ -202,16 +202,16 @@ export default function DevisPage() {
                             placeholder="Décrivez votre projet, vos besoins spécifiques..."
                             rows={3}
                           />
-                          <p className="text-gray-500 text-xs -mt-4">Optionnel</p>
+                          <p className="text-slate-400 text-xs -mt-4">Optionnel</p>
 
                           {/* Submit */}
                           <button
                             type="submit"
-                            className="w-full bg-amber-500 hover:bg-amber-400 text-gray-900 font-bold py-4 px-8 rounded-xl transition-colors duration-200 flex items-center justify-center space-x-3 disabled:opacity-60 disabled:cursor-not-allowed"
+                            className="w-full bg-[#FACC15] hover:bg-[#0F172A] hover:text-white text-[#0F172A] font-bold py-4 px-8 rounded-xl transition-colors duration-200 flex items-center justify-center space-x-3 disabled:opacity-60 disabled:cursor-not-allowed"
                             disabled={isLoading}
                           >
                             {isLoading ? (
-                              <svg className="animate-spin h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                              <svg className="animate-spin h-5 w-5 text-[#0F172A]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
                                 <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
                                 <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z" />
                               </svg>
@@ -222,7 +222,7 @@ export default function DevisPage() {
                               </>
                             )}
                           </button>
-                          <p className="text-gray-500 text-sm text-center">
+                          <p className="text-slate-400 text-sm text-center">
                             * Champs obligatoires. Vos données sont traitées de manière strictement confidentielle
                             conformément au RGPD.
                           </p>
@@ -243,33 +243,33 @@ export default function DevisPage() {
                       {advantages.map((advantage, index) => (
                         <div
                           key={index}
-                          className="p-5 rounded-xl border border-white/10 bg-[#0a0d11]"
+                          className="p-5 rounded-xl border border-slate-200 bg-white"
                         >
                           <div className="flex items-start gap-3">
-                            <div className="text-amber-400 mt-0.5">{advantage.icon}</div>
+                            <div className="text-[#FACC15] mt-0.5">{advantage.icon}</div>
                             <div>
-                              <h3 className="text-base font-bold text-white mb-1 font-display">{advantage.title}</h3>
-                              <p className="text-gray-400 text-sm leading-relaxed">{advantage.description}</p>
+                              <h3 className="text-base font-bold text-[#0F172A] mb-1 font-display">{advantage.title}</h3>
+                              <p className="text-slate-500 text-sm leading-relaxed">{advantage.description}</p>
                             </div>
                           </div>
                         </div>
                       ))}
 
                       {/* Phone card */}
-                      <div className="p-5 rounded-xl border border-amber-500/20 bg-amber-500/5">
+                      <div className="p-5 rounded-xl border border-[#FACC15] bg-[#FACC15]/10">
                         <div className="flex items-start gap-3">
-                          <div className="text-amber-400 mt-0.5">
+                          <div className="text-[#FACC15] mt-0.5">
                             <FaPhone size={18} />
                           </div>
                           <div>
-                            <h3 className="text-base font-bold text-white mb-1 font-display">Appelez-nous</h3>
+                            <h3 className="text-base font-bold text-[#0F172A] mb-1 font-display">Appelez-nous</h3>
                             <a
                               href="tel:+33786819692"
-                              className="text-amber-400 font-semibold text-lg hover:text-amber-300 transition-colors"
+                              className="text-[#FACC15] font-semibold text-lg hover:text-[#0F172A] transition-colors"
                             >
                               07 86 81 96 92
                             </a>
-                            <p className="text-gray-400 text-sm mt-1">Lun-Ven 8h-18h</p>
+                            <p className="text-slate-500 text-sm mt-1">Lun-Ven 8h-18h</p>
                           </div>
                         </div>
                       </div>

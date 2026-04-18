@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Geist, Geist_Mono, Space_Grotesk } from "next/font/google";
+import { Inter, Archivo_Black, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import CookieConsent from "@/components/CookieConsent";
 import AnalyticsTracker from "@/components/AnalyticsTracker";
@@ -8,25 +8,28 @@ import { Agentation } from "agentation";
 
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
+  display: "swap",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const archivo = Archivo_Black({
+  variable: "--font-archivo",
   subsets: ["latin"],
+  weight: ["400"],
+  display: "swap",
 });
 
-const spaceGrotesk = Space_Grotesk({
-  variable: "--font-space-grotesk",
+const jetbrainsMono = JetBrains_Mono({
+  variable: "--font-jetbrains-mono",
   subsets: ["latin"],
-  weight: ["500", "600", "700"],
+  display: "swap",
 });
 
 export const viewport: Viewport = {
-  themeColor: '#1f2937',
-  colorScheme: 'dark',
+  themeColor: '#0F172A',
+  colorScheme: 'light',
 }
 
 export const metadata: Metadata = {
@@ -45,9 +48,9 @@ export const metadata: Metadata = {
   other: {
     'HandheldFriendly': 'True',
     'MobileOptimized': '320',
-    'msapplication-TileColor': '#1f2937',
+    'msapplication-TileColor': '#0F172A',
     'msapplication-TileImage': '/assets/logos/logo.avif',
-    'supported-color-schemes': 'dark',
+    'supported-color-schemes': 'light',
   },
   robots: {
     index: true,
@@ -105,7 +108,7 @@ export const metadata: Metadata = {
       {
         rel: "mask-icon",
         url: "/mask-icon.svg",
-        color: "#1f2937"
+        color: "#0F172A"
       }
     ],
   },
@@ -146,7 +149,7 @@ export default function RootLayout({
         />
         <OrganizationSchema />
       </head>
-      <body className={`${geistSans.variable} ${geistMono.variable} ${spaceGrotesk.variable} antialiased`}>
+      <body className={`${inter.variable} ${archivo.variable} ${jetbrainsMono.variable} antialiased`}>
         {children}
         <CookieConsent />
         <AnalyticsTracker />

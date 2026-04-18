@@ -37,30 +37,33 @@ function TimelineStepCard({
 
   const content = (
     <>
-      {/* Large background step number */}
-      <div className="absolute -top-2 right-4 text-[6rem] sm:text-[8rem] font-bold text-white/[0.03] font-display leading-none select-none pointer-events-none">
+      {/* Large background step number — decorative, behind text */}
+      <div
+        aria-hidden="true"
+        className="absolute -top-4 -right-2 sm:-right-4 text-[5rem] sm:text-[7rem] font-bold text-slate-100 font-display leading-none select-none pointer-events-none -z-10"
+      >
         {step.step}
       </div>
 
       {/* Mobile: step indicator */}
-      <div className="flex items-center gap-3 mb-4 sm:hidden">
-        <div className="w-10 h-10 rounded-full bg-amber-500/20 border border-amber-500/50 flex items-center justify-center flex-shrink-0">
+      <div className="relative flex items-center gap-3 mb-4 sm:hidden">
+        <div className="w-10 h-10 rounded-full bg-[#FACC15]/20 border border-[#FACC15]/50 flex items-center justify-center flex-shrink-0">
           {step.icon ? (
-            <div className="text-amber-400">{step.icon}</div>
+            <div className="text-[#FACC15]">{step.icon}</div>
           ) : (
-            <span className="text-amber-400 font-bold font-display">{step.step}</span>
+            <span className="text-[#FACC15] font-bold font-display">{step.step}</span>
           )}
         </div>
-        <div className="h-px flex-1 bg-gradient-to-r from-amber-500/40 to-transparent" />
+        <div className="h-px flex-1 bg-gradient-to-r from-[#FACC15]/40 to-transparent" />
       </div>
 
-      <h3 className="text-xl sm:text-2xl font-bold text-white mb-3 font-display">{step.title}</h3>
-      <p className="text-gray-400 text-sm sm:text-base leading-relaxed">{step.description}</p>
+      <h3 className="relative text-xl sm:text-2xl font-bold text-[#0F172A] mb-3 font-display">{step.title}</h3>
+      <p className="relative text-slate-500 text-sm sm:text-base leading-relaxed">{step.description}</p>
     </>
   )
 
   const imageBlock = step.image ? (
-    <div className="relative aspect-[4/3] rounded-xl overflow-hidden border border-white/10">
+    <div className="relative aspect-[4/3] rounded-xl overflow-hidden border border-slate-200">
       {isSafari ? (
         <Image
           src={step.image}
@@ -91,7 +94,7 @@ function TimelineStepCard({
 
   const cardInner = (
     <div className={`grid sm:grid-cols-2 gap-6 sm:gap-10 items-center ${!isEven && imageBlock ? 'sm:[direction:rtl]' : ''}`}>
-      <div className={`relative ${!isEven && imageBlock ? 'sm:[direction:ltr]' : ''}`}>
+      <div className={`relative isolate ${!isEven && imageBlock ? 'sm:[direction:ltr]' : ''}`}>
         {content}
       </div>
       {imageBlock ? (
@@ -100,11 +103,11 @@ function TimelineStepCard({
         </div>
       ) : (
         <div className="hidden sm:flex items-center justify-center">
-          <div className="w-24 h-24 rounded-2xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center">
+          <div className="w-24 h-24 rounded-2xl bg-[#FACC15]/10 border border-[#FACC15]/20 flex items-center justify-center">
             {step.icon ? (
-              <div className="text-amber-400 scale-150">{step.icon}</div>
+              <div className="text-[#FACC15] scale-150">{step.icon}</div>
             ) : (
-              <span className="text-amber-400 font-bold font-display text-4xl">{step.step}</span>
+              <span className="text-[#FACC15] font-bold font-display text-4xl">{step.step}</span>
             )}
           </div>
         </div>
@@ -118,7 +121,7 @@ function TimelineStepCard({
         {cardInner}
         {index < total - 1 && (
           <div className="hidden sm:block absolute left-1/2 -translate-x-1/2 bottom-0 h-8">
-            <div className="w-px h-full bg-gradient-to-b from-amber-500/40 to-transparent" />
+            <div className="w-px h-full bg-gradient-to-b from-[#FACC15]/40 to-transparent" />
           </div>
         )}
       </div>
@@ -139,7 +142,7 @@ function TimelineStepCard({
       {index < total - 1 && (
         <div className="hidden sm:block absolute left-1/2 -translate-x-1/2 bottom-0 h-8">
           <motion.div
-            className="w-px h-full bg-gradient-to-b from-amber-500/40 to-transparent"
+            className="w-px h-full bg-gradient-to-b from-[#FACC15]/40 to-transparent"
             initial={{ scaleY: 0 }}
             whileInView={{ scaleY: 1 }}
             viewport={{ once: true }}
@@ -163,7 +166,7 @@ function ProgressLine({ containerRef, isSafari }: { containerRef: React.RefObjec
   if (isSafari) {
     return (
       <div className="absolute left-1/2 -translate-x-1/2 top-0 bottom-0 hidden sm:block">
-        <div className="w-px h-full bg-amber-500/20" />
+        <div className="w-px h-full bg-[#FACC15]/20" />
       </div>
     )
   }
@@ -171,10 +174,10 @@ function ProgressLine({ containerRef, isSafari }: { containerRef: React.RefObjec
   return (
     <div className="absolute left-1/2 -translate-x-1/2 top-0 bottom-0 hidden sm:block">
       {/* Track */}
-      <div className="w-px h-full bg-white/5" />
+      <div className="w-px h-full bg-slate-100" />
       {/* Fill */}
       <motion.div
-        className="absolute top-0 left-0 w-px bg-gradient-to-b from-amber-500 via-amber-400 to-amber-500/0"
+        className="absolute top-0 left-0 w-px bg-gradient-to-b from-[#FACC15] via-amber-400 to-[#FACC15]/0"
         style={{ height }}
       />
       {/* Glow dot at tip */}
@@ -197,8 +200,8 @@ export default function ServiceProcessTimeline({
 
   const heading = isSafari ? (
     <div className="mb-12 text-center">
-      <h2 className="text-2xl sm:text-3xl font-bold text-white mb-3 font-display">{title}</h2>
-      {subtitle && <p className="text-gray-400 text-base sm:text-lg max-w-2xl mx-auto">{subtitle}</p>}
+      <h2 className="text-2xl sm:text-3xl font-bold text-[#0F172A] mb-3 font-display">{title}</h2>
+      {subtitle && <p className="text-slate-500 text-base sm:text-lg max-w-2xl mx-auto">{subtitle}</p>}
     </div>
   ) : (
     <motion.div
@@ -208,13 +211,13 @@ export default function ServiceProcessTimeline({
       viewport={{ once: true }}
       transition={{ duration: 0.5 }}
     >
-      <h2 className="text-2xl sm:text-3xl font-bold text-white mb-3 font-display">{title}</h2>
-      {subtitle && <p className="text-gray-400 text-base sm:text-lg max-w-2xl mx-auto">{subtitle}</p>}
+      <h2 className="text-2xl sm:text-3xl font-bold text-[#0F172A] mb-3 font-display">{title}</h2>
+      {subtitle && <p className="text-slate-500 text-base sm:text-lg max-w-2xl mx-auto">{subtitle}</p>}
     </motion.div>
   )
 
   return (
-    <section className={`py-16 sm:py-24 px-4 ${alt ? 'bg-[#0C0F14]' : 'bg-[#0a0d11]'}`}>
+    <section className={`py-16 sm:py-24 px-4 ${alt ? 'bg-[#F8FAFC]' : 'bg-white'}`}>
       <div className="max-w-5xl mx-auto">
         {heading}
 
@@ -234,18 +237,18 @@ export default function ServiceProcessTimeline({
                 style={{ top: `calc(${topPercent}% + 2rem)` }}
               >
                 {isSafari ? (
-                  <div className="w-10 h-10 rounded-full bg-[#0a0d11] border-2 border-amber-500/50 flex items-center justify-center">
-                    <span className="text-amber-400 font-bold font-display text-sm">{step.step}</span>
+                  <div className="w-10 h-10 rounded-full bg-white border-2 border-[#FACC15]/50 flex items-center justify-center">
+                    <span className="text-[#FACC15] font-bold font-display text-sm">{step.step}</span>
                   </div>
                 ) : (
                   <motion.div
-                    className="w-10 h-10 rounded-full bg-[#0a0d11] border-2 border-amber-500/50 flex items-center justify-center"
+                    className="w-10 h-10 rounded-full bg-white border-2 border-[#FACC15]/50 flex items-center justify-center"
                     initial={{ scale: 0 }}
                     whileInView={{ scale: 1 }}
                     viewport={{ once: true, amount: 0.5 }}
                     transition={{ duration: 0.3, delay: 0.2, type: 'spring', stiffness: 200 }}
                   >
-                    <span className="text-amber-400 font-bold font-display text-sm">{step.step}</span>
+                    <span className="text-[#FACC15] font-bold font-display text-sm">{step.step}</span>
                   </motion.div>
                 )}
               </div>
