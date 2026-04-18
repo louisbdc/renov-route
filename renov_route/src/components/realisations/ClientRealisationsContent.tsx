@@ -68,21 +68,22 @@ function RealisationsContent() {
       {/* Hero Section */}
       <Hero />
 
-      {/* Filters Section */}
-      <section id="case-studies" className="py-12">
-        <div className="container-custom">
-          <Filters onFilterChange={setFilters} />
-        </div>
-      </section>
-
       {/* Featured Case Study */}
       {featuredCase && (
-        <section className="py-8">
+        <section className="py-12">
           <div className="container-custom">
             <FeaturedCase caseStudy={featuredCase} />
           </div>
         </section>
       )}
+
+      {/* Filters Section */}
+      <section id="case-studies" className="py-8">
+        <div className="container-custom">
+          <Filters onFilterChange={setFilters} />
+        </div>
+      </section>
+
 
       {/* Case Studies Grid */}
       <section id="projects-grid" className="py-16 sm:py-24 bg-white">

@@ -6,26 +6,6 @@ import { categories, industries, years } from '@/lib/data/case-studies';
 import { GoogleAnalytics } from '@/lib/analytics';
 import { useDebounce } from '@/hooks/useAnalyticsTracking';
 
-// Hook pour gérer la taille de l'écran de manière sûre
-function useIsDesktop() {
-  const [isDesktop, setIsDesktop] = useState(false);
-  const [isClient, setIsClient] = useState(false);
-
-  useEffect(() => {
-    setIsClient(true);
-    const checkIsDesktop = () => {
-      setIsDesktop(window.innerWidth >= 1024);
-    };
-    
-    checkIsDesktop();
-    window.addEventListener('resize', checkIsDesktop);
-    
-    return () => window.removeEventListener('resize', checkIsDesktop);
-  }, []);
-
-  return { isDesktop, isClient };
-}
-
 interface FilterProps {
   onFilterChange: (filters: FilterState) => void;
   className?: string;
@@ -47,32 +27,28 @@ export default function Filters({ onFilterChange, className = '' }: FilterProps)
   });
 
   const [isExpanded, setIsExpanded] = useState(false);
-  const { isDesktop, isClient } = useIsDesktop();
 
   useEffect(() => {
     onFilterChange(filters);
   }, [filters, onFilterChange]);
 
-  const ga = GoogleAnalytics.getInstance()
-  const debouncedSearch = useDebounce(filters.search, 1000)
+  const ga = GoogleAnalytics.getInstance();
+  const debouncedSearch = useDebounce(filters.search, 1000);
 
   useEffect(() => {
     if (debouncedSearch) {
-      ga.trackFilterSearch(debouncedSearch)
+      ga.trackFilterSearch(debouncedSearch);
     }
-  }, [debouncedSearch, ga])
+  }, [debouncedSearch, ga]);
 
   const toggleFilter = (key: 'categories' | 'industries' | 'years', value: string) => {
     setFilters(prev => {
       const currentArray = prev[key];
       const isSelected = currentArray.includes(value);
-
-      ga.trackFilterToggle(key, value, isSelected ? 'remove' : 'add')
-
+      ga.trackFilterToggle(key, value, isSelected ? 'remove' : 'add');
       const newArray = isSelected
         ? currentArray.filter(item => item !== value)
         : [...currentArray, value];
-
       return { ...prev, [key]: newArray };
     });
   };
@@ -82,223 +58,171 @@ export default function Filters({ onFilterChange, className = '' }: FilterProps)
   };
 
   const clearFilters = () => {
-    ga.trackFilterClear()
-    setFilters({
-      categories: [],
-      industries: [],
-      years: [],
-      search: ''
-    });
+    ga.trackFilterClear();
+    setFilters({ categories: [], industries: [], years: [], search: '' });
   };
 
-  const activeFiltersCount = filters.categories.length + filters.industries.length + filters.years.length + (filters.search ? 1 : 0);
+  const advancedFiltersCount = filters.categories.length + filters.industries.length + filters.years.length;
+  const totalActiveCount = advancedFiltersCount + (filters.search ? 1 : 0);
 
   return (
-    <section className={`bg-white border border-slate-200 p-8 ${className}`}>
-      <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4 mb-8">
-        <div className="flex items-center gap-4">
-          <h2 className="text-xl font-black italic uppercase tracking-tight text-[#0F172A]">Filtrer les projets</h2>
-          {activeFiltersCount > 0 && (
-            <motion.span
-              initial={{ scale: 0 }}
-              animate={{ scale: 1 }}
-              className="px-2 py-1 bg-[#FACC15] text-[#0F172A] text-[10px] font-black uppercase tracking-[0.2em] rounded-sm"
-            >
-              {activeFiltersCount}
-            </motion.span>
-          )}
-        </div>
-
-        <div className="flex items-center gap-4">
-          <button
-            onClick={() => setIsExpanded(!isExpanded)}
-            className="lg:hidden px-4 py-2.5 bg-white border border-slate-200 hover:border-[#0F172A] text-[10px] font-black uppercase tracking-[0.2em] text-[#0F172A] rounded-sm transition-colors focus-ring"
-          >
-            {isExpanded ? 'Masquer' : 'Filtres'} ({activeFiltersCount})
-          </button>
-
-          {activeFiltersCount > 0 && (
+    <section className={className}>
+      {/* Search bar + Filter toggle — single row */}
+      <div className="flex flex-col sm:flex-row items-stretch gap-3">
+        <div className="relative flex-1">
+          <svg className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-400 pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+          </svg>
+          <input
+            type="text"
+            placeholder="Rechercher un projet, un client, un secteur…"
+            value={filters.search}
+            onChange={(e) => updateSearch(e.target.value)}
+            className="w-full pl-12 pr-4 py-4 bg-white border border-slate-200 rounded-sm text-[#0F172A] placeholder-slate-400 text-sm font-medium focus:outline-none focus:border-[#0F172A] transition-colors"
+          />
+          {filters.search && (
             <button
-              onClick={clearFilters}
-              className="px-4 py-2.5 text-[10px] font-black uppercase tracking-[0.2em] text-slate-500 hover:text-[#0F172A] transition-colors focus-ring"
+              type="button"
+              onClick={() => updateSearch('')}
+              className="absolute right-3 top-1/2 -translate-y-1/2 p-1.5 text-slate-400 hover:text-[#0F172A] transition-colors"
+              aria-label="Effacer la recherche"
             >
-              Effacer tout
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M6 18L18 6M6 6l12 12" />
+              </svg>
             </button>
           )}
         </div>
+
+        <button
+          type="button"
+          onClick={() => setIsExpanded(v => !v)}
+          aria-expanded={isExpanded}
+          className={`inline-flex items-center justify-center gap-3 px-6 py-4 text-[10px] font-black uppercase tracking-[0.2em] rounded-sm transition-colors border ${
+            isExpanded || advancedFiltersCount > 0
+              ? 'bg-[#0F172A] text-white border-[#0F172A]'
+              : 'bg-white text-[#0F172A] border-slate-200 hover:border-[#0F172A]'
+          }`}
+        >
+          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z" />
+          </svg>
+          Filtres
+          {advancedFiltersCount > 0 && (
+            <span className={`inline-flex items-center justify-center min-w-[20px] h-5 px-1.5 text-[10px] font-black rounded-sm ${
+              isExpanded || advancedFiltersCount > 0 ? 'bg-[#FACC15] text-[#0F172A]' : 'bg-[#0F172A] text-white'
+            }`}>
+              {advancedFiltersCount}
+            </span>
+          )}
+          <svg className={`w-4 h-4 transition-transform ${isExpanded ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+
+        {totalActiveCount > 0 && (
+          <button
+            type="button"
+            onClick={clearFilters}
+            className="inline-flex items-center justify-center px-4 py-4 text-[10px] font-black uppercase tracking-[0.2em] text-slate-500 hover:text-[#0F172A] transition-colors"
+          >
+            Effacer
+          </button>
+        )}
       </div>
 
-      <AnimatePresence>
-        {(isExpanded || (isClient && isDesktop)) && (
+      {/* Expandable advanced filters */}
+      <AnimatePresence initial={false}>
+        {isExpanded && (
           <motion.div
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
-            transition={{ duration: 0.3, ease: [0.2, 0.8, 0.2, 1] }}
-            className="space-y-6"
+            transition={{ duration: 0.25, ease: [0.2, 0.8, 0.2, 1] }}
+            className="overflow-hidden"
           >
-            <div className="relative">
-              <input
-                type="text"
-                placeholder="Rechercher un projet..."
-                value={filters.search}
-                onChange={(e) => updateSearch(e.target.value)}
-                className="w-full px-4 py-3 bg-[#F8FAFC] border border-slate-200 rounded-sm text-[#0F172A] placeholder-slate-400 focus:outline-none focus:border-[#0F172A] focus-ring transition-colors duration-200 font-medium"
-              />
-              <div className="absolute right-3 top-1/2 transform -translate-y-1/2">
-                <svg className="w-5 h-5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                </svg>
-              </div>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              <div>
-                <label className="block text-[10px] font-black uppercase tracking-[0.2em] text-slate-500 mb-3">
-                  Catégorie
-                </label>
-                <div className="space-y-2">
-                  {categories.map((category) => {
-                    const isSelected = filters.categories.includes(category.id);
-                    return (
-                      <motion.button
-                        key={category.id}
-                        onClick={() => toggleFilter('categories', category.id)}
-                        className={`w-full text-left px-3 py-2.5 text-xs font-bold transition-all duration-200 focus-ring group relative overflow-hidden rounded-sm ${
-                          isSelected
-                            ? 'bg-[#FACC15] text-[#0F172A] border border-[#FACC15]'
-                            : 'bg-white hover:bg-[#F8FAFC] border border-slate-200 text-[#0F172A]'
-                        }`}
-                        whileHover={{ scale: 1.02 }}
-                        whileTap={{ scale: 0.98 }}
-                      >
-                        {isSelected && (
-                          <motion.div
-                            initial={{ scale: 0 }}
-                            animate={{ scale: 1 }}
-                            className="absolute top-2 right-2 w-2 h-2 bg-[#0F172A]"
-                          />
-                        )}
-                        
-                        <span className="flex items-center justify-between">
-                          <span className="font-bold uppercase tracking-tight text-xs">
-                            {category.label}
-                          </span>
-                          <span className="text-[10px] font-bold opacity-70">
-                            ({category.count})
-                          </span>
-                        </span>
-                        
-                        {/* Effet de brillance pour les éléments sélectionnés */}
-                        {isSelected && (
-                          <motion.div
-                            className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent"
-                            initial={{ x: '-100%' }}
-                            animate={{ x: '100%' }}
-                            transition={{ duration: 1.5, repeat: Infinity, repeatDelay: 2 }}
-                          />
-                        )}
-                      </motion.button>
-                    );
-                  })}
+            <div className="mt-4 bg-white border border-slate-200 p-6 sm:p-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                {/* Categories */}
+                <div>
+                  <label className="block text-[10px] font-black uppercase tracking-[0.25em] text-slate-500 mb-4">
+                    Catégorie
+                  </label>
+                  <div className="flex flex-wrap gap-2">
+                    {categories.map((category) => {
+                      const isSelected = filters.categories.includes(category.id);
+                      return (
+                        <button
+                          key={category.id}
+                          type="button"
+                          onClick={() => toggleFilter('categories', category.id)}
+                          className={`inline-flex items-center gap-2 px-3 py-2 text-xs font-black uppercase tracking-tight rounded-sm border transition-colors ${
+                            isSelected
+                              ? 'bg-[#FACC15] text-[#0F172A] border-[#FACC15]'
+                              : 'bg-white text-[#0F172A] border-slate-200 hover:border-[#0F172A]'
+                          }`}
+                        >
+                          {category.label}
+                          <span className="text-[10px] opacity-60 tabular-nums">{category.count}</span>
+                        </button>
+                      );
+                    })}
+                  </div>
                 </div>
-              </div>
 
-              {/* Industry Filter */}
-              <div>
-                <label className="block text-[10px] font-black uppercase tracking-[0.2em] text-slate-500 mb-3">
-                  Secteur
-                </label>
-                <div className="space-y-2">
-                  {industries.map((industry) => {
-                    const isSelected = filters.industries.includes(industry);
-                    return (
-                      <motion.button
-                        key={industry}
-                        onClick={() => toggleFilter('industries', industry)}
-                        className={`w-full text-left px-3 py-2.5 text-xs font-bold transition-all duration-200 focus-ring group relative overflow-hidden rounded-sm ${
-                          isSelected
-                            ? 'bg-[#FACC15] text-[#0F172A] border border-[#FACC15]'
-                            : 'bg-white hover:bg-[#F8FAFC] border border-slate-200 text-[#0F172A]'
-                        }`}
-                        whileHover={{ scale: 1.02 }}
-                        whileTap={{ scale: 0.98 }}
-                      >
-                        {isSelected && (
-                          <motion.div
-                            initial={{ scale: 0 }}
-                            animate={{ scale: 1 }}
-                            className="absolute top-2 right-2 w-2 h-2 bg-[#0F172A]"
-                          />
-                        )}
-                        
-                        <span className="font-bold uppercase tracking-tight text-xs">
+                {/* Industries */}
+                <div>
+                  <label className="block text-[10px] font-black uppercase tracking-[0.25em] text-slate-500 mb-4">
+                    Secteur
+                  </label>
+                  <div className="flex flex-wrap gap-2">
+                    {industries.map((industry) => {
+                      const isSelected = filters.industries.includes(industry);
+                      return (
+                        <button
+                          key={industry}
+                          type="button"
+                          onClick={() => toggleFilter('industries', industry)}
+                          className={`px-3 py-2 text-xs font-black uppercase tracking-tight rounded-sm border transition-colors ${
+                            isSelected
+                              ? 'bg-[#FACC15] text-[#0F172A] border-[#FACC15]'
+                              : 'bg-white text-[#0F172A] border-slate-200 hover:border-[#0F172A]'
+                          }`}
+                        >
                           {industry}
-                        </span>
-                        
-                        {/* Effet de brillance pour les éléments sélectionnés */}
-                        {isSelected && (
-                          <motion.div
-                            className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent"
-                            initial={{ x: '-100%' }}
-                            animate={{ x: '100%' }}
-                            transition={{ duration: 1.5, repeat: Infinity, repeatDelay: 2 }}
-                          />
-                        )}
-                      </motion.button>
-                    );
-                  })}
+                        </button>
+                      );
+                    })}
+                  </div>
                 </div>
-              </div>
 
-              {/* Year Filter */}
-              <div>
-                <label className="block text-[10px] font-black uppercase tracking-[0.2em] text-slate-500 mb-3">
-                  Année
-                </label>
-                <div className="space-y-2">
-                  {years.map((year) => {
-                    const yearStr = year.toString();
-                    const isSelected = filters.years.includes(yearStr);
-                    return (
-                      <motion.button
-                        key={year}
-                        onClick={() => toggleFilter('years', yearStr)}
-                        className={`w-full text-left px-3 py-2.5 text-xs font-bold transition-all duration-200 focus-ring group relative overflow-hidden rounded-sm ${
-                          isSelected
-                            ? 'bg-[#FACC15] text-[#0F172A] border border-[#FACC15]'
-                            : 'bg-white hover:bg-[#F8FAFC] border border-slate-200 text-[#0F172A]'
-                        }`}
-                        whileHover={{ scale: 1.02 }}
-                        whileTap={{ scale: 0.98 }}
-                      >
-                        {isSelected && (
-                          <motion.div
-                            initial={{ scale: 0 }}
-                            animate={{ scale: 1 }}
-                            className="absolute top-2 right-2 w-2 h-2 bg-[#0F172A]"
-                          />
-                        )}
-                        
-                        <span className="font-bold text-xs tabular-nums">
+                {/* Years */}
+                <div>
+                  <label className="block text-[10px] font-black uppercase tracking-[0.25em] text-slate-500 mb-4">
+                    Année
+                  </label>
+                  <div className="flex flex-wrap gap-2">
+                    {years.map((year) => {
+                      const yearStr = year.toString();
+                      const isSelected = filters.years.includes(yearStr);
+                      return (
+                        <button
+                          key={year}
+                          type="button"
+                          onClick={() => toggleFilter('years', yearStr)}
+                          className={`px-3 py-2 text-xs font-black tabular-nums rounded-sm border transition-colors ${
+                            isSelected
+                              ? 'bg-[#FACC15] text-[#0F172A] border-[#FACC15]'
+                              : 'bg-white text-[#0F172A] border-slate-200 hover:border-[#0F172A]'
+                          }`}
+                        >
                           {year}
-                        </span>
-                        
-                        {/* Effet de brillance pour les éléments sélectionnés */}
-                        {isSelected && (
-                          <motion.div
-                            className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent"
-                            initial={{ x: '-100%' }}
-                            animate={{ x: '100%' }}
-                            transition={{ duration: 1.5, repeat: Infinity, repeatDelay: 2 }}
-                          />
-                        )}
-                      </motion.button>
-                    );
-                  })}
+                        </button>
+                      );
+                    })}
+                  </div>
                 </div>
               </div>
-
             </div>
           </motion.div>
         )}
