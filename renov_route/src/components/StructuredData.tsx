@@ -12,7 +12,7 @@ export default function StructuredData({ type }: StructuredDataProps) {
     "parentOrganization": { "@id": "https://renov-route.com/#organization" },
     "name": "Rénov Route",
     "description": "Expert traçage marquage routier et parking en France. Réparation nids de poule, retraçage parking, marquage routier, enrobé résine.",
-    "url": "https://renov-route.com",
+    "url": "https://renov-route.com/",
     "logo": "https://renov-route.com/assets/logos/logo.avif",
     "image": "https://renov-route.com/assets/images/og-image.jpg",
     "telephone": "+33786819692",

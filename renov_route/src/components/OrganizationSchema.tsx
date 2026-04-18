@@ -5,7 +5,7 @@ const ORGANIZATION_JSONLD = {
   name: 'Rénov Route',
   legalName: "RENOV'ROUTE SARL",
   alternateName: 'Renov Route',
-  url: 'https://renov-route.com',
+  url: 'https://renov-route.com/',
   logo: {
     '@type': 'ImageObject',
     url: 'https://renov-route.com/assets/logos/logo.avif',
@@ -69,7 +69,7 @@ const WEBSITE_JSONLD = {
   '@id': 'https://renov-route.com/#website',
   name: 'Rénov Route',
   alternateName: 'Renov Route',
-  url: 'https://renov-route.com',
+  url: 'https://renov-route.com/',
   inLanguage: 'fr-FR',
   publisher: { '@id': 'https://renov-route.com/#organization' },
 }
