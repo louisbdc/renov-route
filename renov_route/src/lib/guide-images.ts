@@ -77,19 +77,27 @@ const IDS: Record<string, string> = {
   'logo-parking-pictogrammes': '1717298812095-692414f0cb13',
   'place-bleu-parking-zone-bleue': '1766009048281-9019f38cc5d0',
 
-  // Guides sans image (pas de match fiable ou rate-limited) :
-  // - arceau-parking-types-prix
-  // - code-de-la-route-marquage-au-sol
-  // - marquage-au-sol-entreprise-industriel
-  // - marquage-au-sol-parking-prive
-  // - marquage-au-sol-piste-cyclable
-  // - marquage-au-sol-travaux-chantier
-  // - panneaux-parking-types-reglementation
-  // - signalisation-horizontale-et-verticale
-  // - dos-dane-parking-reglementation-pose
+  // ── Équipements & bollards ───────────────────────────────────────
+  'arceau-parking-types-prix': '1768980543929-b9b29cb4938c',
+
+  // ── Signalisation & réglementation ───────────────────────────────
+  'code-de-la-route-marquage-au-sol': '1594850015290-2cd2d512a508',
+  'panneaux-parking-types-reglementation': '1759771622472-4305102bfbe4',
+  'signalisation-horizontale-et-verticale': '1767884161959-4419b050f814',
+  'dos-dane-parking-reglementation-pose': '1698281363281-423654cf848f',
+  'mise-en-conformite-parking-pmr': '1643930493375-6da00584e34f',
+
+  // ── Marquage par secteur ─────────────────────────────────────────
+  'marquage-au-sol-entreprise-industriel': '1772299121503-cd62a57e3a26',
+  'marquage-au-sol-parking-prive': '1773063250524-38ac5eebd3c5',
+  'marquage-au-sol-piste-cyclable': '1763462989567-bcd3dbc5a306',
+  'marquage-au-sol-travaux-chantier': '1502412960062-395a1c0e966e',
+
+  // ── Sols & peinture garage ───────────────────────────────────────
+  'peinture-sol-garage-types-application': '1704786450243-fe590b6bc9d3',
+
+  // Guides sans image (pas de match visuel pertinent) :
   // - rampe-pour-pmr-normes-types
-  // - peinture-sol-garage-types-application
-  // - mise-en-conformite-parking-pmr
 }
 
 /**

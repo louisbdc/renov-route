@@ -23,6 +23,12 @@ export default function HeroSection({ children }: { children: React.ReactNode })
   const [videoReady, setVideoReady] = useState<Record<number, boolean>>({})
   const videoRefs = useRef<(HTMLVideoElement | null)[]>([])
   const fallbackImageRef = useRef(0)
+  const activeRef = useRef(0)
+  const loadingRef = useRef<Record<number, boolean>>({})
+
+  useEffect(() => {
+    activeRef.current = active
+  }, [active])
 
   const goTo = useCallback((index: number) => {
     setActive(index)
@@ -30,8 +36,12 @@ export default function HeroSection({ children }: { children: React.ReactNode })
   }, [])
 
   const advance = useCallback(() => {
-    goTo((active + 1) % MEDIA.length)
-  }, [active, goTo])
+    goTo((activeRef.current + 1) % MEDIA.length)
+  }, [goTo])
+
+  const setVideoRef = useCallback((vi: number) => (el: HTMLVideoElement | null) => {
+    videoRefs.current[vi] = el
+  }, [])
 
   useEffect(() => {
     if (MEDIA[active].type === 'image') {
@@ -48,20 +58,27 @@ export default function HeroSection({ children }: { children: React.ReactNode })
   useEffect(() => {
     if (MEDIA[active].type !== 'video') return
     const vi = getVideoIndex(active)
-    if (!videoReady[vi]) return
-    const video = videoRefs.current[vi]
-    if (!video) return
-    video.currentTime = 0
-    video.play().catch(() => advance())
-  }, [active, advance, videoReady])
+    const ready = videoReady[vi]
 
-  useEffect(() => {
-    if (MEDIA[active].type !== 'video') return
-    const vi = getVideoIndex(active)
-    if (videoReady[vi]) return
+    if (ready) {
+      const video = videoRefs.current[vi]
+      if (!video) return
+      video.currentTime = 0
+      video.play().catch(() => advance())
+      return
+    }
+
     const timeout = setTimeout(advance, VIDEO_LOAD_TIMEOUT_MS)
     return () => clearTimeout(timeout)
   }, [active, advance, videoReady])
+
+  useEffect(() => {
+    videoRefs.current.forEach((video, vi) => {
+      if (!video) return
+      if (vi === getVideoIndex(active) && MEDIA[active].type === 'video') return
+      if (!video.paused) video.pause()
+    })
+  }, [active])
 
   useEffect(() => {
     if (MEDIA[active].type !== 'image') return
@@ -69,9 +86,9 @@ export default function HeroSection({ children }: { children: React.ReactNode })
     if (MEDIA[nextIndex].type !== 'video') return
     const vi = getVideoIndex(nextIndex)
     const video = videoRefs.current[vi]
-    if (video && !videoReady[vi]) {
-      video.load()
-    }
+    if (!video || videoReady[vi] || loadingRef.current[vi]) return
+    loadingRef.current[vi] = true
+    video.load()
   }, [active, videoReady])
 
   useEffect(() => {
@@ -83,6 +100,7 @@ export default function HeroSection({ children }: { children: React.ReactNode })
   }, [])
 
   const handleVideoCanPlay = useCallback((vi: number) => {
+    loadingRef.current[vi] = false
     setVideoReady(prev => prev[vi] ? prev : { ...prev, [vi]: true })
   }, [])
 
@@ -141,7 +159,7 @@ export default function HeroSection({ children }: { children: React.ReactNode })
             style={{ opacity: getSlideOpacity(i) }}
           >
             <video
-              ref={el => { videoRefs.current[vi] = el }}
+              ref={setVideoRef(vi)}
               src={item.src}
               muted
               playsInline

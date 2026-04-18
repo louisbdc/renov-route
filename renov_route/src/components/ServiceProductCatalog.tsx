@@ -43,7 +43,7 @@ export default function ServiceProductCatalog({
           {products.map((product, i) => (
             <div
               key={i}
-              className="bg-white hover:bg-[#F8FAFC] overflow-hidden transition-colors group"
+              className="bg-white overflow-hidden"
             >
               {product.image && (
                 <div className="relative aspect-square overflow-hidden">
@@ -51,7 +51,7 @@ export default function ServiceProductCatalog({
                     src={product.image}
                     alt={`${product.name} - ${product.description}`}
                     fill
-                    className="object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
+                    className="object-cover grayscale"
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   />
                 </div>
@@ -61,7 +61,7 @@ export default function ServiceProductCatalog({
                   {product.icon && (
                     <div className="text-[#FACC15]">{product.icon}</div>
                   )}
-                  <h3 className="font-black italic uppercase tracking-tight text-[#0F172A] group-hover:text-[#FACC15] transition-colors">{product.name}</h3>
+                  <h3 className="font-black italic uppercase tracking-tight text-[#0F172A]">{product.name}</h3>
                 </div>
                 <p className="text-slate-500 text-sm leading-relaxed mb-4 font-medium">{product.description}</p>
                 {product.specs && product.specs.length > 0 && (

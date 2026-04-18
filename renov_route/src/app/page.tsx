@@ -212,17 +212,17 @@ export default function Home() {
               ].map((item, index) => (
                 <MotionDiv
                   key={index}
-                  className="relative bg-white p-8 group"
+                  className="relative bg-white p-8"
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.4, delay: index * 0.1 }}
                 >
-                  <div className="absolute top-4 right-5 text-2xl font-black italic text-slate-200 group-hover:text-[#FACC15] transition-colors">
+                  <div className="absolute top-4 right-5 text-2xl font-black italic text-slate-200">
                     {item.step}
                   </div>
                   <div className="text-[#FACC15] mb-6">{item.icon}</div>
-                  <h3 className="text-lg font-black italic uppercase tracking-tight text-[#0F172A] mb-3 group-hover:text-[#FACC15] transition-colors">{item.title}</h3>
+                  <h3 className="text-lg font-black italic uppercase tracking-tight text-[#0F172A] mb-3">{item.title}</h3>
                   <p className="text-slate-500 text-sm leading-relaxed">{item.description}</p>
                 </MotionDiv>
               ))}
