@@ -81,46 +81,67 @@ const SERVICE_SCHEMA = {
   "@context": "https://schema.org",
   "@type": "Service",
   "name": "Marquage au sol Lyon",
-  "description": "Entreprise de marquage au sol à Lyon et Rhône-Alpes. Traçage parking, marquage routier, marquage industriel, traçage sportif, mise en conformité PMR.",
+  "description": "Entreprise de marquage au sol à Lyon et Rhône-Alpes depuis 2014. Traçage parking, marquage routier, marquage industriel, traçage sportif, mise en conformité PMR. 1 000+ chantiers réalisés pour Carrefour, Lidl, McDonald's, Armée de Terre.",
   "provider": {
     "@type": "LocalBusiness",
+    "@id": "https://renov-route.com/#business",
     "name": "Rénov Route",
-    "telephone": "07 86 81 96 92",
+    "image": "https://renov-route.com/assets/logos/logo.avif",
+    "url": "https://renov-route.com/",
+    "telephone": "+33786819692",
+    "priceRange": "€€",
+    "foundingDate": "2014",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "6, allée du ruisseau de Ribbes",
       "addressLocality": "Tassin-la-Demi-Lune",
       "postalCode": "69160",
+      "addressRegion": "Auvergne-Rhône-Alpes",
       "addressCountry": "FR"
     },
     "geo": {
       "@type": "GeoCoordinates",
       "latitude": "45.7640",
       "longitude": "4.8357"
-    }
+    },
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "08:00",
+      "closes": "18:00"
+    }]
   },
-  "areaServed": {
-    "@type": "City",
-    "name": "Lyon",
-    "containedInPlace": {
-      "@type": "AdministrativeArea",
-      "name": "Rhône"
-    }
-  },
+  "areaServed": [
+    { "@type": "City", "name": "Lyon" },
+    { "@type": "City", "name": "Villeurbanne" },
+    { "@type": "City", "name": "Vénissieux" },
+    { "@type": "City", "name": "Vaulx-en-Velin" },
+    { "@type": "City", "name": "Bron" },
+    { "@type": "City", "name": "Saint-Priest" },
+    { "@type": "City", "name": "Tassin-la-Demi-Lune" },
+    { "@type": "City", "name": "Écully" },
+    { "@type": "City", "name": "Caluire-et-Cuire" },
+    { "@type": "City", "name": "Rillieux-la-Pape" },
+    { "@type": "AdministrativeArea", "name": "Rhône" },
+    { "@type": "AdministrativeArea", "name": "Auvergne-Rhône-Alpes" }
+  ],
   "serviceType": [
     "Marquage au sol",
     "Marquage de parking",
     "Marquage routier",
+    "Signalisation horizontale",
     "Marquage industriel",
     "Traçage sportif",
     "Mise en conformité PMR",
-    "Résine de sol"
+    "Résine de sol",
+    "Réparation de nids de poule",
+    "Retraçage parking"
   ],
   "offers": {
     "@type": "Offer",
     "price": "0",
     "priceCurrency": "EUR",
-    "description": "Devis gratuit sous 24h"
+    "description": "Devis gratuit sous 24h, sans engagement"
   }
 }
 
@@ -189,24 +210,71 @@ export default function MarquageAuSolLyonPage() {
         </section>
 
         {/* Zone d'intervention */}
-        <section className="py-16 sm:py-20 px-4 bg-[#F8FAFC]">
+        <section className="py-20 sm:py-24 px-6 bg-[#F8FAFC]">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-2xl sm:text-3xl font-bold text-[#0F172A] mb-4 font-display">
-              Notre zone d&apos;intervention
+            <span className="inline-block text-[10px] font-black uppercase tracking-[0.25em] text-[#FACC15] mb-4">
+              Couverture géographique
+            </span>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-black italic uppercase tracking-tighter text-[#0F172A] mb-6 leading-[0.95]">
+              Marquage au sol dans tous les arrondissements de Lyon
             </h2>
-            <p className="text-slate-600 mb-8 max-w-3xl leading-relaxed">
-              Basés à <strong className="text-[#0F172A]">Tassin-la-Demi-Lune (69160)</strong>, nous intervenons dans toute l&apos;agglomération lyonnaise et la région Auvergne-Rhône-Alpes.
+            <p className="text-slate-600 mb-12 max-w-3xl leading-relaxed font-medium">
+              Basés à <strong className="text-[#0F172A]">Tassin-la-Demi-Lune (69160)</strong>, nos équipes interviennent quotidiennement à <strong className="text-[#0F172A]">Lyon intra-muros (1er au 9e arrondissement)</strong>, dans toute l&apos;agglomération du Grand Lyon et dans la région Auvergne-Rhône-Alpes. Délai moyen d&apos;intervention sur Lyon : <strong className="text-[#0F172A]">48 à 72h</strong> après validation du devis.
             </p>
-            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
               {[
-                { zone: 'Lyon et Grand Lyon', villes: 'Lyon 1er au 9e, Villeurbanne, Vénissieux, Vaulx-en-Velin, Bron, Saint-Priest' },
-                { zone: 'Ouest Lyonnais', villes: 'Tassin, Écully, Oullins, Francheville, Sainte-Foy-lès-Lyon, Craponne' },
-                { zone: 'Nord et Est', villes: 'Caluire, Rillieux, Meyzieu, Décines, Chassieu, Genas, Miribel' },
-                { zone: 'Rhône-Alpes', villes: 'Saint-Étienne, Grenoble, Valence, Vienne, Bourgoin-Jallieu, Villefranche' },
+                { zone: "Lyon Centre & Presqu'île", villes: "Lyon 1er, Lyon 2e (Perrache, Confluence), Lyon 3e (Part-Dieu), Lyon 4e (Croix-Rousse)" },
+                { zone: 'Lyon Est & Sud', villes: 'Lyon 6e (Brotteaux), Lyon 7e (Gerland), Lyon 8e (Monplaisir), Lyon 9e (Vaise)' },
+                { zone: 'Ouest & Sud Lyonnais', villes: 'Tassin, Écully, Oullins, Francheville, Sainte-Foy-lès-Lyon, Craponne, Saint-Genis-Laval' },
+                { zone: 'Est & Grand Lyon', villes: 'Villeurbanne, Vénissieux, Vaulx-en-Velin, Bron, Saint-Priest, Décines, Chassieu' },
+                { zone: 'Nord Lyonnais', villes: 'Caluire-et-Cuire, Rillieux-la-Pape, Fontaines-sur-Saône, Neuville-sur-Saône, Genay' },
+                { zone: 'Est Lyonnais étendu', villes: 'Meyzieu, Genas, Jonage, Pusignan, Colombier-Saugnieu, Saint-Laurent-de-Mure' },
+                { zone: 'Rhône & Isère', villes: 'Villefranche-sur-Saône, Vienne, Bourgoin-Jallieu, La Tour-du-Pin, Pont-de-Chéruy' },
+                { zone: 'Grand Rhône-Alpes', villes: 'Saint-Étienne, Grenoble, Valence, Annecy, Chambéry — nous consulter pour planning' },
               ].map((area, i) => (
-                <div key={i} className="p-5 rounded-xl border border-slate-200 bg-white">
-                  <h3 className="font-semibold text-[#0F172A] mb-2">{area.zone}</h3>
-                  <p className="text-slate-500 text-sm leading-relaxed">{area.villes}</p>
+                <div key={i} className="p-6 border-l-4 border-[#0F172A] bg-white hover:border-[#FACC15] transition-colors">
+                  <h3 className="font-black italic uppercase tracking-tight text-[#0F172A] mb-3 text-lg leading-tight">{area.zone}</h3>
+                  <p className="text-slate-500 text-sm leading-relaxed font-medium">{area.villes}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Pourquoi nous choisir — Trust Signals */}
+        <section className="py-20 sm:py-24 px-6 bg-[#0F172A] relative overflow-hidden">
+          <div
+            className="absolute inset-0 opacity-[0.08]"
+            style={{
+              backgroundImage:
+                'repeating-linear-gradient(45deg, #FACC15 0px, #FACC15 2px, transparent 2px, transparent 10px)',
+            }}
+          />
+          <div className="relative max-w-6xl mx-auto">
+            <span className="inline-block text-[10px] font-black uppercase tracking-[0.25em] text-[#FACC15] mb-4">
+              Pourquoi nous choisir
+            </span>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-black italic uppercase tracking-tighter text-white mb-6 leading-[0.95]">
+              Pourquoi choisir <span className="text-[#FACC15]">Rénov Route</span> pour votre marquage au sol à Lyon ?
+            </h2>
+            <p className="text-slate-300 mb-12 max-w-3xl leading-relaxed font-medium">
+              Nous ne sommes pas la plus grosse entreprise de marquage routier de Lyon, mais nous sommes celle que choisissent les plus grandes enseignes nationales pour leurs sites en Rhône-Alpes.
+            </p>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-px bg-white/10">
+              {[
+                { number: '10+', label: "années d'expérience", detail: 'Fondée en 2014 à Lyon' },
+                { number: '1 000+', label: 'chantiers réalisés', detail: 'Parkings, voiries, industriels' },
+                { number: '19', label: 'enseignes nationales', detail: "Carrefour, Lidl, McDonald's, Armée de Terre, Suez…" },
+                { number: '24h', label: 'pour votre devis', detail: 'Visite sur site gratuite, sans engagement' },
+              ].map((stat, i) => (
+                <div key={i} className="bg-[#0F172A] p-8">
+                  <div className="text-5xl sm:text-6xl font-black italic tracking-tighter text-[#FACC15] mb-3 leading-none">
+                    {stat.number}
+                  </div>
+                  <div className="text-[10px] font-black uppercase tracking-[0.25em] text-white mb-3">
+                    {stat.label}
+                  </div>
+                  <p className="text-slate-400 text-sm leading-relaxed font-medium">{stat.detail}</p>
                 </div>
               ))}
             </div>

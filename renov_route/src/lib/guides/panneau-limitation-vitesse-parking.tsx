@@ -5,9 +5,9 @@ export const meta: Guide = {
   slug: 'panneau-limitation-vitesse-parking',
   title:
     'Panneau limitation de vitesse en parking : réglementation, choix et pose',
-  metaTitle: 'Panneau limitation vitesse parking : règles et pose',
+  metaTitle: 'Vitesse en parking : 10, 20 ou 30 km/h ? Règles 2026 + panneaux',
   metaDescription:
-    'Limite de vitesse en parking : évitez l\'amende ! 10, 20 ou 30 km/h ? Panneaux, règles, conformité. Devis gratuit.',
+    'Vitesse autorisée en parking privé, public ou supermarché : que dit la loi ? Panneaux obligatoires, sanctions, prix de pose. Guide complet 2026 + devis gratuit sous 24h.',
   publishDate: '2026-03-04',
   category: 'securite-parking',
   readingTime: 10,
