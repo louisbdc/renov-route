@@ -96,8 +96,8 @@ const IDS: Record<string, string> = {
   // ── Sols & peinture garage ───────────────────────────────────────
   'peinture-sol-garage-types-application': '1704786450243-fe590b6bc9d3',
 
-  // Guides sans image (pas de match visuel pertinent) :
-  // - rampe-pour-pmr-normes-types
+  // ── Rampe PMR ────────────────────────────────────────────────────
+  'rampe-pour-pmr-normes-types': '1576864333223-db90dadfb975',
 }
 
 /**
