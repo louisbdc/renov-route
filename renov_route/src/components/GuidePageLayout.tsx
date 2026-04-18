@@ -5,6 +5,7 @@ import Link from 'next/link'
 import Layout from '@/components/Layout'
 import SafariAnimationFix from '@/components/SafariAnimationFix'
 import { MotionDiv, MotionH1, MotionP } from '@/components/MotionWrapper'
+import AuthorByline from '@/components/AuthorByline'
 import type { Guide } from '@/lib/guides'
 import { GUIDE_CATEGORIES, guides } from '@/lib/guides'
 
@@ -53,10 +54,10 @@ export default function GuidePageLayout({ guide, children }: GuidePageLayoutProp
       <SafariAnimationFix>
 
         {/* Hero */}
-        <section className="pt-24 sm:pt-28 lg:pt-32 pb-12 sm:pb-16 px-4 relative overflow-hidden">
+        <section className="pt-24 sm:pt-28 lg:pt-32 pb-16 sm:pb-20 px-4 relative overflow-hidden">
           <div className="absolute inset-0 bg-[#0a0d11]" />
           <div className="absolute inset-0 bg-[url('/assets/images/realisations/background_competence_page.avif')] bg-cover bg-center opacity-20" />
-          <div className="absolute inset-0 bg-gradient-to-b from-[#141922]/20 via-transparent to-[#141922]" />
+          <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#0a0d11]/60 to-[#0a0d11]" />
 
           <div className="relative max-w-3xl mx-auto">
             {/* Breadcrumb */}
@@ -111,6 +112,7 @@ export default function GuidePageLayout({ guide, children }: GuidePageLayoutProp
         {/* Article content */}
         <section className="pb-16 sm:pb-20 px-4 bg-[#0a0d11]">
           <div className="max-w-3xl mx-auto">
+            <AuthorByline dateModified={guide.updatedDate ?? guide.publishDate} />
             <MotionDiv
               initial={{ opacity: 0, y: 16 }}
               animate={{ opacity: 1, y: 0 }}

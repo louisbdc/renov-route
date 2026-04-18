@@ -29,22 +29,6 @@ export default function HomePageSchemas({ faqItems }: HomePageSchemasProps) {
           })
         }}
       />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "WebSite",
-            "name": "Renov Route",
-            "url": "https://renov-route.com",
-            "publisher": {
-              "@type": "Organization",
-              "name": "Renov Route",
-              "logo": "https://renov-route.com/assets/logos/logo.avif"
-            }
-          })
-        }}
-      />
     </>
   )
 }

@@ -22,32 +22,52 @@ export default function ContactPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "AboutPage",
-            "name": "Qui sommes-nous - Expert Réparation Nids de Poule et Marquage Routier",
-            "description": "Découvrez Rénov Route, expert en traçage marquage routier et réparation de nids de poule. Notre histoire, notre équipe et notre mission pour la sécurité routière.",
-            "url": "https://renov-route.com/qui-sommes-nous",
-            "mainEntity": {
-              "@type": "LocalBusiness",
-              "name": "Rénov Route",
-              "telephone": "07 86 81 96 92",
-              "email": "contact@renov-route.com",
-              "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "6, allée du ruisseau de Ribbes",
-                "addressLocality": "Tassin la demi-lune",
-                "postalCode": "69160",
-                "addressCountry": "FR"
+            '@context': 'https://schema.org',
+            '@type': 'ProfilePage',
+            '@id': 'https://renov-route.com/qui-sommes-nous/#profile',
+            name: 'Xavier de Caumont — Fondateur de Rénov Route',
+            description:
+              'Page fondateur et entreprise : Xavier de Caumont, créateur de Rénov Route en 2014, société spécialisée dans le marquage au sol et la rénovation de parking basée à Tassin-la-Demi-Lune.',
+            url: 'https://renov-route.com/qui-sommes-nous/',
+            inLanguage: 'fr-FR',
+            isPartOf: { '@id': 'https://renov-route.com/#website' },
+            about: { '@id': 'https://renov-route.com/#organization' },
+            mainEntity: {
+              '@type': 'Person',
+              '@id': 'https://renov-route.com/#xavier-de-caumont',
+              name: 'Xavier de Caumont',
+              givenName: 'Xavier',
+              familyName: 'de Caumont',
+              url: 'https://renov-route.com/qui-sommes-nous/',
+              image: 'https://renov-route.com/assets/images/xavier-de-caumont.jpg',
+              jobTitle: 'Fondateur de Rénov Route',
+              description:
+                "Fondateur de Rénov Route en 2014, Xavier de Caumont dirige une équipe spécialisée dans le marquage au sol, le traçage de parking et la réparation de chaussée. Directeur de la publication du site renov-route.com. Plus de 1 000 parkings réalisés depuis 2014.",
+              worksFor: { '@id': 'https://renov-route.com/#organization' },
+              knowsAbout: [
+                'Marquage routier',
+                'Traçage parking',
+                'Signalisation horizontale',
+                'Norme NF EN 1436',
+                'Mise en conformité PMR',
+                'Résine polyuréthane',
+                'Enrobé à froid',
+              ],
+              nationality: { '@type': 'Country', name: 'France' },
+              workLocation: {
+                '@type': 'Place',
+                name: 'Rénov Route — Tassin-la-Demi-Lune',
+                address: {
+                  '@type': 'PostalAddress',
+                  streetAddress: '6 allée du ruisseau de Ribbes',
+                  addressLocality: 'Tassin-la-Demi-Lune',
+                  postalCode: '69160',
+                  addressRegion: 'Auvergne-Rhône-Alpes',
+                  addressCountry: 'FR',
+                },
               },
-              "contactPoint": {
-                "@type": "ContactPoint",
-                "telephone": "07 86 81 96 92",
-                "contactType": "customer service",
-                "availableLanguage": "French",
-                "areaServed": "FR"
-              }
-            }
-          })
+            },
+          }),
         }}
       />
       <Layout>

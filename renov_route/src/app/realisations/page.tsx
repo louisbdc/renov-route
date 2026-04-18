@@ -3,71 +3,75 @@ import Layout from '@/components/Layout'
 import ClientRealisationsContent from '@/components/realisations/ClientRealisationsContent'
 import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import Script from 'next/script'
+import { caseStudies } from '@/lib/data/case-studies'
+
+const BASE_URL = 'https://renov-route.com'
 
 export default function RealisationsPage() {
+  const itemListElement = caseStudies.map((study, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    item: {
+      '@type': 'CreativeWork',
+      '@id': `${BASE_URL}/realisations/${study.slug}/#project`,
+      name: study.title,
+      description: study.summary,
+      url: `${BASE_URL}/realisations/${study.slug}/`,
+      image: `${BASE_URL}${study.thumbnail}`,
+      dateCreated: `${study.year}-01-01`,
+      about: study.industry,
+      keywords: study.stack.join(', '),
+      creator: { '@id': `${BASE_URL}/#organization` },
+      provider: { '@id': `${BASE_URL}/#organization` },
+      locationCreated: study.client,
+    },
+  }))
+
   return (
     <>
-      <BreadcrumbSchema items={[
-        { name: "Accueil", url: "https://renov-route.com/" },
-        { name: "Réalisations", url: "https://renov-route.com/realisations/" }
-      ]} />
+      <BreadcrumbSchema
+        items={[
+          { name: 'Accueil', url: `${BASE_URL}/` },
+          { name: 'Réalisations', url: `${BASE_URL}/realisations/` },
+        ]}
+      />
       <Script
         id="ldjson-realisations"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "WebPage",
-            "name": "Nos Réalisations - Projets Traçage Marquage Routier",
-            "description": "Découvrez nos réalisations en traçage marquage routier : projets parking, marquage routier, réparation nids de poule. Portfolio de 1000+ projets réalisés avec succès.",
-            "url": "https://renov-route.com/realisations",
-            "mainEntity": {
-              "@type": "ItemList",
-              "name": "Portfolio de réalisations Renov Route",
-              "description": "Collection de projets de traçage marquage routier réalisés par Renov Route",
-              "numberOfItems": "1000+",
-              "itemListElement": [
-                {
-                  "@type": "ListItem",
-                  "position": 1,
-                  "item": {
-                    "@type": "CreativeWork",
-                    "name": "Projets de traçage parking",
-                    "description": "Réalisations de marquage et retraçage de parkings pour diverses entreprises"
-                  }
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 2,
-                  "item": {
-                    "@type": "CreativeWork",
-                    "name": "Marquage routier",
-                    "description": "Projets de signalisation horizontale et marquage routier"
-                  }
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 3,
-                  "item": {
-                    "@type": "CreativeWork",
-                    "name": "Réparation nids de poule",
-                    "description": "Interventions de réparation de nids de poule avec enrobé résine"
-                  }
-                }
-              ]
-            }
-          })
+            '@context': 'https://schema.org',
+            '@type': 'CollectionPage',
+            '@id': `${BASE_URL}/realisations/#collection`,
+            name: 'Réalisations Rénov Route — Projets traçage, marquage et rénovation parking',
+            description:
+              'Portfolio de projets Rénov Route : parkings de grande distribution, sites industriels, écoles, collectivités. Clients : Carrefour, Lidl, Intermarché, McDonald\'s, EM Lyon, Armée de Terre et plus.',
+            url: `${BASE_URL}/realisations/`,
+            inLanguage: 'fr-FR',
+            isPartOf: { '@id': `${BASE_URL}/#website` },
+            about: { '@id': `${BASE_URL}/#organization` },
+            mainEntity: {
+              '@type': 'ItemList',
+              name: 'Portfolio Rénov Route',
+              description: '12 réalisations sélectionnées parmi plus de 1 000 projets réalisés depuis 2014',
+              numberOfItems: caseStudies.length,
+              itemListOrder: 'https://schema.org/ItemListOrderDescending',
+              itemListElement,
+            },
+          }),
         }}
       />
       <Layout>
-        <Suspense fallback={
-          <div className="min-h-screen bg-[#0a0d11] flex items-center justify-center">
-            <div className="text-center">
-              <div className="animate-spin rounded-full h-10 w-10 border-b-2 border-amber-500 mx-auto mb-4" />
-              <p className="text-gray-400">Chargement des réalisations...</p>
+        <Suspense
+          fallback={
+            <div className="min-h-screen bg-[#0a0d11] flex items-center justify-center">
+              <div className="text-center">
+                <div className="animate-spin rounded-full h-10 w-10 border-b-2 border-amber-500 mx-auto mb-4" />
+                <p className="text-gray-400">Chargement des réalisations...</p>
+              </div>
             </div>
-          </div>
-        }>
+          }
+        >
           <ClientRealisationsContent />
         </Suspense>
       </Layout>

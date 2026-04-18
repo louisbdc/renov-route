@@ -3,6 +3,7 @@ import { Geist, Geist_Mono, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import CookieConsent from "@/components/CookieConsent";
 import AnalyticsTracker from "@/components/AnalyticsTracker";
+import OrganizationSchema from "@/components/OrganizationSchema";
 import { Agentation } from "agentation";
 
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
@@ -30,10 +31,10 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: {
-    default: "Rénov Route : Marquage au Sol & Réparation Route Lyon (69)",
+    default: "Rénov Route — Marquage au Sol & Signalisation Routière Lyon (69)",
     template: "%s | Rénov Route"
   },
-  description: "Marquage au sol à Lyon : traçage parking, peinture routière, nids de poule. Devis gratuit, intervention sous 48h. 1 000+ projets depuis 2014.",
+  description: "Marquage au sol & signalisation routière à Lyon : traçage parking, peinture routière, réparation de nids de poule. Devis gratuit sous 24h, 1 000+ projets depuis 2014.",
   applicationName: 'Renov Route',
   manifest: '/manifest.json',
   appleWebApp: {
@@ -64,8 +65,8 @@ export const metadata: Metadata = {
     locale: 'fr_FR',
     url: 'https://renov-route.com/',
     siteName: 'Renov Route',
-    title: 'Rénov Route : Marquage au Sol & Réparation Route Lyon (69)',
-    description: 'Expert en marquage au sol, traçage parking et réparation de nids de poule à Lyon et Rhône-Alpes. Devis gratuit et intervention rapide.',
+    title: 'Rénov Route — Marquage au Sol & Signalisation Routière Lyon (69)',
+    description: 'Expert en marquage au sol, signalisation routière, traçage parking et réparation de nids de poule à Lyon et Rhône-Alpes. Devis gratuit sous 24h.',
     images: [
       {
         url: 'https://renov-route.com/assets/images/og-image.jpg',
@@ -77,8 +78,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Rénov Route : Marquage au Sol & Réparation Route Lyon (69)',
-    description: 'Expert en marquage au sol, traçage parking et réparation de nids de poule à Lyon et Rhône-Alpes. Devis gratuit.',
+    title: 'Rénov Route — Marquage au Sol & Signalisation Routière Lyon (69)',
+    description: 'Expert marquage au sol, signalisation routière, traçage parking et réparation de nids de poule à Lyon et Rhône-Alpes. Devis gratuit sous 24h.',
     images: ['https://renov-route.com/assets/images/twitter-image.jpg'],
   },
   alternates: {
@@ -143,6 +144,7 @@ export default function RootLayout({
           type="image/avif"
           fetchPriority="high"
         />
+        <OrganizationSchema />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} ${spaceGrotesk.variable} antialiased`}>
         {children}

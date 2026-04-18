@@ -7,19 +7,22 @@ interface StructuredDataProps {
 export default function StructuredData({ type }: StructuredDataProps) {
   const baseData = {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "Renov Route",
+    "@type": "HomeAndConstructionBusiness",
+    "@id": "https://renov-route.com/#localbusiness",
+    "parentOrganization": { "@id": "https://renov-route.com/#organization" },
+    "name": "Rénov Route",
     "description": "Expert traçage marquage routier et parking en France. Réparation nids de poule, retraçage parking, marquage routier, enrobé résine.",
     "url": "https://renov-route.com",
     "logo": "https://renov-route.com/assets/logos/logo.avif",
     "image": "https://renov-route.com/assets/images/og-image.jpg",
-    "telephone": "07 86 81 96 92",
+    "telephone": "+33786819692",
     "email": "contact@renov-route.com",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "6, allée du ruisseau de Ribbes",
-      "addressLocality": "Tassin la demi-lune",
+      "addressLocality": "Tassin-la-Demi-Lune",
       "postalCode": "69160",
+      "addressRegion": "Auvergne-Rhône-Alpes",
       "addressCountry": "FR"
     },
     "geo": {
@@ -39,6 +42,14 @@ export default function StructuredData({ type }: StructuredDataProps) {
       {
         "@type": "City",
         "name": "Lyon"
+      },
+      {
+        "@type": "City",
+        "name": "Saint-Étienne"
+      },
+      {
+        "@type": "City",
+        "name": "Grenoble"
       }
     ],
     "serviceType": [
@@ -51,6 +62,21 @@ export default function StructuredData({ type }: StructuredDataProps) {
       "Signalisation horizontale",
       "Rénovation parking"
     ],
+    "knowsAbout": [
+      "Marquage routier",
+      "Traçage parking",
+      "Signalisation horizontale",
+      "Réparation chaussée",
+      "Résine polyuréthane",
+      "Norme NF EN 1436",
+      "Mise en conformité PMR",
+      "Enrobé à froid"
+    ],
+    "hasCredential": {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "certification",
+      "name": "Certification NF EN 1436 — Signalisation horizontale"
+    },
     "openingHoursSpecification": [
       {
         "@type": "OpeningHoursSpecification",
@@ -64,17 +90,12 @@ export default function StructuredData({ type }: StructuredDataProps) {
     "currenciesAccepted": "EUR",
     "foundingDate": "2014",
     "numberOfEmployees": "5-10",
-    "sameAs": [
-      "https://www.facebook.com/renovroute",
-      "https://www.linkedin.com/company/renov-route",
-      "https://www.instagram.com/renov_route"
-    ],
     "aggregateRating": {
       "@type": "AggregateRating",
-      "ratingValue": "5",
-      "reviewCount": "2",
-      "bestRating": "5",
-      "worstRating": "1"
+      "ratingValue": 5,
+      "reviewCount": 2,
+      "bestRating": 5,
+      "worstRating": 1
     },
     "review": [
       {
@@ -85,8 +106,8 @@ export default function StructuredData({ type }: StructuredDataProps) {
         },
         "reviewRating": {
           "@type": "Rating",
-          "ratingValue": "5",
-          "bestRating": "5"
+          "ratingValue": 5,
+          "bestRating": 5
         },
         "datePublished": "2018-01-01",
         "reviewBody": "Compétence et réactivité ! je recommande !"
@@ -99,8 +120,8 @@ export default function StructuredData({ type }: StructuredDataProps) {
         },
         "reviewRating": {
           "@type": "Rating",
-          "ratingValue": "5",
-          "bestRating": "5"
+          "ratingValue": 5,
+          "bestRating": 5
         },
         "datePublished": "2018-01-01",
         "reviewBody": "Une solution simple, rapide et peu onéreuse pour reboucher des trous en formation sur les routes et parking. Un bon plan pour les copropriétés"

@@ -4,13 +4,40 @@ import Link from 'next/link'
 export const meta: Guide = {
   slug: 'mise-en-conformite-parking-pmr',
   title: 'Mise en conformité parking PMR : obligations, sanctions et coûts 2026',
-  metaTitle: 'Conformité accessibilité parking PMR 2026 : sanctions et coûts',
-  metaDescription: 'Aménagement PMR parking : conformité, sanctions jusqu\'à 45 000 EUR. Étapes, coûts, timeline. Devis gratuit.',
+  metaTitle: 'Aménagement PMR parking : sanctions jusqu\'à 45 000€ (guide 2026)',
+  metaDescription: 'Mise en conformité PMR parking existant : obligations 2026, sanctions jusqu\'à 45 000€ par infraction, étapes concrètes, budget par poste. Diagnostic gratuit sous 24h.',
   publishDate: '2026-03-04',
   updatedDate: '2026-03-31',
   category: 'normes-pmr',
   readingTime: 13,
   excerpt: 'Guide complet pour la mise en conformité PMR de votre parking : sanctions renforcées en 2026, obligations légales, 5 étapes concrètes, budget détaillé par poste.',
+  howTo: {
+    name: 'Mettre un parking aux normes PMR',
+    description:
+      "Processus en 5 étapes pour mettre un parking existant en conformité PMR : diagnostic d'accessibilité, rapport et plan d'action, travaux de mise aux normes, contrôle de conformité et maintenance.",
+    steps: [
+      {
+        name: "Diagnostic d'accessibilité",
+        text: "Un professionnel inspecte le parking sur les six critères de conformité : comptage et dimensions des places PMR, état du marquage et de la signalisation, évaluation du cheminement accessible, mesure du dévers et de l'éclairage, conformité des abaissements de trottoir.",
+      },
+      {
+        name: "Rapport de conformité et plan d'action",
+        text: "À l'issue du diagnostic, un rapport détaille chaque non-conformité : description précise de l'écart, référence réglementaire applicable, solution technique préconisée et estimation du coût. Ce rapport sert aussi à présenter le projet en assemblée générale de copropriété.",
+      },
+      {
+        name: 'Travaux de mise aux normes',
+        text: "Les interventions varient : traçage ou retraçage des places PMR aux bonnes dimensions, pictogramme fauteuil, peinture NF EN 1436, pose du panneau B6d à hauteur réglementaire, création ou reprise des abaissements de trottoir, bandes podotactiles, suppression des obstacles.",
+      },
+      {
+        name: 'Contrôle de conformité',
+        text: "Une fois les travaux terminés, un contrôle vérifie que toutes les non-conformités ont été corrigées : auto-évaluation interne, attestation du prestataire, ou contrôle par un bureau agréé (obligatoire pour les ERP de 1ère à 4e catégorie).",
+      },
+      {
+        name: 'Maintenance et suivi',
+        text: 'La conformité PMR se maintient dans la durée. Inspection annuelle du marquage au sol (retraçage tous les 3 à 5 ans), vérification semestrielle de la signalisation verticale, inspection trimestrielle du cheminement.',
+      },
+    ],
+  },
 }
 
 export default function Content() {
@@ -58,8 +85,8 @@ export default function Content() {
       </p>
       <ul>
         <li><strong>Loi du 11 février 2005</strong> : fondement de l&apos;obligation d&apos;accessibilité pour tous les ERP</li>
-        <li><strong>Arrêté du 1er août 2006</strong> : définit les prescriptions techniques (dimensions, marquage, signalisation)</li>
-        <li><strong>Arrêté du 20 avril 2017</strong> : mise à jour des exigences pour les ERP existants</li>
+        <li><strong><a href="https://www.legifrance.gouv.fr/search/all?query=arr%C3%AAt%C3%A9%20du%201er%20ao%C3%BBt%202006%20accessibilit%C3%A9" target="_blank" rel="noopener noreferrer">Arrêté du 1er août 2006</a></strong> : définit les prescriptions techniques (dimensions, marquage, signalisation)</li>
+        <li><strong><a href="https://www.legifrance.gouv.fr/search/all?query=arr%C3%AAt%C3%A9%20du%2020%20avril%202017%20accessibilit%C3%A9%20ERP" target="_blank" rel="noopener noreferrer">Arrêté du 20 avril 2017</a></strong> : mise à jour des exigences pour les ERP existants</li>
       </ul>
 
       <h3>Nombre de places PMR obligatoires</h3>
@@ -325,7 +352,7 @@ export default function Content() {
 
       <h3>Le vote en AG</h3>
       <p>
-        Les travaux de mise en conformité PMR sont votés en assemblée générale à la majorité simple (article 24 de la loi du 10 juillet 1965). Cette majorité facilitée s&apos;applique car il s&apos;agit de travaux d&apos;accessibilité imposés par la loi.
+        Les travaux de mise en conformité PMR sont votés en assemblée générale à la majorité simple (<a href="https://www.legifrance.gouv.fr/search/all?query=loi%20n%C2%B065-557%20du%2010%20juillet%201965%20copropri%C3%A9t%C3%A9" target="_blank" rel="noopener noreferrer">article 24 de la loi du 10 juillet 1965</a>). Cette majorité facilitée s&apos;applique car il s&apos;agit de travaux d&apos;accessibilité imposés par la loi.
       </p>
 
       <h3>Le financement</h3>

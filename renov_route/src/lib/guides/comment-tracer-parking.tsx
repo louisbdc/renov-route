@@ -10,6 +10,41 @@ export const meta: Guide = {
   category: 'marquage-parking',
   readingTime: 12,
   excerpt: 'Guide complet en 7 étapes pour tracer un parking : diagnostic, plan de marquage, normes PMR, préparation du sol, choix de peinture, traçage et signalisation.',
+  howTo: {
+    name: 'Tracer un parking en 7 étapes',
+    description:
+      'Méthode complète pour tracer un parking conforme : du diagnostic initial au contrôle final, en passant par le plan de marquage, les normes PMR, la préparation du sol et le choix de la peinture.',
+    steps: [
+      {
+        name: 'Analyser le terrain et définir les besoins',
+        text: 'Réaliser un relevé du terrain : surface totale, forme, état du sol, accès existants, contraintes fixes (poteaux, regards), éclairage. Définir le nombre de places nécessaires, les besoins PMR et les zones spécifiques (livraison, deux-roues, véhicules électriques).',
+      },
+      {
+        name: 'Concevoir le plan de marquage',
+        text: "Le plan de marquage est le document de référence du chantier. Il définit l'emplacement exact de chaque élément : places, voies de circulation, passages piétons, zones PMR, flèches directionnelles.",
+      },
+      {
+        name: 'Calculer le nombre de places PMR obligatoires',
+        text: "C'est une obligation légale. Le nombre de places PMR dépend du type d'établissement et de la capacité totale du parking.",
+      },
+      {
+        name: 'Préparer le support',
+        text: "La préparation du sol est l'étape la plus négligée et la plus déterminante pour la durée de vie du marquage : nettoyage, séchage, éventuelle réparation des nids de poule.",
+      },
+      {
+        name: 'Choisir la bonne peinture',
+        text: "Le choix de la peinture (acrylique, thermoplastique ou résine) influence directement la durée de vie et le coût total du marquage.",
+      },
+      {
+        name: 'Réaliser le traçage',
+        text: "C'est l'étape visible. La qualité du résultat dépend du matériel (machine airless), de la méthode d'application et des conditions météorologiques (température, humidité).",
+      },
+      {
+        name: 'Installer la signalisation complémentaire',
+        text: "Un parking bien tracé ne se limite pas aux lignes au sol. La signalisation verticale (panneaux, flèches, limitation de vitesse) complète le dispositif.",
+      },
+    ],
+  },
 }
 
 export default function Content() {

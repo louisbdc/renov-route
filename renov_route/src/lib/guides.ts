@@ -1,3 +1,15 @@
+export interface GuideHowToStep {
+  name: string
+  text: string
+}
+
+export interface GuideHowTo {
+  name: string
+  description: string
+  totalTime?: string
+  steps: GuideHowToStep[]
+}
+
 export interface Guide {
   slug: string
   title: string
@@ -8,6 +20,7 @@ export interface Guide {
   category: keyof typeof GUIDE_CATEGORIES
   readingTime: number
   excerpt: string
+  howTo?: GuideHowTo
 }
 
 export const GUIDE_CATEGORIES = {

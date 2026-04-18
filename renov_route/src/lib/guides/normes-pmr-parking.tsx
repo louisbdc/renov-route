@@ -17,8 +17,7 @@ export default function Content() {
     <>
       <p>
         Un contrôle d&apos;accessibilité dans votre parking pourrait vous coûter 45 000 €
-        d&apos;amende. Ce n&apos;est pas une hypothèse : l&apos;article L. 152-4 du Code de
-        la construction prévoit cette sanction pour tout ERP (Établissement Recevant du Public)
+        d&apos;amende. Ce n&apos;est pas une hypothèse : <a href="https://www.legifrance.gouv.fr/search/code?query=L.%20152-4%20CCH" target="_blank" rel="noopener noreferrer">l&apos;article L. 152-4 du Code de la construction</a> prévoit cette sanction pour tout ERP (Établissement Recevant du Public)
         dont le parking ne respecte pas les <strong>normes PMR</strong> (Personne à Mobilité Réduite).
       </p>
       <p>
@@ -91,8 +90,7 @@ export default function Content() {
 
       <h2>Dimensions d&apos;une place PMR : les mesures à respecter</h2>
       <p>
-        Les dimensions d&apos;une place PMR sont définies par l&apos;arrêté du 20 avril 2017
-        relatif à l&apos;accessibilité des ERP. Elles sont nettement plus grandes qu&apos;une
+        Les dimensions d&apos;une place PMR sont définies par <a href="https://www.legifrance.gouv.fr/search/all?query=arr%C3%AAt%C3%A9%20du%2020%20avril%202017%20accessibilit%C3%A9%20ERP" target="_blank" rel="noopener noreferrer">l&apos;arrêté du 20 avril 2017</a> relatif à l&apos;accessibilité des ERP. Elles sont nettement plus grandes qu&apos;une
         place standard pour permettre le transfert depuis un fauteuil roulant.
       </p>
 
@@ -290,7 +288,7 @@ export default function Content() {
 
       <h3>Amendes</h3>
       <ul>
-        <li><strong>Personne morale :</strong> jusqu&apos;à 225 000 € d&apos;amende (article L. 152-4 du CCH)</li>
+        <li><strong>Personne morale :</strong> jusqu&apos;à 225 000 € d&apos;amende (<a href="https://www.legifrance.gouv.fr/search/code?query=L.%20152-4%20CCH" target="_blank" rel="noopener noreferrer">article L. 152-4 du CCH</a>)</li>
         <li><strong>Personne physique :</strong> jusqu&apos;à 45 000 € d&apos;amende</li>
         <li><strong>Récidive :</strong> les peines peuvent être doublées, avec une peine d&apos;emprisonnement de 6 mois</li>
       </ul>
@@ -350,7 +348,7 @@ export default function Content() {
       <h3>Les dimensions PMR changent-elles en 2026 ?</h3>
       <p>
         Les dimensions réglementaires (3,30 m x 5,00 m) n&apos;ont pas changé depuis
-        l&apos;arrêté du 20 avril 2017. Aucune modification n&apos;est prévue en 2026.
+        <a href="https://www.legifrance.gouv.fr/search/all?query=arr%C3%AAt%C3%A9%20du%2020%20avril%202017%20accessibilit%C3%A9%20ERP" target="_blank" rel="noopener noreferrer"> l&apos;arrêté du 20 avril 2017</a>. Aucune modification n&apos;est prévue en 2026.
         Ce qui évolue, c&apos;est le niveau d&apos;exigence des contrôles : les commissions
         d&apos;accessibilité sont de plus en plus rigoureuses.
       </p>

@@ -10,6 +10,37 @@ export const meta: Guide = {
   category: 'nids-de-poule',
   readingTime: 8,
   excerpt: 'Quand la réparation DIY d\'un nid de poule fonctionne, quand elle est contre-productive, et comment faire si vous décidez de la tenter.',
+  howTo: {
+    name: 'Réparer un petit nid de poule soi-même',
+    description:
+      "Méthode de réparation DIY d'un petit nid de poule (moins de 5 cm de profondeur) à l'enrobé à froid : nettoyage, séchage, émulsion de collage, remplissage par couches, compactage.",
+    steps: [
+      {
+        name: 'Nettoyer le trou',
+        text: 'Retirer tous les débris, graviers, terre et végétation. Brosser les bords avec une brosse métallique pour obtenir une surface propre.',
+      },
+      {
+        name: 'Sécher le trou',
+        text: "Le trou doit être complètement sec. Reporter l'intervention s'il a plu dans les 24 dernières heures : l'eau empêche l'adhérence de l'enrobé.",
+      },
+      {
+        name: "Appliquer l'émulsion de collage",
+        text: "Badigeonner le fond et les bords du trou avec une émulsion de collage. Sans elle, le risque de décollement augmente de 50%.",
+      },
+      {
+        name: 'Remplir par couches',
+        text: "Verser l'enrobé à froid en couches de 3 à 4 cm maximum. Chaque couche doit être compactée avant d'ajouter la suivante.",
+      },
+      {
+        name: 'Compacter',
+        text: "Utiliser une dame de compactage manuelle ou une plaque vibrante. L'enrobé doit dépasser de 1 à 2 cm au-dessus du niveau du sol (il se tassera sous le trafic).",
+      },
+      {
+        name: 'Laisser durcir',
+        text: 'Circulation légère possible après 1 heure. Trafic normal possible après 24 heures.',
+      },
+    ],
+  },
 }
 
 export default function Content() {

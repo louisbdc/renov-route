@@ -10,6 +10,37 @@ export const meta: Guide = {
   category: 'marquage-parking',
   readingTime: 8,
   excerpt: 'Les 6 étapes de préparation d\'un sol béton avant application de résine époxy : diagnostic, nettoyage, grenaillage, réparation, primaire et contrôle.',
+  howTo: {
+    name: 'Préparer un sol béton avant application de résine époxy',
+    description:
+      "Procédure en 6 étapes pour préparer un sol avant résine époxy : diagnostic, nettoyage, grenaillage, réparation des défauts, application du primaire et contrôle avant finition.",
+    steps: [
+      {
+        name: 'Diagnostic du support',
+        text: "Évaluer le sol sur 4 critères : test d'humidité (bombe carbure ou hygromètre, seuil 4,5% pour époxy), test de dureté (résistance minimum 25 MPa), test d'adhérence (pull-off test, minimum 1,5 MPa) et inspection visuelle (fissures, joints, contaminants, laitance).",
+      },
+      {
+        name: 'Nettoyage et décontamination',
+        text: "Éliminer tous les contaminants : dégraissage chimique puis rinçage haute pression pour huiles et graisses, décapage mécanique ou chimique pour peinture existante, ponçage pour la laitance du béton neuf, aspiration industrielle des poussières après chaque opération mécanique.",
+      },
+      {
+        name: 'Grenaillage ou ponçage',
+        text: "Grenaillage (méthode préférée) : projection de billes d'acier qui créent un profil rugueux CSP 3-5 (0,5-1,5 mm de profondeur) et retirent la couche superficielle. Alternative : ponçage diamant pour petites surfaces. Vérifier avec le test de la goutte d'eau (absorption en moins de 20 secondes).",
+      },
+      {
+        name: 'Réparation des défauts',
+        text: 'Fissures passives : élargir en V, aspirer, mortier époxy, durcissement 24h, ponçage. Fissures actives : élargir, fond de joint, mastic polyuréthane souple (48h). Trous et éclats : mortier époxy autolissant, épaisseur maximale 30 mm par couche.',
+      },
+      {
+        name: 'Application du primaire',
+        text: "Appliquer le primaire d'accrochage dans les 4 heures suivant le grenaillage : primaire époxy classique pour supports secs (< 4,5% d'humidité), primaire anti-humidité pour supports humides ou parkings souterrains, primaire de consolidation pour bétons poreux ou friables.",
+      },
+      {
+        name: 'Contrôle avant application de la résine',
+        text: "Vérifier la température (sol entre 10 et 30°C, 3°C au-dessus du point de rosée), re-mesurer l'humidité du support si plus de 24h depuis le grenaillage. Si les conditions ne sont pas réunies, reporter l'application de la résine.",
+      },
+    ],
+  },
 }
 
 export default function Content() {
