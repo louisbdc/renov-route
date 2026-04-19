@@ -40,6 +40,13 @@ const PARTNERS = [
   { name: 'Hexatrans', logo: '/assets/images/references/logo-hexatrans.webp' },
   { name: 'Galyo', logo: '/assets/images/references/galyo.avif' },
   { name: 'Carglass', logo: '/assets/images/references/Carglass_logo.png' },
+  { name: 'Feu Vert', logo: '/assets/images/references/feu_vert_logo.png' },
+  { name: 'Amcor', logo: '/assets/images/references/amcor_logo.png' },
+  { name: 'Aubert & Duval', logo: '/assets/images/references/aubert_duval_logo.jpg' },
+  { name: 'SPIE', logo: '/assets/images/references/spie_logo.png' },
+  { name: 'ETTP', logo: '/assets/images/references/ettp_logo.png' },
+  { name: 'Starterre', logo: '/assets/images/references/starterre_logo.svg' },
+  { name: 'EM Lyon', logo: '/assets/images/references/em_lyon_logo.png' },
 ];
 
 const SERVICES = [

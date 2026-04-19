@@ -126,6 +126,48 @@ export const partnerMappings: PartnerMapping[] = [
     logo: '/assets/images/references/Carglass_logo.png',
     isImage: true,
     relatedProjects: [] // Aucun projet Carglass dans les données actuelles
+  },
+  {
+    name: 'Feu Vert',
+    logo: '/assets/images/references/feu_vert_logo.png',
+    isImage: true,
+    relatedProjects: []
+  },
+  {
+    name: 'Amcor',
+    logo: '/assets/images/references/amcor_logo.png',
+    isImage: true,
+    relatedProjects: []
+  },
+  {
+    name: 'Aubert & Duval',
+    logo: '/assets/images/references/aubert_duval_logo.jpg',
+    isImage: true,
+    relatedProjects: []
+  },
+  {
+    name: 'SPIE',
+    logo: '/assets/images/references/spie_logo.png',
+    isImage: true,
+    relatedProjects: []
+  },
+  {
+    name: 'ETTP',
+    logo: '/assets/images/references/ettp_logo.png',
+    isImage: true,
+    relatedProjects: []
+  },
+  {
+    name: 'Starterre',
+    logo: '/assets/images/references/starterre_logo.svg',
+    isImage: true,
+    relatedProjects: []
+  },
+  {
+    name: 'EM Lyon',
+    logo: '/assets/images/references/em_lyon_logo.png',
+    isImage: true,
+    relatedProjects: ['em-lyon-parking-saint-louis']
   }
 ];
 
