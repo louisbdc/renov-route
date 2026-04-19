@@ -152,7 +152,7 @@ export default function FAQPage() {
           </section>
 
           {/* FAQ Section */}
-          <section className="py-20 sm:py-28 px-6 bg-white">
+          <section className="py-20 sm:py-28 px-6 bg-[#F0F4F8]">
             <div className="max-w-3xl mx-auto">
               <MotionDiv
                 initial={{ opacity: 0, y: 20 }}
