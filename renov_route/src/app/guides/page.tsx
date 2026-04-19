@@ -106,7 +106,7 @@ export default function GuidesPage() {
         </section>
 
         {/* Filters + Grid */}
-        <section className="py-20 sm:py-24 px-6 bg-[#D1DCE5]">
+        <section className="py-20 sm:py-24 px-6 bg-[#F0F4F8]">
           <div className="max-w-7xl mx-auto">
             <MotionDiv
               initial={{ opacity: 0, y: 8 }}

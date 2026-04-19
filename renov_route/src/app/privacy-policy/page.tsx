@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 export default function PrivacyPolicyPage() {
   return (
     <Layout>
-      <div className="pt-32 pb-20 px-6 bg-[#D1DCE5] min-h-screen">
+      <div className="pt-32 pb-20 px-6 bg-[#F0F4F8] min-h-screen">
         <article className="max-w-3xl mx-auto">
           <div className="mb-16">
             <nav className="flex items-center flex-wrap gap-x-3 gap-y-1 text-[10px] font-bold uppercase tracking-[0.2em] text-slate-400 mb-8">

@@ -113,7 +113,7 @@ export default function DevisPage() {
       />
       <Layout>
         <SafariAnimationFix>
-          <section className="pt-24 sm:pt-32 pb-20 px-4 bg-[#D1DCE5]">
+          <section className="pt-24 sm:pt-32 pb-20 px-4 bg-[#F0F4F8]">
             <div className="max-w-6xl mx-auto">
               {isSubmitted ? (
                 <div className="max-w-2xl mx-auto text-center py-16 border border-slate-200 bg-white rounded-2xl px-8">

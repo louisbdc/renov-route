@@ -148,7 +148,7 @@ export default function Home() {
 
       <SafariAnimationFix>
         {/* Stats Section */}
-        <section className="bg-[#D1DCE5] border-b border-slate-100 py-16 sm:py-20 px-6">
+        <section className="bg-[#F0F4F8] border-b border-slate-100 py-16 sm:py-20 px-6">
           <div className="max-w-7xl mx-auto">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-16">
               {[
@@ -250,7 +250,7 @@ export default function Home() {
         />
 
         {/* Services Section */}
-        <section id="services" className="py-20 sm:py-28 px-6 bg-[#D1DCE5]">
+        <section id="services" className="py-20 sm:py-28 px-6 bg-[#F0F4F8]">
           <div className="max-w-7xl mx-auto">
             <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-8 mb-16">
               <div className="max-w-2xl">
@@ -366,7 +366,7 @@ export default function Home() {
         </section>
 
         {/* Testimonials Section */}
-        <section id="temoignages" className="py-20 sm:py-28 px-6 bg-[#D1DCE5] cv-auto">
+        <section id="temoignages" className="py-20 sm:py-28 px-6 bg-[#F0F4F8] cv-auto">
           <div className="max-w-7xl mx-auto">
             <MotionDiv
               className="max-w-2xl mb-16"
@@ -504,7 +504,7 @@ export default function Home() {
         </section>
 
         {/* Contact Section */}
-        <section id="contact" className="py-20 sm:py-28 px-6 bg-[#D1DCE5] cv-auto">
+        <section id="contact" className="py-20 sm:py-28 px-6 bg-[#F0F4F8] cv-auto">
           <div className="max-w-7xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
               <div>
