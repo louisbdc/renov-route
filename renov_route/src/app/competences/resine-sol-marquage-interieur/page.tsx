@@ -106,7 +106,7 @@ export default function ResineSolMarquageInterieurPage() {
           alt
         />
         {/* Palette de couleurs résine époxy */}
-        <section className="py-16 sm:py-20 px-4 bg-[#F0F4F8]">
+        <section className="py-16 sm:py-20 px-4 bg-[#D1DCE5]">
           <div className="max-w-6xl mx-auto">
             <div className="mb-10">
               <h2 className="text-2xl sm:text-3xl font-bold text-[#0F172A] mb-3 font-display">Palette de couleurs résine</h2>

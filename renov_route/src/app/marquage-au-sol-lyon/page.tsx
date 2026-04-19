@@ -183,7 +183,7 @@ export default function MarquageAuSolLyonPage() {
         />
 
         {/* Links to detailed service pages */}
-        <section className="py-16 sm:py-20 px-4 bg-[#F0F4F8]">
+        <section className="py-16 sm:py-20 px-4 bg-[#D1DCE5]">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-2xl sm:text-3xl font-bold text-[#0F172A] mb-4 font-display">
               En savoir plus sur nos prestations
@@ -289,7 +289,7 @@ export default function MarquageAuSolLyonPage() {
         />
 
         {/* Guides & resources */}
-        <section className="py-16 sm:py-20 px-4 bg-[#F0F4F8]">
+        <section className="py-16 sm:py-20 px-4 bg-[#D1DCE5]">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-2xl sm:text-3xl font-bold text-[#0F172A] mb-4 font-display">
               Guides pratiques

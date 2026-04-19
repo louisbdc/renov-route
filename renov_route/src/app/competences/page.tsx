@@ -132,7 +132,7 @@ export default function CompetencesPage() {
           </section>
 
           {/* Description */}
-          <section className="py-20 sm:py-24 px-6 bg-[#F0F4F8]">
+          <section className="py-20 sm:py-24 px-6 bg-[#D1DCE5]">
             <div className="max-w-4xl mx-auto">
               <MotionDiv
                 initial={{ opacity: 0, y: 16 }}
@@ -193,7 +193,7 @@ export default function CompetencesPage() {
           </section>
 
           {/* Guides associés */}
-          <section className="py-20 sm:py-28 px-6 bg-[#F0F4F8] border-t border-slate-200">
+          <section className="py-20 sm:py-28 px-6 bg-[#D1DCE5] border-t border-slate-200">
             <div className="max-w-7xl mx-auto">
               <div className="mb-12 max-w-2xl">
                 <span className="inline-block text-[11px] font-black uppercase tracking-[0.25em] text-[#FACC15] mb-4">

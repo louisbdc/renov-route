@@ -64,7 +64,7 @@ export default function RealisationsPage() {
       <Layout>
         <Suspense
           fallback={
-            <div className="min-h-screen bg-[#F0F4F8] flex items-center justify-center">
+            <div className="min-h-screen bg-[#D1DCE5] flex items-center justify-center">
               <div className="text-center">
                 <div className="animate-spin rounded-full h-10 w-10 border-2 border-[#0F172A] border-t-transparent mx-auto mb-4" />
                 <p className="text-slate-500 text-[10px] font-black uppercase tracking-[0.2em]">Chargement des réalisations</p>
