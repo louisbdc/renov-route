@@ -39,6 +39,7 @@ const PARTNERS = [
   { name: 'La Halle', logo: '/assets/images/references/la-halle.webp' },
   { name: 'Hexatrans', logo: '/assets/images/references/logo-hexatrans.webp' },
   { name: 'Galyo', logo: '/assets/images/references/galyo.avif' },
+  { name: 'Carglass', logo: '/assets/images/references/Carglass_logo.png' },
 ];
 
 const SERVICES = [

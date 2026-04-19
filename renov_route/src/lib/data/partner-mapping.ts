@@ -115,11 +115,17 @@ export const partnerMappings: PartnerMapping[] = [
     isImage: true,
     relatedProjects: [] // Aucun projet La Poste dans les données actuelles
   },
-  { 
-    name: 'Burger King', 
-    logo: '/assets/images/references/burger_king_logo.png', 
+  {
+    name: 'Burger King',
+    logo: '/assets/images/references/burger_king_logo.png',
     isImage: true,
     relatedProjects: [] // Aucun projet Burger King dans les données actuelles
+  },
+  {
+    name: 'Carglass',
+    logo: '/assets/images/references/Carglass_logo.png',
+    isImage: true,
+    relatedProjects: [] // Aucun projet Carglass dans les données actuelles
   }
 ];
 
