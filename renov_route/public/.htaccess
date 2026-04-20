@@ -114,6 +114,10 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ /index.html [L]
 
+# Force UTF-8 encoding for text-based files
+AddDefaultCharset UTF-8
+AddCharset UTF-8 .txt .html .htm .css .js .xml .json .svg
+
 # Security headers
 Header always set X-Frame-Options "DENY"
 Header always set X-Content-Type-Options "nosniff"
