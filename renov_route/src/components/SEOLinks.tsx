@@ -27,8 +27,11 @@ export default function SEOLinks({ className = "" }: SEOLinksProps) {
           <p className="font-semibold mb-3">Zones d&apos;intervention</p>
           <ul className="space-y-2">
             <li><Link href="/marquage-au-sol-lyon">Marquage au sol Lyon</Link></li>
-            <li className="text-slate-500">Villeurbanne, Vénissieux, Vaulx-en-Velin</li>
-            <li className="text-slate-500">Rhône-Alpes & toute la France</li>
+            <li><Link href="/marquage-au-sol-villeurbanne">Marquage Villeurbanne</Link></li>
+            <li><Link href="/marquage-au-sol-venissieux">Marquage Vénissieux</Link></li>
+            <li><Link href="/marquage-au-sol-ecully">Marquage Écully</Link></li>
+            <li><Link href="/marquage-au-sol-tassin-la-demi-lune">Marquage Tassin-la-Demi-Lune</Link></li>
+            <li><Link href="/marquage-au-sol-saint-etienne">Marquage Saint-Étienne</Link></li>
           </ul>
         </div>
 

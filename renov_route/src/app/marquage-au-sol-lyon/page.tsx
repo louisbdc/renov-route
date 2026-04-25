@@ -9,6 +9,7 @@ import ServicePageLayout, {
 } from '@/components/ServicePageLayout'
 import ServiceProcessTimeline from '@/components/ServiceProcessTimeline'
 import Link from 'next/link'
+import { CITIES } from '@/lib/data/cities'
 import {
   TbMapPin,
   TbParking,
@@ -209,34 +210,100 @@ export default function MarquageAuSolLyonPage() {
           </div>
         </section>
 
-        {/* Zone d'intervention */}
+        {/* Carte + ancienneté visible */}
+        <section className="py-16 sm:py-20 px-6 bg-white">
+          <div className="max-w-7xl mx-auto">
+            <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+              <div>
+                <span className="inline-block text-[11px] font-black uppercase tracking-[0.25em] text-[#FACC15] mb-4">
+                  Implantation locale
+                </span>
+                <h2 className="text-3xl sm:text-4xl md:text-5xl font-black italic uppercase tracking-tighter text-[#0F172A] mb-6 leading-[0.95]">
+                  12 ans d'expertise, 1 000+ chantiers
+                </h2>
+                <p className="text-slate-600 mb-8 leading-relaxed font-medium text-base sm:text-lg">
+                  Implantés à <strong className="text-[#0F172A]">Tassin-la-Demi-Lune depuis 2014</strong>, nous connaissons le terrain lyonnais comme personne. Notre équipe intervient dans la journée sur l'agglomération et dans la semaine partout en Auvergne-Rhône-Alpes.
+                </p>
+                <div className="grid grid-cols-3 gap-6 pt-6 border-t border-slate-200">
+                  <div>
+                    <div className="text-4xl font-black italic text-[#FACC15] tabular-nums mb-1">12</div>
+                    <div className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-500">Années d'expérience</div>
+                  </div>
+                  <div>
+                    <div className="text-4xl font-black italic text-[#FACC15] tabular-nums mb-1">1 000+</div>
+                    <div className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-500">Chantiers réalisés</div>
+                  </div>
+                  <div>
+                    <div className="text-4xl font-black italic text-[#FACC15] tabular-nums mb-1">24h</div>
+                    <div className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-500">Devis garanti</div>
+                  </div>
+                </div>
+              </div>
+              <div className="aspect-[4/3] w-full overflow-hidden border border-slate-200">
+                <iframe
+                  src="https://www.google.com/maps?q=Renov+Route+Tassin-la-Demi-Lune&z=11&output=embed"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Renov Route - Tassin-la-Demi-Lune"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Zone d'intervention — pages locales par commune */}
         <section className="py-20 sm:py-24 px-6 bg-[#F8FAFC]">
-          <div className="max-w-6xl mx-auto">
+          <div className="max-w-7xl mx-auto">
             <span className="inline-block text-[10px] font-black uppercase tracking-[0.25em] text-[#FACC15] mb-4">
               Couverture géographique
             </span>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-black italic uppercase tracking-tighter text-[#0F172A] mb-6 leading-[0.95]">
-              Marquage au sol dans tous les arrondissements de Lyon
+              Marquage au sol par commune
             </h2>
             <p className="text-slate-600 mb-12 max-w-3xl leading-relaxed font-medium">
-              Basés à <strong className="text-[#0F172A]">Tassin-la-Demi-Lune (69160)</strong>, nos équipes interviennent quotidiennement à <strong className="text-[#0F172A]">Lyon intra-muros (1er au 9e arrondissement)</strong>, dans toute l&apos;agglomération du Grand Lyon et dans la région Auvergne-Rhône-Alpes. Délai moyen d&apos;intervention sur Lyon : <strong className="text-[#0F172A]">48 à 72h</strong> après validation du devis.
+              Basés à <strong className="text-[#0F172A]">Tassin-la-Demi-Lune (69160)</strong>, nos équipes interviennent dans <strong className="text-[#0F172A]">tous les arrondissements de Lyon</strong>, dans toutes les communes de la Métropole et plus largement en Auvergne-Rhône-Alpes. Délai moyen d&apos;intervention sur Lyon : <strong className="text-[#0F172A]">48 à 72h</strong>.
             </p>
-            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-              {[
-                { zone: "Lyon Centre & Presqu'île", villes: "Lyon 1er, Lyon 2e (Perrache, Confluence), Lyon 3e (Part-Dieu), Lyon 4e (Croix-Rousse)" },
-                { zone: 'Lyon Est & Sud', villes: 'Lyon 6e (Brotteaux), Lyon 7e (Gerland), Lyon 8e (Monplaisir), Lyon 9e (Vaise)' },
-                { zone: 'Ouest & Sud Lyonnais', villes: 'Tassin, Écully, Oullins, Francheville, Sainte-Foy-lès-Lyon, Craponne, Saint-Genis-Laval' },
-                { zone: 'Est & Grand Lyon', villes: 'Villeurbanne, Vénissieux, Vaulx-en-Velin, Bron, Saint-Priest, Décines, Chassieu' },
-                { zone: 'Nord Lyonnais', villes: 'Caluire-et-Cuire, Rillieux-la-Pape, Fontaines-sur-Saône, Neuville-sur-Saône, Genay' },
-                { zone: 'Est Lyonnais étendu', villes: 'Meyzieu, Genas, Jonage, Pusignan, Colombier-Saugnieu, Saint-Laurent-de-Mure' },
-                { zone: 'Rhône & Isère', villes: 'Villefranche-sur-Saône, Vienne, Bourgoin-Jallieu, La Tour-du-Pin, Pont-de-Chéruy' },
-                { zone: 'Grand Rhône-Alpes', villes: 'Saint-Étienne, Grenoble, Valence, Annecy, Chambéry — nous consulter pour planning' },
-              ].map((area, i) => (
-                <div key={i} className="p-6 border-l-4 border-[#0F172A] bg-white hover:border-[#FACC15] transition-colors">
-                  <h3 className="font-black italic uppercase tracking-tight text-[#0F172A] mb-3 text-lg leading-tight">{area.zone}</h3>
-                  <p className="text-slate-500 text-sm leading-relaxed font-medium">{area.villes}</p>
-                </div>
-              ))}
+
+            {/* Lyon arrondissements */}
+            <div className="mb-12">
+              <h3 className="text-[11px] font-black uppercase tracking-[0.25em] text-slate-400 mb-5 pb-3 border-b border-slate-200">Arrondissements de Lyon</h3>
+              <div className="grid gap-2 grid-cols-3 sm:grid-cols-5 lg:grid-cols-9">
+                {CITIES.filter(c => c.isArrondissement).map(c => (
+                  <Link key={c.slug} href={`/marquage-au-sol-${c.slug}/`} className="text-center px-3 py-3 bg-white border border-slate-200 hover:border-[#FACC15] hover:bg-[#FACC15]/5 transition-colors group">
+                    <div className="text-sm font-black uppercase italic text-[#0F172A] group-hover:text-[#FACC15] tracking-tight">{c.name.replace('Lyon ', '')}</div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+
+            {/* Métropole */}
+            <div className="mb-12">
+              <h3 className="text-[11px] font-black uppercase tracking-[0.25em] text-slate-400 mb-5 pb-3 border-b border-slate-200">Métropole de Lyon</h3>
+              <div className="grid gap-2 grid-cols-2 sm:grid-cols-3 lg:grid-cols-4">
+                {CITIES.filter(c => !c.isArrondissement && !c.isRhoneAlpes).map(c => (
+                  <Link key={c.slug} href={`/marquage-au-sol-${c.slug}/`} className="flex items-center justify-between px-4 py-3 bg-white border border-slate-200 hover:border-[#FACC15] hover:bg-[#FACC15]/5 transition-colors group">
+                    <span className="text-sm font-bold text-[#0F172A] group-hover:text-[#FACC15] truncate">{c.name}</span>
+                    <span className="text-[9px] font-bold text-slate-400 ml-2 shrink-0">{c.postalCode}</span>
+                  </Link>
+                ))}
+              </div>
+            </div>
+
+            {/* Rhône-Alpes */}
+            <div>
+              <h3 className="text-[11px] font-black uppercase tracking-[0.25em] text-slate-400 mb-5 pb-3 border-b border-slate-200">Auvergne-Rhône-Alpes étendu</h3>
+              <div className="grid gap-2 grid-cols-2 sm:grid-cols-3 lg:grid-cols-5">
+                {CITIES.filter(c => c.isRhoneAlpes).map(c => (
+                  <Link key={c.slug} href={`/marquage-au-sol-${c.slug}/`} className="flex items-center justify-between px-4 py-3 bg-white border border-slate-200 hover:border-[#FACC15] hover:bg-[#FACC15]/5 transition-colors group">
+                    <span className="text-sm font-bold text-[#0F172A] group-hover:text-[#FACC15] truncate">{c.name}</span>
+                    <span className="text-[9px] font-bold text-slate-400 ml-2 shrink-0">{c.department.code}</span>
+                  </Link>
+                ))}
+              </div>
             </div>
           </div>
         </section>

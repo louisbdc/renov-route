@@ -3,26 +3,29 @@ import Link from 'next/link'
 
 export const meta: Guide = {
   slug: 'renovation-parking-copropriete',
-  title: 'Rénovation parking copropriété : étapes, vote AG et coûts',
-  metaTitle: 'Rénovation parking copropriété : guide complet 2026',
-  metaDescription: "Étapes, vote en AG, budget et délais pour rénover le parking de votre copropriété. Guide pratique par Rénov'Route.",
+  title: 'Marquage au sol parking copropriété : rénovation, vote AG et coûts 2026',
+  metaTitle: 'Marquage au sol parking copropriété : guide complet 2026',
+  metaDescription: "Marquage au sol et rénovation parking copropriété : étapes, vote en AG, budget par poste, délais. Guide complet 2026 par Renov Route, expert depuis 2014.",
   publishDate: '2026-03-04',
+  updatedDate: '2026-04-25',
   category: 'renovation-parking',
-  readingTime: 8,
-  excerpt: 'Guide complet pour rénover le parking de votre copropriété : diagnostic, vote en assemblée générale, choix des travaux et estimation des coûts.',
+  readingTime: 9,
+  excerpt: 'Guide complet pour rénover le parking et le marquage au sol de votre copropriété : diagnostic, vote en assemblée générale, choix des travaux et estimation des coûts 2026.',
 }
 
 export default function Content() {
   return (
     <>
       <p>
-        La rénovation d&apos;un parking de copropriété est un projet qui concerne l&apos;ensemble des
-        copropriétaires. Entre le diagnostic initial, le vote en assemblée générale et la réalisation
-        des travaux, chaque étape demande une préparation rigoureuse. Voici notre guide pour mener
-        à bien ce type de projet.
+        <strong>Le marquage au sol d&apos;un parking de copropriété</strong> est l&apos;un des
+        chantiers les plus fréquents et les plus structurants pour un syndic. Entre le diagnostic
+        initial, le vote en assemblée générale et la réalisation des travaux, chaque étape demande
+        une préparation rigoureuse. Ce guide complet 2026 couvre tout le processus de rénovation
+        d&apos;un parking de copropriété : marquage au sol, signalisation, mise aux normes PMR,
+        budget et financement.
       </p>
 
-      <h2>Pourquoi rénover le parking de votre copropriété ?</h2>
+      <h2>Pourquoi refaire le marquage au sol et rénover le parking de votre copropriété ?</h2>
       <p>
         Un parking dégradé présente des risques pour les usagers : marquage au sol effacé, nids de
         poule, signalisation absente. Au-delà de la sécurité, un parking en bon état valorise

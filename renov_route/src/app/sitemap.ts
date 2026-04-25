@@ -1,6 +1,7 @@
 import { MetadataRoute } from 'next'
 import { guides } from '@/lib/guides'
 import { caseStudiesData } from '@/lib/data/case-studies-data'
+import { CITIES } from '@/lib/data/cities'
 
 export const dynamic = 'force-static'
 export const revalidate = false
@@ -160,6 +161,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly' as const,
       priority: 0.6,
       images: cs.images.map(img => `${baseUrl}${img}`),
+    })),
+    ...CITIES.map(c => ({
+      url: `${baseUrl}/marquage-au-sol-${c.slug}/`,
+      lastModified: currentDate,
+      changeFrequency: 'monthly' as const,
+      priority: c.distanceFromTassin <= 10 ? 0.85 : 0.7,
+      images: [ogImage.url],
     })),
   ]
 }
