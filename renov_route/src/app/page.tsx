@@ -191,7 +191,7 @@ export default function Home() {
           <div className="max-w-7xl mx-auto">
             <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-8 mb-16">
               <div className="max-w-2xl">
-                <span className="inline-block text-[11px] font-black uppercase tracking-[0.25em] text-[#FACC15] mb-6">
+                <span className="inline-block text-lg font-black uppercase tracking-[0.25em] text-[#FACC15] mb-6">
                   Processus
                 </span>
                 <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black italic uppercase tracking-tighter leading-[0.95] text-[#0F172A] mb-6">
@@ -254,7 +254,7 @@ export default function Home() {
           <div className="max-w-7xl mx-auto">
             <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-8 mb-16">
               <div className="max-w-2xl">
-                <span className="inline-block text-[11px] font-black uppercase tracking-[0.25em] text-[#FACC15] mb-6">
+                <span className="inline-block text-lg font-black uppercase tracking-[0.25em] text-[#FACC15] mb-6">
                   Compétences
                 </span>
                 <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black italic uppercase tracking-tighter leading-[0.95] text-[#0F172A] mb-6">
@@ -320,7 +320,7 @@ export default function Home() {
               viewport={{ once: true }}
               transition={{ duration: 0.5 }}
             >
-              <span className="inline-block text-[11px] font-black uppercase tracking-[0.25em] text-[#FACC15] mb-6">
+              <span className="inline-block text-lg font-black uppercase tracking-[0.25em] text-[#FACC15] mb-6">
                 Références
               </span>
               <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black italic uppercase tracking-tighter leading-[0.95] text-[#0F172A] mb-6">
@@ -375,7 +375,7 @@ export default function Home() {
               viewport={{ once: true }}
               transition={{ duration: 0.5 }}
             >
-              <span className="inline-block text-[11px] font-black uppercase tracking-[0.25em] text-[#FACC15] mb-6">
+              <span className="inline-block text-lg font-black uppercase tracking-[0.25em] text-[#FACC15] mb-6">
                 Témoignages
               </span>
               <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black italic uppercase tracking-tighter leading-[0.95] text-[#0F172A] mb-6">
@@ -451,7 +451,7 @@ export default function Home() {
           <div className="max-w-7xl mx-auto">
             <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-16 gap-6">
               <div className="max-w-2xl">
-                <span className="inline-block text-[11px] font-black uppercase tracking-[0.25em] text-[#FACC15] mb-6">
+                <span className="inline-block text-lg font-black uppercase tracking-[0.25em] text-[#FACC15] mb-6">
                   Documentation
                 </span>
                 <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black italic uppercase tracking-tighter leading-[0.95] text-[#0F172A] mb-4">
@@ -508,7 +508,7 @@ export default function Home() {
           <div className="max-w-7xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
               <div>
-                <span className="inline-block text-[11px] font-black uppercase tracking-[0.25em] text-[#FACC15] mb-6">
+                <span className="inline-block text-lg font-black uppercase tracking-[0.25em] text-[#FACC15] mb-6">
                   Contact
                 </span>
                 <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black italic uppercase tracking-tighter leading-[0.95] text-[#0F172A] mb-8">
@@ -595,7 +595,7 @@ export default function Home() {
         {/* FAQ Section */}
         <section id="faq" className="py-20 sm:py-28 px-6 bg-[#F8FAFC] cv-auto">
           <div className="max-w-3xl mx-auto">
-            <span className="inline-block text-[11px] font-black uppercase tracking-[0.25em] text-[#FACC15] mb-6">
+            <span className="inline-block text-lg font-black uppercase tracking-[0.25em] text-[#FACC15] mb-6">
               FAQ
             </span>
             <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black italic uppercase tracking-tighter leading-[0.95] text-[#0F172A] mb-16">
