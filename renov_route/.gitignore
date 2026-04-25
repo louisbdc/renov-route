@@ -46,3 +46,7 @@ next-env.d.ts
 
 # import-realisation staging
 /.tmp/
+
+# audits & templates internes
+/GEO-AUDIT-REPORT.md
+/email-templates/
