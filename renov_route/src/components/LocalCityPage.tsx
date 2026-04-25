@@ -36,7 +36,7 @@ const SERVICES = [
 
 function buildIntro(city: City): string {
   if (city.distanceFromTassin === 0) {
-    return `Renov Route est implanté à ${city.name} depuis 2014 — c'est notre commune historique. Vous bénéficiez d'une intervention immédiate sans frais de déplacement, par une équipe qui connaît parfaitement le terrain local.`
+    return `Renov Route est implanté à ${city.name} depuis 2014 — c'est notre commune historique. Une équipe qui connaît parfaitement le terrain local, mobilisable rapidement avec un devis transparent.`
   }
   if (city.isArrondissement) {
     return `Spécialiste du marquage au sol à ${city.name}, Renov Route intervient sur tous les parkings, voiries et copropriétés de l'arrondissement. À ${city.distanceFromTassin} km de notre siège de Tassin-la-Demi-Lune, nos équipes sont sur place dans la journée.`
