@@ -40,3 +40,9 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 .env.local
+
+# realisation-editor (app Electron) - ignorer le dossier complet
+/realisation-editor/
+
+# import-realisation staging
+/.tmp/

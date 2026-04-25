@@ -7,6 +7,7 @@ export const revalidate = false
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://renov-route.com'
+  const currentDate = new Date().toISOString()
   const lastModifiedDates: Record<string, string> = {
     '/': '2026-03-05',
     '/marquage-au-sol-lyon': '2026-03-31',
@@ -26,7 +27,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/guides': '2026-03-01',
   }
   const getLastMod = (path: string) => lastModifiedDates[path] || currentDate
-  const currentDate = new Date().toISOString()
 
   const ogImage = { url: `${baseUrl}/assets/images/og-image.jpg` }
 

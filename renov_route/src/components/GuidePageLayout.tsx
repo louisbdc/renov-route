@@ -30,9 +30,26 @@ function formatDate(dateString: string): string {
 }
 
 function getRelatedGuides(currentGuide: Guide): Guide[] {
-  return guides
+  const sameCategory = guides
     .filter(g => g.slug !== currentGuide.slug && g.category === currentGuide.category)
     .slice(0, 3)
+  const otherCategories = guides
+    .filter(g => g.slug !== currentGuide.slug && g.category !== currentGuide.category)
+    .slice(0, 6 - sameCategory.length)
+  return [...sameCategory, ...otherCategories]
+}
+
+function getGuidesByCategory(currentSlug: string): Array<[string, Guide[]]> {
+  const grouped = new Map<keyof typeof GUIDE_CATEGORIES, Guide[]>()
+  for (const g of guides) {
+    if (g.slug === currentSlug) continue
+    const list = grouped.get(g.category) ?? []
+    list.push(g)
+    grouped.set(g.category, list)
+  }
+  return Array.from(grouped.entries()).map(
+    ([cat, list]) => [GUIDE_CATEGORIES[cat], list] as [string, Guide[]]
+  )
 }
 
 export default function GuidePageLayout({ guide, children }: GuidePageLayoutProps) {
@@ -43,6 +60,7 @@ export default function GuidePageLayout({ guide, children }: GuidePageLayoutProp
   ]
 
   const relatedGuides = getRelatedGuides(guide)
+  const guidesByCategory = getGuidesByCategory(guide.slug)
   const categoryLabel = GUIDE_CATEGORIES[guide.category]
   const coverImage = getGuideImage(guide.slug)
 
@@ -209,6 +227,41 @@ export default function GuidePageLayout({ guide, children }: GuidePageLayoutProp
                     </Link>
                   )
                 })}
+              </div>
+            </div>
+          </section>
+        )}
+
+        {/* Index complet des guides — maillage interne SEO */}
+        {guidesByCategory.length > 0 && (
+          <section className="py-16 sm:py-20 px-6 bg-white border-t border-slate-200">
+            <div className="max-w-7xl mx-auto">
+              <h2 className="text-2xl sm:text-3xl font-black italic uppercase tracking-tighter text-[#0F172A] mb-3">
+                Tous nos guides
+              </h2>
+              <p className="text-slate-500 text-sm font-medium mb-10">
+                Explorez l&apos;ensemble de nos ressources sur le marquage au sol, la signalisation et la rénovation de parking.
+              </p>
+              <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
+                {guidesByCategory.map(([categoryName, categoryGuides]) => (
+                  <div key={categoryName}>
+                    <h3 className="text-[11px] font-black uppercase tracking-[0.25em] text-[#FACC15] mb-4 pb-2 border-b border-slate-200">
+                      {categoryName}
+                    </h3>
+                    <ul className="space-y-2">
+                      {categoryGuides.map(g => (
+                        <li key={g.slug}>
+                          <Link
+                            href={`/guides/${g.slug}`}
+                            className="text-sm text-slate-600 hover:text-[#0F172A] hover:underline font-medium leading-snug block"
+                          >
+                            {g.title}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
               </div>
             </div>
           </section>

@@ -7,6 +7,7 @@ import Layout from '@/components/Layout'
 import SafariAnimationFix from '@/components/SafariAnimationFix'
 import { MotionDiv, MotionH1, MotionP } from '@/components/MotionWrapper'
 import { useConversionTracking } from '@/components/AnalyticsTracker'
+import SEOLinks from '@/components/SEOLinks'
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -178,6 +179,8 @@ export default function ServicePageLayout({
             </div>
           </div>
         </section>
+
+        <SEOLinks />
 
       </SafariAnimationFix>
     </Layout>
