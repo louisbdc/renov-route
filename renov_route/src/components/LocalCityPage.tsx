@@ -44,7 +44,7 @@ function buildIntro(city: City): string {
   if (city.isRhoneAlpes) {
     return `Renov Route accompagne les gestionnaires de parkings et collectivités à ${city.name} (${city.postalCode}) depuis 2014. À ${city.distanceFromTassin} km de Lyon, nous intervenons régulièrement en ${city.department.name} avec le même niveau de qualité que sur l'agglomération lyonnaise.`
   }
-  return `Entreprise de marquage au sol à ${city.name}, Renov Route intervient sur l'ensemble des parkings, voiries et zones d'activités de la commune (${city.postalCode}). À ${city.distanceFromTassin} km seulement de notre siège de Tassin-la-Demi-Lune, nous offrons une réactivité maximale et zéro frais de déplacement.`
+  return `Entreprise de marquage au sol à ${city.name}, Renov Route intervient sur l'ensemble des parkings, voiries et zones d'activités de la commune (${city.postalCode}). À ${city.distanceFromTassin} km de notre siège de Tassin-la-Demi-Lune, nos équipes sont sur place rapidement avec un devis transparent.`
 }
 
 function buildSecondParagraph(city: City): string {
