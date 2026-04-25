@@ -43,6 +43,15 @@ RewriteRule ^auvergne-rhone-alpes/?$ https://%{HTTP_HOST}/competences/ [R=301,L]
 RewriteCond %{QUERY_STRING} (?:^|&)project=([a-z0-9-]+) [NC]
 RewriteRule ^realisations/?$ https://%{HTTP_HOST}/realisations/%1/? [R=301,L]
 
+# Exclure les nouvelles pages locales programmatiques (servir le HTML statique)
+# Sans cette règle, les catch-all ci-dessous interceptent /marquage-au-sol-{ville}/
+RewriteRule ^marquage-au-sol-[a-z0-9-]+/?$ - [L]
+
+# Skip les redirections catch-all si le fichier ou dossier existe physiquement
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
 # Redirections géographiques vers les compétences correspondantes
 RewriteRule ^marquage-parking-([^/]+)/?$ https://%{HTTP_HOST}/competences/tracage-retracage-parking/ [R=301,L]
 RewriteRule ^marquage-([^/]+)/?$ https://%{HTTP_HOST}/competences/tracage-retracage-parking/ [R=301,L]
