@@ -44,7 +44,7 @@ const ORGANIZATION_JSONLD = {
   contactPoint: [
     {
       '@type': 'ContactPoint',
-      telephone: '+33786819692',
+      téléphone: '+33786819692',
       contactType: 'customer service',
       email: 'contact@renov-route.com',
       availableLanguage: ['French'],

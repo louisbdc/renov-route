@@ -29,7 +29,7 @@ export default function Content() {
       <p>
         Un parking dégradé présente des risques pour les usagers : marquage au sol effacé, nids de
         poule, signalisation absente. Au-delà de la sécurité, un parking en bon état valorise
-        l&apos;ensemble de la copropriété et facilite la circulation quotidienne.
+        l&apos;ensemble de la copropriété et facilité la circulation quotidienne.
       </p>
       <p>
         Les signes qui doivent alerter : fissures importantes dans l&apos;enrobé,{' '}
@@ -41,7 +41,7 @@ export default function Content() {
       <h2>Étape 1 : Le diagnostic du parking</h2>
       <p>
         Avant toute décision, un diagnostic professionnel permet d&apos;évaluer l&apos;état du
-        revêtement, du marquage et des équipements. Ce bilan identifie les travaux prioritaires
+        revêtement, du marquage et des équipements. Ce bilan identifié les travaux prioritaires
         et permet d&apos;établir un budget réaliste.
       </p>
       <p>
@@ -53,7 +53,7 @@ export default function Content() {
       <h2>Étape 2 : Le vote en assemblée générale</h2>
       <p>
         En copropriété, les travaux de rénovation du parking doivent être votés en AG. Selon
-        l&apos;ampleur des travaux, la majorité requise varie :
+        l&apos;ampleur des travaux, la majorité requise varié :
       </p>
       <ul>
         <li><strong>Majorité simple (article 24)</strong> : entretien courant, reprise du marquage au sol</li>
@@ -79,7 +79,7 @@ export default function Content() {
 
       <h2>Quel budget prévoir ?</h2>
       <p>
-        Le coût d&apos;une rénovation de parking varie selon l&apos;état initial et l&apos;étendue
+        Le coût d&apos;une rénovation de parking varié selon l&apos;état initial et l&apos;étendue
         des travaux. Pour un parking de copropriété de taille moyenne (20 à 50 places), comptez
         entre 5 000 € et 25 000 € selon les prestations retenues.
       </p>

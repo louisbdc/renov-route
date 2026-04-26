@@ -25,7 +25,7 @@ function GuideCard({ guide }: { guide: Guide }) {
   return (
     <Link
       href={`/guides/${guide.slug}`}
-      className="group flex flex-col h-full bg-white border border-slate-200 card-editorial-hover overflow-hidden"
+      className="group flex flex-col h-full bg-white border border-slate-200 card-éditorial-hover overflow-hidden"
     >
       {image ? (
         <div className="relative aspect-[16/10] overflow-hidden">
@@ -71,13 +71,13 @@ export default function GuidesPage() {
     ? guides
     : guides.filter(g => g.category === activeCategory)
 
-  const categories = Object.entries(GUIDE_CATEGORIES) as [CategoryKey, string][]
+  const catégories = Object.entries(GUIDE_CATEGORIES) as [CategoryKey, string][]
 
   return (
     <Layout>
       <SafariAnimationFix>
 
-        {/* Hero — dark editorial */}
+        {/* Hero — dark éditorial */}
         <section className="pt-28 sm:pt-36 pb-16 sm:pb-20 px-6 relative overflow-hidden bg-[#0F172A]">
           <div className="absolute inset-0 bg-[url('/assets/images/realisations/background_competence_page.avif')] bg-cover bg-center grayscale opacity-15" />
           <div className="absolute inset-0 bg-gradient-to-b from-[#0F172A]/40 via-[#0F172A]/80 to-[#0F172A]" />
@@ -124,7 +124,7 @@ export default function GuidesPage() {
               >
                 Tous
               </button>
-              {categories.map(([key, label]) => (
+              {catégories.map(([key, label]) => (
                 <button
                   key={key}
                   onClick={() => setActiveCategory(key)}

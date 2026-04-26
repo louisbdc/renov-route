@@ -56,7 +56,7 @@ export default function ServicePageLayout({
     <Layout>
       <SafariAnimationFix>
 
-        {/* Hero — dark editorial */}
+        {/* Hero — dark éditorial */}
         <section className="pt-28 sm:pt-36 pb-20 sm:pb-24 px-6 relative overflow-hidden bg-[#0F172A]">
           <Image
             src={heroBackgroundImage || '/assets/images/realisations/background_competence_page.avif'}

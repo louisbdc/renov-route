@@ -2,7 +2,7 @@ import type { ReactNode } from 'react'
 
 interface CaseStudy {
   client: string
-  problem: string
+  problème: string
   solution: string
   result: string
   icon?: ReactNode
@@ -46,7 +46,7 @@ export default function ServiceCaseStudy({
                 <div className="space-y-3">
                   <div>
                     <span className="text-xs font-medium text-red-400 uppercase tracking-wider">Problème</span>
-                    <p className="text-slate-500 text-sm mt-1">{caseItem.problem}</p>
+                    <p className="text-slate-500 text-sm mt-1">{caseItem.problème}</p>
                   </div>
                   <div>
                     <span className="text-xs font-medium text-[#FACC15] uppercase tracking-wider">Solution</span>

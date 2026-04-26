@@ -30,7 +30,7 @@ const SERVICES = [
   { icon: <TbRoad size={22} />, title: 'Marquage routier & voirie', description: "Signalisation horizontale : lignes, bandes, flèches, zébras, îlots. Voirie publique et privée.", link: '/competences/tracage-retracage-parking/' },
   { icon: <TbBuildingFactory2 size={22} />, title: 'Marquage industriel', description: "Marquage au sol d'entrepôts, ateliers et zones logistiques : allées de circulation, zones de stockage, cheminements piétons.", link: '/competences/resine-sol-marquage-interieur/' },
   { icon: <TbWheelchair size={22} />, title: 'Mise en conformité PMR', description: "Places handicapées, bandes de guidage, signalétique au sol conforme aux normes d'accessibilité.", link: '/guides/mise-en-conformite-parking-pmr/' },
-  { icon: <TbPalette size={22} />, title: 'Résine de sol & revêtement', description: "Résine epoxy, polyuréthane, revêtements antidérapants pour sols industriels, garages, ateliers.", link: '/competences/resine-sol-marquage-interieur/' },
+  { icon: <TbPalette size={22} />, title: 'Résine de sol & revêtement', description: "Résine époxy, polyuréthane, revêtements antidérapants pour sols industriels, garages, ateliers.", link: '/competences/resine-sol-marquage-interieur/' },
   { icon: <TbShield size={22} />, title: 'Réparation nids de poule', description: "Rebouchage à froid ou à chaud, traitement de fissures, sécurisation des chaussées dégradées.", link: '/competences/reparation-nids-de-poule/' },
 ]
 
@@ -42,7 +42,7 @@ function buildIntro(city: City): string {
     return `Spécialiste du marquage au sol à ${city.name}, Renov Route intervient sur tous les parkings, voiries et copropriétés de l'arrondissement. À ${city.distanceFromTassin} km de notre siège de Tassin-la-Demi-Lune, nos équipes sont sur place dans la journée.`
   }
   if (city.isRhoneAlpes) {
-    return `Renov Route accompagne les gestionnaires de parkings et collectivités à ${city.name} (${city.postalCode}) depuis 2014. À ${city.distanceFromTassin} km de Lyon, nous intervenons régulièrement en ${city.department.name} avec le même niveau de qualité que sur l'agglomération lyonnaise.`
+    return `Renov Route accompagné les gestionnaires de parkings et collectivités à ${city.name} (${city.postalCode}) depuis 2014. À ${city.distanceFromTassin} km de Lyon, nous intervenons régulièrement en ${city.department.name} avec le même niveau de qualité que sur l'agglomération lyonnaise.`
   }
   return `Entreprise de marquage au sol à ${city.name}, Renov Route intervient sur l'ensemble des parkings, voiries et zones d'activités de la commune (${city.postalCode}). À ${city.distanceFromTassin} km de notre siège de Tassin-la-Demi-Lune, nos équipes sont sur place rapidement avec un devis transparent.`
 }
@@ -59,7 +59,7 @@ export default function LocalCityPage({ city }: LocalCityPageProps) {
   const intro = buildIntro(city)
   const second = buildSecondParagraph(city)
 
-  // Schema LocalBusiness ciblé sur la zone
+  // Schéma LocalBusiness ciblé sur la zone
   const localBusinessSchema = {
     '@context': 'https://schema.org',
     '@type': 'HomeAndConstructionBusiness',
@@ -67,7 +67,7 @@ export default function LocalCityPage({ city }: LocalCityPageProps) {
     name: `Renov Route — Marquage au sol ${city.name}`,
     description: `Entreprise de marquage au sol et signalisation horizontale intervenant à ${city.name} (${city.postalCode}). Parking, voirie, industriel, PMR. Devis gratuit sous 24h.`,
     url: `https://renov-route.com/marquage-au-sol-${city.slug}/`,
-    telephone: '+33786819692',
+    téléphone: '+33786819692',
     email: 'contact@renov-route.com',
     address: {
       '@type': 'PostalAddress',

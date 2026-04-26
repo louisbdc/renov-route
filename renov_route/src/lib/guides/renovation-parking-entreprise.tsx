@@ -16,7 +16,7 @@ export default function Content() {
   return (
     <>
       <p>
-        Le parking de votre magasin, restaurant ou entrepôt a 8 ans. Les marquages sont à peine visibles. Trois nids de poule se sont formés près de l'entrée. Un panneau STOP penche à 45 degrés. Vous savez qu'il faut intervenir, mais par où commencer ? Et surtout, combien ça va coûter ?
+        Le parking de votre magasin, restaurant ou entrepôt à 8 ans. Les marquages sont à peine visibles. Trois nids de poule se sont formés près de l'entrée. Un panneau STOP penche à 45 degrés. Vous savez qu'il faut intervenir, mais par où commencer ? Et surtout, combien ça va coûter ?
       </p>
       <p>
         La rénovation d'un parking d'entreprise n'est pas un projet compliqué. C'est un projet qui demande de la méthode. Il faut savoir quoi inspecter, dans quel ordre intervenir et comment répartir le budget entre les différents postes. Sans méthode, vous risquez de dépenser trop sur un poste mineur et de négliger un problème qui va s'aggraver.
@@ -42,7 +42,7 @@ export default function Content() {
 
       <h3>La conformité réglementaire</h3>
       <p>
-        Les places PMR (Personne à Mobilité Réduite) doivent respecter des <Link href="/guides/dimensions-nombre-places-pmr-parking">dimensions précises</Link> et être signalées par un marquage au sol et un panneau vertical. La signalisation doit être conforme à l'IISR (Instruction Interministérielle sur la Signalisation Routière). Un parking non conforme expose à des amendes pouvant atteindre 225 000 euros pour un ERP (voir notre <Link href="/guides/normes-pmr-parking">guide des normes PMR</Link>).
+        Les places PMR (Personne à Mobilité Réduite) doivent respecter des <Link href="/guides/dimensions-nombre-places-pmr-parking">dimensions précises</Link> et être signalées par un marquage au sol et un panneau vertical. La signalisation doit être conforme à l'IISR (Instruction Interministérielle sur la Signalisation Routière). Un parking non conforme exposé à des amendes pouvant atteindre 225 000 euros pour un ERP (voir notre <Link href="/guides/normes-pmr-parking">guide des normes PMR</Link>).
       </p>
 
       <h3>Le coût de l'inaction</h3>
@@ -84,7 +84,7 @@ export default function Content() {
         <li><strong>Les nids de poule</strong> : même petits (10 cm), ils vont grandir. Comptez-les et estimez leur taille.</li>
         <li><strong>Les fissures</strong> : moins de 2 mm = surveillance. Plus de 2 mm = traitement. Réseau de fissures interconnectées (faïençage) = réfection urgente.</li>
         <li><strong>Les affaissements</strong> : zones où la chaussée s'est enfoncée, souvent signe d'un problème de drainage souterrain.</li>
-        <li><strong>Les flaques persistantes</strong> : si l'eau stagne après la pluie, il y a un problème de pente ou de drainage.</li>
+        <li><strong>Les flaques persistantes</strong> : si l'eau stagne après la pluie, il y à un problème de pente ou de drainage.</li>
       </ul>
       <p>
         <strong>Quand intervenir :</strong> Les nids de poule nécessitent une <Link href="/competences/reparation-nids-de-poule">réparation immédiate par résine</Link>. Pour les fissures, un colmatage préventif évite la formation de nids de poule. Consultez notre <Link href="/guides/enrobe-froid-vs-resine-nids-de-poule">comparatif enrobé vs résine</Link> pour choisir la bonne méthode.
@@ -248,7 +248,7 @@ export default function Content() {
 
       <h3>Phase 1 : Diagnostic et planification (1 semaine)</h3>
       <ul>
-        <li><strong>Diagnostic sur site</strong> : notre technicien inspecte le parking, prend des mesures, des photos et identifie les interventions nécessaires</li>
+        <li><strong>Diagnostic sur site</strong> : notre technicien inspecte le parking, prend des mesures, des photos et identifié les interventions nécessaires</li>
         <li><strong>Devis détaillé</strong> : chiffrage par poste avec plan de marquage</li>
         <li><strong>Planification</strong> : choix des dates en fonction de votre activité (jours creux, horaires décalés)</li>
       </ul>
@@ -305,7 +305,7 @@ export default function Content() {
 
       <h3>Interventions de nuit ou week-end</h3>
       <p>
-        Pour les commerces à forte affluence (centres commerciaux, fast-foods, cliniques), nous proposons des interventions de nuit ou le dimanche pour éviter toute perturbation. Un supplément de 15 à 25 % s'applique sur la main d'oeuvre.
+        Pour les commerces à forte affluence (centres commerciaux, fast-foods, cliniques), nous proposons des interventions de nuit ou le dimanche pour éviter toute perturbation. Un supplément de 15 à 25 % s'appliqué sur la main d'oeuvre.
       </p>
 
       <h2>Les erreurs à éviter lors d'une rénovation de parking</h2>

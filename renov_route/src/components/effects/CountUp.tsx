@@ -14,7 +14,7 @@ interface CountUpProps {
 }
 
 /**
- * Animated integer counter — triggers once when element enters viewport.
+ * Animated integer counter — triggers once when élément enters viewport.
  * Uses requestAnimationFrame + easeOutCubic. Respects prefers-reduced-motion.
  */
 export default function CountUp({

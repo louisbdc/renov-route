@@ -41,7 +41,7 @@ export default function Content() {
 
       <h3>Limites de l'enrobé à froid</h3>
       <p>
-        Malgré ces avantages, l'enrobé à froid a un défaut majeur : il ne dure pas.
+        Malgré ces avantages, l'enrobé à froid à un défaut majeur : il ne dure pas.
       </p>
       <p>
         <strong>Pourquoi ?</strong> Parce qu'il n'adhère pas chimiquement au revêtement existant. Il repose dans le trou comme un bouchon dans une baignoire. Sous l'effet du trafic, des vibrations et des cycles gel-dégel, il se fissure, se délite et finit par se déchausser. En général, c'est l'affaire de quelques mois. Parfois quelques semaines en cas de trafic lourd.
@@ -214,7 +214,7 @@ export default function Content() {
 
       <h2>Faites le bon choix du premier coup</h2>
       <p>
-        La réparation de nids de poule n'est pas un sujet glamour. Mais c'est un sujet qui coûte cher quand on se trompe de méthode. L'enrobé à froid a son utilité en dépannage d'urgence. Pour tout le reste, la résine polyuréthane est la solution qui fait économiser de l'argent, du temps et des tracas.
+        La réparation de nids de poule n'est pas un sujet glamour. Mais c'est un sujet qui coûte cher quand on se trompe de méthode. L'enrobé à froid à son utilité en dépannage d'urgence. Pour tout le reste, la résine polyuréthane est la solution qui fait économiser de l'argent, du temps et des tracas.
       </p>
       <p><strong>Ce qu'il faut retenir :</strong></p>
       <ul>

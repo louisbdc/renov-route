@@ -40,7 +40,7 @@ export default function ProjectPageLayout({ project, relatedProjects }: ProjectP
   return (
     <Layout>
       <SafariAnimationFix>
-        {/* Hero — dark editorial */}
+        {/* Hero — dark éditorial */}
         <section className="relative min-h-[60vh] flex items-end overflow-hidden bg-[#0F172A]">
           <Image
             src={project.heroMedia}

@@ -96,7 +96,7 @@ export default function CompetencesPage() {
       <Layout>
         <SafariAnimationFix>
 
-          {/* Hero, dark editorial */}
+          {/* Hero, dark éditorial */}
           <section className="pt-28 sm:pt-36 pb-20 sm:pb-24 px-6 relative overflow-hidden bg-[#0F172A]">
             <div className="absolute inset-0 bg-[url('/assets/images/realisations/background_competence_page.avif')] bg-cover bg-center grayscale opacity-20" />
             <div className="absolute inset-0 bg-gradient-to-b from-[#0F172A]/60 via-[#0F172A]/80 to-[#0F172A]" />
@@ -141,7 +141,7 @@ export default function CompetencesPage() {
                 className="space-y-6 text-slate-600 leading-relaxed text-lg font-medium"
               >
                 <p>
-                  Depuis plus de 10 ans, Rénov Route accompagne les entreprises, collectivités et gestionnaires de parkings dans tous leurs projets de marquage au sol et de voirie en région Rhône-Alpes et sur l&apos;ensemble du territoire français. Notre équipe intervient sur plus de 200 chantiers par an, du simple retraçage de places de parking à la rénovation complète de surfaces industrielles.
+                  Depuis plus de 10 ans, Rénov Route accompagné les entreprises, collectivités et gestionnaires de parkings dans tous leurs projets de marquage au sol et de voirie en région Rhône-Alpes et sur l&apos;ensemble du territoire français. Notre équipe intervient sur plus de 200 chantiers par an, du simple retraçage de places de parking à la rénovation complète de surfaces industrielles.
                 </p>
                 <p>
                   Nos six domaines d&apos;expertise couvrent l&apos;intégralité de la chaîne : traçage et retraçage de parking, signalisation verticale, résine de sol et marquage intérieur, réparation de nids de poule, accessoires de sécurité et conseil technique. Un interlocuteur unique coordonne chaque projet, du diagnostic initial à la réception des travaux, pour garantir des délais maîtrisés et un résultat conforme aux normes en vigueur.
@@ -150,7 +150,7 @@ export default function CompetencesPage() {
             </div>
           </section>
 
-          {/* Services grid, editorial */}
+          {/* Services grid, éditorial */}
           <section className="py-20 sm:py-28 px-6 bg-[#F8FAFC]">
             <div className="max-w-7xl mx-auto">
               <div className="mb-12 max-w-2xl">
@@ -222,7 +222,7 @@ export default function CompetencesPage() {
                   <Link
                     key={guide.href}
                     href={guide.href}
-                    className="group flex items-start gap-4 p-6 bg-white border border-slate-200 card-editorial-hover"
+                    className="group flex items-start gap-4 p-6 bg-white border border-slate-200 card-éditorial-hover"
                   >
                     <span className="text-[9px] font-black uppercase tracking-[0.2em] text-[#FACC15] bg-[#0F172A] rounded-sm px-2 py-1 whitespace-nowrap">{guide.tag}</span>
                     <span className="text-sm text-[#0F172A] font-semibold group-hover:text-[#FACC15] transition-colors leading-snug">{guide.title}</span>

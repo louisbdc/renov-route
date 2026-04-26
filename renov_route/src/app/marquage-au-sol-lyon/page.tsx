@@ -41,7 +41,7 @@ const SERVICES = [
   { icon: <TbBuildingFactory2 size={22} />, title: 'Marquage industriel', description: "Marquage au sol d'entrepôts, ateliers et zones logistiques : allées de circulation, zones de stockage, cheminements piétons.", link: '/competences/resine-sol-marquage-interieur/' },
   { icon: <TbBallFootball size={22} />, title: 'Traçage sportif', description: 'Terrains de basket, tennis, handball, badminton. Peintures conformes aux normes sportives, intérieures et extérieures.', link: '/competences/tracage-retracage-parking/' },
   { icon: <TbWheelchair size={22} />, title: 'Mise en conformité PMR', description: "Places handicapées, bandes de guidage, signalétique au sol conforme aux normes d'accessibilité. Mise aux normes de parkings existants.", link: '/guides/mise-en-conformite-parking-pmr/' },
-  { icon: <TbPalette size={22} />, title: 'Résine de sol & revêtement', description: 'Résine epoxy, polyuréthane, revêtements antidérapants pour sols industriels, garages, ateliers. Protection et marquage intérieur.', link: '/competences/resine-sol-marquage-interieur/' },
+  { icon: <TbPalette size={22} />, title: 'Résine de sol & revêtement', description: 'Résine époxy, polyuréthane, revêtements antidérapants pour sols industriels, garages, ateliers. Protection et marquage intérieur.', link: '/competences/resine-sol-marquage-interieur/' },
 ]
 
 const STEPS = [
@@ -54,7 +54,7 @@ const STEPS = [
 const FAQ = [
   {
     question: 'Quels types de marquage au sol réalisez-vous à Lyon ?',
-    answer: "Nous couvrons tous les types de marquage : parking (places, flèches, PMR), voirie (lignes, passages piétons, zébras), industriel (entrepôts, zones logistiques), sportif (terrains intérieurs et extérieurs) et résine de sol (epoxy, polyuréthane). Nous intervenons sur toute la région lyonnaise et Rhône-Alpes.",
+    answer: "Nous couvrons tous les types de marquage : parking (places, flèches, PMR), voirie (lignes, passages piétons, zébras), industriel (entrepôts, zones logistiques), sportif (terrains intérieurs et extérieurs) et résine de sol (époxy, polyuréthane). Nous intervenons sur toute la région lyonnaise et Rhône-Alpes.",
   },
   {
     question: 'Quelle est votre zone d\'intervention autour de Lyon ?',
@@ -66,7 +66,7 @@ const FAQ = [
   },
   {
     question: 'Combien de temps dure un marquage au sol ?',
-    answer: "Avec nos peintures routières certifiées NF EN 1436, un marquage au sol dure en moyenne 2 à 5 ans selon le trafic et l'exposition. Les résines epoxy offrent une durabilité encore supérieure (5 à 10 ans) pour les sols industriels intérieurs.",
+    answer: "Avec nos peintures routières certifiées NF EN 1436, un marquage au sol dure en moyenne 2 à 5 ans selon le trafic et l'exposition. Les résines époxy offrent une durabilité encore supérieure (5 à 10 ans) pour les sols industriels intérieurs.",
   },
   {
     question: 'Intervenez-vous en dehors des heures ouvrées ?',
@@ -89,7 +89,7 @@ const SERVICE_SCHEMA = {
     "name": "Rénov Route",
     "image": "https://renov-route.com/assets/logos/logo.avif",
     "url": "https://renov-route.com/",
-    "telephone": "+33786819692",
+    "téléphone": "+33786819692",
     "priceRange": "€€",
     "foundingDate": "2014",
     "address": {
@@ -190,7 +190,7 @@ export default function MarquageAuSolLyonPage() {
               En savoir plus sur nos prestations
             </h2>
             <p className="text-slate-500 mb-8">
-              Chaque type de marquage a ses spécificités. Consultez nos pages dédiées pour plus de détails.
+              Chaque type de marquage à ses spécificités. Consultez nos pages dédiées pour plus de détails.
             </p>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {SERVICES.map((service, i) => (
@@ -367,7 +367,7 @@ export default function MarquageAuSolLyonPage() {
                 { title: 'Prix marquage au sol parking', href: '/guides/prix-marquage-sol-parking/', desc: 'Tarifs au mètre linéaire, par place, devis type.' },
                 { title: 'Mise en conformité PMR', href: '/guides/mise-en-conformite-parking-pmr/', desc: 'Obligations légales, normes, sanctions.' },
                 { title: 'Comment tracer un parking', href: '/guides/comment-tracer-parking/', desc: 'Étapes, dimensions, réglementation.' },
-                { title: 'Résine epoxy ou peinture de sol', href: '/guides/resine-epoxy-ou-peinture-sol-comparatif/', desc: 'Comparatif, avantages, cas d\'usage.' },
+                { title: 'Résine époxy ou peinture de sol', href: '/guides/resine-epoxy-ou-peinture-sol-comparatif/', desc: 'Comparatif, avantages, cas d\'usage.' },
                 { title: 'Panneau limitation vitesse parking', href: '/guides/panneau-limitation-vitesse-parking/', desc: 'Obligations, types de panneaux, prix.' },
                 { title: 'Tous nos guides', href: '/guides/', desc: '40+ articles sur le marquage au sol.' },
               ].map((guide, i) => (

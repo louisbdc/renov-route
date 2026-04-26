@@ -297,7 +297,7 @@ export default function ContactPage() {
                 </h2>
                 <div className="space-y-5 text-slate-600 leading-relaxed">
                   <p>
-                    L&apos;histoire de Rénov Route commence en 2014 par une rencontre fortuite : un
+                    L&apos;histoire de Rénov Route commence en 2014 par une rencontré fortuite : un
                     client nous approche pour retracer <strong>40 parkings</strong>. La demande
                     semble ambitieuse à l&apos;époque, mais elle marque le tournant décisif de notre
                     parcours. Nous relevons le défi, et cette première mission révèle notre passion
@@ -354,7 +354,7 @@ export default function ContactPage() {
                     Nous sommes également engagés sur la{' '}
                     <strong>mise en conformité PMR</strong> des parkings. Les sanctions peuvent
                     atteindre 45 000 € pour une personne physique et 225 000 € pour une personne
-                    morale. Notre service conseil et expertise accompagne nos clients depuis le
+                    morale. Notre service conseil et expertise accompagné nos clients depuis le
                     diagnostic jusqu&apos;à la réception des travaux.
                   </p>
                 </div>

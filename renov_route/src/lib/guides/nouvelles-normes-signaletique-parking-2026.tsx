@@ -19,7 +19,7 @@ export default function Content() {
         Entre 60 et 70% des parkings français ne respectent pas les nouvelles normes
         de signalétique. Le budget moyen de mise en conformité ? Entre 15 000 et 45 000 €
         par site. Ce chiffre peut surprendre, mais il reflète l&apos;ampleur de l&apos;arrêté
-        du 4 septembre 2026, qui modifie en profondeur les exigences de signalisation
+        du 4 septembre 2026, qui modifié en profondeur les exigences de signalisation
         dans les parkings.
       </p>
       <p>
@@ -36,9 +36,9 @@ export default function Content() {
 
       <h2>Que change l&apos;arrêté du 4 septembre 2026 ?</h2>
       <p>
-        L&apos;arrêté du 4 septembre 2026 modifie les exigences techniques pour les
+        L&apos;arrêté du 4 septembre 2026 modifié les exigences techniques pour les
         équipements de signalisation dans les parkings publics et privés ouverts au public.
-        Il s&apos;applique aux ERP (Établissements Recevant du Public), aux parkings
+        Il s&apos;appliqué aux ERP (Établissements Recevant du Public), aux parkings
         commerciaux, aux parkings de copropriétés accessibles et aux parkings relais.
       </p>
 
@@ -162,7 +162,7 @@ export default function Content() {
 
       <h2>Les nouveaux contrôles obligatoires</h2>
       <p>
-        L&apos;arrêté 2026 instaure trois niveaux de contrôle pour la signalétique
+        L&apos;arrêté 2026 instauré trois niveaux de contrôle pour la signalétique
         des parkings :
       </p>
 
@@ -332,7 +332,7 @@ export default function Content() {
 
       <h2>Questions fréquentes</h2>
 
-      <h3>L&apos;arrêté s&apos;applique-t-il aux parkings privés de copropriété ?</h3>
+      <h3>L&apos;arrêté s&apos;appliqué-t-il aux parkings privés de copropriété ?</h3>
       <p>
         L&apos;arrêté concerne les parkings ouverts au public (ERP, commerces,
         parkings relais). Les parkings privés de copropriété fermés ne sont pas

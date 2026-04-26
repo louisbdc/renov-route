@@ -19,7 +19,7 @@ export default function Content() {
         Jaune pour les interdictions de stationner, blanc pour les places standard, bleu pour les zones à durée limitée. En apparence, c&apos;est simple. Pourtant, quand Isabelle, gestionnaire d&apos;un centre commercial à Vienne (38), a fait retracer son parking en 2024, elle a reçu un courrier de la commission d&apos;accessibilité trois semaines plus tard : les places PMR avaient été marquées en jaune au lieu de blanc, et les zébras d&apos;interdiction en blanc au lieu de jaune. Coût de l&apos;erreur : un second chantier complet et plusieurs milliers d&apos;euros de travaux supplémentaires.
       </p>
       <p>
-        La couleur du marquage au sol de parking n&apos;est pas un choix esthétique. C&apos;est une obligation réglementaire encadrée par l&apos;Instruction Interministérielle sur la Signalisation Routière (IISR) et le Code de la route. Chaque couleur a une signification précise et une utilisation normée.
+        La couleur du marquage au sol de parking n&apos;est pas un choix esthétique. C&apos;est une obligation réglementaire encadrée par l&apos;Instruction Interministérielle sur la Signalisation Routière (IISR) et le Code de la route. Chaque couleur à une signification précise et une utilisation normée.
       </p>
       <p>
         Dans ce guide, vous trouverez le code couleur complet du marquage de parking, la réglementation applicable, les erreurs les plus fréquentes et les bonnes pratiques pour un marquage conforme dès le premier passage.
@@ -32,12 +32,12 @@ export default function Content() {
 
       <h3>L&apos;IISR : le texte de référence</h3>
       <p>
-        L&apos;Instruction Interministérielle sur la Signalisation Routière (IISR), et plus précisément sa 7e partie consacrée au marquage, définit les couleurs autorisées pour la signalisation horizontale en France. Ce texte s&apos;applique aux voies ouvertes à la circulation publique, mais il sert aussi de référence pour les parkings privés.
+        L&apos;Instruction Interministérielle sur la Signalisation Routière (IISR), et plus précisément sa 7e partie consacrée au marquage, définit les couleurs autorisées pour la signalisation horizontale en France. Ce texte s&apos;appliqué aux voies ouvertes à la circulation publique, mais il sert aussi de référence pour les parkings privés.
       </p>
 
       <h3>Le Code de la route</h3>
       <p>
-        Les articles R. 411-25 et suivants du Code de la route précisent la signification réglementaire des marques au sol. Le blanc est la couleur de base du marquage routier. Le jaune est réservé aux interdictions et restrictions.
+        Les articles R. 411-25 et suivants du Code de la route précisent la signification réglementaire des marqués au sol. Le blanc est la couleur de base du marquage routier. Le jaune est réservé aux interdictions et restrictions.
       </p>
 
       <h3>Les normes PMR</h3>
@@ -328,7 +328,7 @@ export default function Content() {
         Un <Link href="/competences/tracage-retracage-parking">professionnel du traçage de parking</Link> vous apporte :
       </p>
       <ul>
-        <li><strong>La connaissance réglementaire</strong> : chaque couleur a sa place, pas d&apos;improvisation</li>
+        <li><strong>La connaissance réglementaire</strong> : chaque couleur à sa place, pas d&apos;improvisation</li>
         <li><strong>Le bon produit pour chaque couleur</strong> : certaines teintes nécessitent des formulations spécifiques (pigments UV-résistants pour le jaune, microbilles calibrées pour la rétroréflexion)</li>
         <li><strong>La conformité PMR</strong> : les exigences de contraste et de signalétique sont précises</li>
         <li><strong>Un plan de marquage validé</strong> : avant toute application, nous établissons un plan complet avec chaque couleur positionnée selon la réglementation</li>
@@ -373,7 +373,7 @@ export default function Content() {
       </p>
       <p>
         <strong>Vous avez un projet de marquage ou de retraçage ?</strong>{' '}
-        <Link href="/devis">Demandez un devis gratuit</Link> sous 24h. Notre expert technique vous conseille sur les couleurs, les produits et la conformité de votre parking.
+        <Link href="/devis">Demandez un devis gratuit</Link> sous 24h. Notre expert technique vous conseillé sur les couleurs, les produits et la conformité de votre parking.
       </p>
     </>
   )

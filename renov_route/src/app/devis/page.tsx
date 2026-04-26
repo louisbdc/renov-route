@@ -81,7 +81,7 @@ export default function DevisPage() {
       }
 
       if (!validatedData) {
-        setFieldErrors({ general: 'Erreur de validation' });
+        setFieldErrors({ général: 'Erreur de validation' });
         onFormError('validation_failed');
         return;
       }
@@ -94,7 +94,7 @@ export default function DevisPage() {
       setTimeout(() => setIsSubmitted(false), 15000);
     } catch (error) {
       console.error('Erreur lors de la soumission:', error);
-      setFieldErrors({ general: "Une erreur inattendue s'est produite" });
+      setFieldErrors({ général: "Une erreur inattendue s'est produite" });
     } finally {
       setIsLoading(false);
     }
@@ -161,9 +161,9 @@ export default function DevisPage() {
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.5, delay: 0.1 }}
                     >
-                      {fieldErrors.general && (
+                      {fieldErrors.général && (
                         <div className="mb-6 p-4 bg-red-500/10 border border-red-400/30 rounded-xl">
-                          <p className="text-red-300 text-sm font-medium">{fieldErrors.general}</p>
+                          <p className="text-red-300 text-sm font-medium">{fieldErrors.général}</p>
                         </div>
                       )}
 

@@ -114,7 +114,7 @@ export default function TracageRetracageParkingPage() {
           <section className="py-12 sm:py-16 lg:py-20 px-4 relative">
             <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900"></div>
             
-            {/* Glassmorphism background elements */}
+            {/* Glassmorphism background éléments */}
             <div className="absolute inset-0 bg-gradient-to-br from-white/3 via-transparent to-white/3 backdrop-blur-sm"></div>
             <div className="absolute top-1/4 left-1/4 w-64 sm:w-96 h-64 sm:h-96 bg-green-500/8 rounded-full blur-3xl"></div>
             <div className="absolute bottom-1/4 right-1/4 w-64 sm:w-96 h-64 sm:h-96 bg-emerald-500/8 rounded-full blur-3xl"></div>
@@ -132,7 +132,7 @@ export default function TracageRetracageParkingPage() {
                         <p className="text-lg leading-relaxed">
                           Le marquage de parking est un élément essentiel de l'image de votre établissement. 
                           Un parking bien tracé améliore la circulation, optimise l'utilisation de l'espace 
-                          et renforce la sécurité des usagers.
+                          et renforcé la sécurité des usagers.
                         </p>
                         <p className="text-lg leading-relaxed">
                           Notre expertise couvre tous types de parkings : centres commerciaux, entreprises, 
@@ -172,7 +172,7 @@ export default function TracageRetracageParkingPage() {
                         <p className="text-lg leading-relaxed">
                           Le marquage de parking est un élément essentiel de l'image de votre établissement. 
                           Un parking bien tracé améliore la circulation, optimise l'utilisation de l'espace 
-                          et renforce la sécurité des usagers.
+                          et renforcé la sécurité des usagers.
                         </p>
                         <p className="text-lg leading-relaxed">
                           Notre expertise couvre tous types de parkings : centres commerciaux, entreprises, 
@@ -453,7 +453,7 @@ export default function TracageRetracageParkingPage() {
             <div className="absolute inset-0 bg-gradient-to-br from-gray-800 via-gray-900 to-gray-800"></div>
             <div className="absolute inset-0 bg-[url('/assets/images/realisations/background_competence_page.avif')] bg-cover bg-center opacity-10"></div>
             
-            {/* Glassmorphism background elements */}
+            {/* Glassmorphism background éléments */}
             <div className="absolute inset-0 bg-gradient-to-br from-white/3 via-transparent to-white/3 backdrop-blur-sm"></div>
             <div className="absolute top-1/4 left-1/4 w-64 sm:w-96 h-64 sm:h-96 bg-green-500/8 rounded-full blur-3xl"></div>
             <div className="absolute bottom-1/4 right-1/4 w-64 sm:w-96 h-64 sm:h-96 bg-emerald-500/8 rounded-full blur-3xl"></div>

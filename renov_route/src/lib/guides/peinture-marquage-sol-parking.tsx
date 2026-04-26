@@ -93,7 +93,7 @@ export default function Content() {
 
       <h3>Résine époxy ou polyuréthane</h3>
       <p>
-        Les résines constituent le haut de gamme du marquage au sol. Elles forment un film dur, chimiquement résistant, adapté aux environnements exigeants. Renov&apos;Route utilise notamment la <Link href="/competences/resine-sol-marquage-interieur">résine époxy pour le marquage intérieur</Link> de sites industriels et de parkings souterrains.
+        Les résines constituent le haut de gamme du marquage au sol. Elles forment un film dur, chimiquement résistant, adapté aux environnements exigeants. Renov&apos;Route utilisé notamment la <Link href="/competences/resine-sol-marquage-interieur">résine époxy pour le marquage intérieur</Link> de sites industriels et de parkings souterrains.
       </p>
       <p><strong>Caractéristiques techniques :</strong></p>
       <ul>
@@ -235,7 +235,7 @@ export default function Content() {
         Si le parking doit rester opérationnel, le temps de séchage compte. L&apos;acrylique et la thermoplastique permettent une réouverture en quelques heures. La résine impose 24 à 72 heures de fermeture de zone.
       </p>
       <p>
-        Pour un parking commercial qui ne peut pas fermer, l&apos;acrylique reste le choix le plus pragmatique. Renov&apos;Route organise les chantiers par zones pour minimiser la perturbation ; consultez notre guide sur <Link href="/guides/entretien-parking-signes-renovation">l&apos;entretien et la rénovation de parking</Link> pour planifier au mieux.
+        Pour un parking commercial qui ne peut pas fermer, l&apos;acrylique reste le choix le plus pragmatique. Renov&apos;Route organisé les chantiers par zones pour minimiser la perturbation ; consultez notre guide sur <Link href="/guides/entretien-parking-signes-renovation">l&apos;entretien et la rénovation de parking</Link> pour planifier au mieux.
       </p>
 
       <h3>5. Le budget sur 10 ans</h3>
@@ -294,7 +294,7 @@ export default function Content() {
         <li><strong>Durabilité</strong> sous trafic normalisé</li>
       </ul>
       <p>
-        Tout prestataire sérieux utilise des peintures certifiées NF EN 1436. C&apos;est non négociable. Pour comprendre l&apos;ensemble des <Link href="/guides/normes-pmr-parking">normes applicables au marquage PMR</Link>, consultez notre guide dédié.
+        Tout prestataire sérieux utilisé des peintures certifiées NF EN 1436. C&apos;est non négociable. Pour comprendre l&apos;ensemble des <Link href="/guides/normes-pmr-parking">normes applicables au marquage PMR</Link>, consultez notre guide dédié.
       </p>
 
       <h3>Marquage environnemental</h3>
@@ -316,7 +316,7 @@ export default function Content() {
 
       <h3>3. Choisir uniquement sur le prix au m²</h3>
       <p>
-        Le moins cher au m² n&apos;est pas le moins cher à l&apos;année. Un marquage acrylique bon marché qui s&apos;efface en 18 mois coûte plus cher qu&apos;un thermoplastique qui tient 5 ans.
+        Le moins cher au m² n&apos;est pas le moins cher à l&apos;année. Un marquage acrylique bon marché qui s&apos;effacé en 18 mois coûte plus cher qu&apos;un thermoplastique qui tient 5 ans.
       </p>
 
       <h3>4. Ignorer le type de trafic</h3>
@@ -369,7 +369,7 @@ export default function Content() {
               <td>Résistance chimique et mécanique</td>
             </tr>
             <tr>
-              <td>Parking relais / gare</td>
+              <td>Parking relais / garé</td>
               <td>Thermoplastique</td>
               <td>Fort trafic, visibilité nocturne</td>
             </tr>
@@ -420,7 +420,7 @@ export default function Content() {
         Ne choisissez jamais sur le seul prix au m². Calculez le coût sur 10 ans. Exigez la certification NF EN 1436. Et surtout, investissez dans la préparation du support ; c&apos;est elle qui détermine la tenue du marquage, quel que soit le produit.
       </p>
       <p>
-        <strong>Vous hésitez entre acrylique, thermoplastique et résine pour votre parking ?</strong> <Link href="/devis">Demandez un devis gratuit</Link> à Renov&apos;Route. Notre expert technique analyse votre parking et vous recommande la solution la plus adaptée. Devis sous 24h, sans engagement.
+        <strong>Vous hésitez entre acrylique, thermoplastique et résine pour votre parking ?</strong> <Link href="/devis">Demandez un devis gratuit</Link> à Renov&apos;Route. Notre expert technique analyse votre parking et vous recommandé la solution la plus adaptée. Devis sous 24h, sans engagement.
       </p>
     </>
   )

@@ -54,7 +54,7 @@ export default function Content() {
         Vous avez un terrain brut, un parking effacé ou un projet de réaménagement. La question se pose : par où commencer pour tracer un parking proprement ?
       </p>
       <p>
-        Tracer un parking, ce n&apos;est pas simplement peindre des lignes au sol. C&apos;est un enchaînage précis : relevé du terrain, calcul du nombre de places, respect des dimensions réglementaires, intégration des places PMR, choix de la peinture, puis application dans les règles de l&apos;art. Rater une seule étape, c&apos;est risquer un parking non conforme, des places trop étroites ou un marquage qui s&apos;efface en quelques mois.
+        Tracer un parking, ce n&apos;est pas simplement peindre des lignes au sol. C&apos;est un enchaînage précis : relevé du terrain, calcul du nombre de places, respect des dimensions réglementaires, intégration des places PMR, choix de la peinture, puis application dans les règles de l&apos;art. Rater une seule étape, c&apos;est risquer un parking non conforme, des places trop étroites ou un marquage qui s&apos;effacé en quelques mois.
       </p>
       <p>
         Ce guide détaille les 7 étapes pour tracer un parking, du diagnostic initial à la réception du chantier. Que vous soyez gestionnaire de copropriété, responsable technique d&apos;une enseigne ou directeur de site industriel, vous saurez exactement ce qu&apos;il faut prévoir et dans quel ordre.
@@ -387,7 +387,7 @@ export default function Content() {
         <li><strong>Bornes anti-bélier</strong> pour protéger les vitrines et les zones piétonnes</li>
       </ul>
       <p>
-        Pour les <Link href="/competences/accessoires-parking">accessoires de parking</Link>, Renov&apos;Route fournit et installe tous les équipements complémentaires au traçage.
+        Pour les <Link href="/competences/accessoires-parking">accessoires de parking</Link>, Renov&apos;Route fournit et installé tous les équipements complémentaires au traçage.
       </p>
 
       <h2>Les 5 erreurs les plus fréquentes quand on trace un parking</h2>
@@ -399,7 +399,7 @@ export default function Content() {
 
       <h3>2. Oublier les places PMR</h3>
       <p>
-        C&apos;est l&apos;erreur la plus coûteuse. Un parking non conforme aux normes PMR expose le gestionnaire à une amende de 45 000 euros par infraction et à une interdiction d&apos;exploitation pour les ERP. Les places PMR ne sont pas un bonus ; c&apos;est une obligation légale.
+        C&apos;est l&apos;erreur la plus coûteuse. Un parking non conforme aux normes PMR exposé le gestionnaire à une amende de 45 000 euros par infraction et à une interdiction d&apos;exploitation pour les ERP. Les places PMR ne sont pas un bonus ; c&apos;est une obligation légale.
       </p>
 
       <h3>3. Tracer sur un sol humide ou gras</h3>
@@ -409,7 +409,7 @@ export default function Content() {
 
       <h3>4. Utiliser de la peinture non certifiée</h3>
       <p>
-        Une peinture sans certification NF EN 1436 n&apos;offre aucune garantie de durabilité ni de rétroréflexion. Elle coûte moins cher à l&apos;achat, mais s&apos;efface deux fois plus vite. Sur 5 ans, elle revient plus cher qu&apos;une peinture certifiée.
+        Une peinture sans certification NF EN 1436 n&apos;offre aucune garantie de durabilité ni de rétroréflexion. Elle coûte moins cher à l&apos;achat, mais s&apos;effacé deux fois plus vite. Sur 5 ans, elle revient plus cher qu&apos;une peinture certifiée.
       </p>
 
       <h3>5. Ne pas prévoir la signalisation verticale</h3>
@@ -462,7 +462,7 @@ export default function Content() {
 
       <h3>Peut-on tracer un parking sur du gravier ?</h3>
       <p>
-        Non, le marquage au sol nécessite une surface dure et lisse (enrobé, béton, résine). Sur du gravier, on utilise des délimiteurs physiques : rondins de bois, bordures béton, plots ou bandes de guidage.
+        Non, le marquage au sol nécessite une surface dure et lisse (enrobé, béton, résine). Sur du gravier, on utilisé des délimiteurs physiques : rondins de bois, bordures béton, plots ou bandes de guidage.
       </p>
 
       <h3>Quelle est la largeur minimale d&apos;une place de parking ?</h3>
@@ -472,7 +472,7 @@ export default function Content() {
 
       <h3>Combien coûte le traçage d&apos;un parking ?</h3>
       <p>
-        Le prix varie selon la surface, le type de peinture et l&apos;état du support. En ordre de grandeur : à partir de 8 euros/m² en peinture acrylique, à partir de 15 euros/m² en thermoplastique. Pour un parking de 50 places, comptez à partir de 4 000 euros. Consultez notre guide <Link href="/guides/prix-marquage-sol-parking">prix du marquage au sol de parking</Link> pour un budget détaillé.
+        Le prix varié selon la surface, le type de peinture et l&apos;état du support. En ordre de grandeur : à partir de 8 euros/m² en peinture acrylique, à partir de 15 euros/m² en thermoplastique. Pour un parking de 50 places, comptez à partir de 4 000 euros. Consultez notre guide <Link href="/guides/prix-marquage-sol-parking">prix du marquage au sol de parking</Link> pour un budget détaillé.
       </p>
 
       <h2>Conclusion : un traçage réussi se prépare</h2>

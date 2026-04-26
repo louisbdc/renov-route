@@ -19,7 +19,7 @@ export default function Content() {
         Un véhicule qui roule à 30 km/h dans un parking met 13 mètres à s&apos;arrêter. À 15 km/h, il s&apos;arrête en 4 mètres. Cette différence de 9 mètres, c&apos;est la distance entre un freinage maîtrisé et un accident.
       </p>
       <p>
-        François, gestionnaire d&apos;un parking de 120 places pour une clinique à Oullins (69), a appris cette leçon à ses dépens. En mars 2024, un véhicule roulant trop vite a percuté une borne et blessé un piéton dans le parking. L&apos;enquête a révélé l&apos;absence de tout dispositif de ralentissement. La responsabilité du gestionnaire a été retenue. Depuis, François a fait installer trois ralentisseurs conformes. L&apos;investissement total a represente quelques milliers d&apos;euros. Le cout de l&apos;accident, lui, depassait largement les 25 000 euros en frais medicaux, juridiques et reparations.
+        François, gestionnaire d&apos;un parking de 120 places pour une clinique à Oullins (69), a appris cette leçon à ses dépens. En mars 2024, un véhicule roulant trop vite a percuté une borne et blessé un piéton dans le parking. L&apos;enquête a révélé l&apos;absence de tout dispositif de ralentissement. La responsabilité du gestionnaire a été retenue. Depuis, François a fait installer trois ralentisseurs conformes. L&apos;investissement total a représenté quelques milliers d&apos;euros. Le coût de l&apos;accident, lui, depassait largement les 25 000 euros en frais médicaux, juridiques et réparations.
       </p>
       <p>
         Installer un ralentisseur dans un parking n&apos;est pas qu&apos;une question de sécurité. C&apos;est aussi une question de conformité : dimensions, signalisation, implantation, chaque détail est encadré par des normes précises.
@@ -47,7 +47,7 @@ export default function Content() {
 
       <h3>La norme NF P 98-300</h3>
       <p>
-        Cette norme complète le décret en précisant les spécifications techniques : profil géométrique, matériaux, caractéristiques antidérapantes et signalisation associée. Elle s&apos;applique aux ralentisseurs en dur (béton, enrobé).
+        Cette norme complète le décret en précisant les spécifications techniques : profil géométrique, matériaux, caractéristiques antidérapantes et signalisation associée. Elle s&apos;appliqué aux ralentisseurs en dur (béton, enrobé).
       </p>
 
       <h3>Et les parkings privés ?</h3>
@@ -161,7 +161,7 @@ export default function Content() {
         <strong>Usage recommandé :</strong> parkings privés, parkings temporaires, chantiers, zones où la configuration peut évoluer.
       </p>
       <p>
-        Carole, directrice d&apos;un centre de formation à Écully (69), a opté pour des ralentisseurs modulaires en caoutchouc devant l&apos;entrée de son parking de 40 places. Installation en une demi-journée, sans perturber les cours. Deux ans plus tard, les modules sont toujours en place et efficaces. L&apos;investissement pour les trois elements, pose comprise, est reste tres raisonnable.
+        Carole, directrice d&apos;un centre de formation à Écully (69), a opté pour des ralentisseurs modulaires en caoutchouc devant l&apos;entrée de son parking de 40 places. Installation en une demi-journée, sans perturber les cours. Deux ans plus tard, les modules sont toujours en place et efficaces. L&apos;investissement pour les trois éléments, pose comprise, est reste très raisonnable.
       </p>
 
       <h2>Tableau comparatif des ralentisseurs</h2>
@@ -182,7 +182,7 @@ export default function Content() {
               <td>Dos d&apos;âne (type A)</td>
               <td>10 cm</td>
               <td>Toute la voie</td>
-              <td>a partir de 1 400 euros</td>
+              <td>à partir de 1 400 euros</td>
               <td>15-20 ans</td>
               <td>Oui</td>
             </tr>
@@ -190,7 +190,7 @@ export default function Content() {
               <td>Plateau surélevé (type B)</td>
               <td>10 cm</td>
               <td>Toute la voie</td>
-              <td>a partir de 3 500 euros</td>
+              <td>à partir de 3 500 euros</td>
               <td>15-20 ans</td>
               <td>Oui</td>
             </tr>
@@ -198,7 +198,7 @@ export default function Content() {
               <td>Coussin berlinois</td>
               <td>6-7 cm</td>
               <td>Partielle</td>
-              <td>a partir de 1 000 euros</td>
+              <td>à partir de 1 000 euros</td>
               <td>10-15 ans</td>
               <td>Toléré</td>
             </tr>
@@ -206,7 +206,7 @@ export default function Content() {
               <td>Bandes sonores</td>
               <td>3-5 mm</td>
               <td>Toute la voie</td>
-              <td>a partir de 350 euros</td>
+              <td>à partir de 350 euros</td>
               <td>5-10 ans</td>
               <td>Non (alerte)</td>
             </tr>
@@ -214,7 +214,7 @@ export default function Content() {
               <td>Modulaire caoutchouc</td>
               <td>5-7 cm</td>
               <td>Toute la voie</td>
-              <td>a partir de 550 euros</td>
+              <td>à partir de 550 euros</td>
               <td>5-8 ans</td>
               <td>Non</td>
             </tr>
@@ -290,7 +290,7 @@ export default function Content() {
         Un ralentisseur modulaire décollé, un plateau surélevé fissuré ou un marquage effacé ne remplissent plus leur fonction et deviennent des pièges. Prévoyez une inspection annuelle et un entretien préventif.
       </p>
       <p>
-        Julien, responsable maintenance d&apos;un parking de centre commercial à Villeurbanne (69), a découvert lors d&apos;une inspection que deux de ses ralentisseurs modulaires s&apos;étaient partiellement décollés après trois hivers. Les éléments déplacés créaient des arêtes vives dangereuses pour les piétons. Nous sommes intervenus pour réancrer les modules et remplacer les fixations corrodées. Le cout de la remise en etat est reste modeste, bien en deca du risque juridique encouru.
+        Julien, responsable maintenance d&apos;un parking de centre commercial à Villeurbanne (69), a découvert lors d&apos;une inspection que deux de ses ralentisseurs modulaires s&apos;étaient partiellement décollés après trois hivers. Les éléments déplacés créaient des arêtes vives dangereuses pour les piétons. Nous sommes intervenus pour réancrer les modules et remplacer les fixations corrodées. Le coût de la remise en etat est reste modeste, bien en deca du risque juridique encouru.
       </p>
 
       <h2>Ralentisseur et traçage de parking : une approche globale</h2>
@@ -314,7 +314,7 @@ export default function Content() {
 
       <h3>Quelle est la hauteur maximale d&apos;un ralentisseur de parking ?</h3>
       <p>
-        10 centimètres, selon le décret 94-447 et la norme NF P 98-300. Cette hauteur s&apos;applique aux dos d&apos;âne (type A) et aux plateaux surélevés (type B). Les ralentisseurs modulaires en caoutchouc ont généralement une hauteur de 5 à 7 centimètres.
+        10 centimètres, selon le décret 94-447 et la norme NF P 98-300. Cette hauteur s&apos;appliqué aux dos d&apos;âne (type A) et aux plateaux surélevés (type B). Les ralentisseurs modulaires en caoutchouc ont généralement une hauteur de 5 à 7 centimètres.
       </p>
 
       <h3>Peut-on installer un ralentisseur dans un parking privé ?</h3>
@@ -324,7 +324,7 @@ export default function Content() {
 
       <h3>Quel est le prix d&apos;un ralentisseur de parking ?</h3>
       <p>
-        A partir de 550 euros pour un ralentisseur modulaire en caoutchouc et a partir de 3 500 euros pour un plateau sureleve en enrobe, pose et signalisation comprises. Le cout depend du type de ralentisseur, de la largeur de la voie et des travaux de voirie necessaires.
+        À partir de 550 euros pour un ralentisseur modulaire en caoutchouc et à partir de 3 500 euros pour un plateau sureleve en enrobe, pose et signalisation comprises. Le coût dépend du type de ralentisseur, de la largeur de la voie et des travaux de voirie nécessaires.
       </p>
 
       <h3>Faut-il un panneau de signalisation avec un ralentisseur ?</h3>

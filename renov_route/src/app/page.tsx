@@ -68,7 +68,7 @@ const services = [
 const faqItems = [
   {
     question: "Combien co\u00FBte le marquage au sol d'un parking ?",
-    answer: "Le prix varie selon la surface et le type de marquage : comptez 8 \u00E0 15 \u20AC/m\u00B2 pour un tra\u00E7age complet de parking. Un parking de 100 places revient en moyenne entre 8 000 et 15 000 \u20AC, marquage + signalisation inclus. Nos devis sont gratuits, sans engagement, et envoy\u00E9s sous 24h.",
+    answer: "Le prix varié selon la surface et le type de marquage : comptez 8 \u00E0 15 \u20AC/m\u00B2 pour un tra\u00E7age complet de parking. Un parking de 100 places revient en moyenne entre 8 000 et 15 000 \u20AC, marquage + signalisation inclus. Nos devis sont gratuits, sans engagement, et envoy\u00E9s sous 24h.",
   },
   {
     question: "Combien de temps durent les travaux de marquage ?",
@@ -80,7 +80,7 @@ const faqItems = [
   },
   {
     question: "Mon parking doit-il \u00EAtre aux normes PMR ?",
-    answer: "Oui, tout parking ouvert au public doit disposer de 2% de places PMR (3,30 m x 5 m minimum). La non-conformit\u00E9 expose \u00E0 des sanctions jusqu'\u00E0 45 000 \u20AC. Nous assurons la mise aux normes compl\u00E8te : tra\u00E7age, pictogrammes, panneaux et bandes de guidage.",
+    answer: "Oui, tout parking ouvert au public doit disposer de 2% de places PMR (3,30 m x 5 m minimum). La non-conformit\u00E9 exposé \u00E0 des sanctions jusqu'\u00E0 45 000 \u20AC. Nous assurons la mise aux normes compl\u00E8te : tra\u00E7age, pictogrammes, panneaux et bandes de guidage.",
   },
   {
     question: "Dans quelles r\u00E9gions intervenez-vous ?",
@@ -242,7 +242,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Marquee editorial — transition visuelle */}
+        {/* Marquée éditorial — transition visuelle */}
         <MarqueeEditorial
           items={['SÉCURITÉ', 'RIGUEUR', 'DURABILITÉ', 'NORME NF EN 1436', 'ACCESSIBILITÉ PMR', 'LYON · RHÔNE-ALPES']}
           duration={45}
@@ -310,7 +310,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* References Section */}
+        {/* Références Section */}
         <section id="references" className="py-20 sm:py-28 px-6 bg-[#F8FAFC]">
           <div className="max-w-7xl mx-auto mb-12">
             <MotionDiv
@@ -389,7 +389,7 @@ export default function Home() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
               {[
-                { name: 'Bertrand de LONGEVIALLE', text: 'Compétence et réactivité ! je recommande !', rating: 5 },
+                { name: 'Bertrand de LONGEVIALLE', text: 'Compétence et réactivité ! je recommandé !', rating: 5 },
                 { name: 'Estelle Pons', text: 'Une solution simple, rapide et peu onéreuse pour reboucher des trous en formation sur les routes et parking. Un bon plan pour les copropriétés', rating: 5 },
               ].map((review, index) => (
                 <MotionDiv
@@ -481,7 +481,7 @@ export default function Home() {
               ].map((guide, index) => (
                 <Link key={guide.href} href={guide.href}>
                   <MotionDiv
-                    className="h-full bg-white p-8 border border-slate-200 card-editorial-hover group"
+                    className="h-full bg-white p-8 border border-slate-200 card-éditorial-hover group"
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}

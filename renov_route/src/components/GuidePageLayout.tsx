@@ -68,7 +68,7 @@ export default function GuidePageLayout({ guide, children }: GuidePageLayoutProp
     <Layout>
       <SafariAnimationFix>
 
-        {/* Hero — dark editorial, optional guide-specific cover image */}
+        {/* Hero — dark éditorial, optional guide-specific cover image */}
         <section className="pt-28 sm:pt-36 pb-16 sm:pb-20 px-6 relative overflow-hidden bg-[#0F172A]">
           {coverImage && (
             <div className="absolute inset-0">
@@ -201,7 +201,7 @@ export default function GuidePageLayout({ guide, children }: GuidePageLayoutProp
                     <Link
                       key={related.slug}
                       href={`/guides/${related.slug}`}
-                      className="bg-white border border-slate-200 card-editorial-hover group overflow-hidden flex flex-col"
+                      className="bg-white border border-slate-200 card-éditorial-hover group overflow-hidden flex flex-col"
                     >
                       {relatedImage && (
                         <div className="relative aspect-[16/10] overflow-hidden">

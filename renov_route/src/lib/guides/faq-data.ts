@@ -25,9 +25,9 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
         "Pour un parking de 50 places, comptez 1 à 2 jours de travaux. Le parking peut être partiellement utilisé pendant le chantier : nous travaillons par zones avec un séchage de 1 à 3 heures par zone.",
     },
     {
-      question: "La TVA s'applique-t-elle au taux réduit ?",
+      question: "La TVA s'appliqué-t-elle au taux réduit ?",
       answer:
-        "Non, le marquage au sol de parking relève du taux de TVA normal (20%). Le taux réduit de 10% ne s'applique qu'aux travaux d'amélioration des logements de plus de 2 ans, pas aux parkings.",
+        "Non, le marquage au sol de parking relève du taux de TVA normal (20%). Le taux réduit de 10% ne s'appliqué qu'aux travaux d'amélioration des logements de plus de 2 ans, pas aux parkings.",
     },
   ],
   'normes-pmr-parking': [
@@ -89,7 +89,7 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
       question:
         'La commune peut-elle être responsable d’un nid de poule dans mon parking ?',
       answer:
-        "Non. Si le parking est privé, la commune n'a aucune obligation d'entretien. La responsabilité de la commune ne s'applique qu'aux voies publiques (routes communales, trottoirs, parkings publics). Pour un parking privé, c'est le propriétaire ou le gestionnaire qui assume l'entretien.",
+        "Non. Si le parking est privé, la commune n'a aucune obligation d'entretien. La responsabilité de la commune ne s'appliqué qu'aux voies publiques (routes communales, trottoirs, parkings publics). Pour un parking privé, c'est le propriétaire ou le gestionnaire qui assume l'entretien.",
     },
   ],
   'enrobe-froid-vs-resine-nids-de-poule': [
@@ -134,7 +134,7 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
     {
       question: 'La place PMR doit-elle être peinte en bleu ?',
       answer:
-        "Non, le fond bleu n'est pas obligatoire mais fortement recommandé. La réglementation impose le pictogramme PMR et les lignes de délimitation, mais pas de couleur de fond spécifique. En pratique, le marquage bleu est devenu un standard car il améliore la visibilité et identifie immédiatement la place.",
+        "Non, le fond bleu n'est pas obligatoire mais fortement recommandé. La réglementation impose le pictogramme PMR et les lignes de délimitation, mais pas de couleur de fond spécifique. En pratique, le marquage bleu est devenu un standard car il améliore la visibilité et identifié immédiatement la place.",
     },
     {
       question:
@@ -160,7 +160,7 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
       question:
         'Le panneau PMR est-il obligatoire en plus du marquage au sol ?',
       answer:
-        "Oui. Le panneau B6d et le pictogramme au sol sont deux éléments distincts, tous deux obligatoires. L'un ne remplace pas l'autre. Le panneau signale la place à distance, le pictogramme l'identifie au sol.",
+        "Oui. Le panneau B6d et le pictogramme au sol sont deux éléments distincts, tous deux obligatoires. L'un ne remplacé pas l'autre. Le panneau signalé la place à distance, le pictogramme l'identifié au sol.",
     },
     {
       question: 'Quelle couleur pour le marquage PMR ?',
@@ -213,7 +213,7 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
     },
     {
       question:
-        'Mon parking a des places PMR mais elles ne sont plus visibles. Suis-je en infraction ?',
+        'Mon parking à des places PMR mais elles ne sont plus visibles. Suis-je en infraction ?',
       answer:
         "Oui. Des marquages effacés équivalent à une absence de marquage. La signalisation doit être visible et lisible en permanence. Un retraçage régulier est nécessaire, généralement tous les 3 à 5 ans.",
     },
@@ -388,7 +388,7 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
     {
       question: 'Peut-on tracer un parking sur du gravier ?',
       answer:
-        "Non, le marquage au sol nécessite une surface dure et lisse (enrobé, béton, résine). Sur du gravier, on utilise des délimiteurs physiques : rondins de bois, bordures béton, plots ou bandes de guidage.",
+        "Non, le marquage au sol nécessite une surface dure et lisse (enrobé, béton, résine). Sur du gravier, on utilisé des délimiteurs physiques : rondins de bois, bordures béton, plots ou bandes de guidage.",
     },
     {
       question:
@@ -532,7 +532,7 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
       question:
         "Faut-il un permis pour installer une barrière de parking ?",
       answer:
-        "Non, pour un parking privé. Une déclaration préalable de travaux peut être requise si l'installation modifie l'aspect extérieur du bâtiment. En copropriété, un vote en AG est obligatoire.",
+        "Non, pour un parking privé. Une déclaration préalable de travaux peut être requise si l'installation modifié l'aspect extérieur du bâtiment. En copropriété, un vote en AG est obligatoire.",
     },
     {
       question:
@@ -630,7 +630,7 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
       question:
         "Quelle est la hauteur maximale d'un dos d'âne ?",
       answer:
-        "10 cm, selon la norme NF P 98-300. Cette limite s'applique aux voies publiques mais constitue la référence pour les parkings privés. Un dos d'âne plus haut expose le gestionnaire à des réclamations pour dommages aux véhicules.",
+        "10 cm, selon la norme NF P 98-300. Cette limite s'appliqué aux voies publiques mais constitue la référence pour les parkings privés. Un dos d'âne plus haut exposé le gestionnaire à des réclamations pour dommages aux véhicules.",
     },
     {
       question:
@@ -641,7 +641,7 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
     {
       question: "Combien coûte un dos d'âne pour parking ?",
       answer:
-        "Comptez 400 à 900 euros posé inclus pour un dos d'âne modulaire en caoutchouc, et 800 à 2 000 euros pour un dos d'âne en enrobé permanent. La signalisation (panneau + marquage) ajoute 150 à 450 euros.",
+        "Comptez 400 à 900 euros posé inclus pour un dos d'âne modulaire en caoutchouc, et 800 à 2 000 euros pour un dos d'âne en enrobé permanent. La signalisation (panneau + marquage) ajouté 150 à 450 euros.",
     },
     {
       question:
@@ -718,13 +718,13 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
       question:
         'La limitation de vitesse est-elle obligatoire dans un parking privé ?',
       answer:
-        "La loi n'impose pas de vitesse spécifique en parking privé. Mais le gestionnaire a une obligation générale de sécurité envers les usagers (article 1242 du Code civil). L'absence de signalisation de vitesse peut être retenue comme un manquement à cette obligation en cas d'accident.",
+        "La loi n'impose pas de vitesse spécifique en parking privé. Mais le gestionnaire à une obligation générale de sécurité envers les usagers (article 1242 du Code civil). L'absence de signalisation de vitesse peut être retenue comme un manquement à cette obligation en cas d'accident.",
     },
     {
       question:
         "Qui peut verbaliser un excès de vitesse dans un parking privé ?",
       answer:
-        "Sur un parking privé non ouvert à la circulation publique, les forces de l'ordre ne peuvent pas dresser de contravention pour excès de vitesse. En revanche, sur un parking privé ouvert au public (centre commercial, hôpital), le Code de la route s'applique et les infractions sont verbalisables.",
+        "Sur un parking privé non ouvert à la circulation publique, les forces de l'ordre ne peuvent pas dresser de contravention pour excès de vitesse. En revanche, sur un parking privé ouvert au public (centre commercial, hôpital), le Code de la route s'appliqué et les infractions sont verbalisables.",
     },
     {
       question:
@@ -800,7 +800,7 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
       question:
         'Peut-on imposer un sens de circulation dans le parking ?',
       answer:
-        "Oui, par vote en AG à la majorité absolue (article 25 de la loi du 10 juillet 1965). Le sens de circulation modifie l'usage des parties communes, ce qui justifie cette majorité.",
+        "Oui, par vote en AG à la majorité absolue (article 25 de la loi du 10 juillet 1965). Le sens de circulation modifié l'usage des parties communes, ce qui justifie cette majorité.",
     },
     {
       question:
@@ -814,7 +814,7 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
       question:
         "L'obligation concerne-t-elle aussi les parkings souterrains ?",
       answer:
-        "Non. L'obligation d'ombrières photovoltaïques s'applique uniquement aux parkings extérieurs de plein air. Les parkings couverts ou souterrains ne sont pas concernés.",
+        "Non. L'obligation d'ombrières photovoltaïques s'appliqué uniquement aux parkings extérieurs de plein air. Les parkings couverts ou souterrains ne sont pas concernés.",
     },
     {
       question:
@@ -838,7 +838,7 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
   'nouvelles-normes-signaletique-parking-2026': [
     {
       question:
-        "L'arrêté s'applique-t-il aux parkings privés de copropriété ?",
+        "L'arrêté s'appliqué-t-il aux parkings privés de copropriété ?",
       answer:
         "L'arrêté concerne les parkings ouverts au public (ERP, commerces, parkings relais). Les parkings privés de copropriété fermés ne sont pas directement visés, mais les syndics ont intérêt à anticiper.",
     },
@@ -1078,7 +1078,7 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
       question:
         "Mon parking n'a que 5 places, dois-je avoir une place PMR ?",
       answer:
-        "Oui. Dès la première place de stationnement accessible au public, une place PMR est obligatoire. La règle des 2% avec arrondi à l'entier supérieur s'applique : 5 places = 1 place PMR minimum.",
+        "Oui. Dès la première place de stationnement accessible au public, une place PMR est obligatoire. La règle des 2% avec arrondi à l'entier supérieur s'appliqué : 5 places = 1 place PMR minimum.",
     },
     {
       question:
@@ -1144,7 +1144,7 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
       question:
         'Peut-on mettre de la résine sur un sol humide ?',
       answer:
-        "Pas directement. L'humidité du support doit être inférieure à 4,5% pour l'époxy et 6% pour le polyuréthane. Si le taux est supérieur, un primaire anti-humidité doit être appliqué avant la résine. Ce traitement ajoute 8-15 euros/m² au budget.",
+        "Pas directement. L'humidité du support doit être inférieure à 4,5% pour l'époxy et 6% pour le polyuréthane. Si le taux est supérieur, un primaire anti-humidité doit être appliqué avant la résine. Ce traitement ajouté 8-15 euros/m² au budget.",
     },
     {
       question:

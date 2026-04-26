@@ -32,7 +32,7 @@ export default function Content() {
 
       <h3>Parking d'entreprise ou de commerce</h3>
       <p>
-        Le responsable est l'exploitant du parking, c'est-à-dire celui qui en a l'usage et qui accueille le public. Pour un supermarché, c'est l'enseigne. Pour un restaurant, c'est le gérant. Pour un hôtel, c'est l'hôtelier.
+        Le responsable est l'exploitant du parking, c'est-à-dire celui qui en à l'usage et qui accueille le public. Pour un supermarché, c'est l'enseigne. Pour un restaurant, c'est le gérant. Pour un hôtel, c'est l'hôtelier.
       </p>
       <p>Le fondement juridique est double :</p>
       <ul>
@@ -68,7 +68,7 @@ export default function Content() {
       </p>
       <ul>
         <li><strong>Si le contrat met l'entretien à la charge de l'exploitant</strong> (cas le plus fréquent) : l'exploitant est responsable</li>
-        <li><strong>Si le contrat ne précise rien</strong> : la jurisprudence considère que le gardien effectif (celui qui a l'usage quotidien et le contrôle du parking) est responsable</li>
+        <li><strong>Si le contrat ne précise rien</strong> : la jurisprudence considère que le gardien effectif (celui qui à l'usage quotidien et le contrôle du parking) est responsable</li>
         <li><strong>En cas de vice caché du sol</strong> (problème structurel préexistant au bail) : le propriétaire peut être tenu responsable</li>
       </ul>
       <p>
@@ -200,7 +200,7 @@ export default function Content() {
 
       <h3>La commune peut-elle être responsable d'un nid de poule dans mon parking ?</h3>
       <p>
-        Non. Si le parking est privé, la commune n'a aucune obligation d'entretien. La responsabilité de la commune ne s'applique qu'aux voies publiques (routes communales, trottoirs, parkings publics). Pour un parking privé, c'est le propriétaire ou le gestionnaire qui assume l'entretien.
+        Non. Si le parking est privé, la commune n'a aucune obligation d'entretien. La responsabilité de la commune ne s'appliqué qu'aux voies publiques (routes communales, trottoirs, parkings publics). Pour un parking privé, c'est le propriétaire ou le gestionnaire qui assume l'entretien.
       </p>
 
       <h2>Mieux vaut prévenir que plaider</h2>

@@ -89,11 +89,11 @@ export default function ResineSolMarquageInterieurPage() {
         heroBackgroundImage="/assets/images/hero-resine-sol.webp"
         heroImageAlt="Application de résine époxy sur sol industriel à Lyon par Rénov Route"
         accentColor="violet"
-        descriptionHeading="Sol industriel Lyon : résine epoxy et marquage intérieur"
+        descriptionHeading="Sol industriel Lyon : résine époxy et marquage intérieur"
         descriptionParagraphs={[
           'La résine époxy transforme vos sols industriels et commerciaux en surfaces durables, hygiéniques et esthétiques, parfaites pour les environnements soumis à des contraintes mécaniques ou chimiques importantes. Basés à Lyon, nous intervenons dans toute la région Rhône-Alpes.',
           <>Nous réalisons tous types de marquage intérieur : délimitation de zones de travail, allées de circulation, zones de stockage, marquage de sécurité réglementaire et signalétique au sol personnalisée. Pour les parkings, nous assurons aussi le <Link href="/competences/tracage-retracage-parking" className="text-[#FACC15] hover:text-[#0F172A] underline">marquage au sol de parking</Link> ainsi que la pose d&apos;<Link href="/competences/accessoires-parking" className="text-[#FACC15] hover:text-[#0F172A] underline">accessoires de parking</Link>.</>,
-          <>Notre expertise en sol industriel à Lyon couvre les usines, entrepôts, ateliers, centres commerciaux, parkings couverts et espaces logistiques. Découvrez nos <Link href="/realisations" className="text-[#FACC15] hover:text-[#0F172A] underline">réalisations</Link> et consultez notre <Link href="/guides/resine-epoxy-ou-peinture-sol-comparatif" className="text-[#FACC15] hover:text-[#0F172A] underline">comparatif résine epoxy vs peinture de sol</Link>.</>,
+          <>Notre expertise en sol industriel à Lyon couvre les usines, entrepôts, ateliers, centres commerciaux, parkings couverts et espaces logistiques. Découvrez nos <Link href="/realisations" className="text-[#FACC15] hover:text-[#0F172A] underline">réalisations</Link> et consultez notre <Link href="/guides/resine-epoxy-ou-peinture-sol-comparatif" className="text-[#FACC15] hover:text-[#0F172A] underline">comparatif résine époxy vs peinture de sol</Link>.</>,
         ]}
         features={FEATURES}
         ctaTitle="Transformez vos sols et espaces intérieurs"

@@ -116,7 +116,7 @@ export default function ResineSolMarquageInterieurPage() {
           <section className="py-12 sm:py-16 lg:py-20 px-4 relative">
             <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900"></div>
             
-            {/* Glassmorphism background elements */}
+            {/* Glassmorphism background éléments */}
             <div className="absolute inset-0 bg-gradient-to-br from-white/3 via-transparent to-white/3 backdrop-blur-sm"></div>
             <div className="absolute top-1/4 left-1/4 w-64 sm:w-96 h-64 sm:h-96 bg-purple-500/8 rounded-full blur-3xl"></div>
             <div className="absolute bottom-1/4 right-1/4 w-64 sm:w-96 h-64 sm:h-96 bg-pink-500/8 rounded-full blur-3xl"></div>
@@ -451,7 +451,7 @@ export default function ResineSolMarquageInterieurPage() {
             <div className="absolute inset-0 bg-gradient-to-br from-gray-800 via-gray-900 to-gray-800"></div>
             <div className="absolute inset-0 bg-[url('/assets/images/realisations/background_competence_page.avif')] bg-cover bg-center opacity-10"></div>
             
-            {/* Glassmorphism background elements */}
+            {/* Glassmorphism background éléments */}
             <div className="absolute inset-0 bg-gradient-to-br from-white/3 via-transparent to-white/3 backdrop-blur-sm"></div>
             <div className="absolute top-1/4 left-1/4 w-64 sm:w-96 h-64 sm:h-96 bg-purple-500/8 rounded-full blur-3xl"></div>
             <div className="absolute bottom-1/4 right-1/4 w-64 sm:w-96 h-64 sm:h-96 bg-pink-500/8 rounded-full blur-3xl"></div>

@@ -22,7 +22,7 @@ export default function Content() {
         Damien, directeur technique d&apos;un groupe immobilier à Lyon, a fait appliquer une résine époxy dans le parking souterrain d&apos;une de ses résidences (180 places, 3 200 m²) en 2023. Avant les travaux, le sol béton générait des plaintes constantes : poussière sur les véhicules, taches d&apos;huile impossibles à nettoyer, marquage au sol qui ne tenait pas plus de 6 mois. Deux ans après l&apos;application de la résine, le sol est intact, le marquage tient parfaitement et les charges d&apos;entretien ont baissé de 60%. L&apos;investissement a été rapidement amorti grâce aux économies d&apos;entretien significatives sur la durée.
       </p>
       <p>
-        Résine époxy, polyuréthane, méthacrylate : chaque type a ses avantages, ses limites et son prix. Ce guide compare les options, détaille les prix au m² et explique les conditions d&apos;une application réussie.
+        Résine époxy, polyuréthane, méthacrylate : chaque type à ses avantages, ses limites et son prix. Ce guide compare les options, détaille les prix au m² et explique les conditions d&apos;une application réussie.
       </p>
 
       <h2>Les types de résine pour sol de parking</h2>
@@ -298,7 +298,7 @@ export default function Content() {
 
       <h2>Un sol de parking qui dure, c&apos;est un sol en résine</h2>
       <p>
-        La résine de sol est l&apos;investissement le plus rentable pour un parking souterrain ou couvert. Elle protège le béton, facilite l&apos;entretien, améliore la visibilité du marquage et dure 3 à 4 fois plus longtemps qu&apos;une peinture classique.
+        La résine de sol est l&apos;investissement le plus rentable pour un parking souterrain ou couvert. Elle protège le béton, facilité l&apos;entretien, améliore la visibilité du marquage et dure 3 à 4 fois plus longtemps qu&apos;une peinture classique.
       </p>
       <p>
         Le choix entre époxy, polyuréthane et méthacrylate dépend de l&apos;exposition (intérieur/extérieur), du trafic et du budget disponible pour l&apos;immobilisation du parking.

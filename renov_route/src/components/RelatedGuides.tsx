@@ -38,7 +38,7 @@ export default function RelatedGuides({
             <Link
               key={guide.href}
               href={guide.href}
-              className="group flex items-start gap-4 p-6 bg-white border border-slate-200 card-editorial-hover"
+              className="group flex items-start gap-4 p-6 bg-white border border-slate-200 card-éditorial-hover"
             >
               <TbBook2 size={20} className="text-[#FACC15] mt-0.5 shrink-0" />
               <span className="text-sm text-[#0F172A] font-semibold group-hover:text-[#FACC15] transition-colors leading-snug">
@@ -86,10 +86,10 @@ export const COMPETENCE_GUIDES: Record<string, GuideLink[]> = {
   ],
   'reparation-nids-de-poule': [
     { href: '/guides/enrobe-froid-vs-resine-nids-de-poule', title: 'Enrobé froid vs résine : comparatif nids de poule' },
-    { href: '/guides/nid-de-poule-responsabilite-parking', title: 'Nid de poule & responsabilité parking' },
+    { href: '/guides/nid-de-poule-responsabilité-parking', title: 'Nid de poule & responsabilité parking' },
     { href: '/guides/nids-de-poule-hiver-2026-solutions', title: 'Nids de poule hiver 2026 : solutions' },
     { href: '/guides/reparer-nid-de-poule-soi-meme', title: 'Réparer un nid de poule soi-même' },
-    { href: '/guides/reparation-chaussee-parking-methodes-prix', title: 'Réparation chaussée parking : méthodes & prix' },
+    { href: '/guides/reparation-chaussée-parking-methodes-prix', title: 'Réparation chaussée parking : méthodes & prix' },
     { href: '/guides/calendrier-entretien-parking', title: 'Calendrier d\'entretien parking' },
     { href: '/guides/entretien-parking-signes-renovation', title: 'Entretien parking : signes de rénovation' },
   ],
@@ -127,7 +127,7 @@ export const COMPETENCE_GUIDES: Record<string, GuideLink[]> = {
     { href: '/guides/mise-en-conformite-parking-pmr', title: 'Mise en conformité parking PMR' },
     { href: '/guides/accessibilite-parking-erp-normes', title: 'Accessibilité parking ERP : normes' },
     { href: '/guides/ombriere-photovoltaique-parking-2026', title: 'Ombrière photovoltaïque parking 2026' },
-    { href: '/guides/parking-visiteurs-amenagement', title: 'Parking visiteurs : aménagement' },
+    { href: '/guides/parking-visiteurs-aménagement', title: 'Parking visiteurs : aménagement' },
     { href: '/guides/place-bleu-parking-zone-bleue', title: 'Place bleue parking : zone bleue' },
   ],
 }

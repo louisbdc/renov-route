@@ -143,7 +143,7 @@ export default function Filters({ onFilterChange, className = '' }: FilterProps)
           >
             <div className="mt-4 bg-white border border-slate-200 p-6 sm:p-8">
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {/* Categories */}
+                {/* Catégories */}
                 <div>
                   <label className="block text-[10px] font-black uppercase tracking-[0.25em] text-slate-500 mb-4">
                     Catégorie

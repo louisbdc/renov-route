@@ -88,7 +88,7 @@ const competences = [
   {
     id: 6,
     title: 'Conseil et expertise',
-    description: 'Notre équipe vous accompagne dans vos projets d\'amélioration.',
+    description: 'Notre équipe vous accompagné dans vos projets d\'amélioration.',
     icon: '💡',
     features: [
       'Étude de faisabilité',
@@ -166,7 +166,7 @@ export default function CompetencesPage() {
                   "itemOffered": {
                     "@type": "Service",
                     "name": "Conseil et expertise",
-                    "description": "Notre équipe vous accompagne dans vos projets d'amélioration"
+                    "description": "Notre équipe vous accompagné dans vos projets d'amélioration"
                   }
                 }
               ]
@@ -229,7 +229,7 @@ export default function CompetencesPage() {
       <section className="py-12 sm:py-16 lg:py-20 px-4 relative">
         <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900"></div>
         
-        {/* Glassmorphism background elements */}
+        {/* Glassmorphism background éléments */}
         <div className="absolute inset-0 bg-gradient-to-br from-white/3 via-transparent to-white/3 backdrop-blur-sm"></div>
         <div className="absolute top-1/4 left-1/4 w-64 sm:w-96 h-64 sm:h-96 bg-blue-500/8 rounded-full blur-3xl"></div>
         <div className="absolute bottom-1/4 right-1/4 w-64 sm:w-96 h-64 sm:h-96 bg-cyan-500/8 rounded-full blur-3xl"></div>
@@ -396,7 +396,7 @@ export default function CompetencesPage() {
         <div className="absolute inset-0 bg-gradient-to-br from-gray-800 via-gray-900 to-gray-800"></div>
         <div className="absolute inset-0 competences-background opacity-10"></div>
         
-        {/* Glassmorphism background elements */}
+        {/* Glassmorphism background éléments */}
         <div className="absolute inset-0 bg-gradient-to-br from-white/3 via-transparent to-white/3 backdrop-blur-sm"></div>
         <div className="absolute top-1/4 left-1/4 w-64 sm:w-96 h-64 sm:h-96 bg-blue-500/8 rounded-full blur-3xl"></div>
         <div className="absolute bottom-1/4 right-1/4 w-64 sm:w-96 h-64 sm:h-96 bg-cyan-500/8 rounded-full blur-3xl"></div>

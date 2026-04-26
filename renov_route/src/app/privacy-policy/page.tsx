@@ -5,14 +5,14 @@ import { CookiePreferences } from '@/components/CookieConsent'
 
 export const metadata: Metadata = {
   title: 'Politique de confidentialité - Renov Route',
-  description: 'Découvrez comment Renov Route collecte, utilise et protège vos données personnelles conformément au RGPD.',
+  description: 'Découvrez comment Renov Route collecte, utilisé et protège vos données personnelles conformément au RGPD.',
   robots: 'index, follow',
   alternates: {
     canonical: 'https://renov-route.com/privacy-policy/',
   },
   openGraph: {
     title: 'Politique de confidentialité - Renov Route',
-    description: 'Découvrez comment Renov Route collecte, utilise et protège vos données personnelles conformément au RGPD.',
+    description: 'Découvrez comment Renov Route collecte, utilisé et protège vos données personnelles conformément au RGPD.',
     type: 'website',
     url: 'https://renov-route.com/privacy-policy/',
     images: [{ url: 'https://renov-route.com/assets/images/og-image.jpg', width: 1200, height: 630, alt: 'Renov Route' }],
@@ -82,7 +82,7 @@ export default function PrivacyPolicyPage() {
 
             <section>
               <h2 className="text-xl font-black italic uppercase tracking-tight text-[#0F172A] mb-4">3. Utilisation des cookies</h2>
-              <p className="mb-4">Notre site utilise deux types de cookies :</p>
+              <p className="mb-4">Notre site utilisé deux types de cookies :</p>
 
               <div className="space-y-3">
                 <div className="bg-[#F8FAFC] border-l-4 border-[#0F172A] p-6">

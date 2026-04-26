@@ -105,20 +105,20 @@ const SERVICES: Record<ServiceSlug, ServiceDetails> = {
 }
 
 export default function ServiceStructuredData({ serviceType }: ServiceStructuredDataProps) {
-  const details = SERVICES[serviceType]
+  const détails = SERVICES[serviceType]
   const url = `https://renov-route.com/competences/${serviceType}/`
 
   const structuredData = {
     '@context': 'https://schema.org',
     '@type': 'Service',
     '@id': `${url}#service`,
-    name: details.name,
-    description: details.description,
+    name: détails.name,
+    description: détails.description,
     url,
-    image: details.image,
-    serviceType: details.name,
+    image: détails.image,
+    serviceType: détails.name,
     category: 'Construction Service',
-    serviceOutput: details.serviceOutput,
+    serviceOutput: détails.serviceOutput,
     inLanguage: 'fr-FR',
     provider: { '@id': 'https://renov-route.com/#organization' },
     areaServed: [
@@ -142,8 +142,8 @@ export default function ServiceStructuredData({ serviceType }: ServiceStructured
     },
     hasOfferCatalog: {
       '@type': 'OfferCatalog',
-      name: details.offerName,
-      itemListElement: details.itemOffered.map(item => ({
+      name: détails.offerName,
+      itemListElement: détails.itemOffered.map(item => ({
         '@type': 'Offer',
         itemOffered: {
           '@type': 'Service',

@@ -21,7 +21,7 @@ export default function Content() {
         dont le parking ne respecte pas les <strong>normes PMR</strong> (Personne à Mobilité Réduite).
       </p>
       <p>
-        Pourtant, la réglementation est moins compliquée qu&apos;elle n&apos;en a l&apos;air.
+        Pourtant, la réglementation est moins compliquée qu&apos;elle n&apos;en à l&apos;air.
         Le problème, c&apos;est qu&apos;elle est dispersée entre plusieurs textes (arrêtés,
         décrets, circulaires) et que les prestataires de marquage ne prennent pas toujours le
         temps de l&apos;expliquer.
@@ -35,7 +35,7 @@ export default function Content() {
       <h2>Combien de places PMR sont obligatoires dans un parking ?</h2>
       <p>
         La règle de base est simple : <strong>2% du nombre total de places</strong>, avec un
-        minimum d&apos;une place PMR. Ce ratio s&apos;applique à tous les parkings liés à un
+        minimum d&apos;une place PMR. Ce ratio s&apos;appliqué à tous les parkings liés à un
         ERP ou à un bâtiment d&apos;habitation collectif.
       </p>
 
@@ -361,7 +361,7 @@ export default function Content() {
         souvent inférieur à 2 000 € pour un parking de taille moyenne.
       </p>
       <p>
-        En revanche, ne pas le faire expose à des amendes pouvant atteindre 225 000 €,
+        En revanche, ne pas le faire exposé à des amendes pouvant atteindre 225 000 €,
         sans compter le risque de fermeture administrative et de mise en cause en cas
         d&apos;accident.
       </p>

@@ -18,7 +18,7 @@ export default function Content() {
       <p>
         Le 1er juillet 2026, les parkings de plus de 10 000 m² devront être équipés
         d&apos;ombrières photovoltaïques couvrant au moins la moitié de leur surface. Un gestionnaire
-        de centre commercial de la région lyonnaise nous confiait récemment : « On a les devis pour
+        de centre commercial de la région lyonnaise nous confiait récemment : « On à les devis pour
         les panneaux solaires, mais personne ne nous a parlé de l&apos;état du sol en dessous. »
       </p>
       <p>
@@ -78,7 +78,7 @@ export default function Content() {
         <li>Parkings d&apos;hôpitaux et cliniques</li>
         <li>Stades, parcs d&apos;attractions, cinémas multiplexes</li>
         <li>Parkings relais (P+R) des métropoles</li>
-        <li>Aéroports et gares</li>
+        <li>Aéroports et garés</li>
       </ul>
 
       <p>
@@ -194,7 +194,7 @@ export default function Content() {
 
       <h2>Combien coûte la préparation du sol avant les ombrières ?</h2>
       <p>
-        Le coût varie selon l&apos;état du parking et l&apos;ampleur des travaux. Voici les
+        Le coût varié selon l&apos;état du parking et l&apos;ampleur des travaux. Voici les
         fourchettes indicatives :
       </p>
 
@@ -246,7 +246,7 @@ export default function Content() {
 
       <h2>Quelles sont les sanctions en cas de non-conformité ?</h2>
       <p>
-        Le non-respect de l&apos;obligation d&apos;ombrières expose à des sanctions financières.
+        Le non-respect de l&apos;obligation d&apos;ombrières exposé à des sanctions financières.
         L&apos;article L. 171-4 du Code de la construction prévoit une amende proportionnelle
         à la surface du parking et au retard de mise en conformité.
       </p>
@@ -368,7 +368,7 @@ export default function Content() {
 
       <h3>L&apos;obligation concerne-t-elle aussi les parkings souterrains ?</h3>
       <p>
-        Non. L&apos;obligation d&apos;ombrières photovoltaïques s&apos;applique uniquement aux
+        Non. L&apos;obligation d&apos;ombrières photovoltaïques s&apos;appliqué uniquement aux
         parkings extérieurs de plein air. Les parkings couverts ou souterrains ne sont pas
         concernés. En revanche, les obligations de marquage, de conformité PMR et de
         signalisation s&apos;appliquent à tous les types de parkings.

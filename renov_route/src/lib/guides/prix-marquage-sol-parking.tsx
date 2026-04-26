@@ -31,8 +31,8 @@ export default function Content() {
 
       <h2>Prix au m² selon le type de marquage</h2>
       <p>
-        Le prix du marquage au sol varie considérablement selon le matériau utilisé. Chaque
-        type de peinture ou de revêtement a ses avantages en termes de durabilité, de visibilité
+        Le prix du marquage au sol varié considérablement selon le matériau utilisé. Chaque
+        type de peinture ou de revêtement à ses avantages en termes de durabilité, de visibilité
         et de résistance au trafic.
       </p>
 
@@ -108,7 +108,7 @@ export default function Content() {
       </p>
 
       <p>
-        Le tarif varie selon le type de prestation. Le traçage ou retraçage de places de
+        Le tarif varié selon le type de prestation. Le traçage ou retraçage de places de
         stationnement standard est la prestation la plus courante et la plus économique.
         Les places PMR, qui nécessitent un marquage complet avec pictogramme réglementaire,
         représentent un coût plus élevé par unité.
@@ -193,7 +193,7 @@ export default function Content() {
       <h3>5. La localisation géographique</h3>
       <p>
         Les prix varient selon les régions. En Ile-de-France, les tarifs sont sensiblement
-        plus élevés qu&apos;en province. A Lyon et en Rhône-Alpes, les tarifs sont dans la
+        plus élevés qu&apos;en province. À Lyon et en Rhône-Alpes, les tarifs sont dans la
         moyenne nationale.
       </p>
       <p>
@@ -308,10 +308,10 @@ export default function Content() {
         de 1 à 3 heures par zone.
       </p>
 
-      <h3>La TVA s&apos;applique-t-elle au taux réduit ?</h3>
+      <h3>La TVA s&apos;appliqué-t-elle au taux réduit ?</h3>
       <p>
         Non, le marquage au sol de parking relève du taux de TVA normal (20%). Le taux réduit
-        de 10% ne s&apos;applique qu&apos;aux travaux d&apos;amélioration des logements de
+        de 10% ne s&apos;appliqué qu&apos;aux travaux d&apos;amélioration des logements de
         plus de 2 ans, pas aux parkings.
       </p>
 
@@ -341,7 +341,7 @@ export default function Content() {
       </p>
       <p>
         <Link href="/devis">Demandez votre devis gratuit sous 24h</Link>. Un seul
-        interlocuteur vous accompagne de l&apos;analyse à la réception du chantier.
+        interlocuteur vous accompagné de l&apos;analyse à la réception du chantier.
       </p>
     </>
   )

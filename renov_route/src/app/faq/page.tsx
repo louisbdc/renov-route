@@ -15,11 +15,11 @@ export default function FAQPage() {
     },
     {
       question: "Combien coûte le marquage au sol d'un parking à Lyon ?",
-      answer: "Le coût du marquage au sol d'un parking à Lyon varie selon plusieurs facteurs : la surface à marquer, le type de peinture utilisée (peinture epoxy, résine, thermoplastique), la complexité du tracé, et l'état du sol existant. En moyenne, comptez entre 8€ et 15€ par m² pour un marquage standard. Pour un parking de 100m², le budget se situe généralement entre 800€ et 1500€. Nous proposons des deviss et personnalisés selon vos besoins spécifiques."
+      answer: "Le coût du marquage au sol d'un parking à Lyon varié selon plusieurs facteurs : la surface à marquer, le type de peinture utilisée (peinture époxy, résine, thermoplastique), la complexité du tracé, et l'état du sol existant. En moyenne, comptez entre 8€ et 15€ par m² pour un marquage standard. Pour un parking de 100m², le budget se situe généralement entre 800€ et 1500€. Nous proposons des devis personnalisés selon vos besoins spécifiques."
     },
     {
-      question: "Quelle est la différence entre peinture epoxy et résine pour le marquage ?",
-      answer: "La peinture epoxy est une peinture bicomposant très résistante, idéale pour les intérieurs et les parkings couverts. Elle offre une excellente adhérence et une durée de vie de 5 à 8 ans. La résine, quant à elle, est plus adaptée aux extérieurs et aux zones de fort trafic. Elle résiste mieux aux intempéries et aux UV, avec une durée de vie de 3 à 5 ans. Le choix dépend de l'usage, de l'exposition et du budget disponible."
+      question: "Quelle est la différence entre peinture époxy et résine pour le marquage ?",
+      answer: "La peinture époxy est une peinture bicomposant très résistante, idéale pour les intérieurs et les parkings couverts. Elle offre une excellente adhérence et une durée de vie de 5 à 8 ans. La résine, quant à elle, est plus adaptée aux extérieurs et aux zones de fort trafic. Elle résiste mieux aux intempéries et aux UV, avec une durée de vie de 3 à 5 ans. Le choix dépend de l'usage, de l'exposition et du budget disponible."
     },
     {
       question: "Comment réparer un nid de poule efficacement ?",
@@ -47,7 +47,7 @@ export default function FAQPage() {
     },
     {
       question: "Quelle est la durée de vie d'un marquage au sol ?",
-      answer: "La durée de vie d'un marquage au sol dépend du type de peinture et de l'intensité du trafic. La peinture thermoplastique dure 3 à 5 ans, la résine bicomposant 2 à 3 ans, et la peinture epoxy 5 à 8 ans (intérieur). Les facteurs d'usure incluent : le trafic (piétons, véhicules), les intempéries, l'entretien, et la qualité de la préparation du sol. Un marquage bien entretenu peut durer 2 fois plus longtemps qu'un marquage négligé."
+      answer: "La durée de vie d'un marquage au sol dépend du type de peinture et de l'intensité du trafic. La peinture thermoplastique dure 3 à 5 ans, la résine bicomposant 2 à 3 ans, et la peinture époxy 5 à 8 ans (intérieur). Les facteurs d'usure incluent : le trafic (piétons, véhicules), les intempéries, l'entretien, et la qualité de la préparation du sol. Un marquage bien entretenu peut durer 2 fois plus longtemps qu'un marquage négligé."
     },
     {
       question: "Comment choisir les couleurs pour le marquage de parking ?",
@@ -71,7 +71,7 @@ export default function FAQPage() {
     },
     {
       question: "Quelle garantie offrez-vous sur vos travaux de marquage ?",
-      answer: "Nous offrons une garantie de 2 ans sur tous nos travaux de marquage au sol, couvrant les défauts d'adhérence, de résistance et de conformité. Cette garantie s'applique sous réserve d'un entretien normal et d'une utilisation conforme. En cas de problème couvert par la garantie, nous intervenons gratuitement pour réparer ou refaire le marquage défaillant. Nous sommes également assurés responsabilité civile professionnelle pour tous nos travaux."
+      answer: "Nous offrons une garantie de 2 ans sur tous nos travaux de marquage au sol, couvrant les défauts d'adhérence, de résistance et de conformité. Cette garantie s'appliqué sous réserve d'un entretien normal et d'une utilisation conforme. En cas de problème couvert par la garantie, nous intervenons gratuitement pour réparer ou refaire le marquage défaillant. Nous sommes également assurés responsabilité civile professionnelle pour tous nos travaux."
     },
     {
       question: "Comment obtenir un devis pour marquage au sol ?",
@@ -83,7 +83,7 @@ export default function FAQPage() {
     },
     {
       question: "Quelles sont les sanctions en cas de non-conformité d'un parking aux normes PMR ?",
-      answer: "Le non-respect des normes d'accessibilité PMR sur un parking expose à des sanctions financières pouvant atteindre 45 000 € pour une personne physique et 225 000 € pour une personne morale. En cas de récidive, une peine d'emprisonnement de 6 mois peut s'ajouter. Depuis 2026, les contrôles sont renforcés. Les obligations incluent : 2% de places PMR (minimum 1 place), largeur de 3,30 m, signalisation horizontale et verticale, et cheminement accessible. Nous réalisons la mise en conformité complète."
+      answer: "Le non-respect des normes d'accessibilité PMR sur un parking exposé à des sanctions financières pouvant atteindre 45 000 € pour une personne physique et 225 000 € pour une personne morale. En cas de récidive, une peine d'emprisonnement de 6 mois peut s'ajouter. Depuis 2026, les contrôles sont renforcés. Les obligations incluent : 2% de places PMR (minimum 1 place), largeur de 3,30 m, signalisation horizontale et verticale, et cheminement accessible. Nous réalisons la mise en conformité complète."
     },
     {
       question: "Quelles sont les obligations de conformité accessibilité parking en 2026 ?",
@@ -91,7 +91,7 @@ export default function FAQPage() {
     },
     {
       question: "Qu'est-ce que le retraçage de parking et quand est-il nécessaire ?",
-      answer: "Le retraçage (ou retraçage) de parking consiste à renouveler les marquages au sol effacés ou dégradés par le temps, le trafic et les intempéries. Il est nécessaire quand les lignes sont effacées à plus de 30-50%, quand les couleurs sont délavées, ou après des travaux de voirie. Le retraçage est plus économique qu'un marquage neuf car il réutilise souvent les tracés existants. Nous recommandons un retraçage tous les 2 à 5 ans selon le trafic et l'exposition."
+      answer: "Le retraçage de parking consiste à renouveler les marquages au sol effacés ou dégradés par le temps, le trafic et les intempéries. Il est nécessaire quand les lignes sont effacées à plus de 30-50%, quand les couleurs sont délavées, ou après des travaux de voirie. Le retraçage est plus économique qu'un marquage neuf car il réutilise souvent les tracés existants. Nous recommandons un retraçage tous les 2 à 5 ans selon le trafic et l'exposition."
     }
   ];
 
@@ -105,7 +105,7 @@ export default function FAQPage() {
 
       <Layout>
         <SafariAnimationFix>
-          {/* Hero — dark editorial */}
+          {/* Hero — dark éditorial */}
           <section className="pt-28 sm:pt-36 pb-16 sm:pb-20 px-6 relative overflow-hidden bg-[#0F172A]">
             <div className="absolute inset-0 bg-[url('/assets/images/background_home_page.avif')] bg-cover bg-center grayscale opacity-15" />
             <div className="absolute inset-0 bg-gradient-to-b from-[#0F172A]/40 via-[#0F172A]/80 to-[#0F172A]" />

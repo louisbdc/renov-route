@@ -128,7 +128,7 @@ export default function HeroSection({ children }: { children: React.ReactNode })
         }
       `}</style>
 
-      {/* Media layers — grayscale editorial */}
+      {/* Media layers — grayscale éditorial */}
       {MEDIA.map((item, i) => {
         if (item.type === 'image') {
           return (
@@ -178,7 +178,7 @@ export default function HeroSection({ children }: { children: React.ReactNode })
       {/* Bottom fade into next section */}
       <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#0F172A] to-transparent z-[2]" />
 
-      {/* Slide indicators — editorial yellow */}
+      {/* Slide indicators — éditorial yellow */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 flex gap-2">
         {MEDIA.map((_, i) => (
           <button

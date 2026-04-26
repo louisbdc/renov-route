@@ -15,7 +15,7 @@ export default function StructuredData({ type }: StructuredDataProps) {
     "url": "https://renov-route.com/",
     "logo": "https://renov-route.com/assets/logos/logo.avif",
     "image": "https://renov-route.com/assets/images/og-image.jpg",
-    "telephone": "+33786819692",
+    "téléphone": "+33786819692",
     "email": "contact@renov-route.com",
     "address": {
       "@type": "PostalAddress",
@@ -110,7 +110,7 @@ export default function StructuredData({ type }: StructuredDataProps) {
           "bestRating": 5
         },
         "datePublished": "2018-01-01",
-        "reviewBody": "Compétence et réactivité ! je recommande !"
+        "reviewBody": "Compétence et réactivité ! je recommandé !"
       },
       {
         "@type": "Review",
@@ -218,7 +218,7 @@ export default function StructuredData({ type }: StructuredDataProps) {
                 "itemOffered": {
                   "@type": "Service",
                   "name": "Conseil et expertise",
-                  "description": "Notre équipe vous accompagne dans vos projets d'amélioration"
+                  "description": "Notre équipe vous accompagné dans vos projets d'amélioration"
                 }
               }
             ]
@@ -265,7 +265,7 @@ export default function StructuredData({ type }: StructuredDataProps) {
           ...baseData,
           "contactPoint": {
             "@type": "ContactPoint",
-            "telephone": "07 86 81 96 92",
+            "téléphone": "07 86 81 96 92",
             "contactType": "customer service",
             "availableLanguage": "French",
             "areaServed": "FR"

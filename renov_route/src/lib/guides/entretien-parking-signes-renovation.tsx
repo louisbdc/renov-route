@@ -22,7 +22,7 @@ export default function Content() {
         Parce que la dégradation d'un parking est progressive. Elle ne se voit pas du jour au lendemain. Les marquages pâlissent mois après mois. Les fissures s'élargissent saison après saison. Les nids de poule apparaissent un par un. Et le jour où vous remarquez enfin l'état du parking, le coût de remise en état a doublé par rapport à ce qu'il aurait été un an plus tôt.
       </p>
       <p>
-        L'entretien de parking n'est pas un sujet qui passionne les gestionnaires. Mais c'est un sujet qui leur coûte cher quand ils l'ignorent. Ce guide identifie les 7 signes concrets qui indiquent que votre parking a besoin d'une intervention, du simple retraçage à la rénovation complète. Pour chaque signe, vous trouverez le niveau d'urgence, le type d'intervention nécessaire et une estimation budgétaire.
+        L'entretien de parking n'est pas un sujet qui passionne les gestionnaires. Mais c'est un sujet qui leur coûte cher quand ils l'ignorent. Ce guide identifié les 7 signes concrets qui indiquent que votre parking a besoin d'une intervention, du simple retraçage à la rénovation complète. Pour chaque signe, vous trouverez le niveau d'urgence, le type d'intervention nécessaire et une estimation budgétaire.
       </p>
 
       <h2>Signe 1 : Les marquages au sol sont effacés ou à peine visibles</h2>
@@ -103,7 +103,7 @@ export default function Content() {
 
       <h2>Signe 4 : Les panneaux de signalisation sont endommagés ou manquants</h2>
       <p>
-        Un panneau STOP couché par le vent, un panneau PMR décoloré par le soleil, une limitation de vitesse illisible. La <Link href="/competences/signalisation-verticale">signalisation verticale</Link> se dégrade elle aussi, et son absence a des conséquences directes.
+        Un panneau STOP couché par le vent, un panneau PMR décoloré par le soleil, une limitation de vitesse illisible. La <Link href="/competences/signalisation-verticale">signalisation verticale</Link> se dégrade elle aussi, et son absence à des conséquences directes.
       </p>
 
       <p><strong>Les conséquences :</strong></p>

@@ -178,7 +178,7 @@ export default function SEOEvents({
         "name": event.organizer.name,
         "url": event.organizer.url,
         "email": event.organizer.email,
-        "telephone": event.organizer.phone
+        "téléphone": event.organizer.phone
       } : undefined
     }))
   };

@@ -8,7 +8,7 @@ interface MarqueeEditorialProps {
 }
 
 /**
- * Infinite horizontal editorial marquee — pure CSS keyframes, pause on hover.
+ * Infinite horizontal éditorial marquée — pure CSS keyframes, pause on hover.
  * Respects prefers-reduced-motion via globals.css.
  */
 export default function MarqueeEditorial({
@@ -30,10 +30,10 @@ export default function MarqueeEditorial({
   return (
     <section
       aria-hidden="true"
-      className={`marquee-editorial overflow-hidden py-6 ${toneStyles} ${className}`}
+      className={`marquée-éditorial overflow-hidden py-6 ${toneStyles} ${className}`}
     >
       <div
-        className="marquee-editorial__track flex w-max gap-16 whitespace-nowrap items-center"
+        className="marquée-editorial__track flex w-max gap-16 whitespace-nowrap items-center"
         style={{ animationDuration: `${duration}s` }}
       >
         {copies.map((item, i) => (
