@@ -56,6 +56,7 @@ import MarquageAuSolParkingPrive from './marquage-au-sol-parking-prive'
 import MarquageAuSolPisteCyclable from './marquage-au-sol-piste-cyclable'
 import SignalisationHorizontaleEtVerticale from './signalisation-horizontale-et-verticale'
 import MarquageAuSolTravauxChantier from './marquage-au-sol-travaux-chantier'
+import ChoisirEntrepriseMarquageAuSol from './choisir-entreprise-marquage-au-sol'
 
 const CONTENT_MAP: Record<string, ComponentType> = {
   'renovation-parking-copropriete': RenovationParkingCopropriete,
@@ -115,6 +116,7 @@ const CONTENT_MAP: Record<string, ComponentType> = {
   'marquage-au-sol-piste-cyclable': MarquageAuSolPisteCyclable,
   'signalisation-horizontale-et-verticale': SignalisationHorizontaleEtVerticale,
   'marquage-au-sol-travaux-chantier': MarquageAuSolTravauxChantier,
+  'choisir-entreprise-marquage-au-sol': ChoisirEntrepriseMarquageAuSol,
 }
 
 export default CONTENT_MAP

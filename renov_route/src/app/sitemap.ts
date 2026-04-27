@@ -11,7 +11,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const currentDate = new Date().toISOString()
   const lastModifiedDates: Record<string, string> = {
     '/': '2026-03-05',
-    '/marquage-au-sol-lyon': '2026-03-31',
+    '/marquage-au-sol-lyon': '2026-04-27',
     '/competences': '2026-03-01',
     '/competences/tracage-retracage-parking': '2026-02-15',
     '/competences/signalisation-verticale': '2026-02-15',

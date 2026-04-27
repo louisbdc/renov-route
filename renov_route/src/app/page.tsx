@@ -481,7 +481,7 @@ export default function Home() {
               ].map((guide, index) => (
                 <Link key={guide.href} href={guide.href}>
                   <MotionDiv
-                    className="h-full bg-white p-8 border border-slate-200 card-éditorial-hover group"
+                    className="h-full bg-white p-8 border border-slate-200 card-editorial-hover group"
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}

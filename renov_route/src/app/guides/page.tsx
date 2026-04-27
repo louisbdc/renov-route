@@ -25,7 +25,7 @@ function GuideCard({ guide }: { guide: Guide }) {
   return (
     <Link
       href={`/guides/${guide.slug}`}
-      className="group flex flex-col h-full bg-white border border-slate-200 card-éditorial-hover overflow-hidden"
+      className="group flex flex-col h-full bg-white border border-slate-200 card-editorial-hover overflow-hidden"
     >
       {image ? (
         <div className="relative aspect-[16/10] overflow-hidden">

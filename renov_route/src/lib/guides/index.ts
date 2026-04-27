@@ -56,8 +56,10 @@ import { meta as marquageAuSolParkingPrive } from './marquage-au-sol-parking-pri
 import { meta as marquageAuSolPisteCyclable } from './marquage-au-sol-piste-cyclable'
 import { meta as arceauParkingTypesPrix } from './arceau-parking-types-prix'
 import { meta as codeDeLaRouteMarquageAuSol } from './code-de-la-route-marquage-au-sol'
+import { meta as choisirEntrepriseMarquageAuSol } from './choisir-entreprise-marquage-au-sol'
 
 const GUIDES: Guide[] = [
+  choisirEntrepriseMarquageAuSol,
   renovationParkingCopropriete,
   prixMarquageSolParking,
   normesPmrParking,

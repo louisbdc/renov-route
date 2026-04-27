@@ -201,7 +201,7 @@ export default function GuidePageLayout({ guide, children }: GuidePageLayoutProp
                     <Link
                       key={related.slug}
                       href={`/guides/${related.slug}`}
-                      className="bg-white border border-slate-200 card-éditorial-hover group overflow-hidden flex flex-col"
+                      className="bg-white border border-slate-200 card-editorial-hover group overflow-hidden flex flex-col"
                     >
                       {relatedImage && (
                         <div className="relative aspect-[16/10] overflow-hidden">

@@ -108,7 +108,7 @@ export default function CompetencesPage() {
                 transition={{ duration: 0.5 }}
                 className="inline-flex items-center gap-2 text-[11px] font-black uppercase tracking-[0.25em] text-[#FACC15] mb-8"
               >
-                Lyon &amp; Rhône-Alpes · 6 compétences
+                6 compétences · Auvergne-Rhône-Alpes
               </MotionDiv>
 
               <MotionH1
@@ -222,7 +222,7 @@ export default function CompetencesPage() {
                   <Link
                     key={guide.href}
                     href={guide.href}
-                    className="group flex items-start gap-4 p-6 bg-white border border-slate-200 card-éditorial-hover"
+                    className="group flex items-start gap-4 p-6 bg-white border border-slate-200 card-editorial-hover"
                   >
                     <span className="text-[9px] font-black uppercase tracking-[0.2em] text-[#FACC15] bg-[#0F172A] rounded-sm px-2 py-1 whitespace-nowrap">{guide.tag}</span>
                     <span className="text-sm text-[#0F172A] font-semibold group-hover:text-[#FACC15] transition-colors leading-snug">{guide.title}</span>

@@ -17,7 +17,7 @@ const variantStyles: Record<CardVariant, string> = {
   solid:
     'border border-slate-200 bg-white text-[#0F172A]',
   interactive:
-    'border border-slate-200 bg-white text-[#0F172A] card-éditorial-hover duration-300',
+    'border border-slate-200 bg-white text-[#0F172A] card-editorial-hover duration-300',
   éditorial:
     'border-l-4 border-[#0F172A] bg-[#F8FAFC] text-[#0F172A]',
   dark:

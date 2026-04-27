@@ -30,10 +30,10 @@ export default function MarqueeEditorial({
   return (
     <section
       aria-hidden="true"
-      className={`marquée-éditorial overflow-hidden py-6 ${toneStyles} ${className}`}
+      className={`marquee-editorial overflow-hidden py-6 ${toneStyles} ${className}`}
     >
       <div
-        className="marquée-editorial__track flex w-max gap-16 whitespace-nowrap items-center"
+        className="marquee-editorial__track flex w-max gap-16 whitespace-nowrap items-center"
         style={{ animationDuration: `${duration}s` }}
       >
         {copies.map((item, i) => (

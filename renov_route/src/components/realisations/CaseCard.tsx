@@ -28,7 +28,7 @@ export default function CaseCard({ caseStudy, index }: CaseCardProps) {
       <Link
         href={`/realisations/${caseStudy.slug}`}
         onClick={() => trackCaseStudyView(caseStudy.title)}
-        className="block bg-white border border-slate-200 card-éditorial-hover focus-ring h-full"
+        className="block bg-white border border-slate-200 card-editorial-hover focus-ring h-full"
       >
         <div className="relative overflow-hidden">
           <div className="aspect-video relative">

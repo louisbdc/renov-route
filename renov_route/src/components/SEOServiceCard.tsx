@@ -108,7 +108,7 @@ export default function SEOServiceCard({
   return (
     <>
       <div className={className}>
-        <div className="bg-white border border-slate-200 card-éditorial-hover overflow-hidden group">
+        <div className="bg-white border border-slate-200 card-editorial-hover overflow-hidden group">
           {service.image && (
             <div className="h-48 overflow-hidden">
               <Image
