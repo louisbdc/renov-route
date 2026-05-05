@@ -4,9 +4,10 @@ import Link from 'next/link'
 export const meta: Guide = {
   slug: 'code-de-la-route-marquage-au-sol',
   title: 'Code de la route marquage au sol : guide complet 2026',
-  metaTitle: 'Code de la route marquage au sol : guide complet | Renov&apos;Route',
-  metaDescription: 'Interprétez chaque marquage au sol : lignes, couleurs, symboles. Normes, signification et obligations. Expert depuis 2014.',
+  metaTitle: 'Code de la route : signification du marquage au sol (guide 2026)',
+  metaDescription: 'Signification du marquage au sol : lignes blanches, jaunes, flèches, passages piétons, PMR. Décryptage complet par un expert certifié NF EN 1436.',
   publishDate: '2026-03-31',
+  updatedDate: '2026-05-05',
   category: 'marquage-parking',
   readingTime: 12,
   excerpt: 'Signification des lignes, couleurs et symboles du marquage au sol. Normes NF EN 1436, IISR, responsabilit&eacute; du gestionnaire et entretien.',

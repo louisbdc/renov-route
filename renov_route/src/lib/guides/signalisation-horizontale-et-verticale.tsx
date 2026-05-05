@@ -4,9 +4,10 @@ import Link from 'next/link'
 export const meta: Guide = {
   slug: 'signalisation-horizontale-et-verticale',
   title: 'Signalisation horizontale et verticale : comprendre, combiner et mettre en conformité',
-  metaTitle: 'Signalisation horizontale et verticale: guide complet 2026',
-  metaDescription: 'Signalisation horizontale et verticale: définitions, normes NF, differences, complementarite et prix. Parking, voirie, zone industrielle. Devis gratuit sous 24h.',
+  metaTitle: 'Signalisation horizontale et verticale : différences, normes et prix',
+  metaDescription: 'Signalisation horizontale vs verticale : définitions, normes NF EN 1436 et 12899-1, règles de combinaison et tarifs. Parking, voirie, zone industrielle. Devis 24h.',
   publishDate: '2026-03-31',
+  updatedDate: '2026-05-05',
   category: 'securite-parking',
   readingTime: 12,
   excerpt: 'Definitions, normes NF EN 1436 et 12899-1, differences, complementarite et prix de la signalisation horizontale et verticale pour parking, voirie et zone industrielle.',

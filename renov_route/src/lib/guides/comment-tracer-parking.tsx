@@ -4,9 +4,10 @@ import Link from 'next/link'
 export const meta: Guide = {
   slug: 'comment-tracer-parking',
   title: 'Comment tracer un parking : les 7 étapes d\'un marquage réussi',
-  metaTitle: 'Comment tracer un parking : étapes et règles à suivre',
-  metaDescription: 'Comment tracer un parking en 7 étapes : plan de marquage, dimensions, normes PMR, choix de peinture et erreurs à éviter. Guide pratique.',
+  metaTitle: 'Comment tracer un parking en 7 étapes (2026) | Rénov\'Route',
+  metaDescription: 'Tracer un parking en 7 étapes : plan de marquage, dimensions réglementaires, peinture NF EN 1436, normes PMR. Guide expert depuis 2014. Devis gratuit 24h.',
   publishDate: '2026-03-04',
+  updatedDate: '2026-05-05',
   category: 'marquage-parking',
   readingTime: 12,
   excerpt: 'Guide complet en 7 étapes pour tracer un parking : diagnostic, plan de marquage, normes PMR, préparation du sol, choix de peinture, traçage et signalisation.',

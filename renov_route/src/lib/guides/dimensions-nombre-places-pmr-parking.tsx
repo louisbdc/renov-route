@@ -4,9 +4,10 @@ import Link from 'next/link'
 export const meta: Guide = {
   slug: 'dimensions-nombre-places-pmr-parking',
   title: 'Dimensions et nombre de places PMR en parking : le guide de référence',
-  metaTitle: 'Dimensions place PMR parking : toutes les mesures | Renov\'Route',
-  metaDescription: 'Dimensions place PMR parking : 3,30 m x 5 m minimum, bande de 0,80 m, nombre obligatoire selon la taille. Tableau récapitulatif et schéma pour mise en conformité.',
+  metaTitle: 'Dimensions place PMR parking 2026 : mesures obligatoires + tableau',
+  metaDescription: 'Dimensions place PMR : 3,30 m × 5 m minimum, bande 0,80 m, 2% des places obligatoires. Tableau complet + sanctions jusqu\'à 45 000 €. Guide de référence 2026.',
   publishDate: '2026-03-04',
+  updatedDate: '2026-05-05',
   category: 'normes-pmr',
   readingTime: 10,
   excerpt: 'Toutes les dimensions réglementaires des places PMR en parking : largeur 3,30 m, bande d\'accès de 0,80 m, nombre obligatoire selon la capacité. Tableaux et erreurs à éviter.',

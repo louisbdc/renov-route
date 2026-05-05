@@ -9,6 +9,7 @@ export const meta: Guide = {
   metaDescription:
     'Vitesse autorisée en parking privé, public ou supermarché : que dit la loi ? Panneaux obligatoires, sanctions, prix de pose. Guide complet 2026 + devis gratuit sous 24h.',
   publishDate: '2026-03-04',
+  updatedDate: '2026-05-05',
   category: 'securite-parking',
   readingTime: 10,
   excerpt:

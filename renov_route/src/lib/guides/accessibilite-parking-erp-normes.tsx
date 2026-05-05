@@ -7,6 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Accessibilité parking ERP : normes PMR et obligations 2026',
   metaDescription: 'Accessibilité parking ERP : nombre de places PMR, dimensions, signalisation, pente maximale et sanctions. Normes 2026 et mise en conformité. Guide complet.',
   publishDate: '2026-03-04',
+  updatedDate: '2026-05-05',
   category: 'normes-pmr',
   readingTime: 8,
   excerpt: 'Nombre de places PMR obligatoires, dimensions réglementaires, signalisation, cheminement accessible et sanctions en cas de non-conformité.',

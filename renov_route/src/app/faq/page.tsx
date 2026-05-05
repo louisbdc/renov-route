@@ -4,6 +4,7 @@ import Layout from '@/components/Layout';
 import SEOFAQ from '@/components/SEOFAQ';
 import StructuredData from '@/components/StructuredData';
 import BreadcrumbSchema from '@/components/BreadcrumbSchema';
+import FAQSchema from '@/components/FAQSchema';
 import SafariAnimationFix from '@/components/SafariAnimationFix';
 import { MotionDiv } from '@/components/MotionWrapper';
 import Link from 'next/link';
@@ -98,6 +99,7 @@ export default function FAQPage() {
   return (
     <>
       <StructuredData type="faq" />
+      <FAQSchema items={faqs} />
       <BreadcrumbSchema items={[
         { name: "Accueil", url: "https://renov-route.com/" },
         { name: "FAQ", url: "https://renov-route.com/faq/" }

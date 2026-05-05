@@ -1,22 +1,22 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "FAQ Marquage au Sol - Questions Fréquentes",
+  title: "FAQ Marquage au Sol 2026 : réponses d'experts | Rénov'Route",
   description:
-    "Réponses à vos questions sur le marquage au sol, peinture parking et réparation nids de poule à Lyon et Rhône-Alpes. Conseils d'experts Rénov Route.",
+    "Vos questions sur le marquage parking, traçage au sol et nids de poule — répondues par un expert certifié NF EN 1436. Lyon et Rhône-Alpes. Devis gratuit 24h.",
   alternates: {
     canonical: "https://renov-route.com/faq/",
   },
   openGraph: {
-    title: "FAQ Marquage au Sol - Questions Fréquentes | Rénov Route",
-    description: "Réponses à vos questions sur le marquage au sol, peinture parking et réparation nids de poule à Lyon et dans le Rhône.",
+    title: "FAQ Marquage au Sol 2026 : réponses d'experts | Rénov'Route",
+    description: "Vos questions sur le marquage parking, traçage au sol et nids de poule — répondues par un expert certifié NF EN 1436. Lyon et Rhône-Alpes.",
     url: "https://renov-route.com/faq/",
     images: [{ url: "https://renov-route.com/assets/images/og-image.jpg", width: 1200, height: 630, alt: "Renov Route - Expert Marquage Routier" }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'FAQ Marquage au Sol - Questions Fréquentes | Rénov Route',
-    description: 'Réponses à vos questions sur le marquage au sol, peinture parking et réparation nids de poule à Lyon et dans le Rhône.',
+    title: "FAQ Marquage au Sol 2026 : réponses d'experts | Rénov'Route",
+    description: "Vos questions sur le marquage parking, traçage au sol et nids de poule — répondues par un expert certifié NF EN 1436. Lyon et Rhône-Alpes.",
   },
 };
 

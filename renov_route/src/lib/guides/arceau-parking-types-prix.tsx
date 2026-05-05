@@ -7,6 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Arceau parking: types, pose et prix 2026',
   metaDescription: 'Guide complet sur les arceaux de parking: anti-stationnement, rabattables, fixes. Types, normes, prix et installation par Renov\'Route. Devis gratuit sous 24h.',
   publishDate: '2026-03-31',
+  updatedDate: '2026-05-05',
   category: 'securite-parking',
   readingTime: 12,
   excerpt: 'Arceau fixe, rabattable ou automatique : comparatif des types d\'arceaux de parking avec prix, normes, conseils d\'installation et erreurs à éviter.',

@@ -7,6 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Marquage au sol parking privé : guide complet 2026 | Renov\'Route',
   metaDescription: 'Marquage au sol parking privé : réglementation, obligations PMR, signalisation, prix et erreurs à éviter. 1 000+ projets depuis 2014. Devis gratuit sous 24h.',
   publishDate: '2026-03-31',
+  updatedDate: '2026-05-05',
   category: 'marquage-parking',
   readingTime: 10,
   excerpt: 'Guide complet du marquage au sol de parking privé en 2026 : réglementation, obligations PMR, signalisation verticale, accessoires, normes, prix et erreurs à éviter.',

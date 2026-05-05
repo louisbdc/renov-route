@@ -119,4 +119,10 @@ const GUIDES: Guide[] = [
   codeDeLaRouteMarquageAuSol,
 ]
 
+GUIDES.sort((a, b) => {
+  const dateA = a.updatedDate ?? a.publishDate
+  const dateB = b.updatedDate ?? b.publishDate
+  return dateB.localeCompare(dateA)
+})
+
 export default GUIDES

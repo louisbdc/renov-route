@@ -7,6 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Normes PMR parking 2026 : guide complet | Rénov\'Route',
   metaDescription: 'Normes PMR parking 2026 : dimensions des places, nombre obligatoire, marquage et signalisation. Guide complet pour la mise en conformité.',
   publishDate: '2026-03-04',
+  updatedDate: '2026-05-05',
   category: 'normes-pmr',
   readingTime: 12,
   excerpt: 'Guide complet des normes PMR parking en 2026 : nombre de places obligatoires, dimensions réglementaires, marquage au sol et signalisation. Étapes de mise en conformité.',
