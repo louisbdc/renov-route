@@ -155,7 +155,7 @@ export default function Home() {
                 { to: 10, suffix: '+', label: "ans d'expérience" },
                 { to: 1000, suffix: '+', label: 'projets réalisés' },
                 { to: 20, suffix: '+', label: 'enseignes partenaires' },
-                { to: 24, suffix: 'h', label: 'pour un devis' },
+                { to: 48, suffix: 'h', label: 'pour un devis' },
               ].map((stat, index) => (
                 <MotionDiv
                   key={index}
