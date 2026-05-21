@@ -4,6 +4,7 @@ import "./globals.css";
 import CookieConsent from "@/components/CookieConsent";
 import AnalyticsTracker from "@/components/AnalyticsTracker";
 import OrganizationSchema from "@/components/OrganizationSchema";
+import ChunkErrorReloader from "@/components/ChunkErrorReloader";
 import { Agentation } from "agentation";
 
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
@@ -150,6 +151,7 @@ export default function RootLayout({
         <OrganizationSchema />
       </head>
       <body className={`${inter.variable} ${archivo.variable} ${jetbrainsMono.variable} antialiased`}>
+        <ChunkErrorReloader />
         {children}
         <CookieConsent />
         <AnalyticsTracker />
