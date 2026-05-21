@@ -77,7 +77,7 @@ export default function GuidePageLayout({ guide, children }: GuidePageLayoutProp
                 alt={guide.title}
                 fill
                 priority
-                className="object-cover grayscale opacity-25"
+                className="object-cover md:grayscale opacity-25"
                 sizes="100vw"
               />
             </div>
@@ -209,7 +209,7 @@ export default function GuidePageLayout({ guide, children }: GuidePageLayoutProp
                             src={relatedImage}
                             alt={related.title}
                             fill
-                            className="object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
+                            className="object-cover md:grayscale md:group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
                             sizes="(max-width: 768px) 100vw, 33vw"
                           />
                           <div className="absolute inset-0 bg-[#0F172A]/20 group-hover:bg-transparent transition-colors duration-500" />

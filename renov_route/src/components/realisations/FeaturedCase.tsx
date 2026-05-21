@@ -88,7 +88,7 @@ export default function FeaturedCase({ caseStudy, className = '' }: FeaturedCase
                 src={caseStudy.heroMedia}
                 alt={caseStudy.title}
                 fill
-                className="object-cover transition-transform duration-700 group-hover:scale-105 grayscale group-hover:grayscale-0"
+                className="object-cover transition-transform duration-700 group-hover:scale-105 md:grayscale md:group-hover:grayscale-0"
                 sizes="(max-width: 1024px) 100vw, 50vw"
                 priority
               />

@@ -36,7 +36,7 @@ export default function CaseCard({ caseStudy, index }: CaseCardProps) {
               src={caseStudy.thumbnail}
               alt={caseStudy.title}
               fill
-              className="object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105"
+              className="object-cover md:grayscale md:group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105"
               sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, 25vw"
             />
             <div className="absolute inset-0 bg-[#0F172A]/20 group-hover:bg-transparent transition-colors" />

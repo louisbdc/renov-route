@@ -63,6 +63,14 @@ export async function sendDevisEmail(formElement: HTMLFormElement): Promise<void
 
   // Transformer les données pour le template avec nettoyage
   const projectTypes = formData.getAll('projectType') as string[];
+  const location = cleanValue(formData.get('location') as string);
+  const description = cleanValue(formData.get('description') as string);
+
+  // Prefix the description with the work location so it remains visible even if the
+  // EmailJS template only displays the description field.
+  const descriptionWithLocation = location
+    ? `Lieu des travaux : ${location}${description ? `\n\n${description}` : ''}`
+    : description;
 
   const templateParams = {
     firstName: cleanValue(formData.get('name') as string),
@@ -73,7 +81,7 @@ export async function sendDevisEmail(formElement: HTMLFormElement): Promise<void
     // Champs supprimés — envoyés vides pour compatibilité template
     company: '',
     siret: '',
-    address: '',
+    address: location,
     city: '',
     postalCode: '',
     region: 'France',
@@ -81,7 +89,8 @@ export async function sendDevisEmail(formElement: HTMLFormElement): Promise<void
     projectType: projectTypes.length > 0 ? projectTypes.join(', ') : 'Non spécifié',
     otherProjectType: '',
 
-    description: cleanValue(formData.get('description') as string),
+    location,
+    description: descriptionWithLocation,
 
     contactMethod: '',
     bestTime: '',

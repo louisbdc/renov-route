@@ -47,7 +47,7 @@ export default function ProjectPageLayout({ project, relatedProjects }: ProjectP
             alt={project.title}
             fill
             priority
-            className="object-cover grayscale opacity-30"
+            className="object-cover md:grayscale opacity-30"
             sizes="100vw"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-[#0F172A] via-[#0F172A]/60 to-[#0F172A]/20" />

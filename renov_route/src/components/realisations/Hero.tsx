@@ -15,7 +15,7 @@ export default function Hero() {
           alt="Réalisations de marquage au sol et signalisation routière - Renov Route"
           fill
           priority
-          className="object-cover grayscale opacity-25"
+          className="object-cover md:grayscale opacity-25"
           sizes="100vw"
         />
       </div>

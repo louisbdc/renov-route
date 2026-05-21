@@ -22,6 +22,7 @@ export interface DevisFormData {
   phone: string;
   projectTypes: string[];
   description: string;
+  location?: string;
 }
 
 // Options autorisées pour les sélecteurs
@@ -152,7 +153,10 @@ export function validateDevisForm(formData: FormData): DevisFormData {
   const descriptionRaw = formData.get('description') as string;
   const description = descriptionRaw ? sanitizeMessage(descriptionRaw) : '';
 
-  return { name, email, phone, projectTypes, description };
+  const locationRaw = formData.get('location') as string;
+  const location = locationRaw ? locationRaw.trim().replace(/[<>"'&]/g, '').slice(0, 200) : '';
+
+  return { name, email, phone, projectTypes, description, location };
 }
 
 /**
@@ -212,12 +216,20 @@ export function validateDevisFormWithFieldErrors(formData: FormData): { data: De
       }
     }
 
+    // Optional location field — accept any reasonable address-like input, strip HTML.
+    let location = '';
+    const locationRaw = formData.get('location') as string;
+    if (locationRaw && typeof locationRaw === 'string') {
+      const cleaned = locationRaw.trim().replace(/[<>"'&]/g, '').slice(0, 200);
+      if (cleaned) location = cleaned;
+    }
+
     if (hasErrors) {
       return { data: null, errors };
     }
 
     return {
-      data: { name, email, phone, projectTypes, description },
+      data: { name, email, phone, projectTypes, description, location },
       errors: {}
     };
   } catch (_error) {

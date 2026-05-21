@@ -12,7 +12,7 @@ export default function GuidesPage() {
 
         {/* Hero — dark éditorial */}
         <section className="pt-28 sm:pt-36 pb-16 sm:pb-20 px-6 relative overflow-hidden bg-[#0F172A]">
-          <div className="absolute inset-0 bg-[url('/assets/images/realisations/background_competence_page.avif')] bg-cover bg-center grayscale opacity-15" />
+          <div className="absolute inset-0 bg-[url('/assets/images/realisations/background_competence_page.avif')] bg-cover bg-center md:grayscale opacity-15" />
           <div className="absolute inset-0 bg-gradient-to-b from-[#0F172A]/40 via-[#0F172A]/80 to-[#0F172A]" />
 
           <div className="relative max-w-5xl mx-auto">
