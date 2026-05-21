@@ -1,4 +1,3 @@
-'use client'
 
 import ServiceStructuredData from '@/components/ServiceStructuredData'
 import BreadcrumbSchema from '@/components/BreadcrumbSchema'

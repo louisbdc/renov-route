@@ -25,6 +25,19 @@ export interface City {
   population?: number
   description: string
   emblematic?: string
+  // Spécificités locales du tissu parking (climat, saisonnalité, secteurs dominants).
+  // Affiché en bloc « Spécificités locales » sur la page ville si présent.
+  localContext?: string
+  // Modalités concrètes d'intervention depuis Tassin pour cette commune
+  // (autoroute empruntée, temps de trajet, plage horaire, regroupement de chantiers).
+  // Affiché en bloc « Notre intervention à X » sur la page ville si présent.
+  interventionLogistics?: string
+  // Types de clients réellement pertinents pour la zone (3-5 items).
+  // Permet de remplacer la liste générique de services par des cibles concrètes.
+  targetClients?: string[]
+  // 2 ou 3 questions/réponses spécifiques à la ville (climat, saisonnalité, accès).
+  // Affichées dans une FAQ locale dédiée, à la fin de la page.
+  localFAQ?: { question: string; answer: string }[]
   references?: CityReference[]
   nearbyCities: string[]
 }
@@ -526,6 +539,24 @@ export const CITIES: City[] = [
     population: 173000,
     description: "Capitale du design, deuxième ville d'Auvergne-Rhône-Alpes. Forte demande pour le marquage de centres commerciaux et de copropriétés du centre-ville.",
     emblematic: 'Place Jean Jaurès, Cité du Design, Geoffroy-Guichard',
+    localContext: "Saint-Étienne combine un centre-ville en mutation (quartier Châteaucreux, Plaine Achille) et de grandes zones commerciales périphériques (Steel à Andrézieux, Centre Deux). Les parkings du stade Geoffroy-Guichard supportent des pics de charge très élevés les soirs de match, ce qui accélère l'usure du marquage.",
+    interventionLogistics: "Trajet depuis Tassin par A47, environ 50 à 60 minutes en heures creuses. Nos équipes interviennent en demi-journée sur les chantiers ciblés (retraçage de places, réparation localisée) et sur la journée complète pour les centres commerciaux. Nous regroupons plusieurs chantiers stéphanois sur une même tournée pour optimiser le coût de déplacement.",
+    targetClients: [
+      'Centres commerciaux périphériques (Steel, Centre Deux)',
+      'Copropriétés du centre-ville et de Saint-Priest-en-Jarez',
+      'ERP du quartier Châteaucreux',
+      'Concessions automobiles et zones industrielles',
+    ],
+    localFAQ: [
+      {
+        question: 'Intervenez-vous le soir ou la nuit pour les centres commerciaux stéphanois ?',
+        answer: "Oui. Pour les parkings de centres commerciaux et les ERP qui ne peuvent pas fermer, nous planifions les chantiers la nuit ou tôt le matin. La peinture NF EN 1436 sèche en 1 à 3 heures, ce qui permet de retracer un parking entre la fermeture et la réouverture le lendemain.",
+      },
+      {
+        question: 'Quel délai pour intervenir à Saint-Étienne depuis Lyon ?',
+        answer: "Pour la visite sur site et le devis, comptez 3 à 5 jours ouvrés. Pour le chantier, le délai standard est de 2 à 3 semaines après validation, hors période de gel (novembre à février selon météo). En urgence sécurité, nous pouvons intervenir sous 48h.",
+      },
+    ],
     references: [{ client: 'Richardson Saint-Étienne', caseStudySlug: 'richardson-saint-etienne-passage' }],
     nearbyCities: ['roanne'],
   },
@@ -542,6 +573,24 @@ export const CITIES: City[] = [
     population: 30000,
     description: "Ville romaine au sud de Lyon. Centre-ville historique et zones commerciales en périphérie, nombreux parkings à fort trafic.",
     emblematic: 'Théâtre antique, Temple d\'Auguste',
+    localContext: "Vienne mélange un centre patrimonial très contraint (zones piétonnes, parkings sous-terrains classés) et de grandes zones commerciales le long de la N7 et de l'A7 (Estressin, ZA de l'Isle). Le festival Jazz à Vienne crée chaque été un pic de fréquentation qui justifie des retraçages préventifs en mai-juin.",
+    interventionLogistics: "Trajet depuis Tassin par A7, 30 à 40 minutes. Notre proximité permet l'intervention à la journée sans frais d'hébergement et une visite de devis sous 48 à 72h sur demande. Nous intervenons régulièrement sur le bassin viennois en complément des chantiers lyonnais.",
+    targetClients: [
+      'Hypermarchés et zones commerciales sud (Estressin, ZA de l\'Isle)',
+      'Parkings du centre patrimonial et zones piétonnes',
+      'Copropriétés et résidences de coteau',
+      'Hôtels et restaurants liés au tourisme antique',
+    ],
+    localFAQ: [
+      {
+        question: 'Adaptez-vous le planning au festival Jazz à Vienne ?',
+        answer: "Oui. Les chantiers de retraçage des parkings desservant le théâtre antique et l'hypercentre sont à programmer entre mars et mai, avant la montée en fréquentation. Pour les zones commerciales périphériques, l'intervention reste possible toute l'année.",
+      },
+      {
+        question: 'Le coût d\'intervention est-il majoré pour Vienne ?',
+        answer: "Non. À 35 km de Tassin, Vienne est sur notre périmètre standard d'intervention. Les devis appliquent les mêmes tarifs au m² que sur l'agglomération lyonnaise, sans frais de déplacement additionnels pour les chantiers de plus de 200 m².",
+      },
+    ],
     references: [{ client: 'Lidl Vienne', caseStudySlug: 'lidl-vienne-logos-xxl' }],
     nearbyCities: ['givors', 'bourgoin-jallieu'],
   },
@@ -558,6 +607,24 @@ export const CITIES: City[] = [
     population: 28000,
     description: "Pôle économique du nord-Isère, axe Lyon-Grenoble. Zones d'activités dynamiques, hyper marchés et plateformes logistiques.",
     emblematic: 'Centre-ville, Médipôle, ZAC Grenette',
+    localContext: "Le bassin de Bourgoin-Jallieu est dominé par la logistique (plateformes le long de l'A43) et les ZA commerciales (ZAC de la Maladière, Saint-Bonnet, La Grive). Le Médipôle et les cliniques du secteur imposent une signalétique parking ERP rigoureuse, avec circulation ambulance et accès PMR aux normes.",
+    interventionLogistics: "Trajet depuis Tassin par A43, environ 45 à 55 minutes. Nous intervenons en demi-journée pour les chantiers ciblés et planifions souvent les passages sur Bourgoin-Jallieu en complément de chantiers à Vienne ou Grenoble pour optimiser les déplacements.",
+    targetClients: [
+      'Plateformes logistiques et entrepôts le long de l\'A43',
+      'Cliniques, Médipôle et ERP de santé',
+      'Centres commerciaux et hypermarchés',
+      'Copropriétés et résidences récentes du nord-Isère',
+    ],
+    localFAQ: [
+      {
+        question: 'Réalisez-vous le marquage de quais logistiques à Bourgoin-Jallieu ?',
+        answer: "Oui. Pour les plateformes logistiques (zones de stockage, allées de circulation, marquage de quais et de portes), nous utilisons des peintures époxy ou polyuréthane résistantes aux passages d'engins. Devis sur visite, intervention par zones pour ne pas immobiliser le site.",
+      },
+      {
+        question: 'Le marquage PMR des cliniques privées est-il votre spécialité ?',
+        answer: "C'est l'une de nos prestations récurrentes. Nous appliquons les dimensions réglementaires (3,30 m × 5 m, pente max 2 %, bande d'accès 0,80 m) et fournissons le procès-verbal de conformité utile pour la mise à jour du registre d'accessibilité.",
+      },
+    ],
     nearbyCities: ['vienne', 'grenoble'],
   },
   {
@@ -573,6 +640,24 @@ export const CITIES: City[] = [
     population: 158000,
     description: "Capitale des Alpes. Marquage de parkings de centres commerciaux, copropriétés universitaires et zones tertiaires.",
     emblematic: 'Place Grenette, Caserne de Bonne, Polygone',
+    localContext: "Grenoble cumule des contraintes peu courantes ailleurs : climat de cuvette avec gels matinaux fréquents (octobre à mars), forte densité ERP universitaire et hospitalier (CHU Grenoble Alpes), parkings tertiaires des technopôles (Inovallée, GIANT). Les peintures appliquées sur l'agglomération grenobloise doivent être validées pour cycles gel-dégel répétés.",
+    interventionLogistics: "Trajet depuis Tassin par A43 puis A48, environ 1h45 à 2h. Pour optimiser les coûts, nous regroupons les chantiers grenoblois sur des journées dédiées (déplacement aller-retour mutualisé) et privilégions les visites de devis pendant des tournées planifiées dans le nord-Isère.",
+    targetClients: [
+      'CHU et cliniques privées (Belledonne, Mutualiste)',
+      'Parkings tertiaires d\'Inovallée et de la Presqu\'île',
+      'Centres commerciaux (Grand\'Place, Caserne de Bonne)',
+      'Copropriétés universitaires (campus Saint-Martin-d\'Hères)',
+    ],
+    localFAQ: [
+      {
+        question: 'Comment gérez-vous le climat grenoblois pour la peinture de marquage ?',
+        answer: "Nous suivons strictement la fiche technique du produit : application uniquement entre +5 °C et +30 °C, support sec et hors prévision de gel dans les 24h. Sur Grenoble, la fenêtre optimale pour les chantiers extérieurs s'étend d'avril à octobre. Hors saison, nous privilégions les parkings couverts ou intervenons sur le marquage intérieur en résine.",
+      },
+      {
+        question: 'Acceptez-vous les chantiers ponctuels malgré la distance depuis Lyon ?',
+        answer: "Oui pour les chantiers significatifs (à partir d'environ 200 m² ou de plusieurs prestations groupées). Pour les très petites interventions isolées, le déplacement peut peser dans le coût. Nous le signalons clairement dans le devis et proposons un regroupement quand c'est possible.",
+      },
+    ],
     nearbyCities: ['bourgoin-jallieu', 'chambery'],
   },
   {
@@ -588,6 +673,24 @@ export const CITIES: City[] = [
     population: 60000,
     description: "Préfecture de Savoie, porte d'entrée des Alpes. Centres commerciaux périphériques (Chamnord) et parkings touristiques.",
     emblematic: 'Château des Ducs, Curial, Chamnord',
+    localContext: "Chambéry est un nœud d'entrée des stations de Savoie (Aix, Belledonne, Tarentaise). Le bassin d'emploi connaît une activité tertiaire stable (préfecture, université) et un fort trafic saisonnier (vacances d'hiver, juillet-août). Les parkings de Chamnord et de Carrefour Chambéry subissent une usure marquée en haute saison touristique.",
+    interventionLogistics: "Trajet depuis Tassin par A43, 1h30 environ. Nous regroupons systématiquement les chantiers chambériens avec ceux d'Aix-les-Bains et d'Annecy sur un même déplacement de plusieurs jours pour amortir le coût logistique.",
+    targetClients: [
+      'Centres commerciaux périphériques (Chamnord, Carrefour Chambéry)',
+      'ERP de la préfecture et bâtiments tertiaires de Curial',
+      'Hôtels et résidences touristiques d\'entrée des Alpes',
+      'Copropriétés et résidences de standing',
+    ],
+    localFAQ: [
+      {
+        question: 'Privilégiez-vous les chantiers hors saison touristique ?',
+        answer: "Pour les parkings touristiques et commerciaux, oui. La fenêtre la plus efficace pour retracer un parking de centre commercial savoyard se situe entre mi-septembre et mi-novembre (avant les vacances de Toussaint et la saison de ski). Pour les parkings tertiaires, l'intervention reste possible toute l'année.",
+      },
+      {
+        question: 'Combien de jours d\'intervention pour un grand parking à Chambéry ?',
+        answer: "Pour un parking de 100 à 200 places type grande surface, le chantier dure 2 à 4 jours selon l'ampleur de la préparation (effacement de l'ancien marquage, réparation des nids de poule). L'équipe est mobilisée sur place pour la durée totale du chantier.",
+      },
+    ],
     nearbyCities: ['aix-les-bains', 'grenoble', 'annecy'],
   },
   {
@@ -603,6 +706,24 @@ export const CITIES: City[] = [
     population: 130000,
     description: "Préfecture de Haute-Savoie au bord du lac. Forte saisonnalité touristique, parkings commerciaux et hôteliers à entretenir.",
     emblematic: 'Vieille ville, Lac, Pâquier',
+    localContext: "Annecy combine une économie touristique très saisonnière (4 millions de visiteurs/an au lac), un tissu industriel haut de gamme (Salomon, Dassault) et des copropriétés haut standing autour du lac. Les parkings de l'Impérial Palace, de Courier et de Carrefour Annecy supportent une rotation intense en juillet-août, avec exigence esthétique élevée du fait de la fréquentation touristique.",
+    interventionLogistics: "Trajet depuis Tassin par A41, 1h45 à 2h. Nous planifions les déplacements sur 2 à 3 jours pour amortir le coût et regroupons quand possible avec Chambéry et Aix-les-Bains. Pour les chantiers de moins de 200 m² isolés, nous indiquons clairement la part déplacement dans le devis.",
+    targetClients: [
+      'Hôtels haut de gamme et résidences touristiques du lac',
+      'Centres commerciaux (Courier, Carrefour Annecy, Auchan Cran-Gevrier)',
+      'Sièges industriels (Salomon, Dassault, NTN-SNR)',
+      'Copropriétés de standing autour du lac',
+    ],
+    localFAQ: [
+      {
+        question: 'Intervenez-vous avant la saison touristique pour les hôtels du lac ?',
+        answer: "Oui. Pour les hôtels et résidences touristiques, nous programmons les retraçages entre avril et mi-juin, avant l'afflux des visiteurs. Les chantiers de plus de 300 m² doivent être validés en mars au plus tard pour garantir un créneau hors saison.",
+      },
+      {
+        question: 'Acceptez-vous les chantiers en zone piétonne du centre historique ?',
+        answer: "Oui, sous réserve des autorisations municipales (arrêtés de circulation) qui restent à la charge du client ou de son syndic. Nous fournissons les attestations nécessaires (assurance RC pro, certificat NF EN 1436) pour faciliter le dossier.",
+      },
+    ],
     nearbyCities: ['chambery', 'aix-les-bains'],
   },
   {
@@ -618,6 +739,24 @@ export const CITIES: City[] = [
     population: 64000,
     description: "Préfecture de la Drôme sur l'axe Lyon-Marseille. Zones commerciales (Valence 2) et copropriétés du centre.",
     emblematic: 'Champ-de-Mars, Valence 2, Le Polygone',
+    localContext: "Valence joue un rôle de carrefour logistique entre l'agglomération lyonnaise et le Sud (A7, ligne TGV Méditerranée). Le tissu commercial est dominé par les ZA en périphérie nord (Valence 2 à Bourg-lès-Valence) et sud (Plaine de Valence). Les hivers sont moins rigoureux que sur Lyon, mais les étés très secs accélèrent l'usure UV des peintures non NF.",
+    interventionLogistics: "Trajet depuis Tassin par A7, environ 1h15 à 1h30. Nous regroupons les chantiers valentinois sur des journées dédiées, parfois avec une étape sur Vienne ou Tain-l'Hermitage. Les visites de devis se programment sous 5 à 7 jours ouvrés.",
+    targetClients: [
+      'Centres commerciaux nord (Valence 2, Auchan Bourg-lès-Valence)',
+      'Plateformes logistiques de la Plaine de Valence',
+      'Concessions automobiles le long de la RD2007',
+      'Copropriétés et résidences du centre-ville',
+    ],
+    localFAQ: [
+      {
+        question: 'Comment résistez-vous au fort ensoleillement valentinois ?',
+        answer: "Nous appliquons des peintures NF EN 1436 dont les pigments résistent aux UV (durée de vie 2 à 5 ans en extérieur). Pour les zones très exposées (passages piétons sur surface noire, places réservées), nous proposons une finition thermocollée ou résine, plus résistante aux UV et au trafic.",
+      },
+      {
+        question: 'Couvrez-vous aussi Romans-sur-Isère et Montélimar ?',
+        answer: "Sur devis. Pour les chantiers à proximité de Valence (jusqu'à 30 km), nous étudions chaque demande et acceptons quand le volume justifie le déplacement. Au-delà, nous orientons vers des confrères locaux pour éviter de gonfler les frais de déplacement.",
+      },
+    ],
     nearbyCities: [],
   },
   {
@@ -633,6 +772,24 @@ export const CITIES: City[] = [
     population: 41000,
     description: "Préfecture de l'Ain. Centres commerciaux, zones d'activités tertiaires et plateformes logistiques.",
     emblematic: 'Brou, Centre-ville, Cap Émeraude',
+    localContext: "Bourg-en-Bresse est dominée par les zones commerciales périphériques (Cap Émeraude, Carrefour Bourg) et un tissu agroalimentaire historique (volailles, transformateurs). Les ZA de Viriat et de Servas, le long de l'A40, concentrent une activité logistique soutenue qui sollicite fortement les marquages de quais et d'allées de circulation.",
+    interventionLogistics: "Trajet depuis Tassin par A40, environ 1h. Nos équipes interviennent sur la journée et regroupent fréquemment plusieurs chantiers bressans sur une même tournée. Pour les sites logistiques, nous planifions les chantiers le week-end ou la nuit pour ne pas interrompre les flux.",
+    targetClients: [
+      'Plateformes logistiques de Viriat et Servas (A40)',
+      'Centres commerciaux (Cap Émeraude, Carrefour Bourg)',
+      'Sites agroalimentaires (volailles, transformation)',
+      'ERP (CHIRT, sous-préfecture, écoles)',
+    ],
+    localFAQ: [
+      {
+        question: 'Réalisez-vous des marquages la nuit pour ne pas bloquer les flux logistiques ?',
+        answer: "Oui. Pour les plateformes en flux tendu, nous intervenons en horaires décalés (nuit, week-end) avec des peintures à séchage rapide (1 à 3 heures). Cela permet de redonner accès aux quais et allées le matin même sans interruption d'activité.",
+      },
+      {
+        question: 'Le marquage de zones agroalimentaires a-t-il des contraintes particulières ?',
+        answer: "Oui. Sur les sites de transformation alimentaire, nous utilisons des résines polyuréthane validées pour les zones humides et lavables au jet haute pression, conformes aux contraintes hygiène. Nous adaptons aussi les pigments aux zones de production (couleurs HACCP de circulation).",
+      },
+    ],
     nearbyCities: [],
   },
   {
@@ -648,6 +805,24 @@ export const CITIES: City[] = [
     population: 35000,
     description: "Sous-préfecture de la Loire au bord du fleuve. Reconversion industrielle et nouveaux parkings de centres-villes.",
     emblematic: 'Centre-ville, Quai du Commandant Lherminier',
+    localContext: "Roanne vit une reconversion économique post-textile vers le tertiaire et la logistique. Les nouvelles ZA (Saint-Vincent-de-Boisset, Mably) attirent les enseignes de bricolage et d'ameublement. Le centre-ville rénové autour des quais de Loire concentre des copropriétés modernes avec parkings souterrains à entretenir.",
+    interventionLogistics: "Trajet depuis Tassin par A89, environ 1h15. Notre intervention est plus efficace quand nous regroupons un chantier roannais avec un chantier stéphanois ou un site de la plaine du Forez. Les visites de devis se programment dans ce cadre groupé pour limiter les frais.",
+    targetClients: [
+      'Enseignes de bricolage et ameublement (Mably, Riorges)',
+      'Parkings souterrains des copropriétés du centre rénové',
+      'Plateformes logistiques de la reconversion industrielle',
+      'ERP du centre-ville historique',
+    ],
+    localFAQ: [
+      {
+        question: 'Marquage de parking souterrain à Roanne : quelles solutions ?',
+        answer: "Pour les parkings souterrains (centre-ville rénové), nous utilisons des peintures époxy ou polyuréthane à séchage rapide, plus durables que les peintures routières sur sols intérieurs. La ventilation pendant la pose est essentielle : nous coordonnons avec le gestionnaire pour le bon timing.",
+      },
+      {
+        question: 'Peut-on grouper un chantier Roanne et Saint-Étienne pour économiser ?',
+        answer: "Oui, c'est même recommandé. Pour des chantiers proches dans le temps, nous mutualisons le déplacement et appliquons une remise sur la part logistique. Indiquez votre date de souhait : nous proposons un calendrier groupé si une autre demande est en cours dans le secteur.",
+      },
+    ],
     nearbyCities: ['saint-etienne'],
   },
   {
@@ -663,6 +838,24 @@ export const CITIES: City[] = [
     population: 30000,
     description: "Ville thermale au bord du lac du Bourget. Parkings hôteliers, casino et établissements thermaux à signaler avec soin.",
     emblematic: 'Thermes, Lac du Bourget, Casino',
+    localContext: "Aix-les-Bains a la spécificité d'une économie thermale et touristique très saisonnière (Thermes nationaux, Casino Grand Cercle, hôtels du lac). Les parkings de la Mémard, du Centre-Bourg et du Casino doivent rester impeccables d'avril à octobre. La ville reçoit une clientèle senior, ce qui justifie un effort particulier sur les places PMR et la signalétique très lisible.",
+    interventionLogistics: "Trajet depuis Tassin par A43 puis A41, environ 1h30. Nous regroupons Aix-les-Bains avec Chambéry et Annecy lors de tournées de 2 à 3 jours pour amortir le coût de déplacement, particulièrement entre novembre et mars (basse saison touristique).",
+    targetClients: [
+      'Hôtels du bord du lac et résidences thermales',
+      'Casino Grand Cercle et établissements de loisirs',
+      'Thermes Chevalley et établissements de cure',
+      'Parkings ERP recevant une clientèle senior (PMR renforcé)',
+    ],
+    localFAQ: [
+      {
+        question: 'Adaptez-vous le marquage PMR à la clientèle senior d\'Aix-les-Bains ?',
+        answer: "Oui. Pour les parkings thermaux et hôteliers recevant majoritairement une clientèle senior et à mobilité réduite, nous proposons un sur-dimensionnement des places PMR (au-delà des 3,30 m réglementaires) et une signalétique au sol agrandie pour faciliter le repérage. Conformité totale aux normes ERP.",
+      },
+      {
+        question: 'Quel calendrier idéal pour un retraçage à Aix-les-Bains ?',
+        answer: "Entre novembre et mars, en basse saison touristique. C'est la période où les parkings hôteliers et thermaux peuvent être fermés partiellement sans impacter l'activité. Pour les chantiers d'urgence en haute saison (avril-octobre), nous travaillons la nuit ou en demi-parking.",
+      },
+    ],
     nearbyCities: ['chambery', 'annecy'],
   },
 ]

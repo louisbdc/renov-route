@@ -7,6 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Coût rénovation parking : prix au m² et budget 2026',
   metaDescription: 'Coût rénovation parking : prix au m² par type de travaux, budget moyen selon la taille et facteurs de variation. Tableaux détaillés et exemples réels.',
   publishDate: '2026-03-04',
+  updatedDate: '2026-05-21',
   category: 'renovation-parking',
   readingTime: 12,
   excerpt: 'Prix au m² par type de travaux, budgets moyens selon la taille du parking et 7 facteurs qui font varier la facture. Tableaux détaillés et exemples réels.',
@@ -19,7 +20,7 @@ export default function Content() {
         Un parking de 50 places dont le marquage est effacé, la chaussée fissurée et la signalisation absente : faut-il prévoir quelques milliers d&apos;euros ou plusieurs dizaines de milliers d&apos;euros pour le remettre en état ? L&apos;écart est énorme, et c&apos;est bien le problème. Sans grille tarifaire claire, impossible de budgétiser correctement.
       </p>
       <p>
-        La réalité, c&apos;est que le coût de rénovation d&apos;un parking varié du simple au décuple selon les travaux nécessaires. Un retraçage seul coûte à partir de 10 euros/m². Une réfection complète de chaussée peut dépasser 80 euros/m². Entre les deux, chaque poste à son propre tarif.
+        La réalité, c&apos;est que le coût de rénovation d&apos;un parking varie du simple au décuple selon les travaux nécessaires. Un retraçage seul coûte à partir de 10 euros/m². Une réfection complète de chaussée peut dépasser 80 euros/m². Entre les deux, chaque poste a son propre tarif.
       </p>
       <p>
         Ce guide détaille les prix au m² par type de travaux, les budgets moyens selon la taille du parking et les facteurs qui font varier la facture. Nous avons condensé ici les données de plus de 1 000 projets réalisés depuis 2014 pour des enseignes comme Carrefour, Lidl et McDonald&apos;s. Vous repartirez avec un budget prévisionnel réaliste pour votre projet.
@@ -363,7 +364,7 @@ export default function Content() {
 
       <h3>5. Faire appel à un spécialiste</h3>
       <p>
-        Une entreprise spécialisée en marquage de parking connaît les normes, dispose du matériel adapté et optimise le temps de chantier. Un généraliste mettra plus de temps, avec un risque de non-conformité qui oblige à refaire les travaux. Notre équipe de <Link href="/competences/conseil-expertise">conseil et expertise</Link> vous accompagné du diagnostic au chiffrage.
+        Une entreprise spécialisée en marquage de parking connaît les normes, dispose du matériel adapté et optimise le temps de chantier. Un généraliste mettra plus de temps, avec un risque de non-conformité qui oblige à refaire les travaux. Notre équipe de <Link href="/competences/conseil-expertise">conseil et expertise</Link> vous accompagne du diagnostic au chiffrage.
       </p>
 
       <h2>FAQ : coût rénovation parking</h2>

@@ -7,7 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Marquage au sol parking copropriété : guide complet 2026',
   metaDescription: "Marquage au sol et rénovation parking copropriété : étapes, vote en AG, budget par poste, délais. Guide complet 2026 par Renov Route, expert depuis 2014.",
   publishDate: '2026-03-04',
-  updatedDate: '2026-04-25',
+  updatedDate: '2026-05-21',
   category: 'renovation-parking',
   readingTime: 9,
   excerpt: 'Guide complet pour rénover le parking et le marquage au sol de votre copropriété : diagnostic, vote en assemblée générale, choix des travaux et estimation des coûts 2026.',
@@ -53,7 +53,7 @@ export default function Content() {
       <h2>Étape 2 : Le vote en assemblée générale</h2>
       <p>
         En copropriété, les travaux de rénovation du parking doivent être votés en AG. Selon
-        l&apos;ampleur des travaux, la majorité requise varié :
+        l&apos;ampleur des travaux, la majorité requise varie :
       </p>
       <ul>
         <li><strong>Majorité simple (article 24)</strong> : entretien courant, reprise du marquage au sol</li>
@@ -79,7 +79,7 @@ export default function Content() {
 
       <h2>Quel budget prévoir ?</h2>
       <p>
-        Le coût d&apos;une rénovation de parking varié selon l&apos;état initial et l&apos;étendue
+        Le coût d&apos;une rénovation de parking varie selon l&apos;état initial et l&apos;étendue
         des travaux. Pour un parking de copropriété de taille moyenne (20 à 50 places), comptez
         entre 5 000 € et 25 000 € selon les prestations retenues.
       </p>

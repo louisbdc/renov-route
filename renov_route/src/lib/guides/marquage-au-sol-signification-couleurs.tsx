@@ -7,6 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Marquage au sol signification : couleurs, lignes, symboles | Guide 2026',
   metaDescription: 'Marquage au sol signification : blanc, jaune, bleu, vert. Decodez chaque ligne, couleur et pictogramme. Tableau complet + règles parking. Guide expert 2026.',
   publishDate: '2026-03-31',
+  updatedDate: '2026-05-21',
   category: 'marquage-parking',
   readingTime: 12,
   excerpt: 'Signification du marquage au sol couleur par couleur : blanc pour la circulation, jaune pour les interdictions, bleu pour le stationnement réglementé. Tableau récapitulatif, sanctions et règles parking.',
@@ -210,7 +211,7 @@ export default function Content() {
 
       <h2>Marquage au sol en parking privé : règles et personnalisation</h2>
       <p>
-        La <strong>signification marquage au sol parking</strong> en domaine privé obéit à des règles spécifiques. Si le Code de la route s&apos;appliqué sur la voie publique, les parkings privés disposent d&apos;une certaine marge de personnalisation.
+        La <strong>signification marquage au sol parking</strong> en domaine privé obéit à des règles spécifiques. Si le Code de la route s&apos;applique sur la voie publique, les parkings privés disposent d&apos;une certaine marge de personnalisation.
       </p>
 
       <h3>Ce qui est obligatoire</h3>
@@ -235,7 +236,7 @@ export default function Content() {
         <li>Integrer un logo d&apos;entreprise ou des codes couleur internes</li>
       </ul>
       <p>
-        L&apos;équipe de <Link href="/competences/conseil-expertise">conseil et expertise</Link> de Renov&apos;Route accompagné les gestionnaires dans le choix des marquages pour allier conformité réglementaire et fonctionnalité.
+        L&apos;équipe de <Link href="/competences/conseil-expertise">conseil et expertise</Link> de Renov&apos;Route accompagne les gestionnaires dans le choix des marquages pour allier conformité réglementaire et fonctionnalité.
       </p>
 
       <h3>L&apos;exemple d&apos;un parking Carrefour dans l&apos;Ain</h3>
@@ -392,7 +393,7 @@ export default function Content() {
         Si vous gerez un parking, une voirie ou un espace de circulation, la qualité de votre marquage au sol reflete directement votre engagement envers la sécurité de vos usagers. Un marquage effacé, decolore ou non conforme est un risque juridique et humain.
       </p>
       <p>
-        <strong>Renov&apos;Route vous accompagné</strong> dans le <Link href="/competences/tracage-retracage-parking">traçage et retraçage</Link> de vos espaces de circulation. Depuis 2014, nous avons réalisé plus de 1 000 projets pour des enseignes comme Carrefour, Lidl et McDonald&apos;s, en respectant les normes NF EN 1436 et l&apos;IISR.
+        <strong>Renov&apos;Route vous accompagne</strong> dans le <Link href="/competences/tracage-retracage-parking">traçage et retraçage</Link> de vos espaces de circulation. Depuis 2014, nous avons réalisé plus de 1 000 projets pour des enseignes comme Carrefour, Lidl et McDonald&apos;s, en respectant les normes NF EN 1436 et l&apos;IISR.
       </p>
       <p>
         <strong><Link href="/devis">Demandez votre devis gratuit</Link></strong> sous 24h ou appelez le 07 86 81 96 92. Un expert Renov&apos;Route vous conseillé sur le marquage adapte à votre site.

@@ -7,6 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Normes signalétique parking 2026 : guide complet | Rénov\'Route',
   metaDescription: 'Arrêté 2026 sur la signalétique des parkings : panneaux LED, contours jaunes, contrôles obligatoires. Checklist de conformité, coûts et calendrier de mise aux normes.',
   publishDate: '2026-03-04',
+  updatedDate: '2026-05-21',
   category: 'marquage-parking',
   readingTime: 13,
   excerpt: 'L\'arrêté du 4 septembre 2026 impose de nouvelles normes de signalétique dans les parkings. Panneaux dynamiques LED, contours jaunes, contrôles obligatoires : tout ce qu\'il faut savoir.',
@@ -38,7 +39,7 @@ export default function Content() {
       <p>
         L&apos;arrêté du 4 septembre 2026 modifié les exigences techniques pour les
         équipements de signalisation dans les parkings publics et privés ouverts au public.
-        Il s&apos;appliqué aux ERP (Établissements Recevant du Public), aux parkings
+        Il s&apos;applique aux ERP (Établissements Recevant du Public), aux parkings
         commerciaux, aux parkings de copropriétés accessibles et aux parkings relais.
       </p>
 
@@ -332,7 +333,7 @@ export default function Content() {
 
       <h2>Questions fréquentes</h2>
 
-      <h3>L&apos;arrêté s&apos;appliqué-t-il aux parkings privés de copropriété ?</h3>
+      <h3>L&apos;arrêté s&apos;applique-t-il aux parkings privés de copropriété ?</h3>
       <p>
         L&apos;arrêté concerne les parkings ouverts au public (ERP, commerces,
         parkings relais). Les parkings privés de copropriété fermés ne sont pas

@@ -7,6 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Rampe pour PMR: normes, types et installation | Renov\'Route',
   metaDescription: 'Tout savoir sur les rampes pour PMR: normes d\'accessibilité, pentes réglementaires, types de rampes et prix. Guide complet par Renov\'Route, expert depuis 2014.',
   publishDate: '2026-03-31',
+  updatedDate: '2026-05-21',
   category: 'normes-pmr',
   readingTime: 11,
   excerpt: 'Normes de pente, types de rampes (béton, aluminium, amovible, résine), prix, aides financieres et erreurs à éviter pour une rampe PMR conforme.',
@@ -30,7 +31,7 @@ export default function Content() {
         <li>Les <strong>erreurs fréquentes</strong> qui rendent une rampe non conforme</li>
       </ul>
       <p>
-        <strong>Vous avez un projet de mise aux normes PMR ?</strong> Renov&apos;Route accompagné les gestionnaires de parkings et d&apos;ERP dans leur mise en conformité depuis 2014. <Link href="/devis">Demandez un devis gratuit</Link> sous 24h.
+        <strong>Vous avez un projet de mise aux normes PMR ?</strong> Renov&apos;Route accompagne les gestionnaires de parkings et d&apos;ERP dans leur mise en conformité depuis 2014. <Link href="/devis">Demandez un devis gratuit</Link> sous 24h.
       </p>
 
       <h2>Pourquoi installer une rampe pour PMR est obligatoire</h2>
@@ -355,7 +356,7 @@ export default function Content() {
         Que vous geriez un commerce, un parking ou un immeuble, l&apos;accessibilité se pense globalement : du stationnement à l&apos;entrée, de la rampe au marquage des places PMR.
       </p>
       <p>
-        <strong>Renov&apos;Route accompagné les gestionnaires de parkings et d&apos;ERP dans leur mise en conformité sur Lyon, en Rhône-Alpes et dans toute la France.</strong> Un seul interlocuteur, un diagnostic gratuit, un devis sous 24h.
+        <strong>Renov&apos;Route accompagne les gestionnaires de parkings et d&apos;ERP dans leur mise en conformité sur Lyon, en Rhône-Alpes et dans toute la France.</strong> Un seul interlocuteur, un diagnostic gratuit, un devis sous 24h.
       </p>
       <p>
         Besoin d&apos;une rampe pour PMR conforme et installée rapidement ? <strong><Link href="/devis">Demandez votre devis gratuit</Link></strong> ou appelez-nous directement au <strong>07 86 81 96 92</strong>.

@@ -1,4 +1,3 @@
-'use client';
 
 import Link from 'next/link';
 import Image from 'next/image';
@@ -354,7 +353,7 @@ export default function ContactPage() {
                     Nous sommes également engagés sur la{' '}
                     <strong>mise en conformité PMR</strong> des parkings. Les sanctions peuvent
                     atteindre 45 000 € pour une personne physique et 225 000 € pour une personne
-                    morale. Notre service conseil et expertise accompagné nos clients depuis le
+                    morale. Notre service conseil et expertise accompagne nos clients depuis le
                     diagnostic jusqu&apos;à la réception des travaux.
                   </p>
                 </div>

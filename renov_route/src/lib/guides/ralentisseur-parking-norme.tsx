@@ -7,6 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Ralentisseur parking : normes et installation',
   metaDescription: 'Normes, dimensions et types de ralentisseurs pour parking privé. Dos d\'âne, coussins berlinois, bandes sonores : guide complet pour sécuriser votre parking.',
   publishDate: '2026-03-04',
+  updatedDate: '2026-05-21',
   category: 'securite-parking',
   readingTime: 10,
   excerpt: 'Dos d\'âne, plateau surélevé, coussin berlinois : quel ralentisseur pour votre parking ? Normes, dimensions, prix et règles d\'installation.',
@@ -47,7 +48,7 @@ export default function Content() {
 
       <h3>La norme NF P 98-300</h3>
       <p>
-        Cette norme complète le décret en précisant les spécifications techniques : profil géométrique, matériaux, caractéristiques antidérapantes et signalisation associée. Elle s&apos;appliqué aux ralentisseurs en dur (béton, enrobé).
+        Cette norme complète le décret en précisant les spécifications techniques : profil géométrique, matériaux, caractéristiques antidérapantes et signalisation associée. Elle s&apos;applique aux ralentisseurs en dur (béton, enrobé).
       </p>
 
       <h3>Et les parkings privés ?</h3>
@@ -314,7 +315,7 @@ export default function Content() {
 
       <h3>Quelle est la hauteur maximale d&apos;un ralentisseur de parking ?</h3>
       <p>
-        10 centimètres, selon le décret 94-447 et la norme NF P 98-300. Cette hauteur s&apos;appliqué aux dos d&apos;âne (type A) et aux plateaux surélevés (type B). Les ralentisseurs modulaires en caoutchouc ont généralement une hauteur de 5 à 7 centimètres.
+        10 centimètres, selon le décret 94-447 et la norme NF P 98-300. Cette hauteur s&apos;applique aux dos d&apos;âne (type A) et aux plateaux surélevés (type B). Les ralentisseurs modulaires en caoutchouc ont généralement une hauteur de 5 à 7 centimètres.
       </p>
 
       <h3>Peut-on installer un ralentisseur dans un parking privé ?</h3>

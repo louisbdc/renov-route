@@ -7,7 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Comment tracer un parking en 7 étapes (2026) | Rénov\'Route',
   metaDescription: 'Tracer un parking en 7 étapes : plan de marquage, dimensions réglementaires, peinture NF EN 1436, normes PMR. Guide expert depuis 2014. Devis gratuit 24h.',
   publishDate: '2026-03-04',
-  updatedDate: '2026-05-05',
+  updatedDate: '2026-05-21',
   category: 'marquage-parking',
   readingTime: 12,
   excerpt: 'Guide complet en 7 étapes pour tracer un parking : diagnostic, plan de marquage, normes PMR, préparation du sol, choix de peinture, traçage et signalisation.',
@@ -400,7 +400,7 @@ export default function Content() {
 
       <h3>2. Oublier les places PMR</h3>
       <p>
-        C&apos;est l&apos;erreur la plus coûteuse. Un parking non conforme aux normes PMR exposé le gestionnaire à une amende de 45 000 euros par infraction et à une interdiction d&apos;exploitation pour les ERP. Les places PMR ne sont pas un bonus ; c&apos;est une obligation légale.
+        C&apos;est l&apos;erreur la plus coûteuse. Un parking non conforme aux normes PMR expose le gestionnaire à une amende de 45 000 euros par infraction et à une interdiction d&apos;exploitation pour les ERP. Les places PMR ne sont pas un bonus ; c&apos;est une obligation légale.
       </p>
 
       <h3>3. Tracer sur un sol humide ou gras</h3>
@@ -473,7 +473,7 @@ export default function Content() {
 
       <h3>Combien coûte le traçage d&apos;un parking ?</h3>
       <p>
-        Le prix varié selon la surface, le type de peinture et l&apos;état du support. En ordre de grandeur : à partir de 8 euros/m² en peinture acrylique, à partir de 15 euros/m² en thermoplastique. Pour un parking de 50 places, comptez à partir de 4 000 euros. Consultez notre guide <Link href="/guides/prix-marquage-sol-parking">prix du marquage au sol de parking</Link> pour un budget détaillé.
+        Le prix varie selon la surface, le type de peinture et l&apos;état du support. En ordre de grandeur : à partir de 8 euros/m² en peinture acrylique, à partir de 15 euros/m² en thermoplastique. Pour un parking de 50 places, comptez à partir de 4 000 euros. Consultez notre guide <Link href="/guides/prix-marquage-sol-parking">prix du marquage au sol de parking</Link> pour un budget détaillé.
       </p>
 
       <h2>Conclusion : un traçage réussi se prépare</h2>

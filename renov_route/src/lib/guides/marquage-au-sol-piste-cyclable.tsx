@@ -7,6 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Marquage au sol piste cyclable : normes, types et prix | Renov\'Route',
   metaDescription: 'Marquage au sol piste cyclable : réglementation CEREMA, pictogrammes vélo, couleurs, dimensions, prix au m2. 1 000+ projets depuis 2014. Devis sous 24h.',
   publishDate: '2026-03-31',
+  updatedDate: '2026-05-21',
   category: 'marquage-parking',
   readingTime: 12,
   excerpt: 'Guide complet du marquage au sol pour pistes cyclables en 2026 : types d\'aménagements, normes CEREMA et IISR, matériaux, dimensions réglementaires et prix au m2.',
@@ -79,7 +80,7 @@ export default function Content() {
         Un marquage dégradé ou absent exposé la collectivité à une mise en cause pour défaut
         d&apos;entretien normal de l&apos;ouvrage public (article L2111-1 du Code général de
         la propriété des personnes publiques). Pour les entreprises privées, la responsabilité
-        civile et pénale s&apos;appliqué en cas d&apos;accident sur leur domaine.
+        civile et pénale s&apos;applique en cas d&apos;accident sur leur domaine.
       </p>
       <p>
         Votre infrastructure cyclable est-elle conforme aux dernières exigences du CEREMA ?
@@ -698,7 +699,7 @@ export default function Content() {
         durabilité n&apos;ont jamais été aussi élevées.
       </p>
       <p>
-        Renov&apos;Route accompagné les collectivités et les entreprises dans la conception, la
+        Renov&apos;Route accompagne les collectivités et les entreprises dans la conception, la
         réalisation et l&apos;entretien de leurs aménagements cyclables depuis 2014. Plus de
         1 000 projets de marquage livres en Rhône-Alpes, des équipés formees aux dernières
         normes NF EN 1436 et IISR, un matériel adapte aux revêtements colores et aux marquages

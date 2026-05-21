@@ -16,7 +16,7 @@ export default function FAQPage() {
     },
     {
       question: "Combien coûte le marquage au sol d'un parking à Lyon ?",
-      answer: "Le coût du marquage au sol d'un parking à Lyon varié selon plusieurs facteurs : la surface à marquer, le type de peinture utilisée (peinture époxy, résine, thermoplastique), la complexité du tracé, et l'état du sol existant. En moyenne, comptez entre 8€ et 15€ par m² pour un marquage standard. Pour un parking de 100m², le budget se situe généralement entre 800€ et 1500€. Nous proposons des devis personnalisés selon vos besoins spécifiques."
+      answer: "Le coût du marquage au sol d'un parking à Lyon varie selon plusieurs facteurs : la surface à marquer, le type de peinture utilisée (peinture époxy, résine, thermoplastique), la complexité du tracé, et l'état du sol existant. En moyenne, comptez entre 8€ et 15€ par m² pour un marquage standard. Pour un parking de 100m², le budget se situe généralement entre 800€ et 1500€. Nous proposons des devis personnalisés selon vos besoins spécifiques."
     },
     {
       question: "Quelle est la différence entre peinture époxy et résine pour le marquage ?",
@@ -72,7 +72,7 @@ export default function FAQPage() {
     },
     {
       question: "Quelle garantie offrez-vous sur vos travaux de marquage ?",
-      answer: "Nous offrons une garantie de 2 ans sur tous nos travaux de marquage au sol, couvrant les défauts d'adhérence, de résistance et de conformité. Cette garantie s'appliqué sous réserve d'un entretien normal et d'une utilisation conforme. En cas de problème couvert par la garantie, nous intervenons gratuitement pour réparer ou refaire le marquage défaillant. Nous sommes également assurés responsabilité civile professionnelle pour tous nos travaux."
+      answer: "Nous offrons une garantie de 2 ans sur tous nos travaux de marquage au sol, couvrant les défauts d'adhérence, de résistance et de conformité. Cette garantie s'applique sous réserve d'un entretien normal et d'une utilisation conforme. En cas de problème couvert par la garantie, nous intervenons gratuitement pour réparer ou refaire le marquage défaillant. Nous sommes également assurés responsabilité civile professionnelle pour tous nos travaux."
     },
     {
       question: "Comment obtenir un devis pour marquage au sol ?",

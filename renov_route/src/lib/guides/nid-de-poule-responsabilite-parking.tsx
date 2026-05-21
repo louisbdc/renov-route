@@ -7,6 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Nid de poule parking privé : qui est responsable ? | Rénov\'Route',
   metaDescription: 'Nid de poule dans un parking privé : qui paie les réparations ? Responsabilité du propriétaire, syndic, exploitant. Droits et recours en cas d\'accident.',
   publishDate: '2026-03-04',
+  updatedDate: '2026-05-21',
   category: 'nids-de-poule',
   readingTime: 9,
   excerpt: 'Qui est responsable d\'un nid de poule dans un parking privé ? Propriétaire, syndic, exploitant : ce que dit la loi, les risques et les solutions pour se protéger.',
@@ -32,7 +33,7 @@ export default function Content() {
 
       <h3>Parking d'entreprise ou de commerce</h3>
       <p>
-        Le responsable est l'exploitant du parking, c'est-à-dire celui qui en à l'usage et qui accueille le public. Pour un supermarché, c'est l'enseigne. Pour un restaurant, c'est le gérant. Pour un hôtel, c'est l'hôtelier.
+        Le responsable est l'exploitant du parking, c'est-à-dire celui qui en a l'usage et qui accueille le public. Pour un supermarché, c'est l'enseigne. Pour un restaurant, c'est le gérant. Pour un hôtel, c'est l'hôtelier.
       </p>
       <p>Le fondement juridique est double :</p>
       <ul>
@@ -200,7 +201,7 @@ export default function Content() {
 
       <h3>La commune peut-elle être responsable d'un nid de poule dans mon parking ?</h3>
       <p>
-        Non. Si le parking est privé, la commune n'a aucune obligation d'entretien. La responsabilité de la commune ne s'appliqué qu'aux voies publiques (routes communales, trottoirs, parkings publics). Pour un parking privé, c'est le propriétaire ou le gestionnaire qui assume l'entretien.
+        Non. Si le parking est privé, la commune n'a aucune obligation d'entretien. La responsabilité de la commune ne s'applique qu'aux voies publiques (routes communales, trottoirs, parkings publics). Pour un parking privé, c'est le propriétaire ou le gestionnaire qui assume l'entretien.
       </p>
 
       <h2>Mieux vaut prévenir que plaider</h2>

@@ -25,9 +25,9 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
         "Pour un parking de 50 places, comptez 1 à 2 jours de travaux. Le parking peut être partiellement utilisé pendant le chantier : nous travaillons par zones avec un séchage de 1 à 3 heures par zone.",
     },
     {
-      question: "La TVA s'appliqué-t-elle au taux réduit ?",
+      question: "La TVA s'applique-t-elle au taux réduit ?",
       answer:
-        "Non, le marquage au sol de parking relève du taux de TVA normal (20%). Le taux réduit de 10% ne s'appliqué qu'aux travaux d'amélioration des logements de plus de 2 ans, pas aux parkings.",
+        "Non, le marquage au sol de parking relève du taux de TVA normal (20%). Le taux réduit de 10% ne s'applique qu'aux travaux d'amélioration des logements de plus de 2 ans, pas aux parkings.",
     },
   ],
   'normes-pmr-parking': [
@@ -89,7 +89,7 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
       question:
         'La commune peut-elle être responsable d’un nid de poule dans mon parking ?',
       answer:
-        "Non. Si le parking est privé, la commune n'a aucune obligation d'entretien. La responsabilité de la commune ne s'appliqué qu'aux voies publiques (routes communales, trottoirs, parkings publics). Pour un parking privé, c'est le propriétaire ou le gestionnaire qui assume l'entretien.",
+        "Non. Si le parking est privé, la commune n'a aucune obligation d'entretien. La responsabilité de la commune ne s'applique qu'aux voies publiques (routes communales, trottoirs, parkings publics). Pour un parking privé, c'est le propriétaire ou le gestionnaire qui assume l'entretien.",
     },
   ],
   'enrobe-froid-vs-resine-nids-de-poule': [
@@ -630,7 +630,7 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
       question:
         "Quelle est la hauteur maximale d'un dos d'âne ?",
       answer:
-        "10 cm, selon la norme NF P 98-300. Cette limite s'appliqué aux voies publiques mais constitue la référence pour les parkings privés. Un dos d'âne plus haut exposé le gestionnaire à des réclamations pour dommages aux véhicules.",
+        "10 cm, selon la norme NF P 98-300. Cette limite s'applique aux voies publiques mais constitue la référence pour les parkings privés. Un dos d'âne plus haut expose le gestionnaire à des réclamations pour dommages aux véhicules.",
     },
     {
       question:
@@ -724,7 +724,7 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
       question:
         "Qui peut verbaliser un excès de vitesse dans un parking privé ?",
       answer:
-        "Sur un parking privé non ouvert à la circulation publique, les forces de l'ordre ne peuvent pas dresser de contravention pour excès de vitesse. En revanche, sur un parking privé ouvert au public (centre commercial, hôpital), le Code de la route s'appliqué et les infractions sont verbalisables.",
+        "Sur un parking privé non ouvert à la circulation publique, les forces de l'ordre ne peuvent pas dresser de contravention pour excès de vitesse. En revanche, sur un parking privé ouvert au public (centre commercial, hôpital), le Code de la route s'applique et les infractions sont verbalisables.",
     },
     {
       question:
@@ -814,7 +814,7 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
       question:
         "L'obligation concerne-t-elle aussi les parkings souterrains ?",
       answer:
-        "Non. L'obligation d'ombrières photovoltaïques s'appliqué uniquement aux parkings extérieurs de plein air. Les parkings couverts ou souterrains ne sont pas concernés.",
+        "Non. L'obligation d'ombrières photovoltaïques s'applique uniquement aux parkings extérieurs de plein air. Les parkings couverts ou souterrains ne sont pas concernés.",
     },
     {
       question:
@@ -838,7 +838,7 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
   'nouvelles-normes-signaletique-parking-2026': [
     {
       question:
-        "L'arrêté s'appliqué-t-il aux parkings privés de copropriété ?",
+        "L'arrêté s'applique-t-il aux parkings privés de copropriété ?",
       answer:
         "L'arrêté concerne les parkings ouverts au public (ERP, commerces, parkings relais). Les parkings privés de copropriété fermés ne sont pas directement visés, mais les syndics ont intérêt à anticiper.",
     },
@@ -1078,7 +1078,7 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
       question:
         "Mon parking n'a que 5 places, dois-je avoir une place PMR ?",
       answer:
-        "Oui. Dès la première place de stationnement accessible au public, une place PMR est obligatoire. La règle des 2% avec arrondi à l'entier supérieur s'appliqué : 5 places = 1 place PMR minimum.",
+        "Oui. Dès la première place de stationnement accessible au public, une place PMR est obligatoire. La règle des 2% avec arrondi à l'entier supérieur s'applique : 5 places = 1 place PMR minimum.",
     },
     {
       question:

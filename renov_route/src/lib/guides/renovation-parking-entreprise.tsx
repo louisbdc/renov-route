@@ -7,6 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Rénovation parking entreprise : checklist et budget | Renov\'Route',
   metaDescription: 'Rénovation de parking d\'entreprise : checklist complète, budget par poste et planning. Marquage, nids de poule, signalisation, équipements. Devis gratuit sous 24h.',
   publishDate: '2026-03-04',
+  updatedDate: '2026-05-21',
   category: 'renovation-parking',
   readingTime: 11,
   excerpt: 'Checklist complète pour évaluer et rénover votre parking d\'entreprise. Budget détaillé par poste, planning type sans perturber votre activité et erreurs à éviter.',
@@ -305,7 +306,7 @@ export default function Content() {
 
       <h3>Interventions de nuit ou week-end</h3>
       <p>
-        Pour les commerces à forte affluence (centres commerciaux, fast-foods, cliniques), nous proposons des interventions de nuit ou le dimanche pour éviter toute perturbation. Un supplément de 15 à 25 % s'appliqué sur la main d'oeuvre.
+        Pour les commerces à forte affluence (centres commerciaux, fast-foods, cliniques), nous proposons des interventions de nuit ou le dimanche pour éviter toute perturbation. Un supplément de 15 à 25 % s'applique sur la main d'oeuvre.
       </p>
 
       <h2>Les erreurs à éviter lors d'une rénovation de parking</h2>

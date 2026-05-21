@@ -1,6 +1,9 @@
 User-agent: *
 Allow: /
 Allow: /_next/static/
+Allow: /manifest.json
+Allow: /llms.txt
+Allow: /sitemap.xml
 
 Disallow: /_next/
 Disallow: /api/
@@ -8,7 +11,7 @@ Disallow: /admin/
 Disallow: /private/
 Disallow: /scripts/
 Disallow: /out/
-Disallow: /*.json
+Disallow: /*.json$
 Disallow: /*.map
 
 Disallow: /*?lightbox=*

@@ -1,4 +1,3 @@
-'use client'
 
 import ServiceStructuredData from '@/components/ServiceStructuredData'
 import BreadcrumbSchema from '@/components/BreadcrumbSchema'
@@ -81,7 +80,7 @@ export default function ConseilExpertisePage() {
         accentColor="sky"
         descriptionHeading="Un accompagnement technique sur mesure"
         descriptionParagraphs={[
-          <>Chaque projet d&apos;infrastructure est unique. Notre équipe vous accompagné de la conception à la réalisation en s&apos;appuyant sur plus de 10 ans d&apos;expérience dans le <Link href="/competences/tracage-retracage-parking" className="text-[#FACC15] hover:text-[#0F172A] underline">marquage de parking</Link>, la <Link href="/competences/signalisation-verticale" className="text-[#FACC15] hover:text-[#0F172A] underline">signalisation verticale</Link> et les <Link href="/competences/resine-sol-marquage-interieur" className="text-[#FACC15] hover:text-[#0F172A] underline">revêtements en résine</Link>.</>,
+          <>Chaque projet d&apos;infrastructure est unique. Notre équipe vous accompagne de la conception à la réalisation en s&apos;appuyant sur plus de 10 ans d&apos;expérience dans le <Link href="/competences/tracage-retracage-parking" className="text-[#FACC15] hover:text-[#0F172A] underline">marquage de parking</Link>, la <Link href="/competences/signalisation-verticale" className="text-[#FACC15] hover:text-[#0F172A] underline">signalisation verticale</Link> et les <Link href="/competences/resine-sol-marquage-interieur" className="text-[#FACC15] hover:text-[#0F172A] underline">revêtements en résine</Link>.</>,
           'Nous vous aidons à identifier les solutions les plus adaptées à vos contraintes techniques et budgétaires, à anticiper les problèmes réglementaires et à planifier vos travaux pour minimiser les perturbations.',
           <>Notre approche collaborative garantit une compréhension précise de vos enjeux et des recommandations réellement utiles. Découvrez nos <Link href="/realisations" className="text-[#FACC15] hover:text-[#0F172A] underline">projets réalisés</Link> ou <Link href="/devis" className="text-[#FACC15] hover:text-[#0F172A] underline">demandez un devis gratuit</Link>.</>,
         ]}

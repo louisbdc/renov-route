@@ -7,7 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Signalisation horizontale et verticale : différences, normes et prix',
   metaDescription: 'Signalisation horizontale vs verticale : définitions, normes NF EN 1436 et 12899-1, règles de combinaison et tarifs. Parking, voirie, zone industrielle. Devis 24h.',
   publishDate: '2026-03-31',
-  updatedDate: '2026-05-05',
+  updatedDate: '2026-05-21',
   category: 'securite-parking',
   readingTime: 12,
   excerpt: 'Definitions, normes NF EN 1436 et 12899-1, differences, complementarite et prix de la signalisation horizontale et verticale pour parking, voirie et zone industrielle.',
@@ -247,7 +247,7 @@ export default function Content() {
         <li><strong>Panneaux</strong> : réglementation complète (vitesse, priorité, stationnement), panneaux de direction, panneaux d&apos;agglomeration</li>
       </ul>
       <p>
-        Renov&apos;Route accompagné les collectivités locales de l&apos;audit à la réalisation. Consultez nos{' '}
+        Renov&apos;Route accompagne les collectivités locales de l&apos;audit à la réalisation. Consultez nos{' '}
         <Link href="/realisations">réalisations</Link>{' '}
         pour voir des exemples de chantiers en voirie communale.
       </p>

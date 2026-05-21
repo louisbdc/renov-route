@@ -7,6 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Prix marquage au sol parking 2026 : dès 2,50€/ml (tarifs + devis)',
   metaDescription: 'Prix marquage au sol parking en 2026 : tarifs au m² et par place, exemples de devis, comparatif peinture/résine/thermocollé. Devis gratuit sous 24h, sans engagement.',
   publishDate: '2026-03-04',
+  updatedDate: '2026-05-21',
   category: 'prix-tarifs',
   readingTime: 10,
   excerpt: 'Tarifs détaillés du marquage au sol de parking en 2026 : prix au m² par type de peinture, coût par prestation et facteurs qui influencent le devis.',
@@ -31,7 +32,7 @@ export default function Content() {
 
       <h2>Prix au m² selon le type de marquage</h2>
       <p>
-        Le prix du marquage au sol varié considérablement selon le matériau utilisé. Chaque
+        Le prix du marquage au sol varie considérablement selon le matériau utilisé. Chaque
         type de peinture ou de revêtement à ses avantages en termes de durabilité, de visibilité
         et de résistance au trafic.
       </p>
@@ -108,7 +109,7 @@ export default function Content() {
       </p>
 
       <p>
-        Le tarif varié selon le type de prestation. Le traçage ou retraçage de places de
+        Le tarif varie selon le type de prestation. Le traçage ou retraçage de places de
         stationnement standard est la prestation la plus courante et la plus économique.
         Les places PMR, qui nécessitent un marquage complet avec pictogramme réglementaire,
         représentent un coût plus élevé par unité.
@@ -308,10 +309,10 @@ export default function Content() {
         de 1 à 3 heures par zone.
       </p>
 
-      <h3>La TVA s&apos;appliqué-t-elle au taux réduit ?</h3>
+      <h3>La TVA s&apos;applique-t-elle au taux réduit ?</h3>
       <p>
         Non, le marquage au sol de parking relève du taux de TVA normal (20%). Le taux réduit
-        de 10% ne s&apos;appliqué qu&apos;aux travaux d&apos;amélioration des logements de
+        de 10% ne s&apos;applique qu&apos;aux travaux d&apos;amélioration des logements de
         plus de 2 ans, pas aux parkings.
       </p>
 
@@ -341,7 +342,7 @@ export default function Content() {
       </p>
       <p>
         <Link href="/devis">Demandez votre devis gratuit sous 24h</Link>. Un seul
-        interlocuteur vous accompagné de l&apos;analyse à la réception du chantier.
+        interlocuteur vous accompagne de l&apos;analyse à la réception du chantier.
       </p>
     </>
   )

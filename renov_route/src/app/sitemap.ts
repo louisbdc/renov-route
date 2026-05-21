@@ -88,7 +88,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       images: [ogImage.url],
     },
     {
-      url: `${baseUrl}/competences/résine-sol-marquage-intérieur/`,
+      url: `${baseUrl}/competences/resine-sol-marquage-interieur/`,
       lastModified: getLastMod('/competences/resine-sol-marquage-interieur'),
       changeFrequency: 'monthly',
       priority: 0.8,

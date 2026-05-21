@@ -7,7 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Marquage au sol parking privé : guide complet 2026 | Renov\'Route',
   metaDescription: 'Marquage au sol parking privé : réglementation, obligations PMR, signalisation, prix et erreurs à éviter. 1 000+ projets depuis 2014. Devis gratuit sous 24h.',
   publishDate: '2026-03-31',
-  updatedDate: '2026-05-05',
+  updatedDate: '2026-05-21',
   category: 'marquage-parking',
   readingTime: 10,
   excerpt: 'Guide complet du marquage au sol de parking privé en 2026 : réglementation, obligations PMR, signalisation verticale, accessoires, normes, prix et erreurs à éviter.',
@@ -61,13 +61,13 @@ export default function Content() {
 
       <h3>Ce qui change entre public et privé</h3>
       <p>
-        Sur un parking public (voirie, parkings municipaux), le Code de la route s&apos;appliqué
-        intégralement. Sur un parking privé, le Code de la route ne s&apos;appliqué que
+        Sur un parking public (voirie, parkings municipaux), le Code de la route s&apos;applique
+        intégralement. Sur un parking privé, le Code de la route ne s&apos;applique que
         partiellement : les règles de priorité et de circulation restent en vigueur, mais la
         signalisation releve de la responsabilité du propriétaire.
       </p>
       <p>
-        En revanche, le Code civil s&apos;appliqué pleinement. L&apos;article 1242 est clair :
+        En revanche, le Code civil s&apos;applique pleinement. L&apos;article 1242 est clair :
         le propriétaire est responsable des dommages causés par les choses dont il a la garde.
         Un parking mal signalise, mal éclairé ou dont le marquage est effacé constitue un défaut
         d&apos;entretien qui engage votre responsabilité.
@@ -153,7 +153,7 @@ export default function Content() {
 
       <h3>Combien de places PMR prévoir</h3>
       <p>
-        La réglé des 2 % s&apos;appliqué à tout parking desservant un ERP ou un bâtiment
+        La règle des 2 % s&apos;applique à tout parking desservant un ERP ou un bâtiment
         d&apos;habitation collectif :
       </p>
       <div className="overflow-x-auto">
@@ -608,7 +608,7 @@ export default function Content() {
 
       <h3>Combien coûte le marquage d&apos;un parking privé de 50 places ?</h3>
       <p>
-        Le budget varié de 1 800 à 3 740 EUR HT pour un parking extérieur de 50 places avec places
+        Le budget varie de 1 800 à 3 740 EUR HT pour un parking extérieur de 50 places avec places
         PMR, signalisation et accessoires de base. Le prix dépend du type de peinture, de
         l&apos;etat du support et des accessoires choisis.
       </p>
@@ -635,7 +635,7 @@ export default function Content() {
         vous prenez vos responsabilités de propriétaire au sérieux.
       </p>
       <p>
-        Renov&apos;Route accompagné les propriétaires de parkings privés depuis 2014, du diagnostic
+        Renov&apos;Route accompagne les propriétaires de parkings privés depuis 2014, du diagnostic
         initial à la reception des travaux. Plus de 1 000 projets réalisés en Rhône-Alpes et dans
         toute la France, pour des copropriétés, des entreprises et des enseignes nationales comme
         Carrefour, Lidl et McDonald&apos;s.

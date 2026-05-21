@@ -7,6 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Marquage au sol travaux : code couleur et règles | Renov&apos;Route',
   metaDescription: 'Marquage au sol travaux : code couleur jaune/orange, réglementation IISR, hiérarchie sur le blanc. Guide complet + prix et durée. Expert depuis 2014.',
   publishDate: '2026-03-31',
+  updatedDate: '2026-05-21',
   category: 'marquage-parking',
   readingTime: 10,
   excerpt: 'Code couleur jaune/orange, réglementation IISR, hiérarchie sur le marquage blanc permanent, matériaux temporaires, responsabilités et prix du marquage au sol travaux.',
@@ -257,7 +258,7 @@ export default function Content() {
 
       <h3>Combien coûte un marquage temporaire de chantier ?</h3>
       <p>
-        Le prix varié de 2 à 12 EUR par mètre linéaire selon le matériau (peinture à l&apos;eau, bande adhésive, enduit à chaud). Pour un parking standard, comptez entre 1 500 et 4 000 EUR pour un marquage temporaire complet incluant le balisage et la reorganisation de la circulation.
+        Le prix varie de 2 à 12 EUR par mètre linéaire selon le matériau (peinture à l&apos;eau, bande adhésive, enduit à chaud). Pour un parking standard, comptez entre 1 500 et 4 000 EUR pour un marquage temporaire complet incluant le balisage et la reorganisation de la circulation.
       </p>
 
       <h3>Quand doit-on effacer le marquage temporaire ?</h3>
@@ -273,7 +274,7 @@ export default function Content() {
         De la peinture à l&apos;eau pour un chantier de quelques jours à l&apos;enduit à chaud pour une opération de plusieurs mois, chaque situation appelle un matériau et une méthode adaptés. Et la responsabilité du maître d&apos;ouvrage court de la pose du premier mètre de marquage jusqu&apos;à l&apos;effacement du dernier, en passant par le re-marquage permanent post-travaux.
       </p>
       <p>
-        <strong>Renov&apos;Route accompagné les maîtres d&apos;ouvrage, les gestionnaires de parking et les entreprises de travaux publics</strong> dans la mise en place de marquages temporaires conformes à l&apos;IISR et à la norme NF EN 1436. Plus de 1 000 projets réalisés depuis 2014, partout en France.
+        <strong>Renov&apos;Route accompagne les maîtres d&apos;ouvrage, les gestionnaires de parking et les entreprises de travaux publics</strong> dans la mise en place de marquages temporaires conformes à l&apos;IISR et à la norme NF EN 1436. Plus de 1 000 projets réalisés depuis 2014, partout en France.
       </p>
       <p>
         <strong><Link href="/devis">Demandez votre devis gratuit</Link></strong> sous 24h ou appelez le 07 86 81 96 92. Un expert Renov&apos;Route étudié votre chantier et vous propose la solution adaptée.

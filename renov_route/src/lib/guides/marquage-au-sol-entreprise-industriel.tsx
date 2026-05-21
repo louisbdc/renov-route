@@ -8,6 +8,7 @@ export const meta: Guide = {
   metaDescription:
     'Marquage au sol entreprise : obligations légales, code couleur industriel, techniques (époxy, résine), prix au m2. 1 000+ projets depuis 2014. Devis gratuit.',
   publishDate: '2026-03-31',
+  updatedDate: '2026-05-21',
   category: 'marquage-parking',
   readingTime: 12,
   excerpt:
@@ -495,7 +496,7 @@ export default function Content() {
       <h3>Combien coûte le marquage au sol d&apos;une entreprise ?</h3>
 
       <p>
-        Le prix varié de 3 000 EUR pour un atelier de 500 m2 a plus de 50 000 EUR pour un site industriel de 10 000 m2 avec résine intégrale. Le coût moyen du marquage linéaire en peinture époxy se situe entre 8 et 15 EUR par mètre linéaire.{' '}
+        Le prix varie de 3 000 EUR pour un atelier de 500 m2 a plus de 50 000 EUR pour un site industriel de 10 000 m2 avec résine intégrale. Le coût moyen du marquage linéaire en peinture époxy se situe entre 8 et 15 EUR par mètre linéaire.{' '}
         <Link href="/devis">Demandez un devis gratuit</Link> pour obtenir un chiffrage précis adapte à votre site.
       </p>
 
@@ -524,7 +525,7 @@ export default function Content() {
       </p>
 
       <p>
-        Renov&apos;Route accompagné les entreprises industrielles et logistiques depuis 2014, avec plus de 1 000 projets réalisés en Rhône-Alpes. De l&apos;audit initial à la pose en{' '}
+        Renov&apos;Route accompagne les entreprises industrielles et logistiques depuis 2014, avec plus de 1 000 projets réalisés en Rhône-Alpes. De l&apos;audit initial à la pose en{' '}
         <Link href="/competences/resine-sol-marquage-interieur">résine de sol</Link>, nous intervenons sur l&apos;ensemble de la chaine : diagnostic, plan de marquage, préparation du support, application et suivi.
       </p>
 

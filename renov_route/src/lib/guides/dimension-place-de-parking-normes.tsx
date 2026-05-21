@@ -7,6 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Dimension place de parking : normes et tailles 2026',
   metaDescription: 'Dimensions place de parking selon la norme NF P 91-100 : 2,50x5m standard, PMR, epi, longitudinale. Tableaux, erreurs à éviter et optimisation. Devis gratuit.',
   publishDate: '2026-03-31',
+  updatedDate: '2026-05-21',
   category: 'marquage-parking',
   readingTime: 12,
   excerpt: 'Toutes les dimensions de places de parking selon la norme NF P 91-100 : perpendiculaire, epi, longitudinale, PMR. Tableaux pratiques, erreurs courantes et conseils d&apos;optimisation.',
@@ -42,7 +43,7 @@ export default function Content() {
         la largeur des voies de circulation et les rayons de braquage nécessaires.
       </p>
       <p>
-        Cette norme s&apos;appliqué aux parkings neufs et aux rénovations majeures. Elle
+        Cette norme s&apos;applique aux parkings neufs et aux rénovations majeures. Elle
         concerne les parkings publics, les ERP (établissements recevant du public) et les
         parkings privés à usage collectif.
       </p>
@@ -79,7 +80,7 @@ export default function Content() {
 
       <h2>Dimensions standards par type de stationnement</h2>
       <p>
-        La <strong>taille place de parking</strong> varié selon l&apos;angle de stationnement.
+        La <strong>taille place de parking</strong> varie selon l&apos;angle de stationnement.
         Voici les dimensions minimales prévues par la norme NF P 91-100.
       </p>
 
@@ -580,7 +581,7 @@ export default function Content() {
         imposent une approche sur mesure.
       </p>
       <p>
-        <strong>Renov&apos;Route accompagné les gestionnaires de parkings depuis
+        <strong>Renov&apos;Route accompagne les gestionnaires de parkings depuis
         2014.</strong> De l&apos;
         <Link href="/competences/conseil-expertise">étude de faisabilité</Link> au{' '}
         <Link href="/competences/tracage-retracage-parking">traçage de parking</Link>, nos

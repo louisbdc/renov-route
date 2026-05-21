@@ -7,6 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Logo parking : pictogrammes, normes et marquage | Renov\u2019Route',
   metaDescription: 'Logo parking : pictogrammes, normes, marquage. PMR, vélo, électrique. Guide + devis gratuit.',
   publishDate: '2026-03-31',
+  updatedDate: '2026-05-21',
   category: 'marquage-parking',
   readingTime: 12,
   excerpt: 'Tous les logos et pictogrammes parking : types de symboles, normes réglementaires, dimensions, couleurs, techniques de marquage et prix. Guide pratique pour un marquage conforme et durable.',
@@ -454,7 +455,7 @@ export default function Content() {
 
       <h3>Combien coûte le marquage d&apos;un logo parking au sol ?</h3>
       <p>
-        Le prix varié selon la technique et la complexite. Un pictogramme standard en peinture coûte entre 30 EUR et 80 EUR. En thermocollage, comptez entre 60 EUR et 150 EUR. Un logo d&apos;entreprise sur mesure se situe entre 100 EUR et 300 EUR. Ces prix sont indicatifs et varient selon l&apos;etat du sol, l&apos;accessibilité et le volume de travaux.
+        Le prix varie selon la technique et la complexite. Un pictogramme standard en peinture coûte entre 30 EUR et 80 EUR. En thermocollage, comptez entre 60 EUR et 150 EUR. Un logo d&apos;entreprise sur mesure se situe entre 100 EUR et 300 EUR. Ces prix sont indicatifs et varient selon l&apos;etat du sol, l&apos;accessibilité et le volume de travaux.
       </p>
 
       <h3>Quelle est la durée de vie d&apos;un pictogramme au sol ?</h3>
@@ -480,7 +481,7 @@ export default function Content() {
         Le choix de la technique (peinture, thermocollage, résine), le respect des dimensions réglementaires et un entretien régulier garantissent un marquage conforme et durable. A l&apos;inverse, des pictogrammes sous-dimensionnés, mal places ou effacés exposent le gestionnaire à des sanctions et degradent le fonctionnement du parking.
       </p>
       <p>
-        <strong>Renov&apos;Route accompagné les gestionnaires de parkings depuis 2014.</strong> Plus de 1 000 projets réalisés à Lyon et en Rhône-Alpes, pour des clients comme Carrefour, Lidl et McDonald&apos;s. Diagnostic, plan de marquage, application et suivi : chaque étape est prise en charge.
+        <strong>Renov&apos;Route accompagne les gestionnaires de parkings depuis 2014.</strong> Plus de 1 000 projets réalisés à Lyon et en Rhône-Alpes, pour des clients comme Carrefour, Lidl et McDonald&apos;s. Diagnostic, plan de marquage, application et suivi : chaque étape est prise en charge.
       </p>
       <p>
         <strong>Vous souhaitez mettre à jour les pictogrammes de votre parking ?</strong> <Link href="/devis">Demandez votre devis gratuit</Link>. Reponse garantie sous 24h.

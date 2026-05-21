@@ -20,6 +20,7 @@ import {
 } from 'react-icons/tb'
 import type { City } from '@/lib/data/cities'
 import { getNearbyCities, CITIES } from '@/lib/data/cities'
+import { safeJsonLd } from '@/lib/json-ld'
 
 interface LocalCityPageProps {
   city: City
@@ -42,7 +43,7 @@ function buildIntro(city: City): string {
     return `Spécialiste du marquage au sol à ${city.name}, Renov Route intervient sur tous les parkings, voiries et copropriétés de l'arrondissement. À ${city.distanceFromTassin} km de notre siège de Tassin-la-Demi-Lune, nos équipes sont sur place dans la journée.`
   }
   if (city.isRhoneAlpes) {
-    return `Renov Route accompagné les gestionnaires de parkings et collectivités à ${city.name} (${city.postalCode}) depuis 2014. À ${city.distanceFromTassin} km de Lyon, nous intervenons régulièrement en ${city.department.name} avec le même niveau de qualité que sur l'agglomération lyonnaise.`
+    return `Renov Route accompagne les gestionnaires de parkings et collectivités à ${city.name} (${city.postalCode}) depuis 2014. À ${city.distanceFromTassin} km de Lyon, nous intervenons régulièrement en ${city.department.name} avec le même niveau de qualité que sur l'agglomération lyonnaise.`
   }
   return `Entreprise de marquage au sol à ${city.name}, Renov Route intervient sur l'ensemble des parkings, voiries et zones d'activités de la commune (${city.postalCode}). À ${city.distanceFromTassin} km de notre siège de Tassin-la-Demi-Lune, nos équipes sont sur place rapidement avec un devis transparent.`
 }
@@ -67,7 +68,7 @@ export default function LocalCityPage({ city }: LocalCityPageProps) {
     name: `Renov Route — Marquage au sol ${city.name}`,
     description: `Entreprise de marquage au sol et signalisation horizontale intervenant à ${city.name} (${city.postalCode}). Parking, voirie, industriel, PMR. Devis gratuit sous 24h.`,
     url: `https://renov-route.com/marquage-au-sol-${city.slug}/`,
-    téléphone: '+33786819692',
+    telephone: '+33786819692',
     email: 'contact@renov-route.com',
     address: {
       '@type': 'PostalAddress',
@@ -119,8 +120,8 @@ export default function LocalCityPage({ city }: LocalCityPageProps) {
   return (
     <Layout>
       <SafariAnimationFix>
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }} />
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(localBusinessSchema) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(breadcrumbSchema) }} />
 
         {/* Hero */}
         <section className="pt-28 sm:pt-36 pb-20 sm:pb-24 px-6 relative overflow-hidden bg-[#0F172A]">
@@ -217,6 +218,49 @@ export default function LocalCityPage({ city }: LocalCityPageProps) {
           </div>
         </section>
 
+        {/* Spécificités locales (climat, saisonnalité, secteurs) */}
+        {city.localContext && (
+          <section className="py-20 sm:py-24 px-6 bg-white border-t border-slate-100">
+            <div className="max-w-5xl mx-auto">
+              <span className="inline-block text-[11px] font-black uppercase tracking-[0.25em] text-[#FACC15] mb-4">Spécificités locales</span>
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-black italic uppercase tracking-tighter leading-[0.95] text-[#0F172A] mb-8">
+                Marquage au sol à {city.name} : ce qu'il faut savoir
+              </h2>
+              <p className="text-slate-600 leading-relaxed text-base sm:text-lg font-medium">
+                {city.localContext}
+              </p>
+              {city.targetClients && city.targetClients.length > 0 && (
+                <div className="mt-10">
+                  <h3 className="text-sm font-black uppercase tracking-[0.25em] text-[#0F172A] mb-4">Clients que nous accompagnons à {city.name}</h3>
+                  <ul className="grid gap-3 sm:grid-cols-2">
+                    {city.targetClients.map((c, i) => (
+                      <li key={i} className="flex items-start gap-3 text-slate-600 font-medium">
+                        <span className="mt-2 inline-block w-2 h-2 bg-[#FACC15] flex-shrink-0" aria-hidden="true" />
+                        <span>{c}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+            </div>
+          </section>
+        )}
+
+        {/* Modalités d'intervention (logistique honnête) */}
+        {city.interventionLogistics && (
+          <section className="py-20 sm:py-24 px-6 bg-[#F8FAFC]">
+            <div className="max-w-5xl mx-auto">
+              <span className="inline-block text-[11px] font-black uppercase tracking-[0.25em] text-[#FACC15] mb-4">Notre intervention</span>
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-black italic uppercase tracking-tighter leading-[0.95] text-[#0F172A] mb-8">
+                Comment nous intervenons à {city.name}
+              </h2>
+              <p className="text-slate-600 leading-relaxed text-base sm:text-lg font-medium">
+                {city.interventionLogistics}
+              </p>
+            </div>
+          </section>
+        )}
+
         {/* Références locales */}
         {city.references && city.references.length > 0 && (
           <section className="py-20 sm:py-28 px-6 bg-white">
@@ -264,6 +308,48 @@ export default function LocalCityPage({ city }: LocalCityPageProps) {
                   </Link>
                 ))}
               </div>
+            </div>
+          </section>
+        )}
+
+        {/* FAQ locale */}
+        {city.localFAQ && city.localFAQ.length > 0 && (
+          <section className="py-20 sm:py-24 px-6 bg-white border-t border-slate-100">
+            <div className="max-w-4xl mx-auto">
+              <span className="inline-block text-[11px] font-black uppercase tracking-[0.25em] text-[#FACC15] mb-4">FAQ locale</span>
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-black italic uppercase tracking-tighter leading-[0.95] text-[#0F172A] mb-12">
+                Vos questions sur le marquage au sol à {city.name}
+              </h2>
+              <div className="space-y-6">
+                {city.localFAQ.map((qa, i) => (
+                  <details key={i} className="group border-l-4 border-[#FACC15] bg-[#F8FAFC] p-6 hover:bg-white transition-colors">
+                    <summary className="cursor-pointer list-none font-black italic uppercase tracking-tight text-[#0F172A] text-lg flex items-start justify-between gap-4">
+                      <span>{qa.question}</span>
+                      <span className="text-[#FACC15] text-xl flex-shrink-0 group-open:rotate-45 transition-transform" aria-hidden="true">+</span>
+                    </summary>
+                    <p className="mt-4 text-slate-600 leading-relaxed font-medium">{qa.answer}</p>
+                  </details>
+                ))}
+              </div>
+              {/* FAQ Schema pour la FAQ locale */}
+              <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                  __html: safeJsonLd({
+                    '@context': 'https://schema.org',
+                    '@type': 'FAQPage',
+                    '@id': `https://renov-route.com/marquage-au-sol-${city.slug}/#faq`,
+                    mainEntity: city.localFAQ.map(qa => ({
+                      '@type': 'Question',
+                      name: qa.question,
+                      acceptedAnswer: {
+                        '@type': 'Answer',
+                        text: qa.answer,
+                      },
+                    })),
+                  }),
+                }}
+              />
             </div>
           </section>
         )}

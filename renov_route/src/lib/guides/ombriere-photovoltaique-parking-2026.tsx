@@ -7,6 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Ombrière parking 2026 : obligations et préparation | Rénov\'Route',
   metaDescription: 'Obligation ombrière photovoltaïque parking juillet 2026. Découvrez les seuils, les étapes de mise en conformité et la préparation du sol avant installation.',
   publishDate: '2026-03-04',
+  updatedDate: '2026-05-21',
   category: 'renovation-parking',
   readingTime: 14,
   excerpt: 'Obligation ombrière photovoltaïque sur les parkings dès juillet 2026 : seuils de surface, calendrier, sanctions et préparation du sol avant installation.',
@@ -18,7 +19,7 @@ export default function Content() {
       <p>
         Le 1er juillet 2026, les parkings de plus de 10 000 m² devront être équipés
         d&apos;ombrières photovoltaïques couvrant au moins la moitié de leur surface. Un gestionnaire
-        de centre commercial de la région lyonnaise nous confiait récemment : « On à les devis pour
+        de centre commercial de la région lyonnaise nous confiait récemment : « On a les devis pour
         les panneaux solaires, mais personne ne nous a parlé de l&apos;état du sol en dessous. »
       </p>
       <p>
@@ -194,7 +195,7 @@ export default function Content() {
 
       <h2>Combien coûte la préparation du sol avant les ombrières ?</h2>
       <p>
-        Le coût varié selon l&apos;état du parking et l&apos;ampleur des travaux. Voici les
+        Le coût varie selon l&apos;état du parking et l&apos;ampleur des travaux. Voici les
         fourchettes indicatives :
       </p>
 
@@ -368,7 +369,7 @@ export default function Content() {
 
       <h3>L&apos;obligation concerne-t-elle aussi les parkings souterrains ?</h3>
       <p>
-        Non. L&apos;obligation d&apos;ombrières photovoltaïques s&apos;appliqué uniquement aux
+        Non. L&apos;obligation d&apos;ombrières photovoltaïques s&apos;applique uniquement aux
         parkings extérieurs de plein air. Les parkings couverts ou souterrains ne sont pas
         concernés. En revanche, les obligations de marquage, de conformité PMR et de
         signalisation s&apos;appliquent à tous les types de parkings.

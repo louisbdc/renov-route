@@ -7,6 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Dos d\'ane parking: réglementation, dimensions et pose',
   metaDescription: 'Dos d\'ane parking privé : normes de hauteur, dimensions réglementaires, types et prix. Guide complet pour installer un dos d\'ane conforme dans votre parking.',
   publishDate: '2026-03-04',
+  updatedDate: '2026-05-21',
   category: 'securite-parking',
   readingTime: 10,
   excerpt: 'Dos d\'ane, ralentisseur ou coussin : normes de hauteur, dimensions réglementaires, types et prix pour installer un dos d\'ane conforme dans votre parking.',
@@ -295,7 +296,7 @@ export default function Content() {
 
       <h3>1. Dos d&apos;ane trop haut</h3>
       <p>
-        Un dos d&apos;ane de plus de 10 cm endommage les véhicules et exposé le gestionnaire à des recours. Respectez la hauteur maximale de 10 cm prévue par la norme.
+        Un dos d&apos;ane de plus de 10 cm endommage les véhicules et expose le gestionnaire à des recours. Respectez la hauteur maximale de 10 cm prévue par la norme.
       </p>
 
       <h3>2. Absence de signalisation</h3>
@@ -336,7 +337,7 @@ export default function Content() {
 
       <h3>Quelle est la hauteur maximale d&apos;un dos d&apos;ane ?</h3>
       <p>
-        10 cm, selon la norme NF P 98-300. Cette limite s&apos;appliqué aux voies publiques mais constitue la référence pour les parkings privés. Un dos d&apos;ane plus haut exposé le gestionnaire à des reclamations pour dommages aux véhicules.
+        10 cm, selon la norme NF P 98-300. Cette limite s&apos;applique aux voies publiques mais constitue la référence pour les parkings privés. Un dos d&apos;ane plus haut expose le gestionnaire à des reclamations pour dommages aux véhicules.
       </p>
 
       <h3>Peut-on installer un dos d&apos;ane dans un parking souterrain ?</h3>

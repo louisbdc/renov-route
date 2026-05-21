@@ -7,6 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Place bleue parking : réglementation et marquage 2026 | Renov\u0027Route',
   metaDescription: 'Place bleue parking : définition, réglementation, disque de stationnement, marquage au sol et sanctions. Guide complet pour collectivités et gestionnaires de parkings.',
   publishDate: '2026-03-31',
+  updatedDate: '2026-05-21',
   category: 'marquage-parking',
   readingTime: 12,
   excerpt: 'Place bleue parking : réglementation, disque de stationnement, marquage au sol conforme et sanctions. Guide complet pour collectivités et gestionnaires de parkings.',
@@ -410,7 +411,7 @@ export default function Content() {
 
       <h3>Combien de temps peut-on rester sur une place bleue ?</h3>
       <p>
-        La durée maximale est fixée par l&apos;arrêté municipal. Elle varié généralement entre 30 minutes et 2 heures. La durée la plus courante est <strong>1 heure 30</strong>. Au-delà, le véhicule est en infraction.
+        La durée maximale est fixée par l&apos;arrêté municipal. Elle varie généralement entre 30 minutes et 2 heures. La durée la plus courante est <strong>1 heure 30</strong>. Au-delà, le véhicule est en infraction.
       </p>
 
       <h3>Les places bleues sont-elles gratuites ?</h3>
@@ -438,7 +439,7 @@ export default function Content() {
         La <strong>place bleue parking</strong> est un outil de gestion du stationnement redoutablement efficace quand elle est mise en place dans les règles. Arrete municipal, marquage au sol conforme à la norme NF EN 1436, signalisation verticale complète : chaque élément compte.
       </p>
       <p>
-        Que vous soyez une collectivité souhaitant créer une zone bleue ou un gestionnaire de parking privé cherchant à améliorer la rotation des véhicules, Renov&apos;Route vous accompagné de l&apos;étude à la reception du chantier. Plus de 1 000 projets réalisés depuis 2014, des clients comme Carrefour, Lidl et McDonald&apos;s, et une garantie de 2 ans sur tous nos marquages.
+        Que vous soyez une collectivité souhaitant créer une zone bleue ou un gestionnaire de parking privé cherchant à améliorer la rotation des véhicules, Renov&apos;Route vous accompagne de l&apos;étude à la reception du chantier. Plus de 1 000 projets réalisés depuis 2014, des clients comme Carrefour, Lidl et McDonald&apos;s, et une garantie de 2 ans sur tous nos marquages.
       </p>
       <p>
         <strong><Link href="/devis">Demandez votre devis gratuit</Link></strong> ou appelez-nous au <strong>07 86 81 96 92</strong>. Reponse sous 24 heures.

@@ -7,7 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Arceau parking: types, pose et prix 2026',
   metaDescription: 'Guide complet sur les arceaux de parking: anti-stationnement, rabattables, fixes. Types, normes, prix et installation par Renov\'Route. Devis gratuit sous 24h.',
   publishDate: '2026-03-31',
-  updatedDate: '2026-05-05',
+  updatedDate: '2026-05-21',
   category: 'securite-parking',
   readingTime: 12,
   excerpt: 'Arceau fixe, rabattable ou automatique : comparatif des types d\'arceaux de parking avec prix, normes, conseils d\'installation et erreurs à éviter.',
@@ -343,7 +343,7 @@ export default function Content() {
         <li><strong>Oublier la galvanisation à chaud pour l&apos;extérieur.</strong> Un arceau simplement peint rouille en 2-3 ans en extérieur. La galvanisation à chaud coûte 20-30% de plus mais dure 15-20 ans.</li>
         <li><strong>Mal positionner l&apos;arceau sur la place.</strong> Un arceau trop en avant ou trop lateral ne bloque pas efficacement la place. Le positionnement optimal est au centre, à 1,50 m du début de la place.</li>
         <li><strong>Installer des arceaux sans marquage au sol.</strong> Un arceau sans ligne de place, sans numérotation et sans signalisation perd la moitie de son efficacité. Combinez toujours arceau + marquage + signalisation.</li>
-        <li><strong>Ne pas prévoir la gestion des clés.</strong> Pour les arceaux a clé, prévoyez un système de distribution, de doublés et de remplacement. Un arceau dont personne n&apos;à la clé est un obstacle inutile.</li>
+        <li><strong>Ne pas prévoir la gestion des clés.</strong> Pour les arceaux a clé, prévoyez un système de distribution, de doublés et de remplacement. Un arceau dont personne n&apos;a la clé est un obstacle inutile.</li>
       </ol>
 
       <h2>Arceau parking et accessibilité PMR</h2>

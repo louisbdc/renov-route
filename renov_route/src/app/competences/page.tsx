@@ -141,7 +141,7 @@ export default function CompetencesPage() {
                 className="space-y-6 text-slate-600 leading-relaxed text-lg font-medium"
               >
                 <p>
-                  Depuis plus de 10 ans, Rénov Route accompagné les entreprises, collectivités et gestionnaires de parkings dans tous leurs projets de marquage au sol et de voirie en région Rhône-Alpes et sur l&apos;ensemble du territoire français. Notre équipe intervient sur plus de 200 chantiers par an, du simple retraçage de places de parking à la rénovation complète de surfaces industrielles.
+                  Depuis plus de 10 ans, Rénov Route accompagne les entreprises, collectivités et gestionnaires de parkings dans tous leurs projets de marquage au sol et de voirie en région Rhône-Alpes et sur l&apos;ensemble du territoire français. Notre équipe intervient sur plus de 200 chantiers par an, du simple retraçage de places de parking à la rénovation complète de surfaces industrielles.
                 </p>
                 <p>
                   Nos six domaines d&apos;expertise couvrent l&apos;intégralité de la chaîne : traçage et retraçage de parking, signalisation verticale, résine de sol et marquage intérieur, réparation de nids de poule, accessoires de sécurité et conseil technique. Un interlocuteur unique coordonne chaque projet, du diagnostic initial à la réception des travaux, pour garantir des délais maîtrisés et un résultat conforme aux normes en vigueur.

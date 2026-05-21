@@ -7,7 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Normes PMR parking 2026 : guide complet | Rénov\'Route',
   metaDescription: 'Normes PMR parking 2026 : dimensions des places, nombre obligatoire, marquage et signalisation. Guide complet pour la mise en conformité.',
   publishDate: '2026-03-04',
-  updatedDate: '2026-05-05',
+  updatedDate: '2026-05-21',
   category: 'normes-pmr',
   readingTime: 12,
   excerpt: 'Guide complet des normes PMR parking en 2026 : nombre de places obligatoires, dimensions réglementaires, marquage au sol et signalisation. Étapes de mise en conformité.',
@@ -22,7 +22,7 @@ export default function Content() {
         dont le parking ne respecte pas les <strong>normes PMR</strong> (Personne à Mobilité Réduite).
       </p>
       <p>
-        Pourtant, la réglementation est moins compliquée qu&apos;elle n&apos;en à l&apos;air.
+        Pourtant, la réglementation est moins compliquée qu&apos;elle n&apos;en a l&apos;air.
         Le problème, c&apos;est qu&apos;elle est dispersée entre plusieurs textes (arrêtés,
         décrets, circulaires) et que les prestataires de marquage ne prennent pas toujours le
         temps de l&apos;expliquer.
@@ -36,7 +36,7 @@ export default function Content() {
       <h2>Combien de places PMR sont obligatoires dans un parking ?</h2>
       <p>
         La règle de base est simple : <strong>2% du nombre total de places</strong>, avec un
-        minimum d&apos;une place PMR. Ce ratio s&apos;appliqué à tous les parkings liés à un
+        minimum d&apos;une place PMR. Ce ratio s&apos;applique à tous les parkings liés à un
         ERP ou à un bâtiment d&apos;habitation collectif.
       </p>
 

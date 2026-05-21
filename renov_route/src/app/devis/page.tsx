@@ -4,7 +4,7 @@ import Layout from '@/components/Layout';
 import { SecureInput, SecureTextarea, FieldErrorsContext } from '@/components/SecureForm';
 import SafariAnimationFix from '@/components/SafariAnimationFix';
 import { MotionDiv } from '@/components/MotionWrapper';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { validateDevisFormWithFieldErrors } from '@/lib/form-validation';
 import { FaPaperPlane, FaPhone } from 'react-icons/fa';
 import { sendDevisEmail } from '@/lib/email';
@@ -62,10 +62,17 @@ export default function DevisPage() {
   const [isLoading, setIsLoading] = useState(false);
   const [fieldErrors, setFieldErrors] = useState<Record<string, string>>({});
   const { onFieldFocus, onFormView, onFormError, markSubmitted } = useFormTracking('devis');
+  const successTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
     onFormView();
   }, [onFormView]);
+
+  useEffect(() => {
+    return () => {
+      if (successTimerRef.current) clearTimeout(successTimerRef.current);
+    };
+  }, []);
 
   const handleDevisSubmit = async (data: FormData, formEl: HTMLFormElement) => {
     try {
@@ -91,7 +98,8 @@ export default function DevisPage() {
       markSubmitted();
       GoogleAnalytics.getInstance().trackFormSubmission('devis');
       setIsSubmitted(true);
-      setTimeout(() => setIsSubmitted(false), 15000);
+      if (successTimerRef.current) clearTimeout(successTimerRef.current);
+      successTimerRef.current = setTimeout(() => setIsSubmitted(false), 15000);
     } catch (error) {
       console.error('Erreur lors de la soumission:', error);
       setFieldErrors({ général: "Une erreur inattendue s'est produite" });

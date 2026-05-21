@@ -1,4 +1,3 @@
-'use client'
 
 import StructuredData from '@/components/StructuredData'
 import BreadcrumbSchema from '@/components/BreadcrumbSchema'
@@ -89,7 +88,7 @@ const SERVICE_SCHEMA = {
     "name": "Rénov Route",
     "image": "https://renov-route.com/assets/logos/logo.avif",
     "url": "https://renov-route.com/",
-    "téléphone": "+33786819692",
+    "telephone": "+33786819692",
     "priceRange": "€€",
     "foundingDate": "2014",
     "address": {

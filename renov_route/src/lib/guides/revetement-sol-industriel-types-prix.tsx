@@ -7,6 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Revêtement sol industriel: types, prix et pose',
   metaDescription: 'Résine époxy, polyuréthane, methacrylate : comparatif des revêtements de sol industriel avec prix au m2, résistance et conditions d\'application en entrepot.',
   publishDate: '2026-03-04',
+  updatedDate: '2026-05-21',
   category: 'renovation-parking',
   readingTime: 10,
   excerpt: 'Epoxy, polyuréthane ou methacrylate : comparatif des revêtements de sol industriel avec prix au m2, préparation du support et marquage de zones intégré.',
@@ -344,7 +345,7 @@ export default function Content() {
 
       <h3>Combien coûte un revêtement de sol industriel au m2 ?</h3>
       <p>
-        Le budget varié selon le type de revêtement et la préparation du support. La résine époxy standard, la plus courante, demarre à partir de 35 euros/m2 pose incluse. La préparation du sol (grenaillage, réparation) représente un poste supplémentaire significatif sur un sol en mauvais etat.
+        Le budget varie selon le type de revêtement et la préparation du support. La résine époxy standard, la plus courante, demarre à partir de 35 euros/m2 pose incluse. La préparation du sol (grenaillage, réparation) représente un poste supplémentaire significatif sur un sol en mauvais etat.
       </p>
 
       <h3>Quelle est la durée de vie d&apos;un sol en résine industrielle ?</h3>

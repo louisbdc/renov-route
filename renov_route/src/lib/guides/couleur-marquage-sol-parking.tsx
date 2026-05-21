@@ -7,6 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Couleur marquage au sol parking : guide 2026',
   metaDescription: 'Blanc, jaune, bleu, vert : quelle couleur pour le marquage au sol de votre parking ? Réglementation, signification et erreurs à éviter. Guide complet.',
   publishDate: '2026-03-04',
+  updatedDate: '2026-05-21',
   category: 'marquage-parking',
   readingTime: 10,
   excerpt: 'Code couleur complet du marquage de parking : blanc pour les places, jaune pour les interdictions, bleu pour les durées limitées. Réglementation, erreurs fréquentes et conseils.',
@@ -32,7 +33,7 @@ export default function Content() {
 
       <h3>L&apos;IISR : le texte de référence</h3>
       <p>
-        L&apos;Instruction Interministérielle sur la Signalisation Routière (IISR), et plus précisément sa 7e partie consacrée au marquage, définit les couleurs autorisées pour la signalisation horizontale en France. Ce texte s&apos;appliqué aux voies ouvertes à la circulation publique, mais il sert aussi de référence pour les parkings privés.
+        L&apos;Instruction Interministérielle sur la Signalisation Routière (IISR), et plus précisément sa 7e partie consacrée au marquage, définit les couleurs autorisées pour la signalisation horizontale en France. Ce texte s&apos;applique aux voies ouvertes à la circulation publique, mais il sert aussi de référence pour les parkings privés.
       </p>
 
       <h3>Le Code de la route</h3>
