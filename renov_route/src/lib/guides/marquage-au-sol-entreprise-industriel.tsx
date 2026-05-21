@@ -429,7 +429,7 @@ export default function Content() {
 
       <p>
         Ces montants incluent la préparation du sol, le marquage et les pictogrammes de sécurité. Le{' '}
-        <Link href="/devis">devis</Link> est gratuit et détaille chez Renov&apos;Route, avec envoi sous 24 heures.
+        <Link href="/devis">devis</Link> est gratuit et détaille chez Renov&apos;Route, avec envoi en 48h.
       </p>
 
       <h2>Entretien et renouvellement du marquage</h2>
@@ -530,7 +530,7 @@ export default function Content() {
       </p>
 
       <p>
-        <strong><Link href="/devis">Demandez votre devis gratuit</Link></strong> — réponse sous 24 heures.
+        <strong><Link href="/devis">Demandez votre devis gratuit</Link></strong> — réponse en 48h.
       </p>
     </>
   )

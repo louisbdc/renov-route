@@ -667,7 +667,7 @@ export default function Content() {
           Vous devez r&eacute;nover la signalisation de votre parking de
           copropri&eacute;t&eacute; ?
         </strong>{' '}
-        <Link href="/devis">Demandez un devis gratuit</Link> sous 24h. Notre
+        <Link href="/devis">Demandez un devis gratuit</Link> en 48h. Notre
         &eacute;quipe r&eacute;alise le diagnostic, pr&eacute;sente un devis
         d&eacute;taill&eacute; adaptable &agrave; votre AG et intervient pour
         le{' '}

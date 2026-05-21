@@ -26,7 +26,7 @@ export default function Content() {
       <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8 rounded-r-lg">
         <p className="font-semibold mb-2">Besoin d&apos;un marquage de chantier conforme ?</p>
         <p>
-          Renov&apos;Route intervient depuis 2014 sur plus de 1 000 projets de <Link href="/competences/tracage-retracage-parking">marquage et traçage</Link> en France. <Link href="/devis">Demandez un devis gratuit</Link> sous 24h ou appelez le 07 86 81 96 92.
+          Renov&apos;Route intervient depuis 2014 sur plus de 1 000 projets de <Link href="/competences/tracage-retracage-parking">marquage et traçage</Link> en France. <Link href="/devis">Demandez un devis gratuit</Link> en 48h ou appelez le 07 86 81 96 92.
         </p>
       </div>
 
@@ -222,7 +222,7 @@ export default function Content() {
         Chez Renov&apos;Route, les délais d&apos;intervention pour un marquage temporaire de chantier sont les suivants :
       </p>
       <ul>
-        <li><strong>Devis :</strong> Sous 24h après la visite technique ou la reception des plans</li>
+        <li><strong>Devis :</strong> en 48h après la visite technique ou la reception des plans</li>
         <li><strong>Mobilisation :</strong> 48h à 5 jours selon la complexite</li>
         <li><strong>Réalisation :</strong> 1 à 3 nuits pour un parking standard, 1 à 2 semaines pour un chantier routier</li>
       </ul>
@@ -230,7 +230,7 @@ export default function Content() {
       <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8 rounded-r-lg">
         <p className="font-semibold mb-2">Vous avez un chantier à sécuriser ?</p>
         <p>
-          Consultez nos <Link href="/realisations">réalisations</Link> et <Link href="/devis">demandez votre devis gratuit</Link>. Renov&apos;Route intervient dans toute la France, avec un devis sous 24h. Appelez le 07 86 81 96 92.
+          Consultez nos <Link href="/realisations">réalisations</Link> et <Link href="/devis">demandez votre devis gratuit</Link>. Renov&apos;Route intervient dans toute la France, avec un devis en 48h. Appelez le 07 86 81 96 92.
         </p>
       </div>
 
@@ -277,7 +277,7 @@ export default function Content() {
         <strong>Renov&apos;Route accompagne les maîtres d&apos;ouvrage, les gestionnaires de parking et les entreprises de travaux publics</strong> dans la mise en place de marquages temporaires conformes à l&apos;IISR et à la norme NF EN 1436. Plus de 1 000 projets réalisés depuis 2014, partout en France.
       </p>
       <p>
-        <strong><Link href="/devis">Demandez votre devis gratuit</Link></strong> sous 24h ou appelez le 07 86 81 96 92. Un expert Renov&apos;Route étudié votre chantier et vous propose la solution adaptée.
+        <strong><Link href="/devis">Demandez votre devis gratuit</Link></strong> en 48h ou appelez le 07 86 81 96 92. Un expert Renov&apos;Route étudié votre chantier et vous propose la solution adaptée.
       </p>
     </>
   )

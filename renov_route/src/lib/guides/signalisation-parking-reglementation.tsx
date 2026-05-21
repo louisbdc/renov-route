@@ -264,7 +264,7 @@ export default function Content() {
       </p>
       <p>
         <strong>Vous souhaitez installer ou mettre à jour la signalisation de votre parking ?</strong>{' '}
-        <Link href="/devis">Demandez un devis gratuit</Link> sous 24h. Nos techniciens assurent la fourniture, la pose et la conformité de toute votre signalisation.
+        <Link href="/devis">Demandez un devis gratuit</Link> en 48h. Nos techniciens assurent la fourniture, la pose et la conformité de toute votre signalisation.
       </p>
     </>
   )

@@ -420,7 +420,7 @@ export default function Content() {
         Ne choisissez jamais sur le seul prix au m². Calculez le coût sur 10 ans. Exigez la certification NF EN 1436. Et surtout, investissez dans la préparation du support ; c&apos;est elle qui détermine la tenue du marquage, quel que soit le produit.
       </p>
       <p>
-        <strong>Vous hésitez entre acrylique, thermoplastique et résine pour votre parking ?</strong> <Link href="/devis">Demandez un devis gratuit</Link> à Renov&apos;Route. Notre expert technique analyse votre parking et vous recommandé la solution la plus adaptée. Devis sous 24h, sans engagement.
+        <strong>Vous hésitez entre acrylique, thermoplastique et résine pour votre parking ?</strong> <Link href="/devis">Demandez un devis gratuit</Link> à Renov&apos;Route. Notre expert technique analyse votre parking et vous recommandé la solution la plus adaptée. Devis en 48h, sans engagement.
       </p>
     </>
   )

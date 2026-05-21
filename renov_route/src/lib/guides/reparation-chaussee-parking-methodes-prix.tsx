@@ -760,7 +760,7 @@ export default function Content() {
           Votre parking pr&eacute;sente des fissures, des nids de poule ou des
           affaissements ?
         </strong>{' '}
-        <Link href="/devis">Demandez un devis gratuit</Link> sous 24h. Notre
+        <Link href="/devis">Demandez un devis gratuit</Link> en 48h. Notre
         &eacute;quipe r&eacute;alise un diagnostic sur site, recommande la
         m&eacute;thode adapt&eacute;e &agrave; chaque zone et intervient pour
         la{' '}

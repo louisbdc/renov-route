@@ -21,7 +21,7 @@ const advantages = [
   {
     icon: <TbClock size={22} />,
     title: "Réponse rapide",
-    description: "Devis sous 24h, intervention rapide"
+    description: "Devis en 48h, intervention rapide"
   },
   {
     icon: <TbShieldCheck size={22} />,
@@ -34,7 +34,7 @@ const STRUCTURED_DATA = {
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Devis Gratuit - Traçage Marquage Routier",
-  "description": "Demandez votre devis gratuit pour traçage marquage routier, réparation nids de poule, marquage parking. Estimation personnalisée sous 24h.",
+  "description": "Demandez votre devis gratuit pour traçage marquage routier, réparation nids de poule, marquage parking. Estimation personnalisée en 48h.",
   "url": "https://renov-route.com/devis",
   "mainEntity": {
     "@type": "Service",
@@ -132,7 +132,7 @@ export default function DevisPage() {
                   </div>
                   <h2 className="text-2xl font-bold text-[#0F172A] mb-4 font-display">Devis Envoyé !</h2>
                   <p className="text-slate-600 text-lg mb-4">
-                    Merci pour votre confiance. Nous vous recontacterons dans les 24h
+                    Merci pour votre confiance. Nous vous recontacterons sous 48h
                     pour vous proposer un devis personnalisé.
                   </p>
                   <p className="text-[#FACC15] text-sm font-medium mb-8">
@@ -159,7 +159,7 @@ export default function DevisPage() {
                         Demandez votre devis gratuit
                       </h1>
                       <p className="text-slate-500 leading-relaxed">
-                        Remplissez le formulaire ci-dessous. Nous vous recontacterons sous 24 heures avec une estimation personnalisée.
+                        Remplissez le formulaire ci-dessous. Nous vous recontacterons en 48h avec une estimation personnalisée.
                       </p>
                     </MotionDiv>
 

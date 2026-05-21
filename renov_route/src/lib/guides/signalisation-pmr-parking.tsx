@@ -56,7 +56,7 @@ export default function Content() {
       </div>
 
       <p>
-        <strong>Besoin d&apos;installer ou de mettre à jour la signalisation PMR de votre parking ?</strong> <Link href="/devis">Demandez un devis gratuit</Link>, nous vous répondons sous 24h.
+        <strong>Besoin d&apos;installer ou de mettre à jour la signalisation PMR de votre parking ?</strong> <Link href="/devis">Demandez un devis gratuit</Link>, nous vous répondons en 48h.
       </p>
 
       <h2>La signalisation verticale : panneaux PMR</h2>
@@ -295,7 +295,7 @@ export default function Content() {
       </blockquote>
 
       <p>
-        <strong>Votre signalisation PMR doit être mise à jour ou créée ?</strong> <Link href="/devis">Obtenez un devis gratuit sous 24h</Link>. Notre expert technique se déplace pour un diagnostic sur site.
+        <strong>Votre signalisation PMR doit être mise à jour ou créée ?</strong> <Link href="/devis">Obtenez un devis gratuit en 48h</Link>. Notre expert technique se déplace pour un diagnostic sur site.
       </p>
 
       <h2>Entretien et durée de vie de la signalisation PMR</h2>

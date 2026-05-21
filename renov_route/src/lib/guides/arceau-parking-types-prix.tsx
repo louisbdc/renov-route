@@ -5,7 +5,7 @@ export const meta: Guide = {
   slug: 'arceau-parking-types-prix',
   title: 'Arceau parking : guide complet pour sécuriser vos espaces de stationnement',
   metaTitle: 'Arceau parking: types, pose et prix 2026',
-  metaDescription: 'Guide complet sur les arceaux de parking: anti-stationnement, rabattables, fixes. Types, normes, prix et installation par Renov\'Route. Devis gratuit sous 24h.',
+  metaDescription: 'Guide complet sur les arceaux de parking: anti-stationnement, rabattables, fixes. Types, normes, prix et installation par Renov\'Route. Devis gratuit en 48h.',
   publishDate: '2026-03-31',
   updatedDate: '2026-05-21',
   category: 'securite-parking',
@@ -31,7 +31,7 @@ export default function Content() {
         <li>Les <strong>erreurs courantes</strong> à éviter lors de la pose</li>
       </ul>
       <p>
-        <strong>Besoin d&apos;équiper votre parking?</strong> Renov&apos;Route fournit et installé tous types d&apos;<Link href="/competences/accessoires-parking">accessoires de parking</Link> depuis 2014. <Link href="/devis">Demandez un devis gratuit</Link> sous 24h.
+        <strong>Besoin d&apos;équiper votre parking?</strong> Renov&apos;Route fournit et installé tous types d&apos;<Link href="/competences/accessoires-parking">accessoires de parking</Link> depuis 2014. <Link href="/devis">Demandez un devis gratuit</Link> en 48h.
       </p>
 
       <h2>Pourquoi installer des arceaux de parking</h2>
@@ -412,7 +412,7 @@ export default function Content() {
         Retenez l&apos;essentiel : un arceau seul ne suffit pas. L&apos;efficacité maximale vient de la combinaison arceau + marquage au sol + signalisation. C&apos;est cette approche globale que Renov&apos;Route propose depuis 2014.
       </p>
       <p>
-        <strong>Renov&apos;Route fournit et installé tous types d&apos;arceaux et de bornes de parking sur Lyon, en Rhône-Alpes et dans toute la France.</strong> Un seul interlocuteur, un diagnostic gratuit, un devis sous 24h.
+        <strong>Renov&apos;Route fournit et installé tous types d&apos;arceaux et de bornes de parking sur Lyon, en Rhône-Alpes et dans toute la France.</strong> Un seul interlocuteur, un diagnostic gratuit, un devis en 48h.
       </p>
       <p>
         Besoin d&apos;arceaux de parking pour sécuriser votre site? <strong><Link href="/devis">Demandez votre devis gratuit</Link></strong> ou appelez-nous au <strong>07 86 81 96 92</strong>.

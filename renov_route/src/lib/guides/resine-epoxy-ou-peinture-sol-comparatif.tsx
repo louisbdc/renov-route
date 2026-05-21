@@ -189,7 +189,7 @@ export default function Content() {
       </p>
       <p>
         <strong>Vous h&eacute;sitez entre peinture et r&eacute;sine ?</strong>{' '}
-        <Link href="/devis">Demandez un devis gratuit sous 24h</Link>. Un diagnostic sur site permet de vous recommander le bon rev&ecirc;tement selon votre usage, votre trafic et votre budget. Notre &eacute;quipe intervient pour la <Link href="/competences/resine-sol-marquage-interieur">pose de r&eacute;sine</Link> et le marquage de parking.
+        <Link href="/devis">Demandez un devis gratuit en 48h</Link>. Un diagnostic sur site permet de vous recommander le bon rev&ecirc;tement selon votre usage, votre trafic et votre budget. Notre &eacute;quipe intervient pour la <Link href="/competences/resine-sol-marquage-interieur">pose de r&eacute;sine</Link> et le marquage de parking.
       </p>
     </>
   )

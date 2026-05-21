@@ -678,7 +678,7 @@ export default function Content() {
         <strong>
           Vous devez &eacute;quiper votre parking en panneaux PMR ?
         </strong>{' '}
-        <Link href="/devis">Demandez un devis gratuit</Link> sous 24h. Notre
+        <Link href="/devis">Demandez un devis gratuit</Link> en 48h. Notre
         &eacute;quipe prend en charge le diagnostic, la fourniture des panneaux
         conformes et la pose compl&egrave;te,{' '}
         <Link href="/competences/tracage-retracage-parking">

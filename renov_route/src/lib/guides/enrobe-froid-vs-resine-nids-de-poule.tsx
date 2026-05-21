@@ -227,7 +227,7 @@ export default function Content() {
         Rénov'Route intervient sur Lyon, en Rhône-Alpes et partout en France pour la <Link href="/competences/reparation-nids-de-poule">réparation durable de nids de poule</Link>. Nous utilisons exclusivement de la résine polyuréthane haute performance, et nous garantissons chaque intervention.
       </p>
       <p>
-        <Link href="/devis">Demandez votre devis gratuit</Link>. Nous vous répondons sous 24h avec un chiffrage détaillé et sans engagement.
+        <Link href="/devis">Demandez votre devis gratuit</Link>. Nous vous répondons en 48h avec un chiffrage détaillé et sans engagement.
       </p>
     </>
   )

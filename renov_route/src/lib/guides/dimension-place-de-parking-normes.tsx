@@ -591,7 +591,7 @@ export default function Content() {
       </p>
       <p>
         <strong>
-          <Link href="/devis">Demandez votre devis gratuit</Link> sous 24h
+          <Link href="/devis">Demandez votre devis gratuit</Link> en 48h
         </strong>{' '}
         ou appelez le 07 86 81 96 92 pour discuter de votre projet.
       </p>

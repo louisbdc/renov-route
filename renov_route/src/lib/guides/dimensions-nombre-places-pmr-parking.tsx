@@ -321,7 +321,7 @@ export default function Content() {
         Renov'Route réalise le <Link href="/guides/normes-pmr-parking">diagnostic et la mise en conformité PMR</Link> de votre parking. Nous intervenons à Lyon, en Rhône-Alpes et partout en France.
       </p>
       <p>
-        <Link href="/devis">Demandez votre devis gratuit</Link>. Nous vous répondons sous 24h avec un plan de mise en conformité détaillé et sans engagement.
+        <Link href="/devis">Demandez votre devis gratuit</Link>. Nous vous répondons en 48h avec un plan de mise en conformité détaillé et sans engagement.
       </p>
     </>
   )

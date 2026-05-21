@@ -324,7 +324,7 @@ export default function Content() {
       </p>
       <p>
         <strong>Vous equipez votre parking en butees ou accessoires ?</strong>{' '}
-        <Link href="/devis">Demandez un devis gratuit</Link> sous 24h. Notre équipe vous conseillé sur le type de butee adapte et assure la pose complète,{' '}
+        <Link href="/devis">Demandez un devis gratuit</Link> en 48h. Notre équipe vous conseillé sur le type de butee adapte et assure la pose complète,{' '}
         <Link href="/competences/tracage-retracage-parking">traçage des places</Link> inclus.
       </p>
     </>

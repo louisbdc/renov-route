@@ -5,7 +5,7 @@ export const meta: Guide = {
   slug: 'comment-tracer-parking',
   title: 'Comment tracer un parking : les 7 étapes d\'un marquage réussi',
   metaTitle: 'Comment tracer un parking en 7 étapes (2026) | Rénov\'Route',
-  metaDescription: 'Tracer un parking en 7 étapes : plan de marquage, dimensions réglementaires, peinture NF EN 1436, normes PMR. Guide expert depuis 2014. Devis gratuit 24h.',
+  metaDescription: 'Tracer un parking en 7 étapes : plan de marquage, dimensions réglementaires, peinture NF EN 1436, normes PMR. Guide expert depuis 2014. Devis gratuit 48h.',
   publishDate: '2026-03-04',
   updatedDate: '2026-05-21',
   category: 'marquage-parking',
@@ -87,7 +87,7 @@ export default function Content() {
         Quand Laurent, responsable technique d&apos;un Intermarché près de Bourg-en-Bresse, a voulu retracer son parking de 3 200 m², il a d&apos;abord fait réaliser un relevé topographique. Le terrain avait une pente de 3 % sur la partie nord, invisible à l&apos;œil nu. Sans ce relevé, les places de la zone basse auraient été 20 cm plus étroites que prévu à cause du ruissellement qui avait érodé le bord d&apos;enrobé. Le diagnostic a représenté un investissement modeste qui a évité plusieurs milliers d&apos;euros de reprises.
       </p>
       <p>
-        <strong>Vous avez un projet de traçage de parking ?</strong> <Link href="/devis">Demandez un diagnostic gratuit</Link> à nos experts. Nous réalisons le relevé et vous proposons un plan de marquage sous 24h.
+        <strong>Vous avez un projet de traçage de parking ?</strong> <Link href="/devis">Demandez un diagnostic gratuit</Link> à nos experts. Nous réalisons le relevé et vous proposons un plan de marquage en 48h.
       </p>
 
       <h2>Étape 2 : concevoir le plan de marquage</h2>
@@ -484,7 +484,7 @@ export default function Content() {
         Les erreurs les plus courantes (pas de plan, pas de PMR, pas de préparation) coûtent toujours plus cher à corriger qu&apos;à prévenir. Un traçage professionnel fait correctement dès le départ, c&apos;est un investissement qui dure 3 à 6 ans sans intervention.
       </p>
       <p>
-        <strong>Vous avez un parking à tracer ou à retracer ?</strong> <Link href="/devis">Demandez un devis gratuit</Link> à Renov&apos;Route. Nous réalisons le diagnostic, concevons le plan de marquage et intervenons sur Lyon et toute la France. Devis sous 24h, sans engagement.
+        <strong>Vous avez un parking à tracer ou à retracer ?</strong> <Link href="/devis">Demandez un devis gratuit</Link> à Renov&apos;Route. Nous réalisons le diagnostic, concevons le plan de marquage et intervenons sur Lyon et toute la France. Devis en 48h, sans engagement.
       </p>
     </>
   )

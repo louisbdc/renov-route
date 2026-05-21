@@ -44,7 +44,7 @@ export default function Content() {
         Le marquage au sol des logos parking n&apos;est pas qu&apos;une question d&apos;esthétique. L&apos;arrêté du 15 janvier 2007 relatif à l&apos;accessibilité impose des pictogrammes PMR conformes pour tout ERP. L&apos;IISR (Instruction Interministérielle sur la Signalisation Routiere) encadré les symboles utilisés sur les voies ouvertes à la circulation. Un marquage absent ou non conforme engage la responsabilité du gestionnaire.
       </p>
       <p>
-        <strong>Votre marquage au sol est-il conforme ?</strong> Renov&apos;Route réalise un diagnostic complet de votre parking et identifié les pictogrammes manquants ou non réglementaires. <Link href="/devis">Demandez un devis gratuit</Link>, réponse sous 24h.
+        <strong>Votre marquage au sol est-il conforme ?</strong> Renov&apos;Route réalise un diagnostic complet de votre parking et identifié les pictogrammes manquants ou non réglementaires. <Link href="/devis">Demandez un devis gratuit</Link>, réponse en 48h.
       </p>
 
       <h2>Les différents types de logos et pictogrammes parking</h2>
@@ -406,7 +406,7 @@ export default function Content() {
         <li><strong>La personnalisation</strong> : un logo d&apos;entreprise sur mesure nécessite la création d&apos;un pochoir dédié.</li>
       </ul>
       <p>
-        <strong>Combien couterait le marquage de votre parking ?</strong> Renov&apos;Route vous envoie un devis détaille sous 24h. <Link href="/devis">Remplissez notre formulaire en ligne</Link>.
+        <strong>Combien couterait le marquage de votre parking ?</strong> Renov&apos;Route vous envoie un devis détaille en 48h. <Link href="/devis">Remplissez notre formulaire en ligne</Link>.
       </p>
 
       <h2>Erreurs courantes à éviter</h2>
@@ -484,7 +484,7 @@ export default function Content() {
         <strong>Renov&apos;Route accompagne les gestionnaires de parkings depuis 2014.</strong> Plus de 1 000 projets réalisés à Lyon et en Rhône-Alpes, pour des clients comme Carrefour, Lidl et McDonald&apos;s. Diagnostic, plan de marquage, application et suivi : chaque étape est prise en charge.
       </p>
       <p>
-        <strong>Vous souhaitez mettre à jour les pictogrammes de votre parking ?</strong> <Link href="/devis">Demandez votre devis gratuit</Link>. Reponse garantie sous 24h.
+        <strong>Vous souhaitez mettre à jour les pictogrammes de votre parking ?</strong> <Link href="/devis">Demandez votre devis gratuit</Link>. Reponse garantie en 48h.
       </p>
     </>
   )

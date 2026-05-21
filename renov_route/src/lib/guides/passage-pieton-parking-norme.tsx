@@ -275,7 +275,7 @@ export default function Content() {
       </p>
       <p>
         <strong>Vous souhaitez tracer ou retracer les passages piétons de votre parking ?</strong>{' '}
-        <Link href="/devis">Demandez un devis gratuit</Link> sous 24h. Nous assurons un marquage conforme, signalisation et accessibilité PMR comprises.
+        <Link href="/devis">Demandez un devis gratuit</Link> en 48h. Nous assurons un marquage conforme, signalisation et accessibilité PMR comprises.
       </p>
     </>
   )

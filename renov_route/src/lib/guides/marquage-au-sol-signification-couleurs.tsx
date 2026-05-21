@@ -26,7 +26,7 @@ export default function Content() {
         Ce guide vous explique la <strong>signification du marquage au sol</strong> couleur par couleur, ligne par ligne, symbole par symbole. Que vous soyez conducteur, gestionnaire de parking ou responsable de voirie, vous saurez exactement ce que chaque marquage signifie et quelles obligations il implique.
       </p>
       <p>
-        <strong>Besoin d&apos;un marquage conforme ?</strong> Renov&apos;Route réalise depuis 2014 le <Link href="/competences/tracage-retracage-parking">traçage et retraçage de parkings</Link> pour plus de 1 000 clients dans toute la France. <Link href="/devis">Demandez un devis gratuit</Link> sous 24h ou appelez le 07 86 81 96 92.
+        <strong>Besoin d&apos;un marquage conforme ?</strong> Renov&apos;Route réalise depuis 2014 le <Link href="/competences/tracage-retracage-parking">traçage et retraçage de parkings</Link> pour plus de 1 000 clients dans toute la France. <Link href="/devis">Demandez un devis gratuit</Link> en 48h ou appelez le 07 86 81 96 92.
       </p>
 
       <h2>Le code couleur du marquage au sol</h2>
@@ -396,7 +396,7 @@ export default function Content() {
         <strong>Renov&apos;Route vous accompagne</strong> dans le <Link href="/competences/tracage-retracage-parking">traçage et retraçage</Link> de vos espaces de circulation. Depuis 2014, nous avons réalisé plus de 1 000 projets pour des enseignes comme Carrefour, Lidl et McDonald&apos;s, en respectant les normes NF EN 1436 et l&apos;IISR.
       </p>
       <p>
-        <strong><Link href="/devis">Demandez votre devis gratuit</Link></strong> sous 24h ou appelez le 07 86 81 96 92. Un expert Renov&apos;Route vous conseillé sur le marquage adapte à votre site.
+        <strong><Link href="/devis">Demandez votre devis gratuit</Link></strong> en 48h ou appelez le 07 86 81 96 92. Un expert Renov&apos;Route vous conseillé sur le marquage adapte à votre site.
       </p>
     </>
   )

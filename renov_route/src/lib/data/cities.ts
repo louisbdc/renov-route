@@ -651,7 +651,7 @@ export const CITIES: City[] = [
     localFAQ: [
       {
         question: 'Comment gérez-vous le climat grenoblois pour la peinture de marquage ?',
-        answer: "Nous suivons strictement la fiche technique du produit : application uniquement entre +5 °C et +30 °C, support sec et hors prévision de gel dans les 24h. Sur Grenoble, la fenêtre optimale pour les chantiers extérieurs s'étend d'avril à octobre. Hors saison, nous privilégions les parkings couverts ou intervenons sur le marquage intérieur en résine.",
+        answer: "Nous suivons strictement la fiche technique du produit : application uniquement entre +5 °C et +30 °C, support sec et hors prévision de gel sous 48h. Sur Grenoble, la fenêtre optimale pour les chantiers extérieurs s'étend d'avril à octobre. Hors saison, nous privilégions les parkings couverts ou intervenons sur le marquage intérieur en résine.",
       },
       {
         question: 'Acceptez-vous les chantiers ponctuels malgré la distance depuis Lyon ?',

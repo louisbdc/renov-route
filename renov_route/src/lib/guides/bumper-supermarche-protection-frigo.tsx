@@ -647,7 +647,7 @@ export default function Content() {
           Vous souhaitez &eacute;quiper votre supermarch&eacute; en bumpers de
           protection ?
         </strong>{' '}
-        <Link href="/devis">Demandez un devis gratuit</Link> sous 24h. Notre
+        <Link href="/devis">Demandez un devis gratuit</Link> en 48h. Notre
         &eacute;quipe intervient pour la fourniture et la pose de bumpers, les{' '}
         <Link href="/competences/accessoires-parking">
           accessoires de parking

@@ -5,7 +5,7 @@ export const meta: Guide = {
   slug: 'mise-en-conformite-parking-pmr',
   title: 'Mise en conformité parking PMR : obligations, sanctions et coûts 2026',
   metaTitle: 'Aménagement PMR parking : sanctions jusqu\'à 45 000€ (guide 2026)',
-  metaDescription: 'Mise en conformité PMR parking existant : obligations 2026, sanctions jusqu\'à 45 000€ par infraction, étapes concrètes, budget par poste. Diagnostic gratuit sous 24h.',
+  metaDescription: 'Mise en conformité PMR parking existant : obligations 2026, sanctions jusqu\'à 45 000€ par infraction, étapes concrètes, budget par poste. Diagnostic gratuit en 48h.',
   publishDate: '2026-03-04',
   updatedDate: '2026-03-31',
   category: 'normes-pmr',
@@ -74,7 +74,7 @@ export default function Content() {
       </p>
 
       <p>
-        <strong>Besoin d&apos;un diagnostic de conformité PMR pour votre parking ?</strong> <Link href="/devis">Demandez un devis gratuit</Link>, nous vous répondons sous 24h avec une analyse détaillée.
+        <strong>Besoin d&apos;un diagnostic de conformité PMR pour votre parking ?</strong> <Link href="/devis">Demandez un devis gratuit</Link>, nous vous répondons en 48h avec une analyse détaillée.
       </p>
 
       <h2>Les obligations légales : ce que dit la loi</h2>
@@ -276,7 +276,7 @@ export default function Content() {
       </blockquote>
 
       <p>
-        <strong>Votre parking a besoin d&apos;une mise en conformité PMR ?</strong> <Link href="/devis">Obtenez un devis gratuit et détaillé sous 24h</Link>. Notre expert technique se déplace pour un diagnostic sur site.
+        <strong>Votre parking a besoin d&apos;une mise en conformité PMR ?</strong> <Link href="/devis">Obtenez un devis gratuit et détaillé en 48h</Link>. Notre expert technique se déplace pour un diagnostic sur site.
       </p>
 
       <h2>Les erreurs qui coûtent cher</h2>

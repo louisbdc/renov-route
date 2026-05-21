@@ -5,7 +5,7 @@ export const meta: Guide = {
   slug: 'prix-marquage-sol-parking',
   title: 'Prix marquage au sol parking : tarifs détaillés et devis (2026)',
   metaTitle: 'Prix marquage au sol parking 2026 : dès 2,50€/ml (tarifs + devis)',
-  metaDescription: 'Prix marquage au sol parking en 2026 : tarifs au m² et par place, exemples de devis, comparatif peinture/résine/thermocollé. Devis gratuit sous 24h, sans engagement.',
+  metaDescription: 'Prix marquage au sol parking en 2026 : tarifs au m² et par place, exemples de devis, comparatif peinture/résine/thermocollé. Devis gratuit en 48h, sans engagement.',
   publishDate: '2026-03-04',
   updatedDate: '2026-05-21',
   category: 'prix-tarifs',
@@ -98,7 +98,7 @@ export default function Content() {
       </p>
       <p>
         Vous souhaitez un chiffrage précis pour votre parking ?{' '}
-        <Link href="/devis">Demandez un devis gratuit</Link>, nous répondons sous 24h avec un
+        <Link href="/devis">Demandez un devis gratuit</Link>, nous répondons en 48h avec un
         tarif adapté à votre situation.
       </p>
 
@@ -341,7 +341,7 @@ export default function Content() {
         copropriété à la grande surface multi-sites, nous adaptons nos solutions à votre budget.
       </p>
       <p>
-        <Link href="/devis">Demandez votre devis gratuit sous 24h</Link>. Un seul
+        <Link href="/devis">Demandez votre devis gratuit en 48h</Link>. Un seul
         interlocuteur vous accompagne de l&apos;analyse à la réception du chantier.
       </p>
     </>

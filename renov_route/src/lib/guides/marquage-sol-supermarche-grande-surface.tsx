@@ -261,7 +261,7 @@ export default function Content() {
       </p>
       <p>
         <strong>Vous g&eacute;rez le parking d&apos;un supermarch&eacute; ou d&apos;une grande surface ?</strong>{' '}
-        <Link href="/devis">Demandez un devis gratuit sous 24h</Link>. Notre &eacute;quipe intervient de nuit ou le dimanche pour le <Link href="/competences/tracage-retracage-parking">tra&ccedil;age de parking</Link>, la <Link href="/competences/signalisation-verticale">signalisation verticale</Link> et les <Link href="/competences/accessoires-parking">accessoires de parking</Link> de votre surface commerciale.
+        <Link href="/devis">Demandez un devis gratuit en 48h</Link>. Notre &eacute;quipe intervient de nuit ou le dimanche pour le <Link href="/competences/tracage-retracage-parking">tra&ccedil;age de parking</Link>, la <Link href="/competences/signalisation-verticale">signalisation verticale</Link> et les <Link href="/competences/accessoires-parking">accessoires de parking</Link> de votre surface commerciale.
       </p>
     </>
   )

@@ -404,7 +404,7 @@ export default function Content() {
 
       <p>
         Rénov&apos;Route s&apos;engage sur un{' '}
-        <Link href="/devis/">devis gratuit sous 24h</Link> et un interlocuteur
+        <Link href="/devis/">devis gratuit en 48h</Link> et un interlocuteur
         technique unique du diagnostic à la réception du chantier.
       </p>
 
@@ -590,7 +590,7 @@ export default function Content() {
           marquage au sol de parking
         </Link>{' '}
         à Lyon et en Rhône-Alpes depuis 2014. Plus de 1 000 projets réalisés,
-        peintures certifiées NF EN 1436, garantie 2 ans, devis sous 24h.
+        peintures certifiées NF EN 1436, garantie 2 ans, devis en 48h.
       </p>
 
       <p>

@@ -347,7 +347,7 @@ export default function Content() {
       </p>
       <p>
         <strong>Vous souhaitez sécuriser votre parking ?</strong>{' '}
-        <Link href="/devis">Demandez un devis gratuit</Link> sous 24h. Nous étudions votre configuration, recommandons les dispositifs adaptés et assurons une installation conforme, signalisation comprise.
+        <Link href="/devis">Demandez un devis gratuit</Link> en 48h. Nous étudions votre configuration, recommandons les dispositifs adaptés et assurons une installation conforme, signalisation comprise.
       </p>
     </>
   )

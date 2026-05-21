@@ -68,7 +68,7 @@ const services = [
 const faqItems = [
   {
     question: "Combien co\u00FBte le marquage au sol d'un parking ?",
-    answer: "Le prix varie selon la surface et le type de marquage : comptez 8 \u00E0 15 \u20AC/m\u00B2 pour un tra\u00E7age complet de parking. Un parking de 100 places revient en moyenne entre 8 000 et 15 000 \u20AC, marquage + signalisation inclus. Nos devis sont gratuits, sans engagement, et envoy\u00E9s sous 24h.",
+    answer: "Le prix varie selon la surface et le type de marquage : comptez 8 \u00E0 15 \u20AC/m\u00B2 pour un tra\u00E7age complet de parking. Un parking de 100 places revient en moyenne entre 8 000 et 15 000 \u20AC, marquage + signalisation inclus. Nos devis sont gratuits, sans engagement, et envoy\u00E9s en 48h.",
   },
   {
     question: "Combien de temps durent les travaux de marquage ?",
@@ -109,7 +109,7 @@ export default function Home() {
             <HomeHeroHeadline />
 
             <p className="text-base sm:text-lg text-slate-300 mb-10 max-w-xl font-medium leading-relaxed">
-              Spécialiste du <strong className="text-white font-bold">marquage au sol</strong> et de la <strong className="text-white font-bold">rénovation de parking</strong> à Lyon. Intervention sous 48h · Devis gratuit en 24h · 1&nbsp;000+ parkings depuis 2014.
+              Spécialiste du <strong className="text-white font-bold">marquage au sol</strong> et de la <strong className="text-white font-bold">rénovation de parking</strong> à Lyon. Intervention sous 48h · Devis gratuit en 48h · 1&nbsp;000+ parkings depuis 2014.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -140,7 +140,7 @@ export default function Home() {
               <span className="w-px h-3 bg-white/20" />
               <span>1 000+ projets</span>
               <span className="w-px h-3 bg-white/20" />
-              <span>Devis 24h</span>
+              <span>Devis 48h</span>
             </div>
           </div>
         </div>
@@ -180,7 +180,7 @@ export default function Home() {
               transition={{ duration: 0.5 }}
             >
               <p className="text-slate-600 text-base sm:text-lg leading-relaxed font-medium">
-                Spécialiste du <strong className="text-[#0F172A] font-bold">marquage au sol</strong> et de la <strong className="text-[#0F172A] font-bold">rénovation de parking</strong> à Lyon et en Rhône-Alpes, Rénov&apos;Route intervient sur tous types de surfaces : parkings, entrepôts, voiries et zones commerciales. De la <strong className="text-[#0F172A] font-bold">réparation de nids de poule</strong> au traçage de lignes de circulation, nous assurons des prestations durables et conformes aux normes en vigueur. Demandez votre devis gratuit et obtenez une réponse sous 24 heures.
+                Spécialiste du <strong className="text-[#0F172A] font-bold">marquage au sol</strong> et de la <strong className="text-[#0F172A] font-bold">rénovation de parking</strong> à Lyon et en Rhône-Alpes, Rénov&apos;Route intervient sur tous types de surfaces : parkings, entrepôts, voiries et zones commerciales. De la <strong className="text-[#0F172A] font-bold">réparation de nids de poule</strong> au traçage de lignes de circulation, nous assurons des prestations durables et conformes aux normes en vigueur. Demandez votre devis gratuit et obtenez une réponse en 48h.
               </p>
             </MotionDiv>
           </div>
@@ -205,7 +205,7 @@ export default function Home() {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-px bg-slate-200 border border-slate-200">
               {[
-                { step: '01', icon: <TbFileDescription size={28} />, title: 'Demande de devis', description: 'Remplissez notre formulaire ou appelez-nous. Devis gratuit et sans engagement sous 24h.' },
+                { step: '01', icon: <TbFileDescription size={28} />, title: 'Demande de devis', description: 'Remplissez notre formulaire ou appelez-nous. Devis gratuit et sans engagement en 48h.' },
                 { step: '02', icon: <TbSearch size={28} />, title: 'Diagnostic sur site', description: 'Un expert se déplace pour évaluer votre parking et définir le plan d\u2019intervention.' },
                 { step: '03', icon: <TbTool size={28} />, title: 'Travaux rapides', description: 'Intervention en 2 à 5 jours. Votre parking reste accessible pendant le chantier.' },
                 { step: '04', icon: <TbShieldCheck size={28} />, title: 'Réception et garantie', description: 'Vérification de conformité, remise du dossier technique et suivi post-chantier.' },
@@ -431,7 +431,7 @@ export default function Home() {
                 Note 5/5 Google · 1&nbsp;000+ projets depuis 2014
               </p>
               <p className="text-slate-500 text-sm font-medium mb-8">
-                Devis gratuit et sans engagement. Réponse sous 24h.
+                Devis gratuit et sans engagement. Réponse en 48h.
               </p>
               <QuoteTracker serviceType="home_testimonials">
                 <Link
@@ -515,7 +515,7 @@ export default function Home() {
                   Parlons de votre <span className="text-[#FACC15]">projet.</span>
                 </h2>
                 <p className="text-slate-500 font-medium mb-8">
-                  Nos experts se déplacent sur votre site pour une analyse précise et un devis personnalisé sous 24h.
+                  Nos experts se déplacent sur votre site pour une analyse précise et un devis personnalisé en 48h.
                 </p>
               </div>
 
@@ -621,7 +621,7 @@ export default function Home() {
               <span className="text-[#FACC15]">vos espaces ?</span>
             </h2>
             <p className="text-slate-400 text-lg mb-12 max-w-xl mx-auto font-medium">
-              Contactez nos experts pour une analyse de site gratuite et un devis personnalisé sous 24h.
+              Contactez nos experts pour une analyse de site gratuite et un devis personnalisé en 48h.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

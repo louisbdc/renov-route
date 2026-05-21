@@ -614,7 +614,7 @@ export default function Content() {
         <strong>
           Vous envisagez un sol &eacute;poxy pour votre entrep&ocirc;t ?
         </strong>{' '}
-        <Link href="/devis">Demandez un devis gratuit</Link> sous 24h. Notre
+        <Link href="/devis">Demandez un devis gratuit</Link> en 48h. Notre
         &eacute;quipe r&eacute;alise le diagnostic du support, le choix de
         l&apos;&eacute;paisseur adapt&eacute;e et l&apos;application
         compl&egrave;te,{' '}

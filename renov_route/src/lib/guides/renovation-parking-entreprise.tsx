@@ -5,7 +5,7 @@ export const meta: Guide = {
   slug: 'renovation-parking-entreprise',
   title: 'Rénovation de parking d\'entreprise : checklist complète et budget',
   metaTitle: 'Rénovation parking entreprise : checklist et budget | Renov\'Route',
-  metaDescription: 'Rénovation de parking d\'entreprise : checklist complète, budget par poste et planning. Marquage, nids de poule, signalisation, équipements. Devis gratuit sous 24h.',
+  metaDescription: 'Rénovation de parking d\'entreprise : checklist complète, budget par poste et planning. Marquage, nids de poule, signalisation, équipements. Devis gratuit en 48h.',
   publishDate: '2026-03-04',
   updatedDate: '2026-05-21',
   category: 'renovation-parking',
@@ -239,7 +239,7 @@ export default function Content() {
         Philippe, directeur de 3 restaurants rapides en Isère (38), avait besoin de rénover les parkings de ses 3 sites (35, 45 et 60 places). Plutôt que de traiter chaque site séparément, il nous a demandé un devis groupé. La mutualisation du déplacement et la planification sur 2 semaines ont permis de réduire le budget total d'environ 15 %. Le regroupement des 3 sites (retraçage complet + 18 nids de poule + 9 panneaux + 6 ralentisseurs) a généré une économie significative par rapport à 3 devis séparés.
       </p>
       <p>
-        Pour un chiffrage adapté à votre situation, <Link href="/devis">demandez un devis gratuit</Link>. Nous répondons sous 24h avec un chiffrage détaillé par poste.
+        Pour un chiffrage adapté à votre situation, <Link href="/devis">demandez un devis gratuit</Link>. Nous répondons en 48h avec un chiffrage détaillé par poste.
       </p>
 
       <h2>Planning type : rénover sans perturber votre activité</h2>
@@ -381,7 +381,7 @@ export default function Content() {
         Renov'Route intervient sur Lyon, en Rhône-Alpes et partout en France pour la rénovation complète de parkings d'entreprise. Un seul interlocuteur technique, du diagnostic à la réception des travaux.
       </p>
       <p>
-        <Link href="/devis">Demandez votre devis gratuit</Link>. Nous vous répondons sous 24h avec un plan de rénovation chiffré, un planning adapté à votre activité et zéro engagement.
+        <Link href="/devis">Demandez votre devis gratuit</Link>. Nous vous répondons en 48h avec un plan de rénovation chiffré, un planning adapté à votre activité et zéro engagement.
       </p>
     </>
   )

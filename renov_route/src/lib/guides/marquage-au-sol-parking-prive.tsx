@@ -5,7 +5,7 @@ export const meta: Guide = {
   slug: 'marquage-au-sol-parking-prive',
   title: 'Marquage au sol parking privé : réglementation, obligations et bonnes pratiques en 2026',
   metaTitle: 'Marquage au sol parking privé : guide complet 2026 | Renov\'Route',
-  metaDescription: 'Marquage au sol parking privé : réglementation, obligations PMR, signalisation, prix et erreurs à éviter. 1 000+ projets depuis 2014. Devis gratuit sous 24h.',
+  metaDescription: 'Marquage au sol parking privé : réglementation, obligations PMR, signalisation, prix et erreurs à éviter. 1 000+ projets depuis 2014. Devis gratuit en 48h.',
   publishDate: '2026-03-31',
   updatedDate: '2026-05-21',
   category: 'marquage-parking',
@@ -641,7 +641,7 @@ export default function Content() {
         Carrefour, Lidl et McDonald&apos;s.
       </p>
       <p>
-        <strong>Devis gratuit sous 24 heures.</strong> Appelez le 07 86 81 96 92 ou{' '}
+        <strong>Devis gratuit en 48h.</strong> Appelez le 07 86 81 96 92 ou{' '}
         <Link href="/devis">demandez votre devis en ligne</Link>. Nos équipés interviennent dans
         toute la region lyonnaise et au-delà.
       </p>

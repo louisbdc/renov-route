@@ -305,7 +305,7 @@ export default function Content() {
       </p>
       <p>
         <strong>Vous envisagez un revêtement en résine pour votre parking ?</strong>{' '}
-        <Link href="/devis">Demandez un devis gratuit</Link> sous 24h. Notre équipe réalise le diagnostic du sol, le choix de la résine adaptée et l&apos;application complète, marquage inclus.
+        <Link href="/devis">Demandez un devis gratuit</Link> en 48h. Notre équipe réalise le diagnostic du sol, le choix de la résine adaptée et l&apos;application complète, marquage inclus.
       </p>
     </>
   )

@@ -7,7 +7,7 @@ export const meta: Guide = {
     'Panneau limitation de vitesse en parking : réglementation, choix et pose',
   metaTitle: 'Vitesse en parking : 10, 20 ou 30 km/h ? Règles 2026 + panneaux',
   metaDescription:
-    'Vitesse autorisée en parking privé, public ou supermarché : que dit la loi ? Panneaux obligatoires, sanctions, prix de pose. Guide complet 2026 + devis gratuit sous 24h.',
+    'Vitesse autorisée en parking privé, public ou supermarché : que dit la loi ? Panneaux obligatoires, sanctions, prix de pose. Guide complet 2026 + devis gratuit en 48h.',
   publishDate: '2026-03-04',
   updatedDate: '2026-05-05',
   category: 'securite-parking',
@@ -631,7 +631,7 @@ export default function Content() {
           Vous souhaitez installer des panneaux de limitation de vitesse dans
           votre parking ?
         </strong>{' '}
-        <Link href="/devis">Demandez un devis gratuit</Link> sous 24h. Notre
+        <Link href="/devis">Demandez un devis gratuit</Link> en 48h. Notre
         &eacute;quipe r&eacute;alise le diagnostic, la fourniture de panneaux
         conformes NF et la pose compl&egrave;te,{' '}
         <Link href="/guides/ralentisseur-parking-norme">ralentisseurs</Link> et{' '}

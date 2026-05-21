@@ -251,7 +251,7 @@ export default function Content() {
       </p>
       <p>
         <strong>Vous voulez un marquage qui dure ?</strong>{' '}
-        <Link href="/devis">Demandez un devis gratuit sous 24h</Link>. Nous utilisons exclusivement des produits certifi&eacute;s NF EN 1436 pour un <Link href="/competences/tracage-retracage-parking">tra&ccedil;age de parking</Link> durable et conforme.
+        <Link href="/devis">Demandez un devis gratuit en 48h</Link>. Nous utilisons exclusivement des produits certifi&eacute;s NF EN 1436 pour un <Link href="/competences/tracage-retracage-parking">tra&ccedil;age de parking</Link> durable et conforme.
       </p>
     </>
   )

@@ -208,7 +208,7 @@ export default function Content() {
       </p>
       <p>
         <strong>Vous avez des nids de poule dans votre parking ?</strong>{' '}
-        <Link href="/devis">Demandez un devis gratuit sous 24h</Link>. Un diagnostic sur site permet de choisir la bonne m&eacute;thode et d&apos;&eacute;viter les <Link href="/competences/reparation-nids-de-poule">r&eacute;parations</Link> qui ne tiennent pas.
+        <Link href="/devis">Demandez un devis gratuit en 48h</Link>. Un diagnostic sur site permet de choisir la bonne m&eacute;thode et d&apos;&eacute;viter les <Link href="/competences/reparation-nids-de-poule">r&eacute;parations</Link> qui ne tiennent pas.
       </p>
     </>
   )

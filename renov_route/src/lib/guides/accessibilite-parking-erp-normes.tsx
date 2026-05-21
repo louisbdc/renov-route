@@ -221,7 +221,7 @@ export default function Content() {
       </p>
       <p>
         <strong>Votre parking d&apos;ERP doit &ecirc;tre mis en conformit&eacute; ?</strong>{' '}
-        <Link href="/devis">Demandez un devis gratuit sous 24h</Link>. Notre &eacute;quipe r&eacute;alise le <Link href="/competences/tracage-retracage-parking">tra&ccedil;age de parking</Link>, la signalisation PMR et le conseil pour la mise en conformit&eacute; de votre &eacute;tablissement.
+        <Link href="/devis">Demandez un devis gratuit en 48h</Link>. Notre &eacute;quipe r&eacute;alise le <Link href="/competences/tracage-retracage-parking">tra&ccedil;age de parking</Link>, la signalisation PMR et le conseil pour la mise en conformit&eacute; de votre &eacute;tablissement.
       </p>
     </>
   )

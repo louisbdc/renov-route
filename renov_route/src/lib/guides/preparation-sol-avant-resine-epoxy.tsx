@@ -250,7 +250,7 @@ export default function Content() {
       </p>
       <p>
         <strong>Vous avez un sol &agrave; pr&eacute;parer pour une r&eacute;sine ?</strong>{' '}
-        <Link href="/devis">Demandez un devis gratuit sous 24h</Link>. Notre &eacute;quipe r&eacute;alise le diagnostic, la pr&eacute;paration et l&apos;application de <Link href="/competences/resine-sol-marquage-interieur">r&eacute;sine de sol</Link> pour un r&eacute;sultat durable et garanti.
+        <Link href="/devis">Demandez un devis gratuit en 48h</Link>. Notre &eacute;quipe r&eacute;alise le diagnostic, la pr&eacute;paration et l&apos;application de <Link href="/competences/resine-sol-marquage-interieur">r&eacute;sine de sol</Link> pour un r&eacute;sultat durable et garanti.
       </p>
     </>
   )

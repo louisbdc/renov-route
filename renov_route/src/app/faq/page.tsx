@@ -76,7 +76,7 @@ export default function FAQPage() {
     },
     {
       question: "Comment obtenir un devis pour marquage au sol ?",
-      answer: "Pour obtenir un devis, contactez-nous par téléphone au 07 86 81 96 92, par email à contact@renov-route.com, ou via notre formulaire en ligne. Nous vous poserons quelques questions sur votre projet (type de marquage, surface, localisation, délais) et proposerons une visite sur site gratuite pour évaluer précisément vos besoins. Le devis détaillé vous sera transmis sous 24-48h avec toutes les options possibles."
+      answer: "Pour obtenir un devis, contactez-nous par téléphone au 07 86 81 96 92, par email à contact@renov-route.com, ou via notre formulaire en ligne. Nous vous poserons quelques questions sur votre projet (type de marquage, surface, localisation, délais) et proposerons une visite sur site gratuite pour évaluer précisément vos besoins. Le devis détaillé vous sera transmis sous 48h avec toutes les options possibles."
     },
     {
       question: "Quelle est la limitation de vitesse sur un parking privé ?",

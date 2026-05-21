@@ -5,7 +5,7 @@ export const meta: Guide = {
   slug: 'panneaux-parking-types-reglementation',
   title: 'Panneaux parking : types, normes et prix 2026',
   metaTitle: 'Panneaux parking: types, normes et prix 2026 | Renov&apos;Route',
-  metaDescription: 'Guide complet sur les panneaux parking: stationnement interdit, PMR, parking privé, direction. Normes IISR, prix, pose. Devis gratuit sous 24h par Renov&apos;Route.',
+  metaDescription: 'Guide complet sur les panneaux parking: stationnement interdit, PMR, parking privé, direction. Normes IISR, prix, pose. Devis gratuit en 48h par Renov&apos;Route.',
   publishDate: '2026-03-31',
   updatedDate: '2026-05-21',
   category: 'securite-parking',
@@ -39,7 +39,7 @@ export default function Content() {
         En septembre 2025, après un <Link href="/competences/conseil-expertise">audit de conseil et expertise</Link>, Renov&apos;Route a déployé un plan complet de signalisation : 28 panneaux directionnels, 12 panneaux de limitation de vitesse, 6 panneaux de stationnement réservé et un <Link href="/competences/tracage-retracage-parking">traçage de parking</Link> intégral. Six mois plus tard, zéro accrochage et un flux de circulation fluide même le samedi apres-midi.
       </p>
       <p>
-        <strong>Votre parking manque de signalisation ?</strong> Renov&apos;Route réalise un diagnostic complet et vous propose un plan de <Link href="/competences/signalisation-verticale">signalisation verticale</Link> adapte à votre site. <Link href="/devis">Demandez un devis gratuit</Link>, réponse sous 24h.
+        <strong>Votre parking manque de signalisation ?</strong> Renov&apos;Route réalise un diagnostic complet et vous propose un plan de <Link href="/competences/signalisation-verticale">signalisation verticale</Link> adapte à votre site. <Link href="/devis">Demandez un devis gratuit</Link>, réponse en 48h.
       </p>
 
       <h3>La responsabilité du gestionnaire</h3>
@@ -410,7 +410,7 @@ export default function Content() {
 
       <h3>Combien coûte l&apos;installation complète de panneaux pour un parking ?</h3>
       <p>
-        Le budget dépend de la taille du parking et du nombre de panneaux nécessaires. Pour un parking de 50 places, comptez entre 2 000 et 5 000 EUR pour une signalisation complète (panneaux + pose). Renov&apos;Route propose un <Link href="/devis">devis gratuit</Link> détaille sous 24h.
+        Le budget dépend de la taille du parking et du nombre de panneaux nécessaires. Pour un parking de 50 places, comptez entre 2 000 et 5 000 EUR pour une signalisation complète (panneaux + pose). Renov&apos;Route propose un <Link href="/devis">devis gratuit</Link> détaille en 48h.
       </p>
 
       <h3>Quelle est la durée de vie d&apos;un panneau parking en aluminium ?</h3>
@@ -436,7 +436,7 @@ export default function Content() {
         Renov&apos;Route accompagne depuis 2014 les gestionnaires de parkings dans toute la France. Plus de 1 000 projets réalisés pour des clients comme Carrefour, Lidl, McDonald&apos;s, l&apos;Armée de Terre et EM Lyon. Chaque projet commence par un diagnostic sur site et un devis détaille, gratuit et sans engagement.
       </p>
       <p>
-        <strong>Votre parking a besoin de panneaux conformes ?</strong> Appelez le <strong>07 86 81 96 92</strong> ou <Link href="/devis">demandez votre devis gratuit en ligne</Link>. Reponse garantie sous 24h. Decouvrez aussi <Link href="/realisations">nos réalisations</Link> pour voir des exemples concrets de projets de signalisation.
+        <strong>Votre parking a besoin de panneaux conformes ?</strong> Appelez le <strong>07 86 81 96 92</strong> ou <Link href="/devis">demandez votre devis gratuit en ligne</Link>. Reponse garantie en 48h. Decouvrez aussi <Link href="/realisations">nos réalisations</Link> pour voir des exemples concrets de projets de signalisation.
       </p>
     </>
   )

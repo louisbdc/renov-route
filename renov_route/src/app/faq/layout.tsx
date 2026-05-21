@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "FAQ Marquage au Sol 2026 : réponses d'experts | Rénov'Route",
   description:
-    "Vos questions sur le marquage parking, traçage au sol et nids de poule — répondues par un expert certifié NF EN 1436. Lyon et Rhône-Alpes. Devis gratuit 24h.",
+    "Vos questions sur le marquage parking, traçage au sol et nids de poule — répondues par un expert certifié NF EN 1436. Lyon et Rhône-Alpes. Devis gratuit 48h.",
   alternates: {
     canonical: "https://renov-route.com/faq/",
   },

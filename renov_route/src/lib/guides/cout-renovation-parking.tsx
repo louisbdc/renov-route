@@ -58,7 +58,7 @@ export default function Content() {
         Pour un détail complet des tarifs de marquage, consultez notre <Link href="/guides/prix-marquage-sol-parking">guide des prix du marquage au sol parking</Link>.
       </p>
       <p>
-        <strong>Votre parking a besoin d&apos;un retraçage ?</strong> <Link href="/devis">Demandez un devis gratuit</Link>, nous vous répondons sous 24h avec un chiffrage détaillé.
+        <strong>Votre parking a besoin d&apos;un retraçage ?</strong> <Link href="/devis">Demandez un devis gratuit</Link>, nous vous répondons en 48h avec un chiffrage détaillé.
       </p>
 
       <h3>2. Réparation de chaussée</h3>
@@ -337,7 +337,7 @@ export default function Content() {
         </p>
       </blockquote>
       <p>
-        <strong>Prêt à chiffrer votre projet ?</strong> <Link href="/devis">Demandez un devis gratuit et détaillé sous 24h</Link>. Notre expert technique se déplace pour un diagnostic sur site et vous fournit un devis ventilé par poste, sans surprise.
+        <strong>Prêt à chiffrer votre projet ?</strong> <Link href="/devis">Demandez un devis gratuit et détaillé en 48h</Link>. Notre expert technique se déplace pour un diagnostic sur site et vous fournit un devis ventilé par poste, sans surprise.
       </p>
 
       <h2>Optimiser son budget : 5 leviers concrets</h2>

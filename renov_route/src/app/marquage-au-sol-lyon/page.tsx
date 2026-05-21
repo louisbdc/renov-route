@@ -30,7 +30,7 @@ const BREADCRUMB = [
 const FEATURES = [
   { icon: <TbCertificate size={20} />, title: 'Depuis 2014 à Lyon', description: "Plus de 1 000 chantiers réalisés en Rhône-Alpes. Nous connaissons le terrain, les contraintes locales et les réglementations en vigueur." },
   { icon: <TbShield size={20} />, title: 'Peintures certifiées NF EN 1436', description: 'Produits routiers haute résistance aux UV, intempéries et trafic intense. Résultat durable, même sur les parkings à fort passage.' },
-  { icon: <TbClock size={20} />, title: 'Devis sous 24h, intervention rapide', description: 'Visite sur site gratuite, devis détaillé en 24h. Intervention planifiée selon vos contraintes (horaires, activité).' },
+  { icon: <TbClock size={20} />, title: 'Devis en 48h, intervention rapide', description: 'Visite sur site gratuite, devis détaillé en 48h. Intervention planifiée selon vos contraintes (horaires, activité).' },
   { icon: <TbPalette size={20} />, title: 'Marquage sur mesure', description: 'Couleurs personnalisées, logos, numérotation, signalétique adaptée à votre identité visuelle et vos besoins spécifiques.' },
 ]
 
@@ -45,7 +45,7 @@ const SERVICES = [
 
 const STEPS = [
   { step: '01', title: 'Contact & visite sur site', description: "Prise de contact, visite gratuite pour analyser votre besoin, mesurer les surfaces et identifier les contraintes (trafic, accès, état du sol)." },
-  { step: '02', title: 'Devis détaillé sous 24h', description: "Plan de marquage sur mesure avec estimation précise. Choix des produits adaptés à votre usage (parking, voirie, industriel)." },
+  { step: '02', title: 'Devis détaillé en 48h', description: "Plan de marquage sur mesure avec estimation précise. Choix des produits adaptés à votre usage (parking, voirie, industriel)." },
   { step: '03', title: 'Préparation du chantier', description: "Balayage mécanique, effacement de l'ancien marquage si nécessaire, réparation des zones dégradées (nids de poule, fissures)." },
   { step: '04', title: 'Réalisation & contrôle qualité', description: "Application du marquage par nos équipes. Contrôle qualité en fin de chantier. Remise en circulation selon le temps de séchage (1 à 3h)." },
 ]
@@ -141,7 +141,7 @@ const SERVICE_SCHEMA = {
     "@type": "Offer",
     "price": "0",
     "priceCurrency": "EUR",
-    "description": "Devis gratuit sous 24h, sans engagement"
+    "description": "Devis gratuit en 48h, sans engagement"
   }
 }
 
@@ -172,7 +172,7 @@ export default function MarquageAuSolLyonPage() {
         ]}
         features={FEATURES}
         ctaTitle="Un projet de marquage au sol à Lyon ?"
-        ctaSubtitle="Visite sur site gratuite, devis détaillé sous 24h. Nous intervenons dans toute l'agglomération lyonnaise et en Rhône-Alpes."
+        ctaSubtitle="Visite sur site gratuite, devis détaillé en 48h. Nous intervenons dans toute l'agglomération lyonnaise et en Rhône-Alpes."
       >
         <ServiceItemsGrid
           title="Tous nos services de marquage au sol"
@@ -233,7 +233,7 @@ export default function MarquageAuSolLyonPage() {
                     <div className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-500">Chantiers réalisés</div>
                   </div>
                   <div>
-                    <div className="text-4xl font-black italic text-[#FACC15] tabular-nums mb-1">24h</div>
+                    <div className="text-4xl font-black italic text-[#FACC15] tabular-nums mb-1">48h</div>
                     <div className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-500">Devis garanti</div>
                   </div>
                 </div>
@@ -331,7 +331,7 @@ export default function MarquageAuSolLyonPage() {
                 { number: '10+', label: "années d'expérience", detail: 'Fondée en 2014 à Lyon' },
                 { number: '1 000+', label: 'chantiers réalisés', detail: 'Parkings, voiries, industriels' },
                 { number: '19', label: 'enseignes nationales', detail: "Carrefour, Lidl, McDonald's, Armée de Terre, Suez…" },
-                { number: '24h', label: 'pour votre devis', detail: 'Visite sur site gratuite, sans engagement' },
+                { number: '48h', label: 'pour votre devis', detail: 'Visite sur site gratuite, sans engagement' },
               ].map((stat, i) => (
                 <div key={i} className="bg-[#0F172A] p-8">
                   <div className="text-5xl sm:text-6xl font-black italic tracking-tighter text-[#FACC15] mb-3 leading-none">

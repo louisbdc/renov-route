@@ -408,7 +408,7 @@ export default function Content() {
       </p>
       <p>
         <strong>Vous avez un projet de sol pour votre garage ou parking professionnel ?</strong>{' '}
-        <Link href="/devis">Demandez un devis gratuit</Link> sous 24h. Notre équipe vous conseillé sur le choix du revêtement et réalise l&apos;application complète, de la préparation du support à la finition.
+        <Link href="/devis">Demandez un devis gratuit</Link> en 48h. Notre équipe vous conseillé sur le choix du revêtement et réalise l&apos;application complète, de la préparation du support à la finition.
       </p>
     </>
   )

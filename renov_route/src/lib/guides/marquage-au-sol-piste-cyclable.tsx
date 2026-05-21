@@ -5,7 +5,7 @@ export const meta: Guide = {
   slug: 'marquage-au-sol-piste-cyclable',
   title: 'Marquage au sol piste cyclable : réglementation, techniques et prix en 2026',
   metaTitle: 'Marquage au sol piste cyclable : normes, types et prix | Renov\'Route',
-  metaDescription: 'Marquage au sol piste cyclable : réglementation CEREMA, pictogrammes vélo, couleurs, dimensions, prix au m2. 1 000+ projets depuis 2014. Devis sous 24h.',
+  metaDescription: 'Marquage au sol piste cyclable : réglementation CEREMA, pictogrammes vélo, couleurs, dimensions, prix au m2. 1 000+ projets depuis 2014. Devis en 48h.',
   publishDate: '2026-03-31',
   updatedDate: '2026-05-21',
   category: 'marquage-parking',
@@ -394,7 +394,7 @@ export default function Content() {
         partenaire qui maîtrise ces normes ? Renov&apos;Route a réalisé plus de{' '}
         <Link href="/realisations">1 000 projets de marquage</Link> depuis 2014, dont des
         pistes cyclables pour des collectivités en Rhône-Alpes.{' '}
-        <Link href="/devis">Demandez un devis sous 24h</Link>.
+        <Link href="/devis">Demandez un devis en 48h</Link>.
       </p>
 
       <h2>Matériaux et techniques de marquage cyclable</h2>
@@ -707,7 +707,7 @@ export default function Content() {
       </p>
       <p>
         Vous avez un projet de piste cyclable, de bande cyclable ou de rénovation de marquage
-        existant ? <Link href="/devis">Demandez votre devis gratuit sous 24h</Link> ou appelez
+        existant ? <Link href="/devis">Demandez votre devis gratuit en 48h</Link> ou appelez
         le 07 86 81 96 92. Nous intervenons sur Lyon, Rhône-Alpes et toute la France.
       </p>
     </>

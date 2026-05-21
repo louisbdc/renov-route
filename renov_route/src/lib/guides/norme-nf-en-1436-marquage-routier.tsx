@@ -664,7 +664,7 @@ export default function Content() {
         <strong>
           Vous souhaitez un marquage de parking conforme NF EN 1436 ?
         </strong>{' '}
-        <Link href="/devis">Demandez un devis gratuit</Link> sous 24h. Toutes
+        <Link href="/devis">Demandez un devis gratuit</Link> en 48h. Toutes
         nos peintures sont certifi&eacute;es NF EN 1436 (classe P5 minimum) et
         nos &eacute;quipes ma&icirc;trisent les{' '}
         <Link href="/competences/tracage-retracage-parking">

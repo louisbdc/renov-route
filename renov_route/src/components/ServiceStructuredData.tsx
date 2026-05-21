@@ -136,7 +136,7 @@ export default function ServiceStructuredData({ serviceType }: ServiceStructured
       '@type': 'Offer',
       price: '0',
       priceCurrency: 'EUR',
-      description: 'Devis gratuit sous 24h, diagnostic gratuit sur site',
+      description: 'Devis gratuit en 48h, diagnostic gratuit sur site',
       availability: 'https://schema.org/InStock',
       seller: { '@id': 'https://renov-route.com/#organization' },
     },

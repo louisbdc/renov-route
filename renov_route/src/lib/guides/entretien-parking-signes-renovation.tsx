@@ -295,7 +295,7 @@ export default function Content() {
       </p>
 
       <p>
-        <Link href="/devis">Demandez votre diagnostic gratuit</Link>. Nous vous répondons sous 24h avec un plan d'intervention chiffré et sans engagement.
+        <Link href="/devis">Demandez votre diagnostic gratuit</Link>. Nous vous répondons en 48h avec un plan d'intervention chiffré et sans engagement.
       </p>
     </>
   )

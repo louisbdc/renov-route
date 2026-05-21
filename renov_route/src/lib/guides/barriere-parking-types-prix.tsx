@@ -373,7 +373,7 @@ export default function Content() {
       </p>
       <p>
         <strong>Vous cherchez la barrière adaptée à votre parking ?</strong>{' '}
-        <Link href="/devis">Demandez un devis gratuit</Link> sous 24h. Notre équipe vous conseillé sur le type de barrière, le système d&apos;accès et assure l&apos;installation complète.
+        <Link href="/devis">Demandez un devis gratuit</Link> en 48h. Notre équipe vous conseillé sur le type de barrière, le système d&apos;accès et assure l&apos;installation complète.
       </p>
     </>
   )

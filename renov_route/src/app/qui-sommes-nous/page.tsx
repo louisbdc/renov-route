@@ -621,10 +621,10 @@ export default function ContactPage() {
 
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
                 <div className="p-5 rounded-xl border border-slate-200 bg-white">
-                  <p className="text-2xl font-bold text-[#FACC15] mb-2">24 h</p>
+                  <p className="text-2xl font-bold text-[#FACC15] mb-2">48 h</p>
                   <h3 className="text-[#0F172A] font-semibold mb-2">Devis gratuit</h3>
                   <p className="text-slate-500 text-sm leading-relaxed">
-                    Étude et devis personnalisé envoyés sous 24 heures. Sans engagement.
+                    Étude et devis personnalisé envoyés en 48h. Sans engagement.
                   </p>
                 </div>
                 <div className="p-5 rounded-xl border border-slate-200 bg-white">
@@ -661,7 +661,7 @@ export default function ContactPage() {
                 Un projet de marquage ou de rénovation parking ?
               </h2>
               <p className="text-slate-600 mb-8 leading-relaxed">
-                Diagnostic gratuit sur site, devis personnalisé sous 24 heures. Aucun engagement.
+                Diagnostic gratuit sur site, devis personnalisé en 48h. Aucun engagement.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 justify-center">
                 <Link

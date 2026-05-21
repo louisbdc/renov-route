@@ -370,7 +370,7 @@ export default function Content() {
       <p>
         <strong>Votre parking est-il conforme à l&apos;arrêté 2026 ?</strong>{' '}
         <Link href="/devis">Demandez un diagnostic gratuit</Link> pour identifier les
-        écarts et obtenir un devis de mise en conformité sous 24h. Rénov&apos;Route
+        écarts et obtenir un devis de mise en conformité en 48h. Rénov&apos;Route
         intervient sur Lyon, Rhône-Alpes et toute la France. Appelez
         le <strong>07 86 81 96 92</strong>.
       </p>

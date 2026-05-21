@@ -239,7 +239,7 @@ export default function Content() {
 
       <p>
         <strong>Besoin d&apos;un chiffrage précis pour votre parking ?</strong>{' '}
-        <Link href="/devis">Demandez un devis gratuit</Link> sous 24h. Nous avons accompagné
+        <Link href="/devis">Demandez un devis gratuit</Link> en 48h. Nous avons accompagné
         plus de 1 000 projets similaires pour des enseignes comme Carrefour, Lidl et
         McDonald&apos;s. Consultez{' '}
         <Link href="/realisations">nos réalisations</Link> pour voir des exemples concrets.
@@ -402,7 +402,7 @@ export default function Content() {
       <p>
         <strong>Votre parking doit s&apos;équiper d&apos;ombrières avant juillet 2026 ?</strong>{' '}
         Préparez le sol maintenant pour éviter les surcoûts.{' '}
-        <Link href="/devis">Demandez un diagnostic gratuit</Link> et un devis sous 24h.
+        <Link href="/devis">Demandez un diagnostic gratuit</Link> et un devis en 48h.
         Appelez le <strong>07 86 81 96 92</strong> ou remplissez notre formulaire en ligne.
       </p>
     </>

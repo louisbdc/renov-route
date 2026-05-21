@@ -374,7 +374,7 @@ export default function Content() {
       </p>
       <p>
         <strong>Vous avez un projet de marquage ou de retraçage ?</strong>{' '}
-        <Link href="/devis">Demandez un devis gratuit</Link> sous 24h. Notre expert technique vous conseillé sur les couleurs, les produits et la conformité de votre parking.
+        <Link href="/devis">Demandez un devis gratuit</Link> en 48h. Notre expert technique vous conseillé sur les couleurs, les produits et la conformité de votre parking.
       </p>
     </>
   )

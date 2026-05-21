@@ -222,7 +222,7 @@ export default function Content() {
       </p>
       <p>
         <strong>Vous avez un parking souterrain &agrave; r&eacute;nover ?</strong>{' '}
-        <Link href="/devis">Demandez un devis gratuit sous 24h</Link>. Notre &eacute;quipe r&eacute;alise le diagnostic humidit&eacute;, la pr&eacute;paration du support et la <Link href="/competences/resine-sol-marquage-interieur">pose de r&eacute;sine</Link> pour un r&eacute;sultat durable.
+        <Link href="/devis">Demandez un devis gratuit en 48h</Link>. Notre &eacute;quipe r&eacute;alise le diagnostic humidit&eacute;, la pr&eacute;paration du support et la <Link href="/competences/resine-sol-marquage-interieur">pose de r&eacute;sine</Link> pour un r&eacute;sultat durable.
       </p>
     </>
   )

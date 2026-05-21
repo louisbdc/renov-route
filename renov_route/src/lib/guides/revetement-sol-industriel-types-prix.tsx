@@ -377,7 +377,7 @@ export default function Content() {
       </p>
       <p>
         <strong>Vous envisagez un revêtement de sol pour votre entrepot, atelier ou site industriel ?</strong>{' '}
-        <Link href="/devis">Demandez un devis gratuit</Link> sous 24h. Notre équipe réalise le diagnostic du support, le choix du revêtement adapte et l&apos;application complète,{' '}
+        <Link href="/devis">Demandez un devis gratuit</Link> en 48h. Notre équipe réalise le diagnostic du support, le choix du revêtement adapte et l&apos;application complète,{' '}
         <Link href="/competences/tracage-retracage-parking">marquage de zones</Link> inclus.
       </p>
     </>

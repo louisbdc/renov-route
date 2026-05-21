@@ -5,7 +5,7 @@ export const meta: Guide = {
   slug: 'signalisation-horizontale-et-verticale',
   title: 'Signalisation horizontale et verticale : comprendre, combiner et mettre en conformité',
   metaTitle: 'Signalisation horizontale et verticale : différences, normes et prix',
-  metaDescription: 'Signalisation horizontale vs verticale : définitions, normes NF EN 1436 et 12899-1, règles de combinaison et tarifs. Parking, voirie, zone industrielle. Devis 24h.',
+  metaDescription: 'Signalisation horizontale vs verticale : définitions, normes NF EN 1436 et 12899-1, règles de combinaison et tarifs. Parking, voirie, zone industrielle. Devis 48h.',
   publishDate: '2026-03-31',
   updatedDate: '2026-05-21',
   category: 'securite-parking',
@@ -69,7 +69,7 @@ export default function Content() {
       <p>
         <strong>Votre marquage au sol est effacé ou non conforme ?</strong>{' '}
         Renov&apos;Route intervient sur toute la metropole lyonnaise depuis 2014, avec plus de 1 000 projets réalisés.{' '}
-        <Link href="/devis">Demandez un devis gratuit</Link> et recevez une réponse sous 24h. Tel : 07 86 81 96 92.
+        <Link href="/devis">Demandez un devis gratuit</Link> et recevez une réponse en 48h. Tel : 07 86 81 96 92.
       </p>
 
       <h2>Signalisation verticale : tout ce qui est en hauteur</h2>
@@ -411,7 +411,7 @@ export default function Content() {
         <strong>
           <Link href="/devis">Demandez votre devis gratuit</Link>
         </strong>{' '}
-        et recevez une proposition sous 24h. Tel : 07 86 81 96 92.
+        et recevez une proposition en 48h. Tel : 07 86 81 96 92.
       </p>
     </>
   )

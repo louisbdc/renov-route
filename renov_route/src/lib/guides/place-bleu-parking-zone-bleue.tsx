@@ -371,7 +371,7 @@ export default function Content() {
         Pour un projet de 30 places avec 4 panneaux et un plan de marquage, comptez entre <strong>2 500 et 5 500 euros HT</strong> selon les prestations.
       </p>
       <p>
-        Renov&apos;Route etablit un <Link href="/devis">devis gratuit sous 24 heures</Link> pour tout projet de marquage zone bleue. Appelez-nous au <strong>07 86 81 96 92</strong> ou remplissez le formulaire en ligne.
+        Renov&apos;Route etablit un <Link href="/devis">devis gratuit en 48h</Link> pour tout projet de marquage zone bleue. Appelez-nous au <strong>07 86 81 96 92</strong> ou remplissez le formulaire en ligne.
       </p>
 
       <h2>Parkings privés : peut-on utiliser le marquage bleu ?</h2>
@@ -442,7 +442,7 @@ export default function Content() {
         Que vous soyez une collectivité souhaitant créer une zone bleue ou un gestionnaire de parking privé cherchant à améliorer la rotation des véhicules, Renov&apos;Route vous accompagne de l&apos;étude à la reception du chantier. Plus de 1 000 projets réalisés depuis 2014, des clients comme Carrefour, Lidl et McDonald&apos;s, et une garantie de 2 ans sur tous nos marquages.
       </p>
       <p>
-        <strong><Link href="/devis">Demandez votre devis gratuit</Link></strong> ou appelez-nous au <strong>07 86 81 96 92</strong>. Reponse sous 24 heures.
+        <strong><Link href="/devis">Demandez votre devis gratuit</Link></strong> ou appelez-nous au <strong>07 86 81 96 92</strong>. Reponse en 48h.
       </p>
     </>
   )

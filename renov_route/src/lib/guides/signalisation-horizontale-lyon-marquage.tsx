@@ -523,7 +523,7 @@ export default function Content() {
           Vous avez un projet de signalisation horizontale &agrave; Lyon ou dans
           la m&eacute;tropole ?
         </strong>{' '}
-        <Link href="/devis">Demandez un devis gratuit</Link> sous 24h.
+        <Link href="/devis">Demandez un devis gratuit</Link> en 48h.
         Bas&eacute; &agrave; Tassin-la-Demi-Lune, R&eacute;nov&apos;Route
         intervient sur tout le Grand Lyon pour le{' '}
         <Link href="/competences/tracage-retracage-parking">

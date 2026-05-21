@@ -364,7 +364,7 @@ export default function Content() {
       </p>
       <p>
         <strong>Vous souhaitez sécuriser la circulation dans votre parking ?</strong>{' '}
-        <Link href="/devis">Demandez un devis gratuit</Link> sous 24h. Notre équipe vous conseillé sur le type de ralentisseur adapte et assure la pose complète, signalisation et{' '}
+        <Link href="/devis">Demandez un devis gratuit</Link> en 48h. Notre équipe vous conseillé sur le type de ralentisseur adapte et assure la pose complète, signalisation et{' '}
         <Link href="/competences/tracage-retracage-parking">marquage au sol</Link> inclus.
       </p>
     </>

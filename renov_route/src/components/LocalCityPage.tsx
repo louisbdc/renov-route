@@ -52,7 +52,7 @@ function buildSecondParagraph(city: City): string {
   const projets = city.references && city.references.length
     ? `Nous avons notamment réalisé ${city.references.length === 1 ? 'le chantier' : 'les chantiers'} de ${city.references.map(r => r.client).join(', ')}.`
     : `Plus de 1 000 chantiers réalisés depuis 2014, de Carrefour à Lidl en passant par McDonald's et de nombreuses copropriétés et collectivités locales.`
-  return `${projets} Que vous soyez syndic, gestionnaire de centre commercial, responsable d'entreprise ou collectivité, nous adaptons notre intervention à vos contraintes (horaires, accès, trafic) et vous remettons un devis détaillé sous 24 heures.`
+  return `${projets} Que vous soyez syndic, gestionnaire de centre commercial, responsable d'entreprise ou collectivité, nous adaptons notre intervention à vos contraintes (horaires, accès, trafic) et vous remettons un devis détaillé en 48h.`
 }
 
 export default function LocalCityPage({ city }: LocalCityPageProps) {
@@ -66,7 +66,7 @@ export default function LocalCityPage({ city }: LocalCityPageProps) {
     '@type': 'HomeAndConstructionBusiness',
     '@id': `https://renov-route.com/marquage-au-sol-${city.slug}/#business`,
     name: `Renov Route — Marquage au sol ${city.name}`,
-    description: `Entreprise de marquage au sol et signalisation horizontale intervenant à ${city.name} (${city.postalCode}). Parking, voirie, industriel, PMR. Devis gratuit sous 24h.`,
+    description: `Entreprise de marquage au sol et signalisation horizontale intervenant à ${city.name} (${city.postalCode}). Parking, voirie, industriel, PMR. Devis gratuit en 48h.`,
     url: `https://renov-route.com/marquage-au-sol-${city.slug}/`,
     telephone: '+33786819692',
     email: 'contact@renov-route.com',
@@ -156,7 +156,7 @@ export default function LocalCityPage({ city }: LocalCityPageProps) {
               <span className="flex items-center gap-2"><TbAward size={16} className="text-[#FACC15]" /> Depuis 2014</span>
               <span className="flex items-center gap-2"><TbCertificate size={16} className="text-[#FACC15]" /> 1 000+ chantiers</span>
               <span className="flex items-center gap-2"><TbShield size={16} className="text-[#FACC15]" /> Certif NF EN 1436</span>
-              <span className="flex items-center gap-2"><TbClock size={16} className="text-[#FACC15]" /> Devis 24h</span>
+              <span className="flex items-center gap-2"><TbClock size={16} className="text-[#FACC15]" /> Devis 48h</span>
             </div>
           </div>
         </section>
@@ -362,7 +362,7 @@ export default function LocalCityPage({ city }: LocalCityPageProps) {
               Un projet à <span className="text-[#FACC15]">{city.name}</span> ?
             </h2>
             <p className="text-slate-300 text-lg mb-12 leading-relaxed font-medium">
-              Devis gratuit sous 24h après visite sur site. Intervention rapide partout en {city.region}.
+              Devis gratuit en 48h après visite sur site. Intervention rapide partout en {city.region}.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/devis" className="inline-flex items-center justify-center bg-[#FACC15] hover:bg-white text-[#0F172A] px-10 py-5 font-black uppercase text-xs tracking-[0.2em] rounded-sm transition-all shadow-[6px_6px_0_rgba(250,204,21,0.25)] active:translate-x-[2px] active:translate-y-[2px] active:shadow-none">
