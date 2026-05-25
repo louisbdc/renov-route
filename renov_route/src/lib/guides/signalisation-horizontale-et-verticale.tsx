@@ -370,6 +370,16 @@ export default function Content() {
 
       <h2>FAQ : signalisation horizontale et verticale</h2>
 
+      <h3>Qu&apos;est-ce que la signalisation horizontale ?</h3>
+      <p>
+        La <strong>signalisation horizontale</strong> regroupe tous les marquages appliqués au sol — lignes, flèches, pictogrammes, places et passages piétons — qui guident et réglementent la circulation. Conforme à la norme <strong>NF EN 1436</strong>, elle complète la signalisation verticale (panneaux) sans jamais la remplacer.
+      </p>
+
+      <h3>Quels sont les 4 types de signalisation routière ?</h3>
+      <p>
+        On distingue quatre familles : 1) la <strong>signalisation horizontale</strong> (marquage au sol) ; 2) la <strong>signalisation verticale</strong> (panneaux) ; 3) la <strong>signalisation lumineuse</strong> (feux tricolores) ; 4) la <strong>signalisation temporaire</strong> de chantier. Sur un parking, les deux premières sont les plus fréquentes.
+      </p>
+
       <h3>Quelle est la difference entre signalisation horizontale et verticale ?</h3>
       <p>
         La <strong>signalisation horizontale</strong> désigne les marquages au sol (lignes, flèches, pictogrammes, passages piétons). La <strong>signalisation verticale</strong> désigne les dispositifs en hauteur (panneaux, feux, bornes, portiques). Les deux sont complémentaires et ne se substituent pas.

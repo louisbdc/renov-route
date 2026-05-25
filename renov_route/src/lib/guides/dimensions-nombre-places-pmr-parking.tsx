@@ -277,6 +277,11 @@ export default function Content() {
 
       <h2>Questions fréquentes</h2>
 
+      <h3>Quelles sont les dimensions d'une place de parking PMR ?</h3>
+      <p>
+        Une place de stationnement PMR mesure au minimum <strong>3,30 m de large sur 5 m de long</strong>, dont une <strong>bande d'accès latérale de 0,80 m</strong>. Le sol doit rester horizontal (pente ≤ 2 %) et relié à un cheminement accessible jusqu'à l'entrée. Ces dimensions sont fixées par l'arrêté du 20 avril 2017.
+      </p>
+
       <h3>Peut-on mettre une place PMR en épi ou en bataille ?</h3>
       <p>
         Oui, les deux configurations sont possibles. En épi, la bande d'accès doit se trouver du côté le plus large de la place (côté où le véhicule se présente). En bataille (perpendiculaire), la bande d'accès est latérale, comme pour une place classique.
