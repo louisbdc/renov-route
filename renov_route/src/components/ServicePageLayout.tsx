@@ -8,6 +8,7 @@ import SafariAnimationFix from '@/components/SafariAnimationFix'
 import { MotionDiv, MotionH1, MotionP } from '@/components/MotionWrapper'
 import { useConversionTracking } from '@/components/AnalyticsTracker'
 import SEOLinks from '@/components/SEOLinks'
+import { toInternalHref } from '@/lib/internal-href'
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -76,7 +77,7 @@ export default function ServicePageLayout({
                     {i > 0 && <li aria-hidden="true" className="text-slate-600 select-none">/</li>}
                     <li>
                       {i < breadcrumb.length - 1 ? (
-                        <Link href={item.url} className="hover:text-[#FACC15] transition-colors">{item.name}</Link>
+                        <Link href={toInternalHref(item.url)} className="hover:text-[#FACC15] transition-colors">{item.name}</Link>
                       ) : (
                         <span className="text-white">{item.name}</span>
                       )}

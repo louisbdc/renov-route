@@ -10,6 +10,7 @@ import AuthorByline from '@/components/AuthorByline'
 import type { Guide } from '@/lib/guides'
 import { GUIDE_CATEGORIES, guides } from '@/lib/guides'
 import { getGuideImage } from '@/lib/guide-images'
+import { toInternalHref } from '@/lib/internal-href'
 
 interface BreadcrumbItem {
   name: string
@@ -101,7 +102,7 @@ export default function GuidePageLayout({ guide, children }: GuidePageLayoutProp
                     {i > 0 && <li aria-hidden="true" className="text-slate-600 select-none">/</li>}
                     <li>
                       {i < breadcrumb.length - 1 ? (
-                        <Link href={item.url} className="hover:text-[#FACC15] transition-colors">{item.name}</Link>
+                        <Link href={toInternalHref(item.url)} className="hover:text-[#FACC15] transition-colors">{item.name}</Link>
                       ) : (
                         <span className="text-white truncate max-w-xs inline-block align-bottom">{item.name}</span>
                       )}
