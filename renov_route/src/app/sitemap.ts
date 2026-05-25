@@ -143,6 +143,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       images: [ogImage.url],
     },
     {
+      url: `${baseUrl}/calculateur-places-pmr/`,
+      lastModified: currentDate,
+      changeFrequency: 'monthly',
+      priority: 0.7,
+      images: [ogImage.url],
+    },
+    {
       url: `${baseUrl}/mentions-legales/`,
       lastModified: getLastMod('/mentions-legales'),
       changeFrequency: 'yearly',

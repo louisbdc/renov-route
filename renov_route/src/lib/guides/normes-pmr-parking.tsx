@@ -112,7 +112,7 @@ export default function Content() {
       </table>
 
       <p>
-        Le détail complet par configuration (épi, bataille, longitudinale) et le nombre exact de places selon la capacité sont dans notre guide dédié aux <a href="/guides/dimensions-nombre-places-pmr-parking/">dimensions des places PMR</a>.
+        Le détail complet par configuration (épi, bataille, longitudinale) et le nombre exact de places selon la capacité sont dans notre guide dédié aux <a href="/guides/dimensions-nombre-places-pmr-parking/">dimensions des places PMR</a>. Estimez en un clic le nombre requis pour votre parking avec notre <a href="/calculateur-places-pmr/">calculateur de places PMR</a>.
       </p>
 
       <p>
