@@ -9,7 +9,8 @@
     "start": "next start",
     "lint": "eslint",
     "build:static": "next build && node scripts/post-build.js && npm run clean:out && echo 'Build terminé! Le dossier out contient tous les fichiers statiques pour le déploiement.'",
-    "clean:out": "rm -f out/next.svg out/vercel.svg out/file.svg out/globe.svg out/window.svg out/mask-icon.svg && find out -name '*.txt' -type f ! -name 'robots.txt' -delete && echo 'Fichiers inutiles supprimés du dossier out'"
+    "clean:out": "rm -f out/next.svg out/vercel.svg out/file.svg out/globe.svg out/window.svg out/mask-icon.svg && find out -name '*.txt' -type f ! -name 'robots.txt' -delete && echo 'Fichiers inutiles supprimés du dossier out'",
+    "import-realisation": "tsx scripts/import-realisation.ts"
   },
   "dependencies": {
     "@emailjs/browser": "4.4.1",
@@ -41,13 +42,19 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@inquirer/prompts": "^5.3.8",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.5.2",
+    "jszip": "^3.10.1",
+    "picocolors": "^1.0.1",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "ts-morph": "^23.0.0",
+    "tsx": "^4.16.2",
+    "typescript": "^5",
+    "zod": "^3.23.8"
   }
 }
