@@ -56,7 +56,7 @@ export default function CookieConsent({ className = '' }: CookieConsentProps) {
                 <h3 className="text-lg sm:text-xl font-bold text-[#0F172A] mb-2 flex items-center">
                   Gestion des cookies
                 </h3>
-                <p className="text-sm sm:text-base text-gray-200 mb-4 leading-relaxed">
+                <p className="text-sm sm:text-base text-slate-600 mb-4 leading-relaxed">
                   Nous utilisons des cookies essentiels au fonctionnement du site et des cookies
                   d&apos;analyse (Google Analytics) pour comprendre comment vous utilisez notre site.
                 </p>
@@ -193,7 +193,7 @@ export function CookiePreferences() {
         <h3 className="text-lg sm:text-xl font-bold text-[#0F172A] mb-2">
           Gestion de vos préférences de cookies
         </h3>
-        <p className="text-gray-200">
+        <p className="text-slate-600">
           Gérez vos préférences de cookies pour personnaliser votre expérience sur notre site.
         </p>
       </div>
