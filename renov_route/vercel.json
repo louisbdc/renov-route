@@ -1,5 +1,14 @@
 {
   "redirects": [
+    { "source": "/marquage-au-sol-lyon-1/", "destination": "/marquage-au-sol-lyon/", "permanent": true },
+    { "source": "/marquage-au-sol-lyon-2/", "destination": "/marquage-au-sol-lyon/", "permanent": true },
+    { "source": "/marquage-au-sol-lyon-3/", "destination": "/marquage-au-sol-lyon/", "permanent": true },
+    { "source": "/marquage-au-sol-lyon-4/", "destination": "/marquage-au-sol-lyon/", "permanent": true },
+    { "source": "/marquage-au-sol-lyon-5/", "destination": "/marquage-au-sol-lyon/", "permanent": true },
+    { "source": "/marquage-au-sol-lyon-6/", "destination": "/marquage-au-sol-lyon/", "permanent": true },
+    { "source": "/marquage-au-sol-lyon-7/", "destination": "/marquage-au-sol-lyon/", "permanent": true },
+    { "source": "/marquage-au-sol-lyon-8/", "destination": "/marquage-au-sol-lyon/", "permanent": true },
+    { "source": "/marquage-au-sol-lyon-9/", "destination": "/marquage-au-sol-lyon/", "permanent": true },
     {
       "source": "/:path*",
       "has": [

@@ -12,8 +12,16 @@ interface PageProps {
   params: Promise<{ slug: string }>
 }
 
+// Arrondissements de Lyon consolidés : 301 vers /marquage-au-sol-lyon/ (voir vercel.json).
+// On ne génère plus ces pages (thin/doorway) pour stopper la cannibalisation du pilier Lyon.
+const CONSOLIDATED_SLUGS = new Set([
+  'lyon-1', 'lyon-2', 'lyon-3', 'lyon-4', 'lyon-5', 'lyon-6', 'lyon-7', 'lyon-8', 'lyon-9'
+])
+
 export function generateStaticParams() {
-  return CITIES.map(c => ({ slug: `${PREFIX}${c.slug}` }))
+  return CITIES
+    .filter(c => !CONSOLIDATED_SLUGS.has(c.slug))
+    .map(c => ({ slug: `${PREFIX}${c.slug}` }))
 }
 
 function resolveCity(slug: string) {
