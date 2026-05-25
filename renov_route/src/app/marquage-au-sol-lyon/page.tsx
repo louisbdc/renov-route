@@ -75,6 +75,10 @@ const FAQ = [
     question: 'Faut-il préparer le sol avant le marquage ?',
     answer: "Nous prenons en charge la préparation complète : balayage mécanique, effacement de l'ancien marquage, réparation des nids de poule et fissures. Un sol bien préparé garantit un marquage durable et net.",
   },
+  {
+    question: 'Intervenez-vous dans tous les arrondissements de Lyon ?',
+    answer: "Oui. Nous couvrons les neuf arrondissements de Lyon (1er au 9e), de la Presqu'île à Gerland, ainsi que la métropole (Villeurbanne, Vénissieux, Bron, Caluire-et-Cuire...). Notre siège de Tassin-la-Demi-Lune nous permet d'intervenir rapidement sur tout le Grand Lyon, sans sous-traitance.",
+  },
 ]
 
 const SERVICE_SCHEMA = {
@@ -353,6 +357,36 @@ export default function MarquageAuSolLyonPage() {
           steps={STEPS}
           alt
         />
+
+        {/* Arrondissements de Lyon */}
+        <section className="py-16 sm:py-20 px-4 bg-white">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-2xl sm:text-3xl font-bold text-[#0F172A] mb-4 font-display">
+              Marquage au sol dans les 9 arrondissements de Lyon
+            </h2>
+            <p className="text-slate-500 mb-8">
+              Basés à Tassin-la-Demi-Lune, nous intervenons dans les neuf arrondissements de Lyon, de la Presqu&apos;île à Gerland, avec un déplacement rapide et un seul interlocuteur du diagnostic à la réception.
+            </p>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {[
+                { a: 'Lyon 1er', d: 'Pentes de la Croix-Rousse : parkings privés et cours d\'immeubles.' },
+                { a: 'Lyon 2e', d: 'Presqu\'île : parkings de bureaux, hôtels et commerces.' },
+                { a: 'Lyon 3e', d: 'Part-Dieu : parkings d\'entreprises et de copropriétés.' },
+                { a: 'Lyon 4e', d: 'Plateau de la Croix-Rousse : parkings résidentiels et petits collectifs.' },
+                { a: 'Lyon 5e', d: 'Vieux-Lyon, Point-du-Jour : sites parfois en pente ou contraints.' },
+                { a: 'Lyon 6e', d: 'Parc de la Tête d\'Or : immeubles de standing et cabinets.' },
+                { a: 'Lyon 7e', d: 'Guillotière, Gerland : commerces et locaux d\'activité.' },
+                { a: 'Lyon 8e', d: 'Monplaisir, États-Unis : centres commerciaux, santé, écoles.' },
+                { a: 'Lyon 9e', d: 'Vaise, Gorge de Loup : zones industrielles et logistiques.' },
+              ].map((z, i) => (
+                <div key={i} className="p-5 rounded-xl border border-slate-200 bg-[#F8FAFC]">
+                  <h3 className="font-semibold text-[#0F172A] mb-1">{z.a}</h3>
+                  <p className="text-slate-500 text-sm">{z.d}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
 
         {/* Guides & resources */}
         <section className="py-16 sm:py-20 px-4 bg-[#F0F4F8]">

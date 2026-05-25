@@ -162,12 +162,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.6,
       images: cs.images.map(img => `${baseUrl}${img}`),
     })),
-    ...CITIES.map(c => ({
-      url: `${baseUrl}/marquage-au-sol-${c.slug}/`,
-      lastModified: currentDate,
-      changeFrequency: 'monthly' as const,
-      priority: c.distanceFromTassin <= 10 ? 0.85 : 0.7,
-      images: [ogImage.url],
-    })),
+    // Arrondissements de Lyon consolidés (301 vers /marquage-au-sol-lyon/) → exclus du sitemap
+    ...CITIES
+      .filter(c => !/^lyon-[1-9]$/.test(c.slug))
+      .map(c => ({
+        url: `${baseUrl}/marquage-au-sol-${c.slug}/`,
+        lastModified: currentDate,
+        changeFrequency: 'monthly' as const,
+        priority: c.distanceFromTassin <= 10 ? 0.85 : 0.7,
+        images: [ogImage.url],
+      })),
   ]
 }
