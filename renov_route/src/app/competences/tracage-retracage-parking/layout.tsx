@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Retraçage parking : tarif dès 2,50€/ml | Rénov Route',
+  title: 'Marquage au sol parking Lyon : dès 2,50 €/ml | Rénov\'Route',
   description:
     "Retraçage de parking : effacement de l'ancien marquage + nouveau tracé conforme NF EN 1436. Places, flèches, PMR, passages piétons dès 2,50€/ml. Devis gratuit en 48h, sans engagement.",
   alternates: {

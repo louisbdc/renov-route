@@ -4,7 +4,7 @@ import Link from 'next/link'
 export const meta: Guide = {
   slug: 'reglementation-marquage-sol-parking',
   title: 'Réglementation marquage au sol parking : ce qui est obligatoire et ce qui ne l\'est pas',
-  metaTitle: 'Réglementation marquage sol parking: guide 2026',
+  metaTitle: 'Réglementation marquage au sol parking 2026 | Rénov\'Route',
   metaDescription: 'Marquage obligatoire ou facultatif en parking privé ? Normes IISR, couleurs, PMR, entretien : toute la réglementation du marquage au sol en parking.',
   publishDate: '2026-03-04',
   category: 'marquage-parking',

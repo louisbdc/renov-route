@@ -4,7 +4,7 @@ import Link from 'next/link'
 export const meta: Guide = {
   slug: 'normes-pmr-parking',
   title: 'Normes PMR parking 2026 : dimensions, nombre de places et mise en conformité',
-  metaTitle: 'Normes PMR parking 2026 : guide complet | Rénov\'Route',
+  metaTitle: 'Normes PMR parking 2026 : places & sanctions | Rénov\'Route',
   metaDescription: 'Normes PMR parking 2026 : dimensions des places, nombre obligatoire, marquage et signalisation. Guide complet pour la mise en conformité.',
   publishDate: '2026-03-04',
   updatedDate: '2026-05-21',

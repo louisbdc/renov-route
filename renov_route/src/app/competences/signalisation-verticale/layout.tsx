@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Signalisation Verticale Lyon, Panneaux Routiers & Parking',
+  title: 'Signalisation verticale Lyon : panneaux | Rénov\'Route',
   description:
     "Installation de signalisation verticale à Lyon : panneaux stop, PMR, limitation vitesse, direction. Fourniture et pose conforme aux normes. Devis gratuit.",
   alternates: {

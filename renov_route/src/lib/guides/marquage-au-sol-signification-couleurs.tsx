@@ -5,7 +5,7 @@ export const meta: Guide = {
   slug: 'marquage-au-sol-signification-couleurs',
   title: 'Marquage au sol signification : le guide complet des couleurs, lignes et symboles',
   metaTitle: 'Marquage au sol signification : couleurs, lignes, symboles | Guide 2026',
-  metaDescription: 'Marquage au sol signification : blanc, jaune, bleu, vert. Decodez chaque ligne, couleur et pictogramme. Tableau complet + règles parking. Guide expert 2026.',
+  metaDescription: 'Marquage au sol signification : blanc, jaune, bleu, vert. Décodez chaque ligne, couleur et pictogramme. Tableau complet + règles parking. Guide expert 2026.',
   publishDate: '2026-03-31',
   updatedDate: '2026-05-21',
   category: 'marquage-parking',

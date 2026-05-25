@@ -4,7 +4,7 @@ import Link from 'next/link'
 export const meta: Guide = {
   slug: 'signalisation-horizontale-et-verticale',
   title: 'Signalisation horizontale et verticale : comprendre, combiner et mettre en conformité',
-  metaTitle: 'Signalisation horizontale et verticale : différences, normes et prix',
+  metaTitle: 'Signalisation horizontale et verticale : normes, prix 2026',
   metaDescription: 'Signalisation horizontale vs verticale : définitions, normes NF EN 1436 et 12899-1, règles de combinaison et tarifs. Parking, voirie, zone industrielle. Devis 48h.',
   publishDate: '2026-03-31',
   updatedDate: '2026-05-21',

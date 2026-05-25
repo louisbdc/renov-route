@@ -4,7 +4,7 @@ import Link from 'next/link'
 export const meta: Guide = {
   slug: 'marquage-au-sol-entreprise-industriel',
   title: 'Marquage au sol entreprise : obligations, techniques et prix en 2026',
-  metaTitle: 'Marquage au sol entreprise : guide complet 2026 | Renov\u0027Route',
+  metaTitle: 'Marquage au sol entreprise : guide complet 2026 | Rénov\u0027Route',
   metaDescription:
     'Marquage au sol entreprise : obligations légales, code couleur industriel, techniques (époxy, résine), prix au m2. 1 000+ projets depuis 2014. Devis gratuit.',
   publishDate: '2026-03-31',

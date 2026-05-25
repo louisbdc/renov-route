@@ -4,7 +4,7 @@ import Link from 'next/link'
 export const meta: Guide = {
   slug: 'mise-en-conformite-parking-pmr',
   title: 'Mise en conformité parking PMR : obligations, sanctions et coûts 2026',
-  metaTitle: 'Aménagement PMR parking : sanctions jusqu\'à 45 000€ (guide 2026)',
+  metaTitle: 'Conformité PMR parking : sanctions 45 000 € | Rénov\'Route',
   metaDescription: 'Mise en conformité PMR parking existant : obligations 2026, sanctions jusqu\'à 45 000€ par infraction, étapes concrètes, budget par poste. Diagnostic gratuit en 48h.',
   publishDate: '2026-03-04',
   updatedDate: '2026-03-31',
