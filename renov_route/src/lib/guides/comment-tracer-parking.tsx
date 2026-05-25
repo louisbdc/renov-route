@@ -451,6 +451,11 @@ export default function Content() {
 
       <h2>FAQ : tracer un parking</h2>
 
+      <h3>Quelles sont les dimensions d&apos;une place de stationnement ?</h3>
+      <p>
+        Une place de stationnement standard mesure <strong>2,50 m de large sur 5 m de long</strong>. En épi ou en bataille, la largeur peut descendre à 2,30 m. Une place PMR fait <strong>3,30 m de large</strong> (dont 0,80 m de bande d&apos;accès) sur 5 m.
+      </p>
+
       <h3>Combien de temps dure le traçage d&apos;un parking ?</h3>
       <p>
         Pour un parking de 50 à 100 places, comptez 1 à 2 jours de traçage effectif, plus 1 jour de préparation du support (nettoyage, réparation). Le parking est praticable 2 à 3 heures après l&apos;application de la peinture acrylique.

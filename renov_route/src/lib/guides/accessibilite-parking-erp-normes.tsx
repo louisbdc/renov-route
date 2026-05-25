@@ -200,6 +200,16 @@ export default function Content() {
 
       <h2>FAQ : accessibilit&eacute; parking ERP</h2>
 
+      <h3>Quelles sont les normes d&apos;accessibilité pour les ERP ?</h3>
+      <p>
+        Pour un parking d&apos;ERP, l&apos;arrêté du 20 avril 2017 impose au moins <strong>2 % de places PMR</strong> (minimum 2 jusqu&apos;à 50 places), des dimensions de <strong>3,30 m × 5 m</strong>, une pente ≤ 2 %, un cheminement accessible jusqu&apos;à l&apos;entrée et une signalisation au sol + verticale. Les sanctions atteignent 45 000 € (225 000 € pour une personne morale).
+      </p>
+
+      <h3>Quelles règles pour un ERP de catégorie 5 ?</h3>
+      <p>
+        Les ERP de 5e catégorie (petits commerces, cabinets) restent soumis à l&apos;obligation d&apos;accessibilité : dès lors que le parking est ouvert au public, les places PMR et leur signalisation sont obligatoires, au prorata de la capacité.
+      </p>
+
       <h3>Mon parking n&apos;a que 5 places, dois-je avoir une place PMR ?</h3>
       <p>
         Oui. D&egrave;s la premi&egrave;re place de stationnement accessible au public, une place PMR est obligatoire. La r&egrave;gle des 2% avec arrondi &agrave; l&apos;entier sup&eacute;rieur s&apos;applique : 5 places = 1 place PMR minimum.

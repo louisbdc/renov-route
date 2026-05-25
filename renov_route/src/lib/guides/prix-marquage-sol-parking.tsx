@@ -281,6 +281,11 @@ export default function Content() {
 
       <h2>Questions fréquentes sur les prix de marquage au sol</h2>
 
+      <h3>Quel est le prix du marquage au sol au m² ?</h3>
+      <p>
+        Le marquage au sol se situe généralement entre <strong>8 et 15 €/m²</strong> selon le support, le type de peinture et la surface. Pour les lignes seules (places, flèches), on raisonne au mètre linéaire : à partir de <strong>2,50 €/ml</strong>. Une résine ou un thermoplastique coûte davantage mais dure plus longtemps.
+      </p>
+
       <h3>Quel est le prix moyen pour tracer un parking de 30 places ?</h3>
       <p>
         Pour un parking de 30 places avec retraçage des lignes, flèches et passages piétons,
