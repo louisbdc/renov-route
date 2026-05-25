@@ -87,11 +87,16 @@ const SERVICE_SCHEMA = {
   "name": "Marquage au sol Lyon",
   "description": "Entreprise de marquage au sol à Lyon et Rhône-Alpes depuis 2014. Traçage parking, marquage routier, marquage industriel, traçage sportif, mise en conformité PMR. 1 000+ chantiers réalisés pour Carrefour, Lidl, McDonald's, Armée de Terre.",
   "provider": {
-    "@type": "LocalBusiness",
+    "@type": "HomeAndConstructionBusiness",
     "@id": "https://renov-route.com/#business",
-    "name": "Rénov Route",
+    "name": "Rénov'Route",
     "image": "https://renov-route.com/assets/logos/logo.avif",
     "url": "https://renov-route.com/",
+    "hasMap": "https://share.google/EtiXRDpgqMZlrsGzF",
+    "sameAs": [
+      "https://share.google/EtiXRDpgqMZlrsGzF",
+      "https://www.pagesjaunes.fr/pros/56570890"
+    ],
     "telephone": "+33786819692",
     "priceRange": "€€",
     "foundingDate": "2014",
@@ -105,8 +110,8 @@ const SERVICE_SCHEMA = {
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": "45.7640",
-      "longitude": "4.8357"
+      "latitude": "45.7689",
+      "longitude": "4.7407"
     },
     "openingHoursSpecification": [{
       "@type": "OpeningHoursSpecification",

@@ -10,7 +10,13 @@ export default function StructuredData({ type }: StructuredDataProps) {
     "@type": "HomeAndConstructionBusiness",
     "@id": "https://renov-route.com/#localbusiness",
     "parentOrganization": { "@id": "https://renov-route.com/#organization" },
-    "name": "Rénov Route",
+    "name": "Rénov'Route",
+    "hasMap": "https://share.google/EtiXRDpgqMZlrsGzF",
+    "sameAs": [
+      "https://share.google/EtiXRDpgqMZlrsGzF",
+      "https://www.pagesjaunes.fr/pros/56570890",
+      "https://www.linkedin.com/company/renov%27route/"
+    ],
     "description": "Expert traçage marquage routier et parking en France. Réparation nids de poule, retraçage parking, marquage routier, enrobé résine.",
     "url": "https://renov-route.com/",
     "logo": "https://renov-route.com/assets/logos/logo.avif",
@@ -27,8 +33,8 @@ export default function StructuredData({ type }: StructuredDataProps) {
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": "45.7640",
-      "longitude": "4.8357"
+      "latitude": "45.7689",
+      "longitude": "4.7407"
     },
     "areaServed": [
       {
