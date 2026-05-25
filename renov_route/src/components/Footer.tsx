@@ -127,8 +127,8 @@ export default function Footer() {
                 Lyon & Rhône-Alpes
               </li>
               <li>
-                <a href="tel:+33000000000" className="hover:text-[#FACC15] transition-colors uppercase tracking-[0.1em]">
-                  Appeler
+                <a href="tel:+33786819692" className="hover:text-[#FACC15] transition-colors uppercase tracking-[0.1em]">
+                  07 86 81 96 92
                 </a>
               </li>
               <li>

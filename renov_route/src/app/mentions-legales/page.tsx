@@ -34,7 +34,7 @@ export default function MentionsLegalesPage() {
                 RENOV&apos;ROUTE, SARL au capital de 10 000 &euro;<br />
                 SIRET : 818 745 515 00010 — RCS Lyon<br />
                 6, allée du ruisseau de Ribbes, 69160 Tassin-la-Demi-Lune<br />
-                Téléphone : 07 86 81 96 92 — Email : contact@renov-route.fr
+                Téléphone : 07 86 81 96 92 — Email : contact@renov-route.com
               </p>
               <p className="mt-4">
                 Directeur de la publication : Xavier de Caumont

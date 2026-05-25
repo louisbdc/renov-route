@@ -66,7 +66,7 @@ export default function CtaBand({ className = '' }: CtaBandProps) {
               </div>
               <div>
                 <div className="text-[10px] font-black uppercase tracking-[0.25em] text-[#FACC15] mb-2">Email</div>
-                <div className="text-white text-lg font-bold break-all">contact@renov-route.fr</div>
+                <div className="text-white text-lg font-bold break-all">contact@renov-route.com</div>
               </div>
               <div>
                 <div className="text-[10px] font-black uppercase tracking-[0.25em] text-[#FACC15] mb-2">Zone</div>
