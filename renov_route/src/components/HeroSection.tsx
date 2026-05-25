@@ -178,20 +178,6 @@ export default function HeroSection({ children }: { children: React.ReactNode })
       {/* Bottom fade into next section */}
       <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#0F172A] to-transparent z-[2]" />
 
-      {/* Slide indicators — éditorial yellow */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 flex gap-2">
-        {MEDIA.map((_, i) => (
-          <button
-            key={i}
-            onClick={() => goTo(i)}
-            className={`h-[3px] transition-all duration-500 ${
-              active === i ? 'w-10 bg-[#FACC15]' : 'w-5 bg-white/25 hover:bg-white/50'
-            }`}
-            aria-label={`Slide ${i + 1}`}
-          />
-        ))}
-      </div>
-
       {/* Content */}
       <div className="relative z-10 w-full">
         {children}
