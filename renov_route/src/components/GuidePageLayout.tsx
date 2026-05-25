@@ -169,7 +169,7 @@ export default function GuidePageLayout({ guide, children }: GuidePageLayoutProp
               transition={{ duration: 0.5 }}
               className="text-slate-300 mb-10 leading-relaxed text-lg font-medium"
             >
-              Notre équipe intervient dans toute la France. Diagnostic gratuit et devis personnalisé sous 48h.
+              Basés à Lyon, nous réalisons le <Link href="/marquage-au-sol-lyon/" className="text-[#FACC15] underline underline-offset-2 hover:text-white transition-colors">marquage au sol à Lyon</Link> et dans toute la France. Diagnostic gratuit et devis personnalisé sous 48h.
             </MotionP>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link

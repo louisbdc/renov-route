@@ -112,6 +112,10 @@ export default function Content() {
       </table>
 
       <p>
+        Le détail complet par configuration (épi, bataille, longitudinale) et le nombre exact de places selon la capacité sont dans notre guide dédié aux <a href="/guides/dimensions-nombre-places-pmr-parking/">dimensions des places PMR</a>.
+      </p>
+
+      <p>
         La bande de transfert latérale de 0,80 m peut être partagée entre deux places PMR
         adjacentes. Concrètement, deux places PMR côte à côte occupent 3,30 m + 2,50 m = 5,80 m
         au lieu de 6,60 m. C&apos;est une astuce que beaucoup de gestionnaires ignorent, et
