@@ -2,7 +2,7 @@ const ORGANIZATION_JSONLD = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
   '@id': 'https://renov-route.com/#organization',
-  name: 'Rénov Route',
+  name: "Rénov'Route",
   legalName: "RENOV'ROUTE SARL",
   alternateName: 'Renov Route',
   url: 'https://renov-route.com/',
@@ -67,11 +67,26 @@ const WEBSITE_JSONLD = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
   '@id': 'https://renov-route.com/#website',
-  name: 'Rénov Route',
+  name: "Rénov'Route",
   alternateName: 'Renov Route',
   url: 'https://renov-route.com/',
   inLanguage: 'fr-FR',
   publisher: { '@id': 'https://renov-route.com/#organization' },
+}
+
+// Déclare la navigation principale à Google (aide à la sélection des sitelinks).
+const SITE_NAV_JSONLD = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: 'Navigation principale',
+  itemListElement: [
+    { '@type': 'SiteNavigationElement', position: 1, name: 'Compétences', url: 'https://renov-route.com/competences/' },
+    { '@type': 'SiteNavigationElement', position: 2, name: 'Marquage au sol Lyon', url: 'https://renov-route.com/marquage-au-sol-lyon/' },
+    { '@type': 'SiteNavigationElement', position: 3, name: 'Guides', url: 'https://renov-route.com/guides/' },
+    { '@type': 'SiteNavigationElement', position: 4, name: 'Réalisations', url: 'https://renov-route.com/realisations/' },
+    { '@type': 'SiteNavigationElement', position: 5, name: 'Qui sommes-nous', url: 'https://renov-route.com/qui-sommes-nous/' },
+    { '@type': 'SiteNavigationElement', position: 6, name: 'Devis gratuit', url: 'https://renov-route.com/devis/' },
+  ],
 }
 
 export default function OrganizationSchema() {
@@ -84,6 +99,10 @@ export default function OrganizationSchema() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(WEBSITE_JSONLD) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(SITE_NAV_JSONLD) }}
       />
     </>
   )
