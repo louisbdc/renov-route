@@ -8,6 +8,8 @@ header('Content-Disposition: attachment; filename="prospect.vcf"');
 
 echo "BEGIN:VCARD\r\n";
 echo "VERSION:3.0\r\n";
+// N: NomDeFamille;Prénom;... — nom complet mis en prénom pour éviter l'inversion sur mobile
+echo "N:;" . $nom . ";;;\r\n";
 echo "FN:" . $nom . "\r\n";
 echo "TEL:" . $tel . "\r\n";
 echo "EMAIL:" . $email . "\r\n";
