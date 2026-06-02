@@ -200,7 +200,7 @@ export default function DevisPage() {
                               <SecureInput type="email" id="email" name="email" label="Email" placeholder="exemple@email.com" required />
                               <SecureInput type="tel" id="phone" name="phone" label="Téléphone" placeholder="06 12 34 56 78" required />
                             </div>
-                            <SecureInput type="text" id="location" name="location" label="Lieu des travaux" placeholder="Ville, adresse ou nom du site (facultatif)" />
+                            <SecureInput type="text" id="location" name="location" label="Lieu du projet" placeholder="Ville, adresse ou nom du site (facultatif)" />
                           </div>
 
                           {/* Message */}

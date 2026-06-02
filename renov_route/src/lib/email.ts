@@ -69,7 +69,7 @@ export async function sendDevisEmail(formElement: HTMLFormElement): Promise<void
   // Prefix the description with the work location so it remains visible even if the
   // EmailJS template only displays the description field.
   const descriptionWithLocation = location
-    ? `Lieu des travaux : ${location}${description ? `\n\n${description}` : ''}`
+    ? `Lieu du projet : ${location}${description ? `\n\n${description}` : ''}`
     : description;
 
   const templateParams = {
