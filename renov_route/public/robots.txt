@@ -11,7 +11,6 @@ Disallow: /admin/
 Disallow: /private/
 Disallow: /scripts/
 Disallow: /out/
-Disallow: /*.json$
 Disallow: /*.map
 
 Disallow: /*?lightbox=*
