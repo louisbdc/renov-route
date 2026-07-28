@@ -12,6 +12,18 @@ export interface CaseStudy {
   thumbnail: string;
   heroMedia: string;
   images: string[]; // Tableau d'images supplémentaires
+  /**
+   * Texte alternatif de chaque image, dans le même ordre que `images`.
+   *
+   * Sans ce champ, toutes les photos d'un projet héritaient du titre du projet :
+   * 88 des 102 images du site partageaient un alt identique, ce qui empêche
+   * Google de les différencier en recherche d'images (289 impressions image
+   * seulement, pour un métier pourtant très visuel).
+   *
+   * Décrire ce que montre la photo, pas le projet. Si l'entrée manque ou est
+   * vide, le titre du projet sert de repli.
+   */
+  imageAlts?: string[];
   kpis: Array<{ label: string; value: string }>;
   body: string;
   category: 'parking' | 'industrial' | 'commercial' | 'municipal' | 'residential';

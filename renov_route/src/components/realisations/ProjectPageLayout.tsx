@@ -82,7 +82,7 @@ export default function ProjectPageLayout({ project, relatedProjects }: ProjectP
               {/* Main content - Gallery + Description */}
               <div className="lg:col-span-2 space-y-10">
                 {/* Gallery */}
-                <ImageGallery images={project.images} title={project.title} />
+                <ImageGallery images={project.images} title={project.title} imageAlts={project.imageAlts} />
 
                 {/* Summary */}
                 <div>

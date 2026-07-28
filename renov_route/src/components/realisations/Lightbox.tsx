@@ -14,6 +14,8 @@ interface LightboxProps {
   onPrev: () => void
   onGoTo: (index: number) => void
   title: string
+  /** Alt de chaque image, même ordre que `images`. Repli sur `title` si absent. */
+  imageAlts?: string[]
 }
 
 export default function Lightbox({
@@ -25,7 +27,9 @@ export default function Lightbox({
   onPrev,
   onGoTo,
   title,
+  imageAlts,
 }: LightboxProps) {
+  const altFor = (index: number) => imageAlts?.[index]?.trim() || title
   const lightboxRef = useRef<HTMLDivElement>(null)
   const touchStartX = useRef<number | null>(null)
 
@@ -128,7 +132,7 @@ export default function Lightbox({
               >
                 <Image
                   src={images[currentIndex]}
-                  alt={title}
+                  alt={altFor(currentIndex)}
                   width={1200}
                   height={800}
                   className="max-w-full max-h-[85vh] object-contain rounded-lg"
@@ -155,7 +159,7 @@ export default function Lightbox({
                 >
                   <Image
                     src={image}
-                    alt={title}
+                    alt={altFor(index)}
                     fill
                     className="object-cover"
                     sizes="48px"

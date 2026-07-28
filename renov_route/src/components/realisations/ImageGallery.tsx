@@ -10,9 +10,15 @@ import { GoogleAnalytics } from '@/lib/analytics'
 interface ImageGalleryProps {
   images: string[]
   title: string
+  /** Alt de chaque image, même ordre que `images`. Repli sur `title` si absent. */
+  imageAlts?: string[]
 }
 
-export default function ImageGallery({ images, title }: ImageGalleryProps) {
+export default function ImageGallery({ images, title, imageAlts }: ImageGalleryProps) {
+  // Décrit la photo plutôt que le projet : sans cela toutes les vues d'un même
+  // chantier partagent un alt identique et deviennent indistinguables.
+  const altFor = (index: number) => imageAlts?.[index]?.trim() || title
+
   const [currentIndex, setCurrentIndex] = useState(0)
   const [isLightboxOpen, setIsLightboxOpen] = useState(false)
   const [showZoomIcon, setShowZoomIcon] = useState(true)
@@ -63,7 +69,7 @@ export default function ImageGallery({ images, title }: ImageGalleryProps) {
           >
             <Image
               src={images[0]}
-              alt={title}
+              alt={altFor(0)}
               fill
               className="object-cover group-hover:brightness-110 transition-all duration-200"
               sizes="(max-width: 768px) 100vw, (max-width: 1024px) 80vw, 70vw"
@@ -84,6 +90,7 @@ export default function ImageGallery({ images, title }: ImageGalleryProps) {
           onPrev={prevImage}
           onGoTo={goToImage}
           title={title}
+          imageAlts={imageAlts}
         />
       </>
     )
@@ -113,7 +120,7 @@ export default function ImageGallery({ images, title }: ImageGalleryProps) {
             >
               <Image
                 src={images[currentIndex]}
-                alt={title}
+                alt={altFor(currentIndex)}
                 fill
                 className="object-cover group-hover:brightness-110 transition-all duration-200"
                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 80vw, 70vw"
@@ -183,7 +190,7 @@ export default function ImageGallery({ images, title }: ImageGalleryProps) {
             >
               <Image
                 src={image}
-                alt={title}
+                alt={altFor(index)}
                 fill
                 className="object-cover"
                 sizes="80px"
@@ -203,6 +210,7 @@ export default function ImageGallery({ images, title }: ImageGalleryProps) {
         onPrev={prevImage}
         onGoTo={goToImage}
         title={title}
+        imageAlts={imageAlts}
       />
     </div>
   )
