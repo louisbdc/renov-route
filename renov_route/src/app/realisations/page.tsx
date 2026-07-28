@@ -53,7 +53,7 @@ export default function RealisationsPage() {
             mainEntity: {
               '@type': 'ItemList',
               name: 'Portfolio Rénov Route',
-              description: '12 réalisations sélectionnées parmi plus de 1 000 projets réalisés depuis 2014',
+              description: '12 réalisations sélectionnées parmi plus de 1 000 projets réalisés depuis 2016',
               numberOfItems: caseStudies.length,
               itemListOrder: 'https://schema.org/ItemListOrderDescending',
               itemListElement,

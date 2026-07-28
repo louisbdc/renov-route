@@ -28,7 +28,7 @@ const BREADCRUMB = [
 ]
 
 const FEATURES = [
-  { icon: <TbCertificate size={20} />, title: 'Depuis 2014 à Lyon', description: "Plus de 1 000 chantiers réalisés en Rhône-Alpes. Nous connaissons le terrain, les contraintes locales et les réglementations en vigueur." },
+  { icon: <TbCertificate size={20} />, title: 'Depuis 2016 à Lyon', description: "Plus de 1 000 chantiers réalisés en Rhône-Alpes. Nous connaissons le terrain, les contraintes locales et les réglementations en vigueur." },
   { icon: <TbShield size={20} />, title: 'Peintures certifiées NF EN 1436', description: 'Produits routiers haute résistance aux UV, intempéries et trafic intense. Résultat durable, même sur les parkings à fort passage.' },
   { icon: <TbClock size={20} />, title: 'Devis en 48h, intervention rapide', description: 'Visite sur site gratuite, devis détaillé en 48h. Intervention planifiée selon vos contraintes (horaires, activité).' },
   { icon: <TbPalette size={20} />, title: 'Marquage sur mesure', description: 'Couleurs personnalisées, logos, numérotation, signalétique adaptée à votre identité visuelle et vos besoins spécifiques.' },
@@ -85,7 +85,7 @@ const SERVICE_SCHEMA = {
   "@context": "https://schema.org",
   "@type": "Service",
   "name": "Marquage au sol Lyon",
-  "description": "Entreprise de marquage au sol à Lyon et Rhône-Alpes depuis 2014. Traçage parking, marquage routier, marquage industriel, traçage sportif, mise en conformité PMR. 1 000+ chantiers réalisés pour Carrefour, Lidl, McDonald's, Armée de Terre.",
+  "description": "Entreprise de marquage au sol à Lyon et Rhône-Alpes depuis 2016. Traçage parking, marquage routier, marquage industriel, traçage sportif, mise en conformité PMR. 1 000+ chantiers réalisés pour Carrefour, Lidl, McDonald's, Armée de Terre.",
   "provider": {
     "@type": "HomeAndConstructionBusiness",
     "@id": "https://renov-route.com/#business",
@@ -99,7 +99,7 @@ const SERVICE_SCHEMA = {
     ],
     "telephone": "+33786819692",
     "priceRange": "€€",
-    "foundingDate": "2014",
+    "foundingDate": "2016",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "6, allée du ruisseau de Ribbes",
@@ -169,13 +169,13 @@ export default function MarquageAuSolLyonPage() {
         breadcrumb={BREADCRUMB}
         heroIcon={<TbMapPin size={28} />}
         heroTitle={<>Marquage au sol à <strong className="text-[#FACC15]">Lyon</strong></>}
-        heroSubtitle="Entreprise spécialisée en marquage au sol depuis 2014. Parking, voirie, industriel, sport, PMR : nous intervenons sur tous types de surfaces à Lyon et en Rhône-Alpes."
+        heroSubtitle="Entreprise spécialisée en marquage au sol depuis 2016. Parking, voirie, industriel, sport, PMR : nous intervenons sur tous types de surfaces à Lyon et en Rhône-Alpes."
         heroBackgroundImage="/assets/images/realisations/lidl-verpiliere-parking_1.avif"
         heroImageAlt="Marquage au sol parking à Lyon par Rénov Route"
         accentColor="amber"
         descriptionHeading="Votre entreprise de marquage au sol à Lyon"
         descriptionParagraphs={[
-          "Depuis 2014, Rénov Route est spécialisée dans le marquage au sol à Lyon et dans toute la région Rhône-Alpes. Avec plus de 1 000 chantiers réalisés, nous accompagnons les entreprises, collectivités, copropriétés et gestionnaires de sites dans tous leurs projets de signalisation horizontale.",
+          "Depuis 2016, Rénov Route est spécialisée dans le marquage au sol à Lyon et dans toute la région Rhône-Alpes. Avec plus de 1 000 chantiers réalisés, nous accompagnons les entreprises, collectivités, copropriétés et gestionnaires de sites dans tous leurs projets de signalisation horizontale.",
           <>Nos équipes interviennent sur tous types de surfaces et de marquages : <Link href="/competences/tracage-retracage-parking/" className="text-[#FACC15] hover:text-[#0F172A] underline">traçage de parking</Link>, marquage de voirie, <Link href="/competences/resine-sol-marquage-interieur/" className="text-[#FACC15] hover:text-[#0F172A] underline">résine de sol industriel</Link>, traçage sportif et <Link href="/guides/mise-en-conformite-parking-pmr/" className="text-[#FACC15] hover:text-[#0F172A] underline">mise en conformité PMR</Link>.</>,
           <>Nous utilisons exclusivement des peintures routières certifiées NF EN 1436 et des résines haute performance pour garantir un résultat durable. Si votre sol nécessite une remise en état avant le marquage, nous assurons également la <Link href="/competences/reparation-nids-de-poule/" className="text-[#FACC15] hover:text-[#0F172A] underline">réparation de nids de poule</Link> et la préparation de surface.</>,
         ]}
@@ -230,7 +230,7 @@ export default function MarquageAuSolLyonPage() {
                   12 ans d'expertise, 1 000+ chantiers
                 </h2>
                 <p className="text-slate-600 mb-8 leading-relaxed font-medium text-base sm:text-lg">
-                  Implantés à <strong className="text-[#0F172A]">Tassin-la-Demi-Lune depuis 2014</strong>, nous connaissons le terrain lyonnais comme personne. Notre équipe intervient dans la journée sur l'agglomération et dans la semaine partout en Auvergne-Rhône-Alpes.
+                  Implantés à <strong className="text-[#0F172A]">Tassin-la-Demi-Lune depuis 2016</strong>, nous connaissons le terrain lyonnais comme personne. Notre équipe intervient dans la journée sur l'agglomération et dans la semaine partout en Auvergne-Rhône-Alpes.
                 </p>
                 <div className="grid grid-cols-3 gap-6 pt-6 border-t border-slate-200">
                   <div>
@@ -337,7 +337,7 @@ export default function MarquageAuSolLyonPage() {
             </p>
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-px bg-white/10">
               {[
-                { number: '10+', label: "années d'expérience", detail: 'Fondée en 2014 à Lyon' },
+                { number: '10+', label: "années d'expérience", detail: 'Fondée en 2016 à Lyon' },
                 { number: '1 000+', label: 'chantiers réalisés', detail: 'Parkings, voiries, industriels' },
                 { number: '19', label: 'enseignes nationales', detail: "Carrefour, Lidl, McDonald's, Armée de Terre, Suez…" },
                 { number: '48h', label: 'pour votre devis', detail: 'Visite sur site gratuite, sans engagement' },

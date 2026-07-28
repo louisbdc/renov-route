@@ -11,9 +11,9 @@ const ORGANIZATION_JSONLD = {
     url: 'https://renov-route.com/assets/logos/logo.avif',
     contentUrl: 'https://renov-route.com/assets/logos/logo.avif',
   },
-  foundingDate: '2014',
+  foundingDate: '2016',
   description:
-    'Entreprise française spécialisée dans le marquage au sol, le traçage de parking, la réparation de nids de poule et la signalisation horizontale. Plus de 1 000 parkings réalisés depuis 2014.',
+    'Entreprise française spécialisée dans le marquage au sol, le traçage de parking, la réparation de nids de poule et la signalisation horizontale. Plus de 1 000 parkings réalisés depuis 2016.',
   slogan: 'Experts du marquage au sol et de la rénovation parking',
   knowsAbout: [
     'Marquage routier',

@@ -94,7 +94,7 @@ export default function StructuredData({ type }: StructuredDataProps) {
     "priceRange": "€€",
     "paymentAccepted": "Cash, Credit Card, Bank Transfer",
     "currenciesAccepted": "EUR",
-    "foundingDate": "2014",
+    "foundingDate": "2016",
     "numberOfEmployees": "5-10",
     "aggregateRating": {
       "@type": "AggregateRating",

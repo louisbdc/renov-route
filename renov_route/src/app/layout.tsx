@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     default: "Rénov'Route — Marquage au Sol & Signalisation Routière Lyon (69)",
     template: "%s | Rénov'Route"
   },
-  description: "Marquage au sol & signalisation routière à Lyon : traçage parking, peinture routière, réparation de nids de poule. Devis gratuit en 48h, 1 000+ projets depuis 2014.",
+  description: "Marquage au sol & signalisation routière à Lyon : traçage parking, peinture routière, réparation de nids de poule. Devis gratuit en 48h, 1 000+ projets depuis 2016.",
   applicationName: 'Renov Route',
   manifest: '/manifest.json',
   appleWebApp: {
