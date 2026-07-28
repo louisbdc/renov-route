@@ -11,6 +11,8 @@ import { sendDevisEmail } from '@/lib/email';
 import { TbCircleCheck, TbClock, TbShieldCheck } from 'react-icons/tb';
 import { useFormTracking } from '@/hooks/useAnalyticsTracking';
 import { GoogleAnalytics } from '@/lib/analytics';
+import TrackedContactLink from '@/components/TrackedContactLink';
+import DevisSeoContent from '@/components/DevisSeoContent';
 
 const advantages = [
   {
@@ -272,12 +274,11 @@ export default function DevisPage() {
                           </div>
                           <div>
                             <h3 className="text-base font-bold text-[#0F172A] mb-1 font-display">Appelez-nous</h3>
-                            <a
-                              href="tel:+33786819692"
+                            <TrackedContactLink
+                              type="phone"
+                              location="devis-sidebar"
                               className="text-[#FACC15] font-semibold text-lg hover:text-[#0F172A] transition-colors"
-                            >
-                              07 86 81 96 92
-                            </a>
+                            />
                             <p className="text-slate-500 text-sm mt-1">Lun-Ven 8h-18h</p>
                           </div>
                         </div>
@@ -288,6 +289,8 @@ export default function DevisPage() {
               )}
             </div>
           </section>
+
+          <DevisSeoContent />
         </SafariAnimationFix>
       </Layout>
     </>

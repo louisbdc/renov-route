@@ -96,34 +96,8 @@ export function useConversionTracking() {
   }
 }
 
-// Composant pour tracker les clics sur les liens de contact
-export function ContactTracker({ 
-  type, 
-  value, 
-  children, 
-  className = '' 
-}: {
-  type: 'phone' | 'email'
-  value?: string
-  children: React.ReactNode
-  className?: string
-}) {
-  const { trackPhoneCall, trackEmailClick } = useConversionTracking()
-
-  const handleClick = () => {
-    if (type === 'phone') {
-      trackPhoneCall(value)
-    } else if (type === 'email') {
-      trackEmailClick(value)
-    }
-  }
-
-  return (
-    <span onClick={handleClick} className={className}>
-      {children}
-    </span>
-  )
-}
+// Les liens de contact (tel:/mailto:) sont tracés par `TrackedContactLink`,
+// qui rend un vrai <a> accessible au lieu d'un <span onClick>.
 
 // Composant pour tracker les intérêts pour les services
 export function ServiceInterestTracker({ 

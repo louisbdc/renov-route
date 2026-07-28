@@ -21,6 +21,7 @@ import {
 import type { City } from '@/lib/data/cities'
 import { getNearbyCities, CITIES } from '@/lib/data/cities'
 import { safeJsonLd } from '@/lib/json-ld'
+import TrackedContactLink from '@/components/TrackedContactLink'
 
 interface LocalCityPageProps {
   city: City
@@ -37,13 +38,13 @@ const SERVICES = [
 
 function buildIntro(city: City): string {
   if (city.distanceFromTassin === 0) {
-    return `Renov Route est implanté à ${city.name} depuis 2014 — c'est notre commune historique. Une équipe qui connaît parfaitement le terrain local, mobilisable rapidement avec un devis transparent.`
+    return `Renov Route est implanté à ${city.name} depuis 2016 — c'est notre commune historique. Une équipe qui connaît parfaitement le terrain local, mobilisable rapidement avec un devis transparent.`
   }
   if (city.isArrondissement) {
     return `Spécialiste du marquage au sol à ${city.name}, Renov Route intervient sur tous les parkings, voiries et copropriétés de l'arrondissement. À ${city.distanceFromTassin} km de notre siège de Tassin-la-Demi-Lune, nos équipes sont sur place dans la journée.`
   }
   if (city.isRhoneAlpes) {
-    return `Renov Route accompagne les gestionnaires de parkings et collectivités à ${city.name} (${city.postalCode}) depuis 2014. À ${city.distanceFromTassin} km de Lyon, nous intervenons régulièrement en ${city.department.name} avec le même niveau de qualité que sur l'agglomération lyonnaise.`
+    return `Renov Route accompagne les gestionnaires de parkings et collectivités à ${city.name} (${city.postalCode}) depuis 2016. À ${city.distanceFromTassin} km de Lyon, nous intervenons régulièrement en ${city.department.name} avec le même niveau de qualité que sur l'agglomération lyonnaise.`
   }
   return `Entreprise de marquage au sol à ${city.name}, Renov Route intervient sur l'ensemble des parkings, voiries et zones d'activités de la commune (${city.postalCode}). À ${city.distanceFromTassin} km de notre siège de Tassin-la-Demi-Lune, nos équipes sont sur place rapidement avec un devis transparent.`
 }
@@ -51,7 +52,7 @@ function buildIntro(city: City): string {
 function buildSecondParagraph(city: City): string {
   const projets = city.references && city.references.length
     ? `Nous avons notamment réalisé ${city.references.length === 1 ? 'le chantier' : 'les chantiers'} de ${city.references.map(r => r.client).join(', ')}.`
-    : `Plus de 1 000 chantiers réalisés depuis 2014, de Carrefour à Lidl en passant par McDonald's et de nombreuses copropriétés et collectivités locales.`
+    : `Plus de 1 000 chantiers réalisés depuis 2016, de Carrefour à Lidl en passant par McDonald's et de nombreuses copropriétés et collectivités locales.`
   return `${projets} Que vous soyez syndic, gestionnaire de centre commercial, responsable d'entreprise ou collectivité, nous adaptons notre intervention à vos contraintes (horaires, accès, trafic) et vous remettons un devis détaillé en 48h.`
 }
 
@@ -153,7 +154,7 @@ export default function LocalCityPage({ city }: LocalCityPageProps) {
 
             {/* Trust strip */}
             <div className="mt-12 flex flex-wrap gap-x-12 gap-y-4 text-[11px] font-black uppercase tracking-[0.2em] text-slate-400">
-              <span className="flex items-center gap-2"><TbAward size={16} className="text-[#FACC15]" /> Depuis 2014</span>
+              <span className="flex items-center gap-2"><TbAward size={16} className="text-[#FACC15]" /> Depuis 2016</span>
               <span className="flex items-center gap-2"><TbCertificate size={16} className="text-[#FACC15]" /> 1 000+ chantiers</span>
               <span className="flex items-center gap-2"><TbShield size={16} className="text-[#FACC15]" /> Certif NF EN 1436</span>
               <span className="flex items-center gap-2"><TbClock size={16} className="text-[#FACC15]" /> Devis 48h</span>
@@ -368,9 +369,11 @@ export default function LocalCityPage({ city }: LocalCityPageProps) {
               <Link href="/devis" className="inline-flex items-center justify-center bg-[#FACC15] hover:bg-white text-[#0F172A] px-10 py-5 font-black uppercase text-xs tracking-[0.2em] rounded-sm transition-all shadow-[6px_6px_0_rgba(250,204,21,0.25)] active:translate-x-[2px] active:translate-y-[2px] active:shadow-none">
                 Demander un devis gratuit
               </Link>
-              <a href="tel:+33786819692" className="inline-flex items-center justify-center border-2 border-white/20 text-white hover:bg-white/10 hover:border-white/40 px-10 py-5 font-black uppercase text-xs tracking-[0.2em] rounded-sm transition-all">
-                07 86 81 96 92
-              </a>
+              <TrackedContactLink
+                type="phone"
+                location={`ville-${city.slug}`}
+                className="inline-flex items-center justify-center border-2 border-white/20 text-white hover:bg-white/10 hover:border-white/40 px-10 py-5 font-black uppercase text-xs tracking-[0.2em] rounded-sm transition-all"
+              />
             </div>
           </div>
         </section>

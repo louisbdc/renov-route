@@ -25,6 +25,7 @@ import {
   TbHelmet,
 } from 'react-icons/tb';
 import { QuoteTracker, CtaTracker } from '@/components/AnalyticsTracker';
+import TrackedContactLink from '@/components/TrackedContactLink';
 
 const services = [
   {
@@ -109,7 +110,7 @@ export default function Home() {
             <HomeHeroHeadline />
 
             <p className="text-base sm:text-lg text-slate-300 mb-10 max-w-xl font-medium leading-relaxed">
-              Spécialiste du <strong className="text-white font-bold">marquage au sol</strong> et de la <strong className="text-white font-bold">rénovation de parking</strong> à Lyon. Intervention sous 48h · Devis gratuit en 48h · 1&nbsp;000+ parkings depuis 2014.
+              Spécialiste du <strong className="text-white font-bold">marquage au sol</strong> et de la <strong className="text-white font-bold">rénovation de parking</strong> à Lyon. Intervention sous 48h · Devis gratuit en 48h · 1&nbsp;000+ parkings depuis 2016.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -428,7 +429,7 @@ export default function Home() {
               transition={{ duration: 0.5 }}
             >
               <p className="text-[#0F172A] text-xl sm:text-2xl font-black italic uppercase tracking-tighter mb-3">
-                Note 5/5 Google · 1&nbsp;000+ projets depuis 2014
+                Note 5/5 Google · 1&nbsp;000+ projets depuis 2016
               </p>
               <p className="text-slate-500 text-sm font-medium mb-8">
                 Devis gratuit et sans engagement. Réponse en 48h.
@@ -538,9 +539,11 @@ export default function Home() {
                     </div>
                     <div>
                       <p className="text-[10px] font-black uppercase tracking-[0.25em] text-slate-400 mb-1">Téléphone</p>
-                      <a href="tel:0786819692" className="text-[#0F172A] text-lg font-bold hover:text-[#FACC15] transition-colors">
-                        07 86 81 96 92
-                      </a>
+                      <TrackedContactLink
+                        type="phone"
+                        location="home-contact-block"
+                        className="text-[#0F172A] text-lg font-bold hover:text-[#FACC15] transition-colors"
+                      />
                     </div>
                   </div>
 
@@ -552,9 +555,11 @@ export default function Home() {
                     </div>
                     <div>
                       <p className="text-[10px] font-black uppercase tracking-[0.25em] text-slate-400 mb-1">Email</p>
-                      <a href="mailto:contact@renov-route.com" className="text-[#0F172A] text-base font-bold hover:text-[#FACC15] transition-colors break-all">
-                        contact@renov-route.com
-                      </a>
+                      <TrackedContactLink
+                        type="email"
+                        location="home-contact-block"
+                        className="text-[#0F172A] text-base font-bold hover:text-[#FACC15] transition-colors break-all"
+                      />
                     </div>
                   </div>
 
@@ -624,12 +629,11 @@ export default function Home() {
               Contactez nos experts pour une analyse de site gratuite et un devis personnalisé en 48h.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a
-                href="tel:0786819692"
+              <TrackedContactLink
+                type="phone"
+                location="home-cta-final"
                 className="inline-flex items-center justify-center bg-[#FACC15] hover:bg-white text-[#0F172A] px-12 py-5 font-black uppercase text-sm tracking-[0.2em] rounded-sm transition-all shadow-[8px_8px_0_rgba(250,204,21,0.25)] active:translate-x-[3px] active:translate-y-[3px] active:shadow-none"
-              >
-                07 86 81 96 92
-              </a>
+              />
               <Link
                 href="/devis"
                 className="inline-flex items-center justify-center bg-white hover:bg-[#FACC15] text-[#0F172A] px-12 py-5 font-black uppercase text-sm tracking-[0.2em] rounded-sm transition-all"

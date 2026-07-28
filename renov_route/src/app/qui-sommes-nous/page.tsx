@@ -5,13 +5,13 @@ import Script from 'next/script';
 import Layout from '@/components/Layout';
 import SafariAnimationFix from '@/components/SafariAnimationFix';
 import { MotionDiv } from '@/components/MotionWrapper';
-import { ContactTracker } from '@/components/AnalyticsTracker';
+import TrackedContactLink from '@/components/TrackedContactLink';
 import StructuredData from '@/components/StructuredData';
 import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 import { caseStudies } from '@/lib/data/case-studies';
 
 const STATS = [
-  { value: '2014', label: 'Année de création' },
+  { value: '2016', label: 'Année de création' },
   { value: '1 000+', label: 'Parkings réalisés' },
   { value: '10+', label: "Ans d'expertise" },
   { value: '20+', label: 'Enseignes partenaires' },
@@ -79,7 +79,7 @@ export default function ContactPage() {
             '@id': 'https://renov-route.com/qui-sommes-nous/#profile',
             name: 'Xavier de Caumont, Fondateur de Rénov Route',
             description:
-              "Page fondateur et entreprise : Xavier de Caumont, créateur de Rénov Route en 2014, société spécialisée dans le marquage au sol et la rénovation de parking basée à Tassin-la-Demi-Lune.",
+              "Page fondateur et entreprise : Xavier de Caumont, créateur de Rénov Route en 2016, société spécialisée dans le marquage au sol et la rénovation de parking basée à Tassin-la-Demi-Lune.",
             url: 'https://renov-route.com/qui-sommes-nous/',
             inLanguage: 'fr-FR',
             isPartOf: { '@id': 'https://renov-route.com/#website' },
@@ -94,7 +94,7 @@ export default function ContactPage() {
               image: 'https://renov-route.com/assets/images/xavier-de-caumont.jpg',
               jobTitle: 'Fondateur de Rénov Route',
               description:
-                "Fondateur de Rénov Route en 2014, Xavier de Caumont dirige une équipe spécialisée dans le marquage au sol, le traçage de parking et la réparation de chaussée. Directeur de la publication du site renov-route.com. Plus de 1 000 parkings réalisés depuis 2014.",
+                "Fondateur de Rénov Route en 2016, Xavier de Caumont dirige une équipe spécialisée dans le marquage au sol, le traçage de parking et la réparation de chaussée. Directeur de la publication du site renov-route.com. Plus de 1 000 parkings réalisés depuis 2016.",
               worksFor: { '@id': 'https://renov-route.com/#organization' },
               knowsAbout: [
                 'Marquage routier',
@@ -137,13 +137,13 @@ export default function ContactPage() {
                   Qui sommes-nous
                 </p>
                 <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#0F172A] mb-4 font-display leading-tight">
-                  Rénov Route, experts du marquage au sol et de la rénovation parking depuis 2014
+                  Rénov Route, experts du marquage au sol et de la rénovation parking depuis 2016
                 </h1>
                 <p className="text-slate-500 text-base sm:text-lg leading-relaxed">
                   Entreprise française basée à Tassin-la-Demi-Lune près de Lyon, spécialisée dans le
                   traçage de parking, la réparation de chaussée à la résine polyuréthane, la
                   signalisation horizontale et la mise en conformité PMR. Plus de 1 000 parkings
-                  réalisés depuis 2014 pour des enseignes nationales et des collectivités.
+                  réalisés depuis 2016 pour des enseignes nationales et des collectivités.
                 </p>
               </MotionDiv>
 
@@ -190,11 +190,11 @@ export default function ContactPage() {
                       </div>
                       <div>
                         <p className="text-slate-500 text-sm font-medium mb-0.5">Téléphone</p>
-                        <ContactTracker type="phone" value="0786819692">
-                          <a href="tel:0786819692" className="text-[#0F172A] text-base sm:text-lg hover:text-[#FACC15] transition-colors">
-                            07 86 81 96 92
-                          </a>
-                        </ContactTracker>
+                        <TrackedContactLink
+                          type="phone"
+                          location="qui-sommes-nous"
+                          className="text-[#0F172A] text-base sm:text-lg hover:text-[#FACC15] transition-colors"
+                        />
                       </div>
                     </div>
 
@@ -206,11 +206,11 @@ export default function ContactPage() {
                       </div>
                       <div>
                         <p className="text-slate-500 text-sm font-medium mb-0.5">Email</p>
-                        <ContactTracker type="email" value="contact@renov-route.com">
-                          <a href="mailto:contact@renov-route.com" className="text-[#0F172A] text-base sm:text-lg hover:text-[#FACC15] transition-colors">
-                            contact@renov-route.com
-                          </a>
-                        </ContactTracker>
+                        <TrackedContactLink
+                          type="email"
+                          location="qui-sommes-nous"
+                          className="text-[#0F172A] text-base sm:text-lg hover:text-[#FACC15] transition-colors"
+                        />
                       </div>
                     </div>
 
@@ -272,7 +272,7 @@ export default function ContactPage() {
                     <p className="text-white text-2xl sm:text-3xl font-black italic uppercase tracking-tight mb-3">Xavier de Caumont</p>
                     <p className="text-slate-300 text-sm leading-relaxed font-medium">
                       10+ ans d&apos;expertise marquage au sol · Directeur de la publication · Dirige
-                      l&apos;équipe Rénov Route depuis 2014
+                      l&apos;équipe Rénov Route depuis 2016
                     </p>
                   </div>
                 </MotionDiv>
@@ -296,7 +296,7 @@ export default function ContactPage() {
                 </h2>
                 <div className="space-y-5 text-slate-600 leading-relaxed">
                   <p>
-                    L&apos;histoire de Rénov Route commence en 2014 par une rencontré fortuite : un
+                    L&apos;histoire de Rénov Route commence en 2016 par une rencontré fortuite : un
                     client nous approche pour retracer <strong>40 parkings</strong>. La demande
                     semble ambitieuse à l&apos;époque, mais elle marque le tournant décisif de notre
                     parcours. Nous relevons le défi, et cette première mission révèle notre passion

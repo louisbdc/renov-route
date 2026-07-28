@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { useAnalytics } from '@/lib/analytics';
+import TrackedContactLink from '@/components/TrackedContactLink';
 
 export default function Footer() {
   const analytics = useAnalytics();
@@ -47,7 +48,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-slate-500 text-sm leading-relaxed mb-8 max-w-xs">
-              Expert marquage au sol, signalisation routière et rénovation de parking à Lyon et Rhône-Alpes depuis 2014.
+              Expert marquage au sol, signalisation routière et rénovation de parking à Lyon et Rhône-Alpes depuis 2016.
             </p>
             <div className="flex gap-3">
               <a
@@ -127,9 +128,11 @@ export default function Footer() {
                 Lyon & Rhône-Alpes
               </li>
               <li>
-                <a href="tel:+33786819692" className="hover:text-[#FACC15] transition-colors uppercase tracking-[0.1em]">
-                  07 86 81 96 92
-                </a>
+                <TrackedContactLink
+                  type="phone"
+                  location="footer"
+                  className="hover:text-[#FACC15] transition-colors uppercase tracking-[0.1em]"
+                />
               </li>
               <li>
                 <Link href="/devis" className="hover:text-[#FACC15] transition-colors uppercase tracking-[0.1em]">
