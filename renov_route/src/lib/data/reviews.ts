@@ -32,15 +32,23 @@ export const GOOGLE_BUSINESS_PROFILE_URL = 'https://share.google/EtiXRDpgqMZlrsG
 
 export const CUSTOMER_REVIEWS: CustomerReview[] = [
   {
+    author: 'Christine Droulers',
+    text: "Très satisfaite de la prestation et de la manière dont s'est déroulé le chantier : réactivité, professionnalisme et fluidité",
+    rating: 5,
+    datePublished: '2026-06-01',
+  },
+  {
     author: 'Bertrand de LONGEVIALLE',
     text: 'Compétence et réactivité ! je recommande !',
     rating: 5,
     datePublished: '2018-01-01',
   },
   {
+    // Vérifié sur la fiche Google le 28/07/2026 : cet avis est noté 4/5,
+    // et non 5/5 comme le site l'affichait jusqu'ici.
     author: 'Estelle Pons',
     text: "Une solution simple, rapide et peu onéreuse pour reboucher des trous en formation sur les routes et parking. Un bon plan pour les copropriétés",
-    rating: 5,
+    rating: 4,
     datePublished: '2018-01-01',
   },
 ]
@@ -53,6 +61,14 @@ export const AVERAGE_RATING =
   Math.round(
     (CUSTOMER_REVIEWS.reduce((sum, r) => sum + r.rating, 0) / CUSTOMER_REVIEWS.length) * 10
   ) / 10
+
+/**
+ * Note moyenne formatée pour l'affichage, en notation française (4,7).
+ * Les mentions « 5/5 » étaient codées en dur à trois endroits alors que la
+ * moyenne réelle des avis Google est inférieure : les dériver évite d'afficher
+ * une note que les avis ne soutiennent pas.
+ */
+export const AVERAGE_RATING_LABEL = AVERAGE_RATING.toFixed(1).replace('.', ',')
 
 /** Avis au format schema.org Review, pour le JSON-LD. */
 export const reviewsJsonLd = CUSTOMER_REVIEWS.map(review => ({

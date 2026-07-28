@@ -8,6 +8,7 @@ import { MotionDiv } from '@/components/MotionWrapper';
 import TrackedContactLink from '@/components/TrackedContactLink';
 import StructuredData from '@/components/StructuredData';
 import BreadcrumbSchema from '@/components/BreadcrumbSchema';
+import { AVERAGE_RATING_LABEL } from '@/lib/data/reviews';
 import { caseStudies } from '@/lib/data/case-studies';
 
 const STATS = [
@@ -15,7 +16,7 @@ const STATS = [
   { value: '1 000+', label: 'Parkings réalisés' },
   { value: '10+', label: "Ans d'expertise" },
   { value: '20+', label: 'Enseignes partenaires' },
-  { value: '5/5', label: 'Note Google' },
+  { value: `${AVERAGE_RATING_LABEL}/5`, label: 'Note Google' },
   { value: 'NF EN 1436', label: 'Peintures certifiées' },
 ];
 

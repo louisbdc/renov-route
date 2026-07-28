@@ -25,7 +25,7 @@ import {
   TbHelmet,
 } from 'react-icons/tb';
 import { QuoteTracker, CtaTracker } from '@/components/AnalyticsTracker';
-import { CUSTOMER_REVIEWS, GOOGLE_BUSINESS_PROFILE_URL } from '@/lib/data/reviews';
+import { CUSTOMER_REVIEWS, GOOGLE_BUSINESS_PROFILE_URL, AVERAGE_RATING_LABEL, REVIEW_COUNT } from '@/lib/data/reviews';
 import TrackedContactLink from '@/components/TrackedContactLink';
 
 const services = [
@@ -137,7 +137,7 @@ export default function Home() {
                 <svg className="w-3.5 h-3.5 text-[#FACC15]" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                 </svg>
-                5/5 Google
+                {AVERAGE_RATING_LABEL}/5 Google ({REVIEW_COUNT} avis)
               </span>
               <span className="w-px h-3 bg-white/20" />
               <span>1 000+ projets</span>
@@ -436,7 +436,7 @@ export default function Home() {
               transition={{ duration: 0.5 }}
             >
               <p className="text-[#0F172A] text-xl sm:text-2xl font-black italic uppercase tracking-tighter mb-3">
-                Note 5/5 Google · 1&nbsp;000+ projets depuis 2016
+                Note {AVERAGE_RATING_LABEL}/5 sur Google · 1&nbsp;000+ projets depuis 2016
               </p>
               <p className="text-slate-500 text-sm font-medium mb-8">
                 Devis gratuit et sans engagement. Réponse en 48h.
