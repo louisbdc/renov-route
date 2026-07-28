@@ -137,7 +137,7 @@ export default function Content() {
         Pour un guide complet des <Link href="/guides/entretien-parking-signes-renovation">signes d'usure à surveiller</Link>, consultez notre article dédié.
       </p>
 
-      <h2>Budget de rénovation : combien ça coûte par poste</h2>
+      <h2>Budget de rénovation : combien ça coûté par poste</h2>
       <p>
         Voici les fourchettes de prix pour un parking d'entreprise de taille moyenne (30 à 100 places). Les prix sont en HT.
       </p>

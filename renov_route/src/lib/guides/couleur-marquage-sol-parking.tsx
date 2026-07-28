@@ -335,7 +335,7 @@ export default function Content() {
         <li><strong>Un plan de marquage validé</strong> : avant toute application, nous établissons un plan complet avec chaque couleur positionnée selon la réglementation</li>
       </ul>
       <p>
-        Chez Renov&apos;Route, nous intervenons depuis 2014 sur les parkings de grandes enseignes (Carrefour, Lidl, McDonald&apos;s) et de collectivités en région lyonnaise et dans toute la France. Chaque projet inclut un plan de marquage conforme aux normes, validé avant intervention.
+        Chez Renov&apos;Route, nous intervenons depuis 2016 sur les parkings de grandes enseignes (Carrefour, Lidl, McDonald&apos;s) et de collectivités en région lyonnaise et dans toute la France. Chaque projet inclut un plan de marquage conforme aux normes, validé avant intervention.
       </p>
 
       <h2>FAQ : couleur marquage au sol parking</h2>

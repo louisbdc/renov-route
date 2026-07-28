@@ -4,8 +4,8 @@ import Link from 'next/link'
 export const meta: Guide = {
   slug: 'rampe-pour-pmr-normes-types',
   title: 'Rampe pour PMR : le guide complet pour être en conformité',
-  metaTitle: 'Rampe pour PMR: normes, types et installation | Renov\'Route',
-  metaDescription: 'Tout savoir sur les rampes pour PMR: normes d\'accessibilité, pentes réglementaires, types de rampes et prix. Guide complet par Renov\'Route, expert depuis 2014.',
+  metaTitle: 'Rampe PMR : pente de 5 %, 8 % ou 10 % selon la longueur',
+  metaDescription: 'La pente maximale dépend du dénivelé : 5 % au-delà de 2 m, 8 % jusqu\'à 2 m, 10 % sous 0,50 m. Paliers de repos, types de rampes et prix constatés.',
   publishDate: '2026-03-31',
   updatedDate: '2026-05-21',
   category: 'normes-pmr',
@@ -20,7 +20,7 @@ export default function Content() {
         Votre établissement est-il réellement accessible ? En France, <strong>40% des Établissements Recevant du Public (ERP) ne respectent pas encore les normes d&apos;accessibilité PMR</strong>. Et les sanctions sont lourdes : jusqu&apos;à 45 000 EUR d&apos;amende et trois ans d&apos;emprisonnement pour les personnes physiques.
       </p>
       <p>
-        Vous gerez un commerce, un parking ou un bâtiment public et vous savez que l&apos;accessibilité est un sujet a traiter. Peut-être avez-vous reçu une mise en demeure, ou peut-être anticipez-vous simplement la prochaine visite de la commission de sécurité. Dans les deux cas, la rampe pour PMR (Personne a Mobilite Reduite), aussi appelée rampe handicape, est souvent la première installation à mettre en place.
+        Vous gérez un commerce, un parking ou un bâtiment public et vous savez que l&apos;accessibilité est un sujet a traiter. Peut-être avez-vous reçu une mise en demeure, ou peut-être anticipez-vous simplement la prochaine visite de la commission de sécurité. Dans les deux cas, la rampe pour PMR (Personne a Mobilite Reduite), aussi appelée rampe handicapé, est souvent la première installation à mettre en place.
       </p>
       <p>Dans ce guide, vous allez découvrir :</p>
       <ul>
@@ -31,7 +31,7 @@ export default function Content() {
         <li>Les <strong>erreurs fréquentes</strong> qui rendent une rampe non conforme</li>
       </ul>
       <p>
-        <strong>Vous avez un projet de mise aux normes PMR ?</strong> Renov&apos;Route accompagne les gestionnaires de parkings et d&apos;ERP dans leur mise en conformité depuis 2014. <Link href="/devis">Demandez un devis gratuit</Link> en 48h.
+        <strong>Vous avez un projet de mise aux normes PMR ?</strong> Renov&apos;Route accompagne les gestionnaires de parkings et d&apos;ERP dans leur mise en conformité depuis 2016. <Link href="/devis">Demandez un devis gratuit</Link> en 48h.
       </p>
 
       <h2>Pourquoi installer une rampe pour PMR est obligatoire</h2>
@@ -67,7 +67,7 @@ export default function Content() {
 
       <h3>L&apos;histoire de Philippe, gérant d&apos;un Intermarche dans l&apos;Ain</h3>
       <p>
-        Philippe gérait un Intermarche a Neuville-sur-Ain depuis huit ans. En septembre 2025, une cliente en fauteuil roulant a signalé l&apos;absence de rampe d&apos;accès au niveau de l&apos;entrée laterale du magasin. La plainte est remontee à la commission d&apos;accessibilité departementale. Philippe a reçu une mise en demeure avec un délai de trois mois pour se mettre en conformité.
+        Philippe gérait un Intermarche a Neuville-sur-Ain depuis huit ans. En septembre 2025, une cliente en fauteuil roulant a signalé l&apos;absence de rampe d&apos;accès au niveau de l&apos;entrée latérale du magasin. La plainte est remontee à la commission d&apos;accessibilité departementale. Philippe a reçu une mise en demeure avec un délai de trois mois pour se mettre en conformité.
       </p>
       <p>
         Il a fait appel à Renov&apos;Route pour un diagnostic complet. Résultat : en plus de la rampe manquante, le <Link href="/competences/tracage-retracage-parking">marquage des places PMR</Link> sur le parking était non conforme (pictogrammes effacés, dimensions insuffisantes). L&apos;ensemble des travaux, rampe et retraçage, a été réalise en quatre jours. Philippe a évité l&apos;amende et, surtout, son magasin est désormais accessible à tous.
@@ -142,10 +142,10 @@ export default function Content() {
       <ul>
         <li>Travaux de maconnerie importants</li>
         <li>Délai d&apos;installation de 1 à 3 semaines</li>
-        <li>Non demontable (modification définitive)</li>
+        <li>Non démontable (modification définitive)</li>
         <li>Coût plus élevé</li>
       </ul>
-      <p><strong>Prix indicatif :</strong> 2 000 à 8 000 EUR selon la longueur et la complexite.</p>
+      <p><strong>Prix indicatif :</strong> 2 000 à 8 000 EUR selon la longueur et la complexité.</p>
 
       <h3>Rampe fixe en aluminium</h3>
       <p>
@@ -154,14 +154,14 @@ export default function Content() {
       <p><strong>Avantages :</strong></p>
       <ul>
         <li>Installation en 1 à 2 jours</li>
-        <li>Legere et résistante à la corrosion</li>
-        <li>Surface antiderapante intégrée</li>
+        <li>Légère et résistante à la corrosion</li>
+        <li>Surface antidérapante intégrée</li>
         <li>Bonne durée de vie (15-20 ans)</li>
       </ul>
       <p><strong>Inconvenients :</strong></p>
       <ul>
         <li>Aspect plus industriel</li>
-        <li>Capacite de charge inférieure au béton</li>
+        <li>Capacité de charge inférieure au béton</li>
         <li>Sensible aux déformations sous charges lourdes</li>
       </ul>
       <p><strong>Prix indicatif :</strong> 1 500 à 5 000 EUR pose comprise.</p>
@@ -178,7 +178,7 @@ export default function Content() {
       </ul>
       <p><strong>Inconvenients :</strong></p>
       <ul>
-        <li>Necessite l&apos;intervention du personnel pour l&apos;installer</li>
+        <li>Nécessite l&apos;intervention du personnel pour l&apos;installer</li>
         <li>Longueur limitée (denivele max 12-15 cm)</li>
         <li>Non autonome pour l&apos;usager</li>
         <li><strong>Acceptee uniquement si une rampe fixe est techniquement impossible</strong></li>
@@ -192,21 +192,21 @@ export default function Content() {
         Après une étude technique, la copropriété a opté pour une rampe fixe en aluminium avec mains courantes. L&apos;installation a duré une journée. Le coût de 3 200 EUR a été réparti sur les charges communes. Le copropriétaire est désormais autonome pour accéder à son domicile, et la copropriété est en conformité avec la loi.
       </p>
 
-      <h3>Rampe en résine ou enrobe</h3>
+      <h3>Rampe en résine ou enrobé</h3>
       <p>
-        Pour les accès extérieurs et les parkings, une rampe en résine ou enrobe permet de traiter les deniveles directement au sol.
+        Pour les accès extérieurs et les parkings, une rampe en résine ou enrobé permet de traiter les deniveles directement au sol.
       </p>
       <p><strong>Avantages :</strong></p>
       <ul>
         <li>Integration naturelle dans l&apos;environnement extérieur</li>
-        <li>Antiderapante par nature</li>
+        <li>Antidérapante par nature</li>
         <li>Combinable avec le <Link href="/competences/tracage-retracage-parking">marquage au sol de parking</Link> (places PMR, cheminements)</li>
         <li>Entretien minimal</li>
       </ul>
       <p><strong>Inconvenients :</strong></p>
       <ul>
         <li>Limitée aux faibles deniveles (bordures, seuils)</li>
-        <li>Necessite un support stable</li>
+        <li>Nécessite un support stable</li>
       </ul>
       <p><strong>Prix indicatif :</strong> 500 à 2 000 EUR selon la surface.</p>
 
@@ -218,11 +218,11 @@ export default function Content() {
         <li>Moins de 5 cm : une simple pente douce en résine ou béton suffit</li>
         <li>5 à 20 cm : rampe fixe en aluminium ou béton, ou rampe amovible si ERP 5e catégorie</li>
         <li>20 cm à 1 m : rampe fixe obligatoire (béton ou aluminium)</li>
-        <li>Plus de 1 m : rampe fixe avec paliers de repos, ou envisager un elevateur PMR</li>
+        <li>Plus de 1 m : rampe fixe avec paliers de repos, ou envisager un élévateur PMR</li>
       </ul>
       <p><strong>2. Intérieur ou extérieur ?</strong></p>
       <ul>
-        <li>Intérieur : aluminium ou béton lisse, avec revêtement antiderapant</li>
+        <li>Intérieur : aluminium ou béton lisse, avec revêtement antidérapant</li>
         <li>Extérieur : béton, résine ou aluminium galvanisé, avec traitement antigel</li>
       </ul>
       <p><strong>3. Permanent ou temporaire ?</strong></p>
@@ -244,7 +244,7 @@ export default function Content() {
         <li><strong>Pente trop raide.</strong> C&apos;est l&apos;erreur numéro un. Une rampe à 15% est inutilisable en fauteuil roulant. Respectez les 5-8-10% réglementaires.</li>
         <li><strong>Absence de palier de repos.</strong> Au-delà de 10 m de rampe, un palier horizontal est obligatoire. Sans lui, la rampe est non conforme.</li>
         <li><strong>Mains courantes manquantes ou mal positionnees.</strong> Les deux mains courantes (0,80 m et 1,00 m) sont obligatoires de chaque côté.</li>
-        <li><strong>Rampe amovible par défaut.</strong> Beaucoup de commercants installent une rampe amovible &quot;par facilité&quot;. Elle n&apos;est acceptee que si une rampe fixe est techniquement impossible, et elle doit être signalée par un bouton d&apos;appel.</li>
+        <li><strong>Rampe amovible par défaut.</strong> Beaucoup de commerçants installent une rampe amovible &quot;par facilité&quot;. Elle n&apos;est acceptee que si une rampe fixe est techniquement impossible, et elle doit être signalée par un bouton d&apos;appel.</li>
         <li><strong>Oublier le cheminement complet.</strong> La rampe ne sert à rien si le parking n&apos;a pas de places PMR conformes ou si le cheminement entre le parking et l&apos;entrée n&apos;est pas accessible. L&apos;accessibilité se pense de bout en bout, du stationnement à l&apos;accueil.</li>
       </ol>
 
@@ -264,7 +264,7 @@ export default function Content() {
             <tr><td>Rampe amovible (aluminium)</td><td>300 - 1 500 EUR</td><td>10-15 ans</td></tr>
             <tr><td>Rampe fixe aluminium</td><td>1 500 - 5 000 EUR</td><td>15-20 ans</td></tr>
             <tr><td>Rampe fixe béton</td><td>2 000 - 8 000 EUR</td><td>30+ ans</td></tr>
-            <tr><td>Rampe résine/enrobe (faible denivele)</td><td>500 - 2 000 EUR</td><td>10-15 ans</td></tr>
+            <tr><td>Rampe résine/enrobé (faible denivele)</td><td>500 - 2 000 EUR</td><td>10-15 ans</td></tr>
             <tr><td>Rampe fixe avec paliers et mains courantes (long denivele)</td><td>5 000 - 15 000 EUR</td><td>30+ ans</td></tr>
           </tbody>
         </table>
@@ -302,15 +302,15 @@ export default function Content() {
         Chez Renov&apos;Route, nous traitons l&apos;ensemble de ces éléments dans une approche globale. Du <Link href="/competences/tracage-retracage-parking">traçage des places PMR</Link> à la pose de panneaux en passant par les rampes d&apos;accès, un seul interlocuteur gère votre mise en conformité de A a Z.
       </p>
       <p>
-        Decouvrez <Link href="/realisations">nos réalisations</Link> : plus de 1 000 projets réalisés depuis 2014 pour des enseignes comme Carrefour, Lidl et McDonald&apos;s.
+        Decouvrez <Link href="/realisations">nos réalisations</Link> : plus de 1 000 projets réalisés depuis 2016 pour des enseignes comme Carrefour, Lidl et McDonald&apos;s.
       </p>
 
       <h2>Le recit de Marc, responsable technique chez Lidl</h2>
       <p>
-        Marc supervisait la mise aux normes de 12 magasins Lidl en region Rhône-Alpes. Chaque site présentait des problématiques différentes : rampes inexistantes, places PMR mal dimensionnées, signalisation absente.
+        Marc supervisait la mise aux normes de 12 magasins Lidl en région Rhône-Alpes. Chaque site présentait des problématiques différentes : rampes inexistantes, places PMR mal dimensionnées, signalisation absente.
       </p>
       <p>
-        Plutot que de gérer 12 prestataires différents, Marc a confie l&apos;ensemble du projet a Renov&apos;Route. En six semaines, les 12 sites étaient conformes : rampes installées, places PMR retracees, panneaux poses. Un seul interlocuteur, un planning respecte, zéro mauvaise surprise.
+        Plutôt que de gérer 12 prestataires différents, Marc a confie l&apos;ensemble du projet a Renov&apos;Route. En six semaines, les 12 sites étaient conformes : rampes installées, places PMR retracees, panneaux poses. Un seul interlocuteur, un planning respecte, zéro mauvaise surprise.
       </p>
       <p>
         Le coût total, réparti sur 12 sites, revenait a environ 4 500 EUR par magasin, rampe, marquage et signalisation compris. Un investissement raisonnable compare aux 45 000 EUR d&apos;amende par site non conforme.
@@ -338,9 +338,9 @@ export default function Content() {
         1,40 m entre les mains courantes, soit un passage utile de 1,20 m minimum.
       </p>
 
-      <h3>Rampe handicape ou rampe PMR : quelle difference ?</h3>
+      <h3>Rampe handicapé ou rampe PMR : quelle difference ?</h3>
       <p>
-        Aucune. &quot;Rampe handicape&quot; est le terme courant dans le langage quotidien, tandis que &quot;rampe PMR&quot; est le terme réglementaire. Les normes et exigences sont strictement identiques.
+        Aucune. &quot;Rampe handicapé&quot; est le terme courant dans le langage quotidien, tandis que &quot;rampe PMR&quot; est le terme réglementaire. Les normes et exigences sont strictement identiques.
       </p>
 
       <h3>Qui est responsable en cas de non-conformite dans un parking privé ?</h3>

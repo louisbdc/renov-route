@@ -229,7 +229,7 @@ export default function Content() {
 
       <p>
         Marc, pr&eacute;sident du conseil syndical d&apos;une
-        copropri&eacute;t&eacute; de 45 lots &agrave; Ecully (69), a fait
+        copropri&eacute;t&eacute; de 45 lots &agrave; Écully (69), a fait
         installer un panneau de r&egrave;glement int&eacute;rieur apr&egrave;s
         des conflits r&eacute;p&eacute;t&eacute;s sur le stationnement en
         double file dans les all&eacute;es. Le panneau, associ&eacute; &agrave;

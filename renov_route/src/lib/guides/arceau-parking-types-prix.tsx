@@ -20,7 +20,7 @@ export default function Content() {
         Vous retrouvez régulièrement des véhicules garés sur vos emplacements réservés? Des livraisons bloquent l&apos;accès à votre parking? Des voitures occupent les places PMR sans autorisation? Vous n&apos;êtes pas seul. <strong>Le stationnement sauvage est le problème numéro un cite par les gestionnaires de parkings en France.</strong>
       </p>
       <p>
-        L&apos;arceau parking est la solution la plus efficace et la plus économique pour protéger vos espaces. Qu&apos;il s&apos;agisse de réserver des places, d&apos;empêcher l&apos;accès non autorisé ou de sécuriser des zones de livraison, l&apos;arceau de parking s&apos;adapte à tous les besoins.
+        L&apos;arceau parking est la solution la plus efficace et la plus économique pour protéger vos espaces. Qu&apos;il s&apos;agisse de réserver des places, d&apos;empêcher l&apos;accès non autorisé ou de sécuriser des zones de livraison, l&apos;arceau de parking s&apos;adapté à tous les besoins.
       </p>
       <p>Dans ce guide, vous allez découvrir :</p>
       <ul>
@@ -31,7 +31,7 @@ export default function Content() {
         <li>Les <strong>erreurs courantes</strong> à éviter lors de la pose</li>
       </ul>
       <p>
-        <strong>Besoin d&apos;équiper votre parking?</strong> Renov&apos;Route fournit et installé tous types d&apos;<Link href="/competences/accessoires-parking">accessoires de parking</Link> depuis 2014. <Link href="/devis">Demandez un devis gratuit</Link> en 48h.
+        <strong>Besoin d&apos;équiper votre parking?</strong> Renov&apos;Route fournit et installé tous types d&apos;<Link href="/competences/accessoires-parking">accessoires de parking</Link> depuis 2016. <Link href="/devis">Demandez un devis gratuit</Link> en 48h.
       </p>
 
       <h2>Pourquoi installer des arceaux de parking</h2>
@@ -161,7 +161,7 @@ export default function Content() {
       <ul>
         <li>Usage occasionnel (quelques fois par jour) : arceau rabattable a clé</li>
         <li>Usage fréquent (dizaines de fois par jour) : arceau automatique</li>
-        <li>Usage permanent (jamais abaisse) : arceau fixe</li>
+        <li>Usage permanent (jamais abaissé) : arceau fixe</li>
       </ul>
       <p><strong>3. Quel environnement?</strong></p>
       <ul>
@@ -193,14 +193,14 @@ export default function Content() {
       <p>Avant toute pose, il faut définir :</p>
       <ul>
         <li>L&apos;emplacement exact de chaque arceau (centrage sur la place, distance aux murs)</li>
-        <li>Le type de sol (béton, enrobe, pavés, dalles)</li>
+        <li>Le type de sol (béton, enrobé, pavés, dalles)</li>
         <li>La présence de réseaux enterrés (câbles, canalisations)</li>
         <li>L&apos;accessibilité pour les usagers (dégagement suffisant pour ouvrir les portières)</li>
       </ul>
 
       <h3>2. Préparation du sol</h3>
       <ul>
-        <li><strong>Béton ou enrobe</strong> : perçage au foret diamant, scellement chimique</li>
+        <li><strong>Béton ou enrobé</strong> : perçage au foret diamant, scellement chimique</li>
         <li><strong>Pavés ou dalles</strong> : depose locale, création de massif béton, repose</li>
         <li><strong>Sol meuble</strong> : création d&apos;un massif béton de scellement</li>
       </ul>
@@ -223,11 +223,11 @@ export default function Content() {
       </p>
       <ul>
         <li><Link href="/competences/tracage-retracage-parking">Marquage au sol</Link> : lignes de places, numérotation, pictogrammes PMR</li>
-        <li><Link href="/competences/signalisation-verticale">Signalisation verticale</Link> : panneaux &quot;stationnement reserve&quot;, &quot;propriété privée&quot;, panneaux PMR</li>
+        <li><Link href="/competences/signalisation-verticale">Signalisation verticale</Link> : panneaux &quot;stationnement réservé&quot;, &quot;propriété privée&quot;, panneaux PMR</li>
         <li>Peinture de l&apos;arceau aux couleurs de l&apos;entreprise ou de la copropriété</li>
       </ul>
       <p>
-        Decouvrez <Link href="/realisations">nos réalisations</Link> : plus de 1 000 projets d&apos;aménagement de parking réalisés depuis 2014.
+        Decouvrez <Link href="/realisations">nos réalisations</Link> : plus de 1 000 projets d&apos;aménagement de parking réalisés depuis 2016.
       </p>
 
       <h2>Prix des arceaux de parking en 2026</h2>
@@ -287,11 +287,11 @@ export default function Content() {
       <h3>Ce qui fait varier le prix d&apos;un arceau parking</h3>
       <p><strong>Facteurs principaux :</strong></p>
       <ul>
-        <li><strong>Matériau</strong> : acier peint &lt; acier galvanise &lt; inox</li>
+        <li><strong>Matériau</strong> : acier peint &lt; acier galvanisé &lt; inox</li>
         <li><strong>Mecanisme</strong> : fixe &lt; clé &lt; automatique</li>
-        <li><strong>Quantite</strong> : degression à partir de 10 unités (jusqu&apos;à -20%)</li>
-        <li><strong>Type de sol</strong> : béton (simple) &lt; enrobe (moyen) &lt; pavés (complexe)</li>
-        <li><strong>Accessibilité du chantier</strong> : parking souterrain = surcout logistique</li>
+        <li><strong>Quantité</strong> : dégression à partir de 10 unités (jusqu&apos;à -20%)</li>
+        <li><strong>Type de sol</strong> : béton (simple) &lt; enrobé (moyen) &lt; pavés (complexe)</li>
+        <li><strong>Accessibilité du chantier</strong> : parking souterrain = surcoût logistique</li>
       </ul>
 
       <h3>Exemples de budgets réels</h3>
@@ -300,7 +300,7 @@ export default function Content() {
           <thead>
             <tr>
               <th>Projet</th>
-              <th>Quantite</th>
+              <th>Quantité</th>
               <th>Type</th>
               <th>Budget total</th>
             </tr>
@@ -341,13 +341,13 @@ export default function Content() {
       <ol>
         <li><strong>Choisir l&apos;arceau le moins cher sans réfléchir à l&apos;usage.</strong> Un arceau fixe à 80 EUR ne sert à rien si vous avez besoin d&apos;un accès régulier à la place. L&apos;économie initiale se transforme en coût de remplacement.</li>
         <li><strong>Oublier la galvanisation à chaud pour l&apos;extérieur.</strong> Un arceau simplement peint rouille en 2-3 ans en extérieur. La galvanisation à chaud coûte 20-30% de plus mais dure 15-20 ans.</li>
-        <li><strong>Mal positionner l&apos;arceau sur la place.</strong> Un arceau trop en avant ou trop lateral ne bloque pas efficacement la place. Le positionnement optimal est au centre, à 1,50 m du début de la place.</li>
-        <li><strong>Installer des arceaux sans marquage au sol.</strong> Un arceau sans ligne de place, sans numérotation et sans signalisation perd la moitie de son efficacité. Combinez toujours arceau + marquage + signalisation.</li>
+        <li><strong>Mal positionner l&apos;arceau sur la place.</strong> Un arceau trop en avant ou trop latéral ne bloque pas efficacement la place. Le positionnement optimal est au centre, à 1,50 m du début de la place.</li>
+        <li><strong>Installer des arceaux sans marquage au sol.</strong> Un arceau sans ligne de place, sans numérotation et sans signalisation perd la moitié de son efficacité. Combinez toujours arceau + marquage + signalisation.</li>
         <li><strong>Ne pas prévoir la gestion des clés.</strong> Pour les arceaux a clé, prévoyez un système de distribution, de doublés et de remplacement. Un arceau dont personne n&apos;a la clé est un obstacle inutile.</li>
       </ol>
 
       <h2>Arceau parking et accessibilité PMR</h2>
-      <p>Les places PMR meritent une attention particulière. La réglementation impose :</p>
+      <p>Les places PMR méritent une attention particulière. La réglementation impose :</p>
       <ul>
         <li><strong>2% des places</strong> (minimum 1) doivent être PMR</li>
         <li>Dimensions minimales : <strong>3,30 m x 5 m</strong> (espace de manoeuvre pour fauteuil roulant)</li>
@@ -363,13 +363,13 @@ export default function Content() {
 
       <h2>Le recit de Laurent, responsable maintenance chez Carrefour</h2>
       <p>
-        Laurent supervisait cinq Carrefour en region lyonnaise. Sur chaque site, les places PMR situées près de l&apos;entrée étaient systématiquement occupées par des véhicules sans carte CMI. Les reclamations clients s&apos;accumulaient.
+        Laurent supervisait cinq Carrefour en région lyonnaise. Sur chaque site, les places PMR situées près de l&apos;entrée étaient systématiquement occupées par des véhicules sans carte CMI. Les réclamations clients s&apos;accumulaient.
       </p>
       <p>
         Après un diagnostic global, Renov&apos;Route a installé sur les cinq sites : arceaux rabattables sur les places PMR, retraçage complet des places et pictogrammes, et pose de panneaux de signalisation. Le tout en deux semaines, avec intervention de nuit pour ne pas perturber l&apos;activité commerciale.
       </p>
       <p>
-        Résultat : les places PMR sont désormais disponibles à 95% du temps. Les reclamations ont chuté. Et Laurent gère les cinq sites avec un seul interlocuteur chez Renov&apos;Route.
+        Résultat : les places PMR sont désormais disponibles à 95% du temps. Les réclamations ont chuté. Et Laurent gère les cinq sites avec un seul interlocuteur chez Renov&apos;Route.
       </p>
 
       <h2>FAQ : vos questions sur les arceaux de parking</h2>
@@ -384,9 +384,9 @@ export default function Content() {
         Un arceau galvanisé à chaud dure 15 à 20 ans en extérieur. Un arceau peint, 5 à 8 ans. Un arceau automatique à une durée de vie mécanique de 10 à 15 ans, sous reserve d&apos;un entretien annuel.
       </p>
 
-      <h3>Peut-on installer un arceau sur un parking en enrobe?</h3>
+      <h3>Peut-on installer un arceau sur un parking en enrobé?</h3>
       <p>
-        Oui. Le scellement chimique fonctionne aussi bien sur béton que sur enrobe. La seule contrainte est que l&apos;enrobe soit en bon etat (pas de nid de poule ni de fissure au point de scellement).
+        Oui. Le scellement chimique fonctionne aussi bien sur béton que sur enrobé. La seule contrainte est que l&apos;enrobé soit en bon état (pas de nid de poule ni de fissure au point de scellement).
       </p>
 
       <h3>Combien d&apos;arceaux peut-on installer par jour?</h3>
@@ -399,7 +399,7 @@ export default function Content() {
         Un arceau correctement scellé au sol (scellement chimique + tige filetee inox) résiste à l&apos;arrachement. Les modèles renforcés nécessitent un équipement lourd pour être retirés.
       </p>
 
-      <h3>Quelle difference entre un arceau parking et un arceau vélo parking?</h3>
+      <h3>Quelle différence entre un arceau parking et un arceau vélo parking?</h3>
       <p>
         L&apos;arceau vélo parking (ou arceau range-vélo) sert à attacher les vélos, pas à bloquer les voitures. Sa forme en U inverse est plus étroite (40-60 cm). Ne confondez pas les deux lors de votre commande.
       </p>
@@ -409,7 +409,7 @@ export default function Content() {
         L&apos;arceau parking est une solution simple, durable et économique pour sécuriser vos espaces de stationnement. Fixe, rabattable ou automatique, chaque modèle répond à un besoin précis. Le bon choix dépend de votre objectif (protection, réservation, contrôle d&apos;accès), de votre fréquence d&apos;utilisation et de votre budget.
       </p>
       <p>
-        Retenez l&apos;essentiel : un arceau seul ne suffit pas. L&apos;efficacité maximale vient de la combinaison arceau + marquage au sol + signalisation. C&apos;est cette approche globale que Renov&apos;Route propose depuis 2014.
+        Retenez l&apos;essentiel : un arceau seul ne suffit pas. L&apos;efficacité maximale vient de la combinaison arceau + marquage au sol + signalisation. C&apos;est cette approche globale que Renov&apos;Route propose depuis 2016.
       </p>
       <p>
         <strong>Renov&apos;Route fournit et installé tous types d&apos;arceaux et de bornes de parking sur Lyon, en Rhône-Alpes et dans toute la France.</strong> Un seul interlocuteur, un diagnostic gratuit, un devis en 48h.

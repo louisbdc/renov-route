@@ -10,14 +10,14 @@ export const meta: Guide = {
   updatedDate: '2026-05-21',
   category: 'marquage-parking',
   readingTime: 12,
-  excerpt: 'Reglementation, signalisation, marquage au sol, dimensions et budget : tout pour aménager un parking visiteurs conforme et bien gère.',
+  excerpt: 'Réglementation, signalisation, marquage au sol, dimensions et budget : tout pour aménager un parking visiteurs conforme et bien gère.',
 }
 
 export default function Content() {
   return (
     <>
       <p>
-        Mardi matin, 9h15. Votre client le plus important tourne depuis dix minutes dans votre parking. Aucune place identifiée pour les visiteurs. Il finit par se garer sur un emplacement réservé aux salaries, reçoit un mot desagreable sur son pare-brise et arrive à votre rendez-vous agace. La première impression est ratee.
+        Mardi matin, 9h15. Votre client le plus important tourne depuis dix minutes dans votre parking. Aucune place identifiée pour les visiteurs. Il finit par se garer sur un emplacement réservé aux salariés, reçoit un mot desagreable sur son pare-brise et arrive à votre rendez-vous agace. La première impression est ratee.
       </p>
       <p>
         Ce scénario se répète chaque jour dans des centaines d&apos;entreprises, copropriétés et établissements recevant du public en France. Le <strong>parking visiteurs</strong> est souvent le parent pauvre de l&apos;aménagement extérieur. Pourtant, c&apos;est le premier point de contact physique avec vos clients, partenaires et fournisseurs.
@@ -41,12 +41,12 @@ export default function Content() {
         Un visiteur qui ne trouve pas de place ou qui hésite sur l&apos;endroit ou se garer arrive stresse. A l&apos;inverse, un parking avec des <strong>places visiteurs</strong> clairement identifiées envoie un signal de professionnalisme et d&apos;organisation.
       </p>
       <p>
-        Les grandes enseignes l&apos;ont compris depuis longtemps. Carrefour, Lidl, McDonald&apos;s -- tous ces acteurs investissent dans une signalisation parking visiteurs soignee. Renov&apos;Route a d&apos;ailleurs réalise le <Link href="/competences/tracage-retracage-parking">marquage au sol</Link> de plusieurs de ces enseignes en region lyonnaise.
+        Les grandes enseignes l&apos;ont compris depuis longtemps. Carrefour, Lidl, McDonald&apos;s -- tous ces acteurs investissent dans une signalisation parking visiteurs soignee. Renov&apos;Route a d&apos;ailleurs réalise le <Link href="/competences/tracage-retracage-parking">marquage au sol</Link> de plusieurs de ces enseignes en région lyonnaise.
       </p>
 
       <h3>Organisation interne et réduction des conflits</h3>
       <p>
-        Sans places visiteurs identifiées, les conflits entre salaries et visiteurs sont inévitables. Les collaborateurs se plaignent que &quot;les clients prennent leurs places&quot;. Les visiteurs tournent en rond. L&apos;accueil perd du temps à orienter les véhicules.
+        Sans places visiteurs identifiées, les conflits entre salariés et visiteurs sont inévitables. Les collaborateurs se plaignent que &quot;les clients prennent leurs places&quot;. Les visiteurs tournent en rond. L&apos;accueil perd du temps à orienter les véhicules.
       </p>
       <p>
         Un <strong>parking visiteurs</strong> correctement amenage resout ces trois problèmes en une seule intervention : traçage, signalisation et numérotation.
@@ -54,7 +54,7 @@ export default function Content() {
 
       <h3>L&apos;expérience de Marc, directeur d&apos;un site logistique a Vénissieux</h3>
       <p>
-        Marc gérait un entrepot avec 80 places de parking et une dizaine de visiteurs quotidiens : clients, transporteurs, auditeurs. Aucune place n&apos;était réservée. Les livreurs se garaient devant les quais, bloquant les opérations. Les clients se garaient sur les places des chefs d&apos;équipe, generant des tensions.
+        Marc gérait un entrepôt avec 80 places de parking et une dizaine de visiteurs quotidiens : clients, transporteurs, auditeurs. Aucune place n&apos;était réservée. Les livreurs se garaient devant les quais, bloquant les opérations. Les clients se garaient sur les places des chefs d&apos;équipe, generant des tensions.
       </p>
       <p>
         En janvier 2025, Marc a fait appel à Renov&apos;Route pour créer 12 places visiteurs à proximité de l&apos;accueil, avec marquage au sol blanc, panneaux &quot;Parking visiteurs&quot; et numérotation de P1 a P12. Coût total : 1 850 EUR HT. Résultat : zéro conflit de stationnement en six mois et un retour positif des transporteurs sur la qualité d&apos;accueil du site.
@@ -114,7 +114,7 @@ export default function Content() {
         Les panneaux doivent être en aluminium ou acier galvanisé, avec film retro-reflechissant de classe 1 minimum pour une visibilité nocturne. Le fond bleu avec pictogramme blanc est le standard le plus reconnu (conforme à la norme NF EN 12899-1).
       </p>
       <p>
-        Renov&apos;Route fournit et installé tous les types de <Link href="/competences/signalisation-verticale">panneaux</Link> de parking, de la signalétique standard aux panneaux personnalises avec votre logo.
+        Renov&apos;Route fournit et installé tous les types de <Link href="/competences/signalisation-verticale">panneaux</Link> de parking, de la signalétique standard aux panneaux personnalisés avec votre logo.
       </p>
 
       <h3>Le marquage au sol</h3>
@@ -133,7 +133,7 @@ export default function Content() {
         <li>Centre longitudinalement sur la place</li>
         <li>Repete sur chaque emplacement ou tous les deux emplacements</li>
       </ul>
-      <p><strong>Numerotation des places :</strong></p>
+      <p><strong>Numérotation des places :</strong></p>
       <ul>
         <li>Chiffres de 15 à 30 cm</li>
         <li>Peints en tête de place ou sur le mur adjacent</li>
@@ -201,7 +201,7 @@ export default function Content() {
         </table>
       </div>
       <p>
-        <strong>Conseil :</strong> pour les places visiteurs, privilégiez la largeur &quot;confort&quot; de 2,50 m. Vos visiteurs ne connaissent pas votre parking et manoeuvrent avec plus d&apos;hésitation que vos collaborateurs habitues. Les 20 cm supplémentaires reduisent les accrochages et les reclamations.
+        <strong>Conseil :</strong> pour les places visiteurs, privilégiez la largeur &quot;confort&quot; de 2,50 m. Vos visiteurs ne connaissent pas votre parking et manoeuvrent avec plus d&apos;hésitation que vos collaborateurs habitues. Les 20 cm supplémentaires reduisent les accrochages et les réclamations.
       </p>
 
       <h3>Implantation stratégique</h3>
@@ -219,7 +219,7 @@ export default function Content() {
       <h3>Combien de places visiteurs prévoir ?</h3>
       <p>Il n&apos;existe pas de ratio universel, mais voici des repérés :</p>
       <ul>
-        <li><strong>Bureaux</strong> : 1 place visiteur pour 10 salaries (soit environ 10% du total)</li>
+        <li><strong>Bureaux</strong> : 1 place visiteur pour 10 salariés (soit environ 10% du total)</li>
         <li><strong>Commerce</strong> : 80 à 100% des places sont &quot;visiteurs&quot; (ce sont les clients)</li>
         <li><strong>Copropriété</strong> : 10 à 20% du nombre total de places</li>
         <li><strong>Site industriel</strong> : 5 à 10 places, selon la fréquentation</li>
@@ -229,7 +229,7 @@ export default function Content() {
 
       <h3>Le problème récurrent de l&apos;occupation abusive</h3>
       <p>
-        La signalisation seule ne suffit pas toujours. Les places visiteurs sont souvent les plus proches de l&apos;entrée et donc les plus convoitees. Sans système de gestion, elles finissent occupées par des habitudes : salaries en retard, résidents paresseux, voisins opportunistes.
+        La signalisation seule ne suffit pas toujours. Les places visiteurs sont souvent les plus proches de l&apos;entrée et donc les plus convoitees. Sans système de gestion, elles finissent occupées par des habitudes : salariés en retard, résidents paresseux, voisins opportunistes.
       </p>
 
       <h3>Solutions de gestion</h3>
@@ -292,7 +292,7 @@ export default function Content() {
               <td>100 à 200 EUR l&apos;unité</td>
             </tr>
             <tr>
-              <td>Numerotation des places</td>
+              <td>Numérotation des places</td>
               <td>8 à 15 EUR par place</td>
             </tr>
             <tr>
@@ -336,14 +336,14 @@ export default function Content() {
         <li><strong>Total : environ 5 600 EUR HT</strong></li>
       </ul>
       <p>
-        Renov&apos;Route garantit ses travaux de marquage 2 ans. Pour obtenir un chiffrage précis adapte à votre parking, <Link href="/devis">demandez un devis gratuit</Link>. Reponse en 48h, intervention dans toute la France.
+        Renov&apos;Route garantit ses travaux de marquage 2 ans. Pour obtenir un chiffrage précis adapté à votre parking, <Link href="/devis">demandez un devis gratuit</Link>. Reponse en 48h, intervention dans toute la France.
       </p>
 
       <h2>Les erreurs courantes à éviter</h2>
 
       <h3>1. Des places visiteurs trop éloignées de l&apos;entrée</h3>
       <p>
-        C&apos;est l&apos;erreur la plus fréquente. Les places visiteurs sont repoussees au fond du parking &quot;parce qu&apos;il n&apos;y a plus de place ailleurs&quot;. Résultat : personne ne les utilisé, et les visiteurs se garent au plus près -- sur les places des salaries.
+        C&apos;est l&apos;erreur la plus fréquente. Les places visiteurs sont repoussees au fond du parking &quot;parce qu&apos;il n&apos;y a plus de place ailleurs&quot;. Résultat : personne ne les utilisé, et les visiteurs se garent au plus près -- sur les places des salariés.
       </p>
 
       <h3>2. Une signalisation insuffisante ou absente</h3>
@@ -353,7 +353,7 @@ export default function Content() {
 
       <h3>3. Des places trop étroites</h3>
       <p>
-        Rogner sur la largeur des places visiteurs est une fausse économie. Un visiteur qui erafle son véhicule ou celui d&apos;un salarie génère une reclamation qui coûte bien plus que les 20 cm économisés.
+        Rogner sur la largeur des places visiteurs est une fausse économie. Un visiteur qui erafle son véhicule ou celui d&apos;un salarié génère une réclamation qui coûte bien plus que les 20 cm économisés.
       </p>
 
       <h3>4. Aucun système de gestion</h3>
@@ -368,7 +368,7 @@ export default function Content() {
 
       <h3>6. Ne pas entretenir le marquage</h3>
       <p>
-        Un marquage usé, délavé ou à moitié effacé donne une image d&apos;abandon. Prévoyez un retracement tous les 2 à 3 ans pour un parking extérieur. Renov&apos;Route a réalisé plus de 1 000 projets de <Link href="/competences/tracage-retracage-parking">marquage au sol</Link> depuis 2014 -- consultez <Link href="/realisations">nos réalisations</Link> pour voir des exemples concrets.
+        Un marquage usé, délavé ou à moitié effacé donne une image d&apos;abandon. Prévoyez un retracement tous les 2 à 3 ans pour un parking extérieur. Renov&apos;Route a réalisé plus de 1 000 projets de <Link href="/competences/tracage-retracage-parking">marquage au sol</Link> depuis 2016 -- consultez <Link href="/realisations">nos réalisations</Link> pour voir des exemples concrets.
       </p>
 
       <h2>FAQ : vos questions sur le parking visiteurs</h2>
@@ -403,7 +403,7 @@ export default function Content() {
         Le <strong>parking visiteurs</strong> est bien plus qu&apos;un détail logistique. C&apos;est un élément de votre image professionnelle, de la satisfaction de vos clients et du bon fonctionnement de votre site. Un marquage clair, des panneaux visibles et un système de gestion adapte suffisent à transformer un parking source de conflits en un espace fluide et accueillant.
       </p>
       <p>
-        Renov&apos;Route accompagne les entreprises, copropriétés et collectivités dans l&apos;aménagement de leurs parkings depuis 2014. Plus de 1 000 projets réalisés en France, une garantie de 2 ans sur les travaux de marquage et un devis gratuit en 48h.
+        Renov&apos;Route accompagne les entreprises, copropriétés et collectivités dans l&apos;aménagement de leurs parkings depuis 2016. Plus de 1 000 projets réalisés en France, une garantie de 2 ans sur les travaux de marquage et un devis gratuit en 48h.
       </p>
       <p>
         <strong>Vous souhaitez aménager ou reorganiser votre parking visiteurs ?</strong> Appelez le 07 86 81 96 92 ou <Link href="/devis">demandez votre devis gratuit en ligne</Link>. Un expert Renov&apos;Route vous répond en 48h avec une proposition détaillée.

@@ -30,7 +30,7 @@ export default function Content() {
       </p>
 
       <p>
-        Thierry, g&eacute;rant d&apos;un centre m&eacute;dical &agrave; Ecully
+        Thierry, g&eacute;rant d&apos;un centre m&eacute;dical &agrave; Écully
         (69), a v&eacute;cu la m&ecirc;me situation. Ses 4 places PMR
         &eacute;taient marqu&eacute;es au sol mais d&eacute;pourvues de
         panneaux. Apr&egrave;s un signalement, il a d&ucirc; faire poser les

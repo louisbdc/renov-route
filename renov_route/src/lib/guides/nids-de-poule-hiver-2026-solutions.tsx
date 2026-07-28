@@ -292,7 +292,7 @@ export default function Content() {
       <p>
         <strong>Vous voulez un chiffrage pour votre parking ?</strong>{' '}
         <Link href="/devis">Demandez un devis gratuit</Link> en 48h. Nous avons réparé
-        plus de 1 000 parkings depuis 2014 pour des enseignes nationales et des
+        plus de 1 000 parkings depuis 2016 pour des enseignes nationales et des
         copropriétés. Consultez{' '}
         <Link href="/realisations">nos réalisations</Link> pour voir des exemples de
         réparations durables.

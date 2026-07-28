@@ -1,10 +1,11 @@
 import type { Guide } from '../guides'
+import KeyAnswer from '@/components/KeyAnswer'
 import Link from 'next/link'
 
 export const meta: Guide = {
   slug: 'dimensions-nombre-places-pmr-parking',
   title: 'Dimensions et nombre de places PMR en parking : le guide de référence',
-  metaTitle: 'Dimensions place PMR parking 2026 : mesures obligatoires + tableau',
+  metaTitle: 'Dimension place PMR : 3,30 × 5 m et 2 % des places (2026)',
   metaDescription: 'Dimensions place PMR : 3,30 m × 5 m minimum, bande 0,80 m, 2% des places obligatoires. Tableau complet + sanctions jusqu\'à 45 000 €. Guide de référence 2026.',
   publishDate: '2026-03-04',
   updatedDate: '2026-05-05',
@@ -16,6 +17,15 @@ export const meta: Guide = {
 export default function Content() {
   return (
     <>
+      <KeyAnswer question="Quelles sont les dimensions d’une place PMR ?">
+        <p>
+        Une place PMR mesure <strong>3,30 m de large sur 5 m de long</strong> minimum : 2,50 m pour la
+        place elle-même, plus une <strong>bande d’accès latérale de 0,80 m</strong> sur toute la longueur.
+        C’est cette bande qui permet d’ouvrir la portière et de déployer une rampe. La pente ne doit
+        dépasser 2 % dans aucun sens.
+        </p>
+      </KeyAnswer>
+
       <p>
         Votre parking fait 45 places. Combien de places PMR devez-vous prévoir ? Deux ? Trois ? Et quelles dimensions exactes doivent-elles respecter ?
       </p>

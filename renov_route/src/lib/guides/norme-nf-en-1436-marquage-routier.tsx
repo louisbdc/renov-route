@@ -256,7 +256,7 @@ export default function Content() {
       </div>
 
       <p>
-        Le SRT (Skid Resistance Tester) mesure la r&eacute;sistance au
+        Le SRT (Skid Résistance Tester) mesure la r&eacute;sistance au
         d&eacute;rapage avec un pendule normalis&eacute;. En parking, la classe
         S1 est suffisante pour les zones plates. La classe S2 est
         recommand&eacute;e pour les rampes d&apos;acc&egrave;s et les passages

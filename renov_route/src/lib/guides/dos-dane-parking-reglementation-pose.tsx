@@ -20,13 +20,13 @@ export default function Content() {
         Un dos d&apos;ane dans un parking, ca ne se pose pas au hasard. Trop haut, il endommage les véhicules. Trop bas, personne ne ralentit. Mal signalé, il provoque des accidents au lieu de les prévenir. La réglementation impose des dimensions précises, et un parking privé n&apos;est pas exempt de règles.
       </p>
       <p>
-        Antoine, directeur d&apos;un centre médical à Caluire-et-Cuire (69), a installé deux dos d&apos;ane dans son parking de 60 places après un accident : un véhicule roulant à 30 km/h avait renverse un patient qui traversait le parking en fauteuil roulant. Fracture du poignet, arrêt de travail, mise en cause de la responsabilité du centre. L&apos;installation des deux dos d&apos;ane poses et signalés a représenté un investissement de quelques milliers d&apos;euros. Depuis l&apos;installation, la vitesse moyenne dans le parking est passee de 25 km/h à 10 km/h. Zéro incident en deux ans.
+        Antoine, directeur d&apos;un centre médical à Caluire-et-Cuire (69), a installé deux dos d&apos;ane dans son parking de 60 places après un accident : un véhicule roulant à 30 km/h avait renversé un patient qui traversait le parking en fauteuil roulant. Fracture du poignet, arrêt de travail, mise en cause de la responsabilité du centre. L&apos;installation des deux dos d&apos;ane poses et signalés a représenté un investissement de quelques milliers d&apos;euros. Depuis l&apos;installation, la vitesse moyenne dans le parking est passee de 25 km/h à 10 km/h. Zéro incident en deux ans.
       </p>
       <p>
-        Dos d&apos;ane, ralentisseur, coussin berlinois : les termes sont souvent confondus. Ce guide clarifie les differences, détaille les normes applicables et explique les règles de pose pour un parking privé.
+        Dos d&apos;ane, ralentisseur, coussin berlinois : les termes sont souvent confondus. Ce guide clarifie les différences, détaille les normes applicables et explique les règles de pose pour un parking privé.
       </p>
 
-      <h2>Dos d&apos;ane, ralentisseur, coussin : les differences</h2>
+      <h2>Dos d&apos;ane, ralentisseur, coussin : les différences</h2>
       <p>
         Les trois termes designent des dispositifs différents, soumis à des règles différentes.
       </p>
@@ -79,7 +79,7 @@ export default function Content() {
 
       <h3>En voie publique</h3>
       <p>
-        Les dos d&apos;ane et ralentisseurs sont réglementés par le decret 94-447 du 27 mai 1994 et la norme NF P 98-300. Ces textes imposent des dimensions précises, une signalisation obligatoire et des conditions d&apos;implantation strictes.
+        Les dos d&apos;ane et ralentisseurs sont réglementés par le décret 94-447 du 27 mai 1994 et la norme NF P 98-300. Ces textes imposent des dimensions précises, une signalisation obligatoire et des conditions d&apos;implantation strictes.
       </p>
 
       <h3>En parking privé</h3>
@@ -157,12 +157,12 @@ export default function Content() {
 
       <h3>Dos d&apos;ane en caoutchouc (modulaire)</h3>
       <p>
-        Le plus courant en parking privé. Des modules en caoutchouc recycle se fixent au sol par chevillage.
+        Le plus courant en parking privé. Des modules en caoutchouc recyclé se fixent au sol par chevillage.
       </p>
       <p><strong>Avantages :</strong></p>
       <ul>
         <li>Installation rapide (2 à 4 heures pour un dos d&apos;ane complet)</li>
-        <li>Amovible (demontable sans dégrader le sol)</li>
+        <li>Amovible (démontable sans dégrader le sol)</li>
         <li>Bandes réfléchissantes intégrées</li>
         <li>Absorbe les chocs (moins agressif pour les véhicules)</li>
       </ul>
@@ -176,9 +176,9 @@ export default function Content() {
         <strong>Prix :</strong> à partir de 350 euros par dos d&apos;ane (fourniture), à partir de 600 euros pose incluse.
       </p>
 
-      <h3>Dos d&apos;ane en enrobe (permanent)</h3>
+      <h3>Dos d&apos;ane en enrobé (permanent)</h3>
       <p>
-        Un surhaussement de la chaussée construit en enrobe ou en béton. C&apos;est la solution permanente, identique aux dos d&apos;ane de voirie publique.
+        Un surhaussement de la chaussée construit en enrobé ou en béton. C&apos;est la solution permanente, identique aux dos d&apos;ane de voirie publique.
       </p>
       <p><strong>Avantages :</strong></p>
       <ul>
@@ -217,7 +217,7 @@ export default function Content() {
       </p>
       <p>
         Pour la fourniture et la pose de{' '}
-        <Link href="/competences/accessoires-parking">ralentisseurs et équipements de parking</Link>, faites appel à un installateur qualifie.
+        <Link href="/competences/accessoires-parking">ralentisseurs et équipements de parking</Link>, faites appel à un installateur qualifié.
       </p>
 
       <h2>Prix des dos d&apos;ane pour parking</h2>
@@ -247,7 +247,7 @@ export default function Content() {
               <td>5-10 ans</td>
             </tr>
             <tr>
-              <td>Dos d&apos;ane enrobe (permanent)</td>
+              <td>Dos d&apos;ane enrobé (permanent)</td>
               <td>-</td>
               <td>à partir de 1 400 euros</td>
               <td>15-25 ans</td>
@@ -337,7 +337,7 @@ export default function Content() {
 
       <h3>Quelle est la hauteur maximale d&apos;un dos d&apos;ane ?</h3>
       <p>
-        10 cm, selon la norme NF P 98-300. Cette limite s&apos;applique aux voies publiques mais constitue la référence pour les parkings privés. Un dos d&apos;ane plus haut expose le gestionnaire à des reclamations pour dommages aux véhicules.
+        10 cm, selon la norme NF P 98-300. Cette limite s&apos;applique aux voies publiques mais constitue la référence pour les parkings privés. Un dos d&apos;ane plus haut expose le gestionnaire à des réclamations pour dommages aux véhicules.
       </p>
 
       <h3>Peut-on installer un dos d&apos;ane dans un parking souterrain ?</h3>
@@ -347,7 +347,7 @@ export default function Content() {
 
       <h3>Combien coûte un dos d&apos;ane pour parking ?</h3>
       <p>
-        Comptez à partir de 600 euros pose incluse pour un dos d&apos;ane modulaire en caoutchouc, et à partir de 1 400 euros pour un dos d&apos;ane en enrobe permanent. La signalisation (panneau + marquage) ajouté quelques centaines d&apos;euros supplémentaires.
+        Comptez à partir de 600 euros pose incluse pour un dos d&apos;ane modulaire en caoutchouc, et à partir de 1 400 euros pour un dos d&apos;ane en enrobé permanent. La signalisation (panneau + marquage) ajouté quelques centaines d&apos;euros supplémentaires.
       </p>
 
       <h3>Faut-il un vote en AG pour installer un dos d&apos;ane en copropriété ?</h3>

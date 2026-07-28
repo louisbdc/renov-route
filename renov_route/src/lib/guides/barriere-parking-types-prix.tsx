@@ -3,13 +3,13 @@ import Link from 'next/link'
 
 export const meta: Guide = {
   slug: 'barriere-parking-types-prix',
-  title: 'Barriere parking : types, prix et guide d\'installation',
-  metaTitle: 'Barriere parking: types, prix et installation',
-  metaDescription: 'Barriere levante, pivotante, automatique : comparatif des barrières de parking avec prix, avantages et conseils d\'installation pour parking privé.',
+  title: 'Barrière parking : types, prix et guide d\'installation',
+  metaTitle: 'Barrière parking: types, prix et installation',
+  metaDescription: 'Barrière levante, pivotante, automatique : comparatif des barrières de parking avec prix, avantages et conseils d\'installation pour parking privé.',
   publishDate: '2026-03-04',
   category: 'securite-parking',
   readingTime: 10,
-  excerpt: 'Barriere levante, pivotante, basculante ou automatique : comparatif des types de barrières de parking avec prix, avantages et erreurs d\'installation à éviter.',
+  excerpt: 'Barrière levante, pivotante, basculante ou automatique : comparatif des types de barrières de parking avec prix, avantages et erreurs d\'installation à éviter.',
 }
 
 export default function Content() {
@@ -19,7 +19,7 @@ export default function Content() {
         Une barrière de parking, c&apos;est la frontière entre un parking gère et un parking squatte. Sans contrôle d&apos;accès, les places réservées sont occupées par des véhicules non autorisés, les rotations deviennent impossibles et les conflits entre usagers se multiplient.
       </p>
       <p>
-        Philippe, syndic d&apos;une copropriété de 120 logements à Caluire-et-Cuire (69), a installé une barrière levante automatique à l&apos;entrée du parking souterrain après des mois de tensions. Des véhicules extérieurs se garaient régulièrement dans les places réservées aux résidents. Les plaintes s&apos;accumulaient en AG. La barrière a été votee à l&apos;unanimité. L&apos;investissement total (barrière + badge + interphone) représentait plusieurs milliers d&apos;euros. Résultat : zéro intrusion depuis l&apos;installation, et des résidents qui ne se plaignent plus.
+        Philippe, syndic d&apos;une copropriété de 120 logements à Caluire-et-Cuire (69), a installé une barrière levante automatique à l&apos;entrée du parking souterrain après des mois de tensions. Des véhicules extérieurs se garaient régulièrement dans les places réservées aux résidents. Les plaintes s&apos;accumulaient en AG. La barrière a été votée à l&apos;unanimité. L&apos;investissement total (barrière + badge + interphone) représentait plusieurs milliers d&apos;euros. Résultat : zéro intrusion depuis l&apos;installation, et des résidents qui ne se plaignent plus.
       </p>
       <p>
         Barrière levante, pivotante, basculante, automatique ou manuelle : chaque type répond à un usage et un budget différent. Ce guide compare les options, détaille les prix et explique les règles d&apos;installation.
@@ -47,7 +47,7 @@ export default function Content() {
         <li>Encombrement vertical (hauteur de la lisse à prévoir en parking couvert)</li>
       </ul>
       <p>
-        <strong>Usage recommandé :</strong> Parkings de copropriété, parkings d&apos;entreprise, parkings commerciaux à trafic modere.
+        <strong>Usage recommandé :</strong> Parkings de copropriété, parkings d&apos;entreprise, parkings commerciaux à trafic modéré.
       </p>
 
       <h3>Barrière pivotante</h3>
@@ -64,7 +64,7 @@ export default function Content() {
       <p><strong>Limites :</strong></p>
       <ul>
         <li>Ouverture plus lente qu&apos;une barrière levante</li>
-        <li>Necessite un espace lateral libre pour pivoter</li>
+        <li>Nécessite un espace latéral libre pour pivoter</li>
         <li>Version manuelle : manipulation obligatoire à chaque passage</li>
       </ul>
       <p>
@@ -108,7 +108,7 @@ export default function Content() {
       <ul>
         <li>Prix unitaire élevé</li>
         <li>Installation complexe (terrassement, alimentation électrique)</li>
-        <li>Sensible au gel et aux debris (maintenance régulière)</li>
+        <li>Sensible au gel et aux débris (maintenance régulière)</li>
         <li>Ne convient pas aux sols instables</li>
       </ul>
       <p>
@@ -116,12 +116,12 @@ export default function Content() {
       </p>
       <p>
         Pour la fourniture et l&apos;installation de{' '}
-        <Link href="/competences/accessoires-parking">bornes et équipements de parking</Link>, faites appel à un installateur qualifie.
+        <Link href="/competences/accessoires-parking">bornes et équipements de parking</Link>, faites appel à un installateur qualifié.
       </p>
 
-      <h3>Barrière a chaine</h3>
+      <h3>Barrière a chaîne</h3>
       <p>
-        Une chaine ou un câble tendu entre deux poteaux. Solution économique pour marquer une interdiction d&apos;accès sans infrastructure lourde.
+        Une chaîne ou un câble tendu entre deux poteaux. Solution économique pour marquer une interdiction d&apos;accès sans infrastructure lourde.
       </p>
       <p><strong>Avantages :</strong></p>
       <ul>
@@ -141,7 +141,7 @@ export default function Content() {
 
       <h2>Prix des barrières de parking</h2>
       <p>
-        Les prix varient considerablement selon le type de barrière, le niveau d&apos;automatisation et les accessoires.
+        Les prix varient considérablement selon le type de barrière, le niveau d&apos;automatisation et les accessoires.
       </p>
 
       <h3>Tableau comparatif des prix</h3>
@@ -207,7 +207,7 @@ export default function Content() {
         <li><strong>Contrat de maintenance annuel</strong> : à partir de 550 euros par an</li>
       </ul>
       <p>
-        Carole, gestionnaire d&apos;un immeuble de bureaux à Ecully (69), a compare trois devis pour équiper son parking de 40 places. Le devis le moins cher (barrière levante basique sans système de contrôle d&apos;accès) semblait attractif. Le devis final retenu, plus complet, comprenait la barrière levante, un lecteur de badge, 50 badges résidents, l&apos;interphone visiteur et le contrat de maintenance la première année. Le &quot;devis pas cher&quot; aurait coûte bien plus une fois les accessoires ajoutés séparément.
+        Carole, gestionnaire d&apos;un immeuble de bureaux à Écully (69), a compare trois devis pour équiper son parking de 40 places. Le devis le moins cher (barrière levante basique sans système de contrôle d&apos;accès) semblait attractif. Le devis final retenu, plus complet, comprenait la barrière levante, un lecteur de badge, 50 badges résidents, l&apos;interphone visiteur et le contrat de maintenance la première année. Le &quot;devis pas cher&quot; aurait coûte bien plus une fois les accessoires ajoutés séparément.
       </p>
 
       <h2>Choisir la barrière adaptée à son parking</h2>
@@ -224,15 +224,15 @@ export default function Content() {
 
       <h3>Niveau de sécurité requis</h3>
       <ul>
-        <li><strong>Dissuasion simple</strong> : barrière a chaine, barrière pivotante</li>
+        <li><strong>Dissuasion simple</strong> : barrière a chaîne, barrière pivotante</li>
         <li><strong>Contrôle d&apos;accès</strong> : barrière levante avec badge/télécommande</li>
         <li><strong>Sécurité renforcée</strong> : portail basculant, bornes escamotables anti-beliers</li>
       </ul>
 
       <h3>Budget disponible</h3>
       <ul>
-        <li><strong>Budget modere</strong> : barrière pivotante manuelle ou chaine</li>
-        <li><strong>Budget intermediaire</strong> : barrière levante électrique</li>
+        <li><strong>Budget modéré</strong> : barrière pivotante manuelle ou chaîne</li>
+        <li><strong>Budget intermédiaire</strong> : barrière levante électrique</li>
         <li><strong>Budget élevé</strong> : portail motorisé ou bornes escamotables</li>
       </ul>
 
@@ -247,7 +247,7 @@ export default function Content() {
 
       <h3>Réglementation</h3>
       <p>
-        L&apos;installation d&apos;une barrière de parking privée ne nécessite pas de permis de construire, sauf si elle modifié l&apos;aspect extérieur du bâtiment (dans ce cas, une déclaration préalable de travaux peut être requise). En copropriété, l&apos;installation doit être votee en AG (article 25 de la loi du 10 juillet 1965, majorité absolue).
+        L&apos;installation d&apos;une barrière de parking privée ne nécessite pas de permis de construire, sauf si elle modifié l&apos;aspect extérieur du bâtiment (dans ce cas, une déclaration préalable de travaux peut être requise). En copropriété, l&apos;installation doit être votée en AG (article 25 de la loi du 10 juillet 1965, majorité absolue).
       </p>
 
       <h3>Sécurité incendie</h3>
@@ -272,7 +272,7 @@ export default function Content() {
 
       <h3>1. Sous-dimensionner la lisse</h3>
       <p>
-        Une lisse trop courte ne couvre pas toute la largeur de la voie. Les véhicules passent à côté. Mesurez la largeur réelle de la voie et ajoutez 50 centimetres de marge.
+        Une lisse trop courte ne couvre pas toute la largeur de la voie. Les véhicules passent à côté. Mesurez la largeur réelle de la voie et ajoutez 50 centimètres de marge.
       </p>
 
       <h3>2. Oublier le debrayage manuel</h3>
@@ -285,26 +285,26 @@ export default function Content() {
         Si la barrière est trop proche de la rue, les véhicules qui attendent l&apos;ouverture bloquent la circulation. Prévoyez un espace d&apos;attente d&apos;au moins 5 mètres entre la voie publique et la barrière.
       </p>
 
-      <h3>4. Negliger la maintenance</h3>
+      <h3>4. Négliger la maintenance</h3>
       <p>
         Une barrière mal entretenue tombe en panne, reste ouverte et ne protège plus rien. Le contrat de maintenance annuel (à partir de 550 euros) est un investissement, pas une dépense.
       </p>
 
       <h2>Entretien et durée de vie</h2>
 
-      <h3>Frequence d&apos;entretien recommandée</h3>
+      <h3>Fréquence d&apos;entretien recommandée</h3>
       <div className="overflow-x-auto">
         <table>
           <thead>
             <tr>
               <th>Opération</th>
-              <th>Frequence</th>
+              <th>Fréquence</th>
               <th>Coût indicatif</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>Vérification générale (moteur, lisse, electronique)</td>
+              <td>Vérification générale (moteur, lisse, électronique)</td>
               <td>Semestrielle</td>
               <td>Inclus dans contrat</td>
             </tr>
@@ -351,7 +351,7 @@ export default function Content() {
 
       <h3>Peut-on installer une barrière solaire ?</h3>
       <p>
-        Oui. Les barrières solaires fonctionnent avec un panneau photovoltaique et une batterie. Elles conviennent aux parkings extérieurs avec un trafic modere (moins de 30 passages/jour). Le surcout par rapport à une barrière filaire est de l&apos;ordre de quelques centaines a plus d&apos;un millier d&apos;euros.
+        Oui. Les barrières solaires fonctionnent avec un panneau photovoltaique et une batterie. Elles conviennent aux parkings extérieurs avec un trafic modéré (moins de 30 passages/jour). Le surcoût par rapport à une barrière filaire est de l&apos;ordre de quelques centaines a plus d&apos;un millier d&apos;euros.
       </p>
 
       <h3>La barrière doit-elle rester ouverte la nuit ?</h3>
@@ -366,7 +366,7 @@ export default function Content() {
 
       <h2>Contrôler l&apos;accès, c&apos;est protéger son parking</h2>
       <p>
-        La barrière de parking est l&apos;équipement qui fait la difference entre un parking gère et un parking subi. Qu&apos;il s&apos;agisse d&apos;une simple barrière pivotante pour une copropriété ou d&apos;un portail sécurisé pour un site sensible, le choix doit tenir compte du trafic, du budget et des contraintes techniques.
+        La barrière de parking est l&apos;équipement qui fait la différence entre un parking gère et un parking subi. Qu&apos;il s&apos;agisse d&apos;une simple barrière pivotante pour une copropriété ou d&apos;un portail sécurisé pour un site sensible, le choix doit tenir compte du trafic, du budget et des contraintes techniques.
       </p>
       <p>
         L&apos;erreur la plus courante : choisir la barrière la moins chère sans intégrer le système d&apos;accès et la maintenance. Le coût réel, c&apos;est le coût sur 15 ans, pas le prix d&apos;achat.

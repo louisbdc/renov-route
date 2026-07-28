@@ -70,7 +70,7 @@ export default function Content() {
         <li><strong>Hygrom&egrave;tre &eacute;lectronique</strong> : sonde enfonc&eacute;e dans le b&eacute;ton. Moins pr&eacute;cis (+/- 1%) mais non destructif. Co&ucirc;t : mesure incluse dans le diagnostic</li>
       </ul>
       <p>
-        Si le taux d&apos;humidit&eacute; d&eacute;passe le seuil, deux options : attendre le s&eacute;chage naturel (plusieurs semaines) ou appliquer un primaire anti-humidit&eacute; (surcout &agrave; pr&eacute;voir).
+        Si le taux d&apos;humidit&eacute; d&eacute;passe le seuil, deux options : attendre le s&eacute;chage naturel (plusieurs semaines) ou appliquer un primaire anti-humidit&eacute; (surcoût &agrave; pr&eacute;voir).
       </p>
 
       <h3>Test de duret&eacute;</h3>

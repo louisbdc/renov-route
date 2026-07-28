@@ -4,8 +4,8 @@ import Link from 'next/link'
 export const meta: Guide = {
   slug: 'duree-vie-marquage-sol-parking',
   title: 'Durée de vie du marquage au sol de parking : de 2 à 10 ans selon le produit',
-  metaTitle: 'Duree de vie marquage au sol parking : facteurs et solutions',
-  metaDescription: 'Duree de vie du marquage au sol de parking : 2-10 ans selon le produit et le trafic. Facteurs d\'usure, comparatif peinture vs resine et conseils pour durer.',
+  metaTitle: 'Durée de vie marquage au sol parking : facteurs et solutions',
+  metaDescription: 'Durée de vie du marquage au sol de parking : 2-10 ans selon le produit et le trafic. Facteurs d\'usure, comparatif peinture vs résine et conseils pour durer.',
   publishDate: '2026-03-04',
   category: 'marquage-parking',
   readingTime: 8,

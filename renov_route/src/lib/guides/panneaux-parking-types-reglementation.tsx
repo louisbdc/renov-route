@@ -33,13 +33,13 @@ export default function Content() {
         Un parking mal signalé génère trois types de problèmes. Des conflits entre usagers, des risques juridiques pour le gestionnaire, et une détérioration progressive de l&apos;organisation du stationnement.
       </p>
       <p>
-        Marc, directeur technique d&apos;un centre commercial Carrefour en périphérie lyonnaise, en a fait l&apos;expérience. Son parking de 450 places fonctionnait avec un marquage au sol vieillissant et seulement quatre panneaux directionnels. Résultat : des accrochages réguliers aux intersections, des files d&apos;attente aux heures de pointe, et trois reclamations d&apos;assurance en six mois.
+        Marc, directeur technique d&apos;un centre commercial Carrefour en périphérie lyonnaise, en a fait l&apos;expérience. Son parking de 450 places fonctionnait avec un marquage au sol vieillissant et seulement quatre panneaux directionnels. Résultat : des accrochages réguliers aux intersections, des files d&apos;attente aux heures de pointe, et trois réclamations d&apos;assurance en six mois.
       </p>
       <p>
         En septembre 2025, après un <Link href="/competences/conseil-expertise">audit de conseil et expertise</Link>, Renov&apos;Route a déployé un plan complet de signalisation : 28 panneaux directionnels, 12 panneaux de limitation de vitesse, 6 panneaux de stationnement réservé et un <Link href="/competences/tracage-retracage-parking">traçage de parking</Link> intégral. Six mois plus tard, zéro accrochage et un flux de circulation fluide même le samedi apres-midi.
       </p>
       <p>
-        <strong>Votre parking manque de signalisation ?</strong> Renov&apos;Route réalise un diagnostic complet et vous propose un plan de <Link href="/competences/signalisation-verticale">signalisation verticale</Link> adapte à votre site. <Link href="/devis">Demandez un devis gratuit</Link>, réponse en 48h.
+        <strong>Votre parking manque de signalisation ?</strong> Renov&apos;Route réalise un diagnostic complet et vous propose un plan de <Link href="/competences/signalisation-verticale">signalisation verticale</Link> adapté à votre site. <Link href="/devis">Demandez un devis gratuit</Link>, réponse en 48h.
       </p>
 
       <h3>La responsabilité du gestionnaire</h3>
@@ -47,7 +47,7 @@ export default function Content() {
         Le Code de la route et le Code civil sont clairs : le gestionnaire d&apos;un parking est responsable de la sécurité des usagers. En cas d&apos;accident, l&apos;absence de <strong>panneaux parking</strong> conformes peut être retenue comme circonstance aggravante. Que le parking soit public, privé ouvert au public, ou réservé aux résidents, l&apos;obligation de signalisation s&apos;applique.
       </p>
       <p>
-        L&apos;<strong>Instruction Interministérielle sur la Signalisation Routiere (IISR)</strong> définit les règles applicables à la <strong>signalisation parking panneaux</strong> sur l&apos;ensemble du territoire. Ces règles concernent aussi bien les voies ouvertes à la circulation publique que les parkings privés accessibles au public.
+        L&apos;<strong>Instruction Interministérielle sur la Signalisation Routière (IISR)</strong> définit les règles applicables à la <strong>signalisation parking panneaux</strong> sur l&apos;ensemble du territoire. Ces règles concernent aussi bien les voies ouvertes à la circulation publique que les parkings privés accessibles au public.
       </p>
 
       <h2>Les différents types de panneaux parking</h2>
@@ -74,7 +74,7 @@ export default function Content() {
         Le <strong>panneau parking privé</strong> n&apos;est pas défini par l&apos;IISR mais par le droit de la propriété. Il indique que le parking est réservé à certains usagers. Plusieurs formats existent :
       </p>
       <ul>
-        <li><strong>Panneau &quot;Propriete privée - Stationnement reserve&quot;</strong> : le plus classique pour les copropriétés et entreprises</li>
+        <li><strong>Panneau &quot;Propriete privée - stationnement réservé&quot;</strong> : le plus classique pour les copropriétés et entreprises</li>
         <li><strong>Panneau &quot;Parking réservé aux clients&quot;</strong> : utilisé par les commerces, restaurants et hôtels</li>
         <li><strong>Panneau &quot;Parking réservé au personnel&quot;</strong> : pour les parkings d&apos;entreprise</li>
         <li><strong>Panonceau de prescription</strong> : plaque complémentaire sous un panneau réglementaire, precisant &quot;Sauf riverains&quot;, &quot;Sauf livraisons&quot;, etc.</li>
@@ -83,7 +83,7 @@ export default function Content() {
         Pour être opposable, un <strong>panneau parking privé</strong> doit être visible, lisible et place à l&apos;entrée du parking. Sans cela, un automobiliste qui se garé sur votre terrain pourra contester une mise en fourriere.
       </p>
 
-      <h3>Panneau stationnement reserve PMR</h3>
+      <h3>Panneau stationnement réservé PMR</h3>
       <p>
         Le <strong>panneau stationnement</strong> réservé aux personnes à mobilité réduite est obligatoire pour tout parking de plus de 50 places (2% des places minimum). Il combine :
       </p>
@@ -127,7 +127,7 @@ export default function Content() {
 
       <h3>Ce que dit l&apos;IISR</h3>
       <p>
-        L&apos;Instruction Interministérielle sur la Signalisation Routiere est le texte de référence. Elle définit pour chaque <strong>panneau parking</strong> :
+        L&apos;Instruction Interministérielle sur la Signalisation Routière est le texte de référence. Elle définit pour chaque <strong>panneau parking</strong> :
       </p>
       <ul>
         <li>La forme et les couleurs réglementaires</li>
@@ -218,9 +218,9 @@ export default function Content() {
         L&apos;IISR impose une hauteur minimale du bord inférieur du panneau :
       </p>
       <ul>
-        <li><strong>En agglomeration et parking</strong> : 2,30 m minimum au-dessus du sol (pour le passage des piétons)</li>
-        <li><strong>Hors agglomeration</strong> : 1,00 m minimum</li>
-        <li><strong>Sur mat dédié</strong> : la hauteur dépend du support, mais le panneau ne doit jamais empieter sur le gabarit de passage des véhicules (4,30 m en hauteur)</li>
+        <li><strong>En agglomération et parking</strong> : 2,30 m minimum au-dessus du sol (pour le passage des piétons)</li>
+        <li><strong>Hors agglomération</strong> : 1,00 m minimum</li>
+        <li><strong>Sur mat dédié</strong> : la hauteur dépend du support, mais le panneau ne doit jamais empiéter sur le gabarit de passage des véhicules (4,30 m en hauteur)</li>
       </ul>
       <p>
         Le panneau doit être implante a <strong>droite de la chaussée</strong>, dans le sens de circulation. Pour les parkings à double sens, un panneau est nécessaire de chaque côté.
@@ -231,7 +231,7 @@ export default function Content() {
         Trois types de supports sont utilisés pour les <strong>panneaux parking</strong> :
       </p>
       <ul>
-        <li><strong>Poteau rond en acier galvanise (diamètre 60 ou 76 mm)</strong> : le standard. Scellement direct dans le sol ou sur platine boulonnee.</li>
+        <li><strong>Poteau rond en acier galvanisé (diamètre 60 ou 76 mm)</strong> : le standard. Scellement direct dans le sol ou sur platine boulonnee.</li>
         <li><strong>Poteau carre aluminium</strong> : plus esthétique, utilisé dans les parkings haut de gamme.</li>
         <li><strong>Fixation murale</strong> : pour les parkings souterrains ou couverts, le panneau est fixé directement sur le mur ou la structure.</li>
       </ul>
@@ -252,7 +252,7 @@ export default function Content() {
         L&apos;épaisseur standard est de 1,5 mm pour les petits formats et 2 mm pour les formats supérieurs à 800 mm. Un panneau en aluminium de qualité ne se déformé pas sous le vent et ne ternit pas au soleil.
       </p>
 
-      <h3>Film retroreflechissant</h3>
+      <h3>Film rétroréfléchissant</h3>
       <p>
         Le film appliqué sur le panneau déterminé sa visibilité nocturne. Trois classes existent :
       </p>
@@ -262,7 +262,7 @@ export default function Content() {
         <li><strong>Classe 3 (DG - Diamond Grade)</strong> : rétroréflexion maximale. Réservé aux routes a grande vitesse, rarement nécessaire en parking.</li>
       </ul>
       <p>
-        Pour un parking standard, Renov&apos;Route recommandé un film de <strong>classe 1 ou 2</strong>, selon l&apos;éclairage ambiant. Le film retroreflechissant à une durée de vie de 7 à 12 ans selon la classe.
+        Pour un parking standard, Renov&apos;Route recommandé un film de <strong>classe 1 ou 2</strong>, selon l&apos;éclairage ambiant. Le film rétroréfléchissant à une durée de vie de 7 à 12 ans selon la classe.
       </p>
 
       <h3>PVC et composites : les alternatives</h3>
@@ -322,7 +322,7 @@ export default function Content() {
         </table>
       </div>
       <p>
-        <strong>Ces prix s&apos;entendent hors terrassement et remise en etat du sol.</strong> Pour un devis précis adapte à votre parking, contactez Renov&apos;Route au <strong>07 86 81 96 92</strong> ou <Link href="/devis">demandez un devis gratuit en ligne</Link>.
+        <strong>Ces prix s&apos;entendent hors terrassement et remise en état du sol.</strong> Pour un devis précis adapté à votre parking, contactez Renov&apos;Route au <strong>07 86 81 96 92</strong> ou <Link href="/devis">demandez un devis gratuit en ligne</Link>.
       </p>
 
       <h3>Ce qui fait varier le prix</h3>
@@ -331,7 +331,7 @@ export default function Content() {
       </p>
       <ul>
         <li><strong>La quantité</strong> : au-delà de 10 panneaux, les tarifs unitaires baissent significativement</li>
-        <li><strong>Le film retroreflechissant</strong> : classe 2 coûte 20 à 30% de plus que classe 1</li>
+        <li><strong>Le film rétroréfléchissant</strong> : classe 2 coûte 20 à 30% de plus que classe 1</li>
         <li><strong>Le support</strong> : poteau rond standard vs poteau carre aluminium vs fixation murale</li>
         <li><strong>L&apos;accessibilité du site</strong> : parking en sous-sol ou en etage = coût de pose majore</li>
         <li><strong>Le sol</strong> : enrobe, béton ou pavés nécessitent des techniques de scellement différentes</li>
@@ -366,7 +366,7 @@ export default function Content() {
       </p>
       <ul>
         <li><strong>Miroirs de sécurité</strong> : pour les angles morts et les virages en parking souterrain</li>
-        <li><strong>Butees de parking</strong> : pour protéger les murs et les piétons</li>
+        <li><strong>Butées de parking</strong> : pour protéger les murs et les piétons</li>
         <li><strong>Arceaux de protection</strong> : pour les places réservées</li>
         <li><strong>Ralentisseurs</strong> : pour imposer physiquement la réduction de vitesse</li>
       </ul>
@@ -405,7 +405,7 @@ export default function Content() {
 
       <h3>Quels panneaux sont obligatoires dans un parking privé ?</h3>
       <p>
-        Si votre parking est ouvert au public (centre commercial, hôpital, entreprise recevant des visiteurs), les panneaux obligatoires incluent : la limitation de vitesse, la signalisation PMR, le sens de circulation et les issues de secours. Pour un parking strictement privé (copropriété fermée), seule la signalisation PMR est obligatoire si le parking depasse 50 places.
+        Si votre parking est ouvert au public (centre commercial, hôpital, entreprise recevant des visiteurs), les panneaux obligatoires incluent : la limitation de vitesse, la signalisation PMR, le sens de circulation et les issues de secours. Pour un parking strictement privé (copropriété fermée), seule la signalisation PMR est obligatoire si le parking dépasse 50 places.
       </p>
 
       <h3>Combien coûte l&apos;installation complète de panneaux pour un parking ?</h3>
@@ -415,7 +415,7 @@ export default function Content() {
 
       <h3>Quelle est la durée de vie d&apos;un panneau parking en aluminium ?</h3>
       <p>
-        Un <strong>panneau parking</strong> en aluminium avec film retroreflechissant de classe 1 dure entre 10 et 15 ans en extérieur. Le film retroreflechissant se dégradé avant le support : il est possible de le remplacer sans changer le panneau complet.
+        Un <strong>panneau parking</strong> en aluminium avec film rétroréfléchissant de classe 1 dure entre 10 et 15 ans en extérieur. Le film rétroréfléchissant se dégradé avant le support : il est possible de le remplacer sans changer le panneau complet.
       </p>
 
       <h3>Peut-on installer des panneaux parking soi-même ?</h3>
@@ -433,7 +433,7 @@ export default function Content() {
         Les <strong>panneaux parking</strong> ne sont pas un détail. Ils structurent la circulation, previennent les conflits, protègent votre responsabilité juridique et garantissent l&apos;accessibilité de votre parking. Une signalisation conforme aux normes IISR et NF, combinee à un <Link href="/competences/tracage-retracage-parking">marquage au sol</Link> de qualité, transforme un parking problématique en espace organisé et sécurisé.
       </p>
       <p>
-        Renov&apos;Route accompagne depuis 2014 les gestionnaires de parkings dans toute la France. Plus de 1 000 projets réalisés pour des clients comme Carrefour, Lidl, McDonald&apos;s, l&apos;Armée de Terre et EM Lyon. Chaque projet commence par un diagnostic sur site et un devis détaille, gratuit et sans engagement.
+        Renov&apos;Route accompagne depuis 2016 les gestionnaires de parkings dans toute la France. Plus de 1 000 projets réalisés pour des clients comme Carrefour, Lidl, McDonald&apos;s, l&apos;Armée de Terre et EM Lyon. Chaque projet commence par un diagnostic sur site et un devis détaille, gratuit et sans engagement.
       </p>
       <p>
         <strong>Votre parking a besoin de panneaux conformes ?</strong> Appelez le <strong>07 86 81 96 92</strong> ou <Link href="/devis">demandez votre devis gratuit en ligne</Link>. Reponse garantie en 48h. Decouvrez aussi <Link href="/realisations">nos réalisations</Link> pour voir des exemples concrets de projets de signalisation.

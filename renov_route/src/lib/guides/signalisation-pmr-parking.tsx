@@ -25,7 +25,7 @@ export default function Content() {
         Pourtant, sur le terrain, les erreurs sont fréquentes. Pictogrammes non conformes, panneaux à la mauvaise hauteur, absence de signalisation directionnelle vers les places PMR. Ces défauts, souvent commis par méconnaissance, exposent les gestionnaires à des sanctions et, surtout, pénalisent les personnes à mobilité réduite.
       </p>
       <p>
-        Ce guide détaille chaque élément de signalisation PMR obligatoire dans un parking, avec les dimensions réglementaires, les règles de pose et les prix. Nous installons cette signalisation depuis 2014 sur plus de 1 000 parkings, de Carrefour à l&apos;Armée de Terre.
+        Ce guide détaille chaque élément de signalisation PMR obligatoire dans un parking, avec les dimensions réglementaires, les règles de pose et les prix. Nous installons cette signalisation depuis 2016 sur plus de 1 000 parkings, de Carrefour à l&apos;Armée de Terre.
       </p>
 
       <h2>Les éléments obligatoires de signalisation PMR</h2>

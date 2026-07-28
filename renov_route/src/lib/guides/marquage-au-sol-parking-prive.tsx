@@ -5,7 +5,7 @@ export const meta: Guide = {
   slug: 'marquage-au-sol-parking-prive',
   title: 'Marquage au sol parking privé : réglementation, obligations et bonnes pratiques en 2026',
   metaTitle: 'Marquage au sol parking privé : guide complet 2026 | Renov\'Route',
-  metaDescription: 'Marquage au sol parking privé : réglementation, obligations PMR, signalisation, prix et erreurs à éviter. 1 000+ projets depuis 2014. Devis gratuit en 48h.',
+  metaDescription: 'Marquage au sol parking privé : réglementation, obligations PMR, signalisation, prix et erreurs à éviter. 1 000+ projets depuis 2016. Devis gratuit en 48h.',
   publishDate: '2026-03-31',
   updatedDate: '2026-05-21',
   category: 'marquage-parking',
@@ -32,7 +32,7 @@ export default function Content() {
       </p>
       <p>
         Ce guide détaille tout ce que vous devez savoir sur le <strong>marquage parking
-        privé</strong> : la difference entre parking public et privé, vos obligations légales,
+        privé</strong> : la différence entre parking public et privé, vos obligations légales,
         les places PMR, la signalisation verticale, les accessoires, les normes applicables,
         le budget à prévoir et les erreurs qui coûtent cher.
       </p>
@@ -54,7 +54,7 @@ export default function Content() {
       <p>Les parkings privés se declinent en plusieurs catégories :</p>
       <ul>
         <li><strong>Parking de copropriété :</strong> réservé aux résidents, gère par le syndic</li>
-        <li><strong>Parking d&apos;entreprise :</strong> réservé aux salaries et visiteurs professionnels</li>
+        <li><strong>Parking d&apos;entreprise :</strong> réservé aux salariés et visiteurs professionnels</li>
         <li><strong>Parking commercial :</strong> accessible aux clients (supermarchés, restaurants, cliniques)</li>
         <li><strong>Parking d&apos;ERP :</strong> établissement recevant du public, soumis à des règles renforcées</li>
       </ul>
@@ -131,7 +131,7 @@ export default function Content() {
       <p>
         Thierry, gestionnaire d&apos;un parking de 180 places pour un ensemble de bureaux à
         Villeurbanne, hesitait a investir dans le retraçage complet de son parking. En deux ans,
-        il avait accumule neuf déclarations de sinistre pour accrochages entre véhicules. Son
+        il avait accumulé neuf déclarations de sinistre pour accrochages entre véhicules. Son
         assureur menacait de résilier le contrat. Après intervention de Renov&apos;Route,{' '}
         <Link href="/competences/tracage-retracage-parking">traçage complet</Link> avec places
         elargies, flèches directionnelles et passages piétons, les sinistres déclarés sont tombes
@@ -198,7 +198,7 @@ export default function Content() {
       <ul>
         <li>
           <strong>Largeur :</strong> 3,30 m minimum (contre 2,30 m pour une place standard),
-          incluant une bande de transfert laterale de 0,80 m
+          incluant une bande de transfert latérale de 0,80 m
         </li>
         <li><strong>Longueur :</strong> 5,00 m minimum</li>
         <li><strong>Devers :</strong> 2 % maximum en tout sens</li>
@@ -292,18 +292,18 @@ export default function Content() {
         la sécurité et structurent l&apos;espace.
       </p>
 
-      <h3>Butees de parking</h3>
+      <h3>Butées de parking</h3>
       <p>
-        Les butees de parking (ou butoirs) empechent les véhicules de dépasser leur emplacement.
+        Les butées de parking (ou butoirs) empechent les véhicules de dépasser leur emplacement.
         Elles protègent les murs, les trottoirs et les piétons. Deux matériaux dominent :
       </p>
       <ul>
         <li>
-          <strong>Butee en caoutchouc recycle :</strong> résistante aux chocs, fixation par
+          <strong>Butée en caoutchouc recyclé :</strong> résistante aux chocs, fixation par
           chevillage, idéale en intérieur
         </li>
         <li>
-          <strong>Butee en béton :</strong> plus lourde, adaptée aux parkings extérieurs soumis
+          <strong>Butée en béton :</strong> plus lourde, adaptée aux parkings extérieurs soumis
           à un trafic lourd
         </li>
       </ul>
@@ -316,7 +316,7 @@ export default function Content() {
 
       <h3>Bornes et potelets</h3>
       <p>
-        Les bornes delimitent les zones piétonnes, empechent le stationnement sauvage et protègent
+        Les bornes délimitent les zones piétonnes, empechent le stationnement sauvage et protègent
         les facades. Les potelets rétractables offrent une flexibilité maximale pour les accès de
         livraison.
       </p>
@@ -324,22 +324,22 @@ export default function Content() {
       <h3>Miroirs de sécurité</h3>
       <p>
         Indispensables aux angles morts et aux sorties en courbe, les miroirs de circulation
-        reduisent considerablement le risque de collision. Un parking souterrain sans miroir aux
+        reduisent considérablement le risque de collision. Un parking souterrain sans miroir aux
         intersections est un sinistre en puissance.
       </p>
       <p>
-        Sophie, propriétaire d&apos;une clinique vétérinaire à Ecully, recevait des plaintes
+        Sophie, propriétaire d&apos;une clinique vétérinaire à Écully, recevait des plaintes
         hebdomadaires de ses clients : stationnement anarchique, accrochages fréquents, difficulte
         à trouver les places PMR. Renov&apos;Route a réalisé le{' '}
         <Link href="/competences/tracage-retracage-parking">traçage complet</Link> de ses 35
-        places, installé quatre butees, deux arceaux pour les places PMR et trois panneaux
+        places, installé quatre butées, deux arceaux pour les places PMR et trois panneaux
         directionnels. Le résultat : zéro plainte en six mois et une note Google passee de 3,8
         à 4,4 étoiles.
       </p>
 
       <h2>Les normes applicables au marquage de parking privé</h2>
       <p>
-        Meme sur un terrain privé, le <strong>traçage parking privé</strong> doit respecter des
+        Même sur un terrain privé, le <strong>traçage parking privé</strong> doit respecter des
         normes techniques pour être durable et conforme.
       </p>
 
@@ -407,7 +407,7 @@ export default function Content() {
       <ul>
         <li>
           <strong>Peinture acrylique :</strong> économique, adaptée aux parkings extérieurs a
-          trafic modere, durée de vie 12 à 18 mois
+          trafic modéré, durée de vie 12 à 18 mois
         </li>
         <li>
           <strong>Peinture routière à base de résine alkyde :</strong> plus résistante, durée de
@@ -440,11 +440,11 @@ export default function Content() {
           </thead>
           <tbody>
             <tr>
-              <td>Tracage d&apos;une place standard</td>
+              <td>Traçage d&apos;une place standard</td>
               <td>15 à 30 EUR</td>
             </tr>
             <tr>
-              <td>Tracage d&apos;une place PMR complète</td>
+              <td>Traçage d&apos;une place PMR complète</td>
               <td>80 à 150 EUR</td>
             </tr>
             <tr>
@@ -464,7 +464,7 @@ export default function Content() {
               <td>80 à 200 EUR</td>
             </tr>
             <tr>
-              <td>Butee de parking posée</td>
+              <td>Butée de parking posée</td>
               <td>40 à 80 EUR</td>
             </tr>
             <tr>
@@ -481,11 +481,11 @@ export default function Content() {
         et accessoires de base :
       </p>
       <ul>
-        <li>Tracage des 48 places standard : 720 à 1 440 EUR</li>
-        <li>Tracage des 2 places PMR : 160 à 300 EUR</li>
+        <li>Traçage des 48 places standard : 720 à 1 440 EUR</li>
+        <li>Traçage des 2 places PMR : 160 à 300 EUR</li>
         <li>Flèches et passages piétons : 200 à 400 EUR</li>
         <li>Panneaux (4 unités) : 320 à 800 EUR</li>
-        <li>Butees (10 unités) : 400 à 800 EUR</li>
+        <li>Butées (10 unités) : 400 à 800 EUR</li>
         <li><strong>Total estime : 1 800 à 3 740 EUR HT</strong></li>
       </ul>
       <p>
@@ -509,14 +509,14 @@ export default function Content() {
       <h3>Étape 2 : Plan de marquage</h3>
       <p>
         Le plan de marquage définit l&apos;implantation des places, les voies de circulation, les
-        places PMR, la signalisation et les accessoires. Il optimise la capacite tout en respectant
+        places PMR, la signalisation et les accessoires. Il optimise la capacité tout en respectant
         les normes de dimensions et d&apos;accessibilité.
       </p>
 
       <h3>Étape 3 : Préparation du support</h3>
       <p>
-        Le support doit être propre, sec et en bon etat. Les fissures, nids-de-poule et
-        décollements doivent être repares avant le traçage. Un support dégradé réduit de moitie
+        Le support doit être propre, sec et en bon état. Les fissures, nids-de-poule et
+        décollements doivent être repares avant le traçage. Un support dégradé réduit de moitié
         la durée de vie du marquage.
       </p>
 
@@ -527,20 +527,20 @@ export default function Content() {
         séchage prend deux à quatre heures selon la peinture utilisée.
       </p>
 
-      <h3>Étape 5 : Reception et garantie</h3>
+      <h3>Étape 5 : Réception et garantie</h3>
       <p>
-        Renov&apos;Route fournit un proces-verbal de reception avec photos et mesures de
+        Renov&apos;Route fournit un proces-verbal de réception avec photos et mesures de
         conformité. Tous nos marquages sont garantis deux ans, avec engagement de retouche
         gratuite en cas de dégradation prématurée.
       </p>
       <p>
         Nos <Link href="/realisations">réalisations</Link> couvrent plus de 1 000 projets depuis
-        2014, pour des clients comme Carrefour, Lidl et McDonald&apos;s.
+        2016, pour des clients comme Carrefour, Lidl et McDonald&apos;s.
       </p>
 
       <h2>Les 7 erreurs les plus fréquentes sur les parkings privés</h2>
       <p>
-        Après plus de 1 000 projets réalisés depuis 2014, Renov&apos;Route a identifié les
+        Après plus de 1 000 projets réalisés depuis 2016, Renov&apos;Route a identifié les
         erreurs récurrentes sur les parkings privés.
       </p>
 
@@ -557,7 +557,7 @@ export default function Content() {
         systématiquement.
       </p>
 
-      <h3>3. Negliger les voies de circulation</h3>
+      <h3>3. Négliger les voies de circulation</h3>
       <p>
         Un parking sans flèches directionnelles ni voies de circulation clairement tracées
         provoque des conflits de priorité et des manoeuvres dangereuses.
@@ -577,7 +577,7 @@ export default function Content() {
 
       <h3>6. Retracer sans réparer le support</h3>
       <p>
-        Peindre sur un enrobe fissure ou un béton ecaille, c&apos;est gaspiller son budget. La
+        Peindre sur un enrobé fissure ou un béton ecaille, c&apos;est gaspiller son budget. La
         préparation du support est l&apos;étape la plus souvent negligee, et la plus determinante
         pour la durée de vie du marquage.
       </p>
@@ -624,26 +624,26 @@ export default function Content() {
       <p>
         Techniquement oui, mais le résultat sera rarement conforme aux normes NF EN 1436. Le
         traçage professionnel garantit des lignes droites, des dimensions réglementaires, des
-        produits certifiés et une durée de vie optimale. Le surcout d&apos;une prestation
+        produits certifiés et une durée de vie optimale. Le surcoût d&apos;une prestation
         professionnelle est amorti par la durabilité du marquage.
       </p>
 
-      <h2>Votre parking merite un marquage à la hauteur de votre activité</h2>
+      <h2>Votre parking mérite un marquage à la hauteur de votre activité</h2>
       <p>
         Un <strong>marquage au sol parking privé</strong> conforme, c&apos;est un investissement
         de sécurité, de confort et de valeur patrimoniale. C&apos;est aussi la preuve tangible que
         vous prenez vos responsabilités de propriétaire au sérieux.
       </p>
       <p>
-        Renov&apos;Route accompagne les propriétaires de parkings privés depuis 2014, du diagnostic
-        initial à la reception des travaux. Plus de 1 000 projets réalisés en Rhône-Alpes et dans
+        Renov&apos;Route accompagne les propriétaires de parkings privés depuis 2016, du diagnostic
+        initial à la réception des travaux. Plus de 1 000 projets réalisés en Rhône-Alpes et dans
         toute la France, pour des copropriétés, des entreprises et des enseignes nationales comme
         Carrefour, Lidl et McDonald&apos;s.
       </p>
       <p>
         <strong>Devis gratuit en 48h.</strong> Appelez le 07 86 81 96 92 ou{' '}
         <Link href="/devis">demandez votre devis en ligne</Link>. Nos équipés interviennent dans
-        toute la region lyonnaise et au-delà.
+        toute la région lyonnaise et au-delà.
       </p>
     </>
   )

@@ -281,7 +281,7 @@ export default function Content() {
       </p>
 
       <p>
-        Co&ucirc;t : un surcout significatif est &agrave; pr&eacute;voir sur un sol en
+        Co&ucirc;t : un surcoût significatif est &agrave; pr&eacute;voir sur un sol en
         mauvais &eacute;tat.
       </p>
 

@@ -1,4 +1,5 @@
 import type { Guide } from '../guides'
+import KeyAnswer from '@/components/KeyAnswer'
 import Link from 'next/link'
 
 export const meta: Guide = {
@@ -16,6 +17,15 @@ export const meta: Guide = {
 export default function Content() {
   return (
     <>
+      <KeyAnswer question="Que dit le code de la route sur le marquage au sol ?">
+        <p>
+        Une <strong>ligne continue</strong> interdit tout franchissement : l’enfreindre est une
+        contravention de 4e classe (135 € et retrait de 3 points). Une <strong>ligne discontinue</strong>
+        autorise le dépassement si la visibilité le permet. Le marquage temporaire <strong>jaune ou
+        orange prévaut</strong> toujours sur le marquage blanc permanent.
+        </p>
+      </KeyAnswer>
+
       <p>
         90% des informations trait&eacute;es par un conducteur sont visuelles. Et parmi ces informations, le <strong>marquage au sol</strong> est le premier &eacute;l&eacute;ment que vous consultez, consciemment ou non, &agrave; chaque seconde de conduite. Pourtant, une enqu&ecirc;te du CEREMA r&eacute;v&egrave;le que <strong>43% des gestionnaires de voirie interrog&eacute;s constatent des marquages non conformes ou effac&eacute;s sur leur r&eacute;seau</strong>. R&eacute;sultat : des accidents, des litiges et des responsabilit&eacute;s engag&eacute;es.
       </p>
@@ -23,7 +33,7 @@ export default function Content() {
         Que vous soyez conducteur, gestionnaire de parking, responsable de voirie ou chef d&apos;entreprise, comprendre le <strong>code de la route marquage au sol</strong> est indispensable. Ce guide vous explique la signification de chaque ligne, couleur et symbole, les normes &agrave; respecter et les cons&eacute;quences d&apos;un marquage d&eacute;faillant.
       </p>
       <p>
-        <strong>Votre marquage au sol est-il conforme ?</strong> Renov&apos;Route r&eacute;alise depuis 2014 le <Link href="/competences/tracage-retracage-parking">marquage au sol professionnel</Link> de parkings, voiries et zones industrielles dans toute la France. <Link href="/devis">Demandez un devis gratuit</Link> en 48h ou appelez le 07 86 81 96 92.
+        <strong>Votre marquage au sol est-il conforme ?</strong> Renov&apos;Route r&eacute;alise depuis 2016 le <Link href="/competences/tracage-retracage-parking">marquage au sol professionnel</Link> de parkings, voiries et zones industrielles dans toute la France. <Link href="/devis">Demandez un devis gratuit</Link> en 48h ou appelez le 07 86 81 96 92.
       </p>
 
       <h2>Les diff&eacute;rents types de lignes au sol et leur signification</h2>
@@ -234,7 +244,7 @@ export default function Content() {
         <li><strong>Pictogrammes</strong> pour les places r&eacute;serv&eacute;es (PMR, v&eacute;hicules &eacute;lectriques, covoiturage)</li>
       </ul>
       <p>
-        Le <Link href="/competences/tracage-retracage-parking">tra&ccedil;age et retra&ccedil;age de parking</Link> est une comp&eacute;tence cl&eacute; de Renov&apos;Route. Depuis 2014, nous avons r&eacute;alis&eacute; plus de 1 000 projets de marquage pour des parkings de toutes tailles.
+        Le <Link href="/competences/tracage-retracage-parking">tra&ccedil;age et retra&ccedil;age de parking</Link> est une comp&eacute;tence cl&eacute; de Renov&apos;Route. Depuis 2016, nous avons r&eacute;alis&eacute; plus de 1 000 projets de marquage pour des parkings de toutes tailles.
       </p>
 
       <h2>Bandes rugueuses et bandes sonores</h2>
@@ -420,7 +430,7 @@ export default function Content() {
         Pour les gestionnaires de voirie, de parkings et d&apos;espaces priv&eacute;s, le marquage au sol est aussi une responsabilit&eacute;. Un marquage effac&eacute; engage votre responsabilit&eacute;. Un marquage non conforme vous expose &agrave; des poursuites. Un marquage bien entretenu prot&egrave;ge vos usagers et vous prot&egrave;ge juridiquement.
       </p>
       <p>
-        <strong>Renov&apos;Route</strong> est sp&eacute;cialiste du marquage au sol depuis 2014, avec plus de 1 000 projets r&eacute;alis&eacute;s dans toute la France. Nos &eacute;quipes ma&icirc;trisent les normes NF EN 1436 et l&apos;IISR, et interviennent sur tous types de surfaces : routes, parkings, zones industrielles, entrep&ocirc;ts logistiques.
+        <strong>Renov&apos;Route</strong> est sp&eacute;cialiste du marquage au sol depuis 2016, avec plus de 1 000 projets r&eacute;alis&eacute;s dans toute la France. Nos &eacute;quipes ma&icirc;trisent les normes NF EN 1436 et l&apos;IISR, et interviennent sur tous types de surfaces : routes, parkings, zones industrielles, entrep&ocirc;ts logistiques.
       </p>
       <p>
         <strong><Link href="/devis">Demandez votre devis gratuit</Link></strong> en 48h ou appelez-nous au <strong>07 86 81 96 92</strong>. Nous r&eacute;alisons un diagnostic complet de votre signalisation au sol et vous proposons des solutions conformes, durables et adapt&eacute;es &agrave; votre budget.

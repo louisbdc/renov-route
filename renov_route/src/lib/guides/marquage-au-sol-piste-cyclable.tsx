@@ -5,7 +5,7 @@ export const meta: Guide = {
   slug: 'marquage-au-sol-piste-cyclable',
   title: 'Marquage au sol piste cyclable : réglementation, techniques et prix en 2026',
   metaTitle: 'Marquage au sol piste cyclable : normes, types et prix | Renov\'Route',
-  metaDescription: 'Marquage au sol piste cyclable : réglementation CEREMA, pictogrammes vélo, couleurs, dimensions, prix au m2. 1 000+ projets depuis 2014. Devis en 48h.',
+  metaDescription: 'Marquage au sol piste cyclable : réglementation CEREMA, pictogrammes vélo, couleurs, dimensions, prix au m2. 1 000+ projets depuis 2016. Devis en 48h.',
   publishDate: '2026-03-31',
   updatedDate: '2026-05-21',
   category: 'marquage-parking',
@@ -19,7 +19,7 @@ export default function Content() {
       <p>
         Mars 2025, boulevard des Belges à Lyon. Un cycliste remonte une bande cyclable dont
         le marquage a disparu sous l&apos;usure hivernale. Un automobiliste empiete sur la
-        bande sans la voir. Choc lateral. Clavicule fracturee, vélo détruit, trois mois
+        bande sans la voir. Choc latéral. Clavicule fracturee, vélo détruit, trois mois
         d&apos;arrêt de travail. Le rapport d&apos;expertise conclut :{' '}
         <strong>marquage au sol non conforme</strong>, rétroréflexion inférieure au seuil
         réglementaire. La collectivité est mise en cause.
@@ -34,7 +34,7 @@ export default function Content() {
       <p>
         Le marquage cyclable n&apos;est pas un coup de peinture décoratif. C&apos;est un
         dispositif de sécurité réglementé, norme par le CEREMA et l&apos;Instruction
-        Interministérielle sur la Signalisation Routiere (IISR). Ce guide détaille les types
+        Interministérielle sur la Signalisation Routière (IISR). Ce guide détaille les types
         d&apos;aménagements cyclables, les normes de marquage, les matériaux, les dimensions
         réglementaires et les prix pour vous permettre de concevoir ou rénover vos
         infrastructures cyclables dans les règles.
@@ -163,7 +163,7 @@ export default function Content() {
       <ul>
         <li>Panneau C115 en entrée et sortie (obligatoire)</li>
         <li>
-          Separation piétons/vélos par une ligne discontinue blanche si la voie est partagée
+          Séparation piétons/vélos par une ligne discontinue blanche si la voie est partagée
         </li>
         <li>Pictogrammes vélo et piéton pour identifier chaque partie</li>
         <li>
@@ -331,7 +331,7 @@ export default function Content() {
       <h2>Normes et réglementation du marquage cyclable</h2>
       <p>
         Le <strong>marquage au sol piste cyclable</strong> en France s&apos;appuie sur un cadre
-        normatif précis. Ignorer ces normes, c&apos;est s&apos;exposer à un refus de reception
+        normatif précis. Ignorer ces normes, c&apos;est s&apos;exposer à un refus de réception
         des travaux ou à une mise en responsabilité en cas d&apos;accident.
       </p>
 
@@ -342,7 +342,7 @@ export default function Content() {
       </p>
       <ul>
         <li>
-          <strong>Retroreflexion (RL) :</strong> coefficient de luminance retroreflechie,
+          <strong>Rétroréflexion (RL) :</strong> coefficient de luminance retroreflechie,
           mesure en mcd/m2/lux. Le seuil minimal de nuit est de 100 mcd pour les marquages
           neufs.
         </li>
@@ -356,7 +356,7 @@ export default function Content() {
         </li>
       </ul>
 
-      <h3>L&apos;IISR (Instruction Interministérielle sur la Signalisation Routiere)</h3>
+      <h3>L&apos;IISR (Instruction Interministérielle sur la Signalisation Routière)</h3>
       <p>
         L&apos;IISR est le texte de référence qui régit l&apos;ensemble de la signalisation
         routière en France, y compris le marquage cyclable. Les parties pertinentes pour les
@@ -379,7 +379,7 @@ export default function Content() {
       </p>
       <ul>
         <li>
-          <em>Amenagements cyclables</em> (2021) : referentiel complet pour la conception
+          <em>Aménagements cyclables</em> (2021) : référentiel complet pour la conception
         </li>
         <li>
           <em>Revêtements colores pour aménagements cyclables</em> (2024) : guide spécifique
@@ -392,7 +392,7 @@ export default function Content() {
       <p>
         Vous pilotez un projet d&apos;aménagement cyclable et vous avez besoin d&apos;un
         partenaire qui maîtrise ces normes ? Renov&apos;Route a réalisé plus de{' '}
-        <Link href="/realisations">1 000 projets de marquage</Link> depuis 2014, dont des
+        <Link href="/realisations">1 000 projets de marquage</Link> depuis 2016, dont des
         pistes cyclables pour des collectivités en Rhône-Alpes.{' '}
         <Link href="/devis">Demandez un devis en 48h</Link>.
       </p>
@@ -420,7 +420,7 @@ export default function Content() {
 
       <h3>La résine à froid</h3>
       <p>
-        La résine methacrylate ou époxy offre un compromis entre durabilité et coût. Elle est
+        La résine méthacrylate ou époxy offre un compromis entre durabilité et coût. Elle est
         particulièrement adaptée aux revêtements colores des pistes cyclables.
       </p>
       <ul>
@@ -439,7 +439,7 @@ export default function Content() {
         Janvier 2025, piste cyclable de la ViaRhona, secteur Givors. La communaute de communes
         nous sollicite pour rénover 1,2 km de revêtement vert sur une section très frequentee
         (800 passages/jour). L&apos;ancien marquage en peinture classique n&apos;avait tenu que
-        14 mois. Nous avons pose une résine methacrylate verte avec charge antiderapante en
+        14 mois. Nous avons pose une résine méthacrylate verte avec charge antidérapante en
         quartz. Coût : 28 EUR/m2, contre 4 EUR/m2 pour la peinture précédente. Mais la durée
         de vie projetee passe de 14 mois à 4 ans, soit un coût ramene au mois de 0,58 EUR/m2
         contre 0,29 EUR/m2 pour la peinture. L&apos;écart se réduit encore quand on integre
@@ -470,7 +470,7 @@ export default function Content() {
         <table>
           <thead>
             <tr>
-              <th>Critere</th>
+              <th>Critère</th>
               <th>Peinture</th>
               <th>Résine à froid</th>
               <th>Thermocollage</th>
@@ -490,13 +490,13 @@ export default function Content() {
               <td>25-50 EUR</td>
             </tr>
             <tr>
-              <td>Sechage</td>
+              <td>Séchage</td>
               <td>30 min</td>
               <td>1-2h</td>
               <td>10-15 min</td>
             </tr>
             <tr>
-              <td>Retroreflexion</td>
+              <td>Rétroréflexion</td>
               <td>Moyenne</td>
               <td>Bonne</td>
               <td>Excellente</td>
@@ -543,7 +543,7 @@ export default function Content() {
           <strong>Le matériau :</strong> rapport de 1 à 10 entre peinture et thermocollage
         </li>
         <li>
-          <strong>L&apos;etat du support :</strong> un enrobe dégradé nécessite une préparation
+          <strong>L&apos;etat du support :</strong> un enrobé dégradé nécessite une préparation
           (grenaillage, nettoyage haute pression) qui ajouté 3 à 8 EUR/m2
         </li>
         <li>
@@ -552,7 +552,7 @@ export default function Content() {
         </li>
       </ul>
 
-      <h3>Le vrai calcul : coût au mètre carre par an</h3>
+      <h3>Le vrai calcul : coût au mètre carré par an</h3>
       <p>
         Les collectivités expérimentées raisonnent en coût annualise. Un revêtement à
         30 EUR/m2 qui dure cinq ans revient à 6 EUR/m2/an. Une peinture à 4 EUR/m2 renouvelee
@@ -560,7 +560,7 @@ export default function Content() {
         (signalisation temporaire, fermeture de voie) qui peuvent doubler la facture réelle.
       </p>
 
-      <h2>Amenagements complémentaires au marquage</h2>
+      <h2>Aménagements complémentaires au marquage</h2>
       <p>
         Le marquage au sol seul ne suffit pas à sécuriser une piste cyclable. Les aménagements
         complémentaires renforcent la protection et la lisibilite de l&apos;infrastructure.
@@ -620,7 +620,7 @@ export default function Content() {
         engage sa responsabilité.
       </p>
 
-      <h3>Frequence de renouvellement recommandée</h3>
+      <h3>Fréquence de renouvellement recommandée</h3>
       <ul>
         <li><strong>Peinture :</strong> tous les 12 à 18 mois</li>
         <li><strong>Résine :</strong> tous les 3 à 5 ans</li>
@@ -646,7 +646,7 @@ export default function Content() {
 
       <h2>FAQ : marquage au sol piste cyclable</h2>
 
-      <h3>Quelle est la difference entre une piste cyclable et une bande cyclable ?</h3>
+      <h3>Quelle est la différence entre une piste cyclable et une bande cyclable ?</h3>
       <p>
         La piste cyclable est séparée physiquement de la chaussée (bordure, denivele,
         séparateur). La bande cyclable est délimitée par un simple marquage au sol sur la
@@ -666,7 +666,7 @@ export default function Content() {
       <p>
         Le CEREMA recommandé 2 mètres pour une piste unidirectionnelle et 3 mètres pour une
         piste bidirectionnelle. En dessous de ces seuils, l&apos;aménagement perd en confort et
-        en sécurité, notamment pour le depassement entre cyclistes.
+        en sécurité, notamment pour le dépassement entre cyclistes.
       </p>
 
       <h3>Combien coûte le marquage d&apos;une piste cyclable au m2 ?</h3>
@@ -700,7 +700,7 @@ export default function Content() {
       </p>
       <p>
         Renov&apos;Route accompagne les collectivités et les entreprises dans la conception, la
-        réalisation et l&apos;entretien de leurs aménagements cyclables depuis 2014. Plus de
+        réalisation et l&apos;entretien de leurs aménagements cyclables depuis 2016. Plus de
         1 000 projets de marquage livres en Rhône-Alpes, des équipés formees aux dernières
         normes NF EN 1436 et IISR, un matériel adapte aux revêtements colores et aux marquages
         haute performance.

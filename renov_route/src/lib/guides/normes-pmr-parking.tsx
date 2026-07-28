@@ -1,4 +1,5 @@
 import type { Guide } from '../guides'
+import KeyAnswer from '@/components/KeyAnswer'
 import Link from 'next/link'
 
 export const meta: Guide = {
@@ -16,6 +17,14 @@ export const meta: Guide = {
 export default function Content() {
   return (
     <>
+      <KeyAnswer question="Combien de places PMR sont obligatoires dans un parking ?">
+        <p>
+        La réglementation impose <strong>2 % du nombre total de places</strong>, arrondi à l’entier
+        supérieur, avec un minimum d’une place. Au-delà de 500 places, le seuil passe à 10 places plus
+        une par tranche de 50 supplémentaires : un parking de 800 places doit donc en compter 16.
+        </p>
+      </KeyAnswer>
+
       <p>
         Un contrôle d&apos;accessibilité dans votre parking pourrait vous coûter 45 000 €
         d&apos;amende. Ce n&apos;est pas une hypothèse : <a href="https://www.legifrance.gouv.fr/search/code?query=L.%20152-4%20CCH" target="_blank" rel="noopener noreferrer">l&apos;article L. 152-4 du Code de la construction</a> prévoit cette sanction pour tout ERP (Établissement Recevant du Public)
@@ -112,7 +121,7 @@ export default function Content() {
       </table>
 
       <p>
-        Le détail complet par configuration (épi, bataille, longitudinale) et le nombre exact de places selon la capacité sont dans notre guide dédié aux <a href="/guides/dimensions-nombre-places-pmr-parking/">dimensions des places PMR</a>. Estimez en un clic le nombre requis pour votre parking avec notre <a href="/calculateur-places-pmr/">calculateur de places PMR</a>.
+        Le détail complet par configuration (épi, bataille, longitudinale) et le nombre exact de places selon la capacité sont dans notre guide dédié aux <Link href="/guides/dimensions-nombre-places-pmr-parking/">dimensions des places PMR</Link>. Estimez en un clic le nombre requis pour votre parking avec notre <Link href="/calculateur-places-pmr/">calculateur de places PMR</Link>.
       </p>
 
       <p>
@@ -383,7 +392,7 @@ export default function Content() {
         <li>Vérification de conformité après travaux</li>
       </ul>
       <p>
-        Depuis 2014, nous avons mis en conformité plus de 200 parkings pour des enseignes
+        Depuis 2016, nous avons mis en conformité plus de 200 parkings pour des enseignes
         comme Carrefour, Lidl, McDonald&apos;s et des collectivités locales. Nous connaissons
         les exigences des commissions d&apos;accessibilité et nous vous garantissons un
         parking conforme.

@@ -24,7 +24,7 @@ export default function Content() {
       </p>
       <p>
         Chez Rénov&apos;Route, nous croyons à la transparence. Après plus de 1 000 projets
-        réalisés depuis 2014, nous connaissons précisément les fourchettes de prix du marché.
+        réalisés depuis 2016, nous connaissons précisément les fourchettes de prix du marché.
         Ce guide détaille les tarifs réels du <strong>prix marquage au sol parking</strong> en 2026 :
         prix au m², coût par type de prestation, et les facteurs qui font varier la facture
         du simple au triple.
@@ -341,7 +341,7 @@ export default function Content() {
         <li>Planning d&apos;intervention</li>
       </ul>
       <p>
-        Depuis 2014, nous avons réalisé plus de 1 000 projets de marquage pour des clients
+        Depuis 2016, nous avons réalisé plus de 1 000 projets de marquage pour des clients
         comme Carrefour, Lidl, McDonald&apos;s ou l&apos;Armée de Terre. Du parking de
         copropriété à la grande surface multi-sites, nous adaptons nos solutions à votre budget.
       </p>

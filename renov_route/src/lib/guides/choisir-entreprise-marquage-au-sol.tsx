@@ -175,7 +175,7 @@ export default function Content() {
 
       <p>
         Rénov&apos;Route a réalisé{' '}
-        <Link href="/realisations/">plus de 1 000 projets</Link> depuis 2014,
+        <Link href="/realisations/">plus de 1 000 projets</Link> depuis 2016,
         pour des clients aussi variés que Carrefour, Lidl, McDonald&apos;s,
         l&apos;Armée de Terre ou EM Lyon Business School. Cette diversité
         garantit une maîtrise des contraintes spécifiques à chaque type de
@@ -589,7 +589,7 @@ export default function Content() {
         <Link href="/competences/tracage-retracage-parking/">
           marquage au sol de parking
         </Link>{' '}
-        à Lyon et en Rhône-Alpes depuis 2014. Plus de 1 000 projets réalisés,
+        à Lyon et en Rhône-Alpes depuis 2016. Plus de 1 000 projets réalisés,
         peintures certifiées NF EN 1436, garantie 2 ans, devis en 48h.
       </p>
 

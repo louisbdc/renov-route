@@ -23,7 +23,7 @@ export default function Content() {
         La réalité, c&apos;est que le coût de rénovation d&apos;un parking varie du simple au décuple selon les travaux nécessaires. Un retraçage seul coûte à partir de 10 euros/m². Une réfection complète de chaussée peut dépasser 80 euros/m². Entre les deux, chaque poste a son propre tarif.
       </p>
       <p>
-        Ce guide détaille les prix au m² par type de travaux, les budgets moyens selon la taille du parking et les facteurs qui font varier la facture. Nous avons condensé ici les données de plus de 1 000 projets réalisés depuis 2014 pour des enseignes comme Carrefour, Lidl et McDonald&apos;s. Vous repartirez avec un budget prévisionnel réaliste pour votre projet.
+        Ce guide détaille les prix au m² par type de travaux, les budgets moyens selon la taille du parking et les facteurs qui font varier la facture. Nous avons condensé ici les données de plus de 1 000 projets réalisés depuis 2016 pour des enseignes comme Carrefour, Lidl et McDonald&apos;s. Vous repartirez avec un budget prévisionnel réaliste pour votre projet.
       </p>
 
       <h2>Les postes de dépenses d&apos;une rénovation de parking</h2>

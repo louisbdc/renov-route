@@ -291,7 +291,7 @@ export default function Content() {
         Un ralentisseur modulaire décollé, un plateau surélevé fissuré ou un marquage effacé ne remplissent plus leur fonction et deviennent des pièges. Prévoyez une inspection annuelle et un entretien préventif.
       </p>
       <p>
-        Julien, responsable maintenance d&apos;un parking de centre commercial à Villeurbanne (69), a découvert lors d&apos;une inspection que deux de ses ralentisseurs modulaires s&apos;étaient partiellement décollés après trois hivers. Les éléments déplacés créaient des arêtes vives dangereuses pour les piétons. Nous sommes intervenus pour réancrer les modules et remplacer les fixations corrodées. Le coût de la remise en etat est reste modeste, bien en deca du risque juridique encouru.
+        Julien, responsable maintenance d&apos;un parking de centre commercial à Villeurbanne (69), a découvert lors d&apos;une inspection que deux de ses ralentisseurs modulaires s&apos;étaient partiellement décollés après trois hivers. Les éléments déplacés créaient des arêtes vives dangereuses pour les piétons. Nous sommes intervenus pour réancrer les modules et remplacer les fixations corrodées. Le coût de la remise en état est reste modeste, bien en deca du risque juridique encouru.
       </p>
 
       <h2>Ralentisseur et traçage de parking : une approche globale</h2>
@@ -325,7 +325,7 @@ export default function Content() {
 
       <h3>Quel est le prix d&apos;un ralentisseur de parking ?</h3>
       <p>
-        À partir de 550 euros pour un ralentisseur modulaire en caoutchouc et à partir de 3 500 euros pour un plateau sureleve en enrobe, pose et signalisation comprises. Le coût dépend du type de ralentisseur, de la largeur de la voie et des travaux de voirie nécessaires.
+        À partir de 550 euros pour un ralentisseur modulaire en caoutchouc et à partir de 3 500 euros pour un plateau sureleve en enrobé, pose et signalisation comprises. Le coût dépend du type de ralentisseur, de la largeur de la voie et des travaux de voirie nécessaires.
       </p>
 
       <h3>Faut-il un panneau de signalisation avec un ralentisseur ?</h3>

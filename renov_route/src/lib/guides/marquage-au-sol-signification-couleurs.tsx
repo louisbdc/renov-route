@@ -1,11 +1,12 @@
 import type { Guide } from '../guides'
+import KeyAnswer from '@/components/KeyAnswer'
 import Link from 'next/link'
 
 export const meta: Guide = {
   slug: 'marquage-au-sol-signification-couleurs',
   title: 'Marquage au sol signification : le guide complet des couleurs, lignes et symboles',
-  metaTitle: 'Marquage au sol signification : couleurs, lignes, symboles | Guide 2026',
-  metaDescription: 'Marquage au sol signification : blanc, jaune, bleu, vert. Décodez chaque ligne, couleur et pictogramme. Tableau complet + règles parking. Guide expert 2026.',
+  metaTitle: 'Marquage au sol : que signifient blanc, jaune, bleu et vert ?',
+  metaDescription: 'Blanc = circulation, jaune = interdiction ou temporaire, bleu = stationnement réglementé, vert = cyclable. Chaque ligne et pictogramme décodé, avec les sanctions.',
   publishDate: '2026-03-31',
   updatedDate: '2026-05-21',
   category: 'marquage-parking',
@@ -16,8 +17,17 @@ export const meta: Guide = {
 export default function Content() {
   return (
     <>
+      <KeyAnswer question="Que signifient les couleurs du marquage au sol ?">
+        <p>
+        Le <strong>blanc</strong> régit la circulation permanente : lignes, flèches, passages piétons,
+        places standard. Le <strong>jaune</strong> signale une interdiction de stationner ou un marquage
+        temporaire de chantier. Le <strong>bleu</strong> indique un stationnement à durée limitée
+        (zone bleue). Le <strong>vert</strong> désigne les aménagements cyclables.
+        </p>
+      </KeyAnswer>
+
       <p>
-        Vous roulez chaque jour sur des dizaines de marquages au sol sans vraiment les voir. Et pourtant, une étude de la Sécurité Routiere estime que <strong>le marquage au sol transmet 80% des informations nécessaires à la conduite</strong>. Lignes blanches, bandes jaunes, zones bleues, pictogrammes : chaque élément à une signification précise, une valeur réglementaire et des conséquences en cas de non-respect.
+        Vous roulez chaque jour sur des dizaines de marquages au sol sans vraiment les voir. Et pourtant, une étude de la Sécurité Routière estime que <strong>le marquage au sol transmet 80% des informations nécessaires à la conduite</strong>. Lignes blanches, bandes jaunes, zones bleues, pictogrammes : chaque élément à une signification précise, une valeur réglementaire et des conséquences en cas de non-respect.
       </p>
       <p>
         Le problème ? Beaucoup de conducteurs confondent les couleurs. Et beaucoup de gestionnaires de parking appliquent des marquages sans connaître les règles. En 2024, un gérant de supermarché près de Villefranche-sur-Saône a découvert lors d&apos;un contrôle que ses places PMR étaient tracées en blanc au lieu du bleu réglementaire. Résultat : une mise en demeure et 5 000 EUR de travaux de mise en conformité.
@@ -26,12 +36,12 @@ export default function Content() {
         Ce guide vous explique la <strong>signification du marquage au sol</strong> couleur par couleur, ligne par ligne, symbole par symbole. Que vous soyez conducteur, gestionnaire de parking ou responsable de voirie, vous saurez exactement ce que chaque marquage signifie et quelles obligations il implique.
       </p>
       <p>
-        <strong>Besoin d&apos;un marquage conforme ?</strong> Renov&apos;Route réalise depuis 2014 le <Link href="/competences/tracage-retracage-parking">traçage et retraçage de parkings</Link> pour plus de 1 000 clients dans toute la France. <Link href="/devis">Demandez un devis gratuit</Link> en 48h ou appelez le 07 86 81 96 92.
+        <strong>Besoin d&apos;un marquage conforme ?</strong> Renov&apos;Route réalise depuis 2016 le <Link href="/competences/tracage-retracage-parking">traçage et retraçage de parkings</Link> pour plus de 1 000 clients dans toute la France. <Link href="/devis">Demandez un devis gratuit</Link> en 48h ou appelez le 07 86 81 96 92.
       </p>
 
       <h2>Le code couleur du marquage au sol</h2>
       <p>
-        La <strong>couleur marquage au sol</strong> est le premier niveau de lecture de la signalisation horizontale. Chaque couleur correspond à une catégorie de message codifiee par l&apos;Instruction Interministérielle sur la Signalisation Routiere (IISR).
+        La <strong>couleur marquage au sol</strong> est le premier niveau de lecture de la signalisation horizontale. Chaque couleur correspond à une catégorie de message codifiee par l&apos;Instruction Interministérielle sur la Signalisation Routière (IISR).
       </p>
 
       <h3>Blanc : le marquage standard</h3>
@@ -81,22 +91,22 @@ export default function Content() {
 
       <h3>Ligne continue</h3>
       <p>
-        La ligne continue blanche est la plus contraignante. Elle <strong>interdit tout franchissement et tout chevauchement</strong>. En axe de chaussée, elle séparé les deux sens de circulation et interdit le depassement. En rive, elle délimité la chaussée et interdit l&apos;arrêt.
+        La ligne continue blanche est la plus contraignante. Elle <strong>interdit tout franchissement et tout chevauchement</strong>. En axe de chaussée, elle séparé les deux sens de circulation et interdit le dépassement. En rive, elle délimité la chaussée et interdit l&apos;arrêt.
       </p>
       <p>
         <strong>Caractéristiques :</strong>
       </p>
       <ul>
-        <li>Largeur : 2U ou 3U (U = unité de base, 6 cm en agglomeration, 7,5 cm hors agglomeration)</li>
+        <li>Largeur : 2U ou 3U (U = unité de base, 6 cm en agglomération, 7,5 cm hors agglomération)</li>
         <li>Franchissement interdit = contravention de 4e classe (135 EUR, retrait de 3 points)</li>
       </ul>
 
       <h3>Ligne discontinue</h3>
       <p>
-        La ligne discontinue autorisé le franchissement. En axe, elle permet le depassement si la visibilité est suffisante. Le rapport entre les pleins et les vides définit le type de ligne :
+        La ligne discontinue autorisé le franchissement. En axe, elle permet le dépassement si la visibilité est suffisante. Le rapport entre les pleins et les vides définit le type de ligne :
       </p>
       <ul>
-        <li><strong>Ligne T1 (depassement) :</strong> 3 m de plein / 1,33 m de vide</li>
+        <li><strong>Ligne T1 (dépassement) :</strong> 3 m de plein / 1,33 m de vide</li>
         <li><strong>Ligne T3 (guidage) :</strong> Traits courts de 20 cm, intervalles de 50 cm, pour guider dans les carrefours</li>
         <li><strong>Ligne T1 rapprochee :</strong> Annonce une ligne continue imminente</li>
       </ul>
@@ -108,7 +118,7 @@ export default function Content() {
 
       <h3>Passages piétons</h3>
       <p>
-        Les bandes blanches paralleles (dites &laquo; zebra &raquo;) delimitent les passages piétons. Leur <strong>signification marquage au sol</strong> est claire : le piéton est prioritaire. Le non-respect de cette priorité est sanctionné de 135 EUR d&apos;amende et d&apos;un retrait de 6 points.
+        Les bandes blanches parallèles (dites &laquo; zebra &raquo;) délimitent les passages piétons. Leur <strong>signification marquage au sol</strong> est claire : le piéton est prioritaire. Le non-respect de cette priorité est sanctionné de 135 EUR d&apos;amende et d&apos;un retrait de 6 points.
       </p>
 
       <h3>Flèches directionnelles</h3>
@@ -126,7 +136,7 @@ export default function Content() {
         La ligne jaune en zigzag tracée le long du trottoir materialise un arrêt de bus ou une station de taxi. <strong>Il est interdit de s&apos;arrêter ou de stationner</strong> sur toute la zone couverte par ce marquage, même pour &laquo; juste une minute &raquo;.
       </p>
       <p>
-        Un commercant de la Presqu&apos;île à Lyon l&apos;a appris à ses depens. En laissant régulièrement son utilitaire sur le zigzag jaune devant son commerce, il a accumule 1 200 EUR d&apos;amendes en six mois. La mairie avait installé une camera de videoverbalisation.
+        Un commerçant de la Presqu&apos;île à Lyon l&apos;a appris à ses dépens. En laissant régulièrement son utilitaire sur le zigzag jaune devant son commerce, il a accumule 1 200 EUR d&apos;amendes en six mois. La mairie avait installé une camera de videoverbalisation.
       </p>
 
       <h3>Bande jaune continue le long du trottoir</h3>
@@ -136,7 +146,7 @@ export default function Content() {
 
       <h3>Ligne jaune continue en axe de chaussée</h3>
       <p>
-        Plus rare, la ligne jaune continue en axe peut signaler une interdiction de depassement dans un contexte temporaire, notamment en zone de travaux. Elle se distingue de la ligne blanche continue par son caractere provisoire.
+        Plus rare, la ligne jaune continue en axe peut signaler une interdiction de dépassement dans un contexte temporaire, notamment en zone de travaux. Elle se distingue de la ligne blanche continue par son caractere provisoire.
       </p>
 
       <h3>Marquage jaune (ou orange) temporaire : travaux</h3>
@@ -157,7 +167,7 @@ export default function Content() {
         Une zone bleue est un espace de stationnement gratuit mais <strong>limite dans le temps</strong>, généralement entre 1h et 2h. Le marquage au sol bleu (bande ou remplissage de la place) indique que vous devez afficher un disque de stationnement européen sur votre tableau de bord.
       </p>
       <p>
-        Sans disque ou avec un depassement de la durée autorisée, vous risquez une amende de 35 EUR (contravention de 2e classe).
+        Sans disque ou avec un dépassement de la durée autorisée, vous risquez une amende de 35 EUR (contravention de 2e classe).
       </p>
 
       <h3>Reconnaître une zone bleue</h3>
@@ -206,7 +216,7 @@ export default function Content() {
 
       <h3>Inscriptions au sol</h3>
       <p>
-        Les mentions &laquo; STOP &raquo;, &laquo; CEDEZ LE PASSAGE &raquo;, &laquo; 30 &raquo; (limitation de vitesse) ou &laquo; ZONE 30 &raquo; peintes au sol renforcent la signalisation verticale. Elles n&apos;ont pas de valeur réglementaire propre mais servent de rappel visuel.
+        Les mentions &laquo; STOP &raquo;, &laquo; Cédez LE PASSAGE &raquo;, &laquo; 30 &raquo; (limitation de vitesse) ou &laquo; ZONE 30 &raquo; peintes au sol renforcent la signalisation verticale. Elles n&apos;ont pas de valeur réglementaire propre mais servent de rappel visuel.
       </p>
 
       <h2>Marquage au sol en parking privé : règles et personnalisation</h2>
@@ -216,7 +226,7 @@ export default function Content() {
 
       <h3>Ce qui est obligatoire</h3>
       <p>
-        Meme dans un parking privé ouvert au public (supermarché, centre commercial, clinique), certaines obligations s&apos;imposent :
+        Même dans un parking privé ouvert au public (supermarché, centre commercial, clinique), certaines obligations s&apos;imposent :
       </p>
       <ul>
         <li><strong>Places PMR :</strong> Nombre minimal réglementaire (2% des places, minimum 1), marquage bleu + pictogramme + panneau</li>
@@ -349,8 +359,8 @@ export default function Content() {
         <li><strong>Non-respect du passage piéton :</strong> 135 EUR + 6 points (+ suspension possible)</li>
         <li><strong>Stationnement sur place PMR :</strong> 135 EUR + fourriere</li>
         <li><strong>Circulation en voie de bus :</strong> 135 EUR</li>
-        <li><strong>Depassement de durée en zone bleue :</strong> 35 EUR</li>
-        <li><strong>Non-respect du marquage temporaire :</strong> Memes sanctions que le marquage permanent</li>
+        <li><strong>Dépassement de durée en zone bleue :</strong> 35 EUR</li>
+        <li><strong>Non-respect du marquage temporaire :</strong> Mêmes sanctions que le marquage permanent</li>
       </ul>
 
       <h3>Pour les gestionnaires de parking</h3>
@@ -377,7 +387,7 @@ export default function Content() {
 
       <h3>Un marquage au sol a-t-il une valeur réglementaire ?</h3>
       <p>
-        Oui. Le marquage au sol à une valeur réglementaire définie par l&apos;IISR (Instruction Interministérielle sur la Signalisation Routiere). Son non-respect est sanctionné par le Code de la route. En cas de contradiction entre un panneau et un marquage, c&apos;est généralement le panneau qui prevaut, sauf pour le marquage temporaire qui prime sur le marquage permanent.
+        Oui. Le marquage au sol à une valeur réglementaire définie par l&apos;IISR (Instruction Interministérielle sur la Signalisation Routière). Son non-respect est sanctionné par le Code de la route. En cas de contradiction entre un panneau et un marquage, c&apos;est généralement le panneau qui prevaut, sauf pour le marquage temporaire qui prime sur le marquage permanent.
       </p>
 
       <h3>Qui est responsable de l&apos;entretien du marquage au sol ?</h3>
@@ -390,13 +400,13 @@ export default function Content() {
         Comprendre la <strong>signification du marquage au sol</strong> n&apos;est pas un exercice théorique. C&apos;est une question de sécurité pour les conducteurs, de conformité pour les gestionnaires et de responsabilité pour tous. Blanc, jaune, bleu, vert : chaque couleur à un message. Chaque ligne à une réglé.
       </p>
       <p>
-        Si vous gerez un parking, une voirie ou un espace de circulation, la qualité de votre marquage au sol reflete directement votre engagement envers la sécurité de vos usagers. Un marquage effacé, decolore ou non conforme est un risque juridique et humain.
+        Si vous gérez un parking, une voirie ou un espace de circulation, la qualité de votre marquage au sol reflète directement votre engagement envers la sécurité de vos usagers. Un marquage effacé, decolore ou non conforme est un risque juridique et humain.
       </p>
       <p>
-        <strong>Renov&apos;Route vous accompagne</strong> dans le <Link href="/competences/tracage-retracage-parking">traçage et retraçage</Link> de vos espaces de circulation. Depuis 2014, nous avons réalisé plus de 1 000 projets pour des enseignes comme Carrefour, Lidl et McDonald&apos;s, en respectant les normes NF EN 1436 et l&apos;IISR.
+        <strong>Renov&apos;Route vous accompagne</strong> dans le <Link href="/competences/tracage-retracage-parking">traçage et retraçage</Link> de vos espaces de circulation. Depuis 2016, nous avons réalisé plus de 1 000 projets pour des enseignes comme Carrefour, Lidl et McDonald&apos;s, en respectant les normes NF EN 1436 et l&apos;IISR.
       </p>
       <p>
-        <strong><Link href="/devis">Demandez votre devis gratuit</Link></strong> en 48h ou appelez le 07 86 81 96 92. Un expert Renov&apos;Route vous conseillé sur le marquage adapte à votre site.
+        <strong><Link href="/devis">Demandez votre devis gratuit</Link></strong> en 48h ou appelez le 07 86 81 96 92. Un expert Renov&apos;Route vous conseillé sur le marquage adapté à votre site.
       </p>
     </>
   )

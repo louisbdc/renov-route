@@ -768,7 +768,7 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
       question:
         "Époxy ou polyuréthane pour un entrepôt ?",
       answer:
-        "Epoxy pour la majorité des entrepôts (température constante, trafic mécanique). Polyuréthane pour les entrepôts frigorifiques (résistance aux chocs thermiques) ou les zones de quai (exposition aux UV et aux intempéries). L'époxy offre une meilleure résistance mécanique et un prix inférieur.",
+        "Époxy pour la majorité des entrepôts (température constante, trafic mécanique). Polyuréthane pour les entrepôts frigorifiques (résistance aux chocs thermiques) ou les zones de quai (exposition aux UV et aux intempéries). L'époxy offre une meilleure résistance mécanique et un prix inférieur.",
     },
     {
       question:

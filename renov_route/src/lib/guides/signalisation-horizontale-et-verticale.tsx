@@ -1,26 +1,36 @@
 import type { Guide } from '../guides'
+import KeyAnswer from '@/components/KeyAnswer'
 import Link from 'next/link'
 
 export const meta: Guide = {
   slug: 'signalisation-horizontale-et-verticale',
   title: 'Signalisation horizontale et verticale : comprendre, combiner et mettre en conformité',
-  metaTitle: 'Signalisation horizontale et verticale : normes, prix 2026',
-  metaDescription: 'Signalisation horizontale vs verticale : définitions, normes NF EN 1436 et 12899-1, règles de combinaison et tarifs. Parking, voirie, zone industrielle. Devis 48h.',
+  metaTitle: 'Signalisation horizontale ou verticale : quelle différence ?',
+  metaDescription: 'Horizontale = marquage au sol, verticale = panneaux. Ce que dit la loi sur leur combinaison, les normes NF EN 1436 et 12899-1, et les tarifs par prestation.',
   publishDate: '2026-03-31',
   updatedDate: '2026-05-21',
   category: 'securite-parking',
   readingTime: 12,
-  excerpt: 'Definitions, normes NF EN 1436 et 12899-1, differences, complementarite et prix de la signalisation horizontale et verticale pour parking, voirie et zone industrielle.',
+  excerpt: 'Définitions, normes NF EN 1436 et 12899-1, différences, complementarite et prix de la signalisation horizontale et verticale pour parking, voirie et zone industrielle.',
 }
 
 export default function Content() {
   return (
     <>
+      <KeyAnswer question="Quelle différence entre signalisation horizontale et verticale ?">
+        <p>
+        La signalisation <strong>horizontale</strong> désigne tout ce qui est appliqué au sol :
+        lignes, flèches, passages piétons, pictogrammes. La <strong>verticale</strong> regroupe les
+        dispositifs en hauteur : panneaux, feux, bornes, panonceaux. Les deux se complètent — le sol
+        guide, le panneau reste visible quand un véhicule masque le marquage.
+        </p>
+      </KeyAnswer>
+
       <p>
         Un parking ou seul le marquage au sol existe, sans aucun panneau. Les automobilistes devinent le sens de circulation. Les places PMR sont tracées mais aucun panneau ne les signalé en hauteur. Un piéton ne voit pas le passage cloute depuis l&apos;entrée parce qu&apos;un véhicule stationne le masque. Résultat : un accident, un litige, une mise en demeure de la commission d&apos;accessibilité.
       </p>
       <p>
-        Ce scénario, Renov&apos;Route le constate plusieurs fois par mois sur des parkings de la metropole lyonnaise. La cause est presque toujours la même : la <strong>signalisation horizontale et verticale</strong> a été pensee séparément, où l&apos;un des deux volets a été oublie.
+        Ce scénario, Renov&apos;Route le constate plusieurs fois par mois sur des parkings de la métropole lyonnaise. La cause est presque toujours la même : la <strong>signalisation horizontale et verticale</strong> a été pensée séparément, où l&apos;un des deux volets a été oublié.
       </p>
       <p>
         Cet article vous explique ce que couvre chaque type de signalisation, comment ils se completent, ce que disent les normes, et combien cela coûte. Que vous soyez gestionnaire de parking, responsable de copropriété, directeur de site industriel ou elu en charge de voirie communale, vous trouverez ici les réponses concrètes pour prendre les bonnes décisions.
@@ -28,7 +38,7 @@ export default function Content() {
 
       <h2>Signalisation horizontale : tout ce qui est au sol</h2>
       <p>
-        La signalisation horizontale désigne l&apos;ensemble des marquages peints ou appliqués sur la chaussée, le sol d&apos;un parking ou le plancher d&apos;un entrepot. Elle guide, informe et protège les usagers sans qu&apos;ils aient besoin de lever les yeux.
+        La signalisation horizontale désigne l&apos;ensemble des marquages peints ou appliqués sur la chaussée, le sol d&apos;un parking ou le plancher d&apos;un entrepôt. Elle guide, informe et protège les usagers sans qu&apos;ils aient besoin de lever les yeux.
       </p>
 
       <h3>Les éléments de la signalisation horizontale</h3>
@@ -36,12 +46,12 @@ export default function Content() {
         Voici les principaux marquages que vous rencontrez au quotidien :
       </p>
       <ul>
-        <li><strong>Lignes de délimitation</strong> : lignes continues ou discontinues qui separent les voies, delimitent les places de stationnement ou interdisent le franchissement</li>
+        <li><strong>Lignes de délimitation</strong> : lignes continues ou discontinues qui separent les voies, délimitent les places de stationnement ou interdisent le franchissement</li>
         <li><strong>Flèches directionnelles</strong> : flèches peintes au sol indiquant le sens de circulation, les virages ou les voies d&apos;affectation</li>
-        <li><strong>Passages piétons</strong> : bandes blanches paralleles (dites &quot;zebre&quot;) de 50 cm de large, espacees de 50 cm</li>
+        <li><strong>Passages piétons</strong> : bandes blanches parallèles (dites &quot;zebre&quot;) de 50 cm de large, espacées de 50 cm</li>
         <li><strong>Pictogrammes</strong> : symboles PMR (fauteuil roulant), vélo, zone de livraison, stop, cedez-le-passage</li>
         <li><strong>Bandes d&apos;alerte et de guidage</strong> : bandes podotactiles ou contrastees pour l&apos;accessibilité des personnes malvoyantes</li>
-        <li><strong>Hachures</strong> : zones neutralisees (jaunes pour interdiction de stationnement, blanches pour séparation de flux)</li>
+        <li><strong>Hachures</strong> : zones neutralisées (jaunes pour interdiction de stationnement, blanches pour séparation de flux)</li>
       </ul>
       <p>
         Sur un parking, le{' '}
@@ -51,7 +61,7 @@ export default function Content() {
 
       <h3>Matériaux et durée de vie</h3>
       <p>
-        La peinture routière classique (acrylique ou glycero) tient 12 à 24 mois en extérieur selon le trafic. La résine thermoplastique, plus coûteuse à la pose, résiste 3 à 5 ans. L&apos;enduit à froid offre un compromis intermediaire à 2-3 ans. Le choix dépend du budget, du trafic et de la surface.
+        La peinture routière classique (acrylique ou glycero) tient 12 à 24 mois en extérieur selon le trafic. La résine thermoplastique, plus coûteuse à la pose, résiste 3 à 5 ans. L&apos;enduit à froid offre un compromis intermédiaire à 2-3 ans. Le choix dépend du budget, du trafic et de la surface.
       </p>
 
       <h3>Cadre normatif de la signalisation horizontale</h3>
@@ -59,16 +69,16 @@ export default function Content() {
         La norme <strong>NF EN 1436</strong> encadré les performances des produits de marquage routier. Elle mesure trois paramètres essentiels :
       </p>
       <ul>
-        <li><strong>Retroreflexion (RL)</strong> : visibilité du marquage la nuit sous éclairage de phares. Classe minimale R2 exigée sur voie publique</li>
+        <li><strong>Rétroréflexion (RL)</strong> : visibilité du marquage la nuit sous éclairage de phares. Classe minimale R2 exigée sur voie publique</li>
         <li><strong>Luminance (Qd)</strong> : visibilité de jour, en lumière diffuse</li>
-        <li><strong>Adherence (SRT)</strong> : résistance au glissement, critique pour les passages piétons et les zones de freinage</li>
+        <li><strong>Adhérence (SRT)</strong> : résistance au glissement, critique pour les passages piétons et les zones de freinage</li>
       </ul>
       <p>
-        L&apos;<strong>IISR (Instruction Interministérielle sur la Signalisation Routiere)</strong>, 7e partie, définit les dimensions, les couleurs et les règles de pose du marquage sur voie publique. Pour les parkings privés, l&apos;IISR sert de référence technique même si elle n&apos;est pas directement contraignante.
+        L&apos;<strong>IISR (Instruction Interministérielle sur la Signalisation Routière)</strong>, 7e partie, définit les dimensions, les couleurs et les règles de pose du marquage sur voie publique. Pour les parkings privés, l&apos;IISR sert de référence technique même si elle n&apos;est pas directement contraignante.
       </p>
       <p>
         <strong>Votre marquage au sol est effacé ou non conforme ?</strong>{' '}
-        Renov&apos;Route intervient sur toute la metropole lyonnaise depuis 2014, avec plus de 1 000 projets réalisés.{' '}
+        Renov&apos;Route intervient sur toute la métropole lyonnaise depuis 2016, avec plus de 1 000 projets réalisés.{' '}
         <Link href="/devis">Demandez un devis gratuit</Link> et recevez une réponse en 48h. Tel : 07 86 81 96 92.
       </p>
 
@@ -94,7 +104,7 @@ export default function Content() {
 
       <h3>Matériaux et durée de vie</h3>
       <p>
-        Un panneau en aluminium avec film retroreflechissant de classe 1 dure 7 à 12 ans. Les films de classe 2 (microprismatiques) tiennent 10 à 15 ans et offrent une meilleure visibilité nocturne. Les mats en acier galvanise résistent 20 ans et plus. A l&apos;inverse, un panneau PVC ou composite est moins durable (3-5 ans) mais convient pour les parkings privés à faible enjeu.
+        Un panneau en aluminium avec film rétroréfléchissant de classe 1 dure 7 à 12 ans. Les films de classe 2 (microprismatiques) tiennent 10 à 15 ans et offrent une meilleure visibilité nocturne. Les mats en acier galvanisé résistent 20 ans et plus. A l&apos;inverse, un panneau PVC ou composite est moins durable (3-5 ans) mais convient pour les parkings privés à faible enjeu.
       </p>
 
       <h3>Cadre normatif de la signalisation verticale</h3>
@@ -107,13 +117,13 @@ export default function Content() {
 
       <h2>Tableau comparatif : signalisation horizontale vs verticale</h2>
       <p>
-        Voici une synthèse des <strong>differences entre signalisation horizontale et verticale</strong> pour vous aider à planifier votre projet :
+        Voici une synthèse des <strong>différences entre signalisation horizontale et verticale</strong> pour vous aider à planifier votre projet :
       </p>
       <div className="overflow-x-auto">
         <table>
           <thead>
             <tr>
-              <th>Critere</th>
+              <th>Critère</th>
               <th>Signalisation horizontale</th>
               <th>Signalisation verticale</th>
             </tr>
@@ -121,7 +131,7 @@ export default function Content() {
           <tbody>
             <tr>
               <td><strong>Support</strong></td>
-              <td>Sol (chaussée, béton, enrobe)</td>
+              <td>Sol (chaussée, béton, enrobé)</td>
               <td>Structure hors sol (mat, poteau, mur)</td>
             </tr>
             <tr>
@@ -132,7 +142,7 @@ export default function Content() {
             <tr>
               <td><strong>Visibilité de nuit</strong></td>
               <td>Depend de la rétroréflexion (billes de verre)</td>
-              <td>Film retroreflechissant, éclairage possible</td>
+              <td>Film rétroréfléchissant, éclairage possible</td>
             </tr>
             <tr>
               <td><strong>Visibilité sol mouille/enneige</strong></td>
@@ -151,7 +161,7 @@ export default function Content() {
             </tr>
             <tr>
               <td><strong>Maintenance</strong></td>
-              <td>Retracage périodique (tous les 1-3 ans)</td>
+              <td>Retraçage périodique (tous les 1-3 ans)</td>
               <td>Nettoyage, remplacement du film (tous les 7-10 ans)</td>
             </tr>
             <tr>
@@ -193,7 +203,7 @@ export default function Content() {
       <ul>
         <li><strong>Redondance</strong> : un conducteur qui ne voit pas le marquage (sol mouille, nuit, véhicule masquant) voit le panneau. Un piéton qui ne voit pas le panneau voit le marquage au sol</li>
         <li><strong>Completude</strong> : le panneau donne l&apos;information réglementaire (interdit, autorisé, vitesse). Le marquage donne l&apos;information spatiale (ou exactement s&apos;arrêter, ou tourner)</li>
-        <li><strong>Conformite</strong> : de nombreuses réglementations exigent les deux. Un passage piéton doit combiner bandes au sol et panneaux C20a. Une place PMR doit combiner pictogramme au sol et panneau B6a1 avec panonceau M6h</li>
+        <li><strong>Conformité</strong> : de nombreuses réglementations exigent les deux. Un passage piéton doit combiner bandes au sol et panneaux C20a. Une place PMR doit combiner pictogramme au sol et panneau B6a1 avec panonceau M6h</li>
       </ul>
       <p>
         Sophie, responsable HSE d&apos;une zone industrielle de 12 hectares à Saint-Priest, a vecu un audit de sécurité qui l&apos;a illustre. L&apos;inspecteur a releve 23 non-conformites. Toutes concernaient des marquages au sol sans panneau associe (zones de stockage, voies piétonnes, sens de circulation). La signalisation horizontale existait. La signalisation verticale manquait. Le site a reçu une mise en demeure avec un délai de 3 mois pour mise en conformité.
@@ -219,7 +229,7 @@ export default function Content() {
         <li><strong>Signalisation horizontale</strong> : traçage des 100 places (lignes T3 de 5 cm), 4-6 places PMR avec pictogramme, 2-4 passages piétons, flèches directionnelles, zones hachurees (accès pompiers, livraison)</li>
         <li><strong>Signalisation verticale</strong> : panneau P à l&apos;entrée, panneau B14 (20 km/h), panneaux directionnels (entrée/sortie), panneaux PMR, panneaux places réservées (visiteurs, direction, livraison)</li>
         <li><strong>Accessoires</strong> :{' '}
-          <Link href="/competences/accessoires-parking">butees de parking, potelets, miroirs de sécurité</Link>
+          <Link href="/competences/accessoires-parking">butées de parking, potelets, miroirs de sécurité</Link>
         </li>
       </ul>
       <p>
@@ -228,14 +238,14 @@ export default function Content() {
 
       <h3>Zone industrielle ou logistique</h3>
       <p>
-        Les zones industrielles cumulent les contraintes : véhicules lourds (PL, chariots elevateurs), piétons, zones de stockage, quais de chargement. La <strong>signalisation horizontale et verticale</strong> doit être renforcée :
+        Les zones industrielles cumulent les contraintes : véhicules lourds (PL, chariots élévateurs), piétons, zones de stockage, quais de chargement. La <strong>signalisation horizontale et verticale</strong> doit être renforcée :
       </p>
       <ul>
         <li><strong>Marquage au sol</strong> : bandes jaunes de sécurité (largeur 10 cm minimum), zones piétonnes vertes, marquage de quais, flèches de circulation poids lourds</li>
         <li><strong>Panneaux</strong> : limitation de vitesse (10-15 km/h), interdiction aux piétons dans certaines zones, signalisation de danger (chariots, manoeuvres), plan de circulation à l&apos;entrée</li>
       </ul>
       <p>
-        <strong>Budget estimatif</strong> : 5 000 à 15 000 EUR HT selon la superficie et la complexite du site.
+        <strong>Budget estimatif</strong> : 5 000 à 15 000 EUR HT selon la superficie et la complexité du site.
       </p>
 
       <h3>Voirie communale</h3>
@@ -252,7 +262,7 @@ export default function Content() {
         pour voir des exemples de chantiers en voirie communale.
       </p>
       <p>
-        <strong>Vous gerez un parking, un site industriel ou une voirie ?</strong>{' '}
+        <strong>Vous gérez un parking, un site industriel ou une voirie ?</strong>{' '}
         Renov&apos;Route prend en charge la signalisation horizontale et verticale de A a Z. Un seul interlocuteur, un seul devis, un seul chantier.{' '}
         <Link href="/devis">Demandez votre devis gratuit</Link>.
       </p>
@@ -283,7 +293,7 @@ export default function Content() {
         <li>Les bailleurs (pour les parkings locatifs)</li>
       </ul>
       <p>
-        Aucune obligation légale n&apos;impose de recourir à un professionnel pour la pose. Mais un prestataire qualifie garantit la conformité aux normes, la durabilité des matériaux et une pose dans les règles de l&apos;art. C&apos;est la difference entre un marquage qui tient 6 mois et un qui tient 3 ans.
+        Aucune obligation légale n&apos;impose de recourir à un professionnel pour la pose. Mais un prestataire qualifie garantit la conformité aux normes, la durabilité des matériaux et une pose dans les règles de l&apos;art. C&apos;est la différence entre un marquage qui tient 6 mois et un qui tient 3 ans.
       </p>
 
       <h2>Prix de la signalisation horizontale et verticale en 2026</h2>
@@ -345,7 +355,7 @@ export default function Content() {
               <td>200 à 350 EUR</td>
             </tr>
             <tr>
-              <td>Mat acier galvanise (3 m)</td>
+              <td>Mat acier galvanisé (3 m)</td>
               <td>80 à 150 EUR</td>
             </tr>
             <tr>
@@ -362,7 +372,7 @@ export default function Content() {
 
       <h3>Ce qui fait varier le prix</h3>
       <ul>
-        <li><strong>État du sol</strong> : un enrobe fissure ou un béton sale nécessite une préparation (nettoyage, rebouchage) qui augmente le coût</li>
+        <li><strong>État du sol</strong> : un enrobé fissure ou un béton sale nécessite une préparation (nettoyage, rebouchage) qui augmente le coût</li>
         <li><strong>Accessibilité</strong> : un parking souterrain ou un site a accès restreint rallonge le temps d&apos;intervention</li>
         <li><strong>Volume</strong> : plus le chantier est important, plus le coût unitaire baisse</li>
         <li><strong>Urgence</strong> : une intervention sous 48h coûte 15 à 30% de plus qu&apos;un chantier planifie</li>
@@ -380,7 +390,7 @@ export default function Content() {
         On distingue quatre familles : 1) la <strong>signalisation horizontale</strong> (marquage au sol) ; 2) la <strong>signalisation verticale</strong> (panneaux) ; 3) la <strong>signalisation lumineuse</strong> (feux tricolores) ; 4) la <strong>signalisation temporaire</strong> de chantier. Sur un parking, les deux premières sont les plus fréquentes.
       </p>
 
-      <h3>Quelle est la difference entre signalisation horizontale et verticale ?</h3>
+      <h3>Quelle est la différence entre signalisation horizontale et verticale ?</h3>
       <p>
         La <strong>signalisation horizontale</strong> désigne les marquages au sol (lignes, flèches, pictogrammes, passages piétons). La <strong>signalisation verticale</strong> désigne les dispositifs en hauteur (panneaux, feux, bornes, portiques). Les deux sont complémentaires et ne se substituent pas.
       </p>
@@ -402,7 +412,7 @@ export default function Content() {
 
       <h3>Combien coûte la mise en conformité d&apos;un parking de 50 places ?</h3>
       <p>
-        Comptez entre 2 000 et 5 000 EUR HT pour le marquage au sol et entre 800 et 2 500 EUR HT pour la signalisation verticale. Le coût exact dépend de l&apos;etat du sol, du nombre de panneaux et de la complexite du plan de circulation.
+        Comptez entre 2 000 et 5 000 EUR HT pour le marquage au sol et entre 800 et 2 500 EUR HT pour la signalisation verticale. Le coût exact dépend de l&apos;etat du sol, du nombre de panneaux et de la complexité du plan de circulation.
       </p>
 
       <h3>À quelle fréquence faut-il renouveler la signalisation ?</h3>
@@ -415,7 +425,7 @@ export default function Content() {
         La <strong>signalisation horizontale et verticale</strong> forme un système unique. Traiter l&apos;une sans l&apos;autre, c&apos;est créer des zones d&apos;ombre, des incohérences et des risques juridiques. Un parking bien signalé, c&apos;est un parking où le marquage au sol et les panneaux racontent la même histoire au conducteur et au piéton.
       </p>
       <p>
-        Renov&apos;Route concoit et réalise les deux volets depuis 2014 sur toute la region lyonnaise. Un seul interlocuteur, un seul chantier, une signalisation coherente et conforme.
+        Renov&apos;Route concoit et réalise les deux volets depuis 2016 sur toute la région lyonnaise. Un seul interlocuteur, un seul chantier, une signalisation coherente et conforme.
       </p>
       <p>
         <strong>

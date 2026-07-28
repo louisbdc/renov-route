@@ -1,11 +1,12 @@
 import type { Guide } from '../guides'
+import KeyAnswer from '@/components/KeyAnswer'
 import Link from 'next/link'
 
 export const meta: Guide = {
   slug: 'dimension-place-de-parking-normes',
   title: 'Dimension place de parking : normes, tailles et guide complet',
-  metaTitle: 'Dimension place de parking : normes et tailles 2026',
-  metaDescription: 'Dimensions place de parking selon la norme NF P 91-100 : 2,50x5m standard, PMR, epi, longitudinale. Tableaux, erreurs à éviter et optimisation. Devis gratuit.',
+  metaTitle: 'Dimension place de parking : 2,50 × 5 m (norme NF P 91-100)',
+  metaDescription: 'Une place standard mesure 2,50 m × 5 m. Toutes les dimensions par configuration : épi 45°/75°, bataille, longitudinale, PMR (3,30 m). Tableaux et largeurs de voie.',
   publishDate: '2026-03-31',
   updatedDate: '2026-05-21',
   category: 'marquage-parking',
@@ -16,6 +17,14 @@ export const meta: Guide = {
 export default function Content() {
   return (
     <>
+      <KeyAnswer question="Quelle est la dimension d’une place de parking ?">
+        <p>
+        Une place de stationnement perpendiculaire mesure <strong>2,50 m de large sur 5 m de long</strong>,
+        avec une voie de circulation de 5 m, selon la norme NF P 91-100. En épi à 45°, la largeur
+        descend à 2,20 m pour une voie de 3,50 m. Une place PMR fait <strong>3,30 m de large</strong>.
+        </p>
+      </KeyAnswer>
+
       <p>
         Votre parking de 40 places n&apos;en contient que 32 après traçage ? Vos clients se
         plaignent de portiques rayés et de retroviseurs arraches ? Vos places PMR ne passent
@@ -24,14 +33,14 @@ export default function Content() {
         calculees.</strong>
       </p>
       <p>
-        Un écart de 20 centimetres sur la largeur d&apos;une place suffit à transformer un
+        Un écart de 20 centimètres sur la largeur d&apos;une place suffit à transformer un
         parking fonctionnel en source de conflits quotidiens. A l&apos;inverse, des places trop
-        larges gaspillent de l&apos;espace et reduisent votre capacite d&apos;accueil.
+        larges gaspillent de l&apos;espace et reduisent votre capacité d&apos;accueil.
       </p>
       <p>
         Ce guide vous donne toutes les <strong>dimensions place de parking</strong> à connaître
         selon la norme NF P 91-100, avec des tableaux pratiques, les erreurs à éviter et des
-        solutions concrètes pour optimiser chaque mètre carre.
+        solutions concrètes pour optimiser chaque mètre carré.
       </p>
 
       <h2>La norme NF P 91-100 : le cadre réglementaire des dimensions de parking</h2>
@@ -72,7 +81,7 @@ export default function Content() {
         <p>
           <strong>Vous concevez ou renovez un parking ?</strong> Renov&apos;Route réalise
           votre <Link href="/competences/conseil-expertise">étude de faisabilité</Link> et
-          optimise votre plan de stationnement. Plus de 1 000 projets réalisés depuis 2014.
+          optimise votre plan de stationnement. Plus de 1 000 projets réalisés depuis 2016.
           Appelez le 07 86 81 96 92 ou{' '}
           <Link href="/devis">demandez un devis gratuit</Link>.
         </p>
@@ -93,7 +102,7 @@ export default function Content() {
         <table>
           <thead>
             <tr>
-              <th>Parametre</th>
+              <th>Paramètre</th>
               <th>Dimension minimale</th>
             </tr>
           </thead>
@@ -125,14 +134,14 @@ export default function Content() {
 
       <h3>Place en epi à 45 degrés</h3>
       <p>
-        Le stationnement en epi à 45 degrés facilité les manoeuvres d&apos;entrée. Il convient
+        Le stationnement en epi à 45 degrés facilite les manoeuvres d&apos;entrée. Il convient
         aux parkings ou le flux est unidirectionnel.
       </p>
       <div className="overflow-x-auto">
         <table>
           <thead>
             <tr>
-              <th>Parametre</th>
+              <th>Paramètre</th>
               <th>Dimension minimale</th>
             </tr>
           </thead>
@@ -170,7 +179,7 @@ export default function Content() {
         <table>
           <thead>
             <tr>
-              <th>Parametre</th>
+              <th>Paramètre</th>
               <th>Dimension minimale</th>
             </tr>
           </thead>
@@ -195,7 +204,7 @@ export default function Content() {
         </table>
       </div>
 
-      <h3>Place longitudinale (en creneau)</h3>
+      <h3>Place longitudinale (en créneau)</h3>
       <p>
         Le stationnement longitudinal longe la voie de circulation. Utilise en voirie et dans
         les parkings linéaires.
@@ -204,7 +213,7 @@ export default function Content() {
         <table>
           <thead>
             <tr>
-              <th>Parametre</th>
+              <th>Paramètre</th>
               <th>Dimension minimale</th>
             </tr>
           </thead>
@@ -226,7 +235,7 @@ export default function Content() {
       </div>
       <p>
         La <strong>longueur place de parking</strong> de 6 mètres en longitudinal
-        s&apos;explique par la nécessite de manoeuvrer en creneau. C&apos;est la configuration
+        s&apos;explique par la nécessite de manoeuvrer en créneau. C&apos;est la configuration
         qui consomme le plus de linéaire par place.
       </p>
 
@@ -287,17 +296,17 @@ export default function Content() {
         <table>
           <thead>
             <tr>
-              <th>Parametre</th>
+              <th>Paramètre</th>
               <th>Dimension minimale</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>Largeur totale (place + bande laterale)</td>
+              <td>Largeur totale (place + bande latérale)</td>
               <td>3,30 m</td>
             </tr>
             <tr>
-              <td>Dont bande de circulation laterale</td>
+              <td>Dont bande de circulation latérale</td>
               <td>0,80 m</td>
             </tr>
             <tr>
@@ -312,14 +321,14 @@ export default function Content() {
         </table>
       </div>
       <p>
-        La bande de circulation laterale de 0,80 m est indispensable pour le transfert du
+        La bande de circulation latérale de 0,80 m est indispensable pour le transfert du
         fauteuil. Elle peut être partagée entre deux places PMR adjacentes.
       </p>
 
       <h3>L&apos;expérience de Marc, gérant d&apos;un centre commercial à Villefranche-sur-Saône</h3>
       <p>
         Marc gérait un parking de 200 places pour un centre commercial de 3 000 m2. Lors du
-        contrôle d&apos;accessibilité de 2025, les quatre places PMR ont été jugees non
+        contrôle d&apos;accessibilité de 2025, les quatre places PMR ont été jugées non
         conformes. Le problème : une <strong>largeur place de parking</strong> PMR de 3,00 m
         au lieu des 3,30 m réglementaires. La bande de circulation mesurait 50 cm au lieu de
         80 cm.
@@ -329,7 +338,7 @@ export default function Content() {
         appel à Renov&apos;Route pour le{' '}
         <Link href="/competences/tracage-retracage-parking">traçage de parking</Link> et la
         remise en conformité. L&apos;équipe a retrace les six places PMR (le nombre avait aussi
-        été recalcule selon la capacite totale), installé la{' '}
+        été recalcule selon la capacité totale), installé la{' '}
         <Link href="/competences/signalisation-verticale">signalisation verticale</Link>{' '}
         réglementaire et repris le marquage au sol en cinq jours. Coût : 3 200 EUR. Amende
         évitée : 45 000 EUR.
@@ -370,7 +379,7 @@ export default function Content() {
       </div>
       <p>
         Ces places elargies ne sont pas imposées par la norme, mais elles ameliorent
-        considerablement l&apos;expérience utilisateur et reduisent les sinistres.
+        considérablement l&apos;expérience utilisateur et reduisent les sinistres.
       </p>
 
       <h2>Voies de circulation : l&apos;élément souvent sous-estime</h2>
@@ -425,12 +434,12 @@ export default function Content() {
         multiples, ce qui ralentit le flux et augmente le risque d&apos;accrochage.
       </p>
 
-      <h2>Impact du dimensionnement sur la capacite totale</h2>
+      <h2>Impact du dimensionnement sur la capacité totale</h2>
 
-      <h3>Le cas concret de Karim, directeur technique d&apos;une chaine de restauration rapide</h3>
+      <h3>Le cas concret de Karim, directeur technique d&apos;une chaîne de restauration rapide</h3>
       <p>
-        Karim supervisait la rénovation de 12 parkings pour une chaine de restauration rapide
-        dans la region lyonnaise. L&apos;objectif : gagner des places sans agrandir les
+        Karim supervisait la rénovation de 12 parkings pour une chaîne de restauration rapide
+        dans la région lyonnaise. L&apos;objectif : gagner des places sans agrandir les
         surfaces.
       </p>
       <p>
@@ -439,7 +448,7 @@ export default function Content() {
         requis. En optimisant les voies à 5,20 m (au-dessus du minimum pour garder du confort)
         et en passant certaines zones en epi 60 degrés, Renov&apos;Route a dégagé en moyenne
         4 places supplémentaires par parking. Sur 12 sites, cela représente 48 places gagnees
-        sans un seul mètre carre de foncier supplémentaire.
+        sans un seul mètre carré de foncier supplémentaire.
       </p>
       <p>
         Le{' '}
@@ -449,7 +458,7 @@ export default function Content() {
 
       <h3>Comment optimiser le nombre de places</h3>
       <p>
-        Voici les leviers pour maximiser la capacite sans réduire les <strong>dimensions place
+        Voici les leviers pour maximiser la capacité sans réduire les <strong>dimensions place
         de parking</strong> en dessous des normes :
       </p>
       <ol>
@@ -458,15 +467,15 @@ export default function Content() {
           parking tout en longueur sera plus efficace en epi qu&apos;en perpendiculaire.
         </li>
         <li>
-          <strong>Optimiser les voies de circulation.</strong> Chaque centimetre au-dessus du
-          strict minimum est un centimetre perdu si vous manquez de places.
+          <strong>Optimiser les voies de circulation.</strong> Chaque centimètre au-dessus du
+          strict minimum est un centimètre perdu si vous manquez de places.
         </li>
         <li>
           <strong>Mixer les configurations.</strong> Rien n&apos;interdit de combiner
           perpendiculaire et epi dans un même parking, selon les zones.
         </li>
         <li>
-          <strong>Reduire les zones mortes.</strong> Les angles, ilots et zones tampon meritent
+          <strong>Réduire les zones mortes.</strong> Les angles, îlots et zones tampon méritent
           une étude spécifique pour être valorises.
         </li>
         <li>
@@ -493,15 +502,15 @@ export default function Content() {
         des clients.
       </p>
 
-      <h3>2. Oublier les surlargeurs en bout de rangee</h3>
+      <h3>2. Oublier les surlargeurs en bout de rangée</h3>
       <p>
         Les places situées contre un mur ou un pilier nécessitent une surlargeur de 20 à 30 cm.
-        Sans cette marge, la dernière place de chaque rangee est inutilisable dans les faits.
+        Sans cette marge, la dernière place de chaque rangée est inutilisable dans les faits.
       </p>
 
       <h3>3. Sous-dimensionner les voies de circulation</h3>
       <p>
-        Reduire la voie de 50 cm semble anodin sur le plan. Sur le terrain, cela se traduit par
+        Réduire la voie de 50 cm semble anodin sur le plan. Sur le terrain, cela se traduit par
         des manoeuvres en trois temps au lieu d&apos;une, des embouteillages aux heures de
         pointe et des accrochages réguliers.
       </p>
@@ -541,7 +550,7 @@ export default function Content() {
       <h3>Quelle est la dimension d&apos;une place de parking PMR ?</h3>
       <p>
         Une place PMR doit mesurer au minimum <strong>3,30 m de large</strong> (dont 0,80 m de
-        bande de circulation laterale) sur <strong>5,00 m de long</strong>. La pente ne doit
+        bande de circulation latérale) sur <strong>5,00 m de long</strong>. La pente ne doit
         pas excéder 2 %.
       </p>
 
@@ -567,11 +576,11 @@ export default function Content() {
         sous-utilisation).
       </p>
 
-      <h2>Un parking bien dimensionné se joue au centimetre près</h2>
+      <h2>Un parking bien dimensionné se joue au centimètre près</h2>
       <p>
         La <strong>dimension place de parking</strong> n&apos;est pas un détail technique
         réservé aux bureaux d&apos;études. C&apos;est ce qui déterminé si votre parking
-        fonctionne ou dysfonctionne au quotidien. Chaque centimetre compte : trop étroit, vos
+        fonctionne ou dysfonctionne au quotidien. Chaque centimètre compte : trop étroit, vos
         usagers subissent des accrochages. Trop large, vous perdez des places et du chiffre
         d&apos;affaires.
       </p>
@@ -582,7 +591,7 @@ export default function Content() {
       </p>
       <p>
         <strong>Renov&apos;Route accompagne les gestionnaires de parkings depuis
-        2014.</strong> De l&apos;
+        2016.</strong> De l&apos;
         <Link href="/competences/conseil-expertise">étude de faisabilité</Link> au{' '}
         <Link href="/competences/tracage-retracage-parking">traçage de parking</Link>, nos
         équipés concoivent et realisent des plans de stationnement conformes, optimises et

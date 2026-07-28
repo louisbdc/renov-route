@@ -1,11 +1,12 @@
 import type { Guide } from '../guides'
+import KeyAnswer from '@/components/KeyAnswer'
 import Link from 'next/link'
 
 export const meta: Guide = {
   slug: 'place-bleu-parking-zone-bleue',
   title: 'Place bleue parking : réglementation, marquage et tout ce qu\u0027il faut savoir',
-  metaTitle: 'Place bleue parking : réglementation et marquage 2026 | Renov\u0027Route',
-  metaDescription: 'Place bleue parking : définition, réglementation, disque de stationnement, marquage au sol et sanctions. Guide complet pour collectivités et gestionnaires de parkings.',
+  metaTitle: 'Zone bleue : durée, disque et marquage de la place bleue',
+  metaDescription: 'Stationnement gratuit mais limité (souvent 1h30) avec disque obligatoire. Règles, arrêté municipal requis, marquage au sol conforme et amende de 35 €.',
   publishDate: '2026-03-31',
   updatedDate: '2026-05-21',
   category: 'marquage-parking',
@@ -16,6 +17,15 @@ export const meta: Guide = {
 export default function Content() {
   return (
     <>
+      <KeyAnswer question="Comment fonctionne une place en zone bleue ?">
+        <p>
+        Le stationnement y est <strong>gratuit mais limité dans le temps</strong>, le plus souvent à
+        1h30, et contrôlé par un disque de stationnement au format européen apposé derrière le pare-brise.
+        Une zone bleue n’a de valeur réglementaire qu’avec un <strong>arrêté municipal</strong>. L’absence
+        de disque est sanctionnée de 35 €.
+        </p>
+      </KeyAnswer>
+
       <p>
         Un parking de supermarché à Villefranche-sur-Saône, mars 2024. Le gérant fait tracer 15 places bleues devant l&apos;entrée principale pour fluidifier la rotation des véhicules. Trois semaines plus tard, il reçoit un courrier de la mairie : sans arrêté municipal, ces places n&apos;ont aucune valeur réglementaire. Les clients ignorent le disque de stationnement, certains restent garés toute la journée. L&apos;investissement de 2 800 euros n&apos;a servi à rien.
       </p>
@@ -33,7 +43,7 @@ export default function Content() {
 
       <h3>Le principe de la zone bleue</h3>
       <p>
-        La <strong>zone bleue parking</strong> a été inventee en 1957 à Paris pour lutter contre le stationnement ventouse en centre-ville. Le concept repose sur trois piliers :
+        La <strong>zone bleue parking</strong> a été inventée en 1957 à Paris pour lutter contre le stationnement ventouse en centre-ville. Le concept repose sur trois piliers :
       </p>
       <ul>
         <li><strong>Gratuité</strong> : aucune redevance ni horodateur</li>
@@ -41,7 +51,7 @@ export default function Content() {
         <li><strong>Contrôle par disque</strong> : l&apos;automobiliste affiché son heure d&apos;arrivée sur un disque normalise</li>
       </ul>
       <p>
-        Ce système favorisé la <strong>rotation des véhicules</strong> dans les zones à forte demande : centres-villes commercants, abords de garés, parkings de surfaces commerciales.
+        Ce système favorisé la <strong>rotation des véhicules</strong> dans les zones à forte demande : centres-villes commerçants, abords de garés, parkings de surfaces commerciales.
       </p>
 
       <h3>Qui peut créer une zone bleue ?</h3>
@@ -52,7 +62,7 @@ export default function Content() {
         Un gestionnaire de parking privé peut s&apos;inspirer du code couleur bleu pour ses emplacements à rotation rapide, mais les sanctions du Code de la route ne s&apos;appliqueront pas sans arrêté.
       </p>
       <p>
-        <strong>Vous gerez un parking et souhaitez mettre en place des places à rotation rapide ?</strong>{' '}
+        <strong>Vous gérez un parking et souhaitez mettre en place des places à rotation rapide ?</strong>{' '}
         <Link href="/competences/conseil-expertise">Demandez un diagnostic gratuit</Link> à nos experts en signalisation.
       </p>
 
@@ -63,7 +73,7 @@ export default function Content() {
 
       <h3>Le Code de la route</h3>
       <p>
-        Les articles R. 417-1 a R. 417-13 du Code de la route définissent les règles de stationnement. L&apos;article R. 411-25 précise que les marqués au sol ont une valeur réglementaire lorsqu&apos;elles sont posées conformément à l&apos;Instruction Interministérielle sur la Signalisation Routiere (IISR).
+        Les articles R. 417-1 a R. 417-13 du Code de la route définissent les règles de stationnement. L&apos;article R. 411-25 précise que les marqués au sol ont une valeur réglementaire lorsqu&apos;elles sont posées conformément à l&apos;Instruction Interministérielle sur la Signalisation Routière (IISR).
       </p>
 
       <h3>L&apos;arrêté municipal</h3>
@@ -97,7 +107,7 @@ export default function Content() {
       <ul>
         <li><strong>Bandes de délimitation bleues</strong> : largeur de 10 à 12 cm, peinture routière bleue conforme à la norme NF EN 1436</li>
         <li><strong>Dimensions de la place</strong> : 5 mètres de longueur sur 2,30 mètres de largeur minimum (identiques aux places standards)</li>
-        <li><strong>Numerotation</strong> (optionnelle) : en blanc, pour faciliter le contrôle</li>
+        <li><strong>Numérotation</strong> (optionnelle) : en blanc, pour faciliter le contrôle</li>
       </ul>
 
       <h3>Matériaux et durabilité</h3>
@@ -141,12 +151,12 @@ export default function Content() {
 
       <h3>Erreurs fréquentes de marquage</h3>
       <p>
-        En 1 000 projets réalisés depuis 2014, nous avons constaté ces erreurs récurrentes sur les zones bleues :
+        En 1 000 projets réalisés depuis 2016, nous avons constaté ces erreurs récurrentes sur les zones bleues :
       </p>
       <ul>
         <li><strong>Bleu trop clair</strong> : confusion avec le marquage PMR ou les zones de depose-minute</li>
         <li><strong>Absence de panneau</strong> : le marquage seul ne crée pas juridiquement la zone bleue</li>
-        <li><strong>Marquage sur enrobe dégradé</strong> : la peinture ne tient pas sur un sol fissure ou poreux, il faut d&apos;abord réparer le support</li>
+        <li><strong>Marquage sur enrobé dégradé</strong> : la peinture ne tient pas sur un sol fissure ou poreux, il faut d&apos;abord réparer le support</li>
       </ul>
 
       <h2>La signalisation verticale associee aux places bleues</h2>
@@ -160,7 +170,7 @@ export default function Content() {
       </p>
       <ul>
         <li><strong>Panneau B6b4</strong> : début de zone bleue. Carre bleu avec la mention &laquo; ZONE &raquo; et le pictogramme de disque de stationnement. Il indique la durée maximale autorisée.</li>
-        <li><strong>Panneau B6b5</strong> : fin de zone bleue. Meme panneau barre d&apos;une diagonale.</li>
+        <li><strong>Panneau B6b5</strong> : fin de zone bleue. Même panneau barre d&apos;une diagonale.</li>
       </ul>
       <p>
         Ces panneaux doivent être implantes à chaque entrée et sortie de la zone. Pour un parking, ils se placent aux accès véhicules.
@@ -212,7 +222,7 @@ export default function Content() {
               <td>35 euros (amende de 2e classe)</td>
             </tr>
             <tr>
-              <td>Depassement de durée</td>
+              <td>Dépassement de durée</td>
               <td>35 euros (amende de 2e classe)</td>
             </tr>
             <tr>
@@ -243,13 +253,13 @@ export default function Content() {
 
       <h2>Place bleue vs place payante vs place gratuite : quelles differences ?</h2>
       <p>
-        Trois regimes de stationnement coexistent sur la voirie française. Comprendre leurs differences permet de choisir le bon dispositif.
+        Trois regimes de stationnement coexistent sur la voirie française. Comprendre leurs différences permet de choisir le bon dispositif.
       </p>
       <div className="overflow-x-auto">
         <table>
           <thead>
             <tr>
-              <th>Critere</th>
+              <th>Critère</th>
               <th>Place bleue</th>
               <th>Place payante</th>
               <th>Place gratuite</th>
@@ -276,8 +286,8 @@ export default function Content() {
             </tr>
             <tr>
               <td>Rotation des véhicules</td>
-              <td>Elevee</td>
-              <td>Elevee</td>
+              <td>Élevée</td>
+              <td>Élevée</td>
               <td>Faible</td>
             </tr>
             <tr>
@@ -416,7 +426,7 @@ export default function Content() {
 
       <h3>Les places bleues sont-elles gratuites ?</h3>
       <p>
-        Oui. Le stationnement en zone bleue est toujours gratuit. C&apos;est sa difference principale avec le stationnement payant a horodateur. Le seul coût pour l&apos;automobiliste est l&apos;achat du disque de stationnement (environ 2 euros, en vente dans les bureaux de tabac et stations-service).
+        Oui. Le stationnement en zone bleue est toujours gratuit. C&apos;est sa différence principale avec le stationnement payant a horodateur. Le seul coût pour l&apos;automobiliste est l&apos;achat du disque de stationnement (environ 2 euros, en vente dans les bureaux de tabac et stations-service).
       </p>
 
       <h3>Une zone bleue fonctionne-t-elle le dimanche ?</h3>
@@ -429,7 +439,7 @@ export default function Content() {
         Oui. Un marquage au sol illisible ou des panneaux manquants constituent un défaut de signalisation. Ce motif est recevable dans le cadre d&apos;une contestation. La collectivité à l&apos;obligation d&apos;entretenir la signalisation pour que la zone bleue reste opposable.
       </p>
 
-      <h3>Quelle est la difference entre une place bleue et une place PMR ?</h3>
+      <h3>Quelle est la différence entre une place bleue et une place PMR ?</h3>
       <p>
         La place bleue est une place à durée limitée ouverte à tous les véhicules. La place PMR est réservée aux personnes handicapees titulaires d&apos;une carte mobilité inclusion (CMI). Le marquage PMR utilisé des bandes blanches et un pictogramme bleu, tandis que la place bleue utilisé des bandes bleues. Ce sont deux dispositifs distincts.
       </p>
@@ -439,7 +449,7 @@ export default function Content() {
         La <strong>place bleue parking</strong> est un outil de gestion du stationnement redoutablement efficace quand elle est mise en place dans les règles. Arrete municipal, marquage au sol conforme à la norme NF EN 1436, signalisation verticale complète : chaque élément compte.
       </p>
       <p>
-        Que vous soyez une collectivité souhaitant créer une zone bleue ou un gestionnaire de parking privé cherchant à améliorer la rotation des véhicules, Renov&apos;Route vous accompagne de l&apos;étude à la reception du chantier. Plus de 1 000 projets réalisés depuis 2014, des clients comme Carrefour, Lidl et McDonald&apos;s, et une garantie de 2 ans sur tous nos marquages.
+        Que vous soyez une collectivité souhaitant créer une zone bleue ou un gestionnaire de parking privé cherchant à améliorer la rotation des véhicules, Renov&apos;Route vous accompagne de l&apos;étude à la réception du chantier. Plus de 1 000 projets réalisés depuis 2016, des clients comme Carrefour, Lidl et McDonald&apos;s, et une garantie de 2 ans sur tous nos marquages.
       </p>
       <p>
         <strong><Link href="/devis">Demandez votre devis gratuit</Link></strong> ou appelez-nous au <strong>07 86 81 96 92</strong>. Reponse en 48h.

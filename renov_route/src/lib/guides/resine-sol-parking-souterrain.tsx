@@ -163,7 +163,7 @@ export default function Content() {
       </p>
       <ol>
         <li><strong>Diagnostic humidit&eacute;</strong> : test &agrave; la bombe carbure (taux &lt; 4,5% pour l&apos;&eacute;poxy, &lt; 6% pour le polyur&eacute;thane)</li>
-        <li><strong>Traitement des remont&eacute;es</strong> : application d&apos;un primaire anti-humidit&eacute; si n&eacute;cessaire (surcout &agrave; pr&eacute;voir)</li>
+        <li><strong>Traitement des remont&eacute;es</strong> : application d&apos;un primaire anti-humidit&eacute; si n&eacute;cessaire (surcoût &agrave; pr&eacute;voir)</li>
         <li><strong>Grenaillage ou pon&ccedil;age</strong> : ouverture des pores du b&eacute;ton pour garantir l&apos;adh&eacute;rence de la r&eacute;sine</li>
         <li><strong>R&eacute;paration des fissures</strong> : injection de r&eacute;sine dans les fissures actives</li>
         <li><strong>Nettoyage</strong> : aspiration industrielle + d&eacute;graissage</li>
@@ -203,7 +203,7 @@ export default function Content() {
 
       <h3>Peut-on mettre de la r&eacute;sine sur un sol humide ?</h3>
       <p>
-        Pas directement. L&apos;humidit&eacute; du support doit &ecirc;tre inf&eacute;rieure &agrave; 4,5% pour l&apos;&eacute;poxy et 6% pour le polyur&eacute;thane. Si le taux est sup&eacute;rieur, un primaire anti-humidit&eacute; doit &ecirc;tre appliqu&eacute; avant la r&eacute;sine. Ce traitement repr&eacute;sente un surcout &agrave; pr&eacute;voir dans le budget.
+        Pas directement. L&apos;humidit&eacute; du support doit &ecirc;tre inf&eacute;rieure &agrave; 4,5% pour l&apos;&eacute;poxy et 6% pour le polyur&eacute;thane. Si le taux est sup&eacute;rieur, un primaire anti-humidit&eacute; doit &ecirc;tre appliqu&eacute; avant la r&eacute;sine. Ce traitement repr&eacute;sente un surcoût &agrave; pr&eacute;voir dans le budget.
       </p>
 
       <h3>Combien de temps faut-il fermer le parking ?</h3>

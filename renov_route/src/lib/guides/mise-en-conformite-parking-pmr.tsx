@@ -50,7 +50,7 @@ export default function Content() {
         Vous g&eacute;rez un parking de commerce, d&apos;entreprise ou de copropri&eacute;t&eacute;, et vous n&apos;&ecirc;tes pas certain d&apos;&ecirc;tre aux normes ? Vous n&apos;&ecirc;tes pas seul. En France, plus de 40 % des parkings privés ne respectent pas encore l&apos;int&eacute;gralit&eacute; des obligations d&apos;accessibilit&eacute;, selon les estimations de la D&eacute;l&eacute;gation minist&eacute;rielle &agrave; l&apos;accessibilit&eacute;. La bonne nouvelle : la mise en conformit&eacute; parking PMR est un projet encadr&eacute;, planifiable et souvent plus abordable qu&apos;on ne l&apos;imagine.
       </p>
       <p>
-        Dans ce guide, vous trouverez les obligations l&eacute;gales actuelles, les sanctions encourues en 2026, les &eacute;tapes concr&egrave;tes pour mettre votre parking existant aux normes PMR, les co&ucirc;ts d&eacute;taill&eacute;s par poste et un calendrier de mise en oeuvre r&eacute;aliste. Nous accompagnons des gestionnaires de parkings dans cette d&eacute;marche depuis 2014, avec plus de 1 000 projets r&eacute;alis&eacute;s pour des enseignes comme Carrefour, Lidl ou McDonald&apos;s.
+        Dans ce guide, vous trouverez les obligations l&eacute;gales actuelles, les sanctions encourues en 2026, les &eacute;tapes concr&egrave;tes pour mettre votre parking existant aux normes PMR, les co&ucirc;ts d&eacute;taill&eacute;s par poste et un calendrier de mise en oeuvre r&eacute;aliste. Nous accompagnons des gestionnaires de parkings dans cette d&eacute;marche depuis 2016, avec plus de 1 000 projets r&eacute;alis&eacute;s pour des enseignes comme Carrefour, Lidl ou McDonald&apos;s.
       </p>
 
       <h2>Qui est concerné par l&apos;obligation PMR parking ?</h2>

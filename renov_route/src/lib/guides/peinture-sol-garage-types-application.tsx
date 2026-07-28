@@ -9,17 +9,17 @@ export const meta: Guide = {
   publishDate: '2026-03-04',
   category: 'renovation-parking',
   readingTime: 10,
-  excerpt: 'Epoxy, polyuréthane ou alkyde : comparatif des peintures de sol de garage avec prix au m2, erreurs à éviter et méthode d\'application pas a pas.',
+  excerpt: 'Époxy, polyuréthane ou alkyde : comparatif des peintures de sol de garage avec prix au m2, erreurs à éviter et méthode d\'application pas a pas.',
 }
 
 export default function Content() {
   return (
     <>
       <p>
-        Un sol de garage brut, ca se voit. Poussiere de béton qui se depose sur les véhicules, taches d&apos;huile qui s&apos;incrustent, fissures qui s&apos;elargissent à chaque hiver. La peinture de sol transforme une dalle grise et poreuse en surface nette, résistante et facile à nettoyer.
+        Un sol de garage brut, ca se voit. Poussière de béton qui se depose sur les véhicules, taches d&apos;huile qui s&apos;incrustent, fissures qui s&apos;elargissent à chaque hiver. La peinture de sol transforme une dalle grise et poreuse en surface nette, résistante et facile à nettoyer.
       </p>
       <p>
-        Julien, propriétaire d&apos;une maison à Ecully (69), a peint le sol de son garage de 35 m2 en résine époxy bi-composant un samedi matin. Budget maîtrise pour la peinture, le primaire et le rouleau. Le dimanche soir, il garait sa voiture sur un sol gris anthracite, lisse et brillant. Deux ans plus tard, aucune tache d&apos;huile ne s&apos;est incrustee, la poussière a disparu et le garage ressemble à un show-room. Temps de travail : 5 heures, pauses comprises.
+        Julien, propriétaire d&apos;une maison à Écully (69), a peint le sol de son garage de 35 m2 en résine époxy bi-composant un samedi matin. Budget maîtrise pour la peinture, le primaire et le rouleau. Le dimanche soir, il garait sa voiture sur un sol gris anthracite, lisse et brillant. Deux ans plus tard, aucune tache d&apos;huile ne s&apos;est incrustee, la poussière a disparu et le garage ressemble à un show-room. Temps de travail : 5 heures, pauses comprises.
       </p>
       <p>
         Peinture époxy, polyuréthane, alkyde-urethane : chaque type à ses performances, ses limites et son prix. Ce guide compare les options, détaille les prix au m2 et explique les étapes d&apos;une application reussie.
@@ -38,7 +38,7 @@ export default function Content() {
       <ul>
         <li>Résistance mécanique excellente (passage de véhicules, chocs d&apos;outils)</li>
         <li>Surface impermeabilisee (taches d&apos;huile, essence, liquide de refroidissement)</li>
-        <li>Adherence supérieure au béton</li>
+        <li>Adhérence supérieure au béton</li>
         <li>Large choix de couleurs et finitions (mate, satinee, brillante)</li>
         <li>Durée de vie : 5 à 10 ans en usage résidentiel</li>
       </ul>
@@ -63,7 +63,7 @@ export default function Content() {
       <p><strong>Avantages :</strong></p>
       <ul>
         <li>Résistance aux UV (pas de jaunissement)</li>
-        <li>Elasticite supérieure (absorbe les dilatations du support)</li>
+        <li>Élasticité supérieure (absorbe les dilatations du support)</li>
         <li>Bonne résistance chimique</li>
         <li>Finition satinee ou brillante durable</li>
         <li>Durée de vie : 7 à 12 ans</li>
@@ -90,7 +90,7 @@ export default function Content() {
       <ul>
         <li>Application simple (pas de melange)</li>
         <li>Prix accessible</li>
-        <li>Sechage rapide (4 à 8 heures au toucher)</li>
+        <li>Séchage rapide (4 à 8 heures au toucher)</li>
         <li>Bonne pénétration dans le béton</li>
       </ul>
       <p><strong>Limites :</strong></p>
@@ -109,13 +109,13 @@ export default function Content() {
 
       <h3>Peinture acrylique (a l&apos;eau)</h3>
       <p>
-        La plus simple à appliquer et la moins toxique. Sechage rapide, nettoyage à l&apos;eau, odeur faible. Mais la moins résistante au passage de véhicules.
+        La plus simple à appliquer et la moins toxique. Séchage rapide, nettoyage à l&apos;eau, odeur faible. Mais la moins résistante au passage de véhicules.
       </p>
       <p><strong>Avantages :</strong></p>
       <ul>
         <li>Application facile (diluable à l&apos;eau)</li>
         <li>Quasiment inodore</li>
-        <li>Sechage rapide (2 à 4 heures)</li>
+        <li>Séchage rapide (2 à 4 heures)</li>
         <li>Nettoyage des outils à l&apos;eau</li>
         <li>Prix très accessible</li>
       </ul>
@@ -124,7 +124,7 @@ export default function Content() {
         <li>Résistance mécanique faible (s&apos;use rapidement sous les pneus)</li>
         <li>Tenue limitée aux produits chimiques</li>
         <li>Durée de vie : 1 à 3 ans en garage actif</li>
-        <li>Necessite des retouches fréquentes</li>
+        <li>Nécessite des retouches fréquentes</li>
       </ul>
       <p>
         <strong>Prix moyen :</strong> à partir de 3 euros/m2 en fourniture.
@@ -163,7 +163,7 @@ export default function Content() {
               <td>Garage faible trafic</td>
             </tr>
             <tr>
-              <td>Epoxy bi-composant</td>
+              <td>Époxy bi-composant</td>
               <td>à partir de 8 euros</td>
               <td>à partir de 20 euros</td>
               <td>5-10 ans</td>
@@ -201,7 +201,7 @@ export default function Content() {
         <li><strong>Budget confort (polyuréthane)</strong> : à partir de 350 euros</li>
       </ul>
       <p>
-        Sophie, propriétaire d&apos;un pavillon à Villeurbanne (69), avait acheté une peinture acrylique bon marche pour son garage de 32 m2. Six mois après, des traces de pneus marquaient le sol et la peinture s&apos;ecaillait devant la porte. Elle a reponce tout le garage en époxy bi-composant (avec 2 heures de poncage supplémentaires pour retirer l&apos;acrylique). Total sur 2 ans : un budget nettement supérieur à celui qu&apos;elle aurait dépense en choisissant directement l&apos;époxy. Le &quot;pas cher&quot; a coûte bien plus au final.
+        Sophie, propriétaire d&apos;un pavillon à Villeurbanne (69), avait acheté une peinture acrylique bon marche pour son garage de 32 m2. Six mois après, des traces de pneus marquaient le sol et la peinture s&apos;ecaillait devant la porte. Elle a reponce tout le garage en époxy bi-composant (avec 2 heures de ponçage supplémentaires pour retirer l&apos;acrylique). Total sur 2 ans : un budget nettement supérieur à celui qu&apos;elle aurait dépense en choisissant directement l&apos;époxy. Le &quot;pas cher&quot; a coûté bien plus au final.
       </p>
 
       <h2>Préparation du sol : l&apos;étape qui décidé de tout</h2>
@@ -212,7 +212,7 @@ export default function Content() {
       <h3>Étape 1 : nettoyage complet</h3>
       <ul>
         <li>Balayer et aspirer toute la surface</li>
-        <li>Degraisser les taches d&apos;huile au detergent alcalin (lessive de soude ou detergent special garage)</li>
+        <li>Degraisser les taches d&apos;huile au détergent alcalin (lessive de soude ou détergent special garage)</li>
         <li>Rincer abondamment à l&apos;eau claire</li>
         <li>Laisser secher complètement (24 à 48 heures)</li>
       </ul>
@@ -253,7 +253,7 @@ export default function Content() {
       <ol>
         <li><strong>Couche primaire</strong> : primaire d&apos;accrochage dilue à 10-20%, au rouleau laqueur a poils courts. Sechage : 4 à 12 heures</li>
         <li><strong>Première couche de peinture</strong> : appliquer au rouleau en bandes régulières, du fond du garage vers la sortie. Sechage : 12 à 24 heures (époxy), 4 à 8 heures (acrylique)</li>
-        <li><strong>Deuxième couche</strong> : croiser les passes par rapport à la première couche. Meme temps de séchage</li>
+        <li><strong>Deuxième couche</strong> : croiser les passes par rapport à la première couche. Même temps de séchage</li>
       </ol>
 
       <h3>Temps de remise en service</h3>
@@ -262,7 +262,7 @@ export default function Content() {
           <thead>
             <tr>
               <th>Type</th>
-              <th>Sechage au toucher</th>
+              <th>Séchage au toucher</th>
               <th>Circulation piéton</th>
               <th>Stationnement véhicule</th>
             </tr>
@@ -281,7 +281,7 @@ export default function Content() {
               <td>48-72h</td>
             </tr>
             <tr>
-              <td>Epoxy bi-composant</td>
+              <td>Époxy bi-composant</td>
               <td>12-24h</td>
               <td>24h</td>
               <td>48-72h</td>
@@ -300,7 +300,7 @@ export default function Content() {
 
       <h3>1. Peindre sur sol humide</h3>
       <p>
-        Le béton contient naturellement de l&apos;humidité. Si le taux depasse 4%, la peinture n&apos;adhère pas et cloque en quelques semaines. Faites le test du plastique avant toute application.
+        Le béton contient naturellement de l&apos;humidité. Si le taux dépasse 4%, la peinture n&apos;adhère pas et cloque en quelques semaines. Faites le test du plastique avant toute application.
       </p>
 
       <h3>2. Sauter le primaire</h3>
@@ -310,7 +310,7 @@ export default function Content() {
 
       <h3>3. Appliquer trop épais</h3>
       <p>
-        Plus épais ne veut pas dire plus solide. Une couche trop épaisse sèche en surface mais reste molle en dessous. Résultat : des empreintes de pneus permanentes et un ecaillage prématuré.
+        Plus épais ne veut pas dire plus solide. Une couche trop épaisse sèche en surface mais reste molle en dessous. Résultat : des empreintes de pneus permanentes et un écaillage prématuré.
       </p>
 
       <h3>4. Ne pas respecter les temps de séchage</h3>
@@ -332,7 +332,7 @@ export default function Content() {
       <ul>
         <li>Épaisseur : 0,1 à 0,5 mm</li>
         <li>Application : rouleau, en 2-3 couches</li>
-        <li>Préparation : simple (poncage + primaire)</li>
+        <li>Préparation : simple (ponçage + primaire)</li>
         <li>Prix : à partir de 5 euros/m2</li>
         <li>Idéal pour : garages résidentiels, ateliers privés, bricolage</li>
       </ul>
@@ -341,7 +341,7 @@ export default function Content() {
       <ul>
         <li>Épaisseur : 1 à 5 mm</li>
         <li>Application : spatule crantee ou raclette, système autolissant</li>
-        <li>Préparation : lourde (grenaillage, ragreage)</li>
+        <li>Préparation : lourde (grenaillage, ragréage)</li>
         <li>Prix : à partir de 35 euros/m2</li>
         <li>Idéal pour : parkings professionnels, locaux industriels, usage intensif</li>
       </ul>
@@ -355,8 +355,8 @@ export default function Content() {
       <h3>Entretien courant</h3>
       <ul>
         <li>Balayage ou aspiration hebdomadaire</li>
-        <li>Lavage mensuel au detergent neutre (pH 7) et serpilliere</li>
-        <li>Nettoyage immédiat des taches d&apos;huile ou de carburant (essuyer, puis nettoyer au detergent)</li>
+        <li>Lavage mensuel au détergent neutre (pH 7) et serpilliere</li>
+        <li>Nettoyage immédiat des taches d&apos;huile ou de carburant (essuyer, puis nettoyer au détergent)</li>
       </ul>
 
       <h3>Ce qu&apos;il faut éviter</h3>
@@ -364,12 +364,12 @@ export default function Content() {
         <li>Produits acides (vinaigre, detartrant)</li>
         <li>Solvants agressifs sur peinture acrylique</li>
         <li>Nettoyeur haute pression à moins de 30 cm du sol</li>
-        <li>Outils métalliques traines sur le sol (chaines, pieds de cric sans protection)</li>
+        <li>Outils métalliques traines sur le sol (chaînes, pieds de cric sans protection)</li>
       </ul>
 
       <h3>Retouches</h3>
       <p>
-        Un eclat localisé se réparé en 30 minutes : poncage léger de la zone, depoussierage, application d&apos;une couche de peinture au pinceau. Pas besoin de refaire tout le sol.
+        Un éclat localisé se réparé en 30 minutes : ponçage léger de la zone, depoussierage, application d&apos;une couche de peinture au pinceau. Pas besoin de refaire tout le sol.
       </p>
 
       <h2>FAQ : peinture sol garage</h2>
@@ -381,17 +381,17 @@ export default function Content() {
 
       <h3>Peut-on peindre un sol de garage soi-même ?</h3>
       <p>
-        Oui. L&apos;application d&apos;une peinture de sol est accessible à un bricoleur. Les étapes critiques sont la préparation du support (nettoyage, degraissage, poncage) et le respect des temps de séchage. Comptez une journée complète pour un garage de 30 à 40 m2.
+        Oui. L&apos;application d&apos;une peinture de sol est accessible à un bricoleur. Les étapes critiques sont la préparation du support (nettoyage, dégraissage, ponçage) et le respect des temps de séchage. Comptez une journée complète pour un garage de 30 à 40 m2.
       </p>
 
-      <h3>Faut-il une peinture antiderapante pour le garage ?</h3>
+      <h3>Faut-il une peinture antidérapante pour le garage ?</h3>
       <p>
-        C&apos;est recommandé pour les zones de passage piéton (devant la porte d&apos;entrée dans la maison, marches). Ajoutez des granulats antiderapants dans la dernière couche de peinture ou choisissez une peinture avec finition antiderapante intégrée. Un léger surcout est à prévoir.
+        C&apos;est recommandé pour les zones de passage piéton (devant la porte d&apos;entrée dans la maison, marches). Ajoutez des granulats antidérapants dans la dernière couche de peinture ou choisissez une peinture avec finition antidérapante intégrée. Un léger surcoût est à prévoir.
       </p>
 
       <h3>Peut-on peindre sur une ancienne peinture de sol ?</h3>
       <p>
-        Oui, si l&apos;ancienne peinture est adherente et en bon etat. Poncez légèrement pour créer une accroche, depoussiérez et appliquez. Si l&apos;ancienne peinture s&apos;écaille, il faut la retirer complètement (ponceuse, decapant chimique ou grenailleuse).
+        Oui, si l&apos;ancienne peinture est adhérente et en bon état. Poncez légèrement pour créer une accroche, depoussiérez et appliquez. Si l&apos;ancienne peinture s&apos;écaille, il faut la retirer complètement (ponceuse, decapant chimique ou grenailleuse).
       </p>
 
       <h3>Combien de temps dure une peinture de sol de garage ?</h3>

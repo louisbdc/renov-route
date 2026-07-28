@@ -6,7 +6,7 @@ export const meta: Guide = {
   title: 'Marquage au sol entreprise : obligations, techniques et prix en 2026',
   metaTitle: 'Marquage au sol entreprise : guide complet 2026 | Rénov\u0027Route',
   metaDescription:
-    'Marquage au sol entreprise : obligations légales, code couleur industriel, techniques (époxy, résine), prix au m2. 1 000+ projets depuis 2014. Devis gratuit.',
+    'Marquage au sol entreprise : obligations légales, code couleur industriel, techniques (époxy, résine), prix au m2. 1 000+ projets depuis 2016. Devis gratuit.',
   publishDate: '2026-03-31',
   updatedDate: '2026-05-21',
   category: 'marquage-parking',
@@ -19,7 +19,7 @@ export default function Content() {
   return (
     <>
       <p>
-        Septembre 2024, zone industrielle de Vénissieux. Un interimaire traversé une allée de stockage sans marquage au sol. Un chariot elevateur surgit d&apos;un angle mort. Fracture du bassin, six mois d&apos;arrêt. L&apos;inspection du travail releve l&apos;absence totale de signalisation horizontale. L&apos;employeur est poursuivi pour faute inexcusable.
+        Septembre 2024, zone industrielle de Vénissieux. Un interimaire traversé une allée de stockage sans marquage au sol. Un chariot élévateur surgit d&apos;un angle mort. Fracture du bassin, six mois d&apos;arrêt. L&apos;inspection du travail releve l&apos;absence totale de signalisation horizontale. L&apos;employeur est poursuivi pour faute inexcusable.
       </p>
 
       <p>
@@ -81,7 +81,7 @@ export default function Content() {
       <h3>Circulation piétons et véhicules</h3>
 
       <p>
-        C&apos;est le marquage fondamental de toute entreprise ou coexistent des personnes à pied et des engins (chariots elevateurs, transpalettes, véhicules de service). Il comprend :
+        C&apos;est le marquage fondamental de toute entreprise ou coexistent des personnes à pied et des engins (chariots élévateurs, transpalettes, véhicules de service). Il comprend :
       </p>
 
       <ul>
@@ -182,7 +182,7 @@ export default function Content() {
             </tr>
             <tr>
               <td><strong>Vert</strong></td>
-              <td>Sécurité, secours, evacuation</td>
+              <td>Sécurité, secours, évacuation</td>
               <td>Allées piétonnes, issues de secours, infirmerie</td>
             </tr>
             <tr>
@@ -198,7 +198,7 @@ export default function Content() {
             <tr>
               <td><strong>Rouge/blanc</strong></td>
               <td>Interdiction d&apos;accès</td>
-              <td>Perimetres de sécurité, zones a accès restreint</td>
+              <td>Périmètres de sécurité, zones a accès restreint</td>
             </tr>
             <tr>
               <td><strong>Noir</strong></td>
@@ -212,13 +212,13 @@ export default function Content() {
       <h3>L&apos;erreur la plus fréquente</h3>
 
       <p>
-        Utiliser le jaune pour les voies piétonnes. Le jaune signifie &laquo; attention, danger &raquo; dans le referentiel industriel. Les allées piétonnes doivent être vertes pour signifier &laquo; sécurité &raquo;. Cette confusion est relevée lors de 30 % des audits que nous realisons.
+        Utiliser le jaune pour les voies piétonnes. Le jaune signifie &laquo; attention, danger &raquo; dans le référentiel industriel. Les allées piétonnes doivent être vertes pour signifier &laquo; sécurité &raquo;. Cette confusion est relevée lors de 30 % des audits que nous realisons.
       </p>
 
       <h2>Le marquage au sol extérieur : parking et abords</h2>
 
       <p>
-        Le <strong>marquage au sol entreprise</strong> ne se limite pas à l&apos;intérieur des bâtiments. Les espaces extérieurs (parkings, zones de livraison, voies d&apos;accès) doivent egalement être signalises.
+        Le <strong>marquage au sol entreprise</strong> ne se limite pas à l&apos;intérieur des bâtiments. Les espaces extérieurs (parkings, zones de livraison, voies d&apos;accès) doivent également être signalises.
       </p>
 
       <h3>Parking entreprise</h3>
@@ -242,7 +242,7 @@ export default function Content() {
         <li>Emplacements réservés aux poids lourds</li>
         <li>Zones de manoeuvre avec marquage jaune/noir</li>
         <li>Sens de circulation des véhicules de livraison</li>
-        <li>Separation stricte avec les flux piétons</li>
+        <li>Séparation stricte avec les flux piétons</li>
       </ul>
 
       <h3>Voies pompiers</h3>
@@ -336,7 +336,7 @@ export default function Content() {
             <tr>
               <td>Résine polyuréthane</td>
               <td>5-8 ans</td>
-              <td>Elevee</td>
+              <td>Élevée</td>
               <td>24h séchage</td>
               <td>10-18 EUR</td>
             </tr>
@@ -344,14 +344,14 @@ export default function Content() {
               <td>Adhesif</td>
               <td>1-3 ans</td>
               <td>Moyenne</td>
-              <td>Immediat</td>
+              <td>Immédiat</td>
               <td>5-12 EUR</td>
             </tr>
             <tr>
               <td>Thermocolle</td>
               <td>5-8 ans</td>
               <td>Très élevée</td>
-              <td>Immediat</td>
+              <td>Immédiat</td>
               <td>12-20 EUR</td>
             </tr>
           </tbody>
@@ -368,8 +368,8 @@ export default function Content() {
 
       <ol>
         <li><strong>Diagnostic du support :</strong> identification du type de sol (béton lisse, béton brut, enrobe, carrelage industriel), mesure du taux d&apos;humidité</li>
-        <li><strong>Nettoyage :</strong> degraissage industriel, elimination des résidus de colle ou de peinture ancienne</li>
-        <li><strong>Grenaillage ou poncage :</strong> création d&apos;une rugosité de surface pour garantir l&apos;adhérence. Le grenaillage projette des billes d&apos;acier a haute vitesse sur le sol. Le poncage mécanique est utilisé pour les surfaces plus délicates</li>
+        <li><strong>Nettoyage :</strong> dégraissage industriel, elimination des résidus de colle ou de peinture ancienne</li>
+        <li><strong>Grenaillage ou poncage :</strong> création d&apos;une rugosité de surface pour garantir l&apos;adhérence. Le grenaillage projette des billes d&apos;acier a haute vitesse sur le sol. Le ponçage mécanique est utilisé pour les surfaces plus délicates</li>
         <li><strong>Depoussierage :</strong> aspiration industrielle après traitement mécanique</li>
         <li><strong>Application d&apos;un primaire d&apos;accroche :</strong> couche de liaison entre le support et le marquage</li>
       </ol>
@@ -423,7 +423,7 @@ export default function Content() {
 
       <ul>
         <li><strong>PME (atelier 500 m2, marquage de base) :</strong> 3 000 à 6 000 EUR</li>
-        <li><strong>Entrepot logistique (3 000 m2, marquage complet) :</strong> 8 000 à 15 000 EUR</li>
+        <li><strong>Entrepôt logistique (3 000 m2, marquage complet) :</strong> 8 000 à 15 000 EUR</li>
         <li><strong>Site industriel (usine 10 000 m2, résine + marquage) :</strong> 25 000 à 50 000 EUR</li>
       </ul>
 
@@ -441,7 +441,7 @@ export default function Content() {
       <ul>
         <li>Trafic intensif (plus de 50 passages d&apos;engins par jour)</li>
         <li>Produits chimiques renverses régulièrement</li>
-        <li>Nettoyage avec des detergents agressifs</li>
+        <li>Nettoyage avec des détergents agressifs</li>
         <li>Absence de joints de dilatation traités</li>
       </ul>
 
@@ -454,7 +454,7 @@ export default function Content() {
         <li><strong>Effacement :</strong> les lignes deviennent difficilement lisibles à distance normale</li>
       </ul>
 
-      <h3>Frequence de renouvellement recommandée</h3>
+      <h3>Fréquence de renouvellement recommandée</h3>
 
       <ul>
         <li><strong>Zones à fort trafic :</strong> contrôle annuel, retouche tous les 3-5 ans</li>
@@ -465,7 +465,7 @@ export default function Content() {
       <h2>Les 5 erreurs courantes à éviter</h2>
 
       <p>
-        <strong>1. Negliger la préparation du sol.</strong> C&apos;est la cause numéro un d&apos;échec du marquage. Un sol mal prepare = un marquage qui ne tient pas.
+        <strong>1. Négliger la préparation du sol.</strong> C&apos;est la cause numéro un d&apos;échec du marquage. Un sol mal prepare = un marquage qui ne tient pas.
       </p>
 
       <p>
@@ -477,12 +477,12 @@ export default function Content() {
       </p>
 
       <p>
-        <strong>4. Oublier la signalisation verticale.</strong> Le marquage au sol seul ne suffit pas. Les panneaux de limitation de vitesse, de sens de circulation et d&apos;obligation completent le dispositif. Renov&apos;Route installé egalement la{' '}
+        <strong>4. Oublier la signalisation verticale.</strong> Le marquage au sol seul ne suffit pas. Les panneaux de limitation de vitesse, de sens de circulation et d&apos;obligation completent le dispositif. Renov&apos;Route installé également la{' '}
         <Link href="/competences/signalisation-verticale">signalisation verticale</Link> associee.
       </p>
 
       <p>
-        <strong>5. Reporter le renouvellement.</strong> Un marquage effacé est juridiquement équivalent à une absence de marquage. En cas d&apos;accident, la responsabilité de l&apos;employeur est engagée de la même maniere.
+        <strong>5. Reporter le renouvellement.</strong> Un marquage effacé est juridiquement équivalent à une absence de marquage. En cas d&apos;accident, la responsabilité de l&apos;employeur est engagée de la même manière.
       </p>
 
       <h2>FAQ : marquage au sol entreprise</h2>
@@ -490,14 +490,14 @@ export default function Content() {
       <h3>Le marquage au sol est-il obligatoire pour toutes les entreprises ?</h3>
 
       <p>
-        Oui, des lors que des véhicules (chariots elevateurs, transpalettes, véhicules de service) circulent dans vos locaux ou sur votre site. Les articles R4224-3 et R4224-20 a R4224-24 du Code du travail imposent la signalisation des voies de circulation. Meme sans véhicule, les issues de secours et les emplacements d&apos;extincteurs doivent être materialises au sol.
+        Oui, des lors que des véhicules (chariots élévateurs, transpalettes, véhicules de service) circulent dans vos locaux ou sur votre site. Les articles R4224-3 et R4224-20 a R4224-24 du Code du travail imposent la signalisation des voies de circulation. Même sans véhicule, les issues de secours et les emplacements d&apos;extincteurs doivent être materialises au sol.
       </p>
 
       <h3>Combien coûte le marquage au sol d&apos;une entreprise ?</h3>
 
       <p>
         Le prix varie de 3 000 EUR pour un atelier de 500 m2 a plus de 50 000 EUR pour un site industriel de 10 000 m2 avec résine intégrale. Le coût moyen du marquage linéaire en peinture époxy se situe entre 8 et 15 EUR par mètre linéaire.{' '}
-        <Link href="/devis">Demandez un devis gratuit</Link> pour obtenir un chiffrage précis adapte à votre site.
+        <Link href="/devis">Demandez un devis gratuit</Link> pour obtenir un chiffrage précis adapté à votre site.
       </p>
 
       <h3>Quelle est la durée de vie du marquage au sol industriel ?</h3>
@@ -515,7 +515,7 @@ export default function Content() {
       <h3>Combien de temps dure l&apos;intervention ?</h3>
 
       <p>
-        Pour un <strong>marquage au sol entreprise</strong> de taille moyenne (entrepot de 2 000 à 3 000 m2), comptez 3 à 5 jours ouvres incluant la préparation du sol, le marquage et le temps de séchage. Renov&apos;Route organisé les interventions par zones pour limiter l&apos;interruption d&apos;activité.
+        Pour un <strong>marquage au sol entreprise</strong> de taille moyenne (entrepôt de 2 000 à 3 000 m2), comptez 3 à 5 jours ouvres incluant la préparation du sol, le marquage et le temps de séchage. Renov&apos;Route organisé les interventions par zones pour limiter l&apos;interruption d&apos;activité.
       </p>
 
       <h2>Securisez votre entreprise avec un marquage conforme</h2>
@@ -525,7 +525,7 @@ export default function Content() {
       </p>
 
       <p>
-        Renov&apos;Route accompagne les entreprises industrielles et logistiques depuis 2014, avec plus de 1 000 projets réalisés en Rhône-Alpes. De l&apos;audit initial à la pose en{' '}
+        Renov&apos;Route accompagne les entreprises industrielles et logistiques depuis 2016, avec plus de 1 000 projets réalisés en Rhône-Alpes. De l&apos;audit initial à la pose en{' '}
         <Link href="/competences/resine-sol-marquage-interieur">résine de sol</Link>, nous intervenons sur l&apos;ensemble de la chaine : diagnostic, plan de marquage, préparation du support, application et suivi.
       </p>
 
