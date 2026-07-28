@@ -25,6 +25,7 @@ import {
   TbHelmet,
 } from 'react-icons/tb';
 import { QuoteTracker, CtaTracker } from '@/components/AnalyticsTracker';
+import { CUSTOMER_REVIEWS, GOOGLE_BUSINESS_PROFILE_URL } from '@/lib/data/reviews';
 import TrackedContactLink from '@/components/TrackedContactLink';
 
 const services = [
@@ -389,10 +390,7 @@ export default function Home() {
             </MotionDiv>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
-              {[
-                { name: 'Bertrand de LONGEVIALLE', text: 'Compétence et réactivité ! je recommande !', rating: 5 },
-                { name: 'Estelle Pons', text: 'Une solution simple, rapide et peu onéreuse pour reboucher des trous en formation sur les routes et parking. Un bon plan pour les copropriétés', rating: 5 },
-              ].map((review, index) => (
+              {CUSTOMER_REVIEWS.map((review, index) => (
                 <MotionDiv
                   key={index}
                   className="p-8 border-l-4 border-[#0F172A] bg-[#F8FAFC]"
@@ -411,11 +409,20 @@ export default function Home() {
                   <p className="text-[#0F172A] text-base leading-relaxed mb-6 italic font-medium">
                     &ldquo;{review.text}&rdquo;
                   </p>
-                  <div className="flex items-center justify-between">
-                    <p className="text-[#0F172A] font-black uppercase tracking-widest text-xs">{review.name}</p>
-                    <span className="text-[9px] font-black uppercase tracking-[0.2em] text-slate-500 border border-slate-200 rounded-sm px-3 py-1">
-                      Avis Google
-                    </span>
+                  <div className="flex items-center justify-between gap-4">
+                    <p className="text-[#0F172A] font-black uppercase tracking-widest text-xs">{review.author}</p>
+                    {/* Renvoie vers la fiche Google : le visiteur peut vérifier
+                        l'avis à la source, ce qui vaut mieux qu'une affirmation
+                        invérifiable sur notre propre site. */}
+                    <a
+                      href={GOOGLE_BUSINESS_PROFILE_URL}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="shrink-0 text-[9px] font-black uppercase tracking-[0.2em] text-slate-500 border border-slate-200 hover:border-[#0F172A] hover:text-[#0F172A] rounded-sm px-3 py-1 transition-colors"
+                      aria-label={`Voir l'avis de ${review.author} sur Google`}
+                    >
+                      Avis Google ↗
+                    </a>
                   </div>
                 </MotionDiv>
               ))}

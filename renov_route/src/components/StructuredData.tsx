@@ -1,5 +1,7 @@
 'use client'
 
+import { AVERAGE_RATING, REVIEW_COUNT, reviewsJsonLd } from '@/lib/data/reviews';
+
 interface StructuredDataProps {
   type: 'homepage' | 'competences' | 'realisations' | 'contact' | 'devis' | 'faq';
 }
@@ -98,41 +100,12 @@ export default function StructuredData({ type }: StructuredDataProps) {
     "numberOfEmployees": "5-10",
     "aggregateRating": {
       "@type": "AggregateRating",
-      "ratingValue": 5,
-      "reviewCount": 2,
+      "ratingValue": AVERAGE_RATING,
+      "reviewCount": REVIEW_COUNT,
       "bestRating": 5,
       "worstRating": 1
     },
-    "review": [
-      {
-        "@type": "Review",
-        "author": {
-          "@type": "Person",
-          "name": "Bertrand de LONGEVIALLE"
-        },
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": 5,
-          "bestRating": 5
-        },
-        "datePublished": "2018-01-01",
-        "reviewBody": "Compétence et réactivité ! je recommande !"
-      },
-      {
-        "@type": "Review",
-        "author": {
-          "@type": "Person",
-          "name": "Estelle Pons"
-        },
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": 5,
-          "bestRating": 5
-        },
-        "datePublished": "2018-01-01",
-        "reviewBody": "Une solution simple, rapide et peu onéreuse pour reboucher des trous en formation sur les routes et parking. Un bon plan pour les copropriétés"
-      }
-    ]
+    "review": reviewsJsonLd
   };
 
   const getSpecificData = () => {
