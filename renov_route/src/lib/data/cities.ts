@@ -193,7 +193,7 @@ export const CITIES: City[] = [
     distanceFromTassin: 0,
     coords: { lat: 45.7640, lng: 4.7710 },
     population: 23000,
-    description: "Notre commune historique. Siège social de Renov Route depuis 2014. Intervention immédiate, sans frais de déplacement.",
+    description: "Notre commune historique. Siège social de Renov Route depuis 2016. Intervention immédiate, sans frais de déplacement.",
     emblematic: 'Le Méridien, La Demi-Lune, Le Centre',
     nearbyCities: ['lyon-5', 'lyon-9', 'ecully', 'sainte-foy-les-lyon', 'francheville'],
   },
@@ -873,4 +873,38 @@ export function getNearbyCities(city: City, limit = 4): City[] {
     .map(slug => CITIES_BY_SLUG[slug])
     .filter((c): c is City => Boolean(c))
     .slice(0, limit)
+}
+
+/**
+ * Arrondissements de Lyon : consolidés en 301 vers /marquage-au-sol-lyon/.
+ * Ces pages ne sont plus générées (voir src/app/[slug]/page.tsx et vercel.json).
+ */
+export const CONSOLIDATED_CITY_SLUGS = new Set([
+  'lyon-1', 'lyon-2', 'lyon-3', 'lyon-4', 'lyon-5', 'lyon-6', 'lyon-7', 'lyon-8', 'lyon-9',
+])
+
+/**
+ * Une page ville n'est indexable que si elle apporte quelque chose qu'aucune
+ * autre page du site n'apporte déjà.
+ *
+ * Sans ce garde-fou, 22 des 34 pages générées ne contiennent qu'un nom de
+ * commune injecté dans un gabarit identique — le schéma classique des doorway
+ * pages. Search Console le confirme : la plupart plafonnent entre 1 et 26
+ * impressions sur 90 jours, pour 0 clic. Les laisser indexées expose tout le
+ * domaine à un signal de qualité négatif pour un gain de trafic nul.
+ *
+ * Ces pages restent accessibles aux visiteurs et au maillage interne : seule
+ * l'indexation est coupée. Documenter `localContext`, `interventionLogistics`,
+ * `localFAQ` ou `references` sur une commune la rend automatiquement indexable.
+ */
+export function isIndexableCity(city: City): boolean {
+  // Le siège social : contenu spécifique généré et légitimité locale réelle.
+  if (city.distanceFromTassin === 0) return true
+
+  return Boolean(
+    city.localContext ||
+    city.interventionLogistics ||
+    city.localFAQ?.length ||
+    city.references?.length
+  )
 }

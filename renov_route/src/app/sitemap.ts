@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 import { guides } from '@/lib/guides'
 import { caseStudiesData } from '@/lib/data/case-studies-data'
-import { CITIES } from '@/lib/data/cities'
+import { CITIES, isIndexableCity, CONSOLIDATED_CITY_SLUGS } from '@/lib/data/cities'
 
 export const dynamic = 'force-static'
 export const revalidate = false
@@ -169,9 +169,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.6,
       images: cs.images.map(img => `${baseUrl}${img}`),
     })),
-    // Arrondissements de Lyon consolidés (301 vers /marquage-au-sol-lyon/) → exclus du sitemap
+    // Le sitemap ne déclare que les pages villes réellement indexables :
+    // arrondissements consolidés (301) et communes sans contenu différencié
+    // (noindex) en sont exclus — déclarer une URL noindex envoie un signal
+    // contradictoire à Google.
     ...CITIES
-      .filter(c => !/^lyon-[1-9]$/.test(c.slug))
+      .filter(c => !CONSOLIDATED_CITY_SLUGS.has(c.slug) && isIndexableCity(c))
       .map(c => ({
         url: `${baseUrl}/marquage-au-sol-${c.slug}/`,
         lastModified: currentDate,

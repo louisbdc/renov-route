@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation'
 import LocalCityPage from '@/components/LocalCityPage'
-import { CITIES, getCityBySlug } from '@/lib/data/cities'
+import { CITIES, getCityBySlug, isIndexableCity, CONSOLIDATED_CITY_SLUGS } from '@/lib/data/cities'
 import type { Metadata } from 'next'
 
 export const dynamic = 'force-static'
@@ -14,13 +14,10 @@ interface PageProps {
 
 // Arrondissements de Lyon consolidés : 301 vers /marquage-au-sol-lyon/ (voir vercel.json).
 // On ne génère plus ces pages (thin/doorway) pour stopper la cannibalisation du pilier Lyon.
-const CONSOLIDATED_SLUGS = new Set([
-  'lyon-1', 'lyon-2', 'lyon-3', 'lyon-4', 'lyon-5', 'lyon-6', 'lyon-7', 'lyon-8', 'lyon-9'
-])
 
 export function generateStaticParams() {
   return CITIES
-    .filter(c => !CONSOLIDATED_SLUGS.has(c.slug))
+    .filter(c => !CONSOLIDATED_CITY_SLUGS.has(c.slug))
     .map(c => ({ slug: `${PREFIX}${c.slug}` }))
 }
 
@@ -35,13 +32,20 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const city = resolveCity(slug)
   if (!city) return { title: 'Page introuvable' }
 
-  const title = `Marquage au sol ${city.name} (${city.postalCode}) — Rénov'Route, expert depuis 2014`
-  const description = `Entreprise de marquage au sol à ${city.name} : parking, voirie, industriel, PMR. Depuis 2014, 1 000+ chantiers. Devis gratuit en 48h. Certif NF EN 1436.`
+  const title = `Marquage au sol ${city.name} (${city.postalCode}) — Rénov'Route, expert depuis 2016`
+  const description = `Entreprise de marquage au sol à ${city.name} : parking, voirie, industriel, PMR. Depuis 2016, 1 000+ chantiers. Devis gratuit en 48h. Certif NF EN 1436.`
   const url = `https://renov-route.com/${slug}/`
+
+  // Les communes sans contenu différencié restent accessibles mais ne sont pas
+  // indexées : elles n'apportent rien de plus que /marquage-au-sol-lyon/.
+  const indexable = isIndexableCity(city)
 
   return {
     title,
     description,
+    robots: indexable
+      ? undefined
+      : { index: false, follow: true, googleBot: { index: false, follow: true } },
     alternates: { canonical: url },
     openGraph: {
       title,
