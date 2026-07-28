@@ -1,6 +1,7 @@
 'use client'
 
 import Image from 'next/image';
+import Link from 'next/link';
 
 interface Testimonial {
   author: string;
@@ -139,7 +140,7 @@ export default function SEOTestimonials({
             Découvrez pourquoi plus de 500 clients nous font confiance pour leurs projets de marquage routier.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
+            <Link
               href="/devis"
               className="inline-flex items-center px-6 py-3 bg-amber-500 text-[#0F172A] rounded-lg hover:bg-amber-400 transition-colors"
             >
@@ -147,8 +148,8 @@ export default function SEOTestimonials({
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
               </svg>
               Demander un devis
-            </a>
-            <a
+            </Link>
+            <Link
               href="/qui-sommes-nous"
               className="inline-flex items-center px-6 py-3 border border-amber-500 text-[#FACC15] rounded-lg hover:bg-amber-500 hover:text-[#0F172A] transition-colors"
             >
@@ -156,7 +157,7 @@ export default function SEOTestimonials({
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
               </svg>
               Qui sommes-nous
-            </a>
+            </Link>
           </div>
         </div>
       </div>

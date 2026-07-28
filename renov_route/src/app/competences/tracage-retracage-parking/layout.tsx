@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://renov-route.com/competences/tracage-retracage-parking/',
   },
   openGraph: {
-    title: 'Retraçage parking dès 2,50€/ml | Rénov Route',
+    title: 'Marquage au sol parking Lyon : dès 2,50 €/ml | Rénov\'Route',
     description:
       "Retraçage parking : effacement + nouveau tracé conforme. Places, flèches, PMR, passages piétons dès 2,50€/ml. Devis gratuit en 48h.",
     url: 'https://renov-route.com/competences/tracage-retracage-parking/',
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Retraçage parking dès 2,50€/ml | Rénov Route',
+    title: 'Marquage au sol parking Lyon : dès 2,50 €/ml | Rénov\'Route',
     description: "Retraçage parking : effacement + nouveau tracé conforme dès 2,50€/ml. Devis gratuit en 48h, sans engagement.",
   },
 };

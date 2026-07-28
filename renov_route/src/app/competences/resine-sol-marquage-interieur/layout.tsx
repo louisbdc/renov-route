@@ -1,14 +1,14 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Sol Industriel Lyon, Résine Epoxy & Marquage Intérieur",
+  title: "Résine époxy et marquage industriel : devis sol d'entrepôt",
   description:
     "Sol industriel et résine époxy à Lyon : revêtement d'entrepôts, ateliers, garages. Marquage de zones, allées, sécurité. Antidérapant, résistant aux charges lourdes. Devis gratuit.",
   alternates: {
     canonical: 'https://renov-route.com/competences/resine-sol-marquage-interieur/',
   },
   openGraph: {
-    title: "Résine Epoxy Sol Lyon, Revêtement Industriel & Marquage Intérieur | Rénov Route",
+    title: "Résine époxy et marquage industriel : devis sol d'entrepôt",
     description:
       "Application résine époxy et peinture de sol à Lyon : entrepôts, garages, ateliers. Revêtement antidérapant, résistant aux charges lourdes. Devis gratuit.",
     url: 'https://renov-route.com/competences/resine-sol-marquage-interieur/',
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Résine Epoxy Sol Lyon, Revêtement Industriel & Marquage Intérieur',
+    title: "Résine époxy et marquage industriel : devis sol d'entrepôt",
     description: "Application résine époxy à Lyon : entrepôts, garages, ateliers. Revêtement antidérapant et durable. Devis gratuit.",
   },
 };

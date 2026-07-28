@@ -1,14 +1,14 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Conseil et Expertise - Accompagnement Professionnel | Renov Route',
+  title: 'Audit et diagnostic parking : étude de faisabilité gratuite',
   description:
     "Conseil et expertise en marquage routier à Lyon et Rhône-Alpes. Étude de faisabilité, diagnostic technique, devis personnalisé et suivi de projet.",
   alternates: {
     canonical: 'https://renov-route.com/competences/conseil-expertise/',
   },
   openGraph: {
-    title: 'Conseil et Expertise - Accompagnement Professionnel | Renov Route',
+    title: 'Audit et diagnostic parking : étude de faisabilité gratuite',
     description:
       "Conseil et expertise en marquage routier à Lyon et Rhône-Alpes. Étude de faisabilité, diagnostic technique et suivi de projet.",
     url: 'https://renov-route.com/competences/conseil-expertise/',
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Conseil et Expertise - Accompagnement Professionnel',
+    title: 'Audit et diagnostic parking : étude de faisabilité gratuite',
     description: "Conseil et expertise en marquage routier. Étude de faisabilité, diagnostic technique et suivi de projet sur mesure.",
   },
 };

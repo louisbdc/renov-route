@@ -1,14 +1,14 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Réparation de Nids de Poule à Lyon et Rhône-Alpes',
+  title: 'Réparation de nids de poule : intervention et devis en 48h',
   description:
     'Rénov Route répare durablement les nids de poule sur vos parkings et routes à Lyon. Solution innovante et résistante. Obtenez votre devis en 48h.',
   alternates: {
     canonical: 'https://renov-route.com/competences/reparation-nids-de-poule/',
   },
   openGraph: {
-    title: 'Réparation de Nids de Poule - Expert Résine | Renov Route',
+    title: 'Réparation de nids de poule : intervention et devis en 48h',
     description:
       'Réparation professionnelle de nids de poule avec de la résine. Procédé innovant, durable et résistant. Intervention rapide sur tous types de routes. Devis gratuit.',
     url: 'https://renov-route.com/competences/reparation-nids-de-poule/',
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Réparation de Nids de Poule à Lyon et Rhône-Alpes',
+    title: 'Réparation de nids de poule : intervention et devis en 48h',
     description: 'Réparation professionnelle de nids de poule avec résine. Procédé innovant, durable et résistant. Devis gratuit.',
   },
 };
