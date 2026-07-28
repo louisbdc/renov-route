@@ -32,7 +32,16 @@ export default function ArticleSchema({
     ...(articleSection ? { articleSection } : {}),
     speakable: {
       '@type': 'SpeakableSpecification',
-      cssSelector: ['h1', 'h2', '.guide-article p:first-of-type'],
+      // Le bloc « En bref » (KeyAnswer) d'abord : c'est la réponse autonome et
+      // chiffrée, la plus susceptible d'être reprise par un assistant vocal ou
+      // cité par un moteur génératif.
+      cssSelector: [
+        '[data-speakable="question"]',
+        '[data-speakable="answer"]',
+        'h1',
+        'h2',
+        '.guide-article p:first-of-type',
+      ],
     },
     image: 'https://renov-route.com/assets/images/og-image.jpg',
     author: {
