@@ -7,6 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Résine époxy ou peinture sol : comparatif 2026 | Rénov\'Route',
   metaDescription: 'Résine époxy ou peinture sol parking : comparatif prix, durée de vie, résistance et entretien. Le bon choix selon votre usage et votre budget.',
   publishDate: '2026-03-04',
+  updatedDate: '2026-05-25',
   category: 'marquage-parking',
   readingTime: 8,
   excerpt: 'Comparatif complet peinture sol vs résine époxy : prix, durée de vie, résistance chimique, préparation et coût réel sur 10 ans.',

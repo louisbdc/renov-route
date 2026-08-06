@@ -8,7 +8,7 @@ export const meta: Guide = {
   metaTitle: 'Zone bleue : durée, disque et marquage de la place bleue',
   metaDescription: 'Stationnement gratuit mais limité (souvent 1h30) avec disque obligatoire. Règles, arrêté municipal requis, marquage au sol conforme et amende de 35 €.',
   publishDate: '2026-03-31',
-  updatedDate: '2026-05-21',
+  updatedDate: '2026-07-28',
   category: 'marquage-parking',
   readingTime: 12,
   excerpt: 'Place bleue parking : réglementation, disque de stationnement, marquage au sol conforme et sanctions. Guide complet pour collectivités et gestionnaires de parkings.',

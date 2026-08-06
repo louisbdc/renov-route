@@ -7,6 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Peinture marquage au sol parking : types et prix 2026',
   metaDescription: 'Acrylique, thermoplastique ou époxy : quelle peinture choisir pour le marquage au sol de votre parking ? Comparatif, prix au m² et durée de vie.',
   publishDate: '2026-03-04',
+  updatedDate: '2026-05-22',
   category: 'marquage-parking',
   readingTime: 11,
   excerpt: 'Comparatif des trois types de peinture pour marquage de parking : acrylique, thermoplastique et résine. Prix au m², durée de vie et guide de choix selon votre situation.',

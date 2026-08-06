@@ -8,6 +8,7 @@ export const meta: Guide = {
   metaDescription:
     'Réparation de chaussée en parking privé : fissures, affaissements, nids de poule. Méthodes (enrobé, résine, patch), prix au m² et délais. Guide complet.',
   publishDate: '2026-03-04',
+  updatedDate: '2026-05-22',
   category: 'renovation-parking',
   readingTime: 10,
   excerpt:

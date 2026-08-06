@@ -7,6 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Signalisation parking: panneaux et normes obligatoires',
   metaDescription: 'Panneaux obligatoires, marquage au sol, normes PMR: guide complet de la signalisation en parking privé. Réglementation, erreurs et conseils d\'installation.',
   publishDate: '2026-03-04',
+  updatedDate: '2026-05-22',
   category: 'securite-parking',
   readingTime: 10,
   excerpt: 'Panneaux STOP, limitation de vitesse, PMR, sens de circulation : tous les panneaux obligatoires en parking et les normes d\'installation.',

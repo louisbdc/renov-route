@@ -7,7 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Ombrière parking 2026 : obligations et préparation | Rénov\'Route',
   metaDescription: 'Obligation ombrière photovoltaïque parking juillet 2026. Découvrez les seuils, les étapes de mise en conformité et la préparation du sol avant installation.',
   publishDate: '2026-03-04',
-  updatedDate: '2026-05-21',
+  updatedDate: '2026-07-28',
   category: 'renovation-parking',
   readingTime: 14,
   excerpt: 'Obligation ombrière photovoltaïque sur les parkings dès juillet 2026 : seuils de surface, calendrier, sanctions et préparation du sol avant installation.',

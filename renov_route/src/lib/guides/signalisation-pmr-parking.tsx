@@ -7,6 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Signalisation PMR parking : panneaux, marquage et normes',
   metaDescription: 'Signalisation PMR parking : panneaux B6d, pictogramme fauteuil roulant, bandes podotactiles et marquage réglementaire. Guide complet avec dimensions et prix.',
   publishDate: '2026-03-04',
+  updatedDate: '2026-07-28',
   category: 'normes-pmr',
   readingTime: 11,
   excerpt: 'Guide complet de la signalisation PMR en parking : panneaux B6d, pictogramme au sol, bandes podotactiles. Spécifications réglementaires, dimensions et prix.',

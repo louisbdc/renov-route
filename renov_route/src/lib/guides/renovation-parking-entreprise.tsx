@@ -7,7 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Rénovation parking entreprise : checklist et budget | Renov\'Route',
   metaDescription: 'Rénovation de parking d\'entreprise : checklist complète, budget par poste et planning. Marquage, nids de poule, signalisation, équipements. Devis gratuit en 48h.',
   publishDate: '2026-03-04',
-  updatedDate: '2026-05-21',
+  updatedDate: '2026-07-28',
   category: 'renovation-parking',
   readingTime: 11,
   excerpt: 'Checklist complète pour évaluer et rénover votre parking d\'entreprise. Budget détaillé par poste, planning type sans perturber votre activité et erreurs à éviter.',

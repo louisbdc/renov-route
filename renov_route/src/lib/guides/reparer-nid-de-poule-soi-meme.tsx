@@ -7,6 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Réparer un nid de poule soi-même : possible ou pas ?',
   metaDescription: 'Réparer un nid de poule soi-même : enrobé à froid, résine, outils nécessaires. Quand le DIY fonctionne et quand il faut un professionnel. Guide pratique.',
   publishDate: '2026-03-04',
+  updatedDate: '2026-05-22',
   category: 'nids-de-poule',
   readingTime: 8,
   excerpt: 'Quand la réparation DIY d\'un nid de poule fonctionne, quand elle est contre-productive, et comment faire si vous décidez de la tenter.',

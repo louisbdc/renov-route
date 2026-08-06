@@ -7,6 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Barrière parking: types, prix et installation',
   metaDescription: 'Barrière levante, pivotante, automatique : comparatif des barrières de parking avec prix, avantages et conseils d\'installation pour parking privé.',
   publishDate: '2026-03-04',
+  updatedDate: '2026-07-28',
   category: 'securite-parking',
   readingTime: 10,
   excerpt: 'Barrière levante, pivotante, basculante ou automatique : comparatif des types de barrières de parking avec prix, avantages et erreurs d\'installation à éviter.',

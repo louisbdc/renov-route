@@ -7,7 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Logo parking : pictogrammes, normes et marquage | Renov\u2019Route',
   metaDescription: 'Logo parking : pictogrammes, normes, marquage. PMR, vélo, électrique. Guide + devis gratuit.',
   publishDate: '2026-03-31',
-  updatedDate: '2026-05-21',
+  updatedDate: '2026-07-28',
   category: 'marquage-parking',
   readingTime: 12,
   excerpt: 'Tous les logos et pictogrammes parking : types de symboles, normes réglementaires, dimensions, couleurs, techniques de marquage et prix. Guide pratique pour un marquage conforme et durable.',

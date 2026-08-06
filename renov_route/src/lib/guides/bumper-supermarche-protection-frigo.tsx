@@ -8,6 +8,7 @@ export const meta: Guide = {
   metaDescription:
     'Bumper de supermarché : barres de protection pour meubles frigorifiques. Types (inox, acier, caoutchouc), dimensions, pose et prix. Guide complet.',
   publishDate: '2026-03-04',
+  updatedDate: '2026-05-22',
   category: 'securite-parking',
   readingTime: 10,
   excerpt:

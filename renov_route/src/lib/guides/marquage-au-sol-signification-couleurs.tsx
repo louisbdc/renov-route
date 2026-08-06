@@ -8,7 +8,7 @@ export const meta: Guide = {
   metaTitle: 'Marquage au sol : que signifient blanc, jaune, bleu et vert ?',
   metaDescription: 'Blanc = circulation, jaune = interdiction ou temporaire, bleu = stationnement réglementé, vert = cyclable. Chaque ligne et pictogramme décodé, avec les sanctions.',
   publishDate: '2026-03-31',
-  updatedDate: '2026-05-21',
+  updatedDate: '2026-07-28',
   category: 'marquage-parking',
   readingTime: 12,
   excerpt: 'Signification du marquage au sol couleur par couleur : blanc pour la circulation, jaune pour les interdictions, bleu pour le stationnement réglementé. Tableau récapitulatif, sanctions et règles parking.',

@@ -7,6 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Peinture sol garage: types, prix et application',
   metaDescription: 'Peinture époxy, polyuréthane, alkyde : comparatif des peintures de sol de garage avec prix au m2, préparation du support et conseils d\'application.',
   publishDate: '2026-03-04',
+  updatedDate: '2026-07-28',
   category: 'renovation-parking',
   readingTime: 10,
   excerpt: 'Époxy, polyuréthane ou alkyde : comparatif des peintures de sol de garage avec prix au m2, erreurs à éviter et méthode d\'application pas a pas.',

@@ -7,6 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Enrobé à froid vs résine : réparer un nid de poule | Rénov\'Route',
   metaDescription: 'Enrobé à froid ou résine polyuréthane pour réparer vos nids de poule ? Comparatif durée de vie, prix, mise en œuvre. Guide pour choisir la bonne solution.',
   publishDate: '2026-03-04',
+  updatedDate: '2026-05-22',
   category: 'nids-de-poule',
   readingTime: 10,
   excerpt: 'Comparatif complet entre l\'enrobé à froid et la résine polyuréthane pour la réparation de nids de poule. Durée de vie, prix, conditions d\'application : tout pour faire le bon choix.',

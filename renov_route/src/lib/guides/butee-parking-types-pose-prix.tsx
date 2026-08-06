@@ -7,6 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Butée de parking: types, pose et prix',
   metaDescription: 'Butée de parking béton, caoutchouc, acier : comparatif des types avec prix, dimensions et conseils de pose pour parking privé et copropriété.',
   publishDate: '2026-03-04',
+  updatedDate: '2026-07-28',
   category: 'securite-parking',
   readingTime: 10,
   excerpt: 'Béton, caoutchouc, acier ou plastique : comparatif des butées de parking avec prix unitaires, règles de pose et erreurs à éviter.',

@@ -8,6 +8,7 @@ export const meta: Guide = {
   metaDescription:
     'Panneau PMR parking : modèles obligatoires, dimensions réglementaires, hauteur de pose et prix. Guide complet pour la mise en conformité de vos places handicapées.',
   publishDate: '2026-03-04',
+  updatedDate: '2026-07-28',
   category: 'normes-pmr',
   readingTime: 10,
   excerpt:

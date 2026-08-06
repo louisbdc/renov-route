@@ -7,7 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Normes signalétique parking 2026 : guide complet | Rénov\'Route',
   metaDescription: 'Arrêté 2026 sur la signalétique des parkings : panneaux LED, contours jaunes, contrôles obligatoires. Checklist de conformité, coûts et calendrier de mise aux normes.',
   publishDate: '2026-03-04',
-  updatedDate: '2026-05-21',
+  updatedDate: '2026-05-22',
   category: 'marquage-parking',
   readingTime: 13,
   excerpt: 'L\'arrêté du 4 septembre 2026 impose de nouvelles normes de signalétique dans les parkings. Panneaux dynamiques LED, contours jaunes, contrôles obligatoires : tout ce qu\'il faut savoir.',

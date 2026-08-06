@@ -7,7 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Nid de poule parking privé : qui est responsable ? | Rénov\'Route',
   metaDescription: 'Nid de poule dans un parking privé : qui paie les réparations ? Responsabilité du propriétaire, syndic, exploitant. Droits et recours en cas d\'accident.',
   publishDate: '2026-03-04',
-  updatedDate: '2026-05-21',
+  updatedDate: '2026-05-22',
   category: 'nids-de-poule',
   readingTime: 9,
   excerpt: 'Qui est responsable d\'un nid de poule dans un parking privé ? Propriétaire, syndic, exploitant : ce que dit la loi, les risques et les solutions pour se protéger.',

@@ -8,6 +8,7 @@ export const meta: Guide = {
   metaDescription:
     'Norme NF EN 1436 expliquée : rétroréflexion, luminance, adhérence du marquage au sol. Application en parking privé, critères de qualité et durée de vie.',
   publishDate: '2026-03-04',
+  updatedDate: '2026-07-28',
   category: 'normes-pmr',
   readingTime: 10,
   excerpt:

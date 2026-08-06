@@ -8,7 +8,7 @@ export const meta: Guide = {
   metaTitle: 'Signalisation horizontale ou verticale : quelle différence ?',
   metaDescription: 'Horizontale = marquage au sol, verticale = panneaux. Ce que dit la loi sur leur combinaison, les normes NF EN 1436 et 12899-1, et les tarifs par prestation.',
   publishDate: '2026-03-31',
-  updatedDate: '2026-05-21',
+  updatedDate: '2026-07-28',
   category: 'securite-parking',
   readingTime: 12,
   excerpt: 'Définitions, normes NF EN 1436 et 12899-1, différences, complementarite et prix de la signalisation horizontale et verticale pour parking, voirie et zone industrielle.',

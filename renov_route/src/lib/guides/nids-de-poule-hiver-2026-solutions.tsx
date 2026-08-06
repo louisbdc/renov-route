@@ -7,6 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Nids de poule hiver 2026 : solutions durables | Rénov\'Route',
   metaDescription: 'Nids de poule hiver 2026 : crise nationale, causes, solutions durables par résine polyuréthane. Comparatif enrobé à froid vs résine, prix et délais.',
   publishDate: '2026-03-04',
+  updatedDate: '2026-07-28',
   category: 'nids-de-poule',
   readingTime: 12,
   excerpt: 'L\'hiver 2026 a provoqué une multiplication des nids de poule sur les routes et parkings français. Causes, solutions durables et comparatif enrobé à froid vs résine polyuréthane.',

@@ -7,6 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Entretien parking : 7 signes qu\'il faut rénover | Rénov\'Route',
   metaDescription: 'Votre parking montre des signes d\'usure ? Marquages effacés, nids de poule, fissures : 7 signes qu\'il est temps de rénover. Checklist et coûts estimatifs.',
   publishDate: '2026-03-04',
+  updatedDate: '2026-05-22',
   category: 'renovation-parking',
   readingTime: 10,
   excerpt: 'Les 7 signes concrets qui indiquent que votre parking a besoin d\'une intervention, du simple retraçage à la rénovation complète. Checklist d\'inspection et coûts estimatifs.',

@@ -7,7 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Marquage au sol piste cyclable : normes, types et prix | Renov\'Route',
   metaDescription: 'Marquage au sol piste cyclable : réglementation CEREMA, pictogrammes vélo, couleurs, dimensions, prix au m2. 1 000+ projets depuis 2016. Devis en 48h.',
   publishDate: '2026-03-31',
-  updatedDate: '2026-05-21',
+  updatedDate: '2026-07-28',
   category: 'marquage-parking',
   readingTime: 12,
   excerpt: 'Guide complet du marquage au sol pour pistes cyclables en 2026 : types d\'aménagements, normes CEREMA et IISR, matériaux, dimensions réglementaires et prix au m2.',

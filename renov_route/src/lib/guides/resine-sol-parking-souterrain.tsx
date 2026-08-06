@@ -7,6 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Résine sol parking souterrain : types, prix et pose',
   metaDescription: 'Résine sol parking souterrain : époxy, polyuréthane ou MMA ? Avantages, prix au m², préparation du support et durée de vie. Guide complet et devis gratuit.',
   publishDate: '2026-03-04',
+  updatedDate: '2026-07-28',
   category: 'marquage-parking',
   readingTime: 8,
   excerpt: 'Comparatif époxy, polyuréthane et MMA pour les parkings souterrains : prix, durée de vie, préparation du support et erreurs à éviter.',

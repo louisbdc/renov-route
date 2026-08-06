@@ -10,6 +10,7 @@ export const meta: Guide = {
   metaDescription:
     'Signalisation de parking en copropriété : panneaux obligatoires, marquage au sol, normes PMR, vote en AG et budget. Guide complet pour les syndics.',
   publishDate: '2026-03-04',
+  updatedDate: '2026-07-28',
   category: 'securite-parking',
   readingTime: 10,
   excerpt:

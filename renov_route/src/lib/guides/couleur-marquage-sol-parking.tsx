@@ -7,7 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Couleur marquage au sol parking : guide 2026',
   metaDescription: 'Blanc, jaune, bleu, vert : quelle couleur pour le marquage au sol de votre parking ? Réglementation, signification et erreurs à éviter. Guide complet.',
   publishDate: '2026-03-04',
-  updatedDate: '2026-05-21',
+  updatedDate: '2026-07-28',
   category: 'marquage-parking',
   readingTime: 10,
   excerpt: 'Code couleur complet du marquage de parking : blanc pour les places, jaune pour les interdictions, bleu pour les durées limitées. Réglementation, erreurs fréquentes et conseils.',

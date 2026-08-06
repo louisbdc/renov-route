@@ -7,6 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Résine sol parking: prix au m², types et application',
   metaDescription: 'Résine époxy, polyuréthane, méthacrylate : prix au m², avantages et application pour parking. Comparatif complet avec durée de vie et conditions de pose.',
   publishDate: '2026-03-04',
+  updatedDate: '2026-05-22',
   category: 'renovation-parking',
   readingTime: 10,
   excerpt: 'Époxy, polyuréthane ou méthacrylate : comparatif des résines de sol pour parking avec prix au m², durée de vie et conditions d\'application.',

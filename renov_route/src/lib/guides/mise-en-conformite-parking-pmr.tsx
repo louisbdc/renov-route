@@ -7,7 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Conformité PMR parking : sanctions 45 000 € | Rénov\'Route',
   metaDescription: 'Mise en conformité PMR parking existant : obligations 2026, sanctions jusqu\'à 45 000€ par infraction, étapes concrètes, budget par poste. Diagnostic gratuit en 48h.',
   publishDate: '2026-03-04',
-  updatedDate: '2026-03-31',
+  updatedDate: '2026-07-28',
   category: 'normes-pmr',
   readingTime: 13,
   excerpt: 'Guide complet pour la mise en conformité PMR de votre parking : sanctions renforcées en 2026, obligations légales, 5 étapes concrètes, budget détaillé par poste.',

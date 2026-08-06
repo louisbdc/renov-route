@@ -8,6 +8,7 @@ export const meta: Guide = {
   metaDescription:
     'Sol époxy pour entrepôt logistique : résistance au trafic, préparation du support, épaisseur et prix au m². Guide complet pour protéger votre sol d’entrepôt.',
   publishDate: '2026-03-04',
+  updatedDate: '2026-07-28',
   category: 'renovation-parking',
   readingTime: 10,
   excerpt:

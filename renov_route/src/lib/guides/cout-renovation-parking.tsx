@@ -7,7 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Coût rénovation parking : prix au m² et budget 2026',
   metaDescription: 'Coût rénovation parking : prix au m² par type de travaux, budget moyen selon la taille et facteurs de variation. Tableaux détaillés et exemples réels.',
   publishDate: '2026-03-04',
-  updatedDate: '2026-05-21',
+  updatedDate: '2026-07-28',
   category: 'renovation-parking',
   readingTime: 12,
   excerpt: 'Prix au m² par type de travaux, budgets moyens selon la taille du parking et 7 facteurs qui font varier la facture. Tableaux détaillés et exemples réels.',

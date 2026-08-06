@@ -7,7 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Prix marquage au sol parking 2026 : dès 2,50€/ml (tarifs + devis)',
   metaDescription: 'Prix marquage au sol parking en 2026 : tarifs au m² et par place, exemples de devis, comparatif peinture/résine/thermocollé. Devis gratuit en 48h, sans engagement.',
   publishDate: '2026-03-04',
-  updatedDate: '2026-05-21',
+  updatedDate: '2026-07-28',
   category: 'prix-tarifs',
   readingTime: 10,
   excerpt: 'Tarifs détaillés du marquage au sol de parking en 2026 : prix au m² par type de peinture, coût par prestation et facteurs qui influencent le devis.',

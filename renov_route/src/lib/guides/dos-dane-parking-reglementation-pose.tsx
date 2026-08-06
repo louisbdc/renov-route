@@ -7,7 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Dos d\'ane parking: réglementation, dimensions et pose',
   metaDescription: 'Dos d\'ane parking privé : normes de hauteur, dimensions réglementaires, types et prix. Guide complet pour installer un dos d\'ane conforme dans votre parking.',
   publishDate: '2026-03-04',
-  updatedDate: '2026-05-21',
+  updatedDate: '2026-07-28',
   category: 'securite-parking',
   readingTime: 10,
   excerpt: 'Dos d\'ane, ralentisseur ou coussin : normes de hauteur, dimensions réglementaires, types et prix pour installer un dos d\'ane conforme dans votre parking.',

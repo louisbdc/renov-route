@@ -9,6 +9,7 @@ export const meta: Guide = {
   metaDescription:
     "Comment choisir son entreprise de marquage au sol ? 7 critères essentiels : certifications, références, garanties, réactivité. Guide pratique pour décider.",
   publishDate: '2026-04-27',
+  updatedDate: '2026-07-28',
   category: 'marquage-parking',
   readingTime: 12,
   excerpt:

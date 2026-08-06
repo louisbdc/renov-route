@@ -9,23 +9,27 @@ export const revalidate = false
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://renov-route.com'
   const currentDate = new Date().toISOString()
+  // Date de derniere modification reelle de chaque route, relevee dans l'historique git
+  // des fichiers qui la composent. Ces valeurs etaient figees a fevrier-mars alors que
+  // toutes ces pages ont ete reecrites depuis : le sitemap annoncait « rien n'a change »
+  // et Google n'avait aucune raison de les recrawler.
   const lastModifiedDates: Record<string, string> = {
-    '/': '2026-03-05',
-    '/marquage-au-sol-lyon': '2026-04-27',
-    '/competences': '2026-03-01',
-    '/competences/tracage-retracage-parking': '2026-02-15',
-    '/competences/signalisation-verticale': '2026-02-15',
-    '/competences/resine-sol-marquage-interieur': '2026-02-15',
-    '/competences/reparation-nids-de-poule': '2026-02-15',
-    '/competences/accessoires-parking': '2026-02-15',
-    '/competences/conseil-expertise': '2026-02-15',
-    '/realisations': '2026-02-20',
-    '/qui-sommes-nous': '2026-01-15',
-    '/devis': '2026-01-15',
-    '/faq': '2026-02-01',
-    '/mentions-legales': '2025-06-01',
-    '/privacy-policy': '2025-06-01',
-    '/guides': '2026-03-01',
+    '/': '2026-07-28',
+    '/marquage-au-sol-lyon': '2026-07-28',
+    '/competences': '2026-07-28',
+    '/competences/tracage-retracage-parking': '2026-07-28',
+    '/competences/signalisation-verticale': '2026-07-28',
+    '/competences/resine-sol-marquage-interieur': '2026-07-28',
+    '/competences/reparation-nids-de-poule': '2026-07-28',
+    '/competences/accessoires-parking': '2026-07-28',
+    '/competences/conseil-expertise': '2026-07-28',
+    '/realisations': '2026-07-28',
+    '/qui-sommes-nous': '2026-07-28',
+    '/devis': '2026-07-28',
+    '/faq': '2026-07-28',
+    '/mentions-legales': '2026-05-25',
+    '/privacy-policy': '2026-04-26',
+    '/guides': '2026-07-28',
   }
   const getLastMod = (path: string) => lastModifiedDates[path] || currentDate
 

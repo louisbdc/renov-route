@@ -8,6 +8,7 @@ export const meta: Guide = {
   metaDescription:
     'Calendrier entretien parking mois par mois : inspections, retraçage, réparations, nettoyage. Anticipez les travaux et optimisez votre budget. Devis gratuit.',
   publishDate: '2026-03-04',
+  updatedDate: '2026-04-02',
   category: 'renovation-parking',
   readingTime: 11,
   excerpt:

@@ -7,7 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Rampe PMR : pente de 5 %, 8 % ou 10 % selon la longueur',
   metaDescription: 'La pente maximale dépend du dénivelé : 5 % au-delà de 2 m, 8 % jusqu\'à 2 m, 10 % sous 0,50 m. Paliers de repos, types de rampes et prix constatés.',
   publishDate: '2026-03-31',
-  updatedDate: '2026-05-21',
+  updatedDate: '2026-07-28',
   category: 'normes-pmr',
   readingTime: 11,
   excerpt: 'Normes de pente, types de rampes (béton, aluminium, amovible, résine), prix, aides financieres et erreurs à éviter pour une rampe PMR conforme.',

@@ -7,6 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Passage piéton parking: normes et marquage',
   metaDescription: 'Dimensions, couleur, signalisation: toutes les normes du passage piéton en parking privé. Guide pratique avec erreurs fréquentes et obligations légales.',
   publishDate: '2026-03-04',
+  updatedDate: '2026-05-22',
   category: 'securite-parking',
   readingTime: 10,
   excerpt: 'Dimensions, couleur, signalisation verticale, bandes podotactiles : toutes les normes du passage piéton en parking privé et public.',

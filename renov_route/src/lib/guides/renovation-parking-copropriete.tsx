@@ -7,7 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Marquage au sol parking copropriété : guide complet 2026',
   metaDescription: "Marquage au sol et rénovation parking copropriété : étapes, vote en AG, budget par poste, délais. Guide complet 2026 par Renov Route, expert depuis 2016.",
   publishDate: '2026-03-04',
-  updatedDate: '2026-05-21',
+  updatedDate: '2026-07-28',
   category: 'renovation-parking',
   readingTime: 9,
   excerpt: 'Guide complet pour rénover le parking et le marquage au sol de votre copropriété : diagnostic, vote en assemblée générale, choix des travaux et estimation des coûts 2026.',

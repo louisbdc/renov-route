@@ -7,7 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Comment tracer un parking en 7 étapes (2026) | Rénov\'Route',
   metaDescription: 'Tracer un parking en 7 étapes : plan de marquage, dimensions réglementaires, peinture NF EN 1436, normes PMR. Guide expert depuis 2016. Devis gratuit 48h.',
   publishDate: '2026-03-04',
-  updatedDate: '2026-05-21',
+  updatedDate: '2026-07-28',
   category: 'marquage-parking',
   readingTime: 12,
   excerpt: 'Guide complet en 7 étapes pour tracer un parking : diagnostic, plan de marquage, normes PMR, préparation du sol, choix de peinture, traçage et signalisation.',

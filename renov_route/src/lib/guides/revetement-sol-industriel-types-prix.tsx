@@ -7,7 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Revêtement sol industriel: types, prix et pose',
   metaDescription: 'Résine époxy, polyuréthane, methacrylate : comparatif des revêtements de sol industriel avec prix au m2, résistance et conditions d\'application en entrepôt.',
   publishDate: '2026-03-04',
-  updatedDate: '2026-05-21',
+  updatedDate: '2026-07-28',
   category: 'renovation-parking',
   readingTime: 10,
   excerpt: 'Époxy, polyuréthane ou methacrylate : comparatif des revêtements de sol industriel avec prix au m2, préparation du support et marquage de zones intégré.',

@@ -8,7 +8,7 @@ export const meta: Guide = {
   metaDescription:
     'Marquage au sol entreprise : obligations légales, code couleur industriel, techniques (époxy, résine), prix au m2. 1 000+ projets depuis 2016. Devis gratuit.',
   publishDate: '2026-03-31',
-  updatedDate: '2026-05-21',
+  updatedDate: '2026-07-28',
   category: 'marquage-parking',
   readingTime: 12,
   excerpt:

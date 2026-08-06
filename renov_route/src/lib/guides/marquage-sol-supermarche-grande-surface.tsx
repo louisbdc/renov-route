@@ -7,6 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Marquage au sol supermarché : plan, normes et prix',
   metaDescription: 'Marquage au sol de parking supermarché et grande surface : plan de circulation, places PMR, zones livraison, peinture certifiée et prix au m². Devis gratuit.',
   publishDate: '2026-03-04',
+  updatedDate: '2026-05-22',
   category: 'marquage-parking',
   readingTime: 9,
   excerpt: 'Plan de marquage type, normes spécifiques, fréquence de retraçage et prix pour les parkings de supermarchés et grandes surfaces.',

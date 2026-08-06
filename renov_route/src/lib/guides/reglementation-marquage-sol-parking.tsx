@@ -7,6 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Réglementation marquage au sol parking 2026 | Rénov\'Route',
   metaDescription: 'Marquage obligatoire ou facultatif en parking privé ? Normes IISR, couleurs, PMR, entretien : toute la réglementation du marquage au sol en parking.',
   publishDate: '2026-03-04',
+  updatedDate: '2026-05-25',
   category: 'marquage-parking',
   readingTime: 10,
   excerpt: 'Parking privé ou public, obligations de marquage, normes IISR, places PMR : la réglementation complète du marquage au sol en parking.',

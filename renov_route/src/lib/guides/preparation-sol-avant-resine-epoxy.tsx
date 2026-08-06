@@ -7,6 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Préparation sol avant résine époxy : les 6 étapes clés',
   metaDescription: 'Préparation sol avant résine époxy : diagnostic, grenaillage, réparation fissures, primaire. 6 étapes pour une adhérence parfaite et un résultat durable.',
   publishDate: '2026-03-04',
+  updatedDate: '2026-07-28',
   category: 'marquage-parking',
   readingTime: 8,
   excerpt: 'Les 6 étapes de préparation d\'un sol béton avant application de résine époxy : diagnostic, nettoyage, grenaillage, réparation, primaire et contrôle.',

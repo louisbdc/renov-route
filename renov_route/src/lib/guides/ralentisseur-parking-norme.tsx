@@ -7,7 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Ralentisseur parking : normes et installation',
   metaDescription: 'Normes, dimensions et types de ralentisseurs pour parking privé. Dos d\'âne, coussins berlinois, bandes sonores : guide complet pour sécuriser votre parking.',
   publishDate: '2026-03-04',
-  updatedDate: '2026-05-21',
+  updatedDate: '2026-07-28',
   category: 'securite-parking',
   readingTime: 10,
   excerpt: 'Dos d\'âne, plateau surélevé, coussin berlinois : quel ralentisseur pour votre parking ? Normes, dimensions, prix et règles d\'installation.',

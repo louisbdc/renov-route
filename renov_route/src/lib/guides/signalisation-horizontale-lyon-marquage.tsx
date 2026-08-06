@@ -8,6 +8,7 @@ export const meta: Guide = {
   metaDescription:
     'Signalisation horizontale à Lyon : marquage au sol de parking, voirie et zone industrielle. Types de peinture, normes NF EN 1436 et prix au m². Devis gratuit.',
   publishDate: '2026-03-04',
+  updatedDate: '2026-05-22',
   category: 'marquage-parking',
   readingTime: 10,
   excerpt:

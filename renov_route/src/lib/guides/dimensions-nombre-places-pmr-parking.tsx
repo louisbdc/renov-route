@@ -8,7 +8,7 @@ export const meta: Guide = {
   metaTitle: 'Dimension place PMR : 3,30 × 5 m et 2 % des places (2026)',
   metaDescription: 'Dimensions place PMR : 3,30 m × 5 m minimum, bande 0,80 m, 2% des places obligatoires. Tableau complet + sanctions jusqu\'à 45 000 €. Guide de référence 2026.',
   publishDate: '2026-03-04',
-  updatedDate: '2026-05-05',
+  updatedDate: '2026-07-28',
   category: 'normes-pmr',
   readingTime: 10,
   excerpt: 'Toutes les dimensions réglementaires des places PMR en parking : largeur 3,30 m, bande d\'accès de 0,80 m, nombre obligatoire selon la capacité. Tableaux et erreurs à éviter.',
