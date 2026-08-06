@@ -5,11 +5,11 @@ export const meta: Guide = {
   slug: 'choisir-entreprise-marquage-au-sol',
   title:
     'Comment choisir son entreprise de marquage au sol : 7 critères essentiels',
-  metaTitle: "Choisir entreprise marquage au sol : 7 critères | Rénov'Route",
+  metaTitle: "Entreprise de marquage au sol : comment choisir son prestataire",
   metaDescription:
     "Comment choisir son entreprise de marquage au sol ? 7 critères essentiels : certifications, références, garanties, réactivité. Guide pratique pour décider.",
   publishDate: '2026-04-27',
-  updatedDate: '2026-07-28',
+  updatedDate: '2026-08-06',
   category: 'marquage-parking',
   readingTime: 12,
   excerpt:
@@ -32,6 +32,14 @@ export default function Content() {
         métier technique où la qualité du résultat dépend autant du
         savoir-faire que des matériaux utilisés. Un prestataire mal choisi,
         c&apos;est un chantier à refaire dans deux ans et un budget doublé.
+      </p>
+
+      <p>
+        <strong>Vous cherchez plutôt les normes de marquage applicables à vos locaux ?</strong>{' '}
+        Ce guide porte sur le choix d&apos;un prestataire. Pour le marquage à l&apos;intérieur
+        d&apos;un entrepôt ou d&apos;un site industriel (code couleur NF X 08-003, allées de
+        circulation), consultez notre guide du{' '}
+        <Link href="/guides/marquage-au-sol-entreprise-industriel/">marquage au sol industriel</Link>.
       </p>
 
       <p>
@@ -214,7 +222,7 @@ export default function Content() {
         </li>
         <li>
           <strong>Les codes couleur :</strong>{' '}
-          <Link href="/guides/couleur-marquage-sol-parking/">
+          <Link href="/guides/marquage-au-sol-signification-couleurs/">
             blanc, jaune, bleu
           </Link>{' '}
           selon les usages réglementaires

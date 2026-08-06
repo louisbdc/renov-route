@@ -3,16 +3,20 @@ import Link from 'next/link'
 
 export const meta: Guide = {
   slug: 'marquage-au-sol-entreprise-industriel',
-  title: 'Marquage au sol entreprise : obligations, techniques et prix en 2026',
-  metaTitle: 'Marquage au sol entreprise : guide complet 2026 | Rénov\u0027Route',
+  // Ciblage resserre sur le site industriel (entrepot, atelier, usine). Cette page et
+  // « choisir-entreprise-marquage-au-sol » se cannibalisaient sur la requete ambigue
+  // « marquage au sol entreprise » : l'une traite du marquage DANS l'entreprise,
+  // l'autre du choix D'UNE entreprise. Les deux intentions sont separees dans les titres.
+  title: 'Marquage au sol en entreprise : obligations, techniques et prix en 2026',
+  metaTitle: 'Marquage au sol industriel : normes NF X 08-003, techniques et prix',
   metaDescription:
-    'Marquage au sol entreprise : obligations légales, code couleur industriel, techniques (époxy, résine), prix au m2. 1 000+ projets depuis 2016. Devis gratuit.',
+    'Marquage au sol en entrepôt et site industriel : code couleur NF X 08-003, allées de circulation, techniques époxy et résine, prix au m². 1 000+ projets depuis 2016.',
   publishDate: '2026-03-31',
-  updatedDate: '2026-07-28',
+  updatedDate: '2026-08-06',
   category: 'marquage-parking',
   readingTime: 12,
   excerpt:
-    'Marquage au sol entreprise : obligations légales, code couleur industriel, techniques de pose et prix au mètre linéaire. Guide complet pour sécuriser votre site.',
+    'Marquage au sol en entrepôt, atelier et site industriel : obligations légales, code couleur NF X 08-003, techniques de pose et prix au mètre linéaire.',
 }
 
 export default function Content() {
@@ -27,7 +31,14 @@ export default function Content() {
       </p>
 
       <p>
-        Le marquage au sol de votre entreprise n&apos;est pas un détail esthétique. C&apos;est une obligation légale, un outil de sécurité et un levier d&apos;organisation qui structure les flux, protège vos équipés et engage votre responsabilité en cas de contrôle. Ce guide couvre les normes applicables, le code couleur industriel, les techniques de marquage, les prix et les erreurs à éviter.
+        Le marquage au sol de votre entreprise n&apos;est pas un détail esthétique. C&apos;est une obligation légale, un outil de sécurité et un levier d&apos;organisation qui structure les flux, protège vos équipes et engage votre responsabilité en cas de contrôle. Ce guide couvre les normes applicables, le code couleur industriel, les techniques de marquage, les prix et les erreurs à éviter.
+      </p>
+
+      <p>
+        <strong>Vous cherchez plutôt à sélectionner un prestataire ?</strong> Ce guide traite du
+        marquage <em>dans</em> votre entreprise. Pour comparer les entreprises de marquage entre
+        elles, consultez notre guide sur{' '}
+        <Link href="/guides/choisir-entreprise-marquage-au-sol/">comment choisir son entreprise de marquage au sol</Link>.
       </p>
 
       <h2>Ce que dit la loi sur le marquage au sol en entreprise</h2>
