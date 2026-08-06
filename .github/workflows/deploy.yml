@@ -3,6 +3,10 @@ name: Deploy to FTP
 on:
   push:
     branches: [main]
+  # Declenchement manuel : GitHub ne rejoue pas retroactivement les pushes
+  # survenus pendant une indisponibilite d'Actions. Permet de relancer le
+  # deploiement sans avoir a pousser un commit vide.
+  workflow_dispatch:
 
 jobs:
   deploy:
