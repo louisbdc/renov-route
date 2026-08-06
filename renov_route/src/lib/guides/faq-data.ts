@@ -140,7 +140,7 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
       question:
         'Faut-il une place PMR dans un parking de 10 places ?',
       answer:
-        "Oui. Dès qu'un parking d'ERP dépasse 1 place, il doit comporter au moins 2 places PMR (minimum réglementaire). Pour un parking de 10 places, cela représente 20 % de la capacité.",
+        "Oui. La règle des 2 % s'arrondit à l'unité supérieure : même un parking de 10 places doit comporter 1 place PMR. Le minimum réglementaire est d'une place, quelle que soit la capacité.",
     },
     {
       question:

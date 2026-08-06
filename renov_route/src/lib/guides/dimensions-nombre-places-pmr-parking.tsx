@@ -30,7 +30,7 @@ export default function Content() {
         Votre parking fait 45 places. Combien de places PMR devez-vous prévoir ? Deux ? Trois ? Et quelles dimensions exactes doivent-elles respecter ?
       </p>
       <p>
-        Si vous cherchez une réponse simple, la voici : au moins 2 places PMR, de 3,30 m de large minimum (place + bande d'accès latérale de 0,80 m) sur 5 m de long. Au-delà de 50 places, le calcul change.
+        Si vous cherchez une réponse simple, la voici : 2 % du nombre total de places, arrondi à l'unité supérieure — soit au minimum 1 place. Chacune mesure 3,30 m de large (place + bande d'accès latérale de 0,80 m) sur 5 m de long.
       </p>
       <p>
         Mais entre la théorie et la pratique, les erreurs sont fréquentes. Bande d'accès trop étroite, pictogramme mal positionné, pente d'accès non conforme, nombre de places insuffisant. Un contrôle peut coûter jusqu'à 225 000 euros d'amende pour un ERP non conforme.
@@ -57,9 +57,9 @@ export default function Content() {
             </tr>
           </thead>
           <tbody>
-            <tr><td>1 à 50 places</td><td>2 places minimum</td></tr>
+            <tr><td>1 à 50 places</td><td>1 place minimum</td></tr>
             <tr><td>51 à 500 places</td><td>1 place pour 50 places (soit 2 %)</td></tr>
-            <tr><td>Plus de 500 places</td><td>10 places + 1 place par tranche de 50 au-delà de 500</td></tr>
+            <tr><td>Plus de 500 places</td><td>Fixé par arrêté municipal, sans pouvoir être inférieur à 10</td></tr>
           </tbody>
         </table>
       </div>
@@ -304,7 +304,7 @@ export default function Content() {
 
       <h3>Faut-il une place PMR dans un parking de 10 places ?</h3>
       <p>
-        Oui. Dès qu'un parking d'ERP dépasse 1 place, il doit comporter au moins 2 places PMR (minimum réglementaire). Pour un parking de 10 places, cela représente 20 % de la capacité, ce qui peut sembler beaucoup. En pratique, les places PMR sont plus grandes mais peuvent servir à tous les usagers en dehors des heures de forte affluence.
+        Oui. La règle des 2 % s'arrondit à l'unité supérieure : même un parking de 10 places doit comporter 1 place PMR (2 % de 10 = 0,2, arrondi à 1). Le minimum réglementaire est d'une place, quelle que soit la capacité.
       </p>
 
       <h3>Peut-on transformer une place standard en place PMR sans refaire tout le parking ?</h3>

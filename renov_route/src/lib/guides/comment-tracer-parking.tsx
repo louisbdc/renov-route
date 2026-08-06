@@ -184,29 +184,29 @@ export default function Content() {
           </thead>
           <tbody>
             <tr>
-              <td>1 à 25 places</td>
+              <td>1 à 50 places</td>
               <td>1 place minimum</td>
-              <td>4 %</td>
-            </tr>
-            <tr>
-              <td>26 à 50 places</td>
-              <td>2 places minimum</td>
-              <td>~4 %</td>
+              <td>2 % arrondi à l&apos;unité supérieure</td>
             </tr>
             <tr>
               <td>51 à 100 places</td>
-              <td>3 à 4 places</td>
-              <td>~4 %</td>
+              <td>2 places</td>
+              <td>2 % arrondi à l&apos;unité supérieure</td>
             </tr>
             <tr>
-              <td>101 à 500 places</td>
-              <td>4 à 20 places</td>
-              <td>2 à 4 %</td>
+              <td>101 à 200 places</td>
+              <td>3 à 4 places</td>
+              <td>2 % arrondi à l&apos;unité supérieure</td>
+            </tr>
+            <tr>
+              <td>201 à 500 places</td>
+              <td>5 à 10 places</td>
+              <td>2 % arrondi à l&apos;unité supérieure</td>
             </tr>
             <tr>
               <td>Plus de 500 places</td>
-              <td>20 places + 1 par tranche de 50</td>
-              <td>~2 %</td>
+              <td>Fixé par arrêté municipal, au minimum 10</td>
+              <td>—</td>
             </tr>
           </tbody>
         </table>
