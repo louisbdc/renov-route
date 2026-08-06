@@ -94,7 +94,7 @@ export default function Content() {
         Pour les d&eacute;tails techniques, consultez nos guides sur les{' '}
         <Link href="/guides/normes-pmr-parking">normes PMR en parking</Link> et
         les{' '}
-        <Link href="/guides/panneau-pmr-parking-types-obligations">
+        <Link href="/guides/signalisation-pmr-parking">
           panneaux PMR
         </Link>
         .

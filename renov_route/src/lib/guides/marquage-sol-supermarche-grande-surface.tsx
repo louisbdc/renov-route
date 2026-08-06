@@ -123,7 +123,7 @@ export default function Content() {
         <li><strong>Rouge</strong> : zones pompiers, interdiction de stationner</li>
       </ul>
       <p>
-        Pour le d&eacute;tail des couleurs et leur r&eacute;glementation, consultez notre guide sur les <Link href="/guides/couleur-marquage-sol-parking">couleurs de marquage au sol de parking</Link>.
+        Pour le d&eacute;tail des couleurs et leur r&eacute;glementation, consultez notre guide sur les <Link href="/guides/marquage-au-sol-signification-couleurs">couleurs de marquage au sol de parking</Link>.
       </p>
 
       <h3>Protection des &eacute;quipements</h3>

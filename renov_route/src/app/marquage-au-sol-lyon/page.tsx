@@ -39,7 +39,7 @@ const SERVICES = [
   { icon: <TbRoad size={22} />, title: 'Marquage routier & voirie', description: "Signalisation horizontale : lignes, bandes, flèches directionnelles, zébras, îlots. Voirie publique et privée.", link: '/competences/tracage-retracage-parking/' },
   { icon: <TbBuildingFactory2 size={22} />, title: 'Marquage industriel', description: "Marquage au sol d'entrepôts, ateliers et zones logistiques : allées de circulation, zones de stockage, cheminements piétons.", link: '/competences/resine-sol-marquage-interieur/' },
   { icon: <TbBallFootball size={22} />, title: 'Traçage sportif', description: 'Terrains de basket, tennis, handball, badminton. Peintures conformes aux normes sportives, intérieures et extérieures.', link: '/competences/tracage-retracage-parking/' },
-  { icon: <TbWheelchair size={22} />, title: 'Mise en conformité PMR', description: "Places handicapées, bandes de guidage, signalétique au sol conforme aux normes d'accessibilité. Mise aux normes de parkings existants.", link: '/guides/mise-en-conformite-parking-pmr/' },
+  { icon: <TbWheelchair size={22} />, title: 'Mise en conformité PMR', description: "Places handicapées, bandes de guidage, signalétique au sol conforme aux normes d'accessibilité. Mise aux normes de parkings existants.", link: '/guides/normes-pmr-parking/' },
   { icon: <TbPalette size={22} />, title: 'Résine de sol & revêtement', description: 'Résine époxy, polyuréthane, revêtements antidérapants pour sols industriels, garages, ateliers. Protection et marquage intérieur.', link: '/competences/resine-sol-marquage-interieur/' },
 ]
 
@@ -176,7 +176,7 @@ export default function MarquageAuSolLyonPage() {
         descriptionHeading="Votre entreprise de marquage au sol à Lyon"
         descriptionParagraphs={[
           "Depuis 2016, Rénov Route est spécialisée dans le marquage au sol à Lyon et dans toute la région Rhône-Alpes. Avec plus de 1 000 chantiers réalisés, nous accompagnons les entreprises, collectivités, copropriétés et gestionnaires de sites dans tous leurs projets de signalisation horizontale.",
-          <>Nos équipes interviennent sur tous types de surfaces et de marquages : <Link href="/competences/tracage-retracage-parking/" className="text-[#FACC15] hover:text-[#0F172A] underline">traçage de parking</Link>, marquage de voirie, <Link href="/competences/resine-sol-marquage-interieur/" className="text-[#FACC15] hover:text-[#0F172A] underline">résine de sol industriel</Link>, traçage sportif et <Link href="/guides/mise-en-conformite-parking-pmr/" className="text-[#FACC15] hover:text-[#0F172A] underline">mise en conformité PMR</Link>.</>,
+          <>Nos équipes interviennent sur tous types de surfaces et de marquages : <Link href="/competences/tracage-retracage-parking/" className="text-[#FACC15] hover:text-[#0F172A] underline">traçage de parking</Link>, marquage de voirie, <Link href="/competences/resine-sol-marquage-interieur/" className="text-[#FACC15] hover:text-[#0F172A] underline">résine de sol industriel</Link>, traçage sportif et <Link href="/guides/normes-pmr-parking/" className="text-[#FACC15] hover:text-[#0F172A] underline">mise en conformité PMR</Link>.</>,
           <>Nous utilisons exclusivement des peintures routières certifiées NF EN 1436 et des résines haute performance pour garantir un résultat durable. Si votre sol nécessite une remise en état avant le marquage, nous assurons également la <Link href="/competences/reparation-nids-de-poule/" className="text-[#FACC15] hover:text-[#0F172A] underline">réparation de nids de poule</Link> et la préparation de surface.</>,
         ]}
         features={FEATURES}
@@ -403,7 +403,7 @@ export default function MarquageAuSolLyonPage() {
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {[
                 { title: 'Prix marquage au sol parking', href: '/guides/prix-marquage-sol-parking/', desc: 'Tarifs au mètre linéaire, par place, devis type.' },
-                { title: 'Mise en conformité PMR', href: '/guides/mise-en-conformite-parking-pmr/', desc: 'Obligations légales, normes, sanctions.' },
+                { title: 'Mise en conformité PMR', href: '/guides/normes-pmr-parking/', desc: 'Obligations légales, normes, sanctions.' },
                 { title: 'Comment tracer un parking', href: '/guides/comment-tracer-parking/', desc: 'Étapes, dimensions, réglementation.' },
                 { title: 'Résine époxy ou peinture de sol', href: '/guides/resine-epoxy-ou-peinture-sol-comparatif/', desc: 'Comparatif, avantages, cas d\'usage.' },
                 { title: 'Panneau limitation vitesse parking', href: '/guides/panneau-limitation-vitesse-parking/', desc: 'Obligations, types de panneaux, prix.' },

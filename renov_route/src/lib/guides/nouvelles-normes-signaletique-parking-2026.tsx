@@ -227,7 +227,7 @@ export default function Content() {
       <ul>
         <li>
           Toutes les places clairement tracées et lisibles (voir{' '}
-          <Link href="/guides/reglementation-marquage-sol-parking">réglementation du marquage</Link>)
+          <Link href="/guides/signalisation-parking-reglementation">réglementation du marquage</Link>)
         </li>
         <li>Places vertes RAL 6018 marquées (si parking en ZFE)</li>
         <li>

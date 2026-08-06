@@ -7,23 +7,19 @@ import { meta as nidDePouleResponsabilite } from './nid-de-poule-responsabilite-
 import { meta as entretienParkingSignes } from './entretien-parking-signes-renovation'
 import { meta as dimensionsPlacesPmr } from './dimensions-nombre-places-pmr-parking'
 import { meta as renovationParkingEntreprise } from './renovation-parking-entreprise'
-import { meta as miseEnConformitePmr } from './mise-en-conformite-parking-pmr'
 import { meta as coutRenovationParking } from './cout-renovation-parking'
 import { meta as signalisationPmrParking } from './signalisation-pmr-parking'
 import { meta as peintureMarquageSolParking } from './peinture-marquage-sol-parking'
 import { meta as commentTracerParking } from './comment-tracer-parking'
-import { meta as couleurMarquageSolParking } from './couleur-marquage-sol-parking'
 import { meta as ralentisseurParkingNorme } from './ralentisseur-parking-norme'
 import { meta as passagePietonParkingNorme } from './passage-pieton-parking-norme'
 import { meta as signalisationParkingReglementation } from './signalisation-parking-reglementation'
-import { meta as reglementationMarquageSolParking } from './reglementation-marquage-sol-parking'
 import { meta as resineSolParkingPrixTypes } from './resine-sol-parking-prix-types'
 import { meta as barriereParkingTypesPrix } from './barriere-parking-types-prix'
 import { meta as peintureSolGarageTypesApplication } from './peinture-sol-garage-types-application'
 import { meta as buteeParkingTypesPosePrix } from './butee-parking-types-pose-prix'
 import { meta as dosDaneParkingReglementationPose } from './dos-dane-parking-reglementation-pose'
 import { meta as revetementSolIndustrielTypesPrix } from './revetement-sol-industriel-types-prix'
-import { meta as panneauPmrParkingTypesObligations } from './panneau-pmr-parking-types-obligations'
 import { meta as panneauLimitationVitesseParking } from './panneau-limitation-vitesse-parking'
 import { meta as ombrierePvParking2026 } from './ombriere-photovoltaique-parking-2026'
 import { meta as nouvellesNormesSignaletique2026 } from './nouvelles-normes-signaletique-parking-2026'
@@ -68,23 +64,19 @@ const GUIDES: Guide[] = [
   entretienParkingSignes,
   dimensionsPlacesPmr,
   renovationParkingEntreprise,
-  miseEnConformitePmr,
   coutRenovationParking,
   signalisationPmrParking,
   peintureMarquageSolParking,
   commentTracerParking,
-  couleurMarquageSolParking,
   ralentisseurParkingNorme,
   passagePietonParkingNorme,
   signalisationParkingReglementation,
-  reglementationMarquageSolParking,
   resineSolParkingPrixTypes,
   barriereParkingTypesPrix,
   peintureSolGarageTypesApplication,
   buteeParkingTypesPosePrix,
   dosDaneParkingReglementationPose,
   revetementSolIndustrielTypesPrix,
-  panneauPmrParkingTypesObligations,
   panneauLimitationVitesseParking,
   ombrierePvParking2026,
   nouvellesNormesSignaletique2026,

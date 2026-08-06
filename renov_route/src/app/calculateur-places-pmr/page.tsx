@@ -154,7 +154,7 @@ export default function CalculateurPmrPage() {
             Le calcul s&apos;arrondit toujours à l&apos;entier supérieur. Pour aller plus loin, consultez nos guides détaillés :{' '}
             <Link href="/guides/normes-pmr-parking/" className="text-[#0F172A] font-semibold underline">normes PMR parking</Link>,{' '}
             <Link href="/guides/dimensions-nombre-places-pmr-parking/" className="text-[#0F172A] font-semibold underline">dimensions des places PMR</Link> et{' '}
-            <Link href="/guides/mise-en-conformite-parking-pmr/" className="text-[#0F172A] font-semibold underline">mise en conformité PMR</Link>.
+            <Link href="/guides/normes-pmr-parking/" className="text-[#0F172A] font-semibold underline">mise en conformité PMR</Link>.
           </p>
         </div>
       </section>

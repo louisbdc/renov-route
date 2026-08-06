@@ -83,7 +83,7 @@ export default function Content() {
       <h3>Couleur</h3>
       <p>
         Les passages piétons sont <strong>toujours blancs</strong> en France. Pas de jaune, pas de couleur personnalisée. Le blanc est la seule couleur réglementaire pour le marquage des passages piétons, que ce soit en voirie ou en parking. Pour comprendre le code couleur complet, consultez notre{' '}
-        <Link href="/guides/couleur-marquage-sol-parking">guide des couleurs de marquage au sol</Link>.
+        <Link href="/guides/marquage-au-sol-signification-couleurs">guide des couleurs de marquage au sol</Link>.
       </p>
 
       <h2>Types de passages piétons pour parking</h2>

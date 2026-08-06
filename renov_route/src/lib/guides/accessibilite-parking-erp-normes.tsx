@@ -118,7 +118,7 @@ export default function Content() {
       <h3>Signalisation verticale</h3>
       <p>Chaque place PMR doit &ecirc;tre signal&eacute;e par :</p>
       <ul>
-        <li><strong>Un <Link href="/guides/panneau-pmr-parking-types-obligations">panneau vertical</Link></strong> avec le pictogramme handicap&eacute; (visible depuis la voie de circulation)</li>
+        <li><strong>Un <Link href="/guides/signalisation-pmr-parking">panneau vertical</Link></strong> avec le pictogramme handicap&eacute; (visible depuis la voie de circulation)</li>
         <li><strong>Un panneau de d&eacute;signation</strong> &agrave; l&apos;entr&eacute;e du parking indiquant le nombre et la localisation des places PMR</li>
       </ul>
       <p>
@@ -195,7 +195,7 @@ export default function Content() {
         </table>
       </div>
       <p>
-        Pour les prix d&eacute;taill&eacute;s du tra&ccedil;age, consultez notre guide sur la <Link href="/guides/mise-en-conformite-parking-pmr">mise en conformit&eacute; parking PMR</Link>.
+        Pour les prix d&eacute;taill&eacute;s du tra&ccedil;age, consultez notre guide sur la <Link href="/guides/normes-pmr-parking">mise en conformit&eacute; parking PMR</Link>.
       </p>
 
       <h2>FAQ : accessibilit&eacute; parking ERP</h2>

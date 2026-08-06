@@ -115,6 +115,14 @@ RewriteRule ^travaux\.html?$ https://renov-route.com/realisations/ [R=301,L]
 RewriteRule ^demande-devis\.html?$ https://renov-route.com/devis/ [R=301,L]
 RewriteRule ^estimation\.html?$ https://renov-route.com/devis/ [R=301,L]
 
+RewriteRule ^guides/couleur-marquage-sol-parking/?$ https://renov-route.com/guides/marquage-au-sol-signification-couleurs/ [R=301,L]
+
+RewriteRule ^guides/panneau-pmr-parking-types-obligations/?$ https://renov-route.com/guides/signalisation-pmr-parking/ [R=301,L]
+
+RewriteRule ^guides/reglementation-marquage-sol-parking/?$ https://renov-route.com/guides/signalisation-parking-reglementation/ [R=301,L]
+
+RewriteRule ^guides/mise-en-conformite-parking-pmr/?$ https://renov-route.com/guides/normes-pmr-parking/ [R=301,L]
+
 # Vraie page 404.
 #
 # Il y avait ici un fallback SPA (`RewriteRule ^(.*)$ /index.html [L]`) herite d'une

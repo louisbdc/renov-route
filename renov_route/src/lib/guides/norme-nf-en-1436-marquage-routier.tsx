@@ -532,7 +532,7 @@ export default function Content() {
           prix du marquage au sol de parking
         </Link>
         . La{' '}
-        <Link href="/guides/couleur-marquage-sol-parking">
+        <Link href="/guides/marquage-au-sol-signification-couleurs">
           couleur du marquage
         </Link>{' '}
         influe aussi sur le co&ucirc;t (les pigments color&eacute;s
@@ -588,7 +588,7 @@ export default function Content() {
       <p>
         Pour la r&eacute;glementation compl&egrave;te du marquage en parking,
         consultez notre guide sur la{' '}
-        <Link href="/guides/reglementation-marquage-sol-parking">
+        <Link href="/guides/signalisation-parking-reglementation">
           r&eacute;glementation du marquage au sol de parking
         </Link>
         .

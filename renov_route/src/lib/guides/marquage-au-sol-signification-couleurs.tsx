@@ -8,7 +8,7 @@ export const meta: Guide = {
   metaTitle: 'Marquage au sol : que signifient blanc, jaune, bleu et vert ?',
   metaDescription: 'Blanc = circulation, jaune = interdiction ou temporaire, bleu = stationnement réglementé, vert = cyclable. Chaque ligne et pictogramme décodé, avec les sanctions.',
   publishDate: '2026-03-31',
-  updatedDate: '2026-07-28',
+  updatedDate: '2026-08-06',
   category: 'marquage-parking',
   readingTime: 12,
   excerpt: 'Signification du marquage au sol couleur par couleur : blanc pour la circulation, jaune pour les interdictions, bleu pour le stationnement réglementé. Tableau récapitulatif, sanctions et règles parking.',
@@ -81,7 +81,20 @@ export default function Content() {
 
       <h3>Orange : le marquage de chantier</h3>
       <p>
-        L&apos;orange (ou le jaune vif) signalé un marquage temporaire lié à des travaux. Quand un marquage orange coexiste avec un marquage blanc, <strong>c&apos;est le marquage orange qui prevaut</strong>. Ce principe est fondamental pour la sécurité en zone de chantier.
+        L&apos;orange (ou le jaune vif) signale un marquage temporaire lié à des travaux. Quand un marquage orange coexiste avec un marquage blanc, <strong>c&apos;est le marquage orange qui prévaut</strong>. Ce principe est fondamental pour la sécurité en zone de chantier.
+      </p>
+
+      <h3>Rouge : la signalisation de sécurité</h3>
+      <p>
+        Le rouge est utilisé avec parcimonie, pour signaler :
+      </p>
+      <ul>
+        <li><strong>Zones de danger</strong> (sortie de secours, accès pompiers)</li>
+        <li><strong>Marquage anti-incendie</strong> (devant les bornes incendie ou les colonnes sèches)</li>
+        <li><strong>Zones interdites de manière permanente</strong></li>
+      </ul>
+      <p>
+        En parking couvert, le rouge complète souvent la signalisation de sécurité incendie. Son usage doit rester ponctuel pour conserver son impact visuel d&apos;alerte.
       </p>
 
       <h2>Marquage au sol blanc signification : les lignes en détail</h2>
@@ -348,6 +361,103 @@ export default function Content() {
         </table>
       </div>
 
+      <h2>Les 5 erreurs de couleur les plus fréquentes</h2>
+      <p>
+        En dix ans d&apos;interventions sur les parkings de la région lyonnaise, nous avons relevé les mêmes erreurs à répétition. Voici les cinq plus courantes et comment les éviter.
+      </p>
+
+      <h3>1. Places PMR marquées en jaune</h3>
+      <p>
+        C&apos;est l&apos;erreur numéro un. Le jaune signifie « interdiction ». Marquer une place PMR en jaune revient à dire aux usagers de ne pas s&apos;y garer. Les places PMR doivent être délimitées en blanc, avec le pictogramme réglementaire blanc sur fond bleu au sol.
+      </p>
+      <p>
+        Marc, responsable technique d&apos;un supermarché à Villefranche-sur-Saône, nous a contactés en urgence après un contrôle de la commission communale d&apos;accessibilité. Ses 8 places PMR, tracées en jaune vif par un prestataire non spécialisé, devaient être refaites dans un délai de 30 jours. Nous sommes intervenus en 48 heures pour retracer les places en blanc avec les pictogrammes conformes.
+      </p>
+      <p>
+        Pour tout savoir sur les dimensions et le marquage des places PMR, consultez notre <Link href="/guides/normes-pmr-parking">guide des normes PMR parking</Link>.
+      </p>
+
+      <h3>2. Passages piétons en jaune</h3>
+      <p>
+        En France, les passages piétons sont blancs. Le jaune est la norme aux États-Unis, pas en Europe. Cette confusion vient souvent de références visuelles américaines (films, séries, photos). Un passage piéton jaune dans un parking français n&apos;a aucune valeur réglementaire.
+      </p>
+
+      <h3>3. Mélange de blanc et jaune pour les places standard</h3>
+      <p>
+        Certains gestionnaires alternent blanc et jaune pour faciliter le repérage visuel des places. Cette pratique crée une ambiguïté : les usagers peuvent croire que les places jaunes sont interdites au stationnement. Utilisez la numérotation ou des couleurs non réglementaires (vert, gris) pour la différenciation visuelle.
+      </p>
+
+      <h3>4. Zébras d&apos;interdiction en blanc</h3>
+      <p>
+        Les hachures qui marquent une zone d&apos;interdiction de stationner doivent être en jaune. Des zébras blancs n&apos;ont pas la même signification réglementaire et ne permettent pas de verbaliser un stationnement non autorisé.
+      </p>
+
+      <h3>5. Absence de contraste sur sol clair</h3>
+      <p>
+        Un marquage blanc sur un enrobé noir offre un excellent contraste. Mais sur un sol clair (béton brut, dallage gris clair), le blanc peut devenir quasi invisible. Dans ces cas, appliquer un fond de couleur sombre sous le marquage ou opter pour un traitement de surface spécifique améliore la lisibilité.
+      </p>
+
+      <h2>Couleurs et visibilité : les exigences techniques</h2>
+      <p>
+        Au-delà de la signification réglementaire, chaque couleur doit répondre à des critères techniques de visibilité définis par la norme NF EN 1436.
+      </p>
+
+      <h3>Rétroréflexion nocturne</h3>
+      <p>
+        Les marquages doivent rester visibles de nuit, notamment dans les parkings extérieurs. Les peintures certifiées NF EN 1436 contiennent des microbilles de verre qui réfléchissent la lumière des phares. Le blanc offre la meilleure rétroréflexion naturelle. Le jaune arrive en second. Les autres couleurs (bleu, vert, rouge) ont une rétroréflexion plus faible et nécessitent souvent un éclairage d&apos;appoint.
+      </p>
+
+      <h3>Contraste et lisibilité</h3>
+      <p>
+        La réglementation PMR impose un contraste minimal de 70 % entre le marquage et le sol environnant. Ce critère est facile à atteindre avec du blanc sur enrobé noir (contraste proche de 100 %). Il devient plus exigeant avec des couleurs plus sombres ou sur des sols clairs.
+      </p>
+      <div className="overflow-x-auto">
+        <table>
+          <thead>
+            <tr>
+              <th>Couleur de marquage</th>
+              <th>Contraste sur enrobé noir</th>
+              <th>Contraste sur béton clair</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Blanc</td>
+              <td>Excellent (95 %+)</td>
+              <td>Moyen (40-60 %)</td>
+            </tr>
+            <tr>
+              <td>Jaune</td>
+              <td>Bon (80-90 %)</td>
+              <td>Faible (30-50 %)</td>
+            </tr>
+            <tr>
+              <td>Bleu</td>
+              <td>Moyen (50-70 %)</td>
+              <td>Moyen (40-60 %)</td>
+            </tr>
+            <tr>
+              <td>Vert</td>
+              <td>Moyen (40-60 %)</td>
+              <td>Faible (20-40 %)</td>
+            </tr>
+            <tr>
+              <td>Rouge</td>
+              <td>Moyen (50-70 %)</td>
+              <td>Moyen (40-60 %)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Durabilité par couleur</h3>
+      <p>
+        Toutes les couleurs ne vieillissent pas au même rythme. Les pigments jaunes et rouges résistent généralement moins bien aux UV que le blanc. En extérieur, prévoyez un retraçage plus fréquent pour les marquages jaunes (tous les 2-3 ans) que pour les blancs (3-5 ans).
+      </p>
+      <p>
+        Thomas, directeur d&apos;un entrepôt logistique à Saint-Priest (69), a constaté que ses marquages jaunes d&apos;interdiction, pourtant appliqués en même temps que les lignes blanches, se sont dégradés deux fois plus vite. Après 18 mois, les zébras jaunes étaient à peine visibles alors que les lignes blanches restaient nettes. Nous lui avons recommandé une peinture thermoplastique pour les zones jaunes, plus résistante aux UV. Depuis, les deux couleurs tiennent le même rythme.
+      </p>
+
       <h2>Sanctions en cas de non-respect du marquage au sol</h2>
       <p>
         Le non-respect de la <strong>signification du marquage au sol</strong> exposé à des sanctions qui varient selon la gravite de l&apos;infraction.
@@ -372,7 +482,7 @@ export default function Content() {
 
       <h3>Quelle est la signification d&apos;un marquage au sol jaune ?</h3>
       <p>
-        Le <strong>marquage au sol jaune</strong> signifie soit une interdiction de stationnement (bande jaune le long du trottoir, zigzag d&apos;arrêt de bus), soit un marquage temporaire lié à des travaux. Dans les deux cas, il signalé une situation a laquelle vous devez porter une attention particulière.
+        Le <strong>marquage au sol jaune</strong> signifie soit une interdiction de stationnement (bande jaune le long du trottoir, zigzag d&apos;arrêt de bus), soit un marquage temporaire lié à des travaux. Dans les deux cas, il signale une situation à laquelle vous devez porter une attention particulière.
       </p>
 
       <h3>Que signifie un marquage au sol bleu ?</h3>
@@ -393,6 +503,11 @@ export default function Content() {
       <h3>Qui est responsable de l&apos;entretien du marquage au sol ?</h3>
       <p>
         Sur la voie publique, c&apos;est la collectivité territoriale (commune, département, État). Sur un parking privé, c&apos;est le propriétaire ou le gestionnaire du parking. Dans les deux cas, un marquage effacé ou non conforme peut engager la responsabilité en cas d&apos;accident.
+      </p>
+
+      <h3>Comment améliorer la visibilité d&apos;un marquage sur sol clair ?</h3>
+      <p>
+        Sur béton brut ou dallage gris clair, un marquage blanc perd l&apos;essentiel de son contraste. Deux solutions : appliquer un fond de couleur sombre sous le marquage, ou passer à une résine à fort pouvoir couvrant. La réglementation PMR impose un contraste minimal de 70 % entre le marquage et son support — un critère rarement atteint avec du blanc sur sol clair.
       </p>
 
       <h2>Conclusion : un marquage lisible, c&apos;est un espace sécurisé</h2>

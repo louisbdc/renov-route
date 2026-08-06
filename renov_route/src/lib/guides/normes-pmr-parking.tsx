@@ -8,7 +8,7 @@ export const meta: Guide = {
   metaTitle: 'Normes PMR parking 2026 : places & sanctions | Rénov\'Route',
   metaDescription: 'Normes PMR parking 2026 : dimensions des places, nombre obligatoire, marquage et signalisation. Guide complet pour la mise en conformité.',
   publishDate: '2026-03-04',
-  updatedDate: '2026-07-28',
+  updatedDate: '2026-08-06',
   category: 'normes-pmr',
   readingTime: 12,
   excerpt: 'Guide complet des normes PMR parking en 2026 : nombre de places obligatoires, dimensions réglementaires, marquage au sol et signalisation. Étapes de mise en conformité.',
@@ -20,8 +20,8 @@ export default function Content() {
       <KeyAnswer question="Combien de places PMR sont obligatoires dans un parking ?">
         <p>
         La réglementation impose <strong>2 % du nombre total de places</strong>, arrondi à l’entier
-        supérieur, avec un minimum d’une place. Au-delà de 500 places, le seuil passe à 10 places plus
-        une par tranche de 50 supplémentaires : un parking de 800 places doit donc en compter 16.
+        supérieur, avec un minimum d’une place. Au-delà de 500 places, le nombre est fixé par arrêté
+        municipal et ne peut être inférieur à 10.
         </p>
       </KeyAnswer>
 
@@ -68,8 +68,8 @@ export default function Content() {
 
       <p>
         <strong>Attention :</strong> pour les parkings de plus de 500 places, le calcul change.
-        Au-delà de 500, on ne compte plus 2% mais une place supplémentaire par tranche de 50.
-        Un parking de 800 places devra donc proposer 10 + 6 = 16 places PMR.
+        L&apos;arrêté du 20 avril 2017 renvoie alors à un arrêté municipal, qui fixe le nombre de
+        places adaptées sans pouvoir descendre en dessous de 10.
       </p>
 
       <h3>Cas particuliers</h3>
@@ -293,6 +293,147 @@ export default function Content() {
         Coût moyen par site : 1 200 €, soit moins qu&apos;une seule journée d&apos;amende
         administrative.
       </p>
+
+      <h2>Combien coûte une mise en conformité PMR ?</h2>
+      <p>
+        Le coût dépend du nombre de places à créer ou à modifier et de l&apos;état actuel de votre parking. Voici un budget détaillé par poste.
+      </p>
+
+      <h3>Budget par poste de travaux</h3>
+      <div className="overflow-x-auto">
+        <table>
+          <thead>
+            <tr>
+              <th>Poste</th>
+              <th>Prix unitaire</th>
+              <th>Détail</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Diagnostic d&apos;accessibilité</td><td>à partir de 0 euro</td><td>Gratuit si suivi de travaux</td></tr>
+            <tr><td>Marquage place PMR (traçage + pictogramme)</td><td>à partir de 250 euros / place</td><td>Peinture certifiée NF EN 1436</td></tr>
+            <tr><td>Panneau B6d + pose</td><td>à partir de 180 euros / panneau</td><td>Fixation au sol ou sur mât</td></tr>
+            <tr><td>Bande podotactile</td><td>à partir de 55 euros / ml</td><td>Inox, résine ou caoutchouc</td></tr>
+            <tr><td>Abaissement de trottoir</td><td>à partir de 1 400 euros / unité</td><td>Génie civil selon configuration</td></tr>
+            <tr><td>Reprise de chaussée (dévers, pente)</td><td>à partir de 3 500 euros</td><td>Selon surface et travaux nécessaires</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Exemples de budgets réels</h3>
+      <p><strong>Parking de 30 places, commerce de proximité :</strong></p>
+      <ul>
+        <li>1 place PMR à créer (marquage + panneau) : quelques centaines d&apos;euros</li>
+        <li>1 abaissement de trottoir : plus d&apos;un millier d&apos;euros</li>
+        <li><strong>Total : à partir de 2 000 euros</strong></li>
+      </ul>
+
+      <p><strong>Parking de 80 places, centre commercial :</strong></p>
+      <ul>
+        <li>3 places PMR à mettre aux normes (retraçage + pictogrammes + bande latérale)</li>
+        <li>3 panneaux B6d</li>
+        <li>2 bandes podotactiles (8 ml)</li>
+        <li>1 reprise de cheminement</li>
+        <li><strong>Total : à partir de 5 000 euros</strong></li>
+      </ul>
+
+      <blockquote>
+        <p>
+          Quand Olivier, directeur d&apos;un supermarché de 120 places dans l&apos;Ain, a reçu la visite de la commission d&apos;accessibilité en janvier 2026, il s&apos;attendait au pire. Le parking avait seulement 2 places PMR au lieu des 4 requises, les pictogrammes étaient à peine visibles et un poteau gênait le cheminement vers l&apos;entrée. Il a fait appel à notre équipe pour une mise en conformité complète. En trois jours, nous avons retracé les 4 places PMR aux dimensions réglementaires, posé les panneaux B6d, installé les bandes podotactiles et déplacé le poteau. Budget total : plusieurs milliers d&apos;euros. Deux mois plus tard, le second contrôle a validé la conformité totale.
+        </p>
+      </blockquote>
+
+      <p>
+        <strong>Votre parking a besoin d&apos;une mise en conformité PMR ?</strong> <Link href="/devis">Obtenez un devis gratuit et détaillé en 48h</Link>. Notre expert technique se déplace pour un diagnostic sur site.
+      </p>
+
+      <h2>Ad&apos;AP : le dispositif pour les ERP en retard</h2>
+
+      <h3>Qu&apos;est-ce qu&apos;un Ad&apos;AP ?</h3>
+      <p>
+        L&apos;Agenda d&apos;Accessibilité Programmée (Ad&apos;AP) est un dispositif qui permettait aux ERP de s&apos;engager sur un calendrier de mise en conformité. Les dépôts d&apos;Ad&apos;AP sont clos depuis 2019, mais les engagements pris restent valables.
+      </p>
+
+      <h3>Si vous n&apos;avez pas déposé d&apos;Ad&apos;AP</h3>
+      <p>
+        Si votre établissement n&apos;a pas déposé d&apos;Ad&apos;AP et n&apos;est pas conforme, vous êtes en infraction. La mise en conformité doit être réalisée immédiatement. En pratique, les commissions d&apos;accessibilité sont compréhensives lorsque le gestionnaire engage volontairement les travaux.
+      </p>
+
+      <h3>Les sanctions encourues</h3>
+      <div className="overflow-x-auto">
+        <table>
+          <thead>
+            <tr>
+              <th>Infraction</th>
+              <th>Sanction</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Non-conformité d&apos;un ERP</td><td>Amende jusqu&apos;à 45 000 euros (personne physique)</td></tr>
+            <tr><td>Récidive</td><td>75 000 euros et/ou 6 mois d&apos;emprisonnement</td></tr>
+            <tr><td>Personne morale</td><td>Amende jusqu&apos;à 225 000 euros</td></tr>
+            <tr><td>Non-dépôt d&apos;Ad&apos;AP (quand c&apos;était obligatoire)</td><td>1 500 à 5 000 euros</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <blockquote>
+        <p>
+          Antoine, gérant de trois restaurants rapides en périphérie lyonnaise, a reçu trois PV d&apos;infraction le même mois. Aucun de ses parkings n&apos;avait de place PMR conforme. Montant cumulé des amendes : plus de 10 000 euros. Il a ensuite investi plusieurs milliers d&apos;euros supplémentaires pour mettre les trois parkings aux normes. Au total, cette mise en conformité tardive lui a coûté bien plus de trois fois le prix des travaux seuls. Son conseil ? &quot;Faites-le tout de suite. Le coût des travaux, c&apos;est rien comparé aux amendes.&quot;
+        </p>
+      </blockquote>
+
+      <h2>Cas particulier : la copropriété</h2>
+      <p>
+        En copropriété, la mise en conformité PMR suit un processus spécifique.
+      </p>
+
+      <h3>Le vote en AG</h3>
+      <p>
+        Les travaux de mise en conformité PMR sont votés en assemblée générale à la majorité simple (<a href="https://www.legifrance.gouv.fr/search/all?query=loi%20n%C2%B065-557%20du%2010%20juillet%201965%20copropri%C3%A9t%C3%A9" target="_blank" rel="noopener noreferrer">article 24 de la loi du 10 juillet 1965</a>). Cette majorité facilitée s&apos;applique car il s&apos;agit de travaux d&apos;accessibilité imposés par la loi.
+      </p>
+
+      <h3>Le financement</h3>
+      <p>
+        Le coût est réparti entre les copropriétaires selon les tantièmes. Des aides publiques peuvent contribuer au financement :
+      </p>
+      <ul>
+        <li>Subventions de l&apos;ANAH (Agence Nationale de l&apos;Habitat) pour les copropriétés fragiles</li>
+        <li>Aides départementales ou régionales selon les collectivités</li>
+        <li>Déduction fiscale pour les travaux d&apos;accessibilité dans les locaux professionnels</li>
+      </ul>
+      <p>
+        Pour le détail du processus en copropriété, consultez notre guide complet sur la <Link href="/guides/renovation-parking-copropriete">rénovation de parking en copropriété</Link>.
+      </p>
+
+      <h2>Conformité accessibilité parking 2026 : ce qui change</h2>
+      <p>
+        L&apos;année 2026 marque un tournant dans l&apos;application des normes d&apos;accessibilité parking. Voici les évolutions notables pour les gestionnaires de parkings existants.
+      </p>
+
+      <h3>Renforcement des contrôles</h3>
+      <p>
+        Les commissions communales d&apos;accessibilité ont reçu des moyens supplémentaires pour intensifier les contrôles sur le terrain. Les contrôles inopinés se multiplient, en particulier dans les zones commerciales et les copropriétés avec locaux professionnels.
+      </p>
+
+      <h3>Sanctions renforcées en pratique</h3>
+      <p>
+        Si les montants des amendes n&apos;ont pas changé (45 000 euros personne physique, 225 000 euros personne morale), la tolérance des commissions a nettement diminué. Les gestionnaires qui n&apos;ont pas engagé de démarche de mise en conformité sont désormais verbalisés plus systématiquement.
+      </p>
+
+      <h3>Aménagement PMR de parking existant : les spécificités</h3>
+      <p>
+        Pour un parking existant, la mise aux normes PMR doit tenir compte des contraintes du site : configuration des places, pente du terrain, accès existants. Les solutions ne sont pas les mêmes que pour un parking neuf. Notre équipe adapte chaque aménagement PMR à la configuration réelle de votre parking, en privilégiant les solutions les moins intrusives et les plus économiques.
+      </p>
+      <p>
+        Les points clés pour un aménagement PMR de parking existant :
+      </p>
+      <ul>
+        <li>Repérage des places les plus proches de l&apos;entrée et les mieux adaptées (sol plan, espace disponible)</li>
+        <li>Adaptation du marquage aux dimensions réelles (certains parkings anciens ont des places plus étroites)</li>
+        <li>Création d&apos;un cheminement accessible sans nécessairement refaire tout le revêtement</li>
+        <li>Pose de <Link href="/competences/signalisation-verticale">signalisation verticale</Link> adaptée aux supports existants</li>
+      </ul>
 
       <h2>Sanctions en cas de non-conformité</h2>
       <p>

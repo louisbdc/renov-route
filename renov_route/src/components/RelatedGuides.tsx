@@ -67,8 +67,8 @@ export default function RelatedGuides({
 export const COMPETENCE_GUIDES: Record<string, GuideLink[]> = {
   'tracage-retracage-parking': [
     { href: '/guides/prix-marquage-sol-parking', title: 'Prix marquage au sol parking : tarifs 2026' },
-    { href: '/guides/reglementation-marquage-sol-parking', title: 'Réglementation marquage au sol parking' },
-    { href: '/guides/couleur-marquage-sol-parking', title: 'Couleurs de marquage au sol : signification' },
+    { href: '/guides/signalisation-parking-reglementation', title: 'Réglementation marquage au sol parking' },
+    { href: '/guides/marquage-au-sol-signification-couleurs', title: 'Couleurs de marquage au sol : signification' },
     { href: '/guides/duree-vie-marquage-sol-parking', title: 'Durée de vie du marquage au sol' },
     { href: '/guides/peinture-marquage-sol-parking', title: 'Peinture marquage sol parking : guide complet' },
     { href: '/guides/comment-tracer-parking', title: 'Comment tracer un parking ?' },
@@ -108,7 +108,7 @@ export const COMPETENCE_GUIDES: Record<string, GuideLink[]> = {
     { href: '/guides/signalisation-horizontale-et-verticale', title: 'Signalisation horizontale et verticale' },
     { href: '/guides/panneaux-parking-types-reglementation', title: 'Panneaux parking : types & réglementation' },
     { href: '/guides/panneau-limitation-vitesse-parking', title: 'Panneau limitation vitesse parking' },
-    { href: '/guides/panneau-pmr-parking-types-obligations', title: 'Panneau PMR parking : types & obligations' },
+    { href: '/guides/signalisation-pmr-parking', title: 'Panneau PMR parking : types & obligations' },
     { href: '/guides/nouvelles-normes-signaletique-parking-2026', title: 'Nouvelles normes signalétique parking 2026' },
   ],
   'accessoires-parking': [
@@ -124,7 +124,7 @@ export const COMPETENCE_GUIDES: Record<string, GuideLink[]> = {
     { href: '/guides/renovation-parking-copropriete', title: 'Rénovation parking copropriété' },
     { href: '/guides/renovation-parking-entreprise', title: 'Rénovation parking entreprise' },
     { href: '/guides/normes-pmr-parking', title: 'Normes PMR parking' },
-    { href: '/guides/mise-en-conformite-parking-pmr', title: 'Mise en conformité parking PMR' },
+    { href: '/guides/normes-pmr-parking', title: 'Mise en conformité parking PMR' },
     { href: '/guides/accessibilite-parking-erp-normes', title: 'Accessibilité parking ERP : normes' },
     { href: '/guides/ombriere-photovoltaique-parking-2026', title: 'Ombrière photovoltaïque parking 2026' },
     { href: '/guides/parking-visiteurs-aménagement', title: 'Parking visiteurs : aménagement' },

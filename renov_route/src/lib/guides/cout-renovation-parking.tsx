@@ -161,7 +161,7 @@ export default function Content() {
         </table>
       </div>
       <p>
-        Pour le détail des obligations et le calcul du nombre de places, consultez nos guides sur les <Link href="/guides/normes-pmr-parking">normes PMR parking</Link> et la <Link href="/guides/mise-en-conformite-parking-pmr">mise en conformité parking PMR</Link>.
+        Pour le détail des obligations et le calcul du nombre de places, consultez nos guides sur les <Link href="/guides/normes-pmr-parking">normes PMR parking</Link> et la <Link href="/guides/normes-pmr-parking">mise en conformité parking PMR</Link>.
       </p>
 
       <h3>6. Nettoyage et préparation</h3>

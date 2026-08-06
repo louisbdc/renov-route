@@ -105,7 +105,7 @@ export default function Content() {
         Pour les parkings priv&eacute;s, l&apos;IISR n&apos;est pas
         directement applicable, mais elle sert de r&eacute;f&eacute;rence
         technique. La{' '}
-        <Link href="/guides/reglementation-marquage-sol-parking">
+        <Link href="/guides/signalisation-parking-reglementation">
           r&eacute;glementation du marquage au sol de parking
         </Link>{' '}
         d&eacute;taille les obligations sp&eacute;cifiques.
@@ -476,7 +476,7 @@ export default function Content() {
         parking de 60 places co&ucirc;te à partir de 600 euros. Ajoutez
         à partir de 400 euros par place PMR et à partir de 100 euros par passage
         pi&eacute;ton. Pour les{' '}
-        <Link href="/guides/couleur-marquage-sol-parking">
+        <Link href="/guides/marquage-au-sol-signification-couleurs">
           couleurs de marquage
         </Link>{' '}
         sp&eacute;cifiques, un suppl&eacute;ment de 10-20% s&apos;applique.

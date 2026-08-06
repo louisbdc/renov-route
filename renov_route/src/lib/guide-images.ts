@@ -17,7 +17,6 @@ const IDS: Record<string, string> = {
   // ── PMR / accessibilité ───────────────────────────────────────────
   'normes-pmr-parking': '1658326246852-4ebcbb0234a5',
   'dimensions-nombre-places-pmr-parking': '1643930824898-0013354905c0',
-  'panneau-pmr-parking-types-obligations': '1643930493625-aa561ffbf6ed',
   'signalisation-pmr-parking': '1743521272571-14f5e3029de5',
   'accessibilite-parking-erp-normes': '1668983396705-3aa5deed5569',
 
@@ -49,10 +48,8 @@ const IDS: Record<string, string> = {
   'entretien-parking-signes-renovation': '1688862719614-dd7b8aeea0cf',
 
   // ── Normes / couleurs / réglementation ───────────────────────────
-  'couleur-marquage-sol-parking': '1581782046583-d09f142bdd65',
   'marquage-au-sol-signification-couleurs': '1759559168529-8a1a567dab03',
   'norme-nf-en-1436-marquage-routier': '1775158148668-c2d62ae795cb',
-  'reglementation-marquage-sol-parking': '1772440222924-2efcb5ae91ce',
   'duree-vie-marquage-sol-parking': '1696342889564-42af48b9c70d',
 
   // ── Passages piétons ─────────────────────────────────────────────
@@ -85,7 +82,6 @@ const IDS: Record<string, string> = {
   'panneaux-parking-types-reglementation': '1759771622472-4305102bfbe4',
   'signalisation-horizontale-et-verticale': '1767884161959-4419b050f814',
   'dos-dane-parking-reglementation-pose': '1698281363281-423654cf848f',
-  'mise-en-conformite-parking-pmr': '1643930493375-6da00584e34f',
 
   // ── Marquage par secteur ─────────────────────────────────────────
   'marquage-au-sol-entreprise-industriel': '1772299121503-cd62a57e3a26',

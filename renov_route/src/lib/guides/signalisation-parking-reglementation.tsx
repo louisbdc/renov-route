@@ -7,7 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Signalisation parking: panneaux et normes obligatoires',
   metaDescription: 'Panneaux obligatoires, marquage au sol, normes PMR: guide complet de la signalisation en parking privé. Réglementation, erreurs et conseils d\'installation.',
   publishDate: '2026-03-04',
-  updatedDate: '2026-05-22',
+  updatedDate: '2026-08-06',
   category: 'securite-parking',
   readingTime: 10,
   excerpt: 'Panneaux STOP, limitation de vitesse, PMR, sens de circulation : tous les panneaux obligatoires en parking et les normes d\'installation.',
@@ -113,7 +113,7 @@ export default function Content() {
       <h3>Les lignes de délimitation des places</h3>
       <p>
         Chaque place de stationnement est délimitée par des lignes blanches (places standard) ou bleues (zone bleue). La largeur des lignes est de 5 à 7 centimètres. Les places PMR sont délimitées par des lignes bleues avec le pictogramme fauteuil roulant peint au sol. Retrouvez les règles de couleur dans notre{' '}
-        <Link href="/guides/couleur-marquage-sol-parking">guide du marquage au sol par couleur</Link>.
+        <Link href="/guides/marquage-au-sol-signification-couleurs">guide du marquage au sol par couleur</Link>.
       </p>
 
       <h3>Les bandes d&apos;arrêt et lignes STOP</h3>
@@ -157,6 +157,114 @@ export default function Content() {
       </p>
       <p>
         Thierry, président du conseil syndical d&apos;une copropriété de 95 lots à Saint-Priest (69), a fait voter un plan de signalisation complet pour le parking souterrain. Le devis présentait trois niveaux : signalisation minimale, standard et compl&egrave;te, avec des budgets croissants adapt&eacute;s &agrave; chaque niveau. L&apos;AG a voté le niveau standard : 6 panneaux de sens de circulation, 2 limitations de vitesse à 10 km/h, numérotation des places et 3 flèches directionnelles au sol. Les accrochages sont passés de 5 par an à zéro depuis l&apos;installation.
+      </p>
+
+      <h2>Parking privé vs parking public : quelles obligations ?</h2>
+      <p>
+        La distinction est fondamentale. Elle détermine le niveau d&apos;obligation en matière de marquage.
+      </p>
+
+      <h3>Parking public ou ouvert au public</h3>
+      <p>
+        Centre commercial, hôpital, hôtel, restaurant, supermarché, gare, mairie : tout parking accessible aux visiteurs et clients est considéré comme ouvert au public. Obligations de marquage :
+      </p>
+      <ul>
+        <li>Places de stationnement délimitées par des lignes</li>
+        <li>Places PMR conformes (nombre, dimensions, signalisation)</li>
+        <li>Passages piétons marqués et signalisés</li>
+        <li>Voies de circulation identifiées</li>
+        <li>Zones interdites matérialisées (zébras, hachures)</li>
+      </ul>
+
+      <h3>Parking privé fermé</h3>
+      <p>
+        Parking de copropriété sans accès public, parking d&apos;entreprise réservé aux employés : aucune obligation légale de marquage au sol. Mais la responsabilité civile du propriétaire est engagée en cas d&apos;accident. Un parking sans marquage ou un marquage défaillant constitue un &quot;défaut d&apos;aménagement&quot; qui peut être retenu contre le propriétaire.
+      </p>
+
+      <h3>Parking de copropriété avec accès visiteurs</h3>
+      <p>
+        Si le parking accueille des visiteurs (médecin en rez-de-chaussée, commerce, garderie), il est assimilé à un ERP. Les obligations de marquage PMR et de sécurité s&apos;appliquent.
+      </p>
+      <p>
+        <strong>Un doute sur vos obligations ?</strong> Notre équipe réalise un{' '}
+        <Link href="/competences/conseil-expertise">diagnostic gratuit de votre parking</Link>{' '}
+        avec identification précise de vos obligations réglementaires.
+      </p>
+
+      <h2>Les spécifications techniques du marquage</h2>
+
+      <h3>Couleurs autorisées</h3>
+      <div className="overflow-x-auto">
+        <table>
+          <thead>
+            <tr>
+              <th>Couleur</th>
+              <th>Usage</th>
+              <th>Référence</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Blanc</td>
+              <td>Places standard, passages piétons, flèches, lignes de rive</td>
+              <td>Couleur principale</td>
+            </tr>
+            <tr>
+              <td>Jaune</td>
+              <td>Interdiction de stationnement, zébras, zones de livraison</td>
+              <td>Zones réglementées</td>
+            </tr>
+            <tr>
+              <td>Bleu</td>
+              <td>Places PMR, zones bleues</td>
+              <td>Stationnement réglementé</td>
+            </tr>
+            <tr>
+              <td>Vert</td>
+              <td>Places électriques (recommandé, non normalisé)</td>
+              <td>Usage récent</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p>
+        Aucune autre couleur n&apos;a de valeur réglementaire. Le rouge, l&apos;orange ou le noir ne sont pas des couleurs de marquage normalisées pour le stationnement.
+      </p>
+
+      <h3>Dimensions des lignes</h3>
+      <ul>
+        <li><strong>Lignes de délimitation de places</strong> : 5 à 7 centimètres de large</li>
+        <li><strong>Lignes de rive (bord de voie)</strong> : 10 à 15 centimètres</li>
+        <li><strong>Bandes de passage piéton</strong> : 50 centimètres</li>
+        <li><strong>Bandes STOP</strong> : 50 centimètres</li>
+        <li><strong>Largeur d&apos;une place standard</strong> : 2,30 mètres minimum (2,50 mètres recommandé)</li>
+        <li><strong>Longueur d&apos;une place standard</strong> : 5 mètres minimum</li>
+      </ul>
+
+      <h3>Peintures conformes</h3>
+      <p>
+        Les peintures de marquage doivent être certifiées NF EN 1436 pour la rétroréflexion et l&apos;adhérence. Cette norme garantit la visibilité du marquage de nuit et par temps de pluie. Pour choisir la bonne peinture, consultez notre{' '}
+        <Link href="/guides/peinture-marquage-sol-parking">guide des peintures de marquage</Link>.
+      </p>
+      <p>
+        Marc, gestionnaire d&apos;un parking de 200 places pour un centre commercial à Vaulx-en-Velin (69), a commis l&apos;erreur d&apos;utiliser une peinture décorative au lieu d&apos;une peinture routière certifiée pour retracer son parking. Résultat : après 6 mois, le marquage était quasi invisible. Il a dû tout refaire avec une peinture thermoplastique certifiée NF EN 1436. Double coût, double perte de temps. La peinture certifiée, 30% plus chère à l&apos;achat, aurait duré 5 fois plus longtemps.
+      </p>
+
+      <h2>Conséquences du non-respect</h2>
+
+      <h3>Responsabilité civile</h3>
+      <p>
+        En cas d&apos;accident dans un parking sans marquage ou avec un marquage défaillant, la responsabilité du propriétaire ou du gestionnaire peut être engagée. Le &quot;défaut d&apos;aménagement&quot; est un motif fréquent de condamnation. Les tribunaux retiennent régulièrement la responsabilité des gestionnaires qui n&apos;ont pas maintenu un marquage lisible et conforme.
+      </p>
+
+      <h3>Sanctions administratives</h3>
+      <p>
+        Pour les ERP, la commission d&apos;accessibilité peut ordonner une mise en conformité sous astreinte. L&apos;amende peut atteindre 45 000 euros pour une personne morale. La fermeture administrative de l&apos;établissement est possible dans les cas les plus graves.
+      </p>
+
+      <h3>Conséquences assurantielles</h3>
+      <p>
+        Les assurances peuvent refuser d&apos;indemniser un sinistre survenu dans un parking non conforme. L&apos;argument du &quot;défaut d&apos;aménagement&quot; permet à l&apos;assureur de réduire ou refuser la prise en charge.
       </p>
 
       <h2>Les 5 erreurs les plus fréquentes</h2>

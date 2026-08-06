@@ -26,10 +26,10 @@
 - [Coût de rénovation de parking](https://renov-route.com/guides/cout-renovation-parking/)
 - [Normes PMR parking](https://renov-route.com/guides/normes-pmr-parking/) — largeur 3,30 m × 5 m, pente max 2 %, bande 0,80 m
 - [Dimensions et nombre de places PMR](https://renov-route.com/guides/dimensions-nombre-places-pmr-parking/)
-- [Mise en conformité parking PMR](https://renov-route.com/guides/mise-en-conformite-parking-pmr/) — sanctions jusqu'à 45 000 €
-- [Réglementation marquage au sol parking](https://renov-route.com/guides/reglementation-marquage-sol-parking/)
+- [Mise en conformité parking PMR](https://renov-route.com/guides/normes-pmr-parking/) — sanctions jusqu'à 45 000 €
+- [Réglementation marquage au sol parking](https://renov-route.com/guides/signalisation-parking-reglementation/)
 - [Norme NF EN 1436 marquage routier](https://renov-route.com/guides/norme-nf-en-1436-marquage-routier/)
-- [Couleurs du marquage au sol de parking](https://renov-route.com/guides/couleur-marquage-sol-parking/)
+- [Couleurs du marquage au sol de parking](https://renov-route.com/guides/marquage-au-sol-signification-couleurs/)
 - [Rénovation de parking en copropriété](https://renov-route.com/guides/renovation-parking-copropriete/)
 - [Rénovation de parking d'entreprise](https://renov-route.com/guides/renovation-parking-entreprise/)
 
@@ -53,7 +53,7 @@
 - [Ralentisseur de parking — norme](https://renov-route.com/guides/ralentisseur-parking-norme/)
 - [Dos d'âne parking — réglementation](https://renov-route.com/guides/dos-dane-parking-reglementation-pose/)
 - [Passage piéton parking — norme](https://renov-route.com/guides/passage-pieton-parking-norme/)
-- [Panneaux PMR parking](https://renov-route.com/guides/panneau-pmr-parking-types-obligations/)
+- [Panneaux PMR parking](https://renov-route.com/guides/signalisation-pmr-parking/)
 - [Panneaux de limitation de vitesse](https://renov-route.com/guides/panneau-limitation-vitesse-parking/)
 - [Signalisation PMR parking](https://renov-route.com/guides/signalisation-pmr-parking/)
 - [Signalisation parking copropriété](https://renov-route.com/guides/signalisation-parking-copropriete/)

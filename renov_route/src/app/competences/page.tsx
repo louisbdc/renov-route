@@ -210,7 +210,7 @@ export default function CompetencesPage() {
               <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
                 {[
                   { title: 'Prix marquage au sol parking', href: '/guides/prix-marquage-sol-parking/', tag: 'Marquage' },
-                  { title: 'Réglementation marquage au sol', href: '/guides/reglementation-marquage-sol-parking/', tag: 'Marquage' },
+                  { title: 'Réglementation marquage au sol', href: '/guides/signalisation-parking-reglementation/', tag: 'Marquage' },
                   { title: 'Normes PMR parking', href: '/guides/normes-pmr-parking/', tag: 'PMR' },
                   { title: 'Résine de sol parking : prix et types', href: '/guides/resine-sol-parking-prix-types/', tag: 'Résine' },
                   { title: 'Nids de poule : solutions 2026', href: '/guides/nids-de-poule-hiver-2026-solutions/', tag: 'Réparation' },

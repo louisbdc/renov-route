@@ -31,7 +31,7 @@ const SERVICES = [
   { icon: <TbParking size={22} />, title: 'Marquage de parking', description: "Places, flèches, passages piétons, zones PMR, numérotation. Pour parkings de centres commerciaux, entreprises, hôtels et copropriétés.", link: '/competences/tracage-retracage-parking/' },
   { icon: <TbRoad size={22} />, title: 'Marquage routier & voirie', description: "Signalisation horizontale : lignes, bandes, flèches, zébras, îlots. Voirie publique et privée.", link: '/competences/tracage-retracage-parking/' },
   { icon: <TbBuildingFactory2 size={22} />, title: 'Marquage industriel', description: "Marquage au sol d'entrepôts, ateliers et zones logistiques : allées de circulation, zones de stockage, cheminements piétons.", link: '/competences/resine-sol-marquage-interieur/' },
-  { icon: <TbWheelchair size={22} />, title: 'Mise en conformité PMR', description: "Places handicapées, bandes de guidage, signalétique au sol conforme aux normes d'accessibilité.", link: '/guides/mise-en-conformite-parking-pmr/' },
+  { icon: <TbWheelchair size={22} />, title: 'Mise en conformité PMR', description: "Places handicapées, bandes de guidage, signalétique au sol conforme aux normes d'accessibilité.", link: '/guides/normes-pmr-parking/' },
   { icon: <TbPalette size={22} />, title: 'Résine de sol & revêtement', description: "Résine époxy, polyuréthane, revêtements antidérapants pour sols industriels, garages, ateliers.", link: '/competences/resine-sol-marquage-interieur/' },
   { icon: <TbShield size={22} />, title: 'Réparation nids de poule', description: "Rebouchage à froid ou à chaud, traitement de fissures, sécurisation des chaussées dégradées.", link: '/competences/reparation-nids-de-poule/' },
 ]

@@ -7,7 +7,7 @@ export const meta: Guide = {
   metaTitle: 'Signalisation PMR parking : panneaux, marquage et normes',
   metaDescription: 'Signalisation PMR parking : panneaux B6d, pictogramme fauteuil roulant, bandes podotactiles et marquage réglementaire. Guide complet avec dimensions et prix.',
   publishDate: '2026-03-04',
-  updatedDate: '2026-07-28',
+  updatedDate: '2026-08-06',
   category: 'normes-pmr',
   readingTime: 11,
   excerpt: 'Guide complet de la signalisation PMR en parking : panneaux B6d, pictogramme au sol, bandes podotactiles. Spécifications réglementaires, dimensions et prix.',
@@ -216,6 +216,178 @@ export default function Content() {
           </tbody>
         </table>
       </div>
+
+      <h2>Dimensions et spécifications réglementaires</h2>
+
+      <h3>Taille des panneaux selon le contexte</h3>
+
+      <div className="overflow-x-auto">
+        <table>
+          <thead>
+            <tr>
+              <th>Contexte</th>
+              <th>Diamètre / Taille</th>
+              <th>Classe de rétroréflexion</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Parking privé &lt; 50 places</td>
+              <td>400 mm (mini)</td>
+              <td>Classe 1</td>
+            </tr>
+            <tr>
+              <td>Parking commercial 50-200 places</td>
+              <td>600 mm</td>
+              <td>Classe 1 ou 2</td>
+            </tr>
+            <tr>
+              <td>Parking grande surface &gt; 200 places</td>
+              <td>700-800 mm</td>
+              <td>Classe 2</td>
+            </tr>
+            <tr>
+              <td>Parking souterrain</td>
+              <td>400-600 mm</td>
+              <td>Classe 1 (éclairage permanent)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Hauteur de pose</h3>
+
+      <p>
+        La hauteur de pose du panneau est réglementée pour
+        garantir la visibilité :
+      </p>
+
+      <ul>
+        <li>
+          <strong>Bord inférieur du panneau</strong> : minimum 2,20 m
+          au-dessus du sol (passage libre sous le panneau)
+        </li>
+        <li>
+          <strong>Bord inférieur du panonceau</strong> : minimum 1,00 m
+          au-dessus du sol (si pas de passage dessous)
+        </li>
+        <li>
+          <strong>En parking souterrain</strong> : adapter la hauteur à
+          la hauteur sous plafond (minimum 1,00 m du sol, sans dépasser
+          le gabarit de passage)
+        </li>
+      </ul>
+
+      <h3>Matériau et durabilité</h3>
+
+      <ul>
+        <li>
+          <strong>Aluminium</strong> : standard, léger,
+          résistant à la corrosion (durée de vie 10-15 ans)
+        </li>
+        <li>
+          <strong>Film rétroréfléchissant classe 1</strong>{' '}
+          : visibilité de nuit à courte distance (parkings
+          éclairés)
+        </li>
+        <li>
+          <strong>Film rétroréfléchissant classe 2</strong>{' '}
+          : visibilité supérieure, obligatoire en voirie ouverte
+        </li>
+        <li>
+          <strong>Poteau</strong> : acier galvanisé ou aluminium,
+          diamètre 60 ou 76 mm
+        </li>
+      </ul>
+
+      <h2>Règles de pose des panneaux PMR</h2>
+
+      <h3>Emplacement</h3>
+
+      <p>
+        Chaque place PMR doit disposer d&apos;un panneau visible depuis la voie
+        de circulation du parking. Le panneau est implanté :
+      </p>
+
+      <ul>
+        <li>
+          <strong>En tête de place</strong> : côté voie de
+          circulation, face aux véhicules qui arrivent
+        </li>
+        <li>
+          <strong>À droite de la place</strong> ou sur îlot central
+          si les places sont en épi
+        </li>
+        <li>
+          <strong>Hors de la bande de roulement</strong> : le poteau ne doit pas
+          empiéter sur la voie de circulation ni sur la surlargeur PMR
+          (0,80 m minimum)
+        </li>
+      </ul>
+
+      <p>
+        Marc, responsable technique d&apos;un supermarché à
+        Villeurbanne (69), a fait poser 6 panneaux PMR en bordure de ses places
+        réservées. Le prestataire les avait placés au fond
+        des places, contre le mur. Résultat : invisibles depuis la voie
+        de circulation. Les conducteurs PMR passaient devant sans les voir et se
+        garaient ailleurs. Il a fallu déplacer les 6 panneaux en
+        tête de place, engendrant un surcoût
+        de main d&apos;oeuvre évitable. La bonne position dès le départ
+        aurait évité cette dépense supplémentaire.
+      </p>
+
+      <h3>Fixation</h3>
+
+      <p>Deux méthodes principales :</p>
+
+      <ul>
+        <li>
+          <strong>Scellement au sol</strong> : forage + scellement chimique dans
+          le béton ou l&apos;enrobé. Méthode standard,
+          tenue 15-20 ans. Coût : a partir de 100 euros par poteau
+        </li>
+        <li>
+          <strong>Platine boulonnée</strong> : platine en acier
+          fixée par chevilles chimiques. Démontable,
+          adaptée aux parkings souterrains ou aux dalles. Coût :
+          a partir de 80 euros par poteau
+        </li>
+      </ul>
+
+      <h3>Association avec le marquage au sol</h3>
+
+      <p>
+        Le panneau vertical complète le marquage au sol, il ne le
+        remplace pas. Les deux éléments sont obligatoires. Le{' '}
+        <Link href="/competences/tracage-retracage-parking">
+          traçage des places PMR
+        </Link>{' '}
+        comprend :
+      </p>
+
+      <ul>
+        <li>
+          Pictogramme fauteuil roulant au sol (dimensions minimales : 0,50 x
+          0,60 m)
+        </li>
+        <li>Bandes de délimitation de la place</li>
+        <li>
+          Surlargeur latérale de 0,80 m minimum (bande hachures)
+        </li>
+        <li>
+          Couleur bleue recommandée pour le pictogramme
+        </li>
+      </ul>
+
+      <p>
+        Pour les dimensions détaillées des places PMR, consultez
+        notre{' '}
+        <Link href="/guides/dimensions-nombre-places-pmr-parking">
+          guide des dimensions PMR
+        </Link>
+        .
+      </p>
 
       <h2>Erreurs fréquentes de signalisation PMR</h2>
 
