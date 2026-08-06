@@ -4,10 +4,10 @@ import Link from 'next/link'
 export const meta: Guide = {
   slug: 'panneaux-parking-types-reglementation',
   title: 'Panneaux parking : types, normes et prix 2026',
-  metaTitle: 'Panneaux parking: types, normes et prix 2026 | Renov&apos;Route',
-  metaDescription: 'Guide complet sur les panneaux parking: stationnement interdit, PMR, parking privé, direction. Normes IISR, prix, pose. Devis gratuit en 48h par Renov&apos;Route.',
+  metaTitle: 'Panneaux parking: types, normes et prix 2026 | Rénov\'Route',
+  metaDescription: 'Guide complet sur les panneaux parking: stationnement interdit, PMR, parking privé, direction. Normes IISR, prix, pose. Devis gratuit en 48h par Rénov\'Route.',
   publishDate: '2026-03-31',
-  updatedDate: '2026-05-21',
+  updatedDate: '2026-07-28',
   category: 'securite-parking',
   readingTime: 12,
   excerpt: 'Types de panneaux parking, réglementation IISR, normes NF, dimensions, matériaux, prix 2026 et erreurs à éviter pour une signalisation conforme et durable.',

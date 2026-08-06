@@ -8,10 +8,10 @@ export const meta: Guide = {
   metaTitle: 'Code de la route : signification du marquage au sol (guide 2026)',
   metaDescription: 'Signification du marquage au sol : lignes blanches, jaunes, flèches, passages piétons, PMR. Décryptage complet par un expert certifié NF EN 1436.',
   publishDate: '2026-03-31',
-  updatedDate: '2026-05-05',
+  updatedDate: '2026-07-28',
   category: 'marquage-parking',
   readingTime: 12,
-  excerpt: 'Signification des lignes, couleurs et symboles du marquage au sol. Normes NF EN 1436, IISR, responsabilit&eacute; du gestionnaire et entretien.',
+  excerpt: 'Signification des lignes, couleurs et symboles du marquage au sol. Normes NF EN 1436, IISR, responsabilité du gestionnaire et entretien.',
 }
 
 export default function Content() {

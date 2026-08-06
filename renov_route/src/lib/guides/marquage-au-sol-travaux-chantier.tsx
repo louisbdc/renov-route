@@ -3,11 +3,11 @@ import Link from 'next/link'
 
 export const meta: Guide = {
   slug: 'marquage-au-sol-travaux-chantier',
-  title: 'Marquage au sol travaux : code couleur, réglementation et obligations du maître d&apos;ouvrage',
-  metaTitle: 'Marquage au sol travaux : code couleur et règles | Renov&apos;Route',
+  title: 'Marquage au sol travaux : code couleur, réglementation et obligations du maître d\'ouvrage',
+  metaTitle: 'Marquage au sol travaux : code couleur et règles | Rénov\'Route',
   metaDescription: 'Marquage au sol travaux : code couleur jaune/orange, réglementation IISR, hiérarchie sur le blanc. Guide complet + prix et durée. Expert depuis 2016.',
   publishDate: '2026-03-31',
-  updatedDate: '2026-05-21',
+  updatedDate: '2026-07-28',
   category: 'marquage-parking',
   readingTime: 10,
   excerpt: 'Code couleur jaune/orange, réglementation IISR, hiérarchie sur le marquage blanc permanent, matériaux temporaires, responsabilités et prix du marquage au sol travaux.',

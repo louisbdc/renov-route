@@ -104,7 +104,7 @@ const CONTENT_MAP: Record<string, ComponentType> = {
   'resine-epoxy-ou-peinture-sol-comparatif': ResineEpoxyOuPeintureSolComparatif,
   'rampe-pour-pmr-normes-types': RampePourPmrNormesTypes,
   'arceau-parking-types-prix': ArceauParkingTypesPrix,
-  'parking-visiteurs-aménagement': ParkingVisiteursAmenagement,
+  'parking-visiteurs-amenagement': ParkingVisiteursAmenagement,
   'panneaux-parking-types-reglementation': PanneauxParkingTypesReglementation,
   'dimension-place-de-parking-normes': DimensionPlaceDeParkingNormes,
   'code-de-la-route-marquage-au-sol': CodeDeLaRouteMarquageAuSol,

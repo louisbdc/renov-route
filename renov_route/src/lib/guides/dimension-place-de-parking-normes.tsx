@@ -8,10 +8,10 @@ export const meta: Guide = {
   metaTitle: 'Dimension place de parking : 2,50 × 5 m (norme NF P 91-100)',
   metaDescription: 'Une place standard mesure 2,50 m × 5 m. Toutes les dimensions par configuration : épi 45°/75°, bataille, longitudinale, PMR (3,30 m). Tableaux et largeurs de voie.',
   publishDate: '2026-03-31',
-  updatedDate: '2026-05-21',
+  updatedDate: '2026-07-28',
   category: 'marquage-parking',
   readingTime: 12,
-  excerpt: 'Toutes les dimensions de places de parking selon la norme NF P 91-100 : perpendiculaire, epi, longitudinale, PMR. Tableaux pratiques, erreurs courantes et conseils d&apos;optimisation.',
+  excerpt: 'Toutes les dimensions de places de parking selon la norme NF P 91-100 : perpendiculaire, epi, longitudinale, PMR. Tableaux pratiques, erreurs courantes et conseils d\'optimisation.',
 }
 
 export default function Content() {

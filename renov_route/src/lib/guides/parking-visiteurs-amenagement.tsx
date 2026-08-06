@@ -4,13 +4,13 @@ import Link from 'next/link'
 export const meta: Guide = {
   slug: 'parking-visiteurs-amenagement',
   title: 'Parking visiteurs : aménagement, normes et prix',
-  metaTitle: 'Parking visiteurs : aménagement, normes et prix | Renov&apos;Route',
+  metaTitle: 'Parking visiteurs : aménagement, normes et prix | Rénov\'Route',
   metaDescription: 'Comment aménager un parking visiteurs conforme et efficace ? Réglementation, signalisation, marquage au sol, gestion des places et budget. Devis gratuit en 48h.',
   publishDate: '2026-03-31',
-  updatedDate: '2026-05-21',
+  updatedDate: '2026-07-28',
   category: 'marquage-parking',
   readingTime: 12,
-  excerpt: 'Réglementation, signalisation, marquage au sol, dimensions et budget : tout pour aménager un parking visiteurs conforme et bien gère.',
+  excerpt: 'Réglementation, signalisation, marquage au sol, dimensions et budget : tout pour aménager un parking visiteurs conforme et bien géré.',
 }
 
 export default function Content() {
