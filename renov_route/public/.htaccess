@@ -4,33 +4,39 @@ RewriteEngine On
 
 # Force HTTPS redirect
 RewriteCond %{HTTPS} off
-RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteRule ^(.*)$ https://renov-route.com%{REQUEST_URI} [L,R=301]
 
 # Redirect www to non-www
 RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
-RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+RewriteRule ^(.*)$ https://renov-route.com/$1 [R=301,L]
 
 # Redirections 301 des anciennes URLs vers les nouvelles
 # Redirections spécifiques des anciennes URLs du site
-RewriteRule ^marquage-routier-lyon-69/?$ /competences/tracage-retracage-parking/ [R=301,L]
-RewriteRule ^contact/?$ /qui-sommes-nous/ [R=301,L]
-RewriteRule ^blank-1/?$ /competences/resine-sol-marquage-interieur/ [R=301,L]
-RewriteRule ^blank/?$ /competences/resine-sol-marquage-interieur/ [R=301,L]
-RewriteRule ^peinture-marquage-sol-parking-lyon/?$ /competences/tracage-retracage-parking/ [R=301,L]
-RewriteRule ^rebouchage-nids-poules-rhones-alpes/?$ /competences/reparation-nids-de-poule/ [R=301,L]
-RewriteRule ^marquage/?$ /competences/tracage-retracage-parking/ [R=301,L]
-RewriteRule ^renov-route/?$ /competences/ [R=301,L]
-RewriteRule ^home/?$ / [R=301,L]
-RewriteRule ^blank-2/?$ /competences/resine-sol-marquage-interieur/ [R=301,L]
-RewriteRule ^nos-references/?$ /realisations/ [R=301,L]
-RewriteRule ^devis-gratuit/?$ /devis/ [R=301,L]
-RewriteRule ^devis-tracage-gratuit/?$ /devis/ [R=301,L]
-RewriteRule ^services/renovation-parking/?$ /competences/ [R=301,L]
-RewriteRule ^auvergne-rhone-alpes/?$ /competences/ [R=301,L]
+RewriteRule ^marquage-routier-lyon-69/?$ https://renov-route.com/competences/tracage-retracage-parking/ [R=301,L]
+RewriteRule ^contact/?$ https://renov-route.com/qui-sommes-nous/ [R=301,L]
+RewriteRule ^blank-1/?$ https://renov-route.com/competences/resine-sol-marquage-interieur/ [R=301,L]
+RewriteRule ^blank/?$ https://renov-route.com/competences/resine-sol-marquage-interieur/ [R=301,L]
+RewriteRule ^peinture-marquage-sol-parking-lyon/?$ https://renov-route.com/competences/tracage-retracage-parking/ [R=301,L]
+RewriteRule ^rebouchage-nids-poules-rhones-alpes/?$ https://renov-route.com/competences/reparation-nids-de-poule/ [R=301,L]
+RewriteRule ^marquage/?$ https://renov-route.com/competences/tracage-retracage-parking/ [R=301,L]
+RewriteRule ^renov-route/?$ https://renov-route.com/competences/ [R=301,L]
+RewriteRule ^home/?$ https://renov-route.com/ [R=301,L]
+RewriteRule ^blank-2/?$ https://renov-route.com/competences/resine-sol-marquage-interieur/ [R=301,L]
+RewriteRule ^nos-references/?$ https://renov-route.com/realisations/ [R=301,L]
+RewriteRule ^devis-gratuit/?$ https://renov-route.com/devis/ [R=301,L]
+RewriteRule ^devis-tracage-gratuit/?$ https://renov-route.com/devis/ [R=301,L]
+RewriteRule ^services/renovation-parking/?$ https://renov-route.com/competences/ [R=301,L]
+RewriteRule ^auvergne-rhone-alpes/?$ https://renov-route.com/competences/ [R=301,L]
+
+# Arrondissements lyonnais consolides vers la page pilier Lyon.
+# Ces pages existaient et se positionnaient sur les requetes commerciales locales
+# (« entreprise de marquage au sol routier lyon »). Les redirections declarees dans
+# vercel.json ne s'appliquent pas : le deploiement est FTP + Apache, pas Vercel.
+RewriteRule ^marquage-au-sol-lyon-[1-9]/?$ https://renov-route.com/marquage-au-sol-lyon/ [R=301,L]
 
 # Anciennes URLs realisations avec parametre ?project=
 RewriteCond %{QUERY_STRING} (?:^|&)project=([a-z0-9-]+) [NC]
-RewriteRule ^realisations/?$ /realisations/%1/? [R=301,L]
+RewriteRule ^realisations/?$ https://renov-route.com/realisations/%1/? [R=301,L]
 
 # Redirections géographiques vers les compétences correspondantes
 # IMPORTANT: Exclure les sections actuelles (/guides/, /competences/, etc.)
@@ -41,78 +47,83 @@ RewriteCond %{REQUEST_URI} !^/devis/
 RewriteCond %{REQUEST_URI} !^/realisations/
 RewriteCond %{REQUEST_URI} !^/qui-sommes-nous/
 RewriteCond %{REQUEST_URI} !^/marquage-au-sol-lyon/
-RewriteRule ^marquage-parking-([^/]+)/?$ /competences/tracage-retracage-parking/ [R=301,L]
+RewriteRule ^marquage-parking-([^/]+)/?$ https://renov-route.com/competences/tracage-retracage-parking/ [R=301,L]
 
 RewriteCond %{REQUEST_URI} !^/guides/
 RewriteCond %{REQUEST_URI} !^/competences/
 RewriteCond %{REQUEST_URI} !^/devis/
 RewriteCond %{REQUEST_URI} !^/realisations/
 RewriteCond %{REQUEST_URI} !^/qui-sommes-nous/
-RewriteRule ^tracage-parking-([^/]+)/?$ /competences/tracage-retracage-parking/ [R=301,L]
+RewriteRule ^tracage-parking-([^/]+)/?$ https://renov-route.com/competences/tracage-retracage-parking/ [R=301,L]
 
 RewriteCond %{REQUEST_URI} !^/guides/
 RewriteCond %{REQUEST_URI} !^/competences/
 RewriteCond %{REQUEST_URI} !^/devis/
 RewriteCond %{REQUEST_URI} !^/realisations/
 RewriteCond %{REQUEST_URI} !^/qui-sommes-nous/
-RewriteRule ^marquage-routier-([^/]+)/?$ /competences/tracage-retracage-parking/ [R=301,L]
+RewriteRule ^marquage-routier-([^/]+)/?$ https://renov-route.com/competences/tracage-retracage-parking/ [R=301,L]
 
 RewriteCond %{REQUEST_URI} !^/guides/
 RewriteCond %{REQUEST_URI} !^/competences/
 RewriteCond %{REQUEST_URI} !^/devis/
 RewriteCond %{REQUEST_URI} !^/realisations/
 RewriteCond %{REQUEST_URI} !^/qui-sommes-nous/
-RewriteRule ^reparation-nids-poule-([^/]+)/?$ /competences/reparation-nids-de-poule/ [R=301,L]
+RewriteRule ^reparation-nids-poule-([^/]+)/?$ https://renov-route.com/competences/reparation-nids-de-poule/ [R=301,L]
 
 RewriteCond %{REQUEST_URI} !^/guides/
 RewriteCond %{REQUEST_URI} !^/competences/
 RewriteCond %{REQUEST_URI} !^/devis/
 RewriteCond %{REQUEST_URI} !^/realisations/
 RewriteCond %{REQUEST_URI} !^/qui-sommes-nous/
-RewriteRule ^signalisation-([^/]+)/?$ /competences/signalisation-verticale/ [R=301,L]
+RewriteRule ^signalisation-([^/]+)/?$ https://renov-route.com/competences/signalisation-verticale/ [R=301,L]
 
 RewriteCond %{REQUEST_URI} !^/guides/
 RewriteCond %{REQUEST_URI} !^/competences/
 RewriteCond %{REQUEST_URI} !^/devis/
 RewriteCond %{REQUEST_URI} !^/realisations/
 RewriteCond %{REQUEST_URI} !^/qui-sommes-nous/
-RewriteRule ^accessoires-parking-([^/]+)/?$ /competences/accessoires-parking/ [R=301,L]
+RewriteRule ^accessoires-parking-([^/]+)/?$ https://renov-route.com/competences/accessoires-parking/ [R=301,L]
 
 RewriteCond %{REQUEST_URI} !^/guides/
 RewriteCond %{REQUEST_URI} !^/competences/
 RewriteCond %{REQUEST_URI} !^/devis/
 RewriteCond %{REQUEST_URI} !^/realisations/
 RewriteCond %{REQUEST_URI} !^/qui-sommes-nous/
-RewriteRule ^resine-sol-([^/]+)/?$ /competences/resine-sol-marquage-interieur/ [R=301,L]
+RewriteRule ^resine-sol-([^/]+)/?$ https://renov-route.com/competences/resine-sol-marquage-interieur/ [R=301,L]
 
 RewriteCond %{REQUEST_URI} !^/guides/
 RewriteCond %{REQUEST_URI} !^/competences/
 RewriteCond %{REQUEST_URI} !^/devis/
 RewriteCond %{REQUEST_URI} !^/realisations/
 RewriteCond %{REQUEST_URI} !^/qui-sommes-nous/
-RewriteRule ^conseil-expertise-([^/]+)/?$ /competences/conseil-expertise/ [R=301,L]
+RewriteRule ^conseil-expertise-([^/]+)/?$ https://renov-route.com/competences/conseil-expertise/ [R=301,L]
 
 # Redirections d'anciens formats d'URL
-RewriteRule ^index\.html?$ / [R=301,L]
-RewriteRule ^home\.html?$ / [R=301,L]
-RewriteRule ^accueil\.html?$ / [R=301,L]
-RewriteRule ^services\.html?$ /competences/ [R=301,L]
-RewriteRule ^prestations\.html?$ /competences/ [R=301,L]
-RewriteRule ^nos-services\.html?$ /competences/ [R=301,L]
-RewriteRule ^about\.html?$ /qui-sommes-nous/ [R=301,L]
-RewriteRule ^a-propos\.html?$ /qui-sommes-nous/ [R=301,L]
-RewriteRule ^equipe\.html?$ /qui-sommes-nous/ [R=301,L]
-RewriteRule ^portfolio\.html?$ /realisations/ [R=301,L]
-RewriteRule ^projets\.html?$ /realisations/ [R=301,L]
-RewriteRule ^galerie\.html?$ /realisations/ [R=301,L]
-RewriteRule ^travaux\.html?$ /realisations/ [R=301,L]
-RewriteRule ^demande-devis\.html?$ /devis/ [R=301,L]
-RewriteRule ^estimation\.html?$ /devis/ [R=301,L]
+RewriteRule ^index\.html?$ https://renov-route.com/ [R=301,L]
+RewriteRule ^home\.html?$ https://renov-route.com/ [R=301,L]
+RewriteRule ^accueil\.html?$ https://renov-route.com/ [R=301,L]
+RewriteRule ^services\.html?$ https://renov-route.com/competences/ [R=301,L]
+RewriteRule ^prestations\.html?$ https://renov-route.com/competences/ [R=301,L]
+RewriteRule ^nos-services\.html?$ https://renov-route.com/competences/ [R=301,L]
+RewriteRule ^about\.html?$ https://renov-route.com/qui-sommes-nous/ [R=301,L]
+RewriteRule ^a-propos\.html?$ https://renov-route.com/qui-sommes-nous/ [R=301,L]
+RewriteRule ^equipe\.html?$ https://renov-route.com/qui-sommes-nous/ [R=301,L]
+RewriteRule ^portfolio\.html?$ https://renov-route.com/realisations/ [R=301,L]
+RewriteRule ^projets\.html?$ https://renov-route.com/realisations/ [R=301,L]
+RewriteRule ^galerie\.html?$ https://renov-route.com/realisations/ [R=301,L]
+RewriteRule ^travaux\.html?$ https://renov-route.com/realisations/ [R=301,L]
+RewriteRule ^demande-devis\.html?$ https://renov-route.com/devis/ [R=301,L]
+RewriteRule ^estimation\.html?$ https://renov-route.com/devis/ [R=301,L]
 
-# Handle client-side routing for Next.js static export
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ /index.html [L]
+# Vraie page 404.
+#
+# Il y avait ici un fallback SPA (`RewriteRule ^(.*)$ /index.html [L]`) herite d'une
+# app client-side. Il est non seulement inutile sur un export statique — chaque route
+# a deja son propre index.html sur disque — mais nuisible : le [L] relancait le cycle
+# de reecriture avec /index.html, ce qui declenchait la regle `^index\.html?$ / [R=301]`
+# plus haut. Resultat : *toute* URL inexistante etait redirigee en 301 vers l'accueil
+# au lieu de renvoyer un 404. Google traite ce motif comme du soft-404 de masse.
+ErrorDocument 404 /404.html
 
 # Force UTF-8 encoding for text-based files
 AddDefaultCharset UTF-8
