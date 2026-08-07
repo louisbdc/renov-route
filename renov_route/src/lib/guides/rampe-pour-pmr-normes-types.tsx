@@ -1,4 +1,5 @@
 import type { Guide } from '../guides'
+import KeyAnswer from '@/components/KeyAnswer'
 import Link from 'next/link'
 
 export const meta: Guide = {
@@ -7,7 +8,7 @@ export const meta: Guide = {
   metaTitle: 'Rampe PMR : pente de 5 %, 8 % ou 10 % selon la longueur',
   metaDescription: 'La pente maximale dépend du dénivelé : 5 % au-delà de 2 m, 8 % jusqu\'à 2 m, 10 % sous 0,50 m. Paliers de repos, types de rampes et prix constatés.',
   publishDate: '2026-03-31',
-  updatedDate: '2026-07-28',
+  updatedDate: '2026-08-08',
   category: 'normes-pmr',
   readingTime: 11,
   excerpt: 'Normes de pente, types de rampes (béton, aluminium, amovible, résine), prix, aides financieres et erreurs à éviter pour une rampe PMR conforme.',
@@ -16,6 +17,12 @@ export const meta: Guide = {
 export default function Content() {
   return (
     <>
+      <KeyAnswer question="Quelle pente maximale pour une rampe PMR ?">
+        <p>
+          La pente dépend du dénivelé à franchir : <strong>5 %</strong> au-delà de 2 m, <strong>8 %</strong> jusqu'à 2 m, et <strong>10 %</strong> sous 0,50 m. Un palier de repos horizontal est obligatoire tous les 10 m de cheminement.
+        </p>
+      </KeyAnswer>
+
       <p>
         Votre établissement est-il réellement accessible ? En France, <strong>40% des Établissements Recevant du Public (ERP) ne respectent pas encore les normes d&apos;accessibilité PMR</strong>. Et les sanctions sont lourdes : jusqu&apos;à 45 000 EUR d&apos;amende et trois ans d&apos;emprisonnement pour les personnes physiques.
       </p>

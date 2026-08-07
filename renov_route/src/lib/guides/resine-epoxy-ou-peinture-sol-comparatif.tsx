@@ -1,4 +1,5 @@
 import type { Guide } from '../guides'
+import KeyAnswer from '@/components/KeyAnswer'
 import Link from 'next/link'
 
 export const meta: Guide = {
@@ -7,7 +8,7 @@ export const meta: Guide = {
   metaTitle: 'Résine époxy ou peinture sol : comparatif 2026 | Rénov\'Route',
   metaDescription: 'Résine époxy ou peinture sol parking : comparatif prix, durée de vie, résistance et entretien. Le bon choix selon votre usage et votre budget.',
   publishDate: '2026-03-04',
-  updatedDate: '2026-05-25',
+  updatedDate: '2026-08-08',
   category: 'marquage-parking',
   readingTime: 8,
   excerpt: 'Comparatif complet peinture sol vs résine époxy : prix, durée de vie, résistance chimique, préparation et coût réel sur 10 ans.',
@@ -16,6 +17,12 @@ export const meta: Guide = {
 export default function Content() {
   return (
     <>
+      <KeyAnswer question="Résine époxy ou peinture de sol : que choisir ?">
+        <p>
+          La <strong>peinture acrylique</strong> (dès 8 €/m², 2-4 ans) convient à 70 % des parkings de copropriété. La <strong>résine époxy bicomposant</strong> (dès 35 €/m², 8-15 ans) s'impose dès qu'il y a des hydrocarbures ou du trafic lourd. Sur 10 ans, le coût au m² est comparable.
+        </p>
+      </KeyAnswer>
+
       <p>
         Vous devez r&eacute;nover le sol de votre parking et on vous propose deux options : peinture de sol ou r&eacute;sine &eacute;poxy. L&apos;&eacute;cart de prix est important (du simple au triple), mais l&apos;&eacute;cart de performance aussi. Le mauvais choix peut vous co&ucirc;ter plus cher que le bon sur 5 ans.
       </p>

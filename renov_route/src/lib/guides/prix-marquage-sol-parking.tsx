@@ -1,4 +1,5 @@
 import type { Guide } from '../guides'
+import KeyAnswer from '@/components/KeyAnswer'
 import Link from 'next/link'
 
 export const meta: Guide = {
@@ -7,7 +8,7 @@ export const meta: Guide = {
   metaTitle: 'Prix marquage au sol parking 2026 : dès 2,50€/ml (tarifs + devis)',
   metaDescription: 'Prix marquage au sol parking en 2026 : tarifs au m² et par place, exemples de devis, comparatif peinture/résine/thermocollé. Devis gratuit en 48h, sans engagement.',
   publishDate: '2026-03-04',
-  updatedDate: '2026-07-28',
+  updatedDate: '2026-08-08',
   category: 'prix-tarifs',
   readingTime: 10,
   excerpt: 'Tarifs détaillés du marquage au sol de parking en 2026 : prix au m² par type de peinture, coût par prestation et facteurs qui influencent le devis.',
@@ -16,6 +17,12 @@ export const meta: Guide = {
 export default function Content() {
   return (
     <>
+      <KeyAnswer question="Quel est le prix du marquage au sol d'un parking ?">
+        <p>
+          Comptez <strong>8 à 15 €/m²</strong> selon le support, le type de peinture et la surface, ou <strong>dès 2,50 €/ml</strong> pour les lignes seules. Pour un parking de 50 places, le budget se situe entre <strong>2 500 et 6 000 € HT</strong> selon l'état du sol et les prestations.
+        </p>
+      </KeyAnswer>
+
       <p>
         Votre parking a besoin d&apos;un retraçage, mais impossible de trouver des prix clairs
         en ligne ? Vous n&apos;êtes pas seul. La plupart des entreprises de marquage affichent

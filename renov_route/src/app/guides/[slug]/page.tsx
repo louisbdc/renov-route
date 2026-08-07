@@ -5,6 +5,8 @@ import GuidePageLayout from '@/components/GuidePageLayout'
 import ArticleSchema from '@/components/ArticleSchema'
 import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import HowToSchema from '@/components/HowToSchema'
+import FAQSchema from '@/components/FAQSchema'
+import FAQ_DATA from '@/lib/guides/faq-data'
 import { GUIDE_CATEGORIES } from '@/lib/guides'
 import { notFound } from 'next/navigation'
 
@@ -70,6 +72,7 @@ export default async function GuidePage({ params }: Props) {
 
   const url = `https://renov-route.com/guides/${guide.slug}/`
   const section = GUIDE_CATEGORIES[guide.category]
+  const faqItems = FAQ_DATA[slug] ?? []
 
   return (
     <>
@@ -88,6 +91,14 @@ export default async function GuidePage({ params }: Props) {
           { name: guide.title, url },
         ]}
       />
+      {/*
+        FAQPage : chaque question de FAQ_DATA a ete verifiee comme presente dans le
+        corps de l'article — Google exige que le contenu balise soit visible sur la page.
+        A noter : depuis aout 2023, les resultats enrichis FAQ ne s'affichent plus que
+        pour les sites gouvernementaux et de sante. Ce balisage ne produira donc pas
+        d'accordeon en SERP ; il sert la comprehension par les moteurs generatifs.
+      */}
+      {faqItems.length > 0 && <FAQSchema items={faqItems} />}
       {guide.howTo && (
         <HowToSchema
           name={guide.howTo.name}

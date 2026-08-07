@@ -1,4 +1,5 @@
 import type { Guide } from '../guides'
+import KeyAnswer from '@/components/KeyAnswer'
 import Link from 'next/link'
 
 export const meta: Guide = {
@@ -7,7 +8,7 @@ export const meta: Guide = {
   metaTitle: 'Arceau parking: types, pose et prix 2026',
   metaDescription: 'Guide complet sur les arceaux de parking: anti-stationnement, rabattables, fixes. Types, normes, prix et installation par Renov\'Route. Devis gratuit en 48h.',
   publishDate: '2026-03-31',
-  updatedDate: '2026-07-28',
+  updatedDate: '2026-08-08',
   category: 'securite-parking',
   readingTime: 12,
   excerpt: 'Arceau fixe, rabattable ou automatique : comparatif des types d\'arceaux de parking avec prix, normes, conseils d\'installation et erreurs à éviter.',
@@ -16,6 +17,12 @@ export const meta: Guide = {
 export default function Content() {
   return (
     <>
+      <KeyAnswer question="Combien coûte un arceau de parking ?">
+        <p>
+          Pose comprise : <strong>80 à 200 €</strong> pour un arceau fixe, <strong>150 à 400 €</strong> pour un modèle rabattable à clé, et <strong>500 à 1 500 €</strong> pour une borne automatique (hors alimentation électrique).
+        </p>
+      </KeyAnswer>
+
       <p>
         Vous retrouvez régulièrement des véhicules garés sur vos emplacements réservés? Des livraisons bloquent l&apos;accès à votre parking? Des voitures occupent les places PMR sans autorisation? Vous n&apos;êtes pas seul. <strong>Le stationnement sauvage est le problème numéro un cite par les gestionnaires de parkings en France.</strong>
       </p>

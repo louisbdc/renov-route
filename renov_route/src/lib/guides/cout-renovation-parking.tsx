@@ -1,4 +1,5 @@
 import type { Guide } from '../guides'
+import KeyAnswer from '@/components/KeyAnswer'
 import Link from 'next/link'
 
 export const meta: Guide = {
@@ -7,7 +8,7 @@ export const meta: Guide = {
   metaTitle: 'Coût rénovation parking : prix au m² et budget 2026',
   metaDescription: 'Coût rénovation parking : prix au m² par type de travaux, budget moyen selon la taille et facteurs de variation. Tableaux détaillés et exemples réels.',
   publishDate: '2026-03-04',
-  updatedDate: '2026-07-28',
+  updatedDate: '2026-08-08',
   category: 'renovation-parking',
   readingTime: 12,
   excerpt: 'Prix au m² par type de travaux, budgets moyens selon la taille du parking et 7 facteurs qui font varier la facture. Tableaux détaillés et exemples réels.',
@@ -16,6 +17,12 @@ export const meta: Guide = {
 export default function Content() {
   return (
     <>
+      <KeyAnswer question="Combien coûte la rénovation d'un parking ?">
+        <p>
+          Le prix dépend du revêtement : <strong>dès 8 €/m²</strong> en peinture acrylique (2-3 ans), <strong>dès 12 €/m²</strong> en thermoplastique (4-6 ans), <strong>dès 25 €/m²</strong> en résine époxy (5-10 ans). Comptez <strong>dès 25 € par place</strong> pour un retraçage standard.
+        </p>
+      </KeyAnswer>
+
       <p>
         Un parking de 50 places dont le marquage est effacé, la chaussée fissurée et la signalisation absente : faut-il prévoir quelques milliers d&apos;euros ou plusieurs dizaines de milliers d&apos;euros pour le remettre en état ? L&apos;écart est énorme, et c&apos;est bien le problème. Sans grille tarifaire claire, impossible de budgétiser correctement.
       </p>

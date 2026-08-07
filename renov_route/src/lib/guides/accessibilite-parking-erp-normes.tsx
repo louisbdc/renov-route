@@ -1,4 +1,5 @@
 import type { Guide } from '../guides'
+import KeyAnswer from '@/components/KeyAnswer'
 import Link from 'next/link'
 
 export const meta: Guide = {
@@ -7,7 +8,7 @@ export const meta: Guide = {
   metaTitle: 'Accessibilité parking ERP : normes PMR et obligations 2026',
   metaDescription: 'Accessibilité parking ERP : nombre de places PMR, dimensions, signalisation, pente maximale et sanctions. Normes 2026 et mise en conformité. Guide complet.',
   publishDate: '2026-03-04',
-  updatedDate: '2026-05-25',
+  updatedDate: '2026-08-08',
   category: 'normes-pmr',
   readingTime: 8,
   excerpt: 'Nombre de places PMR obligatoires, dimensions réglementaires, signalisation, cheminement accessible et sanctions en cas de non-conformité.',
@@ -16,6 +17,12 @@ export const meta: Guide = {
 export default function Content() {
   return (
     <>
+      <KeyAnswer question="Quelles sont les obligations d'accessibilité d'un parking d'ERP ?">
+        <p>
+          <strong>2 % des places</strong> doivent être adaptées, arrondi à l'unité supérieure, avec un minimum d'une place. Chaque place respecte une <strong>pente de 2 % maximum</strong> et un <strong>dévers de 1 % maximum</strong>, et doit être reliée à l'entrée par un cheminement sans ressaut supérieur à 2 cm (arrêté du 20 avril 2017).
+        </p>
+      </KeyAnswer>
+
       <p>
         Votre parking dessert un commerce, un cabinet m&eacute;dical, un restaurant ou un immeuble de bureaux recevant du public ? L&apos;accessibilit&eacute; aux personnes &agrave; mobilit&eacute; r&eacute;duite (PMR) n&apos;est pas optionnelle. C&apos;est une obligation l&eacute;gale depuis la loi du 11 f&eacute;vrier 2005, renforc&eacute;e par l&apos;arr&ecirc;t&eacute; du 20 avril 2017. Les sanctions vont jusqu&apos;&agrave; 45 000 euros d&apos;amende et la fermeture administrative.
       </p>
