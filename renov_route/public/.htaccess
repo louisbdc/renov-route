@@ -2,15 +2,9 @@ DirectoryIndex index.html
 
 RewriteEngine On
 
-# Force HTTPS redirect
-RewriteCond %{HTTPS} off
-RewriteRule ^(.*)$ https://renov-route.com%{REQUEST_URI} [L,R=301]
-
-# Redirect www to non-www
-RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
-RewriteRule ^(.*)$ https://renov-route.com/$1 [R=301,L]
-
-# Canonicalisation du slash final, en cible absolue.
+# Canonicalisation en UN saut : schema, hote et slash final d'un coup.
+# Place avant les regles HTTPS et www a dessein — sinon une requete
+# http://www.host/chemin enchainerait trois redirections.
 # mod_dir ajoute sinon le slash lui-meme avec le port physique dans l'URL
 # (https://renov-route.com:443/...), ce qui cree une chaine de redirection a
 # deux sauts vers un hote non canonique.
@@ -18,6 +12,14 @@ RewriteCond %{REQUEST_FILENAME} -d
 RewriteCond %{REQUEST_URI} !/$
 RewriteCond %{REQUEST_URI} !^/(assets|_next)/
 RewriteRule ^(.*)$ https://renov-route.com/$1/ [R=301,L]
+
+# Force HTTPS redirect
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://renov-route.com%{REQUEST_URI} [L,R=301]
+
+# Redirect www to non-www
+RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+RewriteRule ^(.*)$ https://renov-route.com/$1 [R=301,L]
 
 # Redirections 301 des anciennes URLs vers les nouvelles
 # Redirections spécifiques des anciennes URLs du site
