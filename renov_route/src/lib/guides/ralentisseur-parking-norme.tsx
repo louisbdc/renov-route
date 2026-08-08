@@ -325,7 +325,7 @@ export default function Content() {
 
       <h3>Quel est le prix d&apos;un ralentisseur de parking ?</h3>
       <p>
-        À partir de 550 euros pour un ralentisseur modulaire en caoutchouc et à partir de 3 500 euros pour un plateau sureleve en enrobé, pose et signalisation comprises. Le coût dépend du type de ralentisseur, de la largeur de la voie et des travaux de voirie nécessaires.
+        À partir de 550 euros pour un ralentisseur modulaire en caoutchouc et à partir de 3 500 euros pour un plateau surélevé en enrobé, pose et signalisation comprises. Le coût dépend du type de ralentisseur, de la largeur de la voie et des travaux de voirie nécessaires.
       </p>
 
       <h3>Faut-il un panneau de signalisation avec un ralentisseur ?</h3>

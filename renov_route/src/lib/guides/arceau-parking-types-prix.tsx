@@ -27,7 +27,7 @@ export default function Content() {
         Vous retrouvez régulièrement des véhicules garés sur vos emplacements réservés? Des livraisons bloquent l&apos;accès à votre parking? Des voitures occupent les places PMR sans autorisation? Vous n&apos;êtes pas seul. <strong>Le stationnement sauvage est le problème numéro un cite par les gestionnaires de parkings en France.</strong>
       </p>
       <p>
-        L&apos;arceau parking est la solution la plus efficace et la plus économique pour protéger vos espaces. Qu&apos;il s&apos;agisse de réserver des places, d&apos;empêcher l&apos;accès non autorisé ou de sécuriser des zones de livraison, l&apos;arceau de parking s&apos;adapté à tous les besoins.
+        L&apos;arceau parking est la solution la plus efficace et la plus économique pour protéger vos espaces. Qu&apos;il s&apos;agisse de réserver des places, d&apos;empêcher l&apos;accès non autorisé ou de sécuriser des zones de livraison, l&apos;arceau de parking s&apos;adapte à tous les besoins.
       </p>
       <p>Dans ce guide, vous allez découvrir :</p>
       <ul>
@@ -129,9 +129,9 @@ export default function Content() {
       </ul>
       <p><strong>Prix indicatif :</strong> 500 à 1 500 EUR l&apos;unité, pose comprise (hors alimentation électrique).</p>
 
-      <h3>Borne anti-belier</h3>
+      <h3>Borne anti-bélier</h3>
       <p>
-        La borne parking anti-belier est plus robuste qu&apos;un arceau classique et protège contre les intrusions de véhicules, y compris a vitesse.
+        La borne parking anti-bélier est plus robuste qu&apos;un arceau classique et protège contre les intrusions de véhicules, y compris a vitesse.
       </p>
       <p><strong>Caractéristiques :</strong></p>
       <ul>
@@ -145,11 +145,11 @@ export default function Content() {
         <li>Protection de vitrines commerciales</li>
         <li>Sécurisation d&apos;espaces piétons</li>
         <li>Accès contrôlés de zones sensibles</li>
-        <li>Lutte anti-véhicule-belier</li>
+        <li>Lutte anti-véhicule-bélier</li>
       </ul>
       <p><strong>Prix indicatif :</strong> 300 à 2 000 EUR l&apos;unité selon la classe de résistance.</p>
       <p>
-        <strong>Vous hésitez entre arceau et borne?</strong> Notre équipe <Link href="/competences/conseil-expertise">conseil et expertise</Link> analyse votre besoin et vous recommandé la solution adaptée. Diagnostic gratuit.
+        <strong>Vous hésitez entre arceau et borne?</strong> Notre équipe <Link href="/competences/conseil-expertise">conseil et expertise</Link> analyse votre besoin et vous recommande la solution adaptée. Diagnostic gratuit.
       </p>
 
       <h2>Comment choisir le bon arceau parking</h2>
@@ -174,7 +174,7 @@ export default function Content() {
       <ul>
         <li>Extérieur exposé : acier galvanisé à chaud (pas simplement peint)</li>
         <li>Intérieur (parking souterrain) : acier peint suffisant</li>
-        <li>Zone a risque de choc : borne anti-belier ou arceau renforcé</li>
+        <li>Zone a risque de choc : borne anti-bélier ou arceau renforcé</li>
       </ul>
       <p><strong>4. Quel budget?</strong></p>
       <ul>
@@ -185,7 +185,7 @@ export default function Content() {
 
       <h3>L&apos;histoire de Karim, gestionnaire d&apos;une copropriété de 120 lots à Lyon 7e</h3>
       <p>
-        Karim gérait une copropriété avec un parking souterrain de 95 places. Le syndic recevait chaque mois des plaintes : des non-residents se garaient sur les places privatives, surtout le soir et le week-end. La situation dégénérait parfois en conflits entre voisins.
+        Karim gérait une copropriété avec un parking souterrain de 95 places. Le syndic recevait chaque mois des plaintes : des non-résidents se garaient sur les places privatives, surtout le soir et le week-end. La situation dégénérait parfois en conflits entre voisins.
       </p>
       <p>
         Après une étude technique avec Renov&apos;Route, la copropriété a opté pour 95 arceaux rabattables a clé, avec un jeu de clés par copropriétaire. L&apos;installation a été réalisée en cinq jours, par tranches de 20 places, pour ne pas bloquer l&apos;accès au parking. Coût : 28 500 EUR, soit 300 EUR par place, vote en assemblée générale et réparti sur les charges.
@@ -234,7 +234,7 @@ export default function Content() {
         <li>Peinture de l&apos;arceau aux couleurs de l&apos;entreprise ou de la copropriété</li>
       </ul>
       <p>
-        Decouvrez <Link href="/realisations">nos réalisations</Link> : plus de 1 000 projets d&apos;aménagement de parking réalisés depuis 2016.
+        Découvrez <Link href="/realisations">nos réalisations</Link> : plus de 1 000 projets d&apos;aménagement de parking réalisés depuis 2016.
       </p>
 
       <h2>Prix des arceaux de parking en 2026</h2>
@@ -276,7 +276,7 @@ export default function Content() {
               <td><strong>500 - 1 500 EUR</strong></td>
             </tr>
             <tr>
-              <td>Borne anti-belier fixe</td>
+              <td>Borne anti-bélier fixe</td>
               <td>150 - 800 EUR</td>
               <td>150 - 500 EUR</td>
               <td><strong>300 - 1 300 EUR</strong></td>
@@ -328,7 +328,7 @@ export default function Content() {
             <tr>
               <td>Entrée de magasin (protection)</td>
               <td>6</td>
-              <td>Borne anti-belier</td>
+              <td>Borne anti-bélier</td>
               <td>4 200 EUR</td>
             </tr>
             <tr>
@@ -403,7 +403,7 @@ export default function Content() {
 
       <h3>Un arceau peut-il être vandalise?</h3>
       <p>
-        Un arceau correctement scellé au sol (scellement chimique + tige filetee inox) résiste à l&apos;arrachement. Les modèles renforcés nécessitent un équipement lourd pour être retirés.
+        Un arceau correctement scellé au sol (scellement chimique + tige filetée inox) résiste à l&apos;arrachement. Les modèles renforcés nécessitent un équipement lourd pour être retirés.
       </p>
 
       <h3>Quelle différence entre un arceau parking et un arceau vélo parking?</h3>

@@ -317,7 +317,7 @@ export default function Content() {
 
       <h3>3. Choisir uniquement sur le prix au m²</h3>
       <p>
-        Le moins cher au m² n&apos;est pas le moins cher à l&apos;année. Un marquage acrylique bon marché qui s&apos;effacé en 18 mois coûte plus cher qu&apos;un thermoplastique qui tient 5 ans.
+        Le moins cher au m² n&apos;est pas le moins cher à l&apos;année. Un marquage acrylique bon marché qui s&apos;efface en 18 mois coûte plus cher qu&apos;un thermoplastique qui tient 5 ans.
       </p>
 
       <h3>4. Ignorer le type de trafic</h3>

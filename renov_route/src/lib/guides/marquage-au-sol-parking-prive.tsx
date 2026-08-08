@@ -17,7 +17,7 @@ export default function Content() {
   return (
     <>
       <p>
-        Février 2025, centre commercial en périphérie de Lyon. Un client trebuche sur un
+        Février 2025, centre commercial en périphérie de Lyon. Un client trébuche sur un
         trottoir mal délimité entre deux places de stationnement. Fracture du poignet, arrêt
         de travail de trois semaines. L&apos;assureur du centre commercial refuse la prise en
         charge : le <strong>marquage au sol parking privé</strong> n&apos;avait pas été retrace
@@ -28,7 +28,7 @@ export default function Content() {
         Ce scénario se répète chaque mois en France. Un parking privé sans marquage conforme,
         c&apos;est un terrain de responsabilité civile permanent. Pourtant, beaucoup de
         propriétaires pensent encore qu&apos;un parking privé echappe aux règles. C&apos;est faux.
-        Et les conséquences financieres peuvent être lourdes.
+        Et les conséquences financières peuvent être lourdes.
       </p>
       <p>
         Ce guide détaille tout ce que vous devez savoir sur le <strong>marquage parking
@@ -93,7 +93,7 @@ export default function Content() {
         <li>
           <strong>Places PMR :</strong> obligatoires des que le parking dessert un ERP, un
           bâtiment d&apos;habitation collectif neuf ou rénové, ou un lieu de travail. Le nombre
-          de places PMR doit representer au minimum 2 % du nombre total de places, avec un
+          de places PMR doit représenter au minimum 2 % du nombre total de places, avec un
           minimum d&apos;une place.
         </li>
         <li>
@@ -116,7 +116,7 @@ export default function Content() {
       </p>
       <ul>
         <li>
-          <strong>Optimisation de la capacite :</strong> un parking trace accueille 15 à 20 %
+          <strong>Optimisation de la capacité :</strong> un parking trace accueille 15 à 20 %
           de véhicules en plus qu&apos;un parking sans marquage
         </li>
         <li>
@@ -147,7 +147,7 @@ export default function Content() {
       <h2>Places PMR sur parking privé : les règles à respecter</h2>
       <p>
         L&apos;accessibilité PMR est le volet le plus réglementé du <strong>marquage au sol
-        parking privé</strong>. Les sanctions en cas de non-conformite sont severes, et les
+        parking privé</strong>. Les sanctions en cas de non-conformité sont severes, et les
         contrôlés se multiplient.
       </p>
 
@@ -201,7 +201,7 @@ export default function Content() {
           incluant une bande de transfert latérale de 0,80 m
         </li>
         <li><strong>Longueur :</strong> 5,00 m minimum</li>
-        <li><strong>Devers :</strong> 2 % maximum en tout sens</li>
+        <li><strong>Dévers :</strong> 2 % maximum en tout sens</li>
         <li>
           <strong>Cheminement accessible :</strong> raccordement au cheminement piéton accessible
           sans ressaut supérieur à 2 cm
@@ -220,7 +220,7 @@ export default function Content() {
           la voie de circulation
         </li>
         <li>
-          Un <strong>marquage de couleur bleue</strong> au sol delimitant la place et la bande
+          Un <strong>marquage de couleur bleue</strong> au sol délimitant la place et la bande
           de transfert
         </li>
         <li>
@@ -230,7 +230,7 @@ export default function Content() {
       </ul>
       <p>
         Le non-respect de ces règles exposé à une amende de 1 500 EUR par place non conforme,
-        doublée en cas de recidive. Mais le risque principal reste la mise en demeure de mise en
+        doublée en cas de récidive. Mais le risque principal reste la mise en demeure de mise en
         conformité avec un délai impose, souvent de trois à six mois.
       </p>
 
@@ -258,7 +258,7 @@ export default function Content() {
           configuration
         </li>
         <li>
-          <strong>Panneau stop ou cedez-le-passage :</strong> aux intersections et en sortie
+          <strong>Panneau stop ou cédez-le-passage :</strong> aux intersections et en sortie
         </li>
         <li>
           <strong>Panneau de hauteur limitée :</strong> si le parking comporte des ouvrages
@@ -275,7 +275,7 @@ export default function Content() {
         <li><strong>Poteau a sceller :</strong> solution perenne pour les parkings extérieurs</li>
         <li><strong>Platine a cheviller :</strong> fixation murale pour les parkings couverts</li>
         <li>
-          <strong>Base caoutchouc lestee :</strong> solution amovible pour les configurations
+          <strong>Base caoutchouc lestée :</strong> solution amovible pour les configurations
           evolutives
         </li>
       </ul>
@@ -294,7 +294,7 @@ export default function Content() {
 
       <h3>Butées de parking</h3>
       <p>
-        Les butées de parking (ou butoirs) empechent les véhicules de dépasser leur emplacement.
+        Les butées de parking (ou butoirs) empêchent les véhicules de dépasser leur emplacement.
         Elles protègent les murs, les trottoirs et les piétons. Deux matériaux dominent :
       </p>
       <ul>
@@ -316,7 +316,7 @@ export default function Content() {
 
       <h3>Bornes et potelets</h3>
       <p>
-        Les bornes délimitent les zones piétonnes, empechent le stationnement sauvage et protègent
+        Les bornes délimitent les zones piétonnes, empêchent le stationnement sauvage et protègent
         les facades. Les potelets rétractables offrent une flexibilité maximale pour les accès de
         livraison.
       </p>
@@ -333,7 +333,7 @@ export default function Content() {
         à trouver les places PMR. Renov&apos;Route a réalisé le{' '}
         <Link href="/competences/tracage-retracage-parking">traçage complet</Link> de ses 35
         places, installé quatre butées, deux arceaux pour les places PMR et trois panneaux
-        directionnels. Le résultat : zéro plainte en six mois et une note Google passee de 3,8
+        directionnels. Le résultat : zéro plainte en six mois et une note Google passée de 3,8
         à 4,4 étoiles.
       </p>
 
@@ -552,7 +552,7 @@ export default function Content() {
 
       <h3>2. Tracer des places trop étroites</h3>
       <p>
-        Des places de 2,00 m de large génèrent des accrochages quotidiens. La norme prevoit
+        Des places de 2,00 m de large génèrent des accrochages quotidiens. La norme prévoit
         2,30 m minimum, mais 2,50 m est le standard de confort que nous recommandons
         systématiquement.
       </p>
@@ -566,25 +566,25 @@ export default function Content() {
       <h3>4. Ignorer la signalisation verticale</h3>
       <p>
         Le marquage au sol seul ne suffit pas, surtout de nuit ou par temps de pluie. Les
-        panneaux completent le dispositif et le rendent lisible en toutes conditions.
+        panneaux complètent le dispositif et le rendent lisible en toutes conditions.
       </p>
 
       <h3>5. Utiliser de la peinture inadaptée</h3>
       <p>
-        Une peinture de sol intérieur sur un parking extérieur s&apos;effacé en trois mois. Le
-        choix du produit doit correspondre au support (enrobe, béton, résine) et au trafic.
+        Une peinture de sol intérieur sur un parking extérieur s&apos;efface en trois mois. Le
+        choix du produit doit correspondre au support (enrobé, béton, résine) et au trafic.
       </p>
 
       <h3>6. Retracer sans réparer le support</h3>
       <p>
-        Peindre sur un enrobé fissure ou un béton ecaille, c&apos;est gaspiller son budget. La
-        préparation du support est l&apos;étape la plus souvent negligee, et la plus determinante
+        Peindre sur un enrobé fissure ou un béton écaille, c&apos;est gaspiller son budget. La
+        préparation du support est l&apos;étape la plus souvent négligée, et la plus determinante
         pour la durée de vie du marquage.
       </p>
 
       <h3>7. Reporter le retraçage</h3>
       <p>
-        Un marquage qui s&apos;effacé progressivement perd sa valeur juridique en cas de litige.
+        Un marquage qui s&apos;efface progressivement perd sa valeur juridique en cas de litige.
         La fréquence de retraçage recommandée est de 18 à 24 mois pour un parking a trafic
         régulier.
       </p>
@@ -610,14 +610,14 @@ export default function Content() {
       <p>
         Le budget varie de 1 800 à 3 740 EUR HT pour un parking extérieur de 50 places avec places
         PMR, signalisation et accessoires de base. Le prix dépend du type de peinture, de
-        l&apos;etat du support et des accessoires choisis.
+        l&apos;état du support et des accessoires choisis.
       </p>
 
       <h3>À quelle fréquence faut-il retracer un parking privé ?</h3>
       <p>
         La fréquence dépend du trafic et du produit utilisé. Comptez 12 à 18 mois pour une peinture
         acrylique standard, 18 à 24 mois pour une peinture alkyde, et 3 à 5 ans pour une résine
-        thermoplastique. Un contrôle visuel semestriel permet d&apos;anticiper les retracages.
+        thermoplastique. Un contrôle visuel semestriel permet d&apos;anticiper les retraçages.
       </p>
 
       <h3>Peut-on tracer un parking privé soi-même ?</h3>

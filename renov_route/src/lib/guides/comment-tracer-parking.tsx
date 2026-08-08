@@ -55,7 +55,7 @@ export default function Content() {
         Vous avez un terrain brut, un parking effacé ou un projet de réaménagement. La question se pose : par où commencer pour tracer un parking proprement ?
       </p>
       <p>
-        Tracer un parking, ce n&apos;est pas simplement peindre des lignes au sol. C&apos;est un enchaînage précis : relevé du terrain, calcul du nombre de places, respect des dimensions réglementaires, intégration des places PMR, choix de la peinture, puis application dans les règles de l&apos;art. Rater une seule étape, c&apos;est risquer un parking non conforme, des places trop étroites ou un marquage qui s&apos;effacé en quelques mois.
+        Tracer un parking, ce n&apos;est pas simplement peindre des lignes au sol. C&apos;est un enchaînement précis : relevé du terrain, calcul du nombre de places, respect des dimensions réglementaires, intégration des places PMR, choix de la peinture, puis application dans les règles de l&apos;art. Rater une seule étape, c&apos;est risquer un parking non conforme, des places trop étroites ou un marquage qui s&apos;efface en quelques mois.
       </p>
       <p>
         Ce guide détaille les 7 étapes pour tracer un parking, du diagnostic initial à la réception du chantier. Que vous soyez gestionnaire de copropriété, responsable technique d&apos;une enseigne ou directeur de site industriel, vous saurez exactement ce qu&apos;il faut prévoir et dans quel ordre.
@@ -410,7 +410,7 @@ export default function Content() {
 
       <h3>4. Utiliser de la peinture non certifiée</h3>
       <p>
-        Une peinture sans certification NF EN 1436 n&apos;offre aucune garantie de durabilité ni de rétroréflexion. Elle coûte moins cher à l&apos;achat, mais s&apos;effacé deux fois plus vite. Sur 5 ans, elle revient plus cher qu&apos;une peinture certifiée.
+        Une peinture sans certification NF EN 1436 n&apos;offre aucune garantie de durabilité ni de rétroréflexion. Elle coûte moins cher à l&apos;achat, mais s&apos;efface deux fois plus vite. Sur 5 ans, elle revient plus cher qu&apos;une peinture certifiée.
       </p>
 
       <h3>5. Ne pas prévoir la signalisation verticale</h3>
@@ -468,7 +468,7 @@ export default function Content() {
 
       <h3>Peut-on tracer un parking sur du gravier ?</h3>
       <p>
-        Non, le marquage au sol nécessite une surface dure et lisse (enrobé, béton, résine). Sur du gravier, on utilisé des délimiteurs physiques : rondins de bois, bordures béton, plots ou bandes de guidage.
+        Non, le marquage au sol nécessite une surface dure et lisse (enrobé, béton, résine). Sur du gravier, on utilise des délimiteurs physiques : rondins de bois, bordures béton, plots ou bandes de guidage.
       </p>
 
       <h3>Quelle est la largeur minimale d&apos;une place de parking ?</h3>

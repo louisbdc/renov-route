@@ -32,7 +32,7 @@ export default function Content() {
         Arnaud, directeur d&apos;un Intermarch&eacute; de 2 500 m&sup2;
         &agrave; Meyzieu (69), a remplac&eacute; 3 meubles frigorifiques en
         2 ans &agrave; cause de chocs de chariots. Co&ucirc;t total :
-        plus de 20 000 euros. Apr&egrave;s l&apos;installation de 45 m&egrave;tres
+        plus de 20 000 euros. Apr&egrave;s l&apos;installation de 45 m&egrave;très
         lin&eacute;aires de bumpers en acier galvanis&eacute; devant ses
         lin&eacute;aires froid, le co&ucirc;t des r&eacute;parations est
         tomb&eacute; &agrave; z&eacute;ro. Investissement : quelques milliers d&apos;euros, pose
@@ -67,7 +67,7 @@ export default function Content() {
         </li>
         <li>
           <strong>Fr&eacute;quence des chocs</strong> : un lin&eacute;aire
-          froid de 10 m&egrave;tres re&ccedil;oit en moyenne 15 &agrave; 25
+          froid de 10 m&egrave;très re&ccedil;oit en moyenne 15 &agrave; 25
           impacts de chariots par jour
         </li>
         <li>
@@ -506,7 +506,7 @@ export default function Content() {
 
       <p>
         Fabrice, responsable maintenance d&apos;un Leclerc de 4 500 m&sup2;
-        &agrave; Saint-Priest (69), a &eacute;quip&eacute; 120 m&egrave;tres
+        &agrave; Saint-Priest (69), a &eacute;quip&eacute; 120 m&egrave;très
         lin&eacute;aires de bumpers en acier galvanis&eacute; devant les
         lin&eacute;aires froid et surgel&eacute;s. Budget total : quelques milliers d&apos;euros
         pose comprise. En 18 mois, z&eacute;ro

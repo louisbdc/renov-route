@@ -20,7 +20,7 @@ export default function Content() {
         Un dos d&apos;ane dans un parking, ca ne se pose pas au hasard. Trop haut, il endommage les véhicules. Trop bas, personne ne ralentit. Mal signalé, il provoque des accidents au lieu de les prévenir. La réglementation impose des dimensions précises, et un parking privé n&apos;est pas exempt de règles.
       </p>
       <p>
-        Antoine, directeur d&apos;un centre médical à Caluire-et-Cuire (69), a installé deux dos d&apos;ane dans son parking de 60 places après un accident : un véhicule roulant à 30 km/h avait renversé un patient qui traversait le parking en fauteuil roulant. Fracture du poignet, arrêt de travail, mise en cause de la responsabilité du centre. L&apos;installation des deux dos d&apos;ane poses et signalés a représenté un investissement de quelques milliers d&apos;euros. Depuis l&apos;installation, la vitesse moyenne dans le parking est passee de 25 km/h à 10 km/h. Zéro incident en deux ans.
+        Antoine, directeur d&apos;un centre médical à Caluire-et-Cuire (69), a installé deux dos d&apos;ane dans son parking de 60 places après un accident : un véhicule roulant à 30 km/h avait renversé un patient qui traversait le parking en fauteuil roulant. Fracture du poignet, arrêt de travail, mise en cause de la responsabilité du centre. L&apos;installation des deux dos d&apos;ane poses et signalés a représenté un investissement de quelques milliers d&apos;euros. Depuis l&apos;installation, la vitesse moyenne dans le parking est passée de 25 km/h à 10 km/h. Zéro incident en deux ans.
       </p>
       <p>
         Dos d&apos;ane, ralentisseur, coussin berlinois : les termes sont souvent confondus. Ce guide clarifie les différences, détaille les normes applicables et explique les règles de pose pour un parking privé.
@@ -31,7 +31,7 @@ export default function Content() {
         Les trois termes designent des dispositifs différents, soumis à des règles différentes.
       </p>
 
-      <h3>Dos d&apos;ane (type trapezoidal)</h3>
+      <h3>Dos d&apos;ane (type trapézoïdal)</h3>
       <p>
         Le dos d&apos;ane est un surhaussement de la chaussée de forme trapezoidale. Il s&apos;etend sur toute la largeur de la voie et oblige les véhicules a ralentir fortement.
       </p>
@@ -99,7 +99,7 @@ export default function Content() {
           <thead>
             <tr>
               <th>Élément</th>
-              <th>Dos d&apos;ane (trapezoidal)</th>
+              <th>Dos d&apos;ane (trapézoïdal)</th>
               <th>Ralentisseur (sinusoidal)</th>
             </tr>
           </thead>
@@ -183,7 +183,7 @@ export default function Content() {
       <p><strong>Avantages :</strong></p>
       <ul>
         <li>Durée de vie : 15 à 25 ans</li>
-        <li>Stabilite totale (aucun déplacement)</li>
+        <li>Stabilité totale (aucun déplacement)</li>
         <li>Aspect intégré à la chaussée</li>
         <li>Résistance au trafic lourd</li>
       </ul>
@@ -273,7 +273,7 @@ export default function Content() {
         Chaque dos d&apos;ane doit être signalé par un panneau de <Link href="/competences/signalisation-verticale">signalisation verticale</Link> :
       </p>
       <ul>
-        <li><strong>Panneau C27</strong> : panneau de signalisation avancee de ralentisseur (triangle jaune)</li>
+        <li><strong>Panneau C27</strong> : panneau de signalisation avancée de ralentisseur (triangle jaune)</li>
         <li><strong>Panneau de limitation de vitesse</strong> : 10 ou 15 km/h selon le parking</li>
       </ul>
       <p>
@@ -311,7 +311,7 @@ export default function Content() {
 
       <h3>4. Espacement insuffisant</h3>
       <p>
-        Si deux dos d&apos;ane sont trop proches (moins de 20 mètres), le conducteur n&apos;a pas le temps de retrouver une allure normale entre les deux. Il freine et accéléré en permanence, ce qui augmente le bruit, la consommation et l&apos;usure du sol.
+        Si deux dos d&apos;ane sont trop proches (moins de 20 mètres), le conducteur n&apos;a pas le temps de retrouver une allure normale entre les deux. Il freine et accélère en permanence, ce qui augmente le bruit, la consommation et l&apos;usure du sol.
       </p>
 
       <h2>Entretien</h2>
@@ -319,8 +319,8 @@ export default function Content() {
       <h3>Vérification</h3>
       <ul>
         <li><strong>Trimestrielle</strong> : contrôler la fixation des modules (chevilles, boulons). Resserrer si nécessaire</li>
-        <li><strong>Semestrielle</strong> : vérifier l&apos;etat des bandes réfléchissantes et de la signalisation</li>
-        <li><strong>Annuelle</strong> : vérifier la hauteur (usure) et l&apos;etat général du dos d&apos;ane</li>
+        <li><strong>Semestrielle</strong> : vérifier l&apos;état des bandes réfléchissantes et de la signalisation</li>
+        <li><strong>Annuelle</strong> : vérifier la hauteur (usure) et l&apos;état général du dos d&apos;ane</li>
       </ul>
 
       <h3>Remplacement</h3>
@@ -357,7 +357,7 @@ export default function Content() {
 
       <h2>Ralentir, c&apos;est protéger</h2>
       <p>
-        Le dos d&apos;ane est le dispositif de ralentissement le plus efficace pour un parking. Il force chaque véhicule à réduire sa vitesse, protège les piétons et réduit le risque d&apos;accident. Le choix entre caoutchouc modulaire et enrobe permanent dépend du budget, de la permanence souhaitée et du type de parking.
+        Le dos d&apos;ane est le dispositif de ralentissement le plus efficace pour un parking. Il force chaque véhicule à réduire sa vitesse, protège les piétons et réduit le risque d&apos;accident. Le choix entre caoutchouc modulaire et enrobé permanent dépend du budget, de la permanence souhaitée et du type de parking.
       </p>
       <p>
         L&apos;erreur la plus fréquente : installer un dos d&apos;ane sans signalisation. Un dos d&apos;ane non signalé est un danger, pas une protection.

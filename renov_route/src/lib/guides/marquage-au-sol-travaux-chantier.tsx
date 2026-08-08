@@ -17,10 +17,10 @@ export default function Content() {
   return (
     <>
       <p>
-        Un chantier sur la RN7 près de Vienne, en 2023. Deux voies neutralisees, un marquage temporaire pose à la hate. Problème : les bandes jaunes étaient à peine visibles de nuit, et aucune signalisation verticale ne completait le dispositif. Un poids lourd a dévié trop tard, percutant une balise de chantier et terminant sur la bande d&apos;arrêt d&apos;urgence. Bilan : zéro blesse par miracle, mais une enquête qui a révélé un <strong>marquage au sol travaux</strong> non conforme à l&apos;IISR. Le maître d&apos;ouvrage a été mis en cause.
+        Un chantier sur la RN7 près de Vienne, en 2023. Deux voies neutralisées, un marquage temporaire pose à la hate. Problème : les bandes jaunes étaient à peine visibles de nuit, et aucune signalisation verticale ne completait le dispositif. Un poids lourd a dévié trop tard, percutant une balise de chantier et terminant sur la bande d&apos;arrêt d&apos;urgence. Bilan : zéro blesse par miracle, mais une enquête qui a révélé un <strong>marquage au sol travaux</strong> non conforme à l&apos;IISR. Le maître d&apos;ouvrage a été mis en cause.
       </p>
       <p>
-        Ce scénario n&apos;a rien d&apos;exceptionnel. Les zones de chantier concentrent chaque année un nombre disproportionne d&apos;accidents, et la qualité du <strong>marquage temporaire chantier</strong> joue un rôle determinant. Ce guide détaille tout ce que vous devez savoir sur le <strong>marquage au sol travaux</strong> : code couleur, réglementation, types de marquage, matériaux, responsabilités et coûts.
+        Ce scénario n&apos;a rien d&apos;exceptionnel. Les zones de chantier concentrent chaque année un nombre disproportionne d&apos;accidents, et la qualité du <strong>marquage temporaire chantier</strong> joue un rôle déterminant. Ce guide détaille tout ce que vous devez savoir sur le <strong>marquage au sol travaux</strong> : code couleur, réglementation, types de marquage, matériaux, responsabilités et coûts.
       </p>
 
       <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8 rounded-r-lg">
@@ -32,7 +32,7 @@ export default function Content() {
 
       <h2>Qu&apos;est-ce que le marquage au sol travaux ?</h2>
       <p>
-        Le <strong>marquage au sol travaux</strong>, aussi appelé marquage temporaire de chantier, désigné l&apos;ensemble des lignes, bandes et symboles appliqués sur la chaussée pour guider les usagers lorsque des travaux modifient les conditions normales de circulation. Il fait partie de la <strong>signalisation temporaire de chantier</strong>, qui comprend également la signalisation verticale (panneaux) et les dispositifs de balisage (cones, balises, barrières).
+        Le <strong>marquage au sol travaux</strong>, aussi appelé marquage temporaire de chantier, désigné l&apos;ensemble des lignes, bandes et symboles appliqués sur la chaussée pour guider les usagers lorsque des travaux modifient les conditions normales de circulation. Il fait partie de la <strong>signalisation temporaire de chantier</strong>, qui comprend également la signalisation verticale (panneaux) et les dispositifs de balisage (cônes, balises, barrières).
       </p>
       <p>
         Son objectif est triple : informer les usagers de la présence du chantier, les guider dans le nouveau schéma de circulation et les protéger des zones dangereuses. Contrairement au marquage permanent, il est conçu pour être provisoire et doit être retire ou effacé une fois les travaux terminés.
@@ -47,7 +47,7 @@ export default function Content() {
         <li><strong>L&apos;arrêté du 24 novembre 1967 relatif à la signalisation des routes et autoroutes :</strong> Il fixe les caractéristiques techniques des marquages, couleurs et dimensions.</li>
       </ul>
       <p>
-        Ces deux textes imposent que tout chantier affectant la voie publique dispose d&apos;un plan de signalisation temporaire valide. Ce plan doit inclure le marquage au sol si les voies de circulation sont modifiées, deviees ou neutralisees.
+        Ces deux textes imposent que tout chantier affectant la voie publique dispose d&apos;un plan de signalisation temporaire valide. Ce plan doit inclure le marquage au sol si les voies de circulation sont modifiées, déviées ou neutralisées.
       </p>
 
       <h2>Code couleur marquage au sol travaux : jaune et orange</h2>
@@ -76,7 +76,7 @@ export default function Content() {
         Cette hiérarchie est logique. Le marquage temporaire reflète la réalité de la circulation au moment des travaux. Le marquage permanent, lui, correspond à une configuration qui n&apos;est plus d&apos;actualite tant que le chantier est en cours. Ignorer le <strong>marquage jaune travaux</strong> pour suivre le blanc reviendrait a ignorer la réalité du terrain.
       </p>
       <p>
-        Un chef de chantier à Villeurbanne nous a rapporte un cas parlant. Lors de la refection d&apos;un rond-point, le marquage temporaire deviait la circulation sur une voie latérale. Plusieurs automobilistes continuaient de suivre les anciennes flèches blanches, creant des situations dangereuses. La solution : un effacement partiel du marquage blanc dans les zones de conflit, couple à un renforcement du <strong>marquage jaune travaux</strong>.
+        Un chef de chantier à Villeurbanne nous a rapporte un cas parlant. Lors de la réfection d&apos;un rond-point, le marquage temporaire deviait la circulation sur une voie latérale. Plusieurs automobilistes continuaient de suivre les anciennes flèches blanches, créant des situations dangereuses. La solution : un effacement partiel du marquage blanc dans les zones de conflit, couple à un renforcement du <strong>marquage jaune travaux</strong>.
       </p>
 
       <h2>Types de marquage temporaire de chantier</h2>
@@ -86,17 +86,17 @@ export default function Content() {
 
       <h3>Bandes de déviation</h3>
       <p>
-        Les bandes de déviation guident les usagers vers un itineraire alternatif lorsque tout ou partie de la chaussée est fermée. Elles prennent la forme de lignes jaunes continues ou discontinues, accompagnées de flèches directionnelles jaunes. Leur rôle est de reconstituer un schéma de circulation lisible malgre la perturbation.
+        Les bandes de déviation guident les usagers vers un itineraire alternatif lorsque tout ou partie de la chaussée est fermée. Elles prennent la forme de lignes jaunes continues ou discontinues, accompagnées de flèches directionnelles jaunes. Leur rôle est de reconstituer un schéma de circulation lisible malgré la perturbation.
       </p>
 
       <h3>Neutralisation de voies</h3>
       <p>
-        Quand une ou plusieurs voies doivent être condamnees, des hachures jaunes obliques sont tracées sur la zone neutralisee. Ces hachures signalent clairement aux usagers que la zone est interdite à la circulation. Elles sont souvent completees par des balises et des <Link href="/competences/signalisation-verticale">panneaux de signalisation temporaire</Link>.
+        Quand une ou plusieurs voies doivent être condamnées, des hachures jaunes obliques sont tracées sur la zone neutralisée. Ces hachures signalent clairement aux usagers que la zone est interdite à la circulation. Elles sont souvent complétées par des balises et des <Link href="/competences/signalisation-verticale">panneaux de signalisation temporaire</Link>.
       </p>
 
       <h3>Lignes de guidage provisoires</h3>
       <p>
-        Dans les zones ou le trace de la route est modifié (retrecissement, decalage de voie, basculement de circulation), des lignes jaunes continues ou discontinues remplacent temporairement les lignes blanches. Elles redefinissent les voies de circulation adaptées à la configuration du chantier.
+        Dans les zones ou le trace de la route est modifié (rétrécissement, decalage de voie, basculement de circulation), des lignes jaunes continues ou discontinues remplacent temporairement les lignes blanches. Elles redefinissent les voies de circulation adaptées à la configuration du chantier.
       </p>
 
       <h3>Marquage au sol de parking en travaux</h3>
@@ -116,23 +116,23 @@ export default function Content() {
 
       <h2>Matériaux spécifiques au marquage temporaire</h2>
       <p>
-        Le choix des matériaux pour le <strong>marquage au sol travaux</strong> est dicte par une exigence : le marquage doit être <strong>suffisamment visible pendant les travaux et facile à retirer après</strong>. C&apos;est l&apos;inverse du marquage permanent, concu pour durer des années.
+        Le choix des matériaux pour le <strong>marquage au sol travaux</strong> est dicte par une exigence : le marquage doit être <strong>suffisamment visible pendant les travaux et facile à retirer après</strong>. C&apos;est l&apos;inverse du marquage permanent, conçu pour durer des années.
       </p>
       <p>
         Trois familles de matériaux couvrent l&apos;essentiel des besoins :
       </p>
       <ul>
-        <li><strong>Peinture à l&apos;eau effacable :</strong> Application rapide, coût modéré (2 à 5 EUR/ml), retrait par lavage haute pression. Ideale pour les chantiers de courte durée (quelques jours à quelques semaines). Limite : elle résiste mal aux intempéries prolongees.</li>
+        <li><strong>Peinture à l&apos;eau effacable :</strong> Application rapide, coût modéré (2 à 5 EUR/ml), retrait par lavage haute pression. Idéale pour les chantiers de courte durée (quelques jours à quelques semaines). Limite : elle résiste mal aux intempéries prolongées.</li>
         <li><strong>Bandes adhésives :</strong> Pose en quelques minutes, arrachage sans trace. Adaptées aux chantiers très courts ou aux urgences. Limite : l&apos;adhérence diminue avec la chaleur et le trafic intense.</li>
         <li><strong>Enduit à chaud temporaire :</strong> Meilleure tenue (3 à 12 mois), retrait par rabotage ou décapage thermique. Réservé aux chantiers longs ou la durée justifie le surcoût.</li>
       </ul>
       <p>
-        Quel que soit le matériau, la visibilité nocturne est non negociable. Les produits doivent intégrer des microbilles retroreflechissantes conformes à la norme NF EN 1436. Un marquage jaune invisible de nuit est un danger, pas une protection.
+        Quel que soit le matériau, la visibilité nocturne est non négociable. Les produits doivent intégrer des microbilles retroreflechissantes conformes à la norme NF EN 1436. Un marquage jaune invisible de nuit est un danger, pas une protection.
       </p>
 
-      <h2>Hierarchie des marquages : l&apos;ordre de priorité complet</h2>
+      <h2>Hiérarchie des marquages : l&apos;ordre de priorité complet</h2>
       <p>
-        La hiérarchie est inscrite dans l&apos;IISR et ne souffre aucune ambiguite :
+        La hiérarchie est inscrite dans l&apos;IISR et ne souffre aucune ambiguïté :
       </p>
       <ol>
         <li><strong>Agent de circulation</strong> (priorité absolue)</li>
@@ -141,7 +141,7 @@ export default function Content() {
         <li><strong>Signalisation permanente</strong> (panneaux + marquage blanc)</li>
       </ol>
       <p>
-        Panneaux temporaires et marquage temporaire forment un ensemble coherent. Ils doivent être complémentaires et ne jamais se contredire.
+        Panneaux temporaires et marquage temporaire forment un ensemble cohérent. Ils doivent être complémentaires et ne jamais se contredire.
       </p>
 
       <h2>Quand effacer le marquage temporaire ?</h2>
@@ -152,10 +152,10 @@ export default function Content() {
         L&apos;IISR impose que le marquage temporaire soit retire <strong>des la fin des travaux</strong>. Un marquage jaune qui persiste crée une confusion dangereuse et constitue une infraction réglementaire. Le retrait dépend du matériau : lavage haute pression pour la peinture à l&apos;eau, arrachage pour les bandes adhésives, rabotage ou décapage thermique pour l&apos;enduit à chaud.
       </p>
       <p>
-        Une fois le marquage temporaire retire, le marquage permanent doit être remis en état. Si les travaux ont modifié la configuration (elargissement, création de voies), un nouveau marquage permanent est trace. Si la configuration est inchangee, le blanc existant est restaure la ou il a été endommagé.
+        Une fois le marquage temporaire retire, le marquage permanent doit être remis en état. Si les travaux ont modifié la configuration (elargissement, création de voies), un nouveau marquage permanent est trace. Si la configuration est inchangée, le blanc existant est restaure la ou il a été endommagé.
       </p>
       <p>
-        Renov&apos;Route intervient fréquemment pour cette phase de re-marquage post-travaux. Après la <Link href="/competences/reparation-nids-de-poule">réparation de nids-de-poule</Link> ou la refection d&apos;enrobe, le traçage du marquage définitif finalise le chantier et restaure les conditions normales de circulation.
+        Renov&apos;Route intervient fréquemment pour cette phase de re-marquage post-travaux. Après la <Link href="/competences/reparation-nids-de-poule">réparation de nids-de-poule</Link> ou la réfection d&apos;enrobé, le traçage du marquage définitif finalise le chantier et restaure les conditions normales de circulation.
       </p>
 
       <h2>Responsabilité du maître d&apos;ouvrage et sanctions</h2>
@@ -238,7 +238,7 @@ export default function Content() {
 
       <h3>Quelle est la signification du marquage au sol jaune en zone de travaux ?</h3>
       <p>
-        La <strong>signification marquage au sol travaux</strong> en jaune ou orange est claire : il s&apos;agit d&apos;un marquage temporaire qui modifié les règles habituelles de circulation. Il prevaut sur le marquage blanc permanent et doit être suivi par les usagers tant que les travaux sont en cours.
+        La <strong>signification marquage au sol travaux</strong> en jaune ou orange est claire : il s&apos;agit d&apos;un marquage temporaire qui modifié les règles habituelles de circulation. Il prévaut sur le marquage blanc permanent et doit être suivi par les usagers tant que les travaux sont en cours.
       </p>
 
       <h3>Quel est le code couleur du marquage au sol en zone de chantier ?</h3>
@@ -277,7 +277,7 @@ export default function Content() {
         <strong>Renov&apos;Route accompagne les maîtres d&apos;ouvrage, les gestionnaires de parking et les entreprises de travaux publics</strong> dans la mise en place de marquages temporaires conformes à l&apos;IISR et à la norme NF EN 1436. Plus de 1 000 projets réalisés depuis 2016, partout en France.
       </p>
       <p>
-        <strong><Link href="/devis">Demandez votre devis gratuit</Link></strong> en 48h ou appelez le 07 86 81 96 92. Un expert Renov&apos;Route étudié votre chantier et vous propose la solution adaptée.
+        <strong><Link href="/devis">Demandez votre devis gratuit</Link></strong> en 48h ou appelez le 07 86 81 96 92. Un expert Renov&apos;Route étudie votre chantier et vous propose la solution adaptée.
       </p>
     </>
   )

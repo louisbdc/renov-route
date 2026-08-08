@@ -54,7 +54,7 @@ export default function Content() {
         <li><strong>Faciliter les livraisons</strong> : acc&egrave;s camions s&eacute;par&eacute;, zone de man&oelig;uvre d&eacute;gag&eacute;e</li>
       </ol>
       <p>
-        Christophe, responsable technique de 3 Leclerc en r&eacute;gion lyonnaise, a revu le plan de circulation de son plus grand parking (280 places) apr&egrave;s 2 accidents pi&eacute;tons en 6 mois. Le nouveau plan comprend : 6 passages pi&eacute;tons marqu&eacute;s au thermoplastique, un sens unique dans toutes les all&eacute;es, des fl&egrave;ches directionnelles tous les 20 m&egrave;tres et des zones de ralentissement en entr&eacute;e. Le co&ucirc;t du retra&ccedil;age complet est rest&eacute; ma&icirc;tris&eacute;, pour quelques milliers d&apos;euros. Depuis la mise en place (18 mois), z&eacute;ro accident d&eacute;clar&eacute;.
+        Christophe, responsable technique de 3 Leclerc en r&eacute;gion lyonnaise, a revu le plan de circulation de son plus grand parking (280 places) apr&egrave;s 2 accidents pi&eacute;tons en 6 mois. Le nouveau plan comprend : 6 passages pi&eacute;tons marqu&eacute;s au thermoplastique, un sens unique dans toutes les all&eacute;es, des fl&egrave;ches directionnelles tous les 20 m&egrave;très et des zones de ralentissement en entr&eacute;e. Le co&ucirc;t du retra&ccedil;age complet est rest&eacute; ma&icirc;tris&eacute;, pour quelques milliers d&apos;euros. Depuis la mise en place (18 mois), z&eacute;ro accident d&eacute;clar&eacute;.
       </p>
 
       <h2>Sp&eacute;cificit&eacute;s du marquage en grande surface</h2>

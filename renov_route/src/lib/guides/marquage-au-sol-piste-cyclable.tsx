@@ -49,7 +49,7 @@ export default function Content() {
       <h3>Le boom du vélo en ville</h3>
       <p>
         Depuis 2020, la pratique du vélo en France a bondi de plus de 30 %. Les compteurs
-        vélo installés dans les grandes metropoles confirment cette tendance : Lyon enregistré
+        vélo installés dans les grandes métropoles confirment cette tendance : Lyon enregistré
         une hausse de 40 % du trafic cyclable entre 2019 et 2025. Villeurbanne, Vénissieux,
         Saint-Étienne suivent la même trajectoire.
       </p>
@@ -60,7 +60,7 @@ export default function Content() {
           2023 et 2027 pour créer 100 000 km d&apos;aménagements cyclables sécurisés
         </li>
         <li>
-          <strong>Les Zones a Faibles Emissions (ZFE)</strong> : 43 agglomerations concernees
+          <strong>Les Zones a Faibles Émissions (ZFE)</strong> : 43 agglomérations concernées
           d&apos;ici 2025, poussant les usagers vers des alternatives au véhicule thermique
         </li>
         <li>
@@ -77,7 +77,7 @@ export default function Content() {
         <strong>marquage au sol piste cyclable</strong> conforme et lisible.
       </p>
       <p>
-        Un marquage dégradé ou absent exposé la collectivité à une mise en cause pour défaut
+        Un marquage dégradé ou absent expose la collectivité à une mise en cause pour défaut
         d&apos;entretien normal de l&apos;ouvrage public (article L2111-1 du Code général de
         la propriété des personnes publiques). Pour les entreprises privées, la responsabilité
         civile et pénale s&apos;applique en cas d&apos;accident sur leur domaine.
@@ -157,7 +157,7 @@ export default function Content() {
       <p>
         La voie verte est un aménagement en site propre réservé aux déplacements non
         motorisés : vélos, piétons, rollers, personnes à mobilité réduite. Elle est souvent
-        aménagée sur d&apos;anciennes voies ferrees, des berges ou des chemins de halage.
+        aménagée sur d&apos;anciennes voies ferrées, des berges ou des chemins de halage.
       </p>
       <p><strong>Marquage spécifique :</strong></p>
       <ul>
@@ -178,11 +178,11 @@ export default function Content() {
       </p>
       <p><strong>Marquage spécifique :</strong></p>
       <ul>
-        <li>Entrée materialisee par le panneau B52 et une signalisation au sol</li>
+        <li>Entrée matérialisée par le panneau B52 et une signalisation au sol</li>
         <li>
           Marquage limite : pas de bandes cyclables dédiées (les vélos partagent l&apos;espace)
         </li>
-        <li>Eventuels pictogrammes vélo pour rappeler la présence des cyclistes</li>
+        <li>Éventuels pictogrammes vélo pour rappeler la présence des cyclistes</li>
         <li>
           Traitement de surface differencie pour signaler le changement de zone
         </li>
@@ -199,7 +199,7 @@ export default function Content() {
           Pictogramme vélo + flèche en début de chaque tronçon en contresens
         </li>
         <li>
-          Ligne axiale discontinue blanche pour materialiser le couloir de contresens
+          Ligne axiale discontinue blanche pour matérialiser le couloir de contresens
         </li>
         <li>Panneau C24a en entrée de zone</li>
       </ul>
@@ -213,7 +213,7 @@ export default function Content() {
       <h3>Le pictogramme vélo</h3>
       <p>
         Le pictogramme vélo (figurine cycliste type T) est l&apos;élément de base de toute{' '}
-        <strong>signalisation piste cyclable</strong>. Ses dimensions sont normalisees :
+        <strong>signalisation piste cyclable</strong>. Ses dimensions sont normalisées :
       </p>
       <ul>
         <li>
@@ -225,7 +225,7 @@ export default function Content() {
           vert (pistes cyclables)
         </li>
         <li>
-          <strong>Frequence :</strong> à chaque entrée d&apos;aménagement, après chaque
+          <strong>Fréquence :</strong> à chaque entrée d&apos;aménagement, après chaque
           intersection, et tous les 50 à 100 mètres sur les linéaires longs
         </li>
       </ul>
@@ -240,7 +240,7 @@ export default function Content() {
         <li><strong>Longueur :</strong> 2 à 5 mètres selon le type de voie</li>
         <li><strong>Couleur :</strong> blanc</li>
         <li>
-          <strong>Positionnement :</strong> en amont de chaque intersection, combinees au
+          <strong>Positionnement :</strong> en amont de chaque intersection, combinées au
           pictogramme vélo
         </li>
       </ul>
@@ -259,7 +259,7 @@ export default function Content() {
           <strong>Marquage :</strong> pictogramme vélo au centre, revêtement vert recommandé
         </li>
         <li>
-          <strong>Ligne d&apos;effet des feux</strong> avancee pour les vélos, reculee pour
+          <strong>Ligne d&apos;effet des feux</strong> avancée pour les vélos, reculée pour
           les véhicules
         </li>
       </ul>
@@ -290,7 +290,7 @@ export default function Content() {
       <p>
         Le revêtement vert est réservé aux aménagements cyclables séparés (pistes) et aux
         zones de conflit (traversées cyclables aux carrefours, SAS vélo). Son usage s&apos;est
-        generalise dans les metropoles françaises depuis 2020.
+        generalise dans les métropoles françaises depuis 2020.
       </p>
       <ul>
         <li><strong>Teinte :</strong> RAL 6024 (vert trafic) ou équivalent</li>
@@ -299,7 +299,7 @@ export default function Content() {
           aux points de conflit
         </li>
         <li>
-          <strong>Avantage :</strong> visibilité immédiate, réduction prouvee des empietements
+          <strong>Avantage :</strong> visibilité immédiate, réduction prouvée des empietements
           automobiles
         </li>
       </ul>
@@ -351,7 +351,7 @@ export default function Content() {
           les marquages blancs.
         </li>
         <li>
-          <strong>Rugosite (SRT) :</strong> résistance au derapage, particulièrement critique
+          <strong>Rugosité (SRT) :</strong> résistance au dérapage, particulièrement critique
           pour les revêtements colores des pistes cyclables.
         </li>
       </ul>
@@ -367,14 +367,14 @@ export default function Content() {
           <strong>7e partie :</strong> marqués sur chaussée (lignes, symboles, inscriptions)
         </li>
         <li>
-          <strong>Arrete du 12 decembre 2018 :</strong> intégration des aménagements cyclables
+          <strong>Arrêté du 12 décembre 2018 :</strong> intégration des aménagements cyclables
           dans la signalisation horizontale
         </li>
       </ul>
 
       <h3>Les guides du CEREMA</h3>
       <p>
-        Le CEREMA publié des guides techniques qui completent l&apos;IISR avec des
+        Le CEREMA publie des guides techniques qui complètent l&apos;IISR avec des
         recommandations pratiques :
       </p>
       <ul>
@@ -437,11 +437,11 @@ export default function Content() {
       </ul>
       <p>
         Janvier 2025, piste cyclable de la ViaRhona, secteur Givors. La communaute de communes
-        nous sollicite pour rénover 1,2 km de revêtement vert sur une section très frequentee
+        nous sollicite pour rénover 1,2 km de revêtement vert sur une section très fréquentée
         (800 passages/jour). L&apos;ancien marquage en peinture classique n&apos;avait tenu que
         14 mois. Nous avons pose une résine méthacrylate verte avec charge antidérapante en
         quartz. Coût : 28 EUR/m2, contre 4 EUR/m2 pour la peinture précédente. Mais la durée
-        de vie projetee passe de 14 mois à 4 ans, soit un coût ramene au mois de 0,58 EUR/m2
+        de vie projetée passe de 14 mois à 4 ans, soit un coût ramene au mois de 0,58 EUR/m2
         contre 0,29 EUR/m2 pour la peinture. L&apos;écart se réduit encore quand on integre
         les coûts de mobilisation du chantier (fermeture de voie, signalisation temporaire,
         déplacement d&apos;équipe).
@@ -504,7 +504,7 @@ export default function Content() {
             <tr>
               <td>Revêtement vert</td>
               <td>Possible</td>
-              <td>Recommande</td>
+              <td>Recommandé</td>
               <td>Possible</td>
             </tr>
           </tbody>
@@ -514,7 +514,7 @@ export default function Content() {
       <h2>Prix du marquage au sol piste cyclable en 2026</h2>
       <p>
         Le budget d&apos;un projet de <strong>marquage au sol piste cyclable</strong> dépend du
-        linéaire, du matériau choisi, de l&apos;etat du support et des contraintes de chantier
+        linéaire, du matériau choisi, de l&apos;état du support et des contraintes de chantier
         (circulation maintenue, horaires de nuit).
       </p>
 
@@ -543,7 +543,7 @@ export default function Content() {
           <strong>Le matériau :</strong> rapport de 1 à 10 entre peinture et thermocollage
         </li>
         <li>
-          <strong>L&apos;etat du support :</strong> un enrobé dégradé nécessite une préparation
+          <strong>L&apos;état du support :</strong> un enrobé dégradé nécessite une préparation
           (grenaillage, nettoyage haute pression) qui ajouté 3 à 8 EUR/m2
         </li>
         <li>
@@ -555,7 +555,7 @@ export default function Content() {
       <h3>Le vrai calcul : coût au mètre carré par an</h3>
       <p>
         Les collectivités expérimentées raisonnent en coût annualise. Un revêtement à
-        30 EUR/m2 qui dure cinq ans revient à 6 EUR/m2/an. Une peinture à 4 EUR/m2 renouvelee
+        30 EUR/m2 qui dure cinq ans revient à 6 EUR/m2/an. Une peinture à 4 EUR/m2 renouvelée
         chaque année coûte 4 EUR/m2/an, mais il faut ajouter les coûts de mobilisation
         (signalisation temporaire, fermeture de voie) qui peuvent doubler la facture réelle.
       </p>
@@ -563,7 +563,7 @@ export default function Content() {
       <h2>Aménagements complémentaires au marquage</h2>
       <p>
         Le marquage au sol seul ne suffit pas à sécuriser une piste cyclable. Les aménagements
-        complémentaires renforcent la protection et la lisibilite de l&apos;infrastructure.
+        complémentaires renforcent la protection et la lisibilité de l&apos;infrastructure.
       </p>
 
       <h3>Separateurs physiques</h3>
@@ -584,7 +584,7 @@ export default function Content() {
 
       <h3>Signalisation verticale</h3>
       <p>
-        Les panneaux completent le marquage horizontal pour une identification sans ambiguite :
+        Les panneaux complètent le marquage horizontal pour une identification sans ambiguïté :
       </p>
       <ul>
         <li><strong>C113 :</strong> piste ou bande cyclable obligatoire</li>
@@ -608,7 +608,7 @@ export default function Content() {
           d&apos;emprunter la piste
         </li>
         <li>
-          <strong>Éclairage LED</strong> dédié sur les sections isolees ou en tunnel
+          <strong>Éclairage LED</strong> dédié sur les sections isolées ou en tunnel
         </li>
       </ul>
 
@@ -658,7 +658,7 @@ export default function Content() {
       <p>
         Non, le revêtement vert n&apos;est pas une obligation réglementaire. Le CEREMA le
         recommandé fortement, en particulier aux points de conflit (intersections, traversées).
-        Dans la pratique, la majorité des nouvelles pistes cyclables en milieu urbain integrent
+        Dans la pratique, la majorité des nouvelles pistes cyclables en milieu urbain intègrent
         un revêtement vert.
       </p>
 
@@ -701,7 +701,7 @@ export default function Content() {
       <p>
         Renov&apos;Route accompagne les collectivités et les entreprises dans la conception, la
         réalisation et l&apos;entretien de leurs aménagements cyclables depuis 2016. Plus de
-        1 000 projets de marquage livres en Rhône-Alpes, des équipés formees aux dernières
+        1 000 projets de marquage livres en Rhône-Alpes, des équipés formées aux dernières
         normes NF EN 1436 et IISR, un matériel adapte aux revêtements colores et aux marquages
         haute performance.
       </p>

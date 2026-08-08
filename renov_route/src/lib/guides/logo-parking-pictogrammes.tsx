@@ -33,7 +33,7 @@ export default function Content() {
         Un pictogramme parking bien visible remplit trois fonctions essentielles. Il identifié instantanement la nature d&apos;une place. Il guide les flux de circulation. Et il protège juridiquement le gestionnaire en cas de litige.
       </p>
       <p>
-        Sophie, responsable des services généraux d&apos;un groupe de cliniques privé près de Lyon, a mesuré cet impact. Son parking de 200 places disposait d&apos;un marquage au sol datant de 2018. Les pictogrammes PMR étaient à peine visibles. Les places réservées aux ambulances n&apos;avaient aucun logo distinctif. Résultat : des ambulances bloquees aux heures de pointe, des plaintes de patients à mobilité réduite, et un rappel à l&apos;ordre de la commission d&apos;accessibilité.
+        Sophie, responsable des services généraux d&apos;un groupe de cliniques privé près de Lyon, a mesuré cet impact. Son parking de 200 places disposait d&apos;un marquage au sol datant de 2018. Les pictogrammes PMR étaient à peine visibles. Les places réservées aux ambulances n&apos;avaient aucun logo distinctif. Résultat : des ambulances bloquées aux heures de pointe, des plaintes de patients à mobilité réduite, et un rappel à l&apos;ordre de la commission d&apos;accessibilité.
       </p>
       <p>
         Après une intervention de <Link href="/competences/tracage-retracage-parking">traçage et retraçage de parking</Link> par Renov&apos;Route, chaque place a reçu son pictogramme réglementaire. Les flux se sont clarifiés en quelques jours. Les réclamations ont chuté de 80%.
@@ -74,7 +74,7 @@ export default function Content() {
         <li><strong>Obligation</strong> : 2% des places minimum (et au moins une) pour tout parking de plus de 50 places</li>
       </ul>
       <p>
-        Nathalie, gestionnaire d&apos;un parking de centre commercial dans l&apos;agglomeration lyonnaise, a découvert lors d&apos;un audit que ses 8 places PMR avaient un pictogramme de seulement 0,30 m de large. Trop petit pour être conforme. Après un retraçage par Renov&apos;Route, les pictogrammes ont été repris aux dimensions réglementaires avec un thermocollage longue durée. Le contrôle suivant est passe sans réservé.
+        Nathalie, gestionnaire d&apos;un parking de centre commercial dans l&apos;agglomération lyonnaise, a découvert lors d&apos;un audit que ses 8 places PMR avaient un pictogramme de seulement 0,30 m de large. Trop petit pour être conforme. Après un retraçage par Renov&apos;Route, les pictogrammes ont été repris aux dimensions réglementaires avec un thermocollage longue durée. Le contrôle suivant est passe sans réservé.
       </p>
 
       <h3>Pictogramme vélo et deux-roues</h3>
@@ -95,7 +95,7 @@ export default function Content() {
         Le logo place de parking pour véhicule électrique est un pictogramme en pleine expansion. Il représente généralement une voiture avec un câble de recharge ou un eclair. Il est appliqué en :
       </p>
       <ul>
-        <li><strong>Vert</strong> (RAL 6024 ou équivalent) : la couleur la plus répandue, associee à l&apos;ecologie</li>
+        <li><strong>Vert</strong> (RAL 6024 ou équivalent) : la couleur la plus répandue, associée à l&apos;ecologie</li>
         <li><strong>Blanc sur fond vert</strong> : pour un contraste maximal</li>
         <li><strong>Dimensions</strong> : 1 m à 1,50 m de hauteur</li>
       </ul>
@@ -127,7 +127,7 @@ export default function Content() {
       <ul>
         <li><strong>IISR</strong> (Instruction Interministérielle sur la Signalisation Routière) : référence pour la signalisation sur voies ouvertes à la circulation</li>
         <li><strong>Norme NF EN 1436</strong> : exigences de performance pour les marquages routiers (rétroréflexion, luminance, adhérence)</li>
-        <li><strong>Arrete du 15 janvier 2007</strong> : accessibilité des ERP, incluant les spécifications du pictogramme PMR</li>
+        <li><strong>Arrêté du 15 janvier 2007</strong> : accessibilité des ERP, incluant les spécifications du pictogramme PMR</li>
         <li><strong>Norme NF P 98-351</strong> : pochoirs et symboles normalises pour marquage au sol</li>
       </ul>
 
@@ -211,7 +211,7 @@ export default function Content() {
         La peinture est la technique la plus répandue pour appliquer un logo parking au sol. Elle convient à la majorité des pictogrammes standards.
       </p>
       <ul>
-        <li><strong>Type de peinture</strong> : acrylique à base aqueuse ou peinture solvantee</li>
+        <li><strong>Type de peinture</strong> : acrylique à base aqueuse ou peinture solvantée</li>
         <li><strong>Application</strong> : au rouleau, au pistolet airless ou au pochoir</li>
         <li><strong>Épaisseur</strong> : 0,6 à 1,2 mm en couche sèche</li>
         <li><strong>Durée de vie</strong> : 1 à 3 ans selon le trafic</li>
@@ -221,7 +221,7 @@ export default function Content() {
         La peinture est idéale pour les parkings à trafic modéré (copropriétés, petites entreprises). Elle nécessite un renouvellement plus fréquent que les autres techniques, mais son coût initial est faible.
       </p>
 
-      <h3>Thermocollage (bandes thermocollees)</h3>
+      <h3>Thermocollage (bandes thermocollées)</h3>
       <p>
         Le thermocollage est la technique privilégiée pour les pictogrammes parking durables. Il consiste à appliquer un produit préfabriqué (résine thermoplastique) qui se colle au sol sous l&apos;effet de la chaleur.
       </p>
@@ -255,7 +255,7 @@ export default function Content() {
         La résine à froid offre un compromis entre la peinture et le thermocollage :
       </p>
       <ul>
-        <li><strong>Application</strong> : coulee ou projetee, polymérisation a température ambiante</li>
+        <li><strong>Application</strong> : coulée ou projetée, polymérisation a température ambiante</li>
         <li><strong>Épaisseur</strong> : 1,5 à 3 mm</li>
         <li><strong>Durée de vie</strong> : 3 à 5 ans</li>
         <li><strong>Avantage</strong> : bonne adhérence, pas besoin de chaleur</li>
@@ -325,7 +325,7 @@ export default function Content() {
         <li><strong>Vert</strong> : places écologiques (véhicules électriques, covoiturage)</li>
         <li><strong>Orange</strong> : places visiteurs</li>
         <li><strong>Violet</strong> : places réservées à la direction</li>
-        <li><strong>Rose</strong> : places famille (tendance importee d&apos;Amerique du Nord)</li>
+        <li><strong>Rose</strong> : places famille (tendance importée d&apos;Amerique du Nord)</li>
       </ul>
       <p>
         L&apos;essentiel est de conserver un contraste suffisant et de ne pas créer de confusion avec les couleurs réglementaires (bleu PMR, jaune interdiction).
@@ -455,7 +455,7 @@ export default function Content() {
 
       <h3>Combien coûte le marquage d&apos;un logo parking au sol ?</h3>
       <p>
-        Le prix varie selon la technique et la complexité. Un pictogramme standard en peinture coûte entre 30 EUR et 80 EUR. En thermocollage, comptez entre 60 EUR et 150 EUR. Un logo d&apos;entreprise sur mesure se situe entre 100 EUR et 300 EUR. Ces prix sont indicatifs et varient selon l&apos;etat du sol, l&apos;accessibilité et le volume de travaux.
+        Le prix varie selon la technique et la complexité. Un pictogramme standard en peinture coûte entre 30 EUR et 80 EUR. En thermocollage, comptez entre 60 EUR et 150 EUR. Un logo d&apos;entreprise sur mesure se situe entre 100 EUR et 300 EUR. Ces prix sont indicatifs et varient selon l&apos;état du sol, l&apos;accessibilité et le volume de travaux.
       </p>
 
       <h3>Quelle est la durée de vie d&apos;un pictogramme au sol ?</h3>
@@ -478,13 +478,13 @@ export default function Content() {
         Les logos et pictogrammes parking sont bien plus que de la décoration au sol. Ils organisent la circulation, identifient les places réservées, protègent le gestionnaire juridiquement et ameliorent l&apos;expérience des usagers. Du pictogramme PMR obligatoire aux logos d&apos;entreprise personnalisés, chaque symbole à une fonction précise.
       </p>
       <p>
-        Le choix de la technique (peinture, thermocollage, résine), le respect des dimensions réglementaires et un entretien régulier garantissent un marquage conforme et durable. A l&apos;inverse, des pictogrammes sous-dimensionnés, mal places ou effacés exposent le gestionnaire à des sanctions et degradent le fonctionnement du parking.
+        Le choix de la technique (peinture, thermocollage, résine), le respect des dimensions réglementaires et un entretien régulier garantissent un marquage conforme et durable. A l&apos;inverse, des pictogrammes sous-dimensionnés, mal places ou effacés exposent le gestionnaire à des sanctions et dégradent le fonctionnement du parking.
       </p>
       <p>
         <strong>Renov&apos;Route accompagne les gestionnaires de parkings depuis 2016.</strong> Plus de 1 000 projets réalisés à Lyon et en Rhône-Alpes, pour des clients comme Carrefour, Lidl et McDonald&apos;s. Diagnostic, plan de marquage, application et suivi : chaque étape est prise en charge.
       </p>
       <p>
-        <strong>Vous souhaitez mettre à jour les pictogrammes de votre parking ?</strong> <Link href="/devis">Demandez votre devis gratuit</Link>. Reponse garantie en 48h.
+        <strong>Vous souhaitez mettre à jour les pictogrammes de votre parking ?</strong> <Link href="/devis">Demandez votre devis gratuit</Link>. Réponse garantie en 48h.
       </p>
     </>
   )

@@ -17,10 +17,10 @@ export default function Content() {
   return (
     <>
       <p>
-        Un parking sans panneaux, c&apos;est un parking ou tout le monde improvise. Les visiteurs se garent sur les places réservées. Les livraisons bloquent la circulation. Les places PMR sont occupées par des véhicules non autorisés. Et quand un accident survient, c&apos;est le gestionnaire qui se retrouvé en difficulte face à l&apos;assureur.
+        Un parking sans panneaux, c&apos;est un parking ou tout le monde improvise. Les visiteurs se garent sur les places réservées. Les livraisons bloquent la circulation. Les places PMR sont occupées par des véhicules non autorisés. Et quand un accident survient, c&apos;est le gestionnaire qui se retrouve en difficulté face à l&apos;assureur.
       </p>
       <p>
-        <strong>En 2025, 68% des litiges liés au stationnement en copropriété impliquaient un défaut de signalisation.</strong> Des panneaux parking absents, mal positionnes ou non conformes. Le problème n&apos;est jamais la mauvaise volonté des usagers. C&apos;est le manque de clarte de la signalisation.
+        <strong>En 2025, 68% des litiges liés au stationnement en copropriété impliquaient un défaut de signalisation.</strong> Des panneaux parking absents, mal positionnes ou non conformes. Le problème n&apos;est jamais la mauvaise volonté des usagers. C&apos;est le manque de clarté de la signalisation.
       </p>
       <p>
         Ce guide vous présente tout ce que vous devez savoir sur les <strong>panneaux parking</strong> : types, réglementation IISR, dimensions, matériaux, prix et erreurs à éviter. Que vous geriez un parking de supermarché, un parking d&apos;entreprise ou une copropriété, vous trouverez ici les réponses concrètes pour une signalisation conforme et durable.
@@ -36,7 +36,7 @@ export default function Content() {
         Marc, directeur technique d&apos;un centre commercial Carrefour en périphérie lyonnaise, en a fait l&apos;expérience. Son parking de 450 places fonctionnait avec un marquage au sol vieillissant et seulement quatre panneaux directionnels. Résultat : des accrochages réguliers aux intersections, des files d&apos;attente aux heures de pointe, et trois réclamations d&apos;assurance en six mois.
       </p>
       <p>
-        En septembre 2025, après un <Link href="/competences/conseil-expertise">audit de conseil et expertise</Link>, Renov&apos;Route a déployé un plan complet de signalisation : 28 panneaux directionnels, 12 panneaux de limitation de vitesse, 6 panneaux de stationnement réservé et un <Link href="/competences/tracage-retracage-parking">traçage de parking</Link> intégral. Six mois plus tard, zéro accrochage et un flux de circulation fluide même le samedi apres-midi.
+        En septembre 2025, après un <Link href="/competences/conseil-expertise">audit de conseil et expertise</Link>, Renov&apos;Route a déployé un plan complet de signalisation : 28 panneaux directionnels, 12 panneaux de limitation de vitesse, 6 panneaux de stationnement réservé et un <Link href="/competences/tracage-retracage-parking">traçage de parking</Link> intégral. Six mois plus tard, zéro accrochage et un flux de circulation fluide même le samedi après-midi.
       </p>
       <p>
         <strong>Votre parking manque de signalisation ?</strong> Renov&apos;Route réalise un diagnostic complet et vous propose un plan de <Link href="/competences/signalisation-verticale">signalisation verticale</Link> adapté à votre site. <Link href="/devis">Demandez un devis gratuit</Link>, réponse en 48h.
@@ -74,10 +74,10 @@ export default function Content() {
         Le <strong>panneau parking privé</strong> n&apos;est pas défini par l&apos;IISR mais par le droit de la propriété. Il indique que le parking est réservé à certains usagers. Plusieurs formats existent :
       </p>
       <ul>
-        <li><strong>Panneau &quot;Propriete privée - stationnement réservé&quot;</strong> : le plus classique pour les copropriétés et entreprises</li>
+        <li><strong>Panneau &quot;Propriété privée - stationnement réservé&quot;</strong> : le plus classique pour les copropriétés et entreprises</li>
         <li><strong>Panneau &quot;Parking réservé aux clients&quot;</strong> : utilisé par les commerces, restaurants et hôtels</li>
         <li><strong>Panneau &quot;Parking réservé au personnel&quot;</strong> : pour les parkings d&apos;entreprise</li>
-        <li><strong>Panonceau de prescription</strong> : plaque complémentaire sous un panneau réglementaire, precisant &quot;Sauf riverains&quot;, &quot;Sauf livraisons&quot;, etc.</li>
+        <li><strong>Panonceau de prescription</strong> : plaque complémentaire sous un panneau réglementaire, précisant &quot;Sauf riverains&quot;, &quot;Sauf livraisons&quot;, etc.</li>
       </ul>
       <p>
         Pour être opposable, un <strong>panneau parking privé</strong> doit être visible, lisible et place à l&apos;entrée du parking. Sans cela, un automobiliste qui se garé sur votre terrain pourra contester une mise en fourriere.
@@ -90,10 +90,10 @@ export default function Content() {
       <ul>
         <li>Le panneau B6a1 (stationnement interdit) avec un panonceau M6h representant une personne en fauteuil roulant</li>
         <li>Un marquage au sol spécifique (logo PMR peint, bande bleue)</li>
-        <li>Des dimensions de place majorees (3,30 m de large minimum)</li>
+        <li>Des dimensions de place majorées (3,30 m de large minimum)</li>
       </ul>
       <p>
-        La conformité PMR est vérifiée lors des commissions d&apos;accessibilité. Un <strong>panneau parking</strong> PMR manquant ou non conforme peut entraîner une mise en demeure et des sanctions financieres.
+        La conformité PMR est vérifiée lors des commissions d&apos;accessibilité. Un <strong>panneau parking</strong> PMR manquant ou non conforme peut entraîner une mise en demeure et des sanctions financières.
       </p>
 
       <h3>Panneaux de direction et d&apos;indication</h3>
@@ -147,7 +147,7 @@ export default function Content() {
         <li>La <strong>rétroréflexion</strong> du panneau (visibilité de nuit)</li>
         <li>La <strong>résistance mécanique</strong> aux vents et aux chocs</li>
         <li>La <strong>durabilité des couleurs</strong> dans le temps</li>
-        <li>La <strong>lisibilite</strong> à distance</li>
+        <li>La <strong>lisibilité</strong> à distance</li>
       </ul>
       <p>
         Un panneau non certifié NF ne sera pas reconnu en cas de litige. C&apos;est pourquoi Renov&apos;Route utilisé exclusivement des <strong>panneaux parking</strong> homologues, fournis par des fabricants certifiés.
@@ -231,7 +231,7 @@ export default function Content() {
         Trois types de supports sont utilisés pour les <strong>panneaux parking</strong> :
       </p>
       <ul>
-        <li><strong>Poteau rond en acier galvanisé (diamètre 60 ou 76 mm)</strong> : le standard. Scellement direct dans le sol ou sur platine boulonnee.</li>
+        <li><strong>Poteau rond en acier galvanisé (diamètre 60 ou 76 mm)</strong> : le standard. Scellement direct dans le sol ou sur platine boulonnée.</li>
         <li><strong>Poteau carre aluminium</strong> : plus esthétique, utilisé dans les parkings haut de gamme.</li>
         <li><strong>Fixation murale</strong> : pour les parkings souterrains ou couverts, le panneau est fixé directement sur le mur ou la structure.</li>
       </ul>
@@ -254,11 +254,11 @@ export default function Content() {
 
       <h3>Film rétroréfléchissant</h3>
       <p>
-        Le film appliqué sur le panneau déterminé sa visibilité nocturne. Trois classes existent :
+        Le film appliqué sur le panneau détermine sa visibilité nocturne. Trois classes existent :
       </p>
       <ul>
         <li><strong>Classe 1 (EG - Engineer Grade)</strong> : rétroréflexion basique. Suffisant pour les parkings éclairés.</li>
-        <li><strong>Classe 2 (HIP - High Intensity Prismatic)</strong> : rétroréflexion haute intensité. Recommande pour les parkings avec éclairage faible ou les voies d&apos;accès.</li>
+        <li><strong>Classe 2 (HIP - High Intensity Prismatic)</strong> : rétroréflexion haute intensité. Recommandé pour les parkings avec éclairage faible ou les voies d&apos;accès.</li>
         <li><strong>Classe 3 (DG - Diamond Grade)</strong> : rétroréflexion maximale. Réservé aux routes a grande vitesse, rarement nécessaire en parking.</li>
       </ul>
       <p>
@@ -334,7 +334,7 @@ export default function Content() {
         <li><strong>Le film rétroréfléchissant</strong> : classe 2 coûte 20 à 30% de plus que classe 1</li>
         <li><strong>Le support</strong> : poteau rond standard vs poteau carre aluminium vs fixation murale</li>
         <li><strong>L&apos;accessibilité du site</strong> : parking en sous-sol ou en etage = coût de pose majore</li>
-        <li><strong>Le sol</strong> : enrobe, béton ou pavés nécessitent des techniques de scellement différentes</li>
+        <li><strong>Le sol</strong> : enrobé, béton ou pavés nécessitent des techniques de scellement différentes</li>
       </ul>
 
       <h3>L&apos;expérience d&apos;Amandine, syndic de copropriété à Lyon 3</h3>
@@ -349,7 +349,7 @@ export default function Content() {
 
       <h3>Pourquoi les deux sont indissociables</h3>
       <p>
-        Un <strong>panneau parking</strong> seul ne suffit pas. Le marquage au sol (lignes, pictogrammes, flèches) complète la signalisation verticale en donnant des indications au niveau de la chaussée. L&apos;IISR prevoit que certaines prescriptions doivent être signalées à la fois par un panneau et par un marquage :
+        Un <strong>panneau parking</strong> seul ne suffit pas. Le marquage au sol (lignes, pictogrammes, flèches) complète la signalisation verticale en donnant des indications au niveau de la chaussée. L&apos;IISR prévoit que certaines prescriptions doivent être signalées à la fois par un panneau et par un marquage :
       </p>
       <ul>
         <li><strong>Places PMR</strong> : panneau + marquage au sol obligatoires</li>
@@ -357,12 +357,12 @@ export default function Content() {
         <li><strong>Zones interdites</strong> : panneau + hachures ou zigzags au sol</li>
       </ul>
       <p>
-        Renov&apos;Route propose des prestations combinant <Link href="/competences/signalisation-verticale">signalisation verticale</Link> et <Link href="/competences/tracage-retracage-parking">marquage au sol</Link> pour une coherence totale de votre parking. Cette approche globale évite les contradictions entre panneaux et marquage, une source fréquente de litiges.
+        Renov&apos;Route propose des prestations combinant <Link href="/competences/signalisation-verticale">signalisation verticale</Link> et <Link href="/competences/tracage-retracage-parking">marquage au sol</Link> pour une cohérence totale de votre parking. Cette approche globale évite les contradictions entre panneaux et marquage, une source fréquente de litiges.
       </p>
 
       <h3>Les accessoires complémentaires</h3>
       <p>
-        Au-delà des panneaux, d&apos;autres équipements completent la signalisation d&apos;un parking :
+        Au-delà des panneaux, d&apos;autres équipements complètent la signalisation d&apos;un parking :
       </p>
       <ul>
         <li><strong>Miroirs de sécurité</strong> : pour les angles morts et les virages en parking souterrain</li>
@@ -371,7 +371,7 @@ export default function Content() {
         <li><strong>Ralentisseurs</strong> : pour imposer physiquement la réduction de vitesse</li>
       </ul>
       <p>
-        Decouvrez la gamme complète d&apos;<Link href="/competences/accessoires-parking">accessoires de parking</Link> fournis et installés par Renov&apos;Route.
+        Découvrez la gamme complète d&apos;<Link href="/competences/accessoires-parking">accessoires de parking</Link> fournis et installés par Renov&apos;Route.
       </p>
 
       <h2>Les erreurs courantes à éviter</h2>
@@ -388,12 +388,12 @@ export default function Content() {
 
       <h3>Erreur n&#176;3 : oublier la signalisation PMR</h3>
       <p>
-        C&apos;est la non-conformite la plus fréquente lors des contrôlés d&apos;accessibilité. Les places PMR doivent être signalées par un <strong>panneau stationnement</strong> reserve ET par un marquage au sol spécifique. L&apos;absence de l&apos;un ou l&apos;autre constitue un manquement.
+        C&apos;est la non-conformité la plus fréquente lors des contrôlés d&apos;accessibilité. Les places PMR doivent être signalées par un <strong>panneau stationnement</strong> reserve ET par un marquage au sol spécifique. L&apos;absence de l&apos;un ou l&apos;autre constitue un manquement.
       </p>
 
       <h3>Erreur n&#176;4 : ne pas entretenir la signalisation</h3>
       <p>
-        Un panneau decolore ou illisible perd toute valeur réglementaire. La signalisation doit être inspectee régulièrement et remplacée quand elle n&apos;est plus conforme. Renov&apos;Route assure la maintenance et le remplacement des <strong>panneaux parking</strong> dans le cadre de contrats d&apos;entretien annuels.
+        Un panneau decolore ou illisible perd toute valeur réglementaire. La signalisation doit être inspectée régulièrement et remplacée quand elle n&apos;est plus conforme. Renov&apos;Route assure la maintenance et le remplacement des <strong>panneaux parking</strong> dans le cadre de contrats d&apos;entretien annuels.
       </p>
 
       <h3>Erreur n&#176;5 : des contradictions entre panneaux et marquage</h3>
@@ -430,13 +430,13 @@ export default function Content() {
 
       <h2>Une signalisation claire protège votre parking et vos usagers</h2>
       <p>
-        Les <strong>panneaux parking</strong> ne sont pas un détail. Ils structurent la circulation, previennent les conflits, protègent votre responsabilité juridique et garantissent l&apos;accessibilité de votre parking. Une signalisation conforme aux normes IISR et NF, combinee à un <Link href="/competences/tracage-retracage-parking">marquage au sol</Link> de qualité, transforme un parking problématique en espace organisé et sécurisé.
+        Les <strong>panneaux parking</strong> ne sont pas un détail. Ils structurent la circulation, previennent les conflits, protègent votre responsabilité juridique et garantissent l&apos;accessibilité de votre parking. Une signalisation conforme aux normes IISR et NF, combinée à un <Link href="/competences/tracage-retracage-parking">marquage au sol</Link> de qualité, transforme un parking problématique en espace organisé et sécurisé.
       </p>
       <p>
         Renov&apos;Route accompagne depuis 2016 les gestionnaires de parkings dans toute la France. Plus de 1 000 projets réalisés pour des clients comme Carrefour, Lidl, McDonald&apos;s, l&apos;Armée de Terre et EM Lyon. Chaque projet commence par un diagnostic sur site et un devis détaille, gratuit et sans engagement.
       </p>
       <p>
-        <strong>Votre parking a besoin de panneaux conformes ?</strong> Appelez le <strong>07 86 81 96 92</strong> ou <Link href="/devis">demandez votre devis gratuit en ligne</Link>. Reponse garantie en 48h. Decouvrez aussi <Link href="/realisations">nos réalisations</Link> pour voir des exemples concrets de projets de signalisation.
+        <strong>Votre parking a besoin de panneaux conformes ?</strong> Appelez le <strong>07 86 81 96 92</strong> ou <Link href="/devis">demandez votre devis gratuit en ligne</Link>. Réponse garantie en 48h. Découvrez aussi <Link href="/realisations">nos réalisations</Link> pour voir des exemples concrets de projets de signalisation.
       </p>
     </>
   )

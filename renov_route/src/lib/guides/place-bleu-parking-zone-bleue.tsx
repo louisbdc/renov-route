@@ -48,7 +48,7 @@ export default function Content() {
       <ul>
         <li><strong>Gratuité</strong> : aucune redevance ni horodateur</li>
         <li><strong>Durée limitée</strong> : généralement 1h30, parfois 30 minutes ou 2 heures selon l&apos;arrêté</li>
-        <li><strong>Contrôle par disque</strong> : l&apos;automobiliste affiché son heure d&apos;arrivée sur un disque normalise</li>
+        <li><strong>Contrôle par disque</strong> : l&apos;automobiliste affiché son heure d&apos;arrivée sur un disque normalisé</li>
       </ul>
       <p>
         Ce système favorisé la <strong>rotation des véhicules</strong> dans les zones à forte demande : centres-villes commerçants, abords de garés, parkings de surfaces commerciales.
@@ -84,7 +84,7 @@ export default function Content() {
         <li>Le périmètre exact (rues, portions de parking)</li>
         <li>Les jours et horaires d&apos;application (souvent du lundi au samedi, 9h-19h)</li>
         <li>La durée maximale de stationnement autorisée</li>
-        <li>Les éventuelles derogations (résidents, PMR, véhicules de livraison)</li>
+        <li>Les éventuelles dérogations (résidents, PMR, véhicules de livraison)</li>
       </ul>
 
       <h3>Le disque européen de stationnement</h3>
@@ -159,7 +159,7 @@ export default function Content() {
         <li><strong>Marquage sur enrobé dégradé</strong> : la peinture ne tient pas sur un sol fissure ou poreux, il faut d&apos;abord réparer le support</li>
       </ul>
 
-      <h2>La signalisation verticale associee aux places bleues</h2>
+      <h2>La signalisation verticale associée aux places bleues</h2>
       <p>
         Le marquage au sol ne fonctionne pas seul. La <Link href="/competences/signalisation-verticale">signalisation verticale</Link> est indispensable pour rendre la zone bleue opposable juridiquement.
       </p>
@@ -183,10 +183,10 @@ export default function Content() {
       <ul>
         <li>Les horaires d&apos;application (&laquo; 9h-19h sauf dimanche &raquo;)</li>
         <li>La durée maximale (&laquo; 1h30 &raquo;)</li>
-        <li>Les catégories exonerees (&laquo; sauf résidents munis de la carte &raquo;)</li>
+        <li>Les catégories exonérées (&laquo; sauf résidents munis de la carte &raquo;)</li>
       </ul>
       <p>
-        Marc, adjoint au maire d&apos;une commune de l&apos;Ouest lyonnais, nous a contactes en 2025 pour équiper 40 places en zone bleue sur le parking de la place du marche. Le projet comprenait le marquage au sol, la pose de 6 panneaux B6b4/B6b5 et 3 panonceaux horaires. Délai de réalisation : 4 jours ouvres. Résultat : une rotation des véhicules multipliee par trois les jours de marche.
+        Marc, adjoint au maire d&apos;une commune de l&apos;Ouest lyonnais, nous a contactes en 2025 pour équiper 40 places en zone bleue sur le parking de la place du marche. Le projet comprenait le marquage au sol, la pose de 6 panneaux B6b4/B6b5 et 3 panonceaux horaires. Délai de réalisation : 4 jours ouvres. Résultat : une rotation des véhicules multipliée par trois les jours de marche.
       </p>
 
       <h2>Disque de stationnement : règles d&apos;utilisation et sanctions</h2>
@@ -197,7 +197,7 @@ export default function Content() {
       <h3>Comment utiliser le disque ?</h3>
       <ol>
         <li><strong>Positionnez l&apos;heure d&apos;arrivée</strong> sur la prochaine demi-heure (si vous arrivez à 10h12, affichez 10h30)</li>
-        <li><strong>Placez le disque</strong> derriere le pare-brise, visible depuis l&apos;extérieur</li>
+        <li><strong>Placez le disque</strong> derrière le pare-brise, visible depuis l&apos;extérieur</li>
         <li><strong>Ne deplacez jamais le disque</strong> une fois garé, c&apos;est considéré comme une fraude</li>
       </ol>
       <p>
@@ -244,14 +244,14 @@ export default function Content() {
       <ul>
         <li>Signalisation absente ou non conforme (panneau manquant, marquage effacé)</li>
         <li>Erreur sur le lieu ou l&apos;heure du constat</li>
-        <li>Véhicule en panne justifiee</li>
+        <li>Véhicule en panne justifiée</li>
         <li>Stationnement hors des horaires d&apos;application</li>
       </ul>
       <p>
         Un marquage au sol dégradé ou un panneau manquant peut constituer un motif d&apos;annulation. C&apos;est pourquoi l&apos;entretien régulier de la signalisation est un enjeu juridique autant qu&apos;esthétique.
       </p>
 
-      <h2>Place bleue vs place payante vs place gratuite : quelles differences ?</h2>
+      <h2>Place bleue vs place payante vs place gratuite : quelles différences ?</h2>
       <p>
         Trois regimes de stationnement coexistent sur la voirie française. Comprendre leurs différences permet de choisir le bon dispositif.
       </p>
@@ -316,10 +316,10 @@ export default function Content() {
 
       <h3>1. Étude de besoin</h3>
       <p>
-        Analyse des flux de stationnement, du taux d&apos;occupation et de la durée moyenne de stationnement. Cette étude justifie la décision et dimensionné la zone.
+        Analyse des flux de stationnement, du taux d&apos;occupation et de la durée moyenne de stationnement. Cette étude justifie la décision et dimensionne la zone.
       </p>
 
-      <h3>2. Deliberation et arrêté municipal</h3>
+      <h3>2. Délibération et arrêté municipal</h3>
       <p>
         Le conseil municipal delibere. Le maire prend un arrêté fixant le périmètre, les horaires et la durée maximale. L&apos;arrêté est affiché en mairie et publié.
       </p>
@@ -341,7 +341,7 @@ export default function Content() {
 
       <h2>Prix du marquage zone bleue pour les collectivités</h2>
       <p>
-        Le budget dépend du nombre de places, de l&apos;etat du sol et du type de produit choisi.
+        Le budget dépend du nombre de places, de l&apos;état du sol et du type de produit choisi.
       </p>
 
       <h3>Fourchettes de prix indicatives</h3>
@@ -441,18 +441,18 @@ export default function Content() {
 
       <h3>Quelle est la différence entre une place bleue et une place PMR ?</h3>
       <p>
-        La place bleue est une place à durée limitée ouverte à tous les véhicules. La place PMR est réservée aux personnes handicapees titulaires d&apos;une carte mobilité inclusion (CMI). Le marquage PMR utilisé des bandes blanches et un pictogramme bleu, tandis que la place bleue utilisé des bandes bleues. Ce sont deux dispositifs distincts.
+        La place bleue est une place à durée limitée ouverte à tous les véhicules. La place PMR est réservée aux personnes handicapées titulaires d&apos;une carte mobilité inclusion (CMI). Le marquage PMR utilisé des bandes blanches et un pictogramme bleu, tandis que la place bleue utilisé des bandes bleues. Ce sont deux dispositifs distincts.
       </p>
 
       <h2>Conclusion : un marquage conforme pour des places bleues efficaces</h2>
       <p>
-        La <strong>place bleue parking</strong> est un outil de gestion du stationnement redoutablement efficace quand elle est mise en place dans les règles. Arrete municipal, marquage au sol conforme à la norme NF EN 1436, signalisation verticale complète : chaque élément compte.
+        La <strong>place bleue parking</strong> est un outil de gestion du stationnement redoutablement efficace quand elle est mise en place dans les règles. Arrêté municipal, marquage au sol conforme à la norme NF EN 1436, signalisation verticale complète : chaque élément compte.
       </p>
       <p>
         Que vous soyez une collectivité souhaitant créer une zone bleue ou un gestionnaire de parking privé cherchant à améliorer la rotation des véhicules, Renov&apos;Route vous accompagne de l&apos;étude à la réception du chantier. Plus de 1 000 projets réalisés depuis 2016, des clients comme Carrefour, Lidl et McDonald&apos;s, et une garantie de 2 ans sur tous nos marquages.
       </p>
       <p>
-        <strong><Link href="/devis">Demandez votre devis gratuit</Link></strong> ou appelez-nous au <strong>07 86 81 96 92</strong>. Reponse en 48h.
+        <strong><Link href="/devis">Demandez votre devis gratuit</Link></strong> ou appelez-nous au <strong>07 86 81 96 92</strong>. Réponse en 48h.
       </p>
     </>
   )

@@ -33,7 +33,7 @@ export default function Content() {
         Ce scénario, Renov&apos;Route le constate plusieurs fois par mois sur des parkings de la métropole lyonnaise. La cause est presque toujours la même : la <strong>signalisation horizontale et verticale</strong> a été pensée séparément, où l&apos;un des deux volets a été oublié.
       </p>
       <p>
-        Cet article vous explique ce que couvre chaque type de signalisation, comment ils se completent, ce que disent les normes, et combien cela coûte. Que vous soyez gestionnaire de parking, responsable de copropriété, directeur de site industriel ou elu en charge de voirie communale, vous trouverez ici les réponses concrètes pour prendre les bonnes décisions.
+        Cet article vous explique ce que couvre chaque type de signalisation, comment ils se complètent, ce que disent les normes, et combien cela coûte. Que vous soyez gestionnaire de parking, responsable de copropriété, directeur de site industriel ou elu en charge de voirie communale, vous trouverez ici les réponses concrètes pour prendre les bonnes décisions.
       </p>
 
       <h2>Signalisation horizontale : tout ce qui est au sol</h2>
@@ -46,11 +46,11 @@ export default function Content() {
         Voici les principaux marquages que vous rencontrez au quotidien :
       </p>
       <ul>
-        <li><strong>Lignes de délimitation</strong> : lignes continues ou discontinues qui separent les voies, délimitent les places de stationnement ou interdisent le franchissement</li>
+        <li><strong>Lignes de délimitation</strong> : lignes continues ou discontinues qui séparent les voies, délimitent les places de stationnement ou interdisent le franchissement</li>
         <li><strong>Flèches directionnelles</strong> : flèches peintes au sol indiquant le sens de circulation, les virages ou les voies d&apos;affectation</li>
         <li><strong>Passages piétons</strong> : bandes blanches parallèles (dites &quot;zebre&quot;) de 50 cm de large, espacées de 50 cm</li>
-        <li><strong>Pictogrammes</strong> : symboles PMR (fauteuil roulant), vélo, zone de livraison, stop, cedez-le-passage</li>
-        <li><strong>Bandes d&apos;alerte et de guidage</strong> : bandes podotactiles ou contrastees pour l&apos;accessibilité des personnes malvoyantes</li>
+        <li><strong>Pictogrammes</strong> : symboles PMR (fauteuil roulant), vélo, zone de livraison, stop, cédez-le-passage</li>
+        <li><strong>Bandes d&apos;alerte et de guidage</strong> : bandes podotactiles ou contrastées pour l&apos;accessibilité des personnes malvoyantes</li>
         <li><strong>Hachures</strong> : zones neutralisées (jaunes pour interdiction de stationnement, blanches pour séparation de flux)</li>
       </ul>
       <p>
@@ -141,12 +141,12 @@ export default function Content() {
             </tr>
             <tr>
               <td><strong>Visibilité de nuit</strong></td>
-              <td>Depend de la rétroréflexion (billes de verre)</td>
+              <td>Dépend de la rétroréflexion (billes de verre)</td>
               <td>Film rétroréfléchissant, éclairage possible</td>
             </tr>
             <tr>
               <td><strong>Visibilité sol mouille/enneige</strong></td>
-              <td>Reduite ou nulle</td>
+              <td>Réduite ou nulle</td>
               <td>Maintenue</td>
             </tr>
             <tr>
@@ -206,12 +206,12 @@ export default function Content() {
         <li><strong>Conformité</strong> : de nombreuses réglementations exigent les deux. Un passage piéton doit combiner bandes au sol et panneaux C20a. Une place PMR doit combiner pictogramme au sol et panneau B6a1 avec panonceau M6h</li>
       </ul>
       <p>
-        Sophie, responsable HSE d&apos;une zone industrielle de 12 hectares à Saint-Priest, a vecu un audit de sécurité qui l&apos;a illustre. L&apos;inspecteur a releve 23 non-conformites. Toutes concernaient des marquages au sol sans panneau associe (zones de stockage, voies piétonnes, sens de circulation). La signalisation horizontale existait. La signalisation verticale manquait. Le site a reçu une mise en demeure avec un délai de 3 mois pour mise en conformité.
+        Sophie, responsable HSE d&apos;une zone industrielle de 12 hectares à Saint-Priest, a vecu un audit de sécurité qui l&apos;a illustre. L&apos;inspecteur a releve 23 non-conformités. Toutes concernaient des marquages au sol sans panneau associe (zones de stockage, voies piétonnes, sens de circulation). La signalisation horizontale existait. La signalisation verticale manquait. Le site a reçu une mise en demeure avec un délai de 3 mois pour mise en conformité.
       </p>
 
-      <h3>Hierarchie en cas de contradiction</h3>
+      <h3>Hiérarchie en cas de contradiction</h3>
       <p>
-        Que se passe-t-il quand un marquage au sol et un panneau donnent des informations contradictoires ? L&apos;IISR est claire : <strong>la signalisation verticale prime sur la signalisation horizontale</strong>. Un panneau de sens interdit prevaut sur une flèche peinte au sol qui indiquerait le contraire.
+        Que se passe-t-il quand un marquage au sol et un panneau donnent des informations contradictoires ? L&apos;IISR est claire : <strong>la signalisation verticale prime sur la signalisation horizontale</strong>. Un panneau de sens interdit prévaut sur une flèche peinte au sol qui indiquerait le contraire.
       </p>
       <p>
         En pratique, cette contradiction ne devrait jamais exister. Elle révèle un défaut de maintenance ou une erreur de conception. Un{' '}
@@ -226,14 +226,14 @@ export default function Content() {
         Un parking de 100 places nécessite en général :
       </p>
       <ul>
-        <li><strong>Signalisation horizontale</strong> : traçage des 100 places (lignes T3 de 5 cm), 4-6 places PMR avec pictogramme, 2-4 passages piétons, flèches directionnelles, zones hachurees (accès pompiers, livraison)</li>
+        <li><strong>Signalisation horizontale</strong> : traçage des 100 places (lignes T3 de 5 cm), 4-6 places PMR avec pictogramme, 2-4 passages piétons, flèches directionnelles, zones hachurées (accès pompiers, livraison)</li>
         <li><strong>Signalisation verticale</strong> : panneau P à l&apos;entrée, panneau B14 (20 km/h), panneaux directionnels (entrée/sortie), panneaux PMR, panneaux places réservées (visiteurs, direction, livraison)</li>
         <li><strong>Accessoires</strong> :{' '}
           <Link href="/competences/accessoires-parking">butées de parking, potelets, miroirs de sécurité</Link>
         </li>
       </ul>
       <p>
-        <strong>Budget estimatif</strong> : 3 000 à 8 000 EUR HT pour le marquage complet + 1 500 à 4 000 EUR HT pour la signalisation verticale. Les coûts varient selon l&apos;etat du sol et le nombre de panneaux.
+        <strong>Budget estimatif</strong> : 3 000 à 8 000 EUR HT pour le marquage complet + 1 500 à 4 000 EUR HT pour la signalisation verticale. Les coûts varient selon l&apos;état du sol et le nombre de panneaux.
       </p>
 
       <h3>Zone industrielle ou logistique</h3>
@@ -253,8 +253,8 @@ export default function Content() {
         Les communes sont responsables de la signalisation sur leur réseau. Un programme de signalisation comprend généralement :
       </p>
       <ul>
-        <li><strong>Marquage routier</strong> : axes, rives, passages piétons, stop, cedez-le-passage, bandes cyclables</li>
-        <li><strong>Panneaux</strong> : réglementation complète (vitesse, priorité, stationnement), panneaux de direction, panneaux d&apos;agglomeration</li>
+        <li><strong>Marquage routier</strong> : axes, rives, passages piétons, stop, cédez-le-passage, bandes cyclables</li>
+        <li><strong>Panneaux</strong> : réglementation complète (vitesse, priorité, stationnement), panneaux de direction, panneaux d&apos;agglomération</li>
       </ul>
       <p>
         Renov&apos;Route accompagne les collectivités locales de l&apos;audit à la réalisation. Consultez nos{' '}
@@ -275,8 +275,8 @@ export default function Content() {
       </p>
       <ul>
         <li><strong>Routes nationales et autoroutes</strong> : État (DIR ou sociétés concessionnaires)</li>
-        <li><strong>Routes departementales</strong> : Conseil departemental</li>
-        <li><strong>Voies communales</strong> : Commune (ou intercommunalite par delegation)</li>
+        <li><strong>Routes départementales</strong> : Conseil departemental</li>
+        <li><strong>Voies communales</strong> : Commune (ou intercommunalite par délégation)</li>
       </ul>
       <p>
         Le gestionnaire est responsable de la pose, de l&apos;entretien et du remplacement de la <strong>signalisation horizontale et verticale</strong>. En cas d&apos;accident lié à un défaut de signalisation, sa responsabilité administrative peut être engagée.
@@ -293,7 +293,7 @@ export default function Content() {
         <li>Les bailleurs (pour les parkings locatifs)</li>
       </ul>
       <p>
-        Aucune obligation légale n&apos;impose de recourir à un professionnel pour la pose. Mais un prestataire qualifie garantit la conformité aux normes, la durabilité des matériaux et une pose dans les règles de l&apos;art. C&apos;est la différence entre un marquage qui tient 6 mois et un qui tient 3 ans.
+        Aucune obligation légale n&apos;impose de recourir à un professionnel pour la pose. Mais un prestataire qualifié garantit la conformité aux normes, la durabilité des matériaux et une pose dans les règles de l&apos;art. C&apos;est la différence entre un marquage qui tient 6 mois et un qui tient 3 ans.
       </p>
 
       <h2>Prix de la signalisation horizontale et verticale en 2026</h2>
@@ -397,7 +397,7 @@ export default function Content() {
 
       <h3>Quelle signalisation prime en cas de contradiction ?</h3>
       <p>
-        La signalisation verticale (panneaux) prime toujours sur la signalisation horizontale (marquage au sol), conformément à l&apos;IISR. En pratique, toute contradiction doit être corrigee immédiatement.
+        La signalisation verticale (panneaux) prime toujours sur la signalisation horizontale (marquage au sol), conformément à l&apos;IISR. En pratique, toute contradiction doit être corrigée immédiatement.
       </p>
 
       <h3>Quelles normes s&apos;appliquent à la signalisation horizontale et verticale ?</h3>
@@ -412,12 +412,12 @@ export default function Content() {
 
       <h3>Combien coûte la mise en conformité d&apos;un parking de 50 places ?</h3>
       <p>
-        Comptez entre 2 000 et 5 000 EUR HT pour le marquage au sol et entre 800 et 2 500 EUR HT pour la signalisation verticale. Le coût exact dépend de l&apos;etat du sol, du nombre de panneaux et de la complexité du plan de circulation.
+        Comptez entre 2 000 et 5 000 EUR HT pour le marquage au sol et entre 800 et 2 500 EUR HT pour la signalisation verticale. Le coût exact dépend de l&apos;état du sol, du nombre de panneaux et de la complexité du plan de circulation.
       </p>
 
       <h3>À quelle fréquence faut-il renouveler la signalisation ?</h3>
       <p>
-        Le marquage au sol (signalisation horizontale) doit être retrace tous les 1 à 3 ans selon le matériau et le trafic. La signalisation verticale (panneaux) dure 7 à 15 ans. Prévoyez un audit annuel pour vérifier l&apos;etat des deux.
+        Le marquage au sol (signalisation horizontale) doit être retrace tous les 1 à 3 ans selon le matériau et le trafic. La signalisation verticale (panneaux) dure 7 à 15 ans. Prévoyez un audit annuel pour vérifier l&apos;état des deux.
       </p>
 
       <h2>Conclusion : ne separez jamais l&apos;horizontale et la verticale</h2>

@@ -412,7 +412,7 @@ export default function Content() {
         <li><strong>Rénovation lourde</strong> (réfection de chaussée) : à partir de 80 euros/m²</li>
       </ul>
       <p>
-        Le meilleur moyen d&apos;obtenir un budget précis reste le devis sur site. Un professionnel identifié les postes réellement nécessaires, élimine les travaux superflus et propose les matériaux adaptés à votre usage.
+        Le meilleur moyen d&apos;obtenir un budget précis reste le devis sur site. Un professionnel identifie les postes réellement nécessaires, élimine les travaux superflus et propose les matériaux adaptés à votre usage.
       </p>
       <p>
         <strong>Vous souhaitez connaître le coût exact de rénovation de votre parking ?</strong> <Link href="/devis">Demandez votre devis gratuit</Link>. Notre expert technique se déplace sous 48h pour un diagnostic complet. Un seul interlocuteur, du diagnostic à la réception des travaux. Appelez le 07 86 81 96 92 ou remplissez notre formulaire en ligne.

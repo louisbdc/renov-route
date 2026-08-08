@@ -215,7 +215,7 @@ export default function Content() {
 
       <h2>Faites le bon choix du premier coup</h2>
       <p>
-        La réparation de nids de poule n'est pas un sujet glamour. Mais c'est un sujet qui coûte cher quand on se trompe de méthode. L'enrobé à froid à son utilité en dépannage d'urgence. Pour tout le reste, la résine polyuréthane est la solution qui fait économiser de l'argent, du temps et des tracas.
+        La réparation de nids de poule n'est pas un sujet glamour. Mais c'est un sujet qui coûte cher quand on se trompe de méthode. L'enrobé à froid a son utilité en dépannage d'urgence. Pour tout le reste, la résine polyuréthane est la solution qui fait économiser de l'argent, du temps et des tracas.
       </p>
       <p><strong>Ce qu'il faut retenir :</strong></p>
       <ul>

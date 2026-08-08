@@ -96,7 +96,7 @@ export default function Content() {
 
       <h3>Borne escamotable (ou rétractable)</h3>
       <p>
-        Un cylindre métallique qui se leve et s&apos;abaisse dans le sol. Invisible quand abaissée, elle bloque physiquement l&apos;accès quand levee.
+        Un cylindre métallique qui se leve et s&apos;abaisse dans le sol. Invisible quand abaissée, elle bloque physiquement l&apos;accès quand levée.
       </p>
       <p><strong>Avantages :</strong></p>
       <ul>
@@ -204,7 +204,7 @@ export default function Content() {
       <ul>
         <li><strong>Système de contrôle d&apos;accès</strong> : à partir de 2 000 euros (badge, télécommande, lecteur de plaque, interphone)</li>
         <li><strong>Badges ou télécommandes</strong> : à partir de 35 euros par unité</li>
-        <li><strong>Travaux de genie civil</strong> : à partir de 1 400 euros (fondation, terrassement, alimentation électrique)</li>
+        <li><strong>Travaux de génie civil</strong> : à partir de 1 400 euros (fondation, terrassement, alimentation électrique)</li>
         <li><strong>Contrat de maintenance annuel</strong> : à partir de 550 euros par an</li>
       </ul>
       <p>
@@ -248,7 +248,7 @@ export default function Content() {
 
       <h3>Réglementation</h3>
       <p>
-        L&apos;installation d&apos;une barrière de parking privée ne nécessite pas de permis de construire, sauf si elle modifié l&apos;aspect extérieur du bâtiment (dans ce cas, une déclaration préalable de travaux peut être requise). En copropriété, l&apos;installation doit être votée en AG (article 25 de la loi du 10 juillet 1965, majorité absolue).
+        L&apos;installation d&apos;une barrière de parking privée ne nécessite pas de permis de construire, sauf si elle modifie l&apos;aspect extérieur du bâtiment (dans ce cas, une déclaration préalable de travaux peut être requise). En copropriété, l&apos;installation doit être votée en AG (article 25 de la loi du 10 juillet 1965, majorité absolue).
       </p>
 
       <h3>Sécurité incendie</h3>
@@ -374,7 +374,7 @@ export default function Content() {
       </p>
       <p>
         <strong>Vous cherchez la barrière adaptée à votre parking ?</strong>{' '}
-        <Link href="/devis">Demandez un devis gratuit</Link> en 48h. Notre équipe vous conseillé sur le type de barrière, le système d&apos;accès et assure l&apos;installation complète.
+        <Link href="/devis">Demandez un devis gratuit</Link> en 48h. Notre équipe vous conseille sur le type de barrière, le système d&apos;accès et assure l&apos;installation complète.
       </p>
     </>
   )

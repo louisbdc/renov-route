@@ -27,7 +27,7 @@ export default function Content() {
       </KeyAnswer>
 
       <p>
-        Vous roulez chaque jour sur des dizaines de marquages au sol sans vraiment les voir. Et pourtant, une étude de la Sécurité Routière estime que <strong>le marquage au sol transmet 80% des informations nécessaires à la conduite</strong>. Lignes blanches, bandes jaunes, zones bleues, pictogrammes : chaque élément à une signification précise, une valeur réglementaire et des conséquences en cas de non-respect.
+        Vous roulez chaque jour sur des dizaines de marquages au sol sans vraiment les voir. Et pourtant, une étude de la Sécurité Routière estime que <strong>le marquage au sol transmet 80% des informations nécessaires à la conduite</strong>. Lignes blanches, bandes jaunes, zones bleues, pictogrammes : chaque élément a une signification précise, une valeur réglementaire et des conséquences en cas de non-respect.
       </p>
       <p>
         Le problème ? Beaucoup de conducteurs confondent les couleurs. Et beaucoup de gestionnaires de parking appliquent des marquages sans connaître les règles. En 2024, un gérant de supermarché près de Villefranche-sur-Saône a découvert lors d&apos;un contrôle que ses places PMR étaient tracées en blanc au lieu du bleu réglementaire. Résultat : une mise en demeure et 5 000 EUR de travaux de mise en conformité.
@@ -41,12 +41,12 @@ export default function Content() {
 
       <h2>Le code couleur du marquage au sol</h2>
       <p>
-        La <strong>couleur marquage au sol</strong> est le premier niveau de lecture de la signalisation horizontale. Chaque couleur correspond à une catégorie de message codifiee par l&apos;Instruction Interministérielle sur la Signalisation Routière (IISR).
+        La <strong>couleur marquage au sol</strong> est le premier niveau de lecture de la signalisation horizontale. Chaque couleur correspond à une catégorie de message codifiée par l&apos;Instruction Interministérielle sur la Signalisation Routière (IISR).
       </p>
 
       <h3>Blanc : le marquage standard</h3>
       <p>
-        Le blanc est la couleur de référence du <strong>marquage au sol</strong> en France. Il constitue plus de 90% de la signalisation horizontale que vous croisez au quotidien. Le <strong>marquage au sol blanc signification</strong> est simple : il réglé la circulation permanente.
+        Le blanc est la couleur de référence du <strong>marquage au sol</strong> en France. Il constitue plus de 90% de la signalisation horizontale que vous croisez au quotidien. Le <strong>marquage au sol blanc signification</strong> est simple : il règle la circulation permanente.
       </p>
       <p>
         Le blanc couvre :
@@ -56,7 +56,7 @@ export default function Content() {
         <li>Les lignes de rive</li>
         <li>Les passages piétons</li>
         <li>Les flèches directionnelles</li>
-        <li>Les lignes de STOP et de cedez-le-passage</li>
+        <li>Les lignes de STOP et de cédez-le-passage</li>
         <li>Les délimitations de voies</li>
         <li>Les places de stationnement standard</li>
       </ul>
@@ -66,7 +66,7 @@ export default function Content() {
 
       <h3>Jaune : les interdictions et le temporaire</h3>
       <p>
-        Le <strong>marquage au sol jaune</strong> à deux fonctions principales : signaler une interdiction de stationnement ou indiquer un marquage temporaire lié à des travaux. C&apos;est une couleur d&apos;alerte qui doit immédiatement attirer votre attention.
+        Le <strong>marquage au sol jaune</strong> a deux fonctions principales : signaler une interdiction de stationnement ou indiquer un marquage temporaire lié à des travaux. C&apos;est une couleur d&apos;alerte qui doit immédiatement attirer votre attention.
       </p>
 
       <h3>Bleu : le stationnement réglementé</h3>
@@ -76,7 +76,7 @@ export default function Content() {
 
       <h3>Vert : les aménagements cyclables</h3>
       <p>
-        Le vert est utilisé pour les pistes et bandes cyclables. Il materialise les espaces réservés aux vélos et renforcé la visibilité de ces aménagements, notamment dans les carrefours.
+        Le vert est utilisé pour les pistes et bandes cyclables. Il matérialise les espaces réservés aux vélos et renforce la visibilité de ces aménagements, notamment dans les carrefours.
       </p>
 
       <h3>Orange : le marquage de chantier</h3>
@@ -99,12 +99,12 @@ export default function Content() {
 
       <h2>Marquage au sol blanc signification : les lignes en détail</h2>
       <p>
-        Le blanc etant la couleur dominante, il est essentiel de comprendre les nuances entre les différentes lignes blanches. Voici ce que chaque type de ligne signifie.
+        Le blanc étant la couleur dominante, il est essentiel de comprendre les nuances entre les différentes lignes blanches. Voici ce que chaque type de ligne signifie.
       </p>
 
       <h3>Ligne continue</h3>
       <p>
-        La ligne continue blanche est la plus contraignante. Elle <strong>interdit tout franchissement et tout chevauchement</strong>. En axe de chaussée, elle séparé les deux sens de circulation et interdit le dépassement. En rive, elle délimité la chaussée et interdit l&apos;arrêt.
+        La ligne continue blanche est la plus contraignante. Elle <strong>interdit tout franchissement et tout chevauchement</strong>. En axe de chaussée, elle sépare les deux sens de circulation et interdit le dépassement. En rive, elle délimite la chaussée et interdit l&apos;arrêt.
       </p>
       <p>
         <strong>Caractéristiques :</strong>
@@ -116,17 +116,17 @@ export default function Content() {
 
       <h3>Ligne discontinue</h3>
       <p>
-        La ligne discontinue autorisé le franchissement. En axe, elle permet le dépassement si la visibilité est suffisante. Le rapport entre les pleins et les vides définit le type de ligne :
+        La ligne discontinue autorise le franchissement. En axe, elle permet le dépassement si la visibilité est suffisante. Le rapport entre les pleins et les vides définit le type de ligne :
       </p>
       <ul>
         <li><strong>Ligne T1 (dépassement) :</strong> 3 m de plein / 1,33 m de vide</li>
         <li><strong>Ligne T3 (guidage) :</strong> Traits courts de 20 cm, intervalles de 50 cm, pour guider dans les carrefours</li>
-        <li><strong>Ligne T1 rapprochee :</strong> Annonce une ligne continue imminente</li>
+        <li><strong>Ligne T1 rapprochée :</strong> Annonce une ligne continue imminente</li>
       </ul>
 
       <h3>Ligne mixte</h3>
       <p>
-        La ligne mixte juxtapose une ligne continue et une ligne discontinue. La réglé est asymetrique : vous pouvez franchir si vous circulez du côté de la discontinue. Vous ne pouvez pas franchir si vous êtes du côté de la continue. Ce marquage est très courant sur les routes departementales.
+        La ligne mixte juxtapose une ligne continue et une ligne discontinue. La réglé est asymetrique : vous pouvez franchir si vous circulez du côté de la discontinue. Vous ne pouvez pas franchir si vous êtes du côté de la continue. Ce marquage est très courant sur les routes départementales.
       </p>
 
       <h3>Passages piétons</h3>
@@ -146,7 +146,7 @@ export default function Content() {
 
       <h3>Ligne jaune en zigzag : arrêt de bus et taxi</h3>
       <p>
-        La ligne jaune en zigzag tracée le long du trottoir materialise un arrêt de bus ou une station de taxi. <strong>Il est interdit de s&apos;arrêter ou de stationner</strong> sur toute la zone couverte par ce marquage, même pour &laquo; juste une minute &raquo;.
+        La ligne jaune en zigzag tracée le long du trottoir matérialise un arrêt de bus ou une station de taxi. <strong>Il est interdit de s&apos;arrêter ou de stationner</strong> sur toute la zone couverte par ce marquage, même pour &laquo; juste une minute &raquo;.
       </p>
       <p>
         Un commerçant de la Presqu&apos;île à Lyon l&apos;a appris à ses dépens. En laissant régulièrement son utilitaire sur le zigzag jaune devant son commerce, il a accumule 1 200 EUR d&apos;amendes en six mois. La mairie avait installé une camera de videoverbalisation.
@@ -154,17 +154,17 @@ export default function Content() {
 
       <h3>Bande jaune continue le long du trottoir</h3>
       <p>
-        Une bande jaune continue peinte sur la bordure du trottoir signifie <strong>stationnement interdit</strong>. C&apos;est l&apos;équivalent au sol d&apos;un panneau d&apos;interdiction de stationner. La difference : la bande jaune est souvent plus visible et ne peut pas être masquee par la végétation.
+        Une bande jaune continue peinte sur la bordure du trottoir signifie <strong>stationnement interdit</strong>. C&apos;est l&apos;équivalent au sol d&apos;un panneau d&apos;interdiction de stationner. La différence : la bande jaune est souvent plus visible et ne peut pas être masquée par la végétation.
       </p>
 
       <h3>Ligne jaune continue en axe de chaussée</h3>
       <p>
-        Plus rare, la ligne jaune continue en axe peut signaler une interdiction de dépassement dans un contexte temporaire, notamment en zone de travaux. Elle se distingue de la ligne blanche continue par son caractere provisoire.
+        Plus rare, la ligne jaune continue en axe peut signaler une interdiction de dépassement dans un contexte temporaire, notamment en zone de travaux. Elle se distingue de la ligne blanche continue par son caractère provisoire.
       </p>
 
       <h3>Marquage jaune (ou orange) temporaire : travaux</h3>
       <p>
-        Lorsque des travaux modifient la circulation, un marquage temporaire jaune ou orange est appliqué pour guider les usagers. La réglé essentielle : <strong>le marquage temporaire prevaut toujours sur le marquage permanent blanc</strong>. Si une flèche orange contredit une flèche blanche, c&apos;est l&apos;orange qui fait foi.
+        Lorsque des travaux modifient la circulation, un marquage temporaire jaune ou orange est appliqué pour guider les usagers. La réglé essentielle : <strong>le marquage temporaire prévaut toujours sur le marquage permanent blanc</strong>. Si une flèche orange contredit une flèche blanche, c&apos;est l&apos;orange qui fait foi.
       </p>
       <p>
         En pratique, les équipés de Renov&apos;Route interviennent fréquemment pour poser des marquages temporaires lors de chantiers sur des parkings de grandes surfaces. Le marquage provisoire permet de maintenir la circulation des clients pendant les travaux, puis il est retire une fois le marquage définitif appliqué.
@@ -189,14 +189,14 @@ export default function Content() {
       </p>
       <ul>
         <li><strong>Bande bleue</strong> le long de la place de stationnement</li>
-        <li><strong>Place entierement peinte en bleu</strong> (plus courant dans les parkings)</li>
+        <li><strong>Place entièrement peinte en bleu</strong> (plus courant dans les parkings)</li>
         <li><strong>Pictogramme du disque</strong> peint au sol</li>
         <li><strong>Panneau de zone bleue</strong> en complément</li>
       </ul>
 
       <h3>Place PMR et marquage bleu</h3>
       <p>
-        Les places réservées aux personnes à mobilité réduite (PMR) sont généralement materialisees par un marquage bleu accompagné du pictogramme du fauteuil roulant. La <Link href="/competences/signalisation-verticale">signalisation verticale</Link> avec un panneau PMR est obligatoire en complément.
+        Les places réservées aux personnes à mobilité réduite (PMR) sont généralement matérialisées par un marquage bleu accompagné du pictogramme du fauteuil roulant. La <Link href="/competences/signalisation-verticale">signalisation verticale</Link> avec un panneau PMR est obligatoire en complément.
       </p>
       <p>
         Le stationnement abusif sur une place PMR est une infraction de 4e classe : <strong>135 EUR d&apos;amende</strong> et mise en fourriere possible.
@@ -204,12 +204,12 @@ export default function Content() {
 
       <h2>Pictogrammes et symboles au sol : le langage visuel de la route</h2>
       <p>
-        Au-delà des lignes et des couleurs, le marquage au sol utilisé des <strong>pictogrammes</strong> pour transmettre des informations spécifiques. La <strong>signification marquage au sol</strong> de ces symboles est codifiee.
+        Au-delà des lignes et des couleurs, le marquage au sol utilisé des <strong>pictogrammes</strong> pour transmettre des informations spécifiques. La <strong>signification marquage au sol</strong> de ces symboles est codifiée.
       </p>
 
       <h3>Pictogramme PMR (fauteuil roulant)</h3>
       <p>
-        Le symbole du fauteuil roulant peint au sol désigne une place réservée aux personnes handicapees. Il doit être accompagné d&apos;un panneau vertical et la place doit respecter des dimensions minimales (3,30 m de large, 5 m de long).
+        Le symbole du fauteuil roulant peint au sol désigne une place réservée aux personnes handicapées. Il doit être accompagné d&apos;un panneau vertical et la place doit respecter des dimensions minimales (3,30 m de large, 5 m de long).
       </p>
 
       <h3>Pictogramme vélo</h3>
@@ -219,7 +219,7 @@ export default function Content() {
 
       <h3>Pictogramme bus</h3>
       <p>
-        Le mot &laquo; BUS &raquo; ou le pictogramme de bus peint au sol materialise une voie réservée aux transports en commun. Circuler dans une voie de bus sans autorisation est sanctionné de 135 EUR d&apos;amende.
+        Le mot &laquo; BUS &raquo; ou le pictogramme de bus peint au sol matérialise une voie réservée aux transports en commun. Circuler dans une voie de bus sans autorisation est sanctionné de 135 EUR d&apos;amende.
       </p>
 
       <h3>Flèches directionnelles</h3>
@@ -245,7 +245,7 @@ export default function Content() {
         <li><strong>Places PMR :</strong> Nombre minimal réglementaire (2% des places, minimum 1), marquage bleu + pictogramme + panneau</li>
         <li><strong>Sens de circulation :</strong> Flèches au sol et signalisation verticale recommandées</li>
         <li><strong>Passages piétons :</strong> Obligatoires aux points de conflit véhicules/piétons</li>
-        <li><strong>Issues de secours :</strong> Marquage au sol pour les cheminements d&apos;evacuation</li>
+        <li><strong>Issues de secours :</strong> Marquage au sol pour les cheminements d&apos;évacuation</li>
       </ul>
 
       <h3>Ce qui est personnalisable</h3>
@@ -256,7 +256,7 @@ export default function Content() {
         <li>Choisir des couleurs spécifiques pour differencier les zones (visiteurs, employés, livraisons)</li>
         <li>Ajouter des numéros de places</li>
         <li>Utiliser des couleurs complémentaires au-delà du blanc, jaune et bleu</li>
-        <li>Integrer un logo d&apos;entreprise ou des codes couleur internes</li>
+        <li>Intégrer un logo d&apos;entreprise ou des codes couleur internes</li>
       </ul>
       <p>
         L&apos;équipe de <Link href="/competences/conseil-expertise">conseil et expertise</Link> de Renov&apos;Route accompagne les gestionnaires dans le choix des marquages pour allier conformité réglementaire et fonctionnalité.
@@ -330,7 +330,7 @@ export default function Content() {
             <tr>
               <td><strong>Jaune</strong></td>
               <td>Marquage temporaire</td>
-              <td>Prevaut sur le marquage blanc</td>
+              <td>Prévaut sur le marquage blanc</td>
               <td>Variable</td>
             </tr>
             <tr>
@@ -342,7 +342,7 @@ export default function Content() {
             <tr>
               <td><strong>Bleu</strong></td>
               <td>Place PMR</td>
-              <td>Réservée aux personnes handicapees</td>
+              <td>Réservée aux personnes handicapées</td>
               <td>135 EUR + fourriere</td>
             </tr>
             <tr>
@@ -354,7 +354,7 @@ export default function Content() {
             <tr>
               <td><strong>Orange</strong></td>
               <td>Marquage de chantier</td>
-              <td>Temporaire, prevaut sur le blanc</td>
+              <td>Temporaire, prévaut sur le blanc</td>
               <td>Variable</td>
             </tr>
           </tbody>
@@ -497,7 +497,7 @@ export default function Content() {
 
       <h3>Un marquage au sol a-t-il une valeur réglementaire ?</h3>
       <p>
-        Oui. Le marquage au sol à une valeur réglementaire définie par l&apos;IISR (Instruction Interministérielle sur la Signalisation Routière). Son non-respect est sanctionné par le Code de la route. En cas de contradiction entre un panneau et un marquage, c&apos;est généralement le panneau qui prevaut, sauf pour le marquage temporaire qui prime sur le marquage permanent.
+        Oui. Le marquage au sol à une valeur réglementaire définie par l&apos;IISR (Instruction Interministérielle sur la Signalisation Routière). Son non-respect est sanctionné par le Code de la route. En cas de contradiction entre un panneau et un marquage, c&apos;est généralement le panneau qui prévaut, sauf pour le marquage temporaire qui prime sur le marquage permanent.
       </p>
 
       <h3>Qui est responsable de l&apos;entretien du marquage au sol ?</h3>

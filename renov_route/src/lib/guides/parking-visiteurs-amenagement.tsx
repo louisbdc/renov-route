@@ -17,7 +17,7 @@ export default function Content() {
   return (
     <>
       <p>
-        Mardi matin, 9h15. Votre client le plus important tourne depuis dix minutes dans votre parking. Aucune place identifiée pour les visiteurs. Il finit par se garer sur un emplacement réservé aux salariés, reçoit un mot desagreable sur son pare-brise et arrive à votre rendez-vous agace. La première impression est ratee.
+        Mardi matin, 9h15. Votre client le plus important tourne depuis dix minutes dans votre parking. Aucune place identifiée pour les visiteurs. Il finit par se garer sur un emplacement réservé aux salariés, reçoit un mot desagreable sur son pare-brise et arrive à votre rendez-vous agace. La première impression est ratée.
       </p>
       <p>
         Ce scénario se répète chaque jour dans des centaines d&apos;entreprises, copropriétés et établissements recevant du public en France. Le <strong>parking visiteurs</strong> est souvent le parent pauvre de l&apos;aménagement extérieur. Pourtant, c&apos;est le premier point de contact physique avec vos clients, partenaires et fournisseurs.
@@ -41,7 +41,7 @@ export default function Content() {
         Un visiteur qui ne trouve pas de place ou qui hésite sur l&apos;endroit ou se garer arrive stresse. A l&apos;inverse, un parking avec des <strong>places visiteurs</strong> clairement identifiées envoie un signal de professionnalisme et d&apos;organisation.
       </p>
       <p>
-        Les grandes enseignes l&apos;ont compris depuis longtemps. Carrefour, Lidl, McDonald&apos;s -- tous ces acteurs investissent dans une signalisation parking visiteurs soignee. Renov&apos;Route a d&apos;ailleurs réalise le <Link href="/competences/tracage-retracage-parking">marquage au sol</Link> de plusieurs de ces enseignes en région lyonnaise.
+        Les grandes enseignes l&apos;ont compris depuis longtemps. Carrefour, Lidl, McDonald&apos;s -- tous ces acteurs investissent dans une signalisation parking visiteurs soignée. Renov&apos;Route a d&apos;ailleurs réalise le <Link href="/competences/tracage-retracage-parking">marquage au sol</Link> de plusieurs de ces enseignes en région lyonnaise.
       </p>
 
       <h3>Organisation interne et réduction des conflits</h3>
@@ -68,7 +68,7 @@ export default function Content() {
       </p>
       <ul>
         <li>Les <strong>places visiteurs</strong> sont définies dans le règlement de copropriété et les parties communes</li>
-        <li>Un minimum de places visiteurs est souvent exige dans les permis de construire des immeubles neufs (généralement 10 à 20% du total)</li>
+        <li>Un minimum de places visiteurs est souvent exigé dans les permis de construire des immeubles neufs (généralement 10 à 20% du total)</li>
         <li>La modification de l&apos;affectation d&apos;une place visiteur en place privative nécessite un vote en assemblée générale à la majorité absolue (article 26 de la loi du 10 juillet 1965)</li>
       </ul>
       <p>
@@ -80,14 +80,14 @@ export default function Content() {
         Les ERP (commerces, bureaux recevant du public, hôpitaux, écoles) sont soumis à des obligations plus strictes :
       </p>
       <ul>
-        <li>L&apos;arrêté du 1er aout 2006 impose un minimum de <strong>places PMR</strong> dans tout parking d&apos;ERP : 2% du nombre total de places, avec un minimum d&apos;une place</li>
+        <li>L&apos;arrêté du 1er août 2006 impose un minimum de <strong>places PMR</strong> dans tout parking d&apos;ERP : 2% du nombre total de places, avec un minimum d&apos;une place</li>
         <li>Les places visiteurs PMR doivent être situées au plus près de l&apos;entrée</li>
         <li>La signalisation parking visiteurs doit être visible depuis l&apos;entrée du parking (panneaux directionnels)</li>
       </ul>
 
       <h3>Code de l&apos;urbanisme et PLU</h3>
       <p>
-        Le Plan Local d&apos;Urbanisme (PLU) de votre commune peut imposer un nombre minimum de places visiteurs dans les constructions neuves. À Lyon, par exemple, le PLU-H prevoit des ratios spécifiques selon la zone et le type de bâtiment :
+        Le Plan Local d&apos;Urbanisme (PLU) de votre commune peut imposer un nombre minimum de places visiteurs dans les constructions neuves. À Lyon, par exemple, le PLU-H prévoit des ratios spécifiques selon la zone et le type de bâtiment :
       </p>
       <ul>
         <li>Bureaux : 1 place visiteur pour 200 m2 de surface de plancher</li>
@@ -111,7 +111,7 @@ export default function Content() {
         <li><strong>Panneau suspendu</strong> : en parking souterrain, accroche au plafond au-dessus de chaque place</li>
       </ul>
       <p>
-        Les panneaux doivent être en aluminium ou acier galvanisé, avec film retro-reflechissant de classe 1 minimum pour une visibilité nocturne. Le fond bleu avec pictogramme blanc est le standard le plus reconnu (conforme à la norme NF EN 12899-1).
+        Les panneaux doivent être en aluminium ou acier galvanisé, avec film retro-réfléchissant de classe 1 minimum pour une visibilité nocturne. Le fond bleu avec pictogramme blanc est le standard le plus reconnu (conforme à la norme NF EN 12899-1).
       </p>
       <p>
         Renov&apos;Route fournit et installé tous les types de <Link href="/competences/signalisation-verticale">panneaux</Link> de parking, de la signalétique standard aux panneaux personnalisés avec votre logo.
@@ -125,7 +125,7 @@ export default function Content() {
       <ul>
         <li>Couleur blanche ou jaune selon le type de parking</li>
         <li>Largeur de ligne : 5 à 10 cm</li>
-        <li>Peinture routière homologuee (norme NF EN 1436) ou résine pour les parkings couverts</li>
+        <li>Peinture routière homologuée (norme NF EN 1436) ou résine pour les parkings couverts</li>
       </ul>
       <p><strong>Marquage &quot;VISITEUR&quot; au sol :</strong></p>
       <ul>
@@ -209,7 +209,7 @@ export default function Content() {
         L&apos;emplacement des places visiteurs est aussi important que leur signalisation :
       </p>
       <ul>
-        <li><strong>Proximite de l&apos;entrée principale</strong> : le visiteur doit trouver sa place sans traverser tout le parking</li>
+        <li><strong>Proximité de l&apos;entrée principale</strong> : le visiteur doit trouver sa place sans traverser tout le parking</li>
         <li><strong>Visibilité depuis la voie d&apos;accès</strong> : les panneaux directionnels doivent guider depuis l&apos;entrée</li>
         <li><strong>Accès piéton sécurisé</strong> : un cheminement piéton marque doit relier les places visiteurs à l&apos;accueil</li>
         <li><strong>Éclairage</strong> : les places visiteurs doivent être éclairées, surtout en parking souterrain</li>
@@ -229,7 +229,7 @@ export default function Content() {
 
       <h3>Le problème récurrent de l&apos;occupation abusive</h3>
       <p>
-        La signalisation seule ne suffit pas toujours. Les places visiteurs sont souvent les plus proches de l&apos;entrée et donc les plus convoitees. Sans système de gestion, elles finissent occupées par des habitudes : salariés en retard, résidents paresseux, voisins opportunistes.
+        La signalisation seule ne suffit pas toujours. Les places visiteurs sont souvent les plus proches de l&apos;entrée et donc les plus convoitées. Sans système de gestion, elles finissent occupées par des habitudes : salariés en retard, résidents paresseux, voisins opportunistes.
       </p>
 
       <h3>Solutions de gestion</h3>
@@ -249,7 +249,7 @@ export default function Content() {
       <p><strong>Horodateur ou disque de stationnement :</strong></p>
       <ul>
         <li>Coût : 2 000 à 5 000 EUR pour un horodateur, gratuit pour le système de disques</li>
-        <li>Fonctionnement : le visiteur affiché un disque ou un ticket limitant la durée de stationnement (2h en général)</li>
+        <li>Fonctionnement : le visiteur affiche un disque ou un ticket limitant la durée de stationnement (2h en général)</li>
         <li>Adapté aux parkings de copropriété ou de commerces</li>
       </ul>
       <p><strong>Application mobile :</strong></p>
@@ -316,14 +316,14 @@ export default function Content() {
       <ul>
         <li>Marquage au sol (8 places) : 200 EUR</li>
         <li>2 panneaux (1 directionnel + 1 parking) : 350 EUR</li>
-        <li>Numerotation : 100 EUR</li>
+        <li>Numérotation : 100 EUR</li>
         <li><strong>Total : environ 650 EUR HT</strong></li>
       </ul>
       <p><strong>Parking de copropriété (12 places visiteurs avec arceaux) :</strong></p>
       <ul>
         <li>Marquage au sol (12 places) : 350 EUR</li>
         <li>3 panneaux : 500 EUR</li>
-        <li>Numerotation : 150 EUR</li>
+        <li>Numérotation : 150 EUR</li>
         <li>12 arceaux rabattables : 3 000 EUR</li>
         <li><strong>Total : environ 4 000 EUR HT</strong></li>
       </ul>
@@ -331,24 +331,24 @@ export default function Content() {
       <ul>
         <li>Marquage au sol (20 places) : 550 EUR</li>
         <li>5 panneaux directionnels : 800 EUR</li>
-        <li>Numerotation : 250 EUR</li>
+        <li>Numérotation : 250 EUR</li>
         <li>Barrière levante : 4 000 EUR</li>
         <li><strong>Total : environ 5 600 EUR HT</strong></li>
       </ul>
       <p>
-        Renov&apos;Route garantit ses travaux de marquage 2 ans. Pour obtenir un chiffrage précis adapté à votre parking, <Link href="/devis">demandez un devis gratuit</Link>. Reponse en 48h, intervention dans toute la France.
+        Renov&apos;Route garantit ses travaux de marquage 2 ans. Pour obtenir un chiffrage précis adapté à votre parking, <Link href="/devis">demandez un devis gratuit</Link>. Réponse en 48h, intervention dans toute la France.
       </p>
 
       <h2>Les erreurs courantes à éviter</h2>
 
       <h3>1. Des places visiteurs trop éloignées de l&apos;entrée</h3>
       <p>
-        C&apos;est l&apos;erreur la plus fréquente. Les places visiteurs sont repoussees au fond du parking &quot;parce qu&apos;il n&apos;y a plus de place ailleurs&quot;. Résultat : personne ne les utilisé, et les visiteurs se garent au plus près -- sur les places des salariés.
+        C&apos;est l&apos;erreur la plus fréquente. Les places visiteurs sont repoussées au fond du parking &quot;parce qu&apos;il n&apos;y a plus de place ailleurs&quot;. Résultat : personne ne les utilisé, et les visiteurs se garent au plus près -- sur les places des salariés.
       </p>
 
       <h3>2. Une signalisation insuffisante ou absente</h3>
       <p>
-        Un simple marquage au sol sans panneau ne suffit pas. Le visiteur qui arrive pour la première fois ne regardé pas le sol. Il cherche un panneau. La <strong>signalisation parking visiteurs</strong> doit être visible depuis le véhicule en mouvement : panneaux en hauteur, flèches directionnelles, couleur contrastee.
+        Un simple marquage au sol sans panneau ne suffit pas. Le visiteur qui arrive pour la première fois ne regardé pas le sol. Il cherche un panneau. La <strong>signalisation parking visiteurs</strong> doit être visible depuis le véhicule en mouvement : panneaux en hauteur, flèches directionnelles, couleur contrastée.
       </p>
 
       <h3>3. Des places trop étroites</h3>

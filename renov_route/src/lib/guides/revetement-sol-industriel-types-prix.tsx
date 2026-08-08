@@ -17,10 +17,10 @@ export default function Content() {
   return (
     <>
       <p>
-        Un sol industriel sans revêtement, c&apos;est un sol qui travaille contre vous. Poussière de béton dans l&apos;air, taches de produits chimiques impossibles à nettoyer, glissance en zone humide, fissures qui s&apos;elargissent sous le passage des chariots. Le coût de la non-protection dépasse celui du revêtement en moins de 3 ans.
+        Un sol industriel sans revêtement, c&apos;est un sol qui travaille contre vous. Poussière de béton dans l&apos;air, taches de produits chimiques impossibles à nettoyer, glissance en zone humide, fissures qui s&apos;élargissent sous le passage des chariots. Le coût de la non-protection dépasse celui du revêtement en moins de 3 ans.
       </p>
       <p>
-        Stephane, directeur d&apos;un entrepôt logistique de 2 800 m2 à Saint-Priest (69), a fait appliquer une résine époxy autolissante sur l&apos;intégralité de son sol en 2022. Avant les travaux, il remplacait 200 m2 de dalle béton fissuree chaque année, un poste de dépense considerable. Depuis l&apos;application de la résine, zéro réparation en 3 ans. L&apos;entrepot a aussi gagne en luminosite (sol clair qui reflechit la lumière) et en sécurité (marquage des zones de circulation intégré dans la résine). Retour sur investissement : 18 mois.
+        Stephane, directeur d&apos;un entrepôt logistique de 2 800 m2 à Saint-Priest (69), a fait appliquer une résine époxy autolissante sur l&apos;intégralité de son sol en 2022. Avant les travaux, il remplacait 200 m2 de dalle béton fissurée chaque année, un poste de dépense considerable. Depuis l&apos;application de la résine, zéro réparation en 3 ans. L&apos;entrepôt a aussi gagne en luminosite (sol clair qui reflechit la lumière) et en sécurité (marquage des zones de circulation intégré dans la résine). Retour sur investissement : 18 mois.
       </p>
       <p>
         Résine époxy, polyuréthane, méthacrylate, peinture technique : chaque revêtement répond à des contraintes spécifiques. Ce guide compare les solutions, détaille les prix au m2 et explique les conditions d&apos;une application reussie en milieu industriel.
@@ -83,12 +83,12 @@ export default function Content() {
         <strong>Usage recommandé :</strong> Chambres froides, zones de quai, rampes de chargement, ateliers avec variations de température, locaux alimentaires.
       </p>
       <p>
-        Pour la pose de <Link href="/competences/resine-sol-marquage-interieur">revêtements de sol et marquage intérieur</Link>, faites appel à un applicateur qualifie.
+        Pour la pose de <Link href="/competences/resine-sol-marquage-interieur">revêtements de sol et marquage intérieur</Link>, faites appel à un applicateur qualifié.
       </p>
 
       <h3>Résine méthacrylate (PMMA)</h3>
       <p>
-        La solution ultra-rapide. Polymerisation en 1 à 2 heures, remise en service le jour même. Le méthacrylate est le choix des sites ou chaque heure d&apos;arrêt coûte cher.
+        La solution ultra-rapide. Polymérisation en 1 à 2 heures, remise en service le jour même. Le méthacrylate est le choix des sites ou chaque heure d&apos;arrêt coûte cher.
       </p>
       <p><strong>Avantages :</strong></p>
       <ul>
@@ -190,9 +190,9 @@ export default function Content() {
 
       <h3>Ce qui fait varier le prix</h3>
       <ul>
-        <li><strong>Préparation du support</strong> : un sol en mauvais état (fissures, nids de poule, contamination chimique) peut representer un surcoût significatif. Pour les réparations lourdes, consultez notre <Link href="/competences/reparation-nids-de-poule">service de réparation de sol</Link></li>
+        <li><strong>Préparation du support</strong> : un sol en mauvais état (fissures, nids de poule, contamination chimique) peut représenter un surcoût significatif. Pour les réparations lourdes, consultez notre <Link href="/competences/reparation-nids-de-poule">service de réparation de sol</Link></li>
         <li><strong>Épaisseur du système</strong> : un système à 2 mm coûte sensiblement moins qu&apos;un système à 5 mm</li>
-        <li><strong>Finition antidérapante</strong> : les granulats ou textures antidérapantes representent un surcoût à prévoir</li>
+        <li><strong>Finition antidérapante</strong> : les granulats ou textures antidérapantes représentent un surcoût à prévoir</li>
         <li><strong>Marquage intégré</strong> : le traçage des zones de circulation directement dans la résine élimine le coût d&apos;un marquage séparé. Consultez notre <Link href="/guides/prix-marquage-sol-parking">guide des prix de marquage</Link></li>
         <li><strong>Surface totale</strong> : au-dessus de 1 000 m2, le prix au m2 baisse sensiblement</li>
       </ul>
@@ -232,7 +232,7 @@ export default function Content() {
         </table>
       </div>
       <p>
-        Isabelle, responsable d&apos;un atelier de mécanique de précision à Meyzieu (69), hesitait entre une peinture de sol et une résine époxy pour ses 350 m2. Elle a choisi la peinture, moins chère à l&apos;achat. Après 2 ans, la peinture s&apos;ecaillait dans les zones de passage des chariots et sous les établis ou des copeaux métalliques tombaient au sol. Elle a fait appliquer la résine époxy par-dessus (après ponçage complet). Coût total sur 3 ans : bien plus que si elle avait choisi la résine des le depart. L&apos;économie initiale lui a coûté plusieurs milliers d&apos;euros supplémentaires.
+        Isabelle, responsable d&apos;un atelier de mécanique de précision à Meyzieu (69), hésitait entre une peinture de sol et une résine époxy pour ses 350 m2. Elle a choisi la peinture, moins chère à l&apos;achat. Après 2 ans, la peinture s&apos;ecaillait dans les zones de passage des chariots et sous les établis ou des copeaux métalliques tombaient au sol. Elle a fait appliquer la résine époxy par-dessus (après ponçage complet). Coût total sur 3 ans : bien plus que si elle avait choisi la résine des le départ. L&apos;économie initiale lui a coûté plusieurs milliers d&apos;euros supplémentaires.
       </p>
 
       <h2>Préparation du support : la clé de la durée de vie</h2>
@@ -251,7 +251,7 @@ export default function Content() {
 
       <h3>Grenaillage</h3>
       <p>
-        Le grenaillage est la méthode de préparation standard en milieu industriel. Des billes d&apos;acier sont projetees a haute vitesse sur le sol pour ouvrir les pores du béton et créer un profil d&apos;accrochage. Le grenaillage élimine aussi les anciennes peintures, les laitances de béton et les contaminations superficielles. Coût : à partir de 5 euros/m2.
+        Le grenaillage est la méthode de préparation standard en milieu industriel. Des billes d&apos;acier sont projetées a haute vitesse sur le sol pour ouvrir les pores du béton et créer un profil d&apos;accrochage. Le grenaillage élimine aussi les anciennes peintures, les laitances de béton et les contaminations superficielles. Coût : à partir de 5 euros/m2.
       </p>
 
       <h3>Réparation des défauts</h3>
@@ -264,7 +264,7 @@ export default function Content() {
 
       <h3>Primaire d&apos;accrochage</h3>
       <p>
-        Le primaire époxy dilue pénétré dans les pores du béton et crée un pont d&apos;adhérence entre le support et la résine de finition. Coût : à partir de 4 euros/m2. Étape obligatoire, jamais à supprimer.
+        Le primaire époxy dilué pénètre dans les pores du béton et crée un pont d&apos;adhérence entre le support et la résine de finition. Coût : à partir de 4 euros/m2. Étape obligatoire, jamais à supprimer.
       </p>
 
       <h2>Marquage et zonage intégrés</h2>
@@ -337,7 +337,7 @@ export default function Content() {
         <li><strong>Entrepôt logistique</strong> : résine époxy autolissante 2-3 mm + marquage voies de circulation</li>
         <li><strong>Atelier mécanique</strong> : résine époxy haute résistance 3-5 mm + finition antidérapante</li>
         <li><strong>Cuisine industrielle</strong> : polyuréthane antidérapante R12 + pente vers caniveaux</li>
-        <li><strong>Chambre froide</strong> : polyuréthane souple (résistance aux cycles gel/degel)</li>
+        <li><strong>Chambre froide</strong> : polyuréthane souple (résistance aux cycles gel/dégel)</li>
         <li><strong>Salle blanche/pharmaceutique</strong> : époxy autolissante sans joint + finition mate</li>
       </ul>
 
@@ -350,10 +350,10 @@ export default function Content() {
 
       <h3>Quelle est la durée de vie d&apos;un sol en résine industrielle ?</h3>
       <p>
-        10 à 25 ans pour une résine époxy ou polyuréthane correctement posée sur un support bien prepare. La durée de vie dépend du trafic, des contraintes chimiques et de l&apos;entretien. Une peinture de sol industrielle dure 3 à 6 ans.
+        10 à 25 ans pour une résine époxy ou polyuréthane correctement posée sur un support bien prépare. La durée de vie dépend du trafic, des contraintes chimiques et de l&apos;entretien. Une peinture de sol industrielle dure 3 à 6 ans.
       </p>
 
-      <h3>Peut-on appliquer une résine sur un sol existant en mauvais etat ?</h3>
+      <h3>Peut-on appliquer une résine sur un sol existant en mauvais état ?</h3>
       <p>
         Oui, après préparation. Le sol doit être réparé (fissures, éclats, nids de poule), grenaille et ponce. Si le béton est trop dégradé (perte de cohésion, humidité permanente), un ragréage complet peut être nécessaire avant l&apos;application de la résine.
       </p>

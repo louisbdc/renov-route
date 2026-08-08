@@ -60,7 +60,7 @@ export default function Content() {
         La ligne discontinue autorise le franchissement. En axe, elle permet le d&eacute;passement lorsque la visibilit&eacute; est suffisante. Les <strong>lignes au sol signification</strong> varient selon le rapport entre les pleins et les vides.
       </p>
       <ul>
-        <li><strong>Ligne de d&eacute;passement (T1) :</strong> 3 m&egrave;tres de plein pour 1,33 m&egrave;tre de vide. Elle autorise le d&eacute;passement.</li>
+        <li><strong>Ligne de d&eacute;passement (T1) :</strong> 3 m&egrave;très de plein pour 1,33 m&egrave;tre de vide. Elle autorise le d&eacute;passement.</li>
         <li><strong>Ligne d&apos;avertissement (T1 rapproch&eacute;e) :</strong> les traits se rapprochent pour annoncer une ligne continue imminente.</li>
         <li><strong>Ligne de guidage (T3) :</strong> traits courts de 20 cm avec intervalles de 50 cm, utilis&eacute;s pour guider dans les carrefours.</li>
       </ul>
@@ -191,7 +191,7 @@ export default function Content() {
       <ul>
         <li>Largeur des bandes : 50 cm</li>
         <li>Espacement entre les bandes : 50 cm</li>
-        <li>Largeur totale du passage : 2,50 m&egrave;tres minimum (g&eacute;n&eacute;ralement 4 &agrave; 6 m&egrave;tres)</li>
+        <li>Largeur totale du passage : 2,50 m&egrave;très minimum (g&eacute;n&eacute;ralement 4 &agrave; 6 m&egrave;très)</li>
       </ul>
 
       <h3>Type B : bandes parall&egrave;les et lignes lat&eacute;rales</h3>
@@ -419,7 +419,7 @@ export default function Content() {
 
       <h3>Quelle est la largeur r&eacute;glementaire d&apos;un passage pi&eacute;ton ?</h3>
       <p>
-        Un passage pi&eacute;ton de type A (le plus courant) doit avoir une largeur minimale de 2,50 m&egrave;tres. En pratique, la largeur standard est de 4 &agrave; 6 m&egrave;tres. Les bandes qui le composent mesurent 50 cm de large avec un espacement de 50 cm entre elles.
+        Un passage pi&eacute;ton de type A (le plus courant) doit avoir une largeur minimale de 2,50 m&egrave;très. En pratique, la largeur standard est de 4 &agrave; 6 m&egrave;très. Les bandes qui le composent mesurent 50 cm de large avec un espacement de 50 cm entre elles.
       </p>
 
       <h2>Le marquage au sol, un investissement de s&eacute;curit&eacute; et de conformit&eacute;</h2>

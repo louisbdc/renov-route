@@ -84,7 +84,7 @@ export default function Content() {
         En entrep&ocirc;t, les joints sont des pi&egrave;ges &agrave;
         salet&eacute;, des points de faiblesse m&eacute;canique et des
         obstacles pour les roues de chariot. L&apos;&eacute;poxy autolissante
-        forme une surface continue sur des dizaines de m&egrave;tres, sans joint
+        forme une surface continue sur des dizaines de m&egrave;très, sans joint
         (sauf les joints de dilatation du b&eacute;ton, qui sont trait&eacute;s
         s&eacute;par&eacute;ment).
       </p>

@@ -20,7 +20,7 @@ export default function Content() {
         Une butée de parking, c&apos;est un détail qui évite les dégâts. Sans elle, les véhicules roulent trop loin, cognent les murs, écrasent les bordures ou empiètent sur la place voisine. Un bloc de 55 centimètres au sol qui protège les structures, les piétons et les véhicules eux-mêmes.
       </p>
       <p>
-        Marc, gestionnaire d&apos;un parking de centre commercial à Bron (69), a fait poser 180 butées en caoutchouc recyclé après un incident : un SUV avait percuté le mur du fond en se garant, endommageant un tuyau d&apos;evacuation des eaux. La réparation a coûté plusieurs milliers d&apos;euros. L&apos;équipement complet en butées a représenté un investissement comparable. Depuis l&apos;installation, zéro impact contre les murs. L&apos;investissement a été remboursé au premier incident évite.
+        Marc, gestionnaire d&apos;un parking de centre commercial à Bron (69), a fait poser 180 butées en caoutchouc recyclé après un incident : un SUV avait percuté le mur du fond en se garant, endommageant un tuyau d&apos;évacuation des eaux. La réparation a coûté plusieurs milliers d&apos;euros. L&apos;équipement complet en butées a représenté un investissement comparable. Depuis l&apos;installation, zéro impact contre les murs. L&apos;investissement a été remboursé au premier incident évite.
       </p>
       <p>
         Butée béton, caoutchouc, acier, plastique : chaque matériau répond à un usage et un budget différent. Ce guide compare les options, détaille les prix et explique les règles de pose.
@@ -33,7 +33,7 @@ export default function Content() {
 
       <h3>Butée en caoutchouc recyclé</h3>
       <p>
-        La plus répandue dans les parkings modernes. Fabriquee à partir de pneus recycles, elle est souple, légère et absorbe les chocs sans endommager les véhicules.
+        La plus répandue dans les parkings modernes. Fabriquée à partir de pneus recycles, elle est souple, légère et absorbe les chocs sans endommager les véhicules.
       </p>
       <p><strong>Avantages :</strong></p>
       <ul>
@@ -64,8 +64,8 @@ export default function Content() {
       </p>
       <p><strong>Avantages :</strong></p>
       <ul>
-        <li>Extremement robuste (supporte les véhicules lourds)</li>
-        <li>Stabilite totale (15 à 30 kg)</li>
+        <li>Extrêmement robuste (supporte les véhicules lourds)</li>
+        <li>Stabilité totale (15 à 30 kg)</li>
         <li>Durée de vie : 20 à 30 ans</li>
         <li>Aspect brut ou finition peinte</li>
         <li>Coût unitaire faible</li>
@@ -102,7 +102,7 @@ export default function Content() {
       <ul>
         <li>Prix élevé</li>
         <li>Peut rayer les pare-chocs</li>
-        <li>Risque de corrosion si la galvanisation est endommagee</li>
+        <li>Risque de corrosion si la galvanisation est endommagée</li>
         <li>Installation par boulonnage lourd</li>
       </ul>
       <p>
@@ -115,7 +115,7 @@ export default function Content() {
 
       <h3>Butée en plastique recycle (HDPE)</h3>
       <p>
-        L&apos;alternative écologique légère. Fabriquee en polyéthylène haute densité recycle, elle combine legerete et résistance.
+        L&apos;alternative écologique légère. Fabriquée en polyéthylène haute densité recycle, elle combine legerete et résistance.
       </p>
       <p><strong>Avantages :</strong></p>
       <ul>
@@ -216,7 +216,7 @@ export default function Content() {
       </p>
       <ul>
         <li><strong>Distance du mur</strong> : le pare-chocs arriere du véhicule doit rester à au moins 50 cm du mur après contact avec la butée. En pratique, placez la butée à 80 cm du mur pour les voitures standard, 1 mètre pour les places accueillant des utilitaires</li>
-        <li><strong>Centrage</strong> : la butée doit être centree sur la largeur de la place de stationnement</li>
+        <li><strong>Centrage</strong> : la butée doit être centrée sur la largeur de la place de stationnement</li>
         <li><strong>Places en epi</strong> : la butée suit l&apos;angle de la place (installation en biais)</li>
       </ul>
 
@@ -286,7 +286,7 @@ export default function Content() {
 
       <h3>Remplacement</h3>
       <p>
-        Une butée endommagee (cassee, fendue, déplacée) doit être remplacée rapidement. Le remplacement d&apos;une butée chevillee prend 15 à 30 minutes. Le coût de remplacement (fourniture + pose) : à partir de 40 euros par butée.
+        Une butée endommagée (cassée, fendue, déplacée) doit être remplacée rapidement. Le remplacement d&apos;une butée chevillée prend 15 à 30 minutes. Le coût de remplacement (fourniture + pose) : à partir de 40 euros par butée.
       </p>
 
       <h2>FAQ : butée de parking</h2>
@@ -313,7 +313,7 @@ export default function Content() {
 
       <h3>Les butées genent-elles le nettoyage du parking ?</h3>
       <p>
-        Légèrement. Les butées chevillees sont fixes et obligent à nettoyer autour. Pour faciliter l&apos;entretien, les butées collees sont plus faciles à retirer temporairement. Prévoyez un passage de l&apos;autolaveuse de chaque côté de la butée.
+        Légèrement. Les butées chevillées sont fixes et obligent à nettoyer autour. Pour faciliter l&apos;entretien, les butées collées sont plus faciles à retirer temporairement. Prévoyez un passage de l&apos;autolaveuse de chaque côté de la butée.
       </p>
 
       <h2>Protéger son parking, une butée à la fois</h2>

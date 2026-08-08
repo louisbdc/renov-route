@@ -31,7 +31,7 @@ export default function Content() {
       <p>
         Philippe, responsable technique d&apos;un centre commercial de
         180 places &agrave; V&eacute;nissieux (69), a laiss&eacute; une fissure
-        longitudinale de 15 m&egrave;tres sans r&eacute;paration pendant 2 ans.
+        longitudinale de 15 m&egrave;très sans r&eacute;paration pendant 2 ans.
         R&eacute;sultat : l&apos;eau s&apos;est infiltr&eacute;e sous
         l&apos;enrob&eacute;, a fragilis&eacute; la fondation, et la fissure
         est devenue un affaissement de 8 m&sup2;. Co&ucirc;t de la

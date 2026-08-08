@@ -30,7 +30,7 @@ export default function Content() {
         plaignent de portiques rayés et de retroviseurs arraches ? Vos places PMR ne passent
         pas le contrôle de la commission d&apos;accessibilité ? <strong>Dans 80 % des cas, le
         problème vient d&apos;une seule chose : des dimensions de places de parking mal
-        calculees.</strong>
+        calculées.</strong>
       </p>
       <p>
         Un écart de 20 centimètres sur la largeur d&apos;une place suffit à transformer un
@@ -65,7 +65,7 @@ export default function Content() {
       <ul>
         <li>
           <strong>Sécurité</strong> : des places trop étroites provoquent des accrochages. Des
-          voies de circulation sous-dimensionnées empechent les manoeuvres en sécurité.
+          voies de circulation sous-dimensionnées empêchent les manoeuvres en sécurité.
         </li>
         <li>
           <strong>Accessibilité</strong> : les places PMR doivent respecter des dimensions
@@ -447,7 +447,7 @@ export default function Content() {
         perpendiculaire avec des voies de 6,00 m de large, soit 1 mètre de plus que le minimum
         requis. En optimisant les voies à 5,20 m (au-dessus du minimum pour garder du confort)
         et en passant certaines zones en epi 60 degrés, Renov&apos;Route a dégagé en moyenne
-        4 places supplémentaires par parking. Sur 12 sites, cela représente 48 places gagnees
+        4 places supplémentaires par parking. Sur 12 sites, cela représente 48 places gagnées
         sans un seul mètre carré de foncier supplémentaire.
       </p>
       <p>
@@ -498,7 +498,7 @@ export default function Content() {
       <p>
         La largeur minimale de 2,50 m convient aux parkings standards. Mais dans un parking de
         supermarché ou les clients chargent des caddies, 2,60 m est un minimum pratique.
-        Résultat de places trop étroites : portiques endommages, portières cognees, plaintes
+        Résultat de places trop étroites : portiques endommagés, portières cognées, plaintes
         des clients.
       </p>
 
@@ -517,7 +517,7 @@ export default function Content() {
 
       <h3>4. Ne pas anticiper les places PMR</h3>
       <p>
-        Les places PMR ne sont pas un ajout de dernière minute. Elles doivent être positionnees
+        Les places PMR ne sont pas un ajout de dernière minute. Elles doivent être positionnées
         au plus près des accès et dimensionnées des la phase de conception. Les intégrer après
         coup oblige souvent à supprimer des places standards.
       </p>

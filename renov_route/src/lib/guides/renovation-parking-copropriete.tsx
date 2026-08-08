@@ -29,7 +29,7 @@ export default function Content() {
       <p>
         Un parking dégradé présente des risques pour les usagers : marquage au sol effacé, nids de
         poule, signalisation absente. Au-delà de la sécurité, un parking en bon état valorise
-        l&apos;ensemble de la copropriété et facilité la circulation quotidienne.
+        l&apos;ensemble de la copropriété et facilite la circulation quotidienne.
       </p>
       <p>
         Les signes qui doivent alerter : fissures importantes dans l&apos;enrobé,{' '}

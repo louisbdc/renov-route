@@ -17,10 +17,10 @@ export default function Content() {
   return (
     <>
       <p>
-        Un sol de garage brut, ca se voit. Poussière de béton qui se depose sur les véhicules, taches d&apos;huile qui s&apos;incrustent, fissures qui s&apos;elargissent à chaque hiver. La peinture de sol transforme une dalle grise et poreuse en surface nette, résistante et facile à nettoyer.
+        Un sol de garage brut, ca se voit. Poussière de béton qui se depose sur les véhicules, taches d&apos;huile qui s&apos;incrustent, fissures qui s&apos;élargissent à chaque hiver. La peinture de sol transforme une dalle grise et poreuse en surface nette, résistante et facile à nettoyer.
       </p>
       <p>
-        Julien, propriétaire d&apos;une maison à Écully (69), a peint le sol de son garage de 35 m2 en résine époxy bi-composant un samedi matin. Budget maîtrise pour la peinture, le primaire et le rouleau. Le dimanche soir, il garait sa voiture sur un sol gris anthracite, lisse et brillant. Deux ans plus tard, aucune tache d&apos;huile ne s&apos;est incrustee, la poussière a disparu et le garage ressemble à un show-room. Temps de travail : 5 heures, pauses comprises.
+        Julien, propriétaire d&apos;une maison à Écully (69), a peint le sol de son garage de 35 m2 en résine époxy bi-composant un samedi matin. Budget maîtrise pour la peinture, le primaire et le rouleau. Le dimanche soir, il garait sa voiture sur un sol gris anthracite, lisse et brillant. Deux ans plus tard, aucune tache d&apos;huile ne s&apos;est incrustée, la poussière a disparu et le garage ressemble à un show-room. Temps de travail : 5 heures, pauses comprises.
       </p>
       <p>
         Peinture époxy, polyuréthane, alkyde-urethane : chaque type à ses performances, ses limites et son prix. Ce guide compare les options, détaille les prix au m2 et explique les étapes d&apos;une application reussie.
@@ -33,19 +33,19 @@ export default function Content() {
 
       <h3>Peinture époxy bi-composant</h3>
       <p>
-        La référence pour les sols de garage. Un melange résine + durcisseur qui crée un film dur, lisse et très résistant à l&apos;abrasion.
+        La référence pour les sols de garage. Un mélange résine + durcisseur qui crée un film dur, lisse et très résistant à l&apos;abrasion.
       </p>
       <p><strong>Avantages :</strong></p>
       <ul>
         <li>Résistance mécanique excellente (passage de véhicules, chocs d&apos;outils)</li>
-        <li>Surface impermeabilisee (taches d&apos;huile, essence, liquide de refroidissement)</li>
+        <li>Surface imperméabilisée (taches d&apos;huile, essence, liquide de refroidissement)</li>
         <li>Adhérence supérieure au béton</li>
-        <li>Large choix de couleurs et finitions (mate, satinee, brillante)</li>
+        <li>Large choix de couleurs et finitions (mate, satinée, brillante)</li>
         <li>Durée de vie : 5 à 10 ans en usage résidentiel</li>
       </ul>
       <p><strong>Limites :</strong></p>
       <ul>
-        <li>Préparation du melange obligatoire (durée de vie du pot : 30 à 60 minutes)</li>
+        <li>Préparation du mélange obligatoire (durée de vie du pot : 30 à 60 minutes)</li>
         <li>Temps de séchage : 24 à 72 heures avant de rouler dessus</li>
         <li>Sensible aux UV (jaunissement si garage ouvert ou semi-ouvert)</li>
         <li>Application uniquement sur sol sec (humidité &lt; 4%)</li>
@@ -66,14 +66,14 @@ export default function Content() {
         <li>Résistance aux UV (pas de jaunissement)</li>
         <li>Élasticité supérieure (absorbe les dilatations du support)</li>
         <li>Bonne résistance chimique</li>
-        <li>Finition satinee ou brillante durable</li>
+        <li>Finition satinée ou brillante durable</li>
         <li>Durée de vie : 7 à 12 ans</li>
       </ul>
       <p><strong>Limites :</strong></p>
       <ul>
         <li>Prix plus élevé que l&apos;époxy (+30 à 50%)</li>
         <li>Application technique (température et humidité strictes)</li>
-        <li>Sensibilite aux rayures superficielles</li>
+        <li>Sensibilité aux rayures superficielles</li>
         <li>Temps de séchage : 48 à 72 heures</li>
       </ul>
       <p>
@@ -85,11 +85,11 @@ export default function Content() {
 
       <h3>Peinture alkyde-urethane (monocomposant)</h3>
       <p>
-        La solution simple. Un seul composant, pas de melange, application directe au rouleau. C&apos;est l&apos;entrée de gamme pour les garages résidentiels à faible sollicitation.
+        La solution simple. Un seul composant, pas de mélange, application directe au rouleau. C&apos;est l&apos;entrée de gamme pour les garages résidentiels à faible sollicitation.
       </p>
       <p><strong>Avantages :</strong></p>
       <ul>
-        <li>Application simple (pas de melange)</li>
+        <li>Application simple (pas de mélange)</li>
         <li>Prix accessible</li>
         <li>Séchage rapide (4 à 8 heures au toucher)</li>
         <li>Bonne pénétration dans le béton</li>
@@ -205,7 +205,7 @@ export default function Content() {
         Sophie, propriétaire d&apos;un pavillon à Villeurbanne (69), avait acheté une peinture acrylique bon marche pour son garage de 32 m2. Six mois après, des traces de pneus marquaient le sol et la peinture s&apos;ecaillait devant la porte. Elle a reponce tout le garage en époxy bi-composant (avec 2 heures de ponçage supplémentaires pour retirer l&apos;acrylique). Total sur 2 ans : un budget nettement supérieur à celui qu&apos;elle aurait dépense en choisissant directement l&apos;époxy. Le &quot;pas cher&quot; a coûté bien plus au final.
       </p>
 
-      <h2>Préparation du sol : l&apos;étape qui décidé de tout</h2>
+      <h2>Préparation du sol : l&apos;étape qui décide de tout</h2>
       <p>
         90% des échecs de peinture de sol sont liés à une mauvaise préparation du support. Pas à la peinture elle-même.
       </p>
@@ -225,7 +225,7 @@ export default function Content() {
 
       <h3>Étape 3 : test de porosite</h3>
       <p>
-        Versez quelques gouttes d&apos;eau sur le béton. Si l&apos;eau est absorbee en moins de 30 secondes, le support est suffisamment poreux. Si l&apos;eau perle en surface, le sol a probablement reçu un traitement hydrofuge ou un ancien revêtement qu&apos;il faut retirer.
+        Versez quelques gouttes d&apos;eau sur le béton. Si l&apos;eau est absorbée en moins de 30 secondes, le support est suffisamment poreux. Si l&apos;eau perle en surface, le sol a probablement reçu un traitement hydrofuge ou un ancien revêtement qu&apos;il faut retirer.
       </p>
 
       <h3>Étape 4 : préparation mécanique</h3>
@@ -237,7 +237,7 @@ export default function Content() {
 
       <h3>Étape 5 : primaire d&apos;accrochage</h3>
       <p>
-        Le primaire est indispensable sur béton ancien ou lisse. Il consolide le support et amélioré l&apos;adhérence de la peinture. Appliquez au rouleau, laissez secher selon les indications du fabricant (4 à 12 heures).
+        Le primaire est indispensable sur béton ancien ou lisse. Il consolide le support et améliore l&apos;adhérence de la peinture. Appliquez au rouleau, laissez secher selon les indications du fabricant (4 à 12 heures).
       </p>
 
       <h2>Application : méthode pas a pas</h2>
@@ -245,15 +245,15 @@ export default function Content() {
       <h3>Conditions requises</h3>
       <ul>
         <li>Température : entre 10°C et 25°C (sol et air)</li>
-        <li>Humidite de l&apos;air : inférieure à 80%</li>
+        <li>Humidité de l&apos;air : inférieure à 80%</li>
         <li>Sol complètement sec</li>
         <li>Ventilation du garage (porte ouverte ou ventilateur)</li>
       </ul>
 
       <h3>Application en 3 couches</h3>
       <ol>
-        <li><strong>Couche primaire</strong> : primaire d&apos;accrochage dilue à 10-20%, au rouleau laqueur a poils courts. Sechage : 4 à 12 heures</li>
-        <li><strong>Première couche de peinture</strong> : appliquer au rouleau en bandes régulières, du fond du garage vers la sortie. Sechage : 12 à 24 heures (époxy), 4 à 8 heures (acrylique)</li>
+        <li><strong>Couche primaire</strong> : primaire d&apos;accrochage dilue à 10-20%, au rouleau laqueur a poils courts. Séchage : 4 à 12 heures</li>
+        <li><strong>Première couche de peinture</strong> : appliquer au rouleau en bandes régulières, du fond du garage vers la sortie. Séchage : 12 à 24 heures (époxy), 4 à 8 heures (acrylique)</li>
         <li><strong>Deuxième couche</strong> : croiser les passes par rapport à la première couche. Même temps de séchage</li>
       </ol>
 
@@ -341,7 +341,7 @@ export default function Content() {
       <h3>Résine de sol (revêtement épais)</h3>
       <ul>
         <li>Épaisseur : 1 à 5 mm</li>
-        <li>Application : spatule crantee ou raclette, système autolissant</li>
+        <li>Application : spatule crantée ou raclette, système autolissant</li>
         <li>Préparation : lourde (grenaillage, ragréage)</li>
         <li>Prix : à partir de 35 euros/m2</li>
         <li>Idéal pour : parkings professionnels, locaux industriels, usage intensif</li>
@@ -370,7 +370,7 @@ export default function Content() {
 
       <h3>Retouches</h3>
       <p>
-        Un éclat localisé se réparé en 30 minutes : ponçage léger de la zone, depoussierage, application d&apos;une couche de peinture au pinceau. Pas besoin de refaire tout le sol.
+        Un éclat localisé se répare en 30 minutes : ponçage léger de la zone, depoussierage, application d&apos;une couche de peinture au pinceau. Pas besoin de refaire tout le sol.
       </p>
 
       <h2>FAQ : peinture sol garage</h2>
