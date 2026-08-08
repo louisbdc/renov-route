@@ -10,6 +10,15 @@ RewriteRule ^(.*)$ https://renov-route.com%{REQUEST_URI} [L,R=301]
 RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
 RewriteRule ^(.*)$ https://renov-route.com/$1 [R=301,L]
 
+# Canonicalisation du slash final, en cible absolue.
+# mod_dir ajoute sinon le slash lui-meme avec le port physique dans l'URL
+# (https://renov-route.com:443/...), ce qui cree une chaine de redirection a
+# deux sauts vers un hote non canonique.
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteCond %{REQUEST_URI} !/$
+RewriteCond %{REQUEST_URI} !^/(assets|_next)/
+RewriteRule ^(.*)$ https://renov-route.com/$1/ [R=301,L]
+
 # Redirections 301 des anciennes URLs vers les nouvelles
 # Redirections spécifiques des anciennes URLs du site
 RewriteRule ^marquage-routier-lyon-69/?$ https://renov-route.com/competences/tracage-retracage-parking/ [R=301,L]
@@ -122,6 +131,40 @@ RewriteRule ^guides/panneau-pmr-parking-types-obligations/?$ https://renov-route
 RewriteRule ^guides/reglementation-marquage-sol-parking/?$ https://renov-route.com/guides/signalisation-parking-reglementation/ [R=301,L]
 
 RewriteRule ^guides/mise-en-conformite-parking-pmr/?$ https://renov-route.com/guides/normes-pmr-parking/ [R=301,L]
+
+# Redirections heritees de l'ancien site. Elles n'existaient que dans le
+# .htaccess a la racine du projet, qui n'est pas deploye : en production ces
+# URL tombaient dans le fallback SPA et partaient vers l'accueil. /tarifs/ est
+# la seule que la Search Console signale explicitement, mais les autres etaient
+# dans le meme cas.
+# La regle « ^marquage-([^/]+)/?$ » du fichier racine est volontairement omise :
+# elle capturerait les 35 pages villes /marquage-au-sol-*, pilier Lyon compris.
+RewriteRule ^tarifs/?$ https://renov-route.com/guides/prix-marquage-sol-parking/ [R=301,L]
+RewriteRule ^contact\.html?$ https://renov-route.com/devis/ [R=301,L]
+RewriteRule ^marquage-parking\.html?$ https://renov-route.com/competences/tracage-retracage-parking/ [R=301,L]
+RewriteRule ^tracage-parking\.html?$ https://renov-route.com/competences/tracage-retracage-parking/ [R=301,L]
+RewriteRule ^retracage-parking\.html?$ https://renov-route.com/competences/tracage-retracage-parking/ [R=301,L]
+RewriteRule ^panneaux-signalisation\.html?$ https://renov-route.com/competences/signalisation-verticale/ [R=301,L]
+RewriteRule ^signalisation\.html?$ https://renov-route.com/competences/signalisation-verticale/ [R=301,L]
+RewriteRule ^panneaux\.html?$ https://renov-route.com/competences/signalisation-verticale/ [R=301,L]
+RewriteRule ^resine-sol\.html?$ https://renov-route.com/competences/resine-sol-marquage-interieur/ [R=301,L]
+RewriteRule ^marquage-interieur\.html?$ https://renov-route.com/competences/resine-sol-marquage-interieur/ [R=301,L]
+RewriteRule ^revetement-sol\.html?$ https://renov-route.com/competences/resine-sol-marquage-interieur/ [R=301,L]
+RewriteRule ^reparation-route\.html?$ https://renov-route.com/competences/reparation-nids-de-poule/ [R=301,L]
+RewriteRule ^nids-poule\.html?$ https://renov-route.com/competences/reparation-nids-de-poule/ [R=301,L]
+RewriteRule ^reparation-chaussee\.html?$ https://renov-route.com/competences/reparation-nids-de-poule/ [R=301,L]
+RewriteRule ^equipements-parking\.html?$ https://renov-route.com/competences/accessoires-parking/ [R=301,L]
+RewriteRule ^bornes-parking\.html?$ https://renov-route.com/competences/accessoires-parking/ [R=301,L]
+RewriteRule ^accessoires\.html?$ https://renov-route.com/competences/accessoires-parking/ [R=301,L]
+RewriteRule ^conseil\.html?$ https://renov-route.com/competences/conseil-expertise/ [R=301,L]
+RewriteRule ^expertise\.html?$ https://renov-route.com/competences/conseil-expertise/ [R=301,L]
+RewriteRule ^accompagnement\.html?$ https://renov-route.com/competences/conseil-expertise/ [R=301,L]
+RewriteRule ^services/([^/]+)\.html?$ https://renov-route.com/competences/ [R=301,L]
+RewriteRule ^competences/([^/]+)\.html?$ https://renov-route.com/competences/$1/ [R=301,L]
+RewriteRule ^page/([^/]+)\.html?$ https://renov-route.com/$1/ [R=301,L]
+RewriteRule ^category/([^/]+)\.html?$ https://renov-route.com/competences/$1/ [R=301,L]
+RewriteRule ^old-site/(.*)$ https://renov-route.com/$1 [R=301,L]
+RewriteRule ^ancien-site/(.*)$ https://renov-route.com/$1 [R=301,L]
 
 # Vraie page 404.
 #
