@@ -39,6 +39,13 @@ RewriteRule ^devis-tracage-gratuit/?$ https://renov-route.com/devis/ [R=301,L]
 RewriteRule ^services/renovation-parking/?$ https://renov-route.com/competences/ [R=301,L]
 RewriteRule ^auvergne-rhone-alpes/?$ https://renov-route.com/competences/ [R=301,L]
 
+# Deux URLs heritees encore explorees par Google (rapport « Exploree, actuellement
+# non indexee ») tombaient en 404 : elles n'avaient pas d'equivalent dans le bloc
+# ci-dessus. L'ancienne page d'avis correspond desormais a la section temoignages
+# de l'accueil.
+# NE est indispensable : sans lui mod_rewrite encode le « # » en %23 et l'ancre casse.
+RewriteRule ^avis/?$ https://renov-route.com/#temoignages [R=301,NE,L]
+
 # Arrondissements lyonnais consolides vers la page pilier Lyon.
 # Ces pages existaient et se positionnaient sur les requetes commerciales locales
 # (« entreprise de marquage au sol routier lyon »). Les redirections declarees dans
@@ -108,6 +115,15 @@ RewriteCond %{REQUEST_URI} !^/devis/
 RewriteCond %{REQUEST_URI} !^/realisations/
 RewriteCond %{REQUEST_URI} !^/qui-sommes-nous/
 RewriteRule ^conseil-expertise-([^/]+)/?$ https://renov-route.com/competences/conseil-expertise/ [R=301,L]
+
+# Variantes geographiques « peinture-marquage-* » (ex. peinture-marquage-parking-42).
+# Seule la declinaison lyonnaise etait couverte plus haut ; les autres tombaient en 404.
+RewriteCond %{REQUEST_URI} !^/guides/
+RewriteCond %{REQUEST_URI} !^/competences/
+RewriteCond %{REQUEST_URI} !^/devis/
+RewriteCond %{REQUEST_URI} !^/realisations/
+RewriteCond %{REQUEST_URI} !^/qui-sommes-nous/
+RewriteRule ^peinture-marquage-([^/]+)/?$ https://renov-route.com/competences/tracage-retracage-parking/ [R=301,L]
 
 # Redirections d'anciens formats d'URL
 RewriteRule ^index\.html?$ https://renov-route.com/ [R=301,L]
