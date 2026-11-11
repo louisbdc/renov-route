@@ -8,7 +8,7 @@ export const meta: Guide = {
   metaTitle: 'Dimension place de parking : 2,50 × 5 m (norme NF P 91-100)',
   metaDescription: 'Une place standard mesure 2,50 m × 5 m. Toutes les dimensions par configuration : épi 45°/75°, bataille, longitudinale, PMR (3,30 m). Tableaux et largeurs de voie.',
   publishDate: '2026-03-31',
-  updatedDate: '2026-07-28',
+  updatedDate: '2026-11-11',
   category: 'marquage-parking',
   readingTime: 12,
   excerpt: 'Toutes les dimensions de places de parking selon la norme NF P 91-100 : perpendiculaire, epi, longitudinale, PMR. Tableaux pratiques, erreurs courantes et conseils d\'optimisation.',
@@ -587,7 +587,10 @@ export default function Content() {
       <p>
         La norme NF P 91-100 pose un cadre clair, mais chaque parking est unique. La géométrie
         du terrain, le type de clientèle, les flux de circulation et les obligations PMR
-        imposent une approche sur mesure.
+        imposent une approche sur mesure. Une fois le plan arrêté, reste à choisir le
+        revêtement : notre guide{' '}
+        <Link href="/guides/resine-epoxy-ou-peinture-sol-comparatif">peinture époxy sol</Link>{' '}
+        compare peinture et résine, prix au m² à l&apos;appui.
       </p>
       <p>
         <strong>Renov&apos;Route accompagne les gestionnaires de parkings depuis

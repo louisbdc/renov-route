@@ -875,6 +875,12 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
   'resine-epoxy-ou-peinture-sol-comparatif': [
     {
       question:
+        "Quel est le prix d'une peinture époxy sol au m² ?",
+      answer:
+        "Comptez à partir de 14 euros/m² posé pour une peinture époxy monocomposant et à partir de 35 euros/m² pour une résine époxy bicomposant. Le prix varie selon la surface et l'état du support.",
+    },
+    {
+      question:
         'La résine époxy jaunit-elle ?',
       answer:
         "Oui, la résine époxy standard jaunit sous les UV. En parking extérieur, l'alternative est la résine polyuréthane (aliphatique) qui résiste aux UV. En parking couvert ou souterrain, le jaunissement n'est pas un problème.",

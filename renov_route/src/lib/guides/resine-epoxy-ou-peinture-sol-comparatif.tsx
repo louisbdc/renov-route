@@ -4,33 +4,79 @@ import Link from 'next/link'
 
 export const meta: Guide = {
   slug: 'resine-epoxy-ou-peinture-sol-comparatif',
-  title: 'Résine époxy ou peinture sol : que choisir pour votre parking ?',
-  metaTitle: 'Résine époxy ou peinture sol : comparatif 2026 | Rénov\'Route',
-  metaDescription: 'Résine époxy ou peinture sol parking : comparatif prix, durée de vie, résistance et entretien. Le bon choix selon votre usage et votre budget.',
+  title: 'Peinture époxy sol : prix, usages et comparatif avec la résine',
+  metaTitle: 'Peinture époxy sol : prix au m² et comparatif résine 2026',
+  metaDescription: 'Peinture époxy sol pour garage, parking ou entrepôt : prix au m² dès 14 €, durée de vie et comparatif avec la résine époxy. Devis gratuit sous 48h.',
   publishDate: '2026-03-04',
-  updatedDate: '2026-08-08',
+  updatedDate: '2026-11-11',
   category: 'marquage-parking',
   readingTime: 8,
-  excerpt: 'Comparatif complet peinture sol vs résine époxy : prix, durée de vie, résistance chimique, préparation et coût réel sur 10 ans.',
+  excerpt: 'Peinture époxy sol : prix au m², usages (garage, parking, entrepôt), délais et comparatif complet avec la résine époxy sur 10 ans.',
 }
 
 export default function Content() {
   return (
     <>
-      <KeyAnswer question="Résine époxy ou peinture de sol : que choisir ?">
+      <KeyAnswer question="Peinture époxy sol : quel produit choisir et à quel prix ?">
         <p>
-          La <strong>peinture acrylique</strong> (dès 8 €/m², 2-4 ans) convient à 70 % des parkings de copropriété. La <strong>résine époxy bicomposant</strong> (dès 35 €/m², 8-15 ans) s'impose dès qu'il y a des hydrocarbures ou du trafic lourd. Sur 10 ans, le coût au m² est comparable.
+          La <strong>peinture époxy sol monocomposant</strong> (dès 14 €/m², 3-5 ans) convient aux garages et parkings à trafic moyen. La <strong>résine époxy bicomposant</strong> (dès 35 €/m², 8-15 ans) s'impose dès qu'il y a des hydrocarbures ou du trafic lourd. La <strong>peinture acrylique</strong> (dès 8 €/m², 2-4 ans) suffit à 70 % des parkings de copropriété. Sur 10 ans, le coût au m² est comparable.
         </p>
       </KeyAnswer>
 
       <p>
-        Vous devez r&eacute;nover le sol de votre parking et on vous propose deux options : peinture de sol ou r&eacute;sine &eacute;poxy. L&apos;&eacute;cart de prix est important (du simple au triple), mais l&apos;&eacute;cart de performance aussi. Le mauvais choix peut vous co&ucirc;ter plus cher que le bon sur 5 ans.
+        Vous cherchez une <strong>peinture &eacute;poxy sol</strong> pour r&eacute;nover un parking, un garage ou un entrep&ocirc;t, et on vous propose deux options : peinture de sol ou r&eacute;sine &eacute;poxy. L&apos;&eacute;cart de prix est important (du simple au triple), mais l&apos;&eacute;cart de performance aussi. Le mauvais choix peut vous co&ucirc;ter plus cher que le bon sur 5 ans.
       </p>
       <p>
         Thomas, responsable d&apos;une concession automobile de 40 places &agrave; V&eacute;nissieux (69), a fait peindre son parking client avec une peinture acrylique en 2022. En 18 mois, la peinture se d&eacute;collait sous les gouttes d&apos;huile et les traces de pneus dans les zones de pr&eacute;sentation des v&eacute;hicules. La reprise en r&eacute;sine &eacute;poxy a repr&eacute;sent&eacute; un investissement bien plus cons&eacute;quent. S&apos;il avait choisi la r&eacute;sine d&egrave;s le d&eacute;part, il aurait &eacute;vit&eacute; de payer quasiment le double au total.
       </p>
       <p>
         Ce guide compare la peinture et la r&eacute;sine point par point pour vous aider &agrave; choisir le bon rev&ecirc;tement selon votre usage.
+      </p>
+
+      <h2>Peinture époxy sol : de quoi parle-t-on ?</h2>
+      <p>
+        Sous le nom de « peinture époxy sol », on trouve en réalité deux produits très différents :
+      </p>
+      <ul>
+        <li><strong>La peinture époxy monocomposant</strong> : un film mince de 0,2-0,5 mm, prêt à l&apos;emploi, appliqué au rouleau ou à l&apos;airless. Durée de vie : 3-5 ans.</li>
+        <li><strong>La résine époxy bicomposant</strong> (résine + durcisseur) : un revêtement de 0,5-3 mm, posé sur un sol grenaillé. Durée de vie : 8-15 ans.</li>
+      </ul>
+      <p>
+        Les deux se posent sur béton, mais ni le prix, ni la préparation, ni la tenue dans le temps ne sont comparables.
+      </p>
+
+      <h2>Prix d&apos;une peinture époxy sol au m²</h2>
+      <div className="overflow-x-auto">
+        <table>
+          <thead>
+            <tr>
+              <th>Produit</th>
+              <th>Prix pose (m²)</th>
+              <th>Préparation du sol</th>
+              <th>Séchage</th>
+              <th>Durée de vie</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Peinture époxy sol (monocomposant)</td><td>à partir de 14 euros</td><td>Nettoyage + ponçage</td><td>12-24h</td><td>3-5 ans</td></tr>
+            <tr><td>Résine époxy sol (bicomposant)</td><td>à partir de 35 euros</td><td>Grenaillage obligatoire</td><td>24-48h</td><td>8-15 ans</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>
+        Le prix final dépend surtout de l&apos;état du support : un béton fissuré, humide ou taché d&apos;huile demande plus de préparation. Côté délais, comptez pour un parking de 50 places (environ 650 m²) 2-3 jours de préparation puis 1-2 jours d&apos;application en résine époxy. Pour un chiffrage sur votre surface, <Link href="/devis">demandez un devis gratuit en 48h</Link>.
+      </p>
+
+      <h2>Peinture époxy sol garage, parking, entrepôt : quel produit pour quel usage ?</h2>
+      <ul>
+        <li><strong>Peinture époxy sol garage</strong> : pour un garage privé ou un box, la peinture époxy monocomposant suffit. Voir notre guide <Link href="/guides/peinture-sol-garage-types-application">peinture sol garage</Link>.</li>
+        <li><strong>Parking couvert ou souterrain</strong> : résine époxy bicomposant, pour sa résistance aux hydrocarbures et à l&apos;humidité. Voir <Link href="/guides/resine-sol-parking-souterrain">résine sol parking souterrain</Link>.</li>
+        <li><strong>Entrepôt, atelier, garage mécanique</strong> : résine époxy bicomposant, seule à tenir sous les chariots, les huiles et les solvants. Voir <Link href="/guides/sol-epoxy-entrepot-avantages-pose">sol époxy entrepôt</Link>.</li>
+      </ul>
+
+      <h3>Peinture époxy sol extérieur : à éviter</h3>
+      <p>
+        L&apos;époxy jaunit sous les UV. Pour un sol extérieur (parking aérien, rampe d&apos;accès), préférez une résine polyuréthane, qui résiste aux UV et aux variations de température. L&apos;époxy reste réservée aux sols couverts.
       </p>
 
       <h2>Peinture sol vs r&eacute;sine &eacute;poxy : les diff&eacute;rences fondamentales</h2>
@@ -169,7 +215,12 @@ export default function Content() {
         <li><strong>Limite</strong> : la r&eacute;sine jaunit sous les UV (parking ext&eacute;rieur). En int&eacute;rieur, pas de jaunissement</li>
       </ul>
 
-      <h2>FAQ : r&eacute;sine ou peinture</h2>
+      <h2>FAQ : peinture époxy sol ou résine</h2>
+
+      <h3>Quel est le prix d&apos;une peinture époxy sol au m² ?</h3>
+      <p>
+        Comptez à partir de 14 euros/m² posé pour une peinture époxy monocomposant et à partir de 35 euros/m² pour une résine époxy bicomposant. Le prix varie selon la surface et l&apos;état du support.
+      </p>
 
       <h3>La r&eacute;sine &eacute;poxy jaunit-elle ?</h3>
       <p>
