@@ -67,6 +67,20 @@ export default function Content() {
         Le prix final dépend surtout de l&apos;état du support : un béton fissuré, humide ou taché d&apos;huile demande plus de préparation. Côté délais, comptez pour un parking de 50 places (environ 650 m²) 2-3 jours de préparation puis 1-2 jours d&apos;application en résine époxy. Pour un chiffrage sur votre surface, <Link href="/devis">demandez un devis gratuit en 48h</Link>.
       </p>
 
+      <h2>Garantie : ce que nous reprenons, ce qui relève de l&apos;usure</h2>
+      <p>
+        Si le revêtement ne tient pas à cause d&apos;un défaut de pose, Rénov&apos;Route reprend la zone concernée à ses frais.
+      </p>
+      <p>
+        En revanche, une peinture de sol s&apos;use : après 4-5 ans de passage, il est normal qu&apos;elle commence à partir dans les zones les plus circulées. Cette usure ne relève pas de la garantie, c&apos;est le moment de prévoir un rafraîchissement.
+      </p>
+      <p>Sont également exclus :</p>
+      <ul>
+        <li><strong>Sol humide non traité</strong> : remontées d&apos;humidité dans un support qui n&apos;a pas reçu le traitement préconisé</li>
+        <li><strong>Usage non prévu</strong> : trafic ou produits plus agressifs que ceux annoncés au devis</li>
+        <li><strong>Défaut d&apos;entretien</strong></li>
+      </ul>
+
       <h2>Peinture époxy sol garage, parking, entrepôt : quel produit pour quel usage ?</h2>
       <ul>
         <li><strong>Peinture époxy sol garage</strong> : pour un garage privé ou un box, la peinture époxy monocomposant suffit. Voir notre guide <Link href="/guides/peinture-sol-garage-types-application">peinture sol garage</Link>.</li>
