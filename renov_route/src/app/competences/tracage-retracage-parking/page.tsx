@@ -30,7 +30,7 @@ const BREADCRUMB = [
 
 const FEATURES = [
   { icon: <TbTarget size={20} />, title: 'Précision maximale', description: 'Tracés parfaitement droits et alignés grâce à nos outils professionnels et nos gabarits certifiés.' },
-  { icon: <TbCertificate size={20} />, title: 'Conformité aux normes', description: 'Respect total des réglementations en vigueur, normes NF EN 1436 et accessibilité PMR.' },
+  { icon: <TbCertificate size={20} />, title: 'Conformité aux normes', description: 'Respect des réglementations en vigueur et de l\'accessibilité PMR, avec des peintures certifiées NF EN 1436.' },
   { icon: <TbShield size={20} />, title: 'Durabilité exceptionnelle', description: 'Peintures routières haute résistance aux intempéries, UV et trafic intense.' },
   { icon: <TbPalette size={20} />, title: 'Marquage sur mesure', description: 'Adaptation à votre identité visuelle, numérotation de places, couleurs personnalisées.' },
 ]
@@ -99,7 +99,7 @@ export default function TracageRetracageParkingPage() {
         heroTitle="Marquage au sol parking, Traçage & retraçage"
         heroSubtitle="Un marquage de parking professionnel améliore la circulation, optimise l'espace et renforcé la sécurité. Traçage conforme aux normes en vigueur."
         heroBackgroundImage="/assets/images/realisations/lidl-verpiliere-parking_1.avif"
-        heroImageAlt="Traçage de parking Lidl La Verpilière par Rénov Route"
+        heroImageAlt="Traçage de parking Lidl La Verpilière par Rénov'Route"
         accentColor="amber"
         descriptionHeading="Marquage au sol parking : une expertise complète"
         descriptionParagraphs={[

@@ -44,7 +44,7 @@ const STRUCTURED_DATA = {
     "description": "Service de devis gratuit pour tous projets de traçage marquage routier, réparation nids de poule, marquage parking",
     "provider": {
       "@type": "LocalBusiness",
-      "name": "Renov Route"
+      "name": "Rénov'Route"
     },
     "offers": {
       "@type": "Offer",

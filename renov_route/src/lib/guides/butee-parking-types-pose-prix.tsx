@@ -1,10 +1,11 @@
 import type { Guide } from '../guides'
+import KeyAnswer from '@/components/KeyAnswer'
 import Link from 'next/link'
 
 export const meta: Guide = {
   slug: 'butee-parking-types-pose-prix',
   title: 'Butée de parking : types, pose et guide des prix',
-  metaTitle: 'Butée de parking: types, pose et prix',
+  metaTitle: "Butée de parking : types, pose et prix",
   metaDescription: 'Butée de parking béton, caoutchouc, acier : comparatif des types avec prix, dimensions et conseils de pose pour parking privé et copropriété.',
   publishDate: '2026-03-04',
   updatedDate: '2026-07-28',
@@ -16,11 +17,17 @@ export const meta: Guide = {
 export default function Content() {
   return (
     <>
+      <KeyAnswer question="Combien coûte une butée de parking ?">
+        <p>
+          Une <strong>butée de parking</strong> coûte à partir de <strong>30 €</strong> pose incluse en plastique recyclé, 35 € en béton, 40 € en caoutchouc et 60 € en acier galvanisé. Placez-la à <strong>80 cm du mur</strong> pour une voiture, 1 m pour un utilitaire, et évitez d&apos;en poser sur les places PMR.
+        </p>
+      </KeyAnswer>
+
       <p>
         Une butée de parking, c&apos;est un détail qui évite les dégâts. Sans elle, les véhicules roulent trop loin, cognent les murs, écrasent les bordures ou empiètent sur la place voisine. Un bloc de 55 centimètres au sol qui protège les structures, les piétons et les véhicules eux-mêmes.
       </p>
       <p>
-        Marc, gestionnaire d&apos;un parking de centre commercial à Bron (69), a fait poser 180 butées en caoutchouc recyclé après un incident : un SUV avait percuté le mur du fond en se garant, endommageant un tuyau d&apos;évacuation des eaux. La réparation a coûté plusieurs milliers d&apos;euros. L&apos;équipement complet en butées a représenté un investissement comparable. Depuis l&apos;installation, zéro impact contre les murs. L&apos;investissement a été remboursé au premier incident évite.
+        Prenons l&apos;exemple de Marc, gestionnaire d&apos;un parking de centre commercial à Bron (69) : il a fait poser 180 butées en caoutchouc recyclé après un incident : un SUV avait percuté le mur du fond en se garant, endommageant un tuyau d&apos;évacuation des eaux. La réparation a coûté plusieurs milliers d&apos;euros. L&apos;équipement complet en butées a représenté un investissement comparable. Depuis l&apos;installation, zéro impact contre les murs. L&apos;investissement a été remboursé au premier incident évité.
       </p>
       <p>
         Butée béton, caoutchouc, acier, plastique : chaque matériau répond à un usage et un budget différent. Ce guide compare les options, détaille les prix et explique les règles de pose.
@@ -28,12 +35,12 @@ export default function Content() {
 
       <h2>Les types de butées de parking</h2>
       <p>
-        Quatre matériaux dominent le marche.
+        Quatre matériaux dominent le marché.
       </p>
 
       <h3>Butée en caoutchouc recyclé</h3>
       <p>
-        La plus répandue dans les parkings modernes. Fabriquée à partir de pneus recycles, elle est souple, légère et absorbe les chocs sans endommager les véhicules.
+        La plus répandue dans les parkings modernes. Fabriquée à partir de pneus recyclés, elle est souple, légère et absorbe les chocs sans endommager les véhicules.
       </p>
       <p><strong>Avantages :</strong></p>
       <ul>
@@ -48,14 +55,14 @@ export default function Content() {
       <ul>
         <li>Peut se déplacer si mal fixée (sol meuble ou non adapté)</li>
         <li>Esthétique moins noble que le béton ou l&apos;acier</li>
-        <li>Durée de vie : 5 à 10 ans (decoloration progressive)</li>
+        <li>Durée de vie : 5 à 10 ans (décoloration progressive)</li>
       </ul>
       <p>
         <strong>Dimensions standard :</strong> 55 x 15 x 10 cm (longueur x largeur x hauteur).{' '}
         <strong>Prix :</strong> à partir de 25 euros l&apos;unité (hors pose).
       </p>
       <p>
-        <strong>Usage recommandé :</strong> Parkings de copropriété, centres commerciaux, parkings couverts, zones à trafic modéré a élevé.
+        <strong>Usage recommandé :</strong> Parkings de copropriété, centres commerciaux, parkings couverts, zones à trafic modéré à élevé.
       </p>
 
       <h3>Butée en béton</h3>
@@ -72,10 +79,10 @@ export default function Content() {
       </ul>
       <p><strong>Limites :</strong></p>
       <ul>
-        <li>Lourde et difficile à déplacer ou reinstaller</li>
+        <li>Lourde et difficile à déplacer ou réinstaller</li>
         <li>Risque d&apos;endommager les pare-chocs en cas de contact brutal</li>
         <li>Peut se fissurer sous un impact violent</li>
-        <li>Pas de bandes réfléchissantes intégrées (a ajouter)</li>
+        <li>Pas de bandes réfléchissantes intégrées (à ajouter)</li>
         <li>Installation plus lourde (scellement au sol)</li>
       </ul>
       <p>
@@ -88,7 +95,7 @@ export default function Content() {
 
       <h3>Butée en acier galvanisé</h3>
       <p>
-        La solution haut de gamme. Un profil métallique galvanisé, fixe au sol par boulonnage. Résistante, fine et dissuasive.
+        La solution haut de gamme. Un profil métallique galvanisé, fixé au sol par boulonnage. Résistante, fine et dissuasive.
       </p>
       <p><strong>Avantages :</strong></p>
       <ul>
@@ -110,18 +117,18 @@ export default function Content() {
         <strong>Prix :</strong> à partir de 40 euros l&apos;unité (hors pose).
       </p>
       <p>
-        <strong>Usage recommandé :</strong> Parkings prestige, concessions automobiles, parkings aeroportuaires, sites ou l&apos;esthétique compte.
+        <strong>Usage recommandé :</strong> Parkings prestige, concessions automobiles, parkings aéroportuaires, sites où l&apos;esthétique compte.
       </p>
 
-      <h3>Butée en plastique recycle (HDPE)</h3>
+      <h3>Butée en plastique recyclé (HDPE)</h3>
       <p>
-        L&apos;alternative écologique légère. Fabriquée en polyéthylène haute densité recycle, elle combine legerete et résistance.
+        L&apos;alternative écologique légère. Fabriquée en polyéthylène haute densité recyclé, elle combine légèreté et résistance.
       </p>
       <p><strong>Avantages :</strong></p>
       <ul>
         <li>Très légère (4 à 6 kg)</li>
         <li>Imputrescible (pas de corrosion, pas de moisissure)</li>
-        <li>Couleurs vives intégrées dans la masse (pas de peinture a refaire)</li>
+        <li>Couleurs vives intégrées dans la masse (pas de peinture à refaire)</li>
         <li>Installation rapide (collage ou chevillage)</li>
         <li>100% recyclable</li>
       </ul>
@@ -158,7 +165,7 @@ export default function Content() {
           </thead>
           <tbody>
             <tr>
-              <td>Plastique recycle (HDPE)</td>
+              <td>Plastique recyclé (HDPE)</td>
               <td>à partir de 20 euros</td>
               <td>à partir de 30 euros</td>
               <td>5-8 ans</td>
@@ -194,9 +201,9 @@ export default function Content() {
         Le nombre de butées dépend du nombre de places et de la configuration :
       </p>
       <ul>
-        <li><strong>Parking linéaire</strong> (places en epi ou en bataille) : 1 butée par place</li>
+        <li><strong>Parking linéaire</strong> (places en épi ou en bataille) : 1 butée par place</li>
         <li><strong>Parking double rangée</strong> (face à face) : 1 butée par place côté mur + aucune au centre si une voie de circulation sépare les rangées</li>
-        <li><strong>Places PMR</strong> : pas de butée (la butée gene l&apos;ouverture des portes et l&apos;accès en fauteuil)</li>
+        <li><strong>Places PMR</strong> : pas de butée (la butée gêne l&apos;ouverture des portes et l&apos;accès en fauteuil)</li>
       </ul>
       <p><strong>Exemples de budget :</strong></p>
       <ul>
@@ -205,7 +212,7 @@ export default function Content() {
         <li><strong>Parking industriel 50 places</strong> (béton) : à partir de 2 500 euros pose incluse</li>
       </ul>
       <p>
-        Nathalie, syndic d&apos;une copropriété de 45 logements à Oullins (69), a fait voter la pose de butées en caoutchouc lors de la rénovation du parking souterrain. Le devis retenu représentait quelques milliers d&apos;euros pour 38 butées posées (les 7 places PMR n&apos;ont pas de butées). Reparti sur 45 copropriétaires, l&apos;investissement par lot était très raisonnable. Depuis la pose, les rayures sur les murs du parking ont cessé et les plaintes en AG ont disparu.
+        Prenons l&apos;exemple de Nathalie, syndic d&apos;une copropriété de 45 logements à Oullins (69) : elle a fait voter la pose de butées en caoutchouc lors de la rénovation du parking souterrain. Le devis retenu représentait quelques milliers d&apos;euros pour 38 butées posées (les 7 places PMR n&apos;ont pas de butées). Réparti sur 45 copropriétaires, l&apos;investissement par lot était très raisonnable. Depuis la pose, les rayures sur les murs du parking ont cessé et les plaintes en AG ont disparu.
       </p>
 
       <h2>Règles de pose</h2>
@@ -215,9 +222,9 @@ export default function Content() {
         La butée doit être posée à une distance précise du mur ou de l&apos;obstacle :
       </p>
       <ul>
-        <li><strong>Distance du mur</strong> : le pare-chocs arriere du véhicule doit rester à au moins 50 cm du mur après contact avec la butée. En pratique, placez la butée à 80 cm du mur pour les voitures standard, 1 mètre pour les places accueillant des utilitaires</li>
+        <li><strong>Distance du mur</strong> : le pare-chocs arrière du véhicule doit rester à au moins 50 cm du mur après contact avec la butée. En pratique, placez la butée à 80 cm du mur pour les voitures standard, 1 mètre pour les places accueillant des utilitaires</li>
         <li><strong>Centrage</strong> : la butée doit être centrée sur la largeur de la place de stationnement</li>
-        <li><strong>Places en epi</strong> : la butée suit l&apos;angle de la place (installation en biais)</li>
+        <li><strong>Places en épi</strong> : la butée suit l&apos;angle de la place (installation en biais)</li>
       </ul>
 
       <h3>Fixation</h3>
@@ -225,15 +232,15 @@ export default function Content() {
         Quatre méthodes selon le support :
       </p>
       <ul>
-        <li><strong>Sol béton (parking couvert)</strong> : chevillage mécanique (chevilles a frapper ou a expansion). 2 à 4 points de fixation par butée</li>
+        <li><strong>Sol béton (parking couvert)</strong> : chevillage mécanique (chevilles à frapper ou à expansion). 2 à 4 points de fixation par butée</li>
         <li><strong>Sol enrobé (parking extérieur)</strong> : chevillage chimique (scellement résine). Plus solide sur sol souple</li>
-        <li><strong>Sol pave ou dalle</strong> : collage structurel + chevillage de sécurité</li>
-        <li><strong>Sol meuble (gravier, terre)</strong> : scellement dans un plot béton coule sur place</li>
+        <li><strong>Sol pavé ou dalle</strong> : collage structurel + chevillage de sécurité</li>
+        <li><strong>Sol meuble (gravier, terre)</strong> : scellement dans un plot béton coulé sur place</li>
       </ul>
 
       <h3>Places PMR : pas de butée</h3>
       <p>
-        La réglementation PMR interdit la pose de butées sur les places réservées aux personnes à mobilité réduite. La butée constitue un obstacle au déplacement en fauteuil roulant et gene l&apos;ouverture complète des portes. Consultez notre{' '}
+        Évitez de poser des butées sur les places réservées aux personnes à mobilité réduite. La butée constitue un obstacle au déplacement en fauteuil roulant et gêne l&apos;ouverture complète des portes. Consultez notre{' '}
         <Link href="/guides/dimensions-nombre-places-pmr-parking">guide des dimensions PMR</Link> et notre{' '}
         <Link href="/guides/normes-pmr-parking">guide des normes PMR</Link> pour les détails.
       </p>
@@ -243,7 +250,7 @@ export default function Content() {
         Les butées doivent être visibles. Deux options :
       </p>
       <ul>
-        <li><strong>Bandes réfléchissantes</strong> : intégrées sur les butées en caoutchouc, a coller sur les butées béton</li>
+        <li><strong>Bandes réfléchissantes</strong> : intégrées sur les butées en caoutchouc, à coller sur les butées béton</li>
         <li><strong>Peinture jaune ou blanche</strong> : 2 bandes diagonales sur les butées béton ou acier</li>
       </ul>
       <p>
@@ -254,12 +261,12 @@ export default function Content() {
 
       <h3>1. Poser des butées sur les places PMR</h3>
       <p>
-        C&apos;est la plus courante. La butée gene l&apos;accès en fauteuil roulant et l&apos;ouverture des portières. Les places PMR doivent rester libres de tout obstacle au sol.
+        C&apos;est la plus courante. La butée gêne l&apos;accès en fauteuil roulant et l&apos;ouverture des portières. Les places PMR doivent rester libres de tout obstacle au sol.
       </p>
 
       <h3>2. Placer la butée trop près du mur</h3>
       <p>
-        Si la butée est à 30 cm du mur au lieu de 80 cm, les véhicules touchent quand même le mur avec leur pare-chocs arriere. La butée ne sert à rien. Mesurez la distance réelle entre la butée et le mur en tenant compte du debord du pare-chocs (30 à 50 cm selon les véhicules).
+        Si la butée est à 30 cm du mur au lieu de 80 cm, les véhicules touchent quand même le mur avec leur pare-chocs arrière. La butée ne sert à rien. Mesurez la distance réelle entre la butée et le mur en tenant compte du débord du pare-chocs (30 à 50 cm selon les véhicules).
       </p>
 
       <h3>3. Fixer avec des chevilles trop courtes</h3>
@@ -311,7 +318,7 @@ export default function Content() {
         Comptez 1 butée par place, moins les places PMR (qui ne doivent pas avoir de butées). Pour 50 places dont 3 PMR : 47 butées. Budget indicatif en caoutchouc pose incluse : à partir de 2 500 euros.
       </p>
 
-      <h3>Les butées genent-elles le nettoyage du parking ?</h3>
+      <h3>Les butées gênent-elles le nettoyage du parking ?</h3>
       <p>
         Légèrement. Les butées chevillées sont fixes et obligent à nettoyer autour. Pour faciliter l&apos;entretien, les butées collées sont plus faciles à retirer temporairement. Prévoyez un passage de l&apos;autolaveuse de chaque côté de la butée.
       </p>
@@ -324,8 +331,8 @@ export default function Content() {
         L&apos;erreur la plus courante : oublier les places PMR. Les butées ne doivent jamais être posées sur les places réservées aux personnes à mobilité réduite.
       </p>
       <p>
-        <strong>Vous equipez votre parking en butées ou accessoires ?</strong>{' '}
-        <Link href="/devis">Demandez un devis gratuit</Link> en 48h. Notre équipe vous conseillé sur le type de butée adaptée et assure la pose complète,{' '}
+        <strong>Vous équipez votre parking en butées ou accessoires ?</strong>{' '}
+        <Link href="/devis">Demandez un devis gratuit</Link> en 48h. Notre équipe vous conseille sur le type de butée adaptée et assure la pose complète,{' '}
         <Link href="/competences/tracage-retracage-parking">traçage des places</Link> inclus.
       </p>
     </>

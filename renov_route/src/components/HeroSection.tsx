@@ -4,9 +4,9 @@ import { useState, useEffect, useCallback, useRef } from 'react'
 import Image from 'next/image'
 
 const MEDIA = [
-  { type: 'image' as const, src: '/assets/images/background_home_page.avif', alt: 'Marquage au sol professionnel sur parking à Lyon - Rénov Route' },
+  { type: 'image' as const, src: '/assets/images/background_home_page.avif', alt: 'Marquage au sol professionnel sur parking à Lyon - Rénov\'Route' },
   { type: 'video' as const, src: '/Ligne_1.mp4', alt: '' },
-  { type: 'image' as const, src: '/assets/images/realisations/avenieres-pmr-parcours_3.avif', alt: 'Signalisation PMR et parcours piétons aux Avenières par Rénov Route' },
+  { type: 'image' as const, src: '/assets/images/realisations/avenieres-pmr-parcours_3.avif', alt: 'Signalisation PMR et parcours piétons aux Avenières par Rénov\'Route' },
   { type: 'video' as const, src: '/Ligne_2.mp4', alt: '' },
 ]
 

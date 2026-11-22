@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Calculateur places PMR obligatoires parking | Rénov\'Route',
+  title: 'Calculateur places PMR obligatoires',
   description:
     "Calculez gratuitement le nombre de places PMR obligatoires pour votre parking selon sa capacité (arrêté du 20 avril 2017) et les dimensions réglementaires.",
   alternates: {

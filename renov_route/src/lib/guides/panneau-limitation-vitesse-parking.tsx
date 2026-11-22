@@ -1,13 +1,14 @@
 import type { Guide } from '../guides'
+import KeyAnswer from '@/components/KeyAnswer'
 import Link from 'next/link'
 
 export const meta: Guide = {
   slug: 'panneau-limitation-vitesse-parking',
   title:
     'Panneau limitation de vitesse en parking : réglementation, choix et pose',
-  metaTitle: 'Vitesse en parking : 10, 20 ou 30 km/h ? Règles 2026 + panneaux',
+  metaTitle: 'Panneau limitation vitesse parking : 10, 20 ou 30 km/h ?',
   metaDescription:
-    'Vitesse autorisée en parking privé, public ou supermarché : que dit la loi ? Panneaux obligatoires, sanctions, prix de pose. Guide complet 2026 + devis gratuit en 48h.',
+    'Vitesse autorisée en parking privé, public ou supermarché : que dit la loi ? Panneaux, sanctions et prix de pose. Guide complet, devis gratuit en 48h.',
   publishDate: '2026-03-04',
   updatedDate: '2026-05-22',
   category: 'securite-parking',
@@ -19,6 +20,12 @@ export const meta: Guide = {
 export default function Content() {
   return (
     <>
+      <KeyAnswer question="Quelle vitesse afficher sur un panneau de limitation en parking ?">
+        <p>
+          Aucune vitesse n&apos;est fixée par la loi pour un parking privé : le <strong>panneau de limitation de vitesse</strong> relève du gestionnaire. Retenez 10 km/h en parking couvert ou souterrain, 20 km/h en extérieur avec piétons et 30 km/h seulement sur les longues voies d&apos;accès sans stationnement latéral. En cas de doute, choisissez la vitesse la plus basse.
+        </p>
+      </KeyAnswer>
+
       <p>
         Un parking sans limitation de vitesse affich&eacute;e, c&apos;est un
         parking o&ugrave; chacun roule &agrave; sa propre
@@ -30,8 +37,7 @@ export default function Content() {
       </p>
 
       <p>
-        Laurent, syndic d&apos;une copropri&eacute;t&eacute; de 120 lots
-        &agrave; Caluire-et-Cuire (69), a fait installer des panneaux de
+        Prenons l&apos;exemple d&apos;un syndic d&apos;une copropriété de 120 lots, qui a fait installer des panneaux de
         limitation &agrave; 10 km/h dans le parking souterrain apr&egrave;s
         qu&apos;un r&eacute;sident a renvers&eacute; un enfant de 8 ans qui
         traversait &agrave; pied entre deux rang&eacute;es de voitures.
@@ -307,8 +313,7 @@ export default function Content() {
       </ul>
 
       <p>
-        Sandrine, responsable d&apos;un parking de clinique &agrave;
-        Tassin-la-Demi-Lune (69), avait plac&eacute; un seul panneau 10 km/h
+        Prenons l&apos;exemple d&apos;une responsable de parking de clinique, qui avait placé un seul panneau 10 km/h
         &agrave; l&apos;entr&eacute;e principale. Le parking avait 3
         acc&egrave;s : l&apos;entr&eacute;e principale, une entr&eacute;e de
         service et une rampe vers le niveau -1. Les v&eacute;hicules entrant par
@@ -551,11 +556,7 @@ export default function Content() {
 
       <p>
         La loi n&apos;impose pas de vitesse sp&eacute;cifique en parking
-        priv&eacute;. Mais le gestionnaire a une obligation
-        g&eacute;n&eacute;rale de s&eacute;curit&eacute; envers les usagers
-        (article 1242 du Code civil). L&apos;absence de signalisation de
-        vitesse peut &ecirc;tre retenue comme un manquement &agrave; cette
-        obligation en cas d&apos;accident.
+        priv&eacute;. Mais la responsabilité civile du gestionnaire peut être recherchée en cas d&apos;accident (article 1242 du Code civil), et l&apos;absence de signalisation de vitesse peut alors être retenue contre lui.
       </p>
 
       <h3>

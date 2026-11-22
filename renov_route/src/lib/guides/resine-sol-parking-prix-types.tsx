@@ -1,10 +1,11 @@
 import type { Guide } from '../guides'
+import KeyAnswer from '@/components/KeyAnswer'
 import Link from 'next/link'
 
 export const meta: Guide = {
   slug: 'resine-sol-parking-prix-types',
   title: 'Résine sol parking : prix au m², types et guide d\'application',
-  metaTitle: 'Résine sol parking: prix au m², types et application',
+  metaTitle: 'Résine sol parking : prix au m², types et application',
   metaDescription: 'Résine époxy, polyuréthane, méthacrylate : prix au m², avantages et application pour parking. Comparatif complet avec durée de vie et conditions de pose.',
   publishDate: '2026-03-04',
   updatedDate: '2026-05-22',
@@ -16,14 +17,20 @@ export const meta: Guide = {
 export default function Content() {
   return (
     <>
+      <KeyAnswer question="Quelle résine de sol choisir pour un parking ?">
+        <p>
+          La <strong>résine sol parking</strong> se choisit selon l&apos;exposition. L&apos;époxy, 8 à 15 ans, convient aux parkings couverts mais jaunit aux UV. Le polyuréthane, 10 à 20 ans, et le méthacrylate, 10 à 15 ans, résistent à l&apos;extérieur. Le support doit afficher moins de 4 % d&apos;humidité, sauf pour le méthacrylate, applicable sur sol légèrement humide.
+        </p>
+      </KeyAnswer>
+
       <p>
         Un sol de parking brut, c&apos;est un sol qui se dégrade vite. Poussière, taches d&apos;huile, fissures, glissance par temps humide. La résine de sol transforme une dalle béton fragile en surface durable, étanche et facile à entretenir.
       </p>
       <p>
-        Damien, directeur technique d&apos;un groupe immobilier à Lyon, a fait appliquer une résine époxy dans le parking souterrain d&apos;une de ses résidences (180 places, 3 200 m²) en 2023. Avant les travaux, le sol béton générait des plaintes constantes : poussière sur les véhicules, taches d&apos;huile impossibles à nettoyer, marquage au sol qui ne tenait pas plus de 6 mois. Deux ans après l&apos;application de la résine, le sol est intact, le marquage tient parfaitement et les charges d&apos;entretien ont baissé de 60%. L&apos;investissement a été rapidement amorti grâce aux économies d&apos;entretien significatives sur la durée.
+        Prenons l&apos;exemple d&apos;un directeur technique de groupe immobilier, qui a fait appliquer une résine époxy dans le parking souterrain d&apos;une de ses résidences (180 places, 3 200 m²). Avant les travaux, le sol béton générait des plaintes constantes : poussière sur les véhicules, taches d&apos;huile impossibles à nettoyer, marquage au sol qui ne tenait pas plus de 6 mois. Deux ans après l&apos;application de la résine, le sol est intact, le marquage tient parfaitement et les charges d&apos;entretien ont baissé de 60%. L&apos;investissement a été rapidement amorti grâce aux économies d&apos;entretien significatives sur la durée.
       </p>
       <p>
-        Résine époxy, polyuréthane, méthacrylate : chaque type à ses avantages, ses limites et son prix. Ce guide compare les options, détaille les prix au m² et explique les conditions d&apos;une application réussie.
+        Résine époxy, polyuréthane, méthacrylate : chaque type a ses avantages, ses limites et son prix. Ce guide compare les options, détaille les prix au m² et explique les conditions d&apos;une application réussie.
       </p>
 
       <h2>Les types de résine pour sol de parking</h2>
@@ -161,7 +168,7 @@ export default function Content() {
         <Link href="/guides/cout-renovation-parking">guide du coût de rénovation de parking</Link>.
       </p>
       <p>
-        Christine, gérante d&apos;un garage automobile de 400 m² à Tassin-la-Demi-Lune (69), hésitait entre une peinture époxy et une résine époxy autolissante. Elle a choisi la peinture, moins chère. Résultat : après 3 ans, la peinture s&apos;écaille dans les zones de passage intensif. La résine de son voisin garagiste, posée à la même époque, est intacte. Christine va devoir poncer et réappliquer, soit un coût total supérieur à celui de la résine sur 10 ans.
+        Prenons l&apos;exemple d&apos;une gérante de garage automobile de 400 m², qui hésitait entre une peinture époxy et une résine époxy autolissante. Elle a choisi la peinture, moins chère. Résultat : après 3 ans, la peinture s&apos;écaille dans les zones de passage intensif. La résine de son voisin garagiste, posée à la même époque, est intacte. Elle va devoir poncer et réappliquer, soit un coût total supérieur à celui de la résine sur 10 ans.
       </p>
 
       <h2>Conditions d&apos;application</h2>

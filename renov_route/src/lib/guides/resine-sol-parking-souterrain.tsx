@@ -1,4 +1,5 @@
 import type { Guide } from '../guides'
+import KeyAnswer from '@/components/KeyAnswer'
 import Link from 'next/link'
 
 export const meta: Guide = {
@@ -16,11 +17,17 @@ export const meta: Guide = {
 export default function Content() {
   return (
     <>
+      <KeyAnswer question="Quelle résine de sol pour un parking souterrain ?">
+        <p>
+          Pour une <strong>résine sol parking souterrain</strong>, le choix dépend de l&apos;humidité du support : moins de 4,5 % pour l&apos;époxy, moins de 6 % pour le polyuréthane, sinon un primaire anti-humidité s&apos;impose. L&apos;époxy et le polyuréthane immobilisent chaque zone 48 à 72 heures, contre 4 à 8 heures pour la résine MMA.
+        </p>
+      </KeyAnswer>
+
       <p>
         Un parking souterrain subit des contraintes que les parkings de surface ne connaissent pas. Humidit&eacute; permanente, remont&eacute;es capillaires, faible ventilation, absence de lumi&egrave;re naturelle : le sol doit r&eacute;sister &agrave; tout cela en plus du trafic v&eacute;hicule. Un simple coup de peinture ne suffit pas.
       </p>
       <p>
-        Marc, gestionnaire d&apos;un parking souterrain de 85 places sous un immeuble de bureaux &agrave; Lyon Part-Dieu, a fait appliquer une peinture &eacute;poxy monocomposant en 2022. En 14 mois, le rev&ecirc;tement se d&eacute;collait par plaques dans les zones humides (joints de dilatation, bas de rampe). Le probl&egrave;me : pas de traitement pr&eacute;alable des remont&eacute;es d&apos;humidit&eacute;. La reprise avec une r&eacute;sine polyur&eacute;thane souple + primaire anti-humidit&eacute; a repr&eacute;sent&eacute; un investissement bien plus cons&eacute;quent, mais tient depuis 2 ans sans d&eacute;gradation.
+        Prenons l&apos;exemple d&apos;un gestionnaire de parking souterrain de 85 places sous un immeuble de bureaux, qui a fait appliquer une peinture époxy monocomposant. En 14 mois, le rev&ecirc;tement se d&eacute;collait par plaques dans les zones humides (joints de dilatation, bas de rampe). Le probl&egrave;me : pas de traitement pr&eacute;alable des remont&eacute;es d&apos;humidit&eacute;. La reprise avec une r&eacute;sine polyur&eacute;thane souple + primaire anti-humidit&eacute; a repr&eacute;sent&eacute; un investissement bien plus cons&eacute;quent, mais tient depuis 2 ans sans d&eacute;gradation.
       </p>
       <p>
         Ce guide compare les r&eacute;sines adapt&eacute;es aux parkings souterrains et explique comment &eacute;viter les erreurs de choix.
@@ -170,7 +177,7 @@ export default function Content() {
         <li><strong>Nettoyage</strong> : aspiration industrielle + d&eacute;graissage</li>
       </ol>
       <p>
-        Nathalie, syndic d&apos;une r&eacute;sidence de 120 lots &agrave; Villeurbanne, a fait poser une r&eacute;sine &eacute;poxy dans le parking souterrain de 65 places sans diagnostic humidit&eacute; pr&eacute;alable. En 8 mois, 30% de la surface se d&eacute;collait. La reprise compl&egrave;te (grenaillage + primaire anti-humidit&eacute; + r&eacute;sine polyur&eacute;thane) a co&ucirc;t&eacute; le double du budget initial. Le diagnostic humidit&eacute; aurait co&ucirc;t&eacute; une fraction infime de ce montant.
+        Autre exemple : un syndic de résidence de 120 lots a fait poser une r&eacute;sine &eacute;poxy dans le parking souterrain de 65 places sans diagnostic humidit&eacute; pr&eacute;alable. En 8 mois, 30% de la surface se d&eacute;collait. La reprise compl&egrave;te (grenaillage + primaire anti-humidit&eacute; + r&eacute;sine polyur&eacute;thane) a co&ucirc;t&eacute; le double du budget initial. Le diagnostic humidit&eacute; aurait co&ucirc;t&eacute; une fraction infime de ce montant.
       </p>
       <p>
         Pour les &eacute;tapes d&eacute;taill&eacute;es, consultez notre guide sur la <Link href="/guides/preparation-sol-avant-resine-epoxy">pr&eacute;paration de sol avant r&eacute;sine</Link>.
@@ -215,6 +222,11 @@ export default function Content() {
       <h3>La r&eacute;sine r&eacute;siste-t-elle aux pneus chauds ?</h3>
       <p>
         Oui, l&apos;&eacute;poxy et le polyur&eacute;thane r&eacute;sistent aux temp&eacute;ratures de pneus apr&egrave;s roulage (jusqu&apos;&agrave; 80&deg;C). La r&eacute;sine MMA r&eacute;siste jusqu&apos;&agrave; 100&deg;C. Aucune de ces r&eacute;sines ne marque sous le poids d&apos;un v&eacute;hicule &agrave; l&apos;arr&ecirc;t.
+      </p>
+
+      <h3>Quelle résine choisir pour un parking souterrain humide ?</h3>
+      <p>
+        Mesurez d&apos;abord l&apos;humidité du support à la bombe carbure. Sous 4,5 %, l&apos;époxy est possible ; jusqu&apos;à 6 %, préférez le polyuréthane. Au-delà, appliquez un primaire anti-humidité avant la résine.
       </p>
 
       <h2>Le bon rev&ecirc;tement pour le bon usage</h2>

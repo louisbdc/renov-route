@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Layout from '@/components/Layout'
 
 export const metadata: Metadata = {
-  title: 'Mentions légales - Renov Route',
+  title: 'Mentions légales',
   description: 'Mentions légales du site renov-route.com.',
   alternates: {
     canonical: 'https://renov-route.com/mentions-legales/',

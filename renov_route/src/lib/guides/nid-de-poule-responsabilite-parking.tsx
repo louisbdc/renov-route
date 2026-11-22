@@ -1,10 +1,11 @@
 import type { Guide } from '../guides'
+import KeyAnswer from '@/components/KeyAnswer'
 import Link from 'next/link'
 
 export const meta: Guide = {
   slug: 'nid-de-poule-responsabilite-parking',
   title: 'Nid de poule dans un parking privé : qui est responsable ?',
-  metaTitle: 'Nid de poule parking privé : qui est responsable ? | Rénov\'Route',
+  metaTitle: "Nid de poule parking privé : qui est responsable ?",
   metaDescription: 'Nid de poule dans un parking privé : qui paie les réparations ? Responsabilité du propriétaire, syndic, exploitant. Droits et recours en cas d\'accident.',
   publishDate: '2026-03-04',
   updatedDate: '2026-05-22',
@@ -16,6 +17,12 @@ export const meta: Guide = {
 export default function Content() {
   return (
     <>
+      <KeyAnswer question={"Qui est responsable d'un nid de poule dans un parking privé ?"}>
+        <p>
+        Le responsable d'un <strong>nid de poule</strong> dans un parking privé est son gardien : l'exploitant pour un commerce, la copropriété pour un parking résidentiel. Selon l'article 1242 du Code civil, il répond des dommages causés par ce défaut d'entretien. Une réparation à la résine coûte 80 à 200 € HT par nid de poule.
+        </p>
+      </KeyAnswer>
+
       <p>
         La roue avant droite de la voiture de votre client vient de plonger dans un nid de poule sur votre parking. Pneu crevé, jante abîmée. Il vous envoie la facture du garagiste : 380 €. Êtes-vous obligé de payer ?
       </p>
@@ -44,7 +51,7 @@ export default function Content() {
         Concrètement, si un client abîme son véhicule ou se blesse à cause d'un nid de poule sur votre parking, c'est votre assurance responsabilité civile professionnelle qui sera sollicitée. Et si le sinistre révèle un défaut d'entretien manifeste (nid de poule signalé mais non réparé, par exemple), votre assureur pourrait contester la prise en charge.
       </p>
       <p>
-        Patrick, directeur d'un magasin de bricolage à Vaulx-en-Velin (69), a ignoré pendant six mois un nid de poule de 40 cm de diamètre à l'entrée de son parking. Un client a crevé un pneu et envoyé un courrier recommandé avec la facture du garagiste (290 €) et des photos du nid de poule. Patrick a transmis le dossier à son assureur, qui a indemnisé le client, puis a augmenté sa prime de 15% au renouvellement. Le nid de poule lui a coûté bien plus que les 130 € qu'aurait coûté sa <Link href="/competences/reparation-nids-de-poule">réparation par résine</Link>.
+        Prenons l'exemple d'un magasin qui laisse un nid de poule ouvert pendant six mois à l'entrée de son parking. Un client crève un pneu et envoie un courrier recommandé avec la facture du garagiste et des photos. Le dossier part chez l'assureur, avec un possible effet sur la prime au renouvellement. Le sinistre coûte alors bien plus que <Link href="/competences/reparation-nids-de-poule">réparation par résine</Link>.
       </p>
 
       <h3>Parking de copropriété</h3>
@@ -69,7 +76,7 @@ export default function Content() {
       </p>
       <ul>
         <li><strong>Si le contrat met l'entretien à la charge de l'exploitant</strong> (cas le plus fréquent) : l'exploitant est responsable</li>
-        <li><strong>Si le contrat ne précise rien</strong> : la jurisprudence considère que le gardien effectif (celui qui à l'usage quotidien et le contrôle du parking) est responsable</li>
+        <li><strong>Si le contrat ne précise rien</strong> : la jurisprudence considère que le gardien effectif (celui qui a l'usage quotidien et le contrôle du parking) est responsable</li>
         <li><strong>En cas de vice caché du sol</strong> (problème structurel préexistant au bail) : le propriétaire peut être tenu responsable</li>
       </ul>
       <p>
@@ -104,13 +111,13 @@ export default function Content() {
         Les indemnisations pour dommages corporels sont sans commune mesure avec les dommages matériels. Une fracture du poignet avec arrêt de travail peut se chiffrer à 5 000 - 15 000 €. Un traumatisme plus grave, bien davantage.
       </p>
       <p>
-        Nathalie, syndic d'une résidence de 80 lots à Bron (69), a reçu un signalement d'un copropriétaire concernant trois nids de poule dans le parking souterrain. Elle a programmé la réparation « au prochain conseil syndical », trois mois plus tard. Entre-temps, une résidente de 72 ans a trébuché dans l'un des nids de poule en sortant de sa voiture. Fracture du col du fémur, hospitalisation, rééducation. L'assurance de la copropriété a indemnisé la résidente, mais le tribunal a retenu la faute du syndic pour avoir tardé à intervenir malgré le signalement.
+        Prenons l'exemple d'un syndic informé de trois nids de poule dans un parking souterrain, qui reporte la réparation au prochain conseil syndical. Si une résidente chute entre-temps, le retard pris malgré le signalement peut être reproché au syndic.
       </p>
 
       <h3>Impact sur l'assurance</h3>
       <p>Chaque sinistre déclaré augmente votre sinistralité. Les conséquences :</p>
       <ul>
-        <li><strong>Hausse de prime</strong> au renouvellement (10 à 30% par sinistre)</li>
+        <li><strong>Hausse de prime</strong> au renouvellement</li>
         <li><strong>Franchise plus élevée</strong> imposée par l'assureur</li>
         <li><strong>Résiliation</strong> du contrat dans les cas extrêmes (sinistralité trop élevée)</li>
       </ul>
@@ -181,7 +188,7 @@ export default function Content() {
 
       <h3>Un client peut-il me poursuivre en justice pour un nid de poule ?</h3>
       <p>
-        Oui. Si votre assurance refuse d'indemniser ou si le montant des dommages est contesté, le client peut saisir le tribunal judiciaire (au-delà de 10 000 €) ou le tribunal de proximité (en dessous de 10 000 €). En pratique, la plupart des litiges se règlent à l'amiable via les assurances.
+        Oui. Si votre assurance refuse d'indemniser ou si le montant des dommages est contesté, le client peut saisir la justice (tribunal judiciaire ou de proximité, selon le montant et le lieu). En pratique, la plupart des litiges se règlent à l'amiable via les assurances.
       </p>
 
       <h3>Mon assurance couvre-t-elle les dommages causés par un nid de poule ?</h3>

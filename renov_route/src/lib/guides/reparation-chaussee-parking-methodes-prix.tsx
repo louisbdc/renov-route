@@ -1,4 +1,5 @@
 import type { Guide } from '../guides'
+import KeyAnswer from '@/components/KeyAnswer'
 import Link from 'next/link'
 
 export const meta: Guide = {
@@ -18,6 +19,12 @@ export const meta: Guide = {
 export default function Content() {
   return (
     <>
+      <KeyAnswer question="Quelle méthode pour la réparation de chaussée d'un parking ?">
+        <p>
+          La <strong>réparation de chaussée d&apos;un parking</strong> dépend du défaut et de la durée visée. L&apos;enrobé à froid reste provisoire, avec 6 à 18 mois de tenue. La résine polyuréthane dure 5 à 10 ans et l&apos;enrobé à chaud 10 à 15 ans. Pour 80 places, réparer 5 à 10 zones prend généralement 1 à 2 jours sans fermeture totale.
+        </p>
+      </KeyAnswer>
+
       <p>
         Un parking dont la chauss&eacute;e se d&eacute;grade, ce n&apos;est pas
         qu&apos;un probl&egrave;me esth&eacute;tique. Fissures qui
@@ -29,8 +36,7 @@ export default function Content() {
       </p>
 
       <p>
-        Philippe, responsable technique d&apos;un centre commercial de
-        180 places &agrave; V&eacute;nissieux (69), a laiss&eacute; une fissure
+        Prenons l&apos;exemple d&apos;un responsable technique d&apos;un centre commercial de 180 places, qui a laissé une fissure
         longitudinale de 15 m&egrave;très sans r&eacute;paration pendant 2 ans.
         R&eacute;sultat : l&apos;eau s&apos;est infiltr&eacute;e sous
         l&apos;enrob&eacute;, a fragilis&eacute; la fondation, et la fissure
@@ -206,8 +212,7 @@ export default function Content() {
       </p>
 
       <p>
-        Sandrine, syndic d&apos;une copropri&eacute;t&eacute; de 60 lots
-        &agrave; Caluire-et-Cuire (69), a fait r&eacute;parer 4 nids de poule
+        Prenons l&apos;exemple d&apos;un syndic d&apos;une copropriété de 60 lots, qui a fait réparer 4 nids de poule
         &agrave; l&apos;enrob&eacute; &agrave; froid sans diagnostic
         pr&eacute;alable. Six mois plus tard, les 4 r&eacute;parations avaient
         c&eacute;d&eacute;. Le diagnostic a r&eacute;v&eacute;l&eacute; un
@@ -517,8 +522,7 @@ export default function Content() {
       </div>
 
       <p>
-        Laurent, directeur d&apos;un h&ocirc;tel Ibis &agrave; Bron (69),
-        devait r&eacute;parer 12 nids de poule et 2 zones d&apos;affaissement
+        Prenons l&apos;exemple d&apos;un directeur d&apos;hôtel, qui devait réparer 12 nids de poule et 2 zones d&apos;affaissement
         (15 m&sup2; au total) sur le parking de 80 places. Trois devis
         re&ccedil;us : un premier devis en enrob&eacute; &agrave; froid (solution
         provisoire, le moins cher), un deuxi&egrave;me en r&eacute;sine polyur&eacute;thane pour les

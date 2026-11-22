@@ -102,10 +102,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6 relative z-10 w-full">
           <div className="max-w-3xl pt-24 md:pt-32 pb-16">
             <div className="flex items-center gap-3 text-[#FACC15] mb-6">
-              <TbHelmet size={20} />
-              <span className="font-black uppercase tracking-[0.25em] text-[10px] sm:text-[11px]">
-                Expert marquage & signalisation Lyon
-              </span>
+              <TbHelmet size={20} className="shrink-0" />
+              <h1 className="font-black uppercase tracking-[0.25em] text-[10px] sm:text-[11px]">
+                Entreprise de marquage au sol et de rénovation de parking
+              </h1>
             </div>
 
             <HomeHeroHeadline />
@@ -246,7 +246,7 @@ export default function Home() {
 
         {/* Marquée éditorial — transition visuelle */}
         <MarqueeEditorial
-          items={['SÉCURITÉ', 'RIGUEUR', 'DURABILITÉ', 'NORME NF EN 1436', 'ACCESSIBILITÉ PMR', 'LYON · RHÔNE-ALPES']}
+          items={['SÉCURITÉ', 'RIGUEUR', 'DURABILITÉ', 'PEINTURES CERTIFIÉES NF EN 1436', 'ACCESSIBILITÉ PMR', 'LYON · RHÔNE-ALPES']}
           duration={45}
           tone="light"
         />
@@ -482,7 +482,7 @@ export default function Home() {
               {[
                 { tag: 'Budget', title: 'Prix marquage au sol parking', href: '/guides/prix-marquage-sol-parking/', desc: 'Tarifs 2026, facteurs de prix et conseils pour optimiser votre budget marquage.' },
                 { tag: 'Norme', title: 'Normes PMR parking', href: '/guides/normes-pmr-parking/', desc: 'Dimensions, signalétique et mise en conformité des places handicapées.' },
-                { tag: 'Technique', title: 'Nids de poule : solutions durables', href: '/guides/nids-de-poule-hiver-2026-solutions/', desc: 'Résine vs enrobé à froid : comparatif des méthodes de réparation.' },
+                { tag: 'Technique', title: 'Nids de poule : solutions durables', href: '/guides/enrobe-froid-vs-resine-nids-de-poule/', desc: 'Résine vs enrobé à froid : comparatif des méthodes de réparation.' },
                 { tag: 'Norme', title: 'Signalisation parking : réglementation', href: '/guides/signalisation-parking-reglementation/', desc: 'Panneaux obligatoires, normes IISR et mise en conformité de votre parking.' },
                 { tag: 'Comparatif', title: 'Résine époxy ou peinture sol ?', href: '/guides/resine-epoxy-ou-peinture-sol-comparatif/', desc: 'Guide comparatif pour choisir le bon revêtement selon votre usage.' },
                 { tag: 'Gestion', title: 'Rénovation parking copropriété', href: '/guides/renovation-parking-copropriete/', desc: 'Étapes, obligations légales et financement pour rénover le parking de votre copropriété.' },

@@ -75,12 +75,12 @@ export default function CompetencesPage() {
         {JSON.stringify({
           '@context': 'https://schema.org',
           '@type': 'WebPage',
-          name: 'Nos Compétences - Renov Route',
+          name: 'Nos Compétences - Rénov\'Route',
           description: 'Marquage routier, signalisation verticale, résine de sol, réparation de nids de poule et accessoires de parking en Rhône-Alpes.',
           url: 'https://renov-route.com/competences',
           mainEntity: {
             '@type': 'LocalBusiness',
-            name: 'Renov Route',
+            name: 'Rénov\'Route',
             hasOfferCatalog: {
               '@type': 'OfferCatalog',
               name: 'Services de voirie et marquage',
@@ -117,7 +117,7 @@ export default function CompetencesPage() {
                 transition={{ duration: 0.5, delay: 0.1 }}
                 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black italic uppercase tracking-tighter leading-[0.9] text-white mb-8"
               >
-                Nos <span className="text-[#FACC15]">compétences</span> <br />en marquage.
+                Nos <span className="text-[#FACC15]">compétences</span> <br />en marquage routier.
               </MotionH1>
 
               <MotionP
@@ -141,7 +141,7 @@ export default function CompetencesPage() {
                 className="space-y-6 text-slate-600 leading-relaxed text-lg font-medium"
               >
                 <p>
-                  Depuis plus de 10 ans, Rénov Route accompagne les entreprises, collectivités et gestionnaires de parkings dans tous leurs projets de marquage au sol et de voirie en région Rhône-Alpes et sur l&apos;ensemble du territoire français. Notre équipe intervient sur plus de 200 chantiers par an, du simple retraçage de places de parking à la rénovation complète de surfaces industrielles.
+                  Depuis plus de 10 ans, Rénov&apos;Route accompagne les entreprises, collectivités et gestionnaires de parkings dans tous leurs projets de marquage au sol et de voirie en région Rhône-Alpes et sur l&apos;ensemble du territoire français. Notre équipe intervient sur plus de 200 chantiers par an, du simple retraçage de places de parking à la rénovation complète de surfaces industrielles.
                 </p>
                 <p>
                   Nos six domaines d&apos;expertise couvrent l&apos;intégralité de la chaîne : traçage et retraçage de parking, signalisation verticale, résine de sol et marquage intérieur, réparation de nids de poule, accessoires de sécurité et conseil technique. Un interlocuteur unique coordonne chaque projet, du diagnostic initial à la réception des travaux, pour garantir des délais maîtrisés et un résultat conforme aux normes en vigueur.
@@ -213,7 +213,7 @@ export default function CompetencesPage() {
                   { title: 'Réglementation marquage au sol', href: '/guides/signalisation-parking-reglementation/', tag: 'Marquage' },
                   { title: 'Normes PMR parking', href: '/guides/normes-pmr-parking/', tag: 'PMR' },
                   { title: 'Résine de sol parking : prix et types', href: '/guides/resine-sol-parking-prix-types/', tag: 'Résine' },
-                  { title: 'Nids de poule : solutions 2026', href: '/guides/nids-de-poule-hiver-2026-solutions/', tag: 'Réparation' },
+                  { title: 'Nids de poule : enrobé ou résine', href: '/guides/enrobe-froid-vs-resine-nids-de-poule/', tag: 'Réparation' },
                   { title: 'Signalisation parking : réglementation', href: '/guides/signalisation-parking-reglementation/', tag: 'Signalisation' },
                   { title: 'Butée de parking : types et pose', href: '/guides/butee-parking-types-pose-prix/', tag: 'Accessoires' },
                   { title: 'Ralentisseur parking : normes', href: '/guides/ralentisseur-parking-norme/', tag: 'Accessoires' },

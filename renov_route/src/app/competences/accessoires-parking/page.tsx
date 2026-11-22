@@ -65,7 +65,7 @@ export default function AccessoiresParkingPage() {
         heroTitle="Accessoires de parking"
         heroSubtitle="Bornes anti-bélier, ralentisseurs, butées et barrières : tous les équipements pour sécuriser et organiser vos espaces de stationnement."
         heroBackgroundImage="/assets/images/realisations/em-lyon-bornes-anti-stationnement_1.avif"
-        heroImageAlt="Bornes anti-stationnement installées à EM Lyon par Rénov Route"
+        heroImageAlt="Bornes anti-stationnement installées à EM Lyon par Rénov'Route"
         accentColor="amber"
         descriptionHeading="Équipements de sécurité pour parkings"
         descriptionParagraphs={[

@@ -348,7 +348,7 @@ export const CITIES: City[] = [
     distanceFromTassin: 6,
     coords: { lat: 45.7050, lng: 4.8275 },
     population: 11000,
-    description: "Pôle industriel chimique au sud immédiat de Lyon. Marquage industriel certifié, zones ATEX et signalétique de sécurité.",
+    description: "Pôle industriel chimique au sud immédiat de Lyon. Marquage industriel, zones ATEX et signalétique de sécurité.",
     emblematic: 'Vallée de la chimie, A7',
     nearbyCities: ['oullins', 'lyon-7', 'saint-genis-laval'],
   },

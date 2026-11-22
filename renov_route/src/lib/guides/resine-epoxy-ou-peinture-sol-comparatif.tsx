@@ -27,7 +27,7 @@ export default function Content() {
         Vous cherchez une <strong>peinture &eacute;poxy sol</strong> pour r&eacute;nover un parking, un garage ou un entrep&ocirc;t, et on vous propose deux options : peinture de sol ou r&eacute;sine &eacute;poxy. L&apos;&eacute;cart de prix est important (du simple au triple), mais l&apos;&eacute;cart de performance aussi. Le mauvais choix peut vous co&ucirc;ter plus cher que le bon sur 5 ans.
       </p>
       <p>
-        Thomas, responsable d&apos;une concession automobile de 40 places &agrave; V&eacute;nissieux (69), a fait peindre son parking client avec une peinture acrylique en 2022. En 18 mois, la peinture se d&eacute;collait sous les gouttes d&apos;huile et les traces de pneus dans les zones de pr&eacute;sentation des v&eacute;hicules. La reprise en r&eacute;sine &eacute;poxy a repr&eacute;sent&eacute; un investissement bien plus cons&eacute;quent. S&apos;il avait choisi la r&eacute;sine d&egrave;s le d&eacute;part, il aurait &eacute;vit&eacute; de payer quasiment le double au total.
+        Prenons l&apos;exemple d&apos;un responsable de concession automobile de 40 places, qui a fait peindre son parking client avec une peinture acrylique. En 18 mois, la peinture se d&eacute;collait sous les gouttes d&apos;huile et les traces de pneus dans les zones de pr&eacute;sentation des v&eacute;hicules. La reprise en r&eacute;sine &eacute;poxy a repr&eacute;sent&eacute; un investissement bien plus cons&eacute;quent. S&apos;il avait choisi la r&eacute;sine d&egrave;s le d&eacute;part, il aurait &eacute;vit&eacute; de payer quasiment le double au total.
       </p>
       <p>
         Ce guide compare la peinture et la r&eacute;sine point par point pour vous aider &agrave; choisir le bon rev&ecirc;tement selon votre usage.
@@ -177,7 +177,7 @@ export default function Content() {
         </table>
       </div>
       <p>
-        Coralie, gestionnaire d&apos;un parking de clinique de 80 places &agrave; &Eacute;cully (69), a compar&eacute; les deux options sur 10 ans. La peinture acrylique n&eacute;cessitait 3 applications successives, la r&eacute;sine &eacute;poxy une seule. Sur 10 ans, les budgets se rapprochaient. Elle a choisi la r&eacute;sine pour &eacute;viter les 2 p&eacute;riodes de fermeture suppl&eacute;mentaires (chaque retra&ccedil;age = 3 jours d&apos;acc&egrave;s r&eacute;duit = perte de chiffre d&apos;affaires pour la clinique).
+        Prenons l&apos;exemple d&apos;une gestionnaire de parking de clinique de 80 places, qui a comparé les deux options sur 10 ans. La peinture acrylique n&eacute;cessitait 3 applications successives, la r&eacute;sine &eacute;poxy une seule. Sur 10 ans, les budgets se rapprochaient. Elle a choisi la r&eacute;sine pour &eacute;viter les 2 p&eacute;riodes de fermeture suppl&eacute;mentaires (chaque retra&ccedil;age = 3 jours d&apos;acc&egrave;s r&eacute;duit = perte de chiffre d&apos;affaires pour la clinique).
       </p>
       <p>
         Pour les prix d&eacute;taill&eacute;s, consultez notre guide sur le <Link href="/guides/prix-marquage-sol-parking">prix du marquage sol parking</Link> et notre guide sur les <Link href="/guides/resine-sol-parking-prix-types">r&eacute;sines sol parking</Link>.

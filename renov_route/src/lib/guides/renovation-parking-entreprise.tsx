@@ -1,11 +1,12 @@
 import type { Guide } from '../guides'
+import KeyAnswer from '@/components/KeyAnswer'
 import Link from 'next/link'
 
 export const meta: Guide = {
   slug: 'renovation-parking-entreprise',
   title: 'Rénovation de parking d\'entreprise : checklist complète et budget',
-  metaTitle: 'Rénovation parking entreprise : checklist et budget | Renov\'Route',
-  metaDescription: 'Rénovation de parking d\'entreprise : checklist complète, budget par poste et planning. Marquage, nids de poule, signalisation, équipements. Devis gratuit en 48h.',
+  metaTitle: 'Rénovation parking entreprise : checklist et budget',
+  metaDescription: "Rénovation de parking d'entreprise : checklist, budget par poste et planning. Marquage, nids de poule, signalisation, équipements. Devis gratuit en 48h.",
   publishDate: '2026-03-04',
   updatedDate: '2026-07-28',
   category: 'renovation-parking',
@@ -16,8 +17,14 @@ export const meta: Guide = {
 export default function Content() {
   return (
     <>
+      <KeyAnswer question="Comment rénover un parking d'entreprise ?">
+        <p>
+          La <strong>rénovation d&apos;un parking d&apos;entreprise</strong> commence par un diagnostic, puis traite les urgences : nids de poule, retraçage et signalisation. Une rénovation complète démarre à 8 000 € pour un parking moyen. Les travaux se font par zones pour conserver au moins 50 % des places, avec une garantie de 2 ans sur le marquage.
+        </p>
+      </KeyAnswer>
+
       <p>
-        Le parking de votre magasin, restaurant ou entrepôt à 8 ans. Les marquages sont à peine visibles. Trois nids de poule se sont formés près de l'entrée. Un panneau STOP penche à 45 degrés. Vous savez qu'il faut intervenir, mais par où commencer ? Et surtout, combien ça va coûter ?
+        Le parking de votre magasin, restaurant ou entrepôt a 8 ans. Les marquages sont à peine visibles. Trois nids de poule se sont formés près de l'entrée. Un panneau STOP penche à 45 degrés. Vous savez qu'il faut intervenir, mais par où commencer ? Et surtout, combien ça va coûter ?
       </p>
       <p>
         La rénovation d'un parking d'entreprise n'est pas un projet compliqué. C'est un projet qui demande de la méthode. Il faut savoir quoi inspecter, dans quel ordre intervenir et comment répartir le budget entre les différents postes. Sans méthode, vous risquez de dépenser trop sur un poste mineur et de négliger un problème qui va s'aggraver.
@@ -43,7 +50,7 @@ export default function Content() {
 
       <h3>La conformité réglementaire</h3>
       <p>
-        Les places PMR (Personne à Mobilité Réduite) doivent respecter des <Link href="/guides/dimensions-nombre-places-pmr-parking">dimensions précises</Link> et être signalées par un marquage au sol et un panneau vertical. La signalisation doit être conforme à l'IISR (Instruction Interministérielle sur la Signalisation Routière). Un parking non conforme exposé à des amendes pouvant atteindre 225 000 euros pour un ERP (voir notre <Link href="/guides/normes-pmr-parking">guide des normes PMR</Link>).
+        Les places PMR (Personne à Mobilité Réduite) doivent respecter des <Link href="/guides/dimensions-nombre-places-pmr-parking">dimensions précises</Link> et être signalées par un marquage au sol et un panneau vertical. La signalisation doit être conforme à l'IISR (Instruction Interministérielle sur la Signalisation Routière). Un parking non conforme expose à des amendes pouvant atteindre 225 000 euros pour un ERP (voir notre <Link href="/guides/normes-pmr-parking">guide des normes PMR</Link>).
       </p>
 
       <h3>Le coût de l'inaction</h3>
@@ -51,7 +58,7 @@ export default function Content() {
         Plus vous attendez, plus la rénovation coûte cher. Un nid de poule réparable rapidement aujourd'hui coûtera deux à trois fois plus dans six mois quand il aura doublé de taille. Des marquages à retracer maintenant nécessiteront un décapage préalable coûteux si vous attendez qu'ils soient totalement effacés.
       </p>
       <p>
-        Isabelle, directrice d'un magasin de décoration à Tassin-la-Demi-Lune (69), repoussait la rénovation de son parking de 40 places depuis 3 ans. "Ce n'est pas urgent, on a d'autres priorités." Quand un client a crevé un pneu sur un nid de poule et envoyé la facture, elle a pris rendez-vous pour un diagnostic. Le résultat : plusieurs milliers d'euros de travaux (retraçage + 6 nids de poule + 3 panneaux). Si elle avait agi 2 ans plus tôt, le budget aurait été nettement inférieur. L'attente lui a coûté bien plus cher, sans compter l'indemnisation du client.
+        Prenons l&apos;exemple d&apos;une directrice de magasin de décoration, qui repoussait la rénovation de son parking de 40 places depuis 3 ans. "Ce n'est pas urgent, on a d'autres priorités." Quand un client a crevé un pneu sur un nid de poule et envoyé la facture, elle a pris rendez-vous pour un diagnostic. Le résultat : plusieurs milliers d'euros de travaux (retraçage + 6 nids de poule + 3 panneaux). Si elle avait agi 2 ans plus tôt, le budget aurait été nettement inférieur. L'attente lui a coûté bien plus cher, sans compter l'indemnisation du client.
       </p>
       <p>
         Vous avez un doute sur l'état de votre parking ? Notre équipe réalise un <Link href="/competences/conseil-expertise">diagnostic gratuit</Link> avec photos commentées et chiffrage détaillé.
@@ -236,7 +243,7 @@ export default function Content() {
       </div>
 
       <p>
-        Philippe, directeur de 3 restaurants rapides en Isère (38), avait besoin de rénover les parkings de ses 3 sites (35, 45 et 60 places). Plutôt que de traiter chaque site séparément, il nous a demandé un devis groupé. La mutualisation du déplacement et la planification sur 2 semaines ont permis de réduire le budget total d'environ 15 %. Le regroupement des 3 sites (retraçage complet + 18 nids de poule + 9 panneaux + 6 ralentisseurs) a généré une économie significative par rapport à 3 devis séparés.
+        Prenons l&apos;exemple d&apos;un directeur de 3 restaurants rapides, qui devait rénover les parkings de ses 3 sites (35, 45 et 60 places). Plutôt que de traiter chaque site séparément, il a demandé un devis groupé. La mutualisation du déplacement et la planification sur 2 semaines ont permis de réduire le budget total d'environ 15 %. Le regroupement des 3 sites (retraçage complet + 18 nids de poule + 9 panneaux + 6 ralentisseurs) a généré une économie significative par rapport à 3 devis séparés.
       </p>
       <p>
         Pour un chiffrage adapté à votre situation, <Link href="/devis">demandez un devis gratuit</Link>. Nous répondons en 48h avec un chiffrage détaillé par poste.

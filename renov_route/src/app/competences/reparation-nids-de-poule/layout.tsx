@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Réparation de nids de poule : intervention et devis en 48h',
   description:
-    'Rénov Route répare durablement les nids de poule sur vos parkings et routes à Lyon. Solution innovante et résistante. Obtenez votre devis en 48h.',
+    'Rénov\'Route répare durablement les nids de poule sur vos parkings et routes à Lyon. Solution innovante et résistante. Obtenez votre devis en 48h.',
   alternates: {
     canonical: 'https://renov-route.com/competences/reparation-nids-de-poule/',
   },
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description:
       'Réparation professionnelle de nids de poule avec de la résine. Procédé innovant, durable et résistant. Intervention rapide sur tous types de routes. Devis gratuit.',
     url: 'https://renov-route.com/competences/reparation-nids-de-poule/',
-    images: [{ url: 'https://renov-route.com/assets/images/og-image.jpg', width: 1200, height: 630, alt: 'Renov Route - Expert Marquage Routier' }],
+    images: [{ url: 'https://renov-route.com/assets/images/og-image.jpg', width: 1200, height: 630, alt: 'Rénov\'Route - Expert Marquage Routier' }],
   },
   twitter: {
     card: 'summary_large_image',

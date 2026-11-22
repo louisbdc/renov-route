@@ -1,4 +1,5 @@
 import type { Guide } from '../guides'
+import KeyAnswer from '@/components/KeyAnswer'
 import Link from 'next/link'
 
 export const meta: Guide = {
@@ -18,24 +19,22 @@ export const meta: Guide = {
 export default function Content() {
   return (
     <>
+      <KeyAnswer question={"Que définit la norme NF EN 1436 ?"}>
+        <p>
+        La <strong>norme NF EN 1436</strong> fixe les performances du marquage routier pour les usagers : visibilité de jour (luminance), visibilité de nuit (rétroréflexion), adhérence et durabilité. Elle n&apos;est pas imposée en parking privé, mais reste la référence de qualité pour choisir une peinture de marquage durable et comparer des devis.
+        </p>
+      </KeyAnswer>
+
       <p>
         Quand un gestionnaire de parking demande un devis de marquage au sol, la
         question revient souvent : &laquo; La peinture est-elle aux
-        normes ? &raquo; La r&eacute;ponse tient en 5 lettres et 4 chiffres :
-        NF EN 1436. C&apos;est la norme europ&eacute;enne qui d&eacute;finit
+        normes ? &raquo; La réponse tient en une référence : NF EN 1436. C&apos;est la norme europ&eacute;enne qui d&eacute;finit
         les performances minimales des produits de marquage routier. Et elle
         s&apos;applique aussi aux parkings priv&eacute;s.
       </p>
 
       <p>
-        Julien, responsable technique d&apos;une cha&icirc;ne de
-        supermarch&eacute;s dans le Rh&ocirc;ne, a fait retracer 3 parkings en
-        2023 avec un prestataire qui utilisait une peinture non
-        certifi&eacute;e NF EN 1436. Prix attractif, bien en dessous du march&eacute;. R&eacute;sultat : au bout de 8 mois, le marquage
-        &eacute;tait effac&eacute; sur les zones de manoeuvre. Le
-        retra&ccedil;age a d&ucirc; &ecirc;tre refait enti&egrave;rement.
-        Co&ucirc;t total sur 2 ans : quasiment le double (2 passages) par rapport &agrave;
-        un seul passage avec peinture certifi&eacute;e (dur&eacute;e de vie 4-5 ans).
+        Prenons l&apos;exemple d&apos;un parking retracé avec une peinture non certifiée NF EN 1436, à un prix bien en dessous du marché. Si le marquage s&apos;efface en quelques mois sur les zones de manœuvre, il faut tout refaire : deux passages coûtent alors quasiment le double d&apos;un seul avec une peinture certifiée.
       </p>
 
       <p>
@@ -93,9 +92,7 @@ export default function Content() {
           professionnelle
         </li>
         <li>
-          <strong>Durabilit&eacute;</strong> : les produits certifi&eacute;s
-          durent 2 &agrave; 3 fois plus longtemps que les produits non
-          certifi&eacute;s
+          <strong>Durabilit&eacute;</strong> : les produits certifiés offrent des performances mesurées et généralement une meilleure tenue dans le temps
         </li>
         <li>
           <strong>Cahiers des charges</strong> : les syndics, les bailleurs et
@@ -391,18 +388,7 @@ export default function Content() {
       </div>
 
       <p>
-        Sophie, gestionnaire d&apos;un parking souterrain de 200 places
-        &agrave; Lyon 6e (d&eacute;couvrez notre guide{' '}
-        <Link href="/guides/signalisation-horizontale-lyon-marquage">
-          signalisation horizontale &agrave; Lyon
-        </Link>
-        ), a demand&eacute; &agrave; 3 prestataires les classes
-        NF EN 1436 de leurs produits. Un seul a pu fournir les fiches
-        techniques avec les classifications. Elle a retenu ce prestataire
-        (Q2/R2/S1/P5). Deux ans plus tard, le marquage est intact. Les
-        2 parkings voisins, trac&eacute;s au m&ecirc;me moment avec des
-        produits non certifi&eacute;s, ont &eacute;t&eacute; retrac&eacute;s
-        &agrave; 60%.
+        Prenons l&apos;exemple d&apos;un gestionnaire de parking souterrain à Lyon (découvrez notre page <Link href="/marquage-au-sol-lyon/">signalisation horizontale à Lyon</Link>) qui demande à 3 prestataires les classes NF EN 1436 de leurs produits. Celui qui fournit les fiches techniques avec les classifications offre une garantie de transparence que les autres n&apos;apportent pas.
       </p>
 
       <h3>Comment v&eacute;rifier la certification</h3>
@@ -418,9 +404,7 @@ export default function Content() {
           prestataire. Les classes NF EN 1436 doivent y figurer
         </li>
         <li>
-          <strong>V&eacute;rifier la marque NF</strong> : les produits
-          certifi&eacute;s portent la marque NF d&eacute;livr&eacute;e par
-          l&apos;AFNOR ou un organisme &eacute;quivalent
+          <strong>V&eacute;rifier la marque NF</strong> : les produits certifiés portent la marque NF, délivrée par un organisme mandaté
         </li>
         <li>
           <strong>Contr&ocirc;ler le lot</strong> : chaque lot de peinture doit
@@ -566,8 +550,8 @@ export default function Content() {
               </td>
             </tr>
             <tr>
-              <td>NF P 98-300</td>
-              <td>Mise en oeuvre du marquage routier</td>
+              <td>NF P 98-691</td>
+              <td>Certification des produits de marquage et mise en œuvre</td>
             </tr>
             <tr>
               <td>IISR (7e partie)</td>
@@ -576,9 +560,9 @@ export default function Content() {
               </td>
             </tr>
             <tr>
-              <td>Arr&ecirc;t&eacute; du 15 janvier 2007</td>
+              <td>Arrêté du 20 avril 2017</td>
               <td>
-                Accessibilit&eacute; PMR (dimensions des places)
+                <a href="https://www.legifrance.gouv.fr/loda/id/JORFTEXT000034485459/" target="_blank" rel="noopener noreferrer">Accessibilité PMR des ERP neufs</a> (dimensions des places)
               </td>
             </tr>
           </tbody>
@@ -629,12 +613,8 @@ export default function Content() {
 
       <p>
         La norme NF EN 1436 d&eacute;finit les crit&egrave;res de performance.
-        La marque NF est une certification d&eacute;livr&eacute;e par
-        l&apos;AFNOR qui atteste qu&apos;un produit sp&eacute;cifique respecte
-        ces crit&egrave;res. Un produit peut &ecirc;tre &laquo; conforme
-        NF EN 1436 &raquo; (il respecte les crit&egrave;res) sans porter la
-        marque NF (il n&apos;a pas &eacute;t&eacute; certifi&eacute; par
-        l&apos;AFNOR).
+        La marque NF est une certification délivrée par un organisme mandaté, qui atteste qu&apos;un produit spécifique respecte ces critères. Un produit peut &ecirc;tre &laquo; conforme
+        NF EN 1436 &raquo; (il respecte les crit&egrave;res) sans porter la marque NF (il n&apos;a pas été certifié).
       </p>
 
       <h3>Les microbilles de verre sont-elles obligatoires ?</h3>

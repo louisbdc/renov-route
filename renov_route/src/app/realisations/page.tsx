@@ -1,4 +1,3 @@
-import { Suspense } from 'react'
 import Layout from '@/components/Layout'
 import ClientRealisationsContent from '@/components/realisations/ClientRealisationsContent'
 import BreadcrumbSchema from '@/components/BreadcrumbSchema'
@@ -43,16 +42,16 @@ export default function RealisationsPage() {
             '@context': 'https://schema.org',
             '@type': 'CollectionPage',
             '@id': `${BASE_URL}/realisations/#collection`,
-            name: 'Réalisations Rénov Route — Projets traçage, marquage et rénovation parking',
+            name: 'Réalisations Rénov\'Route — Projets traçage, marquage et rénovation parking',
             description:
-              'Portfolio de projets Rénov Route : parkings de grande distribution, sites industriels, écoles, collectivités. Clients : Carrefour, Lidl, Intermarché, McDonald\'s, EM Lyon, Armée de Terre et plus.',
+              'Portfolio de projets Rénov\'Route : parkings de grande distribution, sites industriels, écoles, collectivités. Clients : Carrefour, Lidl, Intermarché, McDonald\'s, EM Lyon, Armée de Terre et plus.',
             url: `${BASE_URL}/realisations/`,
             inLanguage: 'fr-FR',
             isPartOf: { '@id': `${BASE_URL}/#website` },
             about: { '@id': `${BASE_URL}/#organization` },
             mainEntity: {
               '@type': 'ItemList',
-              name: 'Portfolio Rénov Route',
+              name: 'Portfolio Rénov\'Route',
               description: '12 réalisations sélectionnées parmi plus de 1 000 projets réalisés depuis 2016',
               numberOfItems: caseStudies.length,
               itemListOrder: 'https://schema.org/ItemListOrderDescending',
@@ -62,18 +61,7 @@ export default function RealisationsPage() {
         }}
       />
       <Layout>
-        <Suspense
-          fallback={
-            <div className="min-h-screen bg-[#F0F4F8] flex items-center justify-center">
-              <div className="text-center">
-                <div className="animate-spin rounded-full h-10 w-10 border-2 border-[#0F172A] border-t-transparent mx-auto mb-4" />
-                <p className="text-slate-500 text-[10px] font-black uppercase tracking-[0.2em]">Chargement des réalisations</p>
-              </div>
-            </div>
-          }
-        >
-          <ClientRealisationsContent />
-        </Suspense>
+        <ClientRealisationsContent />
       </Layout>
     </>
   )

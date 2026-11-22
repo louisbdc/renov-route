@@ -1,11 +1,12 @@
 import type { Guide } from '../guides'
+import KeyAnswer from '@/components/KeyAnswer'
 import Link from 'next/link'
 
 export const meta: Guide = {
   slug: 'marquage-sol-supermarche-grande-surface',
   title: 'Marquage au sol de parking supermarché et grande surface : plan, normes et prix',
   metaTitle: 'Marquage au sol supermarché : plan, normes et prix',
-  metaDescription: 'Marquage au sol de parking supermarché et grande surface : plan de circulation, places PMR, zones livraison, peinture certifiée et prix au m². Devis gratuit.',
+  metaDescription: 'Marquage au sol de supermarché et grande surface : plan de circulation, places PMR, zones livraison, peinture certifiée et prix au m². Devis gratuit.',
   publishDate: '2026-03-04',
   updatedDate: '2026-05-22',
   category: 'marquage-parking',
@@ -16,11 +17,17 @@ export const meta: Guide = {
 export default function Content() {
   return (
     <>
+      <KeyAnswer question={"Comment organiser le marquage au sol d'un supermarché ?"}>
+        <p>
+        Le <strong>marquage au sol d&apos;un supermarché</strong> combine places standard, au moins 2 % de places PMR, passages piétons devant les entrées, flèches de circulation et zones de livraison. Avec 500 à 2 000 véhicules par jour, on retient une peinture certifiée NF EN 1436 et un retraçage tous les 3 à 5 ans.
+        </p>
+      </KeyAnswer>
+
       <p>
         Un parking de supermarch&eacute; n&apos;est pas un parking comme les autres. 500 &agrave; 2 000 v&eacute;hicules par jour, des chariots partout, des pi&eacute;tons qui traversent entre les voitures, des camions de livraison qui man&oelig;uvrent &agrave; l&apos;arri&egrave;re : les contraintes sont maximales et le marquage au sol doit tenir dans ces conditions.
       </p>
       <p>
-        Sophie, directrice d&apos;un Carrefour Market de 1 500 m&sup2; &agrave; Caluire-et-Cuire (69), faisait retracer son parking de 95 places chaque ann&eacute;e. La peinture non certifi&eacute;e utilis&eacute;e par son ancien prestataire tenait 10-12 mois sur les zones de man&oelig;uvre et les entr&eacute;es de caddie. En passant &agrave; une <Link href="/guides/peinture-marquage-sol-parking">peinture certifi&eacute;e NF EN 1436</Link> (classe P5) avec un prestataire local, la dur&eacute;e de vie est pass&eacute;e &agrave; 3 ans. Le budget annuel de marquage a baiss&eacute; de 65%.
+        Prenons l&apos;exemple d&apos;un supermarché qui fait retracer son parking chaque année parce qu&apos;une peinture non certifiée ne tient pas sur les zones de manœuvre et les entrées de caddie. Une <Link href="/guides/peinture-marquage-sol-parking">peinture certifiée NF EN 1436</Link> permet d&apos;espacer les retraçages et de réduire le budget annuel.
       </p>
       <p>
         Ce guide couvre le plan de marquage type d&apos;un parking de supermarch&eacute;, les normes sp&eacute;cifiques et les <Link href="/guides/prix-marquage-sol-parking">prix pratiqu&eacute;s</Link>.
@@ -54,7 +61,7 @@ export default function Content() {
         <li><strong>Faciliter les livraisons</strong> : acc&egrave;s camions s&eacute;par&eacute;, zone de man&oelig;uvre d&eacute;gag&eacute;e</li>
       </ol>
       <p>
-        Christophe, responsable technique de 3 Leclerc en r&eacute;gion lyonnaise, a revu le plan de circulation de son plus grand parking (280 places) apr&egrave;s 2 accidents pi&eacute;tons en 6 mois. Le nouveau plan comprend : 6 passages pi&eacute;tons marqu&eacute;s au thermoplastique, un sens unique dans toutes les all&eacute;es, des fl&egrave;ches directionnelles tous les 20 m&egrave;très et des zones de ralentissement en entr&eacute;e. Le co&ucirc;t du retra&ccedil;age complet est rest&eacute; ma&icirc;tris&eacute;, pour quelques milliers d&apos;euros. Depuis la mise en place (18 mois), z&eacute;ro accident d&eacute;clar&eacute;.
+        Prenons l&apos;exemple d&apos;un parking de 280 places dont le plan de circulation est revu après des accidents piétons. Le nouveau plan peut comprendre des passages piétons au thermoplastique, un sens unique dans toutes les allées, des flèches directionnelles régulières et des zones de ralentissement en entrée.
       </p>
 
       <h2>Sp&eacute;cificit&eacute;s du marquage en grande surface</h2>
@@ -191,7 +198,7 @@ export default function Content() {
         <li><strong>Le dimanche matin</strong> (6h-12h) pour les parkings &agrave; faible trafic dominical</li>
       </ul>
       <p>
-        Marine, responsable de site d&apos;un Auchan &agrave; Bron (69), devait retracer les 320 places de son parking sans perdre un jour d&apos;ouverture. Le prestataire a travaill&eacute; 3 nuits cons&eacute;cutives (22h-6h) avec 4 op&eacute;rateurs et 2 machines airless. Le parking a &eacute;t&eacute; retrac&eacute; par moiti&eacute;, avec un balisage pour guider les clients vers les zones s&eacute;ch&eacute;es. Aucune fermeture, aucune r&eacute;clamation client.
+        Prenons l&apos;exemple d&apos;un parking de 320 places à retracer sans perdre un jour d&apos;ouverture. L&apos;intervention se fait de nuit et par moitié de parking, avec un balisage qui guide les clients vers les zones séchées.
       </p>
 
       <h2>Prix du marquage de parking grande surface</h2>
@@ -243,7 +250,7 @@ export default function Content() {
 
       <h3>Le marquage est-il obligatoire dans un parking de grande surface ?</h3>
       <p>
-        Le marquage des <Link href="/guides/normes-pmr-parking">places PMR est obligatoire</Link> (arr&ecirc;t&eacute; du 15 janvier 2007). Le marquage des autres places n&apos;est pas l&eacute;galement obligatoire, mais il est indispensable pour la s&eacute;curit&eacute;, l&apos;organisation du stationnement et la responsabilit&eacute; du gestionnaire en cas d&apos;accident.
+        Le marquage des <Link href="/guides/normes-pmr-parking">places PMR est obligatoire</Link> (pour les ERP neufs, <a href="https://www.legifrance.gouv.fr/loda/id/JORFTEXT000034485459/" target="_blank" rel="noopener noreferrer">arrêté du 20 avril 2017</a>). Le marquage des autres places n&apos;est pas l&eacute;galement obligatoire, mais il est indispensable pour la s&eacute;curit&eacute;, l&apos;organisation du stationnement et la responsabilit&eacute; du gestionnaire en cas d&apos;accident.
       </p>
 
       <h3>Peut-on tracer un parking de supermarch&eacute; en journ&eacute;e ?</h3>
@@ -256,7 +263,12 @@ export default function Content() {
         Une peinture acrylique certifi&eacute;e <Link href="/guides/norme-nf-en-1436-marquage-routier">NF EN 1436</Link> (classe P5 minimum) pour les zones de stationnement. Du thermoplastique (classe P6-P7) pour les passages pi&eacute;tons et les zones &agrave; tr&egrave;s fort trafic (entr&eacute;es, sorties, man&oelig;uvres).
       </p>
 
-      <h2>Un parking bien trac&eacute;, c&apos;est un magasin qui fonctionne</h2>
+      <h3>À quelle fréquence retracer un parking de supermarché ?</h3>
+      <p>
+        Un retraçage professionnel tous les 3 à 5 ans avec des produits certifiés convient à la plupart des grandes surfaces. Les zones les plus sollicitées, comme les entrées, les sorties et les zones de manœuvre, s&apos;usent plus vite et demandent une surveillance régulière.
+      </p>
+
+      <h2>Un parking bien tracé, c&apos;est un magasin qui fonctionne</h2>
       <p>
         Le parking est la premi&egrave;re impression de votre enseigne. Un marquage net, conforme et durable rassure les clients, s&eacute;curise les pi&eacute;tons et organise les flux. Un retra&ccedil;age professionnel tous les 3-5 ans avec des produits certifi&eacute;s est le meilleur investissement pour votre surface commerciale.
       </p>

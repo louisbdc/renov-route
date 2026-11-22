@@ -1,11 +1,12 @@
 import type { Guide } from '../guides'
+import KeyAnswer from '@/components/KeyAnswer'
 import Link from 'next/link'
 
 export const meta: Guide = {
   slug: 'parking-visiteurs-amenagement',
   title: 'Parking visiteurs : aménagement, normes et prix',
-  metaTitle: 'Parking visiteurs : aménagement, normes et prix | Rénov\'Route',
-  metaDescription: 'Comment aménager un parking visiteurs conforme et efficace ? Réglementation, signalisation, marquage au sol, gestion des places et budget. Devis gratuit en 48h.',
+  metaTitle: 'Parking visiteurs : aménagement, normes et prix',
+  metaDescription: 'Comment aménager un parking visiteurs conforme ? Réglementation, signalisation, marquage au sol, gestion des places et budget. Devis gratuit en 48h.',
   publishDate: '2026-03-31',
   updatedDate: '2026-07-28',
   category: 'marquage-parking',
@@ -16,8 +17,14 @@ export const meta: Guide = {
 export default function Content() {
   return (
     <>
+      <KeyAnswer question="Combien de places prévoir pour un parking visiteurs ?">
+        <p>
+          Aucune règle nationale ne fixe le nombre de places d&apos;un <strong>parking visiteurs</strong> d&apos;entreprise : le PLU et le permis de construire peuvent imposer un ratio. Sans obligation, prévoyez 10 % des places, près de l&apos;entrée. En ERP, 2 % des places destinées au public doivent être adaptées aux PMR, arrondies à l&apos;unité supérieure (<a href="https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000034485459" target="_blank" rel="noopener noreferrer">arrêté du 20 avril 2017</a>).
+        </p>
+      </KeyAnswer>
+
       <p>
-        Mardi matin, 9h15. Votre client le plus important tourne depuis dix minutes dans votre parking. Aucune place identifiée pour les visiteurs. Il finit par se garer sur un emplacement réservé aux salariés, reçoit un mot desagreable sur son pare-brise et arrive à votre rendez-vous agace. La première impression est ratée.
+        Mardi matin, 9h15. Votre client le plus important tourne depuis dix minutes dans votre parking. Aucune place identifiée pour les visiteurs. Il finit par se garer sur un emplacement réservé aux salariés, reçoit un mot désagréable sur son pare-brise et arrive à votre rendez-vous agacé. La première impression est ratée.
       </p>
       <p>
         Ce scénario se répète chaque jour dans des centaines d&apos;entreprises, copropriétés et établissements recevant du public en France. Le <strong>parking visiteurs</strong> est souvent le parent pauvre de l&apos;aménagement extérieur. Pourtant, c&apos;est le premier point de contact physique avec vos clients, partenaires et fournisseurs.
@@ -31,7 +38,7 @@ export default function Content() {
         <li>Le <strong>budget</strong> à prévoir et les erreurs courantes</li>
       </ul>
       <p>
-        <strong>Votre parking manque de clarte ?</strong> Renov&apos;Route réalise le <Link href="/competences/tracage-retracage-parking">marquage au sol</Link> et la <Link href="/competences/signalisation-verticale">signalisation verticale</Link> de vos places visiteurs. <Link href="/devis">Demandez un devis gratuit</Link> en 48h.
+        <strong>Votre parking manque de clarté ?</strong> Renov&apos;Route réalise le <Link href="/competences/tracage-retracage-parking">marquage au sol</Link> et la <Link href="/competences/signalisation-verticale">signalisation verticale</Link> de vos places visiteurs. <Link href="/devis">Demandez un devis gratuit</Link> en 48h.
       </p>
 
       <h2>Pourquoi aménager un parking visiteurs dédié</h2>
@@ -52,12 +59,12 @@ export default function Content() {
         Un <strong>parking visiteurs</strong> correctement amenage resout ces trois problèmes en une seule intervention : traçage, signalisation et numérotation.
       </p>
 
-      <h3>L&apos;expérience de Marc, directeur d&apos;un site logistique a Vénissieux</h3>
+      <h3>Exemple : un site logistique de 80 places</h3>
       <p>
-        Marc gérait un entrepôt avec 80 places de parking et une dizaine de visiteurs quotidiens : clients, transporteurs, auditeurs. Aucune place n&apos;était réservée. Les livreurs se garaient devant les quais, bloquant les opérations. Les clients se garaient sur les places des chefs d&apos;équipe, generant des tensions.
+        Prenons l&apos;exemple d&apos;un directeur de site gérant un entrepôt avec 80 places de parking et une dizaine de visiteurs quotidiens : clients, transporteurs, auditeurs. Aucune place n&apos;était réservée. Les livreurs se garaient devant les quais, bloquant les opérations. Les clients se garaient sur les places des chefs d&apos;équipe, générant des tensions.
       </p>
       <p>
-        En janvier 2025, Marc a fait appel à Renov&apos;Route pour créer 12 places visiteurs à proximité de l&apos;accueil, avec marquage au sol blanc, panneaux &quot;Parking visiteurs&quot; et numérotation de P1 a P12. Coût total : 1 850 EUR HT. Résultat : zéro conflit de stationnement en six mois et un retour positif des transporteurs sur la qualité d&apos;accueil du site.
+        Il fait alors créer 12 places visiteurs à proximité de l&apos;accueil, avec marquage au sol blanc, panneaux &quot;Parking visiteurs&quot; et numérotation de P1 à P12. Coût total : 1 850 EUR HT. Résultat : zéro conflit de stationnement en six mois et un retour positif des transporteurs sur la qualité d&apos;accueil du site.
       </p>
 
       <h2>Réglementation du parking visiteurs : ce que dit la loi</h2>
@@ -69,10 +76,10 @@ export default function Content() {
       <ul>
         <li>Les <strong>places visiteurs</strong> sont définies dans le règlement de copropriété et les parties communes</li>
         <li>Un minimum de places visiteurs est souvent exigé dans les permis de construire des immeubles neufs (généralement 10 à 20% du total)</li>
-        <li>La modification de l&apos;affectation d&apos;une place visiteur en place privative nécessite un vote en assemblée générale à la majorité absolue (article 26 de la loi du 10 juillet 1965)</li>
+        <li>La modification de l&apos;affectation d&apos;une place visiteur en place privative nécessite un vote en assemblée générale à la double majorité (article 26 de la loi du 10 juillet 1965)</li>
       </ul>
       <p>
-        <strong>Point important :</strong> en copropriété, les places visiteurs appartiennent aux parties communes. Aucun copropriétaire ne peut se les approprier, même s&apos;il les utilisé quotidiennement. Le syndic à l&apos;obligation de faire respecter cette réglé.
+        <strong>Point important :</strong> en copropriété, les places visiteurs appartiennent aux parties communes. Aucun copropriétaire ne peut se les approprier, même s&apos;il les utilise quotidiennement. Le syndic a l&apos;obligation de faire respecter cette réglé.
       </p>
 
       <h3>En ERP (Établissement Recevant du Public)</h3>
@@ -80,7 +87,7 @@ export default function Content() {
         Les ERP (commerces, bureaux recevant du public, hôpitaux, écoles) sont soumis à des obligations plus strictes :
       </p>
       <ul>
-        <li>L&apos;arrêté du 1er août 2006 impose un minimum de <strong>places PMR</strong> dans tout parking d&apos;ERP : 2% du nombre total de places, avec un minimum d&apos;une place</li>
+        <li>L&apos;<a href="https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000034485459" target="_blank" rel="noopener noreferrer">arrêté du 20 avril 2017</a> (ERP neufs) et l&apos;<a href="https://www.legifrance.gouv.fr/loda/id/JORFTEXT000029893131" target="_blank" rel="noopener noreferrer">arrêté du 8 décembre 2014</a> (ERP existants) imposent un minimum de <strong>places PMR</strong> : 2 % des places destinées au public, arrondis à l&apos;unité supérieure</li>
         <li>Les places visiteurs PMR doivent être situées au plus près de l&apos;entrée</li>
         <li>La signalisation parking visiteurs doit être visible depuis l&apos;entrée du parking (panneaux directionnels)</li>
       </ul>
@@ -142,18 +149,17 @@ export default function Content() {
       <p><strong>Flèches directionnelles :</strong></p>
       <ul>
         <li>Guident les visiteurs depuis l&apos;entrée du parking</li>
-        <li>Conformes à la norme NF P 98-532</li>
       </ul>
       <p>
         Le choix du type de peinture dépend de l&apos;usage. Pour un parking extérieur, la peinture routière acrylique offre un bon rapport qualité-prix avec une durée de vie de 2 à 3 ans. Pour un parking couvert, la résine époxy dure 5 à 8 ans mais coûte 30 à 40% de plus.
       </p>
 
-      <h3>L&apos;expérience de Nadia, syndic d&apos;une résidence à Lyon 8e</h3>
+      <h3>Exemple : une copropriété de 120 lots</h3>
       <p>
-        Nadia gérait une copropriété de 120 lots avec un parking souterrain de 95 places, dont 8 places visiteurs. Le problème : aucune signalisation. Les visiteurs ne savaient jamais ou se garer, et les résidents occupaient régulièrement les places communes.
+        Prenons l&apos;exemple d&apos;un syndic gérant une copropriété de 120 lots avec un parking souterrain de 95 places, dont 8 places visiteurs. Le problème : aucune signalisation. Les visiteurs ne savaient jamais où se garer, et les résidents occupaient régulièrement les places communes.
       </p>
       <p>
-        Après un vote en AG, Nadia a fait intervenir Renov&apos;Route pour un marquage complet : lignes blanches, inscription &quot;VISITEUR&quot; au sol, numérotation V1 a V8, panneaux suspendus et flèches depuis l&apos;entrée. Le tout en résine époxy adaptée au parking couvert. Budget : 2 200 EUR HT. Depuis, les litiges en AG sur le parking ont disparu.
+        Après un vote en AG, il fait réaliser un marquage complet : lignes blanches, inscription &quot;VISITEUR&quot; au sol, numérotation V1 à V8, panneaux suspendus et flèches depuis l&apos;entrée. Le tout en résine époxy adaptée au parking couvert. Budget : 2 200 EUR HT. Depuis, les litiges en AG sur le parking ont disparu.
       </p>
 
       <h2>Dimensions et implantation des places visiteurs</h2>
@@ -358,7 +364,7 @@ export default function Content() {
 
       <h3>4. Aucun système de gestion</h3>
       <p>
-        Poser un panneau &quot;Visiteurs&quot; sans aucun contrôle, c&apos;est comme poser un panneau &quot;Sens interdit&quot; sans jamais verbaliser. Si les abus ne sont pas sanctionnés ou empêchés physiquement, la signalisation perd toute credibilite en quelques semaines.
+        Poser un panneau &quot;Visiteurs&quot; sans aucun contrôle, c&apos;est comme poser un panneau &quot;Sens interdit&quot; sans jamais verbaliser. Si les abus ne sont pas sanctionnés ou empêchés physiquement, la signalisation perd toute crédibilité en quelques semaines.
       </p>
 
       <h3>5. Oublier les places PMR visiteurs</h3>
@@ -375,12 +381,12 @@ export default function Content() {
 
       <h3>Un copropriétaire peut-il se garer sur une place visiteur ?</h3>
       <p>
-        Non. Les places visiteurs en copropriété font partie des parties communes. Aucun copropriétaire ne peut se les approprier. Le syndic peut faire constater l&apos;occupation abusive par huissier et demander la liberation de la place.
+        Non. Les places visiteurs en copropriété font partie des parties communes. Aucun copropriétaire ne peut se les approprier. Le syndic peut faire constater l&apos;occupation abusive par huissier et demander la libération de la place.
       </p>
 
       <h3>Combien de places visiteurs sont obligatoires dans un parking d&apos;entreprise ?</h3>
       <p>
-        Il n&apos;existe pas de réglé nationale fixant un nombre précis pour les entreprises privées. Le PLU de votre commune et le permis de construire de votre bâtiment peuvent imposer un ratio. En l&apos;absence d&apos;obligation, prévoyez 10% du nombre total de places.
+        Il n&apos;existe pas de règle nationale fixant un nombre précis pour les entreprises privées. Le PLU de votre commune et le permis de construire de votre bâtiment peuvent imposer un ratio. En l&apos;absence d&apos;obligation, prévoyez 10% du nombre total de places.
       </p>
 
       <h3>Quelle est la durée de vie du marquage au sol &quot;VISITEUR&quot; ?</h3>
@@ -390,7 +396,7 @@ export default function Content() {
 
       <h3>Faut-il un permis pour installer un panneau parking visiteurs ?</h3>
       <p>
-        Sur un parking privé, aucune autorisation administrative n&apos;est nécessaire pour la signalisation interne. En revanche, si le panneau est visible depuis la voie publique ou s&apos;il modifié la circulation aux abords, une déclaration peut être requise aupres de la mairie.
+        Sur un parking privé, aucune autorisation administrative n&apos;est nécessaire pour la signalisation interne. En revanche, si le panneau est visible depuis la voie publique ou s&apos;il modifie la circulation aux abords, une déclaration peut être requise auprès de la mairie.
       </p>
 
       <h3>Peut-on verbaliser sur un parking visiteurs privé ?</h3>

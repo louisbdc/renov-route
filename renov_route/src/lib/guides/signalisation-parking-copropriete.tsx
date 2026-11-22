@@ -1,4 +1,5 @@
 import type { Guide } from '../guides'
+import KeyAnswer from '@/components/KeyAnswer'
 import Link from 'next/link'
 
 export const meta: Guide = {
@@ -20,6 +21,12 @@ export const meta: Guide = {
 export default function Content() {
   return (
     <>
+      <KeyAnswer question="Quelle signalisation pour un parking de copropriété ?">
+        <p>
+          La <strong>signalisation d&apos;un parking de copropriété</strong> combine limitation de vitesse, sens de circulation, numérotation des places et, si nécessaire, places PMR. Le retraçage à l&apos;identique relève de l&apos;entretien courant ; tout changement doit être voté en assemblée générale. Comptez à partir de 10 € par place retracée et de 180 € par panneau supplémentaire.
+        </p>
+      </KeyAnswer>
+
       <p>
         Le parking d&apos;une copropri&eacute;t&eacute; est souvent le parent
         pauvre de la gestion immobili&egrave;re. Pas de panneau de limitation de
@@ -66,13 +73,7 @@ export default function Content() {
       <h3>Places PMR</h3>
 
       <p>
-        Depuis la loi du 11 f&eacute;vrier 2005 relative &agrave;
-        l&apos;accessibilit&eacute;, les parkings de
-        copropri&eacute;t&eacute;s construites apr&egrave;s 2007 doivent
-        comporter des places PMR (Personne &agrave; Mobilit&eacute;
-        R&eacute;duite). Pour les copropri&eacute;t&eacute;s
-        ant&eacute;rieures, l&apos;obligation s&apos;applique lors de travaux
-        de r&eacute;novation du parking.
+        Depuis la loi du 11 février 2005 relative à l&apos;accessibilité, les immeubles d&apos;habitation neufs sont soumis à des règles d&apos;accessibilité qui concernent aussi le stationnement. Pour un immeuble existant, vérifiez les obligations applicables avant tout projet de rénovation du parking.
       </p>
 
       <p>Chaque place PMR n&eacute;cessite :</p>
@@ -229,9 +230,7 @@ export default function Content() {
       <p>Prix : &agrave; partir de 200 euros (panneau personnalis&eacute; en aluminium).</p>
 
       <p>
-        Marc, pr&eacute;sident du conseil syndical d&apos;une
-        copropri&eacute;t&eacute; de 45 lots &agrave; Écully (69), a fait
-        installer un panneau de r&egrave;glement int&eacute;rieur apr&egrave;s
+        Prenons l&apos;exemple d&apos;un président de conseil syndical d&apos;une copropriété de 45 lots, qui a fait installer un panneau de r&egrave;glement int&eacute;rieur apr&egrave;s
         des conflits r&eacute;p&eacute;t&eacute;s sur le stationnement en
         double file dans les all&eacute;es. Le panneau, associ&eacute; &agrave;
         2 panneaux de limitation &agrave; 10 km/h et au retra&ccedil;age des
@@ -519,8 +518,7 @@ export default function Content() {
       </div>
 
       <p>
-        Nathalie, syndic d&apos;une copropri&eacute;t&eacute; de 150 lots
-        &agrave; Lyon 3e, a fait voter un budget de plus de 10 000 euros pour la
+        Prenons l&apos;exemple d&apos;un syndic d&apos;une copropriété de 150 lots, qui a fait voter un budget de plus de 10 000 euros pour la
         signalisation compl&egrave;te du parking souterrain de 120 places sur
         2 niveaux. Le devis comprenait : retra&ccedil;age de 120 places + 4
         places PMR + 12 panneaux (vitesse, sens, PMR, niveaux) +
@@ -621,11 +619,7 @@ export default function Content() {
       </h3>
 
       <p>
-        Oui, pour les immeubles construits apr&egrave;s 2007 ou lors de travaux
-        de r&eacute;novation. Le nombre de places PMR d&eacute;pend du nombre
-        total de places (1 place PMR pour 1 &agrave; 25 places, 2 pour 26
-        &agrave; 50, etc.). L&apos;absence de places PMR expose la
-        copropri&eacute;t&eacute; &agrave; une mise en demeure.
+        Les immeubles d&apos;habitation neufs sont soumis à des règles d&apos;accessibilité qui concernent le stationnement. Pour un immeuble existant, l&apos;obligation dépend de la nature des travaux : faites-la vérifier avant le vote en AG.
       </p>
 
       <h3>

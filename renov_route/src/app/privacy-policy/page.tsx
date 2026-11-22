@@ -4,18 +4,18 @@ import Layout from '@/components/Layout'
 import { CookiePreferences } from '@/components/CookieConsent'
 
 export const metadata: Metadata = {
-  title: 'Politique de confidentialité - Renov Route',
-  description: 'Découvrez comment Renov Route collecte, utilisé et protège vos données personnelles conformément au RGPD.',
+  title: 'Politique de confidentialité',
+  description: 'Découvrez comment Rénov\'Route collecte, utilisé et protège vos données personnelles conformément au RGPD.',
   robots: 'index, follow',
   alternates: {
     canonical: 'https://renov-route.com/privacy-policy/',
   },
   openGraph: {
-    title: 'Politique de confidentialité - Renov Route',
-    description: 'Découvrez comment Renov Route collecte, utilisé et protège vos données personnelles conformément au RGPD.',
+    title: 'Politique de confidentialité - Rénov\'Route',
+    description: 'Découvrez comment Rénov\'Route collecte, utilisé et protège vos données personnelles conformément au RGPD.',
     type: 'website',
     url: 'https://renov-route.com/privacy-policy/',
-    images: [{ url: 'https://renov-route.com/assets/images/og-image.jpg', width: 1200, height: 630, alt: 'Renov Route' }],
+    images: [{ url: 'https://renov-route.com/assets/images/og-image.jpg', width: 1200, height: 630, alt: 'Rénov\'Route' }],
   },
 }
 
@@ -43,7 +43,7 @@ export default function PrivacyPolicyPage() {
             <section>
               <h2 className="text-xl font-black italic uppercase tracking-tight text-[#0F172A] mb-4">1. Collecte des données</h2>
               <p className="mb-3">
-                Renov Route collecte des données personnelles dans les cas suivants :
+                Rénov&apos;Route collecte des données personnelles dans les cas suivants :
               </p>
               <ul className="list-disc pl-6 space-y-1 text-slate-600 marker:text-[#FACC15]">
                 <li>Soumission de formulaires de contact ou de demande de devis</li>
@@ -190,7 +190,7 @@ export default function PrivacyPolicyPage() {
                 <div>
                   <p className="text-[#0F172A] font-black uppercase tracking-tight text-sm mb-1">Responsable du traitement</p>
                   <p>
-                    Renov Route<br />
+                    Rénov&apos;Route<br />
                     6, allée du ruisseau de Ribbes<br />
                     69160 Tassin-la-Demi-Lune, France
                   </p>

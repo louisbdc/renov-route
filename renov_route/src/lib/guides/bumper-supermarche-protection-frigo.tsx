@@ -1,10 +1,11 @@
 import type { Guide } from '../guides'
+import KeyAnswer from '@/components/KeyAnswer'
 import Link from 'next/link'
 
 export const meta: Guide = {
   slug: 'bumper-supermarche-protection-frigo',
   title: 'Bumper de supermarché : protéger vos meubles frigorifiques des chocs',
-  metaTitle: 'Bumper supermarché : protection frigo, types et pose',
+  metaTitle: "Bumper supermarché : protection frigo et pose",
   metaDescription:
     'Bumper de supermarché : barres de protection pour meubles frigorifiques. Types (inox, acier, caoutchouc), dimensions, pose et prix. Guide complet.',
   publishDate: '2026-03-04',
@@ -18,6 +19,12 @@ export const meta: Guide = {
 export default function Content() {
   return (
     <>
+      <KeyAnswer question="Qu'est-ce qu'un bumper de supermarché et combien coûte-t-il ?">
+        <p>
+          Un <strong>bumper de supermarché</strong> est une barre fixée au sol, à 5-10 cm du meuble frigorifique et 15-25 cm de hauteur, qui stoppe les chariots. Comptez à partir de <strong>42 €/ml</strong> en PEHD, <strong>55 €/ml</strong> en acier galvanisé, 80 €/ml avec bande caoutchouc et 115 €/ml en inox, pose comprise.
+        </p>
+      </KeyAnswer>
+
       <p>
         Un meuble frigorifique de supermarch&eacute; co&ucirc;te plusieurs milliers d&apos;euros. Un chariot lanc&eacute; &agrave; pleine vitesse dans un
         rayon par un client press&eacute;, un transpalette mal
@@ -29,10 +36,9 @@ export default function Content() {
       </p>
 
       <p>
-        Arnaud, directeur d&apos;un Intermarch&eacute; de 2 500 m&sup2;
-        &agrave; Meyzieu (69), a remplac&eacute; 3 meubles frigorifiques en
+        Prenons l&apos;exemple d&apos;Arnaud, directeur d&apos;un supermarché de 2 500 m&sup2; : il a remplacé 3 meubles frigorifiques en
         2 ans &agrave; cause de chocs de chariots. Co&ucirc;t total :
-        plus de 20 000 euros. Apr&egrave;s l&apos;installation de 45 m&egrave;très
+        plus de 20 000 euros. Apr&egrave;s l&apos;installation de 45 mètres
         lin&eacute;aires de bumpers en acier galvanis&eacute; devant ses
         lin&eacute;aires froid, le co&ucirc;t des r&eacute;parations est
         tomb&eacute; &agrave; z&eacute;ro. Investissement : quelques milliers d&apos;euros, pose
@@ -67,7 +73,7 @@ export default function Content() {
         </li>
         <li>
           <strong>Fr&eacute;quence des chocs</strong> : un lin&eacute;aire
-          froid de 10 m&egrave;très re&ccedil;oit en moyenne 15 &agrave; 25
+          froid de 10 mètres re&ccedil;oit en moyenne 15 &agrave; 25
           impacts de chariots par jour
         </li>
         <li>
@@ -102,7 +108,7 @@ export default function Content() {
         </li>
         <li>
           <strong>Vitrines r&eacute;frig&eacute;r&eacute;es</strong>
-          (boulangerie, traiteur) : facade vitr&eacute;e fragile
+          (boulangerie, traiteur) : façade vitrée fragile
         </li>
         <li>
           <strong>Chambres froides</strong> (portes et angles) : impacts de
@@ -346,8 +352,7 @@ export default function Content() {
       </p>
 
       <p>
-        Caroline, responsable technique d&apos;un Carrefour Market &agrave;
-        Oullins (69), a fait installer ses bumpers &agrave; 3 cm des meubles
+        Prenons l&apos;exemple de Caroline, responsable technique d&apos;un supermarché : elle a fait installer ses bumpers &agrave; 3 cm des meubles
         pour gagner de l&apos;espace dans les all&eacute;es. R&eacute;sultat :
         &agrave; chaque impact fort, le bumper transmettait le choc au meuble.
         Apr&egrave;s repositionnement &agrave; 8 cm, les impacts ne sont plus
@@ -505,8 +510,7 @@ export default function Content() {
       </div>
 
       <p>
-        Fabrice, responsable maintenance d&apos;un Leclerc de 4 500 m&sup2;
-        &agrave; Saint-Priest (69), a &eacute;quip&eacute; 120 m&egrave;très
+        Prenons l&apos;exemple de Fabrice, responsable maintenance d&apos;un hypermarché de 4 500 m&sup2; : il a équipé 120 mètres
         lin&eacute;aires de bumpers en acier galvanis&eacute; devant les
         lin&eacute;aires froid et surgel&eacute;s. Budget total : quelques milliers d&apos;euros
         pose comprise. En 18 mois, z&eacute;ro
@@ -609,7 +613,7 @@ export default function Content() {
       </h3>
 
       <p>
-        Le bumper est une barre basse (15-25 cm du sol) con&ccedil;u pour
+        Le bumper est une barre basse (15-25 cm du sol) conçue pour
         stopper les chariots au niveau des roues. La barri&egrave;re de
         protection est plus haute (50-100 cm) et prot&egrave;ge contre les
         v&eacute;hicules ou les chariots &eacute;l&eacute;vateurs. En

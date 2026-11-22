@@ -5,8 +5,8 @@ import Link from 'next/link'
 export const meta: Guide = {
   slug: 'marquage-au-sol-signification-couleurs',
   title: 'Marquage au sol signification : le guide complet des couleurs, lignes et symboles',
-  metaTitle: 'Marquage au sol : que signifient blanc, jaune, bleu et vert ?',
-  metaDescription: 'Blanc = circulation, jaune = interdiction ou temporaire, bleu = stationnement réglementé, vert = cyclable. Chaque ligne et pictogramme décodé, avec les sanctions.',
+  metaTitle: "Marquage au sol : signification des couleurs et des lignes",
+  metaDescription: "Blanc, jaune, bleu, vert : que signifie chaque couleur, ligne et pictogramme du marquage au sol ? Tableau récapitulatif, erreurs fréquentes et sanctions.",
   publishDate: '2026-03-31',
   updatedDate: '2026-08-06',
   category: 'marquage-parking',
@@ -27,10 +27,10 @@ export default function Content() {
       </KeyAnswer>
 
       <p>
-        Vous roulez chaque jour sur des dizaines de marquages au sol sans vraiment les voir. Et pourtant, une étude de la Sécurité Routière estime que <strong>le marquage au sol transmet 80% des informations nécessaires à la conduite</strong>. Lignes blanches, bandes jaunes, zones bleues, pictogrammes : chaque élément a une signification précise, une valeur réglementaire et des conséquences en cas de non-respect.
+        Vous roulez chaque jour sur des dizaines de marquages au sol sans vraiment les voir. Et pourtant, la <strong>signification du marquage au sol</strong> guide une grande partie de vos décisions de conduite. Lignes blanches, bandes jaunes, zones bleues, pictogrammes : chaque élément a une signification précise, une valeur réglementaire et des conséquences en cas de non-respect.
       </p>
       <p>
-        Le problème ? Beaucoup de conducteurs confondent les couleurs. Et beaucoup de gestionnaires de parking appliquent des marquages sans connaître les règles. En 2024, un gérant de supermarché près de Villefranche-sur-Saône a découvert lors d&apos;un contrôle que ses places PMR étaient tracées en blanc au lieu du bleu réglementaire. Résultat : une mise en demeure et 5 000 EUR de travaux de mise en conformité.
+        Le problème ? Beaucoup de conducteurs confondent les couleurs. Et beaucoup de gestionnaires de parking appliquent des marquages sans connaître les règles. Une erreur de couleur ou de pictogramme sur une place PMR peut, par exemple, imposer une reprise complète du marquage.
       </p>
       <p>
         Ce guide vous explique la <strong>signification du marquage au sol</strong> couleur par couleur, ligne par ligne, symbole par symbole. Que vous soyez conducteur, gestionnaire de parking ou responsable de voirie, vous saurez exactement ce que chaque marquage signifie et quelles obligations il implique.
@@ -46,7 +46,7 @@ export default function Content() {
 
       <h3>Blanc : le marquage standard</h3>
       <p>
-        Le blanc est la couleur de référence du <strong>marquage au sol</strong> en France. Il constitue plus de 90% de la signalisation horizontale que vous croisez au quotidien. Le <strong>marquage au sol blanc signification</strong> est simple : il règle la circulation permanente.
+        Le blanc est la couleur de référence du <strong>marquage au sol</strong> en France. Il constitue l&apos;essentiel de la signalisation horizontale que vous croisez au quotidien. Le <strong>marquage au sol blanc signification</strong> est simple : il règle la circulation permanente.
       </p>
       <p>
         Le blanc couvre :
@@ -126,7 +126,7 @@ export default function Content() {
 
       <h3>Ligne mixte</h3>
       <p>
-        La ligne mixte juxtapose une ligne continue et une ligne discontinue. La réglé est asymetrique : vous pouvez franchir si vous circulez du côté de la discontinue. Vous ne pouvez pas franchir si vous êtes du côté de la continue. Ce marquage est très courant sur les routes départementales.
+        La ligne mixte juxtapose une ligne continue et une ligne discontinue. La règle est asymétrique : vous pouvez franchir si vous circulez du côté de la discontinue. Vous ne pouvez pas franchir si vous êtes du côté de la continue. Ce marquage est très courant sur les routes départementales.
       </p>
 
       <h3>Passages piétons</h3>
@@ -141,7 +141,7 @@ export default function Content() {
 
       <h2>Marquage au sol jaune signification : interdictions et marquages temporaires</h2>
       <p>
-        Le <strong>marquage au sol jaune</strong> est moins fréquent que le blanc, mais sa signification est tout aussi importante. Le jaune signalé soit une interdiction, soit une situation temporaire. Voici les principaux marquages jaunes que vous rencontrerez.
+        Le <strong>marquage au sol jaune</strong> est moins fréquent que le blanc, mais sa signification est tout aussi importante. Le jaune signale soit une interdiction, soit une situation temporaire. Voici les principaux marquages jaunes que vous rencontrerez.
       </p>
 
       <h3>Ligne jaune en zigzag : arrêt de bus et taxi</h3>
@@ -149,10 +149,10 @@ export default function Content() {
         La ligne jaune en zigzag tracée le long du trottoir matérialise un arrêt de bus ou une station de taxi. <strong>Il est interdit de s&apos;arrêter ou de stationner</strong> sur toute la zone couverte par ce marquage, même pour &laquo; juste une minute &raquo;.
       </p>
       <p>
-        Un commerçant de la Presqu&apos;île à Lyon l&apos;a appris à ses dépens. En laissant régulièrement son utilitaire sur le zigzag jaune devant son commerce, il a accumule 1 200 EUR d&apos;amendes en six mois. La mairie avait installé une camera de videoverbalisation.
+        Prenons l&apos;exemple d&apos;un commerçant qui laisse régulièrement son utilitaire sur le zigzag jaune devant sa boutique : il s&apos;expose à une amende à chaque constat.
       </p>
 
-      <h3>Bande jaune continue le long du trottoir</h3>
+      <h3>Ligne jaune et stationnement : la bande continue le long du trottoir</h3>
       <p>
         Une bande jaune continue peinte sur la bordure du trottoir signifie <strong>stationnement interdit</strong>. C&apos;est l&apos;équivalent au sol d&apos;un panneau d&apos;interdiction de stationner. La différence : la bande jaune est souvent plus visible et ne peut pas être masquée par la végétation.
       </p>
@@ -164,7 +164,7 @@ export default function Content() {
 
       <h3>Marquage jaune (ou orange) temporaire : travaux</h3>
       <p>
-        Lorsque des travaux modifient la circulation, un marquage temporaire jaune ou orange est appliqué pour guider les usagers. La réglé essentielle : <strong>le marquage temporaire prévaut toujours sur le marquage permanent blanc</strong>. Si une flèche orange contredit une flèche blanche, c&apos;est l&apos;orange qui fait foi.
+        Lorsque des travaux modifient la circulation, un marquage temporaire jaune ou orange est appliqué pour guider les usagers. La règle essentielle : <strong>le marquage temporaire prévaut toujours sur le marquage permanent blanc</strong>. Si une flèche orange contredit une flèche blanche, c&apos;est l&apos;orange qui fait foi.
       </p>
       <p>
         En pratique, les équipés de Renov&apos;Route interviennent fréquemment pour poser des marquages temporaires lors de chantiers sur des parkings de grandes surfaces. Le marquage provisoire permet de maintenir la circulation des clients pendant les travaux, puis il est retire une fois le marquage définitif appliqué.
@@ -199,7 +199,7 @@ export default function Content() {
         Les places réservées aux personnes à mobilité réduite (PMR) sont généralement matérialisées par un marquage bleu accompagné du pictogramme du fauteuil roulant. La <Link href="/competences/signalisation-verticale">signalisation verticale</Link> avec un panneau PMR est obligatoire en complément.
       </p>
       <p>
-        Le stationnement abusif sur une place PMR est une infraction de 4e classe : <strong>135 EUR d&apos;amende</strong> et mise en fourriere possible.
+        Le stationnement abusif sur une place PMR est une infraction de 4e classe : <strong>135 EUR d&apos;amende</strong> et mise en fourrière possible.
       </p>
 
       <h2>Pictogrammes et symboles au sol : le langage visuel de la route</h2>
@@ -229,7 +229,7 @@ export default function Content() {
 
       <h3>Inscriptions au sol</h3>
       <p>
-        Les mentions &laquo; STOP &raquo;, &laquo; Cédez LE PASSAGE &raquo;, &laquo; 30 &raquo; (limitation de vitesse) ou &laquo; ZONE 30 &raquo; peintes au sol renforcent la signalisation verticale. Elles n&apos;ont pas de valeur réglementaire propre mais servent de rappel visuel.
+        Les mentions &laquo; STOP &raquo;, &laquo; CÉDEZ LE PASSAGE &raquo;, &laquo; 30 &raquo; (limitation de vitesse) ou &laquo; ZONE 30 &raquo; peintes au sol renforcent la signalisation verticale. Elles n&apos;ont pas de valeur réglementaire propre mais servent de rappel visuel.
       </p>
 
       <h2>Marquage au sol en parking privé : règles et personnalisation</h2>
@@ -253,7 +253,7 @@ export default function Content() {
         En parking privé, le gestionnaire peut :
       </p>
       <ul>
-        <li>Choisir des couleurs spécifiques pour differencier les zones (visiteurs, employés, livraisons)</li>
+        <li>Choisir des couleurs spécifiques pour différencier les zones (visiteurs, employés, livraisons)</li>
         <li>Ajouter des numéros de places</li>
         <li>Utiliser des couleurs complémentaires au-delà du blanc, jaune et bleu</li>
         <li>Intégrer un logo d&apos;entreprise ou des codes couleur internes</li>
@@ -262,9 +262,9 @@ export default function Content() {
         L&apos;équipe de <Link href="/competences/conseil-expertise">conseil et expertise</Link> de Renov&apos;Route accompagne les gestionnaires dans le choix des marquages pour allier conformité réglementaire et fonctionnalité.
       </p>
 
-      <h3>L&apos;exemple d&apos;un parking Carrefour dans l&apos;Ain</h3>
+      <h3>L&apos;exemple d&apos;un parking d&apos;hypermarché</h3>
       <p>
-        Un hypermarché Carrefour près de Bourg-en-Bresse a fait appel à Renov&apos;Route pour reprendre intégralement le marquage de son parking de 450 places. Le plan de marquage comprenait : des places blanches standard, des places bleues PMR, des places vertes pour les véhicules électriques, un cheminement piéton jaune et des flèches directionnelles. Le chantier a été réalise en trois nuits pour ne pas perturber l&apos;activité commerciale. Six mois après, le gestionnaire a constaté une <strong>réduction de 30% des incidents de circulation</strong> sur le parking.
+        Prenons l&apos;exemple d&apos;un hypermarché qui reprend intégralement le marquage de son parking. Le plan peut comprendre des places blanches standard, des places PMR avec pictogramme sur fond bleu, des places vertes pour les véhicules électriques, un cheminement piéton et des flèches directionnelles. Un chantier de nuit évite de perturber l&apos;activité commerciale.
       </p>
 
       <h2>Tableau récapitulatif : couleur, type et signification du marquage au sol</h2>
@@ -307,7 +307,7 @@ export default function Content() {
               <td><strong>Blanc</strong></td>
               <td>Flèches directionnelles</td>
               <td>Direction obligatoire ou autorisée</td>
-              <td>135 EUR + 2 points</td>
+              <td>Contravention selon l&apos;infraction</td>
             </tr>
             <tr>
               <td><strong>Blanc</strong></td>
@@ -343,7 +343,7 @@ export default function Content() {
               <td><strong>Bleu</strong></td>
               <td>Place PMR</td>
               <td>Réservée aux personnes handicapées</td>
-              <td>135 EUR + fourriere</td>
+              <td>135 EUR + fourrière</td>
             </tr>
             <tr>
               <td><strong>Vert</strong></td>
@@ -368,10 +368,10 @@ export default function Content() {
 
       <h3>1. Places PMR marquées en jaune</h3>
       <p>
-        C&apos;est l&apos;erreur numéro un. Le jaune signifie « interdiction ». Marquer une place PMR en jaune revient à dire aux usagers de ne pas s&apos;y garer. Les places PMR doivent être délimitées en blanc, avec le pictogramme réglementaire blanc sur fond bleu au sol.
+        C&apos;est l&apos;erreur numéro un. Le jaune signifie « interdiction ». Marquer une place PMR en jaune revient à dire aux usagers de ne pas s&apos;y garer. Les places PMR sont couramment délimitées en blanc, avec un pictogramme blanc sur fond bleu au sol.
       </p>
       <p>
-        Marc, responsable technique d&apos;un supermarché à Villefranche-sur-Saône, nous a contactés en urgence après un contrôle de la commission communale d&apos;accessibilité. Ses 8 places PMR, tracées en jaune vif par un prestataire non spécialisé, devaient être refaites dans un délai de 30 jours. Nous sommes intervenus en 48 heures pour retracer les places en blanc avec les pictogrammes conformes.
+        Prenons l&apos;exemple d&apos;un supermarché dont les places PMR ont été tracées en jaune vif par un prestataire non spécialisé. Il faut alors les retracer en blanc, avec des pictogrammes lisibles.
       </p>
       <p>
         Pour tout savoir sur les dimensions et le marquage des places PMR, consultez notre <Link href="/guides/normes-pmr-parking">guide des normes PMR parking</Link>.
@@ -389,7 +389,7 @@ export default function Content() {
 
       <h3>4. Zébras d&apos;interdiction en blanc</h3>
       <p>
-        Les hachures qui marquent une zone d&apos;interdiction de stationner doivent être en jaune. Des zébras blancs n&apos;ont pas la même signification réglementaire et ne permettent pas de verbaliser un stationnement non autorisé.
+        Les hachures qui marquent une zone d&apos;interdiction de stationner doivent être en jaune. Des zébras blancs n&apos;ont pas la même signification et peuvent prêter à confusion.
       </p>
 
       <h3>5. Absence de contraste sur sol clair</h3>
@@ -409,7 +409,7 @@ export default function Content() {
 
       <h3>Contraste et lisibilité</h3>
       <p>
-        La réglementation PMR impose un contraste minimal de 70 % entre le marquage et le sol environnant. Ce critère est facile à atteindre avec du blanc sur enrobé noir (contraste proche de 100 %). Il devient plus exigeant avec des couleurs plus sombres ou sur des sols clairs.
+        Pour les personnes malvoyantes, le marquage doit bien contraster avec le sol environnant. Ce critère est facile à atteindre avec du blanc sur enrobé noir. Il devient plus exigeant avec des couleurs plus sombres ou sur des sols clairs.
       </p>
       <div className="overflow-x-auto">
         <table>
@@ -455,19 +455,19 @@ export default function Content() {
         Toutes les couleurs ne vieillissent pas au même rythme. Les pigments jaunes et rouges résistent généralement moins bien aux UV que le blanc. En extérieur, prévoyez un retraçage plus fréquent pour les marquages jaunes (tous les 2-3 ans) que pour les blancs (3-5 ans).
       </p>
       <p>
-        Thomas, directeur d&apos;un entrepôt logistique à Saint-Priest (69), a constaté que ses marquages jaunes d&apos;interdiction, pourtant appliqués en même temps que les lignes blanches, se sont dégradés deux fois plus vite. Après 18 mois, les zébras jaunes étaient à peine visibles alors que les lignes blanches restaient nettes. Nous lui avons recommandé une peinture thermoplastique pour les zones jaunes, plus résistante aux UV. Depuis, les deux couleurs tiennent le même rythme.
+        Prenons l&apos;exemple d&apos;un entrepôt dont les zébras jaunes, appliqués en même temps que les lignes blanches, s&apos;estompent plus vite qu&apos;elles. Une peinture thermoplastique pour les zones jaunes, plus résistante aux UV, aide à harmoniser leur durée de vie.
       </p>
 
       <h2>Sanctions en cas de non-respect du marquage au sol</h2>
       <p>
-        Le non-respect de la <strong>signification du marquage au sol</strong> exposé à des sanctions qui varient selon la gravite de l&apos;infraction.
+        Le non-respect de la <strong>signification du marquage au sol</strong> expose à des sanctions qui varient selon la gravité de l&apos;infraction.
       </p>
 
       <h3>Pour les conducteurs</h3>
       <ul>
         <li><strong>Franchissement de ligne continue :</strong> 135 EUR + 3 points</li>
         <li><strong>Non-respect du passage piéton :</strong> 135 EUR + 6 points (+ suspension possible)</li>
-        <li><strong>Stationnement sur place PMR :</strong> 135 EUR + fourriere</li>
+        <li><strong>Stationnement sur place PMR :</strong> 135 EUR + fourrière</li>
         <li><strong>Circulation en voie de bus :</strong> 135 EUR</li>
         <li><strong>Dépassement de durée en zone bleue :</strong> 35 EUR</li>
         <li><strong>Non-respect du marquage temporaire :</strong> Mêmes sanctions que le marquage permanent</li>
@@ -475,7 +475,7 @@ export default function Content() {
 
       <h3>Pour les gestionnaires de parking</h3>
       <p>
-        Les gestionnaires d&apos;espaces privés ouverts au public ont une <strong>obligation de conformité</strong>. Un marquage absent, effacé ou non conforme peut engager la responsabilité du gestionnaire en cas d&apos;accident. Les normes NF EN 1436 définissent les seuils de performance du marquage (rétroréflexion, adhérence, luminance) en dessous desquels le marquage doit être renouvele.
+        Les gestionnaires d&apos;espaces privés ouverts au public ont une <strong>obligation de conformité</strong>. Un marquage absent, effacé ou non conforme peut engager la responsabilité du gestionnaire en cas d&apos;accident. Les normes NF EN 1436 définissent les seuils de performance du marquage (rétroréflexion, adhérence, luminance) en dessous desquels le marquage doit être renouvelé.
       </p>
 
       <h2>FAQ : vos questions sur la signification du marquage au sol</h2>
@@ -487,7 +487,7 @@ export default function Content() {
 
       <h3>Que signifie un marquage au sol bleu ?</h3>
       <p>
-        Le <strong>marquage au sol bleu</strong> désigne une zone de stationnement à durée limitée (zone bleue) ou vous devez apposer un disque de stationnement. Il peut aussi identifier les places réservées aux personnes à mobilité réduite.
+        Le <strong>marquage au sol bleu</strong> désigne une zone de stationnement à durée limitée (zone bleue) où vous devez apposer un disque de stationnement. Il peut aussi identifier les places réservées aux personnes à mobilité réduite.
       </p>
 
       <h3>Quelles sont les couleurs officielles du marquage au sol en France ?</h3>
@@ -497,7 +497,7 @@ export default function Content() {
 
       <h3>Un marquage au sol a-t-il une valeur réglementaire ?</h3>
       <p>
-        Oui. Le marquage au sol à une valeur réglementaire définie par l&apos;IISR (Instruction Interministérielle sur la Signalisation Routière). Son non-respect est sanctionné par le Code de la route. En cas de contradiction entre un panneau et un marquage, c&apos;est généralement le panneau qui prévaut, sauf pour le marquage temporaire qui prime sur le marquage permanent.
+        Oui. Le marquage au sol a une valeur réglementaire définie par l&apos;IISR (Instruction Interministérielle sur la Signalisation Routière). Son non-respect est sanctionné par le Code de la route. En cas de contradiction entre un panneau et un marquage, c&apos;est généralement le panneau qui prévaut, sauf pour le marquage temporaire qui prime sur le marquage permanent.
       </p>
 
       <h3>Qui est responsable de l&apos;entretien du marquage au sol ?</h3>
@@ -507,15 +507,15 @@ export default function Content() {
 
       <h3>Comment améliorer la visibilité d&apos;un marquage sur sol clair ?</h3>
       <p>
-        Sur béton brut ou dallage gris clair, un marquage blanc perd l&apos;essentiel de son contraste. Deux solutions : appliquer un fond de couleur sombre sous le marquage, ou passer à une résine à fort pouvoir couvrant. La réglementation PMR impose un contraste minimal de 70 % entre le marquage et son support — un critère rarement atteint avec du blanc sur sol clair.
+        Sur béton brut ou dallage gris clair, un marquage blanc perd l&apos;essentiel de son contraste. Deux solutions : appliquer un fond de couleur sombre sous le marquage, ou passer à une résine à fort pouvoir couvrant. Un bon contraste avec le support est essentiel, notamment pour les personnes malvoyantes.
       </p>
 
       <h2>Conclusion : un marquage lisible, c&apos;est un espace sécurisé</h2>
       <p>
-        Comprendre la <strong>signification du marquage au sol</strong> n&apos;est pas un exercice théorique. C&apos;est une question de sécurité pour les conducteurs, de conformité pour les gestionnaires et de responsabilité pour tous. Blanc, jaune, bleu, vert : chaque couleur à un message. Chaque ligne à une réglé.
+        Comprendre la <strong>signification du marquage au sol</strong> n&apos;est pas un exercice théorique. C&apos;est une question de sécurité pour les conducteurs, de conformité pour les gestionnaires et de responsabilité pour tous. Blanc, jaune, bleu, vert : chaque couleur a un message. Chaque ligne a une règle.
       </p>
       <p>
-        Si vous gérez un parking, une voirie ou un espace de circulation, la qualité de votre marquage au sol reflète directement votre engagement envers la sécurité de vos usagers. Un marquage effacé, decolore ou non conforme est un risque juridique et humain.
+        Si vous gérez un parking, une voirie ou un espace de circulation, la qualité de votre marquage au sol reflète directement votre engagement envers la sécurité de vos usagers. Un marquage effacé, décoloré ou non conforme est un risque juridique et humain.
       </p>
       <p>
         <strong>Renov&apos;Route vous accompagne</strong> dans le <Link href="/competences/tracage-retracage-parking">traçage et retraçage</Link> de vos espaces de circulation. Depuis 2016, nous avons réalisé plus de 1 000 projets pour des enseignes comme Carrefour, Lidl et McDonald&apos;s, en respectant les normes NF EN 1436 et l&apos;IISR.

@@ -5,13 +5,13 @@ import Link from 'next/link'
 export const meta: Guide = {
   slug: 'cout-renovation-parking',
   title: 'Coût rénovation parking : prix au m², budget et facteurs de variation',
-  metaTitle: 'Coût rénovation parking : prix au m² et budget 2026',
-  metaDescription: 'Coût rénovation parking : prix au m² par type de travaux, budget moyen selon la taille et facteurs de variation. Tableaux détaillés et exemples réels.',
+  metaTitle: "Coût rénovation parking : prix au m² dès 8 €",
+  metaDescription: "Combien coûte la rénovation d'un parking ? Dès 8 €/m² en peinture acrylique, dès 12 €/m² en thermoplastique. Budget par taille et facteurs de variation.",
   publishDate: '2026-03-04',
   updatedDate: '2026-08-08',
   category: 'renovation-parking',
   readingTime: 12,
-  excerpt: 'Prix au m² par type de travaux, budgets moyens selon la taille du parking et 7 facteurs qui font varier la facture. Tableaux détaillés et exemples réels.',
+  excerpt: 'Prix au m² par type de travaux, budgets moyens selon la taille du parking et 7 facteurs qui font varier la facture. Tableaux détaillés et exemples chiffrés.',
 }
 
 export default function Content() {
@@ -19,7 +19,7 @@ export default function Content() {
     <>
       <KeyAnswer question="Combien coûte la rénovation d'un parking ?">
         <p>
-          Le prix dépend du revêtement : <strong>dès 8 €/m²</strong> en peinture acrylique (2-3 ans), <strong>dès 12 €/m²</strong> en thermoplastique (4-6 ans), <strong>dès 25 €/m²</strong> en résine époxy (5-10 ans). Comptez <strong>dès 25 € par place</strong> pour un retraçage standard.
+          Le prix dépend du revêtement : <strong>dès 8 €/m²</strong> en peinture acrylique (2-3 ans), <strong>dès 12 €/m²</strong> en thermoplastique (4-6 ans), <strong>dès 25 €/m²</strong> en résine époxy (5-10 ans). Comptez <strong>dès 25 € par place</strong> pour un retraçage standard, lignes et numéro compris.
         </p>
       </KeyAnswer>
 
@@ -93,7 +93,7 @@ export default function Content() {
 
       <blockquote>
         <p>
-          Quand Éric, responsable technique d&apos;un centre commercial de 200 places à Villefranche-sur-Saône, a comparé les devis pour réparer 12 nids de poule, il a reçu trois propositions. L&apos;enrobé à froid : quelques centaines d&apos;euros, mais à refaire dans six mois. L&apos;enrobé à chaud : plusieurs milliers d&apos;euros, avec une fermeture de deux jours. La résine polyuréthane : un budget intermédiaire maîtrisé, praticable en deux heures. Il a choisi la résine. Deux ans plus tard, aucun nid de poule n&apos;est réapparu. Le rapport qualité-prix-durée était le meilleur.
+          Prenons l&apos;exemple d&apos;Éric, responsable technique d&apos;un centre commercial de 200 places, quand il a comparé les devis pour réparer 12 nids de poule, il a reçu trois propositions. L&apos;enrobé à froid : quelques centaines d&apos;euros, mais à refaire dans six mois. L&apos;enrobé à chaud : plusieurs milliers d&apos;euros, avec une fermeture de deux jours. La résine polyuréthane : un budget intermédiaire maîtrisé, praticable en deux heures. Il a choisi la résine. Deux ans plus tard, aucun nid de poule n&apos;est réapparu. Le rapport qualité-prix-durée était le meilleur.
         </p>
       </blockquote>
       <p>
@@ -269,7 +269,7 @@ export default function Content() {
 
       <blockquote>
         <p>
-          Carole, gestionnaire d&apos;une résidence de 60 places à Caluire-et-Cuire, devait présenter un budget de rénovation au conseil syndical. Elle a demandé trois devis. Le premier, une entreprise de BTP généraliste, proposait plus de 20 000 euros pour &quot;refaire le parking&quot;. Le deuxième détaillait les postes : retraçage, réparation de nids de poule, panneaux et places PMR, pour un budget maîtrisé de quelques milliers d&apos;euros. Le troisième était dans le même ordre de grandeur. Elle a présenté le devis détaillé en AG. Vote acquis à la majorité simple. Les travaux ont duré deux jours.
+          Prenons l&apos;exemple de Carole, gestionnaire d&apos;une résidence de 60 places à Caluire-et-Cuire : elle devait présenter un budget de rénovation au conseil syndical. Elle a demandé trois devis. Le premier, une entreprise de BTP généraliste, proposait plus de 20 000 euros pour &quot;refaire le parking&quot;. Le deuxième détaillait les postes : retraçage, réparation de nids de poule, panneaux et places PMR, pour un budget maîtrisé de quelques milliers d&apos;euros. Le troisième était dans le même ordre de grandeur. Elle a présenté le devis détaillé en AG. Vote acquis à la majorité simple. Les travaux ont duré deux jours.
         </p>
       </blockquote>
       <p>
@@ -340,7 +340,7 @@ export default function Content() {
 
       <blockquote>
         <p>
-          Thomas, directeur d&apos;un hypermarché dans la Loire, a retenu le devis le moins cher pour le retraçage de son parking de 300 places en peinture acrylique standard. Dix-huit mois plus tard, les marquages étaient déjà effacés par endroits. Il a dû refaire le traçage une seconde fois. Le total sur 3 ans a largement dépassé ce qu&apos;aurait coûté une peinture thermoplastique dès le départ, sans compter la fermeture supplémentaire.
+          Prenons l&apos;exemple de Thomas, directeur d&apos;un hypermarché : il a retenu le devis le moins cher pour le retraçage de son parking de 300 places en peinture acrylique standard. Dix-huit mois plus tard, les marquages étaient déjà effacés par endroits. Il a dû refaire le traçage une seconde fois. Le total sur 3 ans a largement dépassé ce qu&apos;aurait coûté une peinture thermoplastique dès le départ, sans compter la fermeture supplémentaire.
         </p>
       </blockquote>
       <p>

@@ -83,10 +83,10 @@ export default function ResineSolMarquageInterieurPage() {
       <ServicePageLayout
         breadcrumb={BREADCRUMB}
         heroIcon={<TbBrush size={28} />}
-        heroTitle={<>Résine de sol &amp; marquage intérieur à <strong className="text-[#FACC15]">Lyon</strong></>}
+        heroTitle={<>Résine de sol industriel &amp; marquage intérieur à <strong className="text-[#FACC15]">Lyon</strong></>}
         heroSubtitle="Sol industriel Lyon : revêtements époxy haute performance et marquage de zones pour vos espaces industriels, commerciaux et logistiques. Durable, esthétique, conforme."
         heroBackgroundImage="/assets/images/hero-resine-sol.webp"
-        heroImageAlt="Application de résine époxy sur sol industriel à Lyon par Rénov Route"
+        heroImageAlt="Application de résine époxy sur sol industriel à Lyon par Rénov'Route"
         accentColor="violet"
         descriptionHeading="Sol industriel Lyon : résine époxy et marquage intérieur"
         descriptionParagraphs={[

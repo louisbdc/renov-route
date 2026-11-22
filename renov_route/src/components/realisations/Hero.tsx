@@ -12,7 +12,7 @@ export default function Hero() {
       <div className="absolute inset-0">
         <Image
           src="/assets/images/realisations/background_competence_page.avif"
-          alt="Réalisations de marquage au sol et signalisation routière - Renov Route"
+          alt="Réalisations de marquage au sol et signalisation routière - Rénov'Route"
           fill
           priority
           className="object-cover md:grayscale opacity-25"

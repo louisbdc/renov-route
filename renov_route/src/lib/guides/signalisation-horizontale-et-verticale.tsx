@@ -5,8 +5,8 @@ import Link from 'next/link'
 export const meta: Guide = {
   slug: 'signalisation-horizontale-et-verticale',
   title: 'Signalisation horizontale et verticale : comprendre, combiner et mettre en conformité',
-  metaTitle: 'Signalisation horizontale ou verticale : quelle différence ?',
-  metaDescription: 'Horizontale = marquage au sol, verticale = panneaux. Ce que dit la loi sur leur combinaison, les normes NF EN 1436 et 12899-1, et les tarifs par prestation.',
+  metaTitle: 'Signalisation horizontale et verticale : quelle différence ?',
+  metaDescription: 'Horizontale = marquage au sol, verticale = panneaux. Ce que dit la loi sur leur combinaison, les normes NF EN 1436 et 12899-1, et les tarifs.',
   publishDate: '2026-03-31',
   updatedDate: '2026-07-28',
   category: 'securite-parking',
@@ -27,13 +27,13 @@ export default function Content() {
       </KeyAnswer>
 
       <p>
-        Un parking ou seul le marquage au sol existe, sans aucun panneau. Les automobilistes devinent le sens de circulation. Les places PMR sont tracées mais aucun panneau ne les signalé en hauteur. Un piéton ne voit pas le passage cloute depuis l&apos;entrée parce qu&apos;un véhicule stationne le masque. Résultat : un accident, un litige, une mise en demeure de la commission d&apos;accessibilité.
+        Un parking où seul le marquage au sol existe, sans aucun panneau. Les automobilistes devinent le sens de circulation. Les places PMR sont tracées mais aucun panneau ne les signale en hauteur. Un piéton ne voit pas le passage clouté depuis l&apos;entrée parce qu&apos;un véhicule stationné le masque. Résultat : un accident, un litige, une mise en demeure de la commission d&apos;accessibilité.
       </p>
       <p>
         Ce scénario, Renov&apos;Route le constate plusieurs fois par mois sur des parkings de la métropole lyonnaise. La cause est presque toujours la même : la <strong>signalisation horizontale et verticale</strong> a été pensée séparément, où l&apos;un des deux volets a été oublié.
       </p>
       <p>
-        Cet article vous explique ce que couvre chaque type de signalisation, comment ils se complètent, ce que disent les normes, et combien cela coûte. Que vous soyez gestionnaire de parking, responsable de copropriété, directeur de site industriel ou elu en charge de voirie communale, vous trouverez ici les réponses concrètes pour prendre les bonnes décisions.
+        Cet article vous explique ce que couvre chaque type de signalisation, comment ils se complètent, ce que disent les normes, et combien cela coûte. Que vous soyez gestionnaire de parking, responsable de copropriété, directeur de site industriel ou élu en charge de voirie communale, vous trouverez ici les réponses concrètes pour prendre les bonnes décisions.
       </p>
 
       <h2>Signalisation horizontale : tout ce qui est au sol</h2>
@@ -66,7 +66,7 @@ export default function Content() {
 
       <h3>Cadre normatif de la signalisation horizontale</h3>
       <p>
-        La norme <strong>NF EN 1436</strong> encadré les performances des produits de marquage routier. Elle mesure trois paramètres essentiels :
+        La norme <strong>NF EN 1436</strong> encadre les performances des produits de marquage routier. Elle mesure trois paramètres essentiels :
       </p>
       <ul>
         <li><strong>Rétroréflexion (RL)</strong> : visibilité du marquage la nuit sous éclairage de phares. Classe minimale R2 exigée sur voie publique</li>
@@ -84,7 +84,7 @@ export default function Content() {
 
       <h2>Signalisation verticale : tout ce qui est en hauteur</h2>
       <p>
-        La signalisation verticale regroupe tous les dispositifs fixes installés hors du plan du sol : panneaux, feux, bornes, portiques, panonceaux. Elle transmet des informations visibles à distance, même quand le sol est mouille, enneige ou masque par un véhicule.
+        La signalisation verticale regroupe tous les dispositifs fixes installés hors du plan du sol : panneaux, feux, bornes, portiques, panonceaux. Elle transmet des informations visibles à distance, même quand le sol est mouillé, enneigé ou masqué par un véhicule.
       </p>
 
       <h3>Les éléments de la signalisation verticale</h3>
@@ -109,7 +109,7 @@ export default function Content() {
 
       <h3>Cadre normatif de la signalisation verticale</h3>
       <p>
-        La norme <strong>NF EN 12899-1</strong> (anciennement NF P 98-501) définit les exigences pour les panneaux de signalisation permanents : résistance au vent, rétroréflexion du film, dimensions et colorimetrie. La norme <strong>NF P 98-300</strong> couvre spécifiquement les supports (mats, potences, portiques).
+        La norme <strong>NF EN 12899-1</strong> définit les exigences pour les panneaux de signalisation permanents : résistance au vent, rétroréflexion du film, dimensions et colorimétrie.
       </p>
       <p>
         L&apos;IISR, parties 1 à 6, définit la forme, la couleur, les dimensions et les règles d&apos;implantation de chaque panneau. Tout panneau installé sur voie publique doit être conforme à ces textes.
@@ -145,7 +145,7 @@ export default function Content() {
               <td>Film rétroréfléchissant, éclairage possible</td>
             </tr>
             <tr>
-              <td><strong>Visibilité sol mouille/enneige</strong></td>
+              <td><strong>Visibilité sol mouillé/enneigé</strong></td>
               <td>Réduite ou nulle</td>
               <td>Maintenue</td>
             </tr>
@@ -167,7 +167,7 @@ export default function Content() {
             <tr>
               <td><strong>Norme principale</strong></td>
               <td>NF EN 1436</td>
-              <td>NF EN 12899-1, NF P 98-300</td>
+              <td>NF EN 12899-1</td>
             </tr>
             <tr>
               <td><strong>Référence réglementaire</strong></td>
@@ -201,17 +201,17 @@ export default function Content() {
         La <strong>signalisation routière horizontale et verticale</strong> fonctionne en système. Chaque élément renforcé l&apos;autre. Voici pourquoi :
       </p>
       <ul>
-        <li><strong>Redondance</strong> : un conducteur qui ne voit pas le marquage (sol mouille, nuit, véhicule masquant) voit le panneau. Un piéton qui ne voit pas le panneau voit le marquage au sol</li>
+        <li><strong>Redondance</strong> : un conducteur qui ne voit pas le marquage (sol mouillé, nuit, véhicule masquant) voit le panneau. Un piéton qui ne voit pas le panneau voit le marquage au sol</li>
         <li><strong>Completude</strong> : le panneau donne l&apos;information réglementaire (interdit, autorisé, vitesse). Le marquage donne l&apos;information spatiale (ou exactement s&apos;arrêter, ou tourner)</li>
         <li><strong>Conformité</strong> : de nombreuses réglementations exigent les deux. Un passage piéton doit combiner bandes au sol et panneaux C20a. Une place PMR doit combiner pictogramme au sol et panneau B6a1 avec panonceau M6h</li>
       </ul>
       <p>
-        Sophie, responsable HSE d&apos;une zone industrielle de 12 hectares à Saint-Priest, a vecu un audit de sécurité qui l&apos;a illustre. L&apos;inspecteur a releve 23 non-conformités. Toutes concernaient des marquages au sol sans panneau associe (zones de stockage, voies piétonnes, sens de circulation). La signalisation horizontale existait. La signalisation verticale manquait. Le site a reçu une mise en demeure avec un délai de 3 mois pour mise en conformité.
+        Prenons l&apos;exemple d&apos;une zone industrielle de 12 hectares soumise à un audit de sécurité. L&apos;inspecteur a relevé 23 non-conformités. Toutes concernaient des marquages au sol sans panneau associé (zones de stockage, voies piétonnes, sens de circulation). La signalisation horizontale existait. La signalisation verticale manquait. Le site a reçu une mise en demeure avec un délai de 3 mois pour mise en conformité.
       </p>
 
       <h3>Hiérarchie en cas de contradiction</h3>
       <p>
-        Que se passe-t-il quand un marquage au sol et un panneau donnent des informations contradictoires ? L&apos;IISR est claire : <strong>la signalisation verticale prime sur la signalisation horizontale</strong>. Un panneau de sens interdit prévaut sur une flèche peinte au sol qui indiquerait le contraire.
+        Que se passe-t-il quand un marquage au sol et un panneau donnent des informations contradictoires ? En pratique, on retient que <strong>la signalisation verticale prime sur la signalisation horizontale</strong>. Un panneau de sens interdit prévaut sur une flèche peinte au sol qui indiquerait le contraire.
       </p>
       <p>
         En pratique, cette contradiction ne devrait jamais exister. Elle révèle un défaut de maintenance ou une erreur de conception. Un{' '}
@@ -397,17 +397,17 @@ export default function Content() {
 
       <h3>Quelle signalisation prime en cas de contradiction ?</h3>
       <p>
-        La signalisation verticale (panneaux) prime toujours sur la signalisation horizontale (marquage au sol), conformément à l&apos;IISR. En pratique, toute contradiction doit être corrigée immédiatement.
+        En pratique, on retient que la signalisation verticale (panneaux) prime sur la signalisation horizontale (marquage au sol). Toute contradiction doit être corrigée immédiatement.
       </p>
 
       <h3>Quelles normes s&apos;appliquent à la signalisation horizontale et verticale ?</h3>
       <p>
-        La norme NF EN 1436 encadré les produits de marquage routier (signalisation horizontale). Les normes NF EN 12899-1 et NF P 98-300 encadrent les panneaux et leurs supports (signalisation verticale). L&apos;IISR définit les règles d&apos;implantation pour les deux.
+        La norme NF EN 1436 encadre les produits de marquage routier (signalisation horizontale). La norme NF EN 12899-1 encadre les panneaux (signalisation verticale). L&apos;IISR définit les règles d&apos;implantation pour les deux.
       </p>
 
-      <h3>Suis-je oblige d&apos;installer les deux types de signalisation sur mon parking privé ?</h3>
+      <h3>Suis-je obligé d&apos;installer les deux types de signalisation sur mon parking privé ?</h3>
       <p>
-        Il n&apos;existe pas d&apos;obligation générale de signalisation pour un parking privé ferme. En revanche, si votre parking est ouvert au public (commerce, ERP), les places PMR doivent combiner marquage au sol et panneau. Au-delà de l&apos;obligation légale, une signalisation complète réduit les risques d&apos;accident et de litige.
+        Il n&apos;existe pas d&apos;obligation générale de signalisation pour un parking privé fermé. En revanche, si votre parking est ouvert au public (commerce, ERP), les places PMR doivent combiner marquage au sol et panneau. Au-delà de l&apos;obligation légale, une signalisation complète réduit les risques d&apos;accident et de litige.
       </p>
 
       <h3>Combien coûte la mise en conformité d&apos;un parking de 50 places ?</h3>
@@ -417,7 +417,7 @@ export default function Content() {
 
       <h3>À quelle fréquence faut-il renouveler la signalisation ?</h3>
       <p>
-        Le marquage au sol (signalisation horizontale) doit être retrace tous les 1 à 3 ans selon le matériau et le trafic. La signalisation verticale (panneaux) dure 7 à 15 ans. Prévoyez un audit annuel pour vérifier l&apos;état des deux.
+        Le marquage au sol (signalisation horizontale) doit être retracé tous les 1 à 3 ans selon le matériau et le trafic. La signalisation verticale (panneaux) dure 7 à 15 ans. Prévoyez un audit annuel pour vérifier l&apos;état des deux.
       </p>
 
       <h2>Conclusion : ne separez jamais l&apos;horizontale et la verticale</h2>

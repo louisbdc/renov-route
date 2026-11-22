@@ -1,10 +1,11 @@
 import type { Guide } from '../guides'
+import KeyAnswer from '@/components/KeyAnswer'
 import Link from 'next/link'
 
 export const meta: Guide = {
   slug: 'enrobe-froid-vs-resine-nids-de-poule',
   title: 'Enrobé à froid vs résine polyuréthane : quelle solution pour réparer vos nids de poule ?',
-  metaTitle: 'Enrobé à froid vs résine : réparer un nid de poule | Rénov\'Route',
+  metaTitle: "Enrobé à froid ou résine : réparer un nid de poule",
   metaDescription: 'Enrobé à froid ou résine polyuréthane pour réparer vos nids de poule ? Comparatif durée de vie, prix, mise en œuvre. Guide pour choisir la bonne solution.',
   publishDate: '2026-03-04',
   updatedDate: '2026-05-22',
@@ -16,8 +17,14 @@ export const meta: Guide = {
 export default function Content() {
   return (
     <>
+      <KeyAnswer question={"Enrobé à froid ou résine : que choisir pour un nid de poule ?"}>
+        <p>
+        L'<strong>enrobé à froid</strong> est un dépannage d'urgence : 20 à 40 € HT par nid de poule, pour une tenue de 3 à 6 mois. La <strong>résine polyuréthane</strong> coûte 80 à 200 € HT, mais dure 5 à 10 ans. Sur un parking fréquenté, la résine revient donc généralement moins cher à terme.
+        </p>
+      </KeyAnswer>
+
       <p>
-        Vous avez fait reboucher un nid de poule en janvier. En avril, il est revenu au même endroit. En juin, il est plus large qu'avant. Si cette situation vous parle, c'est probablement parce que vous avez utilisé de l'enrobé à froid, la solution que 80% des prestataires proposent par défaut.
+        Vous avez fait reboucher un nid de poule en janvier. En avril, il est revenu au même endroit. En juin, il est plus large qu'avant. Si cette situation vous parle, c'est probablement parce que vous avez utilisé de l'enrobé à froid, la solution que beaucoup de prestataires proposent par défaut.
       </p>
       <p>
         Le problème n'est pas le prestataire. Le problème, c'est le matériau. L'enrobé à froid a été conçu comme un dépannage temporaire, pas comme une réparation durable. Il existe une alternative que la plupart des gestionnaires de parking ignorent : la résine polyuréthane injectée, qui dure 5 à 10 ans contre quelques mois pour l'enrobé.
@@ -42,13 +49,13 @@ export default function Content() {
 
       <h3>Limites de l'enrobé à froid</h3>
       <p>
-        Malgré ces avantages, l'enrobé à froid à un défaut majeur : il ne dure pas.
+        Malgré ces avantages, l'enrobé à froid a un défaut majeur : il ne dure pas.
       </p>
       <p>
         <strong>Pourquoi ?</strong> Parce qu'il n'adhère pas chimiquement au revêtement existant. Il repose dans le trou comme un bouchon dans une baignoire. Sous l'effet du trafic, des vibrations et des cycles gel-dégel, il se fissure, se délite et finit par se déchausser. En général, c'est l'affaire de quelques mois. Parfois quelques semaines en cas de trafic lourd.
       </p>
       <p>
-        Marc, gestionnaire technique d'un entrepôt logistique près de Villefranche-sur-Saône (69), en a fait l'expérience. Son parking poids lourds comptait une dizaine de nids de poule que son équipe rebouchait à l'enrobé à froid tous les trois mois. En un an, il avait dépensé plus de 3 500 € en matériau et en main d'œuvre, sans compter le temps perdu. Le problème revenait à chaque saison.
+        Prenons l'exemple d'un gestionnaire technique d'entrepôt logistique. Son parking poids lourds compte une dizaine de nids de poule que son équipe rebouche à l'enrobé à froid tous les trois mois. Matériau, main d'œuvre et temps perdu s'additionnent, et le problème revient à chaque saison.
       </p>
       <p>
         L'enrobé à froid reste pertinent dans un cas précis : le dépannage d'urgence quand la sécurité est en jeu et qu'il faut rendre la voie praticable dans l'heure. Pour tout le reste, il existe une solution plus durable.
@@ -141,7 +148,7 @@ export default function Content() {
         <li><strong>Réparations définitives</strong> : quand vous voulez résoudre le problème une fois pour toutes</li>
       </ul>
       <p>
-        Sophie, directrice d'un supermarché à Bourgoin-Jallieu (38), avait 8 nids de poule sur son parking client. Son prestataire habituel les rebouchait à l'enrobé à froid deux fois par an, pour environ 600 € à chaque passage. En 3 ans, elle avait dépensé 3 600 € pour les mêmes trous. Quand elle nous a contactés, nous avons traité les 8 nids de poule à la résine polyuréthane en une demi-journée, pour 1 100 €. Deux ans plus tard, aucun n'est revenu.
+        Prenons l'exemple d'un supermarché avec 8 nids de poule sur son parking client. Rebouchés à l'enrobé à froid deux fois par an, à environ 600 € le passage, ils coûtent 3 600 € en 3 ans. Une réparation à la résine polyuréthane, à 80 à 200 € HT par nid de poule, revient à un budget ponctuel de 640 à 1 600 € HT.
       </p>
       <p>
         <strong>Vous hésitez entre les deux solutions ?</strong> <Link href="/devis">Demandez un diagnostic gratuit</Link>. Nous analysons l'état de votre chaussée, le type de trafic et votre budget pour recommander la méthode la plus adaptée.

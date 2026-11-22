@@ -79,6 +79,14 @@ const FAQ = [
     question: 'Intervenez-vous dans tous les arrondissements de Lyon ?',
     answer: "Oui. Nous couvrons les neuf arrondissements de Lyon (1er au 9e), de la Presqu'île à Gerland, ainsi que la métropole (Villeurbanne, Vénissieux, Bron, Caluire-et-Cuire...). Notre siège de Tassin-la-Demi-Lune nous permet d'intervenir rapidement sur tout le Grand Lyon, sans sous-traitance.",
   },
+  {
+    question: 'Quelle est la meilleure période pour un marquage au sol à Lyon ?',
+    answer: "D'avril à juin et de septembre à octobre. La température doit dépasser 5 °C, le sol doit être sec depuis au moins 2 heures et la météo doit rester favorable pendant 24 heures.",
+  },
+  {
+    question: 'Faut-il un arrêté de circulation pour marquer un parking privé ?',
+    answer: "Non. L'arrêté de circulation concerne les interventions sur voie publique. Sur un parking privé, même ouvert au public, il suffit de baliser la zone de travaux et d'informer les usagers.",
+  },
 ]
 
 const SERVICE_SCHEMA = {
@@ -171,13 +179,15 @@ export default function MarquageAuSolLyonPage() {
         heroTitle={<>Marquage au sol à <strong className="text-[#FACC15]">Lyon</strong></>}
         heroSubtitle="Entreprise spécialisée en marquage au sol depuis 2016. Parking, voirie, industriel, sport, PMR : nous intervenons sur tous types de surfaces à Lyon et en Rhône-Alpes."
         heroBackgroundImage="/assets/images/realisations/lidl-verpiliere-parking_1.avif"
-        heroImageAlt="Marquage au sol parking à Lyon par Rénov Route"
+        heroImageAlt="Marquage au sol parking à Lyon par Rénov'Route"
         accentColor="amber"
         descriptionHeading="Votre entreprise de marquage au sol à Lyon"
         descriptionParagraphs={[
-          "Depuis 2016, Rénov Route est spécialisée dans le marquage au sol à Lyon et dans toute la région Rhône-Alpes. Avec plus de 1 000 chantiers réalisés, nous accompagnons les entreprises, collectivités, copropriétés et gestionnaires de sites dans tous leurs projets de signalisation horizontale.",
+          "Depuis 2016, Rénov'Route est spécialisée dans le marquage au sol à Lyon et dans toute la région Rhône-Alpes. Avec plus de 1 000 chantiers réalisés, nous accompagnons les entreprises, collectivités, copropriétés et gestionnaires de sites dans tous leurs projets de signalisation horizontale.",
           <>Nos équipes interviennent sur tous types de surfaces et de marquages : <Link href="/competences/tracage-retracage-parking/" className="text-[#FACC15] hover:text-[#0F172A] underline">traçage de parking</Link>, marquage de voirie, <Link href="/competences/resine-sol-marquage-interieur/" className="text-[#FACC15] hover:text-[#0F172A] underline">résine de sol industriel</Link>, traçage sportif et <Link href="/guides/normes-pmr-parking/" className="text-[#FACC15] hover:text-[#0F172A] underline">mise en conformité PMR</Link>.</>,
           <>Nous utilisons exclusivement des peintures routières certifiées NF EN 1436 et des résines haute performance pour garantir un résultat durable. Si votre sol nécessite une remise en état avant le marquage, nous assurons également la <Link href="/competences/reparation-nids-de-poule/" className="text-[#FACC15] hover:text-[#0F172A] underline">réparation de nids de poule</Link> et la préparation de surface.</>,
+          "La signalisation horizontale regroupe tout ce qui est peint ou appliqué au sol pour guider (lignes, flèches, bandes de guidage), informer (pictogrammes PMR, vélo ou livraison, numérotation des places) et protéger les usagers (passages piétons, lignes de stop, zones hachurées). Elle complète la signalisation verticale, c'est-à-dire les panneaux.",
+          "Le choix du produit dépend de l'usage : peinture acrylique à l'eau pour le parking extérieur, thermoplastique pour les passages piétons, les lignes de stop et les zones à fort trafic, résine à froid pour le marquage industriel et les parkings souterrains.",
         ]}
         features={FEATURES}
         ctaTitle="Un projet de marquage au sol à Lyon ?"
@@ -256,7 +266,7 @@ export default function MarquageAuSolLyonPage() {
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Renov Route - Tassin-la-Demi-Lune"
+                  title="Rénov'Route - Tassin-la-Demi-Lune"
                 />
               </div>
             </div>
@@ -330,7 +340,7 @@ export default function MarquageAuSolLyonPage() {
               Pourquoi nous choisir
             </span>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-black italic uppercase tracking-tighter text-white mb-6 leading-[0.95]">
-              Pourquoi choisir <span className="text-[#FACC15]">Rénov Route</span> pour votre marquage au sol à Lyon ?
+              Pourquoi choisir <span className="text-[#FACC15]">Rénov&apos;Route</span> pour votre marquage au sol à Lyon ?
             </h2>
             <p className="text-slate-300 mb-12 max-w-3xl leading-relaxed font-medium">
               Nous ne sommes pas la plus grosse entreprise de marquage routier de Lyon, mais nous sommes celle que choisissent les plus grandes enseignes nationales pour leurs sites en Rhône-Alpes.

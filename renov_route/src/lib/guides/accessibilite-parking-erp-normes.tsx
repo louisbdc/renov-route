@@ -5,7 +5,7 @@ import Link from 'next/link'
 export const meta: Guide = {
   slug: 'accessibilite-parking-erp-normes',
   title: 'Accessibilité parking ERP : normes PMR et obligations en 2026',
-  metaTitle: 'Accessibilité parking ERP : normes PMR et obligations 2026',
+  metaTitle: "Accessibilité parking ERP : normes PMR 2026",
   metaDescription: 'Accessibilité parking ERP : nombre de places PMR, dimensions, signalisation, pente maximale et sanctions. Normes 2026 et mise en conformité. Guide complet.',
   publishDate: '2026-03-04',
   updatedDate: '2026-08-08',
@@ -19,15 +19,15 @@ export default function Content() {
     <>
       <KeyAnswer question="Quelles sont les obligations d'accessibilité d'un parking d'ERP ?">
         <p>
-          <strong>2 % des places</strong> doivent être adaptées, arrondi à l'unité supérieure, avec un minimum d'une place. Chaque place respecte une <strong>pente de 2 % maximum</strong> et un <strong>dévers de 1 % maximum</strong>, et doit être reliée à l'entrée par un cheminement sans ressaut supérieur à 2 cm (arrêté du 20 avril 2017).
+          Dans un <strong>parking d&apos;ERP</strong>, au moins <strong>2 % des places</strong> doivent être adaptées, arrondi à l&apos;unité supérieure. Chaque place mesure au moins <strong>3,30 × 5 m</strong>, reste horizontale au dévers près (<strong>2 % maximum</strong>) et rejoint l&apos;entrée par un cheminement accessible, sans ressaut de plus de 2 cm (arrêté du 20 avril 2017).
         </p>
       </KeyAnswer>
 
       <p>
-        Votre parking dessert un commerce, un cabinet m&eacute;dical, un restaurant ou un immeuble de bureaux recevant du public ? L&apos;accessibilit&eacute; aux personnes &agrave; mobilit&eacute; r&eacute;duite (PMR) n&apos;est pas optionnelle. C&apos;est une obligation l&eacute;gale depuis la loi du 11 f&eacute;vrier 2005, renforc&eacute;e par l&apos;arr&ecirc;t&eacute; du 20 avril 2017. Les sanctions vont jusqu&apos;&agrave; 45 000 euros d&apos;amende et la fermeture administrative.
+        Votre parking dessert un commerce, un cabinet m&eacute;dical, un restaurant ou un immeuble de bureaux recevant du public ? L&apos;accessibilit&eacute; aux personnes &agrave; mobilit&eacute; r&eacute;duite (PMR) n&apos;est pas optionnelle. C&apos;est une obligation l&eacute;gale depuis la loi du 11 f&eacute;vrier 2005, précisée pour les ERP neufs par l&apos;<a href="https://www.legifrance.gouv.fr/loda/id/JORFTEXT000034485459/" target="_blank" rel="noopener noreferrer">arrêté du 20 avril 2017</a>. Les sanctions vont jusqu&apos;&agrave; 45 000 euros d&apos;amende et la fermeture administrative.
       </p>
       <p>
-        Laurent, g&eacute;rant d&apos;un cabinet m&eacute;dical de 3 praticiens &agrave; Oullins (69), a re&ccedil;u la visite de la commission de s&eacute;curit&eacute; en septembre 2025. Le parking de 15 places ne comportait aucune place PMR. La commission a accord&eacute; un d&eacute;lai de 3 mois pour mise en conformit&eacute;. Co&ucirc;t des travaux : quelques milliers d&apos;euros (tra&ccedil;age d&apos;une place PMR avec surlargeur, pose d&apos;un panneau vertical, reprise de la pente du trottoir d&apos;acc&egrave;s). Sans cette mise en conformit&eacute;, le cabinet risquait une amende et une interdiction d&apos;accueil du public.
+        Prenons l&apos;exemple de Laurent, gérant d&apos;un cabinet médical de 3 praticiens à Oullins (69) : il a reçu la visite de la commission de s&eacute;curit&eacute; en septembre 2025. Le parking de 15 places ne comportait aucune place PMR. La commission a accord&eacute; un d&eacute;lai de 3 mois pour mise en conformit&eacute;. Co&ucirc;t des travaux : quelques milliers d&apos;euros (tra&ccedil;age d&apos;une place PMR avec surlargeur, pose d&apos;un panneau vertical, reprise de la pente du trottoir d&apos;acc&egrave;s). Sans cette mise en conformit&eacute;, le cabinet risquait une amende et une interdiction d&apos;accueil du public.
       </p>
       <p>
         Ce guide d&eacute;taille les normes d&apos;accessibilit&eacute; parking applicables aux ERP et les &eacute;tapes de mise en conformit&eacute;.
@@ -54,7 +54,7 @@ export default function Content() {
             <tr><td>101-150</td><td>3</td><td>2%</td></tr>
             <tr><td>151-200</td><td>4</td><td>2%</td></tr>
             <tr><td>201-500</td><td>2% du total</td><td>2%</td></tr>
-            <tr><td>500+</td><td>10 + 1 par tranche de 50 au-del&agrave; de 500</td><td>D&eacute;gressif</td></tr>
+            <tr><td>500+</td><td>Fixé par arrêté municipal, 10 minimum</td><td>-</td></tr>
           </tbody>
         </table>
       </div>
@@ -64,10 +64,10 @@ export default function Content() {
 
       <h3>Cas particuliers</h3>
       <ul>
-        <li><strong>ERP existant avec Ad&apos;AP</strong> (Agenda d&apos;Accessibilit&eacute; Programm&eacute;e) : les d&eacute;lais de mise en conformit&eacute; sont expir&eacute;s depuis 2024. Tous les ERP doivent &ecirc;tre conformes</li>
-        <li><strong>Parking en location</strong> : le propri&eacute;taire du parking est responsable de la mise en conformit&eacute;, pas le locataire de l&apos;ERP</li>
+        <li><strong>ERP existant avec Ad&apos;AP</strong> (Agenda d&apos;Accessibilité Programmée) : la mise en conformité suit le calendrier de l&apos;agenda approuvé</li>
+        <li><strong>Parking en location</strong> : la répartition de la mise en conformité entre propriétaire et exploitant dépend du bail</li>
         <li><strong>Parking partag&eacute;</strong> (plusieurs commerces) : le nombre de places PMR se calcule sur le total du parking, pas par commerce</li>
-        <li><strong>Parking temporaire</strong> (march&eacute;, &eacute;v&eacute;nement) : les places PMR sont obligatoires d&egrave;s la premi&egrave;re place</li>
+        
       </ul>
 
       <h2>Dimensions et am&eacute;nagement des places PMR</h2>
@@ -88,10 +88,10 @@ export default function Content() {
           <tbody>
             <tr><td>Largeur de la place</td><td>3,30 m minimum</td><td>Arr&ecirc;t&eacute; 20/04/2017</td></tr>
             <tr><td>Longueur de la place</td><td>5,00 m minimum</td><td>Arr&ecirc;t&eacute; 20/04/2017</td></tr>
-            <tr><td>Surlargeur lat&eacute;rale</td><td>0,80 m minimum (hachur&eacute;e)</td><td>Arr&ecirc;t&eacute; 20/04/2017</td></tr>
-            <tr><td>Pente de la place</td><td>2% maximum</td><td>Arr&ecirc;t&eacute; 20/04/2017</td></tr>
-            <tr><td>D&eacute;vers</td><td>1% maximum</td><td>Arr&ecirc;t&eacute; 20/04/2017</td></tr>
-            <tr><td>Hauteur libre (parking couvert)</td><td>2,15 m minimum</td><td>Arr&ecirc;t&eacute; 20/04/2017</td></tr>
+            <tr><td>Surlargeur lat&eacute;rale</td><td>0,80 m, incluse dans les 3,30 m (hachurée)</td><td>Pratique courante</td></tr>
+            <tr><td>Pente de la place</td><td>Horizontale au dévers près</td><td>Arr&ecirc;t&eacute; 20/04/2017</td></tr>
+            <tr><td>Dévers</td><td>2% maximum</td><td>Arr&ecirc;t&eacute; 20/04/2017</td></tr>
+            <tr><td>Passage libre sous obstacles (parking couvert)</td><td>2,00 m minimum</td><td>Arr&ecirc;t&eacute; 20/04/2017</td></tr>
           </tbody>
         </table>
       </div>
@@ -129,7 +129,7 @@ export default function Content() {
         <li><strong>Un panneau de d&eacute;signation</strong> &agrave; l&apos;entr&eacute;e du parking indiquant le nombre et la localisation des places PMR</li>
       </ul>
       <p>
-        Sophie, propri&eacute;taire d&apos;un restaurant avec terrasse &agrave; Tassin-la-Demi-Lune (69), avait trac&eacute; une place PMR au sol mais sans panneau vertical. Lors du contr&ocirc;le, la place a &eacute;t&eacute; jug&eacute;e non conforme. La pose du panneau a repr&eacute;sent&eacute; un co&ucirc;t modeste (panneau + poteau + scellement). Le marquage au sol, lui, &eacute;tait conforme.
+        Prenons l&apos;exemple de Sophie, propriétaire d&apos;un restaurant avec terrasse à Tassin-la-Demi-Lune (69) : elle avait tracé une place PMR au sol mais sans panneau vertical. Lors du contr&ocirc;le, la place a &eacute;t&eacute; jug&eacute;e non conforme. La pose du panneau a repr&eacute;sent&eacute; un co&ucirc;t modeste (panneau + poteau + scellement). Le marquage au sol, lui, &eacute;tait conforme.
       </p>
 
       <h2>Cheminement accessible</h2>
@@ -138,9 +138,9 @@ export default function Content() {
       <p>Le cheminement entre la place PMR et l&apos;entr&eacute;e de l&apos;ERP doit respecter :</p>
       <ul>
         <li><strong>Largeur</strong> : 1,40 m minimum (1,20 m en r&eacute;tr&eacute;cissement ponctuel)</li>
-        <li><strong>Pente</strong> : 5% maximum (avec palier de repos tous les 10 m si pente &gt; 4%)</li>
+        <li><strong>Pente</strong> : 5% maximum (avec palier de repos tous les 10 m si pente ≥ 4 %)</li>
         <li><strong>D&eacute;vers</strong> : 2% maximum</li>
-        <li><strong>Ressaut</strong> : 2 cm maximum (chanfrein&eacute;), 4 cm avec un ressaut &agrave; bords arrondis</li>
+        <li><strong>Ressaut</strong> : 2 cm maximum (arrondi ou chanfreiné), 4 cm si la pente du chanfrein ne dépasse pas 33 %</li>
         <li><strong>Rev&ecirc;tement</strong> : non meuble, non glissant, sans obstacle au sol</li>
         <li><strong>Contraste</strong> : le cheminement doit &ecirc;tre visuellement rep&eacute;rable (bande de guidage ou contraste de couleur)</li>
       </ul>
@@ -172,7 +172,7 @@ export default function Content() {
         <li><strong>Mise en demeure</strong> par le pr&eacute;fet avec d&eacute;lai de mise en conformit&eacute;</li>
         <li><strong>Fermeture administrative</strong> de l&apos;ERP si non-conformit&eacute; persistante</li>
         <li><strong>Amende</strong> : jusqu&apos;&agrave; 45 000 euros (personne physique) ou 225 000 euros (personne morale)</li>
-        <li><strong>Refus de permis de construire</strong> pour tout projet de r&eacute;novation sans mise en conformit&eacute;</li>
+        
       </ul>
 
       <h3>Sanctions civiles</h3>
@@ -209,7 +209,7 @@ export default function Content() {
 
       <h3>Quelles sont les normes d&apos;accessibilité pour les ERP ?</h3>
       <p>
-        Pour un parking d&apos;ERP, l&apos;arrêté du 20 avril 2017 impose au moins <strong>2 % de places PMR</strong> (minimum 2 jusqu&apos;à 50 places), des dimensions de <strong>3,30 m × 5 m</strong>, une pente ≤ 2 %, un cheminement accessible jusqu&apos;à l&apos;entrée et une signalisation au sol + verticale. Les sanctions atteignent 45 000 € (225 000 € pour une personne morale).
+        Pour un parking d&apos;ERP, l&apos;arrêté du 20 avril 2017 impose au moins <strong>2 % de places PMR</strong> (arrondi à l&apos;unité supérieure), des dimensions de <strong>3,30 m × 5 m</strong>, un dévers ≤ 2 %, un cheminement accessible jusqu&apos;à l&apos;entrée et une signalisation au sol + verticale. Les sanctions atteignent 45 000 € (225 000 € pour une personne morale).
       </p>
 
       <h3>Quelles règles pour un ERP de catégorie 5 ?</h3>
@@ -229,7 +229,7 @@ export default function Content() {
 
       <h3>Que faire si la pente de mon parking d&eacute;passe 2% ?</h3>
       <p>
-        La pente de la place PMR elle-m&ecirc;me doit &ecirc;tre inf&eacute;rieure &agrave; 2%. Si le parking est en pente, la place PMR doit &ecirc;tre implant&eacute;e dans la zone la plus plate. Si aucune zone ne permet une pente &lt; 2%, des travaux de nivellement sont n&eacute;cessaires.
+        La pente de la place PMR elle-m&ecirc;me doit rester horizontale, au dévers près de 2 %. Si le parking est en pente, la place PMR doit &ecirc;tre implant&eacute;e dans la zone la plus plate. Si aucune zone ne permet de respecter ce dévers, des travaux de nivellement sont n&eacute;cessaires.
       </p>
 
       <h2>La conformit&eacute; prot&egrave;ge votre activit&eacute;</h2>

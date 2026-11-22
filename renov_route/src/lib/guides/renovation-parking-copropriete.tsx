@@ -1,11 +1,12 @@
 import type { Guide } from '../guides'
+import KeyAnswer from '@/components/KeyAnswer'
 import Link from 'next/link'
 
 export const meta: Guide = {
   slug: 'renovation-parking-copropriete',
   title: 'Marquage au sol parking copropriété : rénovation, vote AG et coûts 2026',
   metaTitle: 'Marquage au sol parking copropriété : guide complet 2026',
-  metaDescription: "Marquage au sol et rénovation parking copropriété : étapes, vote en AG, budget par poste, délais. Guide complet 2026 par Renov Route, expert depuis 2016.",
+  metaDescription: 'Marquage au sol et rénovation de parking en copropriété : étapes, vote en AG, budget par poste et délais. Guide complet 2026 par Rénov’Route.',
   publishDate: '2026-03-04',
   updatedDate: '2026-07-28',
   category: 'renovation-parking',
@@ -16,6 +17,12 @@ export const meta: Guide = {
 export default function Content() {
   return (
     <>
+      <KeyAnswer question="Comment rénover le marquage au sol d'un parking de copropriété ?">
+        <p>
+          Le <strong>marquage au sol d&apos;un parking de copropriété</strong> se rénove en trois temps : diagnostic, vote en assemblée générale, puis travaux. Une reprise courante se vote à la majorité de l&apos;article 24. Pour 20 à 50 places, une rénovation coûte 5 000 à 25 000 € ; le retraçage seul revient à 3 à 8 € par mètre linéaire.
+        </p>
+      </KeyAnswer>
+
       <p>
         <strong>Le marquage au sol d&apos;un parking de copropriété</strong> est l&apos;un des
         chantiers les plus fréquents et les plus structurants pour un syndic. Entre le diagnostic
@@ -41,7 +48,7 @@ export default function Content() {
       <h2>Étape 1 : Le diagnostic du parking</h2>
       <p>
         Avant toute décision, un diagnostic professionnel permet d&apos;évaluer l&apos;état du
-        revêtement, du marquage et des équipements. Ce bilan identifié les travaux prioritaires
+        revêtement, du marquage et des équipements. Ce bilan identifie les travaux prioritaires
         et permet d&apos;établir un budget réaliste.
       </p>
       <p>
@@ -56,8 +63,8 @@ export default function Content() {
         l&apos;ampleur des travaux, la majorité requise varie :
       </p>
       <ul>
-        <li><strong>Majorité simple (article 24)</strong> : entretien courant, reprise du marquage au sol</li>
-        <li><strong>Majorité absolue (article 25)</strong> : travaux d&apos;amélioration, mise aux normes PMR</li>
+        <li><strong>Majorité simple (<a href="https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000047299294" target="_blank" rel="noopener noreferrer">article 24</a>)</strong> : entretien courant, reprise du marquage au sol, travaux d&apos;accessibilité PMR sans atteinte à la structure</li>
+        <li><strong>Majorité absolue (article 25)</strong> : travaux d&apos;amélioration</li>
         <li><strong>Double majorité (article 26)</strong> : transformation importante du parking</li>
       </ul>
       <p>
@@ -87,6 +94,27 @@ export default function Content() {
         Le retraçage seul du marquage représente généralement entre 3 € et 8 € par mètre linéaire.
         Les réparations de sol et la mise aux normes PMR constituent souvent les postes les plus
         importants.
+      </p>
+
+      <h2>Questions fréquentes</h2>
+      <h3>Quelle majorité pour refaire le marquage d&apos;un parking de copropriété ?</h3>
+      <p>
+        Une reprise courante du marquage au sol se vote à la majorité simple de l&apos;article 24 de la loi du 10 juillet 1965. Des travaux d&apos;amélioration relèvent de l&apos;article 25 et une transformation importante du parking de la double majorité de l&apos;article 26.
+      </p>
+
+      <h3>Quelle majorité pour la mise aux normes PMR d&apos;un parking de copropriété ?</h3>
+      <p>
+        Les travaux d&apos;accessibilité aux personnes handicapées ou à mobilité réduite se votent à la majorité de l&apos;article 24 de la loi du 10 juillet 1965, à condition de ne toucher ni à la structure de l&apos;immeuble ni à ses équipements essentiels.
+      </p>
+
+      <h3>Combien coûte la rénovation d&apos;un parking de copropriété ?</h3>
+      <p>
+        Pour un parking de 20 à 50 places, comptez entre 5 000 € et 25 000 € selon les prestations retenues. Le retraçage seul du marquage représente généralement 3 à 8 € par mètre linéaire ; les réparations de sol et la mise aux normes PMR pèsent souvent le plus.
+      </p>
+
+      <h3>Quels travaux comprend la rénovation d&apos;un parking de copropriété ?</h3>
+      <p>
+        Les travaux courants sont la réparation des nids de poule et fissures, le retraçage du marquage au sol, la signalisation verticale, la mise en conformité des places PMR et la pose d&apos;accessoires comme les butées de roues, potelets et miroirs.
       </p>
 
       <h2>Obtenez un devis pour votre parking</h2>

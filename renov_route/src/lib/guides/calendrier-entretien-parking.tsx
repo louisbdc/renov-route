@@ -1,12 +1,13 @@
 import type { Guide } from '../guides'
+import KeyAnswer from '@/components/KeyAnswer'
 import Link from 'next/link'
 
 export const meta: Guide = {
   slug: 'calendrier-entretien-parking',
   title: 'Calendrier d\'entretien de parking : le planning annuel pour ne rien oublier',
-  metaTitle: 'Calendrier entretien parking : planning annuel | Rénov\'Route',
+  metaTitle: "Calendrier entretien parking : planning annuel",
   metaDescription:
-    'Calendrier entretien parking mois par mois : inspections, retraçage, réparations, nettoyage. Anticipez les travaux et optimisez votre budget. Devis gratuit.',
+    'Calendrier entretien parking mois par mois : inspections, retraçage, réparations, nettoyage. Anticipez les travaux et optimisez votre budget.',
   publishDate: '2026-03-04',
   updatedDate: '2026-04-02',
   category: 'renovation-parking',
@@ -18,6 +19,12 @@ export const meta: Guide = {
 export default function Content() {
   return (
     <>
+      <KeyAnswer question="Quel calendrier d'entretien pour un parking ?">
+        <p>
+          Un <strong>calendrier d&apos;entretien de parking</strong> prévoit deux inspections complètes par an, en <strong>mars et septembre</strong>, puis les réparations et le retraçage en avril-mai, quand il fait entre 10 et 25 °C. Le marquage se retrace tous les 2 à 5 ans. Pour 200 places, comptez à partir de 4 500 € par an.
+        </p>
+      </KeyAnswer>
+
       <p>
         Combien de gestionnaires de parkings attendent qu'un client se torde la
         cheville dans un nid de poule pour lancer les travaux de réparation ?
@@ -81,8 +88,7 @@ export default function Content() {
       </div>
 
       <p>
-        Laurent, directeur technique d'un groupe de 8 supermarchés dans le
-        Rhône, a basculé d'une approche réactive à un calendrier d'entretien
+        Prenons l&apos;exemple de Laurent, directeur technique d&apos;un groupe de 8 supermarchés dans le Rhône : il a basculé d'une approche réactive à un calendrier d'entretien
         parking annuel en 2022. Résultat sur trois ans : le budget maintenance a
         baissé de 35 %, les interventions d'urgence ont été divisées par quatre,
         et aucune réclamation client liée à l'état du parking n'a été
@@ -160,8 +166,8 @@ export default function Content() {
         les fissures, le sel a attaqué le revêtement, et le trafic hivernal a
         usé le marquage. Pour les dégâts spécifiques de cette saison, consultez
         nos{' '}
-        <Link href="/guides/nids-de-poule-hiver-2026-solutions">
-          solutions nids de poule hiver 2026
+        <Link href="/guides/enrobe-froid-vs-resine-nids-de-poule">
+          solutions de réparation des nids de poule
         </Link>
         .
       </p>
@@ -260,8 +266,7 @@ export default function Content() {
       </p>
 
       <p>
-        Claire, syndic d'une copropriété de 150 lots à Villeurbanne, avait
-        l'habitude de lancer ses demandes de devis en juin. Résultat : des
+        Prenons l&apos;exemple de Claire, syndic d&apos;une copropriété de 150 lots à Villeurbanne : elle avait l&apos;habitude de lancer ses demandes de devis en juin. Résultat : des
         délais d'intervention de 4 à 6 semaines et des prix majorés en pleine
         saison. En 2025, elle a envoyé ses demandes dès début mars. Elle a
         obtenu un créneau en avril, un prix standard et un retraçage réalisé
@@ -287,11 +292,11 @@ export default function Content() {
           Vérifier l'alignement des tracés et la conformité des pictogrammes
         </li>
         <li>
-          Tester la rétroréflexion de nuit (test visuel aux phares, seuil{' '}
+          Tester la rétroréflexion de nuit (test visuel aux phares, valeur de référence{' '}
           <Link href="/guides/norme-nf-en-1436-marquage-routier">
             NF EN 1436
           </Link>{' '}
-          de 100 mcd/lx/m²)
+          : 100 mcd/lx/m²)
         </li>
         <li>
           Signaler les éventuels défauts au prestataire (dans le délai de
@@ -352,8 +357,7 @@ export default function Content() {
       </ul>
 
       <p>
-        <strong>Attention :</strong> septembre est aussi la période des audits
-        de conformité pour les ERP. Le{' '}
+        <strong>Attention :</strong> avant l&apos;hiver, profitez-en pour vérifier la conformité de votre ERP. Le{' '}
         <a
           href="https://www.legifrance.gouv.fr/"
           target="_blank"
@@ -424,7 +428,7 @@ export default function Content() {
                   Retraçage complet
                 </Link>{' '}
                 (selon la{' '}
-                <Link href="/guides/duree-vie-marquage-au-sol">
+                <Link href="/guides/duree-vie-marquage-sol-parking">
                   durée de vie du marquage
                 </Link>
                 )

@@ -60,7 +60,7 @@ export default function Header() {
           <div className="bg-[#FACC15] p-1.5 rounded-sm shadow-[3px_3px_0_rgba(15,23,42,0.25)] transition-transform group-hover:-rotate-2">
             <Image
               src="/assets/logos/logo.avif"
-              alt="Rénov Route - Expert marquage au sol et réparation route Lyon"
+              alt="Rénov'Route - Expert marquage au sol et réparation route Lyon"
               width={28}
               height={28}
               priority

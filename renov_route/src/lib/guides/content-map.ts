@@ -22,15 +22,12 @@ import DosDaneParkingReglementationPose from './dos-dane-parking-reglementation-
 import RevetementSolIndustrielTypesPrix from './revetement-sol-industriel-types-prix'
 import PanneauLimitationVitesseParking from './panneau-limitation-vitesse-parking'
 import OmbrierePvParking2026 from './ombriere-photovoltaique-parking-2026'
-import NouvellesNormesSignaletique2026 from './nouvelles-normes-signaletique-parking-2026'
-import NidsDePoulesHiver2026 from './nids-de-poule-hiver-2026-solutions'
 import SolEpoxyEntrepotAvantagesPose from './sol-epoxy-entrepot-avantages-pose'
 import SignalisationParkingCopropriete from './signalisation-parking-copropriete'
 import ReparationChausseeParking from './reparation-chaussee-parking-methodes-prix'
 import NormeNfEn1436 from './norme-nf-en-1436-marquage-routier'
 import CalendrierEntretienParking from './calendrier-entretien-parking'
 import BumperSupermarcheProtectionFrigo from './bumper-supermarche-protection-frigo'
-import SignalisationHorizontaleLyonMarquage from './signalisation-horizontale-lyon-marquage'
 import MarquageSolSupermarcheGrandeSurface from './marquage-sol-supermarche-grande-surface'
 import ReparerNidDePouleSoiMeme from './reparer-nid-de-poule-soi-meme'
 import DureeVieMarquageSolParking from './duree-vie-marquage-sol-parking'
@@ -78,15 +75,12 @@ const CONTENT_MAP: Record<string, ComponentType> = {
   'revetement-sol-industriel-types-prix': RevetementSolIndustrielTypesPrix,
   'panneau-limitation-vitesse-parking': PanneauLimitationVitesseParking,
   'ombriere-photovoltaique-parking-2026': OmbrierePvParking2026,
-  'nouvelles-normes-signaletique-parking-2026': NouvellesNormesSignaletique2026,
-  'nids-de-poule-hiver-2026-solutions': NidsDePoulesHiver2026,
   'sol-epoxy-entrepot-avantages-pose': SolEpoxyEntrepotAvantagesPose,
   'signalisation-parking-copropriete': SignalisationParkingCopropriete,
   'reparation-chaussee-parking-methodes-prix': ReparationChausseeParking,
   'norme-nf-en-1436-marquage-routier': NormeNfEn1436,
   'calendrier-entretien-parking': CalendrierEntretienParking,
   'bumper-supermarche-protection-frigo': BumperSupermarcheProtectionFrigo,
-  'signalisation-horizontale-lyon-marquage': SignalisationHorizontaleLyonMarquage,
   'marquage-sol-supermarche-grande-surface': MarquageSolSupermarcheGrandeSurface,
   'reparer-nid-de-poule-soi-meme': ReparerNidDePouleSoiMeme,
   'duree-vie-marquage-sol-parking': DureeVieMarquageSolParking,

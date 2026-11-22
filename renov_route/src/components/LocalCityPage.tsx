@@ -38,15 +38,15 @@ const SERVICES = [
 
 function buildIntro(city: City): string {
   if (city.distanceFromTassin === 0) {
-    return `Renov Route est implanté à ${city.name} depuis 2016 — c'est notre commune historique. Une équipe qui connaît parfaitement le terrain local, mobilisable rapidement avec un devis transparent.`
+    return `Rénov'Route est implanté à ${city.name} depuis 2016 — c'est notre commune historique. Une équipe qui connaît parfaitement le terrain local, mobilisable rapidement avec un devis transparent.`
   }
   if (city.isArrondissement) {
-    return `Spécialiste du marquage au sol à ${city.name}, Renov Route intervient sur tous les parkings, voiries et copropriétés de l'arrondissement. À ${city.distanceFromTassin} km de notre siège de Tassin-la-Demi-Lune, nos équipes sont sur place dans la journée.`
+    return `Spécialiste du marquage au sol à ${city.name}, Rénov'Route intervient sur tous les parkings, voiries et copropriétés de l'arrondissement. À ${city.distanceFromTassin} km de notre siège de Tassin-la-Demi-Lune, nos équipes sont sur place dans la journée.`
   }
   if (city.isRhoneAlpes) {
-    return `Renov Route accompagne les gestionnaires de parkings et collectivités à ${city.name} (${city.postalCode}) depuis 2016. À ${city.distanceFromTassin} km de Lyon, nous intervenons régulièrement en ${city.department.name} avec le même niveau de qualité que sur l'agglomération lyonnaise.`
+    return `Rénov'Route accompagne les gestionnaires de parkings et collectivités à ${city.name} (${city.postalCode}) depuis 2016. À ${city.distanceFromTassin} km de Lyon, nous intervenons régulièrement en ${city.department.name} avec le même niveau de qualité que sur l'agglomération lyonnaise.`
   }
-  return `Entreprise de marquage au sol à ${city.name}, Renov Route intervient sur l'ensemble des parkings, voiries et zones d'activités de la commune (${city.postalCode}). À ${city.distanceFromTassin} km de notre siège de Tassin-la-Demi-Lune, nos équipes sont sur place rapidement avec un devis transparent.`
+  return `Entreprise de marquage au sol à ${city.name}, Rénov'Route intervient sur l'ensemble des parkings, voiries et zones d'activités de la commune (${city.postalCode}). À ${city.distanceFromTassin} km de notre siège de Tassin-la-Demi-Lune, nos équipes sont sur place rapidement avec un devis transparent.`
 }
 
 function buildSecondParagraph(city: City): string {
@@ -66,7 +66,7 @@ export default function LocalCityPage({ city }: LocalCityPageProps) {
     '@context': 'https://schema.org',
     '@type': 'HomeAndConstructionBusiness',
     '@id': `https://renov-route.com/marquage-au-sol-${city.slug}/#business`,
-    name: `Renov Route — Marquage au sol ${city.name}`,
+    name: `Rénov'Route — Marquage au sol ${city.name}`,
     description: `Entreprise de marquage au sol et signalisation horizontale intervenant à ${city.name} (${city.postalCode}). Parking, voirie, industriel, PMR. Devis gratuit en 48h.`,
     url: `https://renov-route.com/marquage-au-sol-${city.slug}/`,
     telephone: '+33786819692',
@@ -156,7 +156,7 @@ export default function LocalCityPage({ city }: LocalCityPageProps) {
             <div className="mt-12 flex flex-wrap gap-x-12 gap-y-4 text-[11px] font-black uppercase tracking-[0.2em] text-slate-400">
               <span className="flex items-center gap-2"><TbAward size={16} className="text-[#FACC15]" /> Depuis 2016</span>
               <span className="flex items-center gap-2"><TbCertificate size={16} className="text-[#FACC15]" /> 1 000+ chantiers</span>
-              <span className="flex items-center gap-2"><TbShield size={16} className="text-[#FACC15]" /> Certif NF EN 1436</span>
+              <span className="flex items-center gap-2"><TbShield size={16} className="text-[#FACC15]" /> Peintures certifiées NF EN 1436</span>
               <span className="flex items-center gap-2"><TbClock size={16} className="text-[#FACC15]" /> Devis 48h</span>
             </div>
           </div>

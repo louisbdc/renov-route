@@ -295,7 +295,7 @@ export const caseStudiesData: CaseStudy[] = [
   {
     id: "lidl-normes-pmr-resine",
     slug: "lidl-normes-pmr-resine",
-    title: "Renov Résine - Mise aux Normes PMR Lidl Rhône-Alpes",
+    title: "Résine - Mise aux Normes PMR Lidl Rhône-Alpes",
     client: "Lidl Rhône-Alpes",
     industry: "Supermarché",
     year: 2019,

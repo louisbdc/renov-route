@@ -1,11 +1,12 @@
 import type { Guide } from '../guides'
+import KeyAnswer from '@/components/KeyAnswer'
 import Link from 'next/link'
 
 export const meta: Guide = {
   slug: 'ralentisseur-parking-norme',
   title: 'Ralentisseur parking : normes, types et règles d\'installation',
   metaTitle: 'Ralentisseur parking : normes et installation',
-  metaDescription: 'Normes, dimensions et types de ralentisseurs pour parking privé. Dos d\'âne, coussins berlinois, bandes sonores : guide complet pour sécuriser votre parking.',
+  metaDescription: 'Normes, dimensions et types de ralentisseurs pour parking privé. Dos d\'âne, coussins berlinois, bandes sonores : guide pour sécuriser votre parking.',
   publishDate: '2026-03-04',
   updatedDate: '2026-07-28',
   category: 'securite-parking',
@@ -16,11 +17,17 @@ export const meta: Guide = {
 export default function Content() {
   return (
     <>
+      <KeyAnswer question="Quelle est la norme d'un ralentisseur de parking ?">
+        <p>
+          Sur une voie ouverte à la circulation publique, un <strong>ralentisseur de parking</strong> de type dos d&apos;âne ou trapézoïdal relève du <a href="https://www.legifrance.gouv.fr/loda/id/LEGITEXT000005615924/" target="_blank" rel="noopener noreferrer">décret n° 94-447</a> et de la norme NF P 98-300, avec une hauteur de 10 cm. Dans un parking strictement privé, ces règles restent une référence recommandée. Comptez dès 550 € pour un modèle modulaire posé.
+        </p>
+      </KeyAnswer>
+
       <p>
         Un véhicule qui roule à 30 km/h dans un parking met 13 mètres à s&apos;arrêter. À 15 km/h, il s&apos;arrête en 4 mètres. Cette différence de 9 mètres, c&apos;est la distance entre un freinage maîtrisé et un accident.
       </p>
       <p>
-        François, gestionnaire d&apos;un parking de 120 places pour une clinique à Oullins (69), a appris cette leçon à ses dépens. En mars 2024, un véhicule roulant trop vite a percuté une borne et blessé un piéton dans le parking. L&apos;enquête a révélé l&apos;absence de tout dispositif de ralentissement. La responsabilité du gestionnaire a été retenue. Depuis, François a fait installer trois ralentisseurs conformes. L&apos;investissement total a représenté quelques milliers d&apos;euros. Le coût de l&apos;accident, lui, depassait largement les 25 000 euros en frais médicaux, juridiques et réparations.
+        Prenons l&apos;exemple d&apos;un gestionnaire de parking de clinique de 120 places. Un véhicule roulant trop vite a percuté une borne et blessé un piéton dans le parking. L&apos;enquête a révélé l&apos;absence de tout dispositif de ralentissement. La responsabilité du gestionnaire a été retenue. Depuis, il a fait installer trois ralentisseurs conformes. L&apos;investissement total a représenté quelques milliers d&apos;euros. Le coût de l&apos;accident, lui, depassait largement les 25 000 euros en frais médicaux, juridiques et réparations.
       </p>
       <p>
         Installer un ralentisseur dans un parking n&apos;est pas qu&apos;une question de sécurité. C&apos;est aussi une question de conformité : dimensions, signalisation, implantation, chaque détail est encadré par des normes précises.
@@ -34,9 +41,9 @@ export default function Content() {
         Les ralentisseurs sont régis par plusieurs textes qui définissent où, comment et dans quelles conditions les installer.
       </p>
 
-      <h3>Le décret 94-447 du 27 mai 1994</h3>
+      <h3>Le <a href="https://www.legifrance.gouv.fr/loda/id/LEGITEXT000005615924/" target="_blank" rel="noopener noreferrer">décret 94-447 du 27 mai 1994</a></h3>
       <p>
-        C&apos;est le texte fondateur. Ce décret fixe les conditions d&apos;installation des ralentisseurs sur les voies publiques et privées ouvertes à la circulation publique. Il distingue deux types de ralentisseurs autorisés : le dos d&apos;âne et le plateau surélevé (dit « ralentisseur trapézoïdal »).
+        C&apos;est le texte fondateur. Ce décret fixe les caractéristiques et les conditions de réalisation des ralentisseurs de type dos d&apos;âne ou trapézoïdal. Le plateau surélevé, ou plateau traversant, n&apos;est pas assimilé à un ralentisseur trapézoïdal par la jurisprudence administrative.
       </p>
       <p>
         Les dimensions sont strictement encadrées :
@@ -53,7 +60,7 @@ export default function Content() {
 
       <h3>Et les parkings privés ?</h3>
       <p>
-        Le décret 94-447 vise les voies publiques. Pour un parking privé non ouvert à la circulation publique, les obligations sont moins strictes. Le gestionnaire reste libre du choix du dispositif, mais sa responsabilité civile est engagée en cas d&apos;accident. Respecter les normes, même sans obligation légale, constitue la meilleure protection juridique.
+        Le décret 94-447 vise les voies ouvertes à la circulation publique. Pour un parking privé non ouvert à la circulation publique, les obligations sont moins strictes. Le gestionnaire reste libre du choix du dispositif, mais sa responsabilité civile est engagée en cas d&apos;accident. Respecter les normes, même sans obligation légale, constitue la meilleure protection juridique.
       </p>
       <p>
         <strong>Besoin d&apos;un diagnostic sécurité pour votre parking ?</strong> Nos experts évaluent vos besoins et vous recommandent les dispositifs adaptés.{' '}
@@ -65,7 +72,7 @@ export default function Content() {
         Tous les ralentisseurs ne se valent pas. Le choix dépend du type de parking, du trafic et du résultat recherché.
       </p>
 
-      <h3>Le dos d&apos;âne (type A)</h3>
+      <h3>Le dos d&apos;âne</h3>
       <p>
         Le plus courant. C&apos;est une bosse arrondie de 4 mètres de long et 10 centimètres de haut, installée sur toute la largeur de la chaussée.
       </p>
@@ -85,7 +92,7 @@ export default function Content() {
         <strong>Usage recommandé :</strong> parkings de copropriété, parkings de surface avec faible trafic, zones piétonnes.
       </p>
 
-      <h3>Le plateau surélevé (type B)</h3>
+      <h3>Le plateau surélevé</h3>
       <p>
         Un plateau horizontal surélevé de 10 centimètres, encadré par deux rampes en pente douce. Souvent utilisé pour matérialiser un passage piéton surélevé.
       </p>
@@ -162,7 +169,7 @@ export default function Content() {
         <strong>Usage recommandé :</strong> parkings privés, parkings temporaires, chantiers, zones où la configuration peut évoluer.
       </p>
       <p>
-        Carole, directrice d&apos;un centre de formation à Écully (69), a opté pour des ralentisseurs modulaires en caoutchouc devant l&apos;entrée de son parking de 40 places. Installation en une demi-journée, sans perturber les cours. Deux ans plus tard, les modules sont toujours en place et efficaces. L&apos;investissement pour les trois éléments, pose comprise, est reste très raisonnable.
+        Prenons l&apos;exemple d&apos;une directrice de centre de formation, qui a opté pour des ralentisseurs modulaires en caoutchouc devant l&apos;entrée de son parking de 40 places. Installation en une demi-journée, sans perturber les cours. Deux ans plus tard, les modules sont toujours en place et efficaces. L&apos;investissement pour les trois éléments, pose comprise, est resté très raisonnable.
       </p>
 
       <h2>Tableau comparatif des ralentisseurs</h2>
@@ -180,7 +187,7 @@ export default function Content() {
           </thead>
           <tbody>
             <tr>
-              <td>Dos d&apos;âne (type A)</td>
+              <td>Dos d&apos;âne</td>
               <td>10 cm</td>
               <td>Toute la voie</td>
               <td>à partir de 1 400 euros</td>
@@ -188,7 +195,7 @@ export default function Content() {
               <td>Oui</td>
             </tr>
             <tr>
-              <td>Plateau surélevé (type B)</td>
+              <td>Plateau surélevé</td>
               <td>10 cm</td>
               <td>Toute la voie</td>
               <td>à partir de 3 500 euros</td>
@@ -291,7 +298,7 @@ export default function Content() {
         Un ralentisseur modulaire décollé, un plateau surélevé fissuré ou un marquage effacé ne remplissent plus leur fonction et deviennent des pièges. Prévoyez une inspection annuelle et un entretien préventif.
       </p>
       <p>
-        Julien, responsable maintenance d&apos;un parking de centre commercial à Villeurbanne (69), a découvert lors d&apos;une inspection que deux de ses ralentisseurs modulaires s&apos;étaient partiellement décollés après trois hivers. Les éléments déplacés créaient des arêtes vives dangereuses pour les piétons. Nous sommes intervenus pour réancrer les modules et remplacer les fixations corrodées. Le coût de la remise en état est reste modeste, bien en deca du risque juridique encouru.
+        Prenons l&apos;exemple d&apos;un responsable maintenance de centre commercial, qui a découvert lors d&apos;une inspection que deux de ses ralentisseurs modulaires s&apos;étaient partiellement décollés après trois hivers. Les éléments déplacés créaient des arêtes vives dangereuses pour les piétons. Il a fallu réancrer les modules et remplacer les fixations corrodées. Le coût de la remise en état est resté modeste, bien en deçà du risque juridique encouru.
       </p>
 
       <h2>Ralentisseur et traçage de parking : une approche globale</h2>
@@ -315,12 +322,12 @@ export default function Content() {
 
       <h3>Quelle est la hauteur maximale d&apos;un ralentisseur de parking ?</h3>
       <p>
-        10 centimètres, selon le décret 94-447 et la norme NF P 98-300. Cette hauteur s&apos;applique aux dos d&apos;âne (type A) et aux plateaux surélevés (type B). Les ralentisseurs modulaires en caoutchouc ont généralement une hauteur de 5 à 7 centimètres.
+        10 centimètres pour les ralentisseurs de type dos d&apos;âne ou trapézoïdal, selon le décret 94-447 et la norme NF P 98-300. Les ralentisseurs modulaires en caoutchouc ont généralement une hauteur de 5 à 7 centimètres.
       </p>
 
       <h3>Peut-on installer un ralentisseur dans un parking privé ?</h3>
       <p>
-        Oui. Le décret 94-447 concerne les voies publiques, mais rien n&apos;interdit d&apos;installer un ralentisseur dans un parking privé. Il est recommandé de respecter les normes en vigueur pour limiter la responsabilité du gestionnaire en cas d&apos;accident.
+        Oui. Le décret 94-447 concerne les voies ouvertes à la circulation publique, mais rien n&apos;interdit d&apos;installer un ralentisseur dans un parking privé. Il est recommandé de respecter les normes en vigueur pour limiter la responsabilité du gestionnaire en cas d&apos;accident.
       </p>
 
       <h3>Quel est le prix d&apos;un ralentisseur de parking ?</h3>

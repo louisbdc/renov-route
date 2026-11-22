@@ -1,11 +1,12 @@
 import type { Guide } from '../guides'
+import KeyAnswer from '@/components/KeyAnswer'
 import Link from 'next/link'
 
 export const meta: Guide = {
   slug: 'revetement-sol-industriel-types-prix',
   title: 'Revêtement sol industriel : types, prix au m2 et guide de pose',
-  metaTitle: 'Revêtement sol industriel: types, prix et pose',
-  metaDescription: 'Résine époxy, polyuréthane, methacrylate : comparatif des revêtements de sol industriel avec prix au m2, résistance et conditions d\'application en entrepôt.',
+  metaTitle: 'Revêtement sol industriel : types, prix et pose',
+  metaDescription: "Résine époxy, polyuréthane, méthacrylate : comparatif des revêtements de sol industriel avec prix au m², résistance et conditions d'application.",
   publishDate: '2026-03-04',
   updatedDate: '2026-07-28',
   category: 'renovation-parking',
@@ -16,14 +17,20 @@ export const meta: Guide = {
 export default function Content() {
   return (
     <>
+      <KeyAnswer question="Quel revêtement de sol industriel choisir ?">
+        <p>
+          Le <strong>revêtement sol industriel</strong> le plus courant est la résine époxy, à partir de 35 €/m² posée, pour 10 à 25 ans de tenue sur un support bien préparé. Une peinture de sol dure 3 à 6 ans. Le méthacrylate limite l&apos;immobilisation à 4 à 6 heures par zone, contre 48 à 72 heures pour l&apos;époxy.
+        </p>
+      </KeyAnswer>
+
       <p>
         Un sol industriel sans revêtement, c&apos;est un sol qui travaille contre vous. Poussière de béton dans l&apos;air, taches de produits chimiques impossibles à nettoyer, glissance en zone humide, fissures qui s&apos;élargissent sous le passage des chariots. Le coût de la non-protection dépasse celui du revêtement en moins de 3 ans.
       </p>
       <p>
-        Stephane, directeur d&apos;un entrepôt logistique de 2 800 m2 à Saint-Priest (69), a fait appliquer une résine époxy autolissante sur l&apos;intégralité de son sol en 2022. Avant les travaux, il remplacait 200 m2 de dalle béton fissurée chaque année, un poste de dépense considerable. Depuis l&apos;application de la résine, zéro réparation en 3 ans. L&apos;entrepôt a aussi gagne en luminosite (sol clair qui reflechit la lumière) et en sécurité (marquage des zones de circulation intégré dans la résine). Retour sur investissement : 18 mois.
+        Prenons l&apos;exemple d&apos;un directeur d&apos;entrepôt logistique de 2 800 m², qui a fait appliquer une résine époxy autolissante sur l&apos;intégralité de son sol. Avant les travaux, il remplaçait 200 m2 de dalle béton fissurée chaque année, un poste de dépense considérable. Depuis l&apos;application de la résine, zéro réparation en 3 ans. L&apos;entrepôt a aussi gagné en luminosité (sol clair qui réfléchit la lumière) et en sécurité (marquage des zones de circulation intégré dans la résine). Retour sur investissement : 18 mois.
       </p>
       <p>
-        Résine époxy, polyuréthane, méthacrylate, peinture technique : chaque revêtement répond à des contraintes spécifiques. Ce guide compare les solutions, détaille les prix au m2 et explique les conditions d&apos;une application reussie en milieu industriel.
+        Résine époxy, polyuréthane, méthacrylate, peinture technique : chaque revêtement répond à des contraintes spécifiques. Ce guide compare les solutions, détaille les prix au m2 et explique les conditions d&apos;une application réussie en milieu industriel.
       </p>
 
       <h2>Les types de revêtement pour sol industriel</h2>
@@ -232,7 +239,7 @@ export default function Content() {
         </table>
       </div>
       <p>
-        Isabelle, responsable d&apos;un atelier de mécanique de précision à Meyzieu (69), hésitait entre une peinture de sol et une résine époxy pour ses 350 m2. Elle a choisi la peinture, moins chère à l&apos;achat. Après 2 ans, la peinture s&apos;ecaillait dans les zones de passage des chariots et sous les établis ou des copeaux métalliques tombaient au sol. Elle a fait appliquer la résine époxy par-dessus (après ponçage complet). Coût total sur 3 ans : bien plus que si elle avait choisi la résine des le départ. L&apos;économie initiale lui a coûté plusieurs milliers d&apos;euros supplémentaires.
+        Prenons l&apos;exemple d&apos;une responsable d&apos;atelier de mécanique de précision, qui hésitait entre une peinture de sol et une résine époxy pour ses 350 m2. Elle a choisi la peinture, moins chère à l&apos;achat. Après 2 ans, la peinture s&apos;écaillait dans les zones de passage des chariots et sous les établis où des copeaux métalliques tombaient au sol. Elle a fait appliquer la résine époxy par-dessus (après ponçage complet). Coût total sur 3 ans : bien plus que si elle avait choisi la résine dès le départ. L&apos;économie initiale lui a coûté plusieurs milliers d&apos;euros supplémentaires.
       </p>
 
       <h2>Préparation du support : la clé de la durée de vie</h2>
@@ -244,7 +251,7 @@ export default function Content() {
       <p>Avant toute application, le sol béton doit être évalué :</p>
       <ul>
         <li><strong>Âge du béton</strong> : un béton de moins de 28 jours n&apos;est pas sec (humidité trop élevée)</li>
-        <li><strong>Taux d&apos;humidité</strong> : inférieur à 4% (test à la bombe carbure ou à l&apos;hygrometre)</li>
+        <li><strong>Taux d&apos;humidité</strong> : inférieur à 4% (test à la bombe carbure ou à l&apos;hygromètre)</li>
         <li><strong>Résistance à l&apos;arrachement</strong> : test de pastillage pour vérifier la cohésion du béton (minimum 1,5 MPa)</li>
         <li><strong>Contamination</strong> : présence d&apos;huile, de graisse ou de produits chimiques dans les pores du béton</li>
       </ul>
@@ -345,7 +352,7 @@ export default function Content() {
 
       <h3>Combien coûte un revêtement de sol industriel au m2 ?</h3>
       <p>
-        Le budget varie selon le type de revêtement et la préparation du support. La résine époxy standard, la plus courante, demarre à partir de 35 euros/m2 pose incluse. La préparation du sol (grenaillage, réparation) représente un poste supplémentaire significatif sur un sol en mauvais état.
+        Le budget varie selon le type de revêtement et la préparation du support. La résine époxy standard, la plus courante, démarre à partir de 35 euros/m2 pose incluse. La préparation du sol (grenaillage, réparation) représente un poste supplémentaire significatif sur un sol en mauvais état.
       </p>
 
       <h3>Quelle est la durée de vie d&apos;un sol en résine industrielle ?</h3>
@@ -355,7 +362,7 @@ export default function Content() {
 
       <h3>Peut-on appliquer une résine sur un sol existant en mauvais état ?</h3>
       <p>
-        Oui, après préparation. Le sol doit être réparé (fissures, éclats, nids de poule), grenaille et ponce. Si le béton est trop dégradé (perte de cohésion, humidité permanente), un ragréage complet peut être nécessaire avant l&apos;application de la résine.
+        Oui, après préparation. Le sol doit être réparé (fissures, éclats, nids de poule), grenaillé et poncé. Si le béton est trop dégradé (perte de cohésion, humidité permanente), un ragréage complet peut être nécessaire avant l&apos;application de la résine.
       </p>
 
       <h3>Faut-il fermer le site pendant l&apos;application ?</h3>
@@ -365,7 +372,7 @@ export default function Content() {
 
       <h3>La résine époxy résiste-t-elle aux produits chimiques ?</h3>
       <p>
-        L&apos;époxy standard résiste aux huiles, graisses, carburants et à la plupart des produits d&apos;entretien. Pour une résistance aux acides forts, aux solvants aromatiques ou aux produits chimiques concentres, une formulation novolaque ou vinylester est nécessaire (surcoût de 20 à 40%).
+        L&apos;époxy standard résiste aux huiles, graisses, carburants et à la plupart des produits d&apos;entretien. Pour une résistance aux acides forts, aux solvants aromatiques ou aux produits chimiques concentrés, une formulation novolaque ou vinylester est nécessaire (surcoût de 20 à 40%).
       </p>
 
       <h2>Investir dans le sol, c&apos;est investir dans la productivité</h2>

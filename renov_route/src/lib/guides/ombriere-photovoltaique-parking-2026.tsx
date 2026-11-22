@@ -1,11 +1,12 @@
 import type { Guide } from '../guides'
+import KeyAnswer from '@/components/KeyAnswer'
 import Link from 'next/link'
 
 export const meta: Guide = {
   slug: 'ombriere-photovoltaique-parking-2026',
   title: 'Ombrière photovoltaïque parking : obligations 2026 et préparation du sol',
-  metaTitle: 'Ombrière parking 2026 : obligations et préparation | Rénov\'Route',
-  metaDescription: 'Obligation ombrière photovoltaïque parking juillet 2026. Découvrez les seuils, les étapes de mise en conformité et la préparation du sol avant installation.',
+  metaTitle: 'Ombrière parking : obligations, échéances et sol',
+  metaDescription: "Ombrière parking : 50 % de la surface dès 1 500 m², échéances 2026 et 2028, sanction jusqu'à 40 000 € par an et préparation du sol avant la pose.",
   publishDate: '2026-03-04',
   updatedDate: '2026-07-28',
   category: 'renovation-parking',
@@ -16,11 +17,14 @@ export const meta: Guide = {
 export default function Content() {
   return (
     <>
+      <KeyAnswer question="Quelle est l'obligation d'ombrière pour un parking ?">
+        <p>
+          Une <strong>ombrière parking</strong> doit couvrir au moins la moitié de la surface des parkings extérieurs de plus de 1 500 m², selon l&apos;<a href="https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000048250403/" target="_blank" rel="noopener noreferrer">article 40 de la loi APER</a>. Échéance : 1er juillet 2026 dès 10 000 m², 1er juillet 2028 en dessous, sauf délai ou exemption. La sanction annuelle atteint 20 000 à 40 000 €.
+        </p>
+      </KeyAnswer>
+
       <p>
-        Le 1er juillet 2026, les parkings de plus de 10 000 m² devront être équipés
-        d&apos;ombrières photovoltaïques couvrant au moins la moitié de leur surface. Un gestionnaire
-        de centre commercial de la région lyonnaise nous confiait récemment : « On a les devis pour
-        les panneaux solaires, mais personne ne nous a parlé de l&apos;état du sol en dessous. »
+        Depuis le 1er juillet 2026, les parkings extérieurs de 10 000 m² et plus doivent être équipés d&apos;ombrières couvrant au moins la moitié de leur surface, sauf délai ou exemption. Les devis portent souvent sur les panneaux solaires, rarement sur l&apos;état du sol en dessous.
       </p>
       <p>
         C&apos;est un angle mort fréquent. Avant de poser des structures métalliques de plusieurs
@@ -37,8 +41,7 @@ export default function Content() {
 
       <h2>Qui est concerné par l&apos;obligation d&apos;ombrières en 2026 ?</h2>
       <p>
-        L&apos;obligation vient de la <strong>loi APER</strong> (loi d&apos;accélération de la
-        production d&apos;énergies renouvelables), complétée par la <strong>loi Huwart</strong>.
+        L&apos;obligation vient de l&apos;<a href="https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000048250403/" target="_blank" rel="noopener noreferrer">article 40 de la <strong>loi APER</strong></a> (loi d&apos;accélération de la production d&apos;énergies renouvelables), modifié par la <strong>loi Huwart</strong> du 26 novembre 2025.
         Elle impose l&apos;installation d&apos;ombrières sur les parcs de stationnement
         existants de plus de 1 500 m².
       </p>
@@ -122,11 +125,7 @@ export default function Content() {
       </ul>
 
       <p>
-        Jean-Marc, responsable technique d&apos;un Intermarché de 400 places près de
-        Saint-Étienne, a fait rénover son parking en février 2026, avant la pose des
-        ombrières prévue en avril. « On a fait d&apos;une pierre deux coups : retraçage
-        complet, 3 nids de poule rebouchés, 2 places PMR ajoutées. Le tout en 4 jours.
-        Maintenant on est tranquilles pour 5 ans. »
+        Prenons l&apos;exemple d&apos;un supermarché de 400 places qui fait rénover son parking avant la pose des ombrières : retraçage complet, 3 nids de poule rebouchés et 2 places PMR ajoutées, en un seul chantier de 4 jours.
       </p>
 
       <h2>Les travaux de sol à réaliser avant les ombrières</h2>
@@ -152,7 +151,7 @@ export default function Content() {
         <li>Retracer l&apos;ensemble des places de stationnement</li>
         <li>Mettre à jour les flèches directionnelles et la signalisation de circulation</li>
         <li>Vérifier la conformité des <Link href="/guides/dimensions-nombre-places-pmr-parking">places PMR</Link> (3,30 m x 5 m minimum)</li>
-        <li>Ajouter le marquage des <strong>places de recharge électrique</strong> (obligatoire pour les parkings de plus de 20 places)</li>
+        <li>Ajouter le marquage des <strong>places de recharge électrique</strong> (pour les bâtiments non résidentiels de plus de 20 places, un point de recharge est obligatoire)</li>
         <li>Intégrer le marquage vert (RAL 6018) pour les places réservées aux véhicules propres en zone ZFE</li>
       </ul>
 
@@ -176,19 +175,13 @@ export default function Content() {
 
       <h3>4. Signalisation verticale</h3>
       <p>
-        L&apos;arrêté du 4 septembre 2026 impose de{' '}
-        <Link href="/guides/nouvelles-normes-signaletique-parking-2026">nouvelles normes de
-        signalétique</Link> dans les parkings : panneaux dynamiques LED, contours jaunes
-        renforcés, signalisation directionnelle interne. La pose des ombrières nécessite
-        souvent de déplacer ou de remplacer les panneaux existants. Consultez notre guide
-        dédié pour connaître toutes les{' '}
+        La pose des ombrières nécessite souvent de déplacer ou de remplacer les panneaux existants. Profitez du chantier pour vérifier leur visibilité et leur emplacement. Consultez notre page dédiée pour connaître les{' '}
         <Link href="/competences/signalisation-verticale">obligations de signalisation verticale</Link>.
       </p>
 
       <h3>5. Bornes de recharge électrique</h3>
       <p>
-        Depuis janvier 2025, les parkings de plus de 20 places doivent disposer de bornes
-        de recharge. L&apos;installation des ombrières photovoltaïques est idéale pour
+        Depuis le 1er janvier 2025, les <a href="https://entreprendre.service-public.gouv.fr/vosdroits/F38491" target="_blank" rel="noopener noreferrer">bâtiments non résidentiels de plus de 20 places</a> doivent disposer d&apos;au moins un point de recharge, puis d&apos;un point par tranche de 20 emplacements supplémentaires. L&apos;installation des ombrières photovoltaïques est idéale pour
         alimenter ces bornes en énergie verte. Le marquage au sol des places de recharge
         doit respecter des normes spécifiques de signalisation.
       </p>
@@ -247,22 +240,16 @@ export default function Content() {
 
       <h2>Quelles sont les sanctions en cas de non-conformité ?</h2>
       <p>
-        Le non-respect de l&apos;obligation d&apos;ombrières exposé à des sanctions financières.
-        L&apos;article L. 171-4 du Code de la construction prévoit une amende proportionnelle
-        à la surface du parking et au retard de mise en conformité.
+        Le non-respect de l&apos;obligation d&apos;ombrières expose à des sanctions financières.
+        L&apos;<a href="https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000048250403/" target="_blank" rel="noopener noreferrer">article 40 de la loi APER</a> prévoit une sanction pécuniaire annuelle, jusqu&apos;à mise en conformité, d&apos;au plus 20 000 € sous 10 000 m² et 40 000 € à partir de 10 000 m².
       </p>
       <p>
         Au-delà des ombrières, les autres non-conformités cumulables incluent :
       </p>
       <ul>
         <li>Places PMR non conformes : jusqu&apos;à <strong>45 000 €</strong></li>
-        <li>Signalisation absente ou obsolète : mise en demeure + astreinte</li>
-        <li>Bornes de recharge manquantes : sanctions administratives</li>
       </ul>
-      <p>
-        Un parking de 10 000 m² non conforme sur plusieurs points peut cumuler plus de
-        100 000 € de sanctions. La rénovation préventive coûte bien moins cher.
-      </p>
+      <p> La rénovation préventive permet de traiter ces points en un seul chantier. </p>
 
       <h2>Les dérogations possibles</h2>
       <p>
@@ -274,12 +261,10 @@ export default function Content() {
           d&apos;aéroport (servitudes aéronautiques), monuments historiques
         </li>
         <li>
-          <strong>Contraintes économiques :</strong> si le coût de l&apos;installation dépasse
-          un seuil défini par décret, une exemption partielle est possible
+          <strong>Contraintes économiques :</strong> une exemption est possible lorsque le coût des travaux est jugé excessif selon les critères fixés par décret
         </li>
         <li>
-          <strong>Ombrage existant :</strong> les zones déjà couvertes par des arbres ou des
-          structures existantes sont comptabilisées
+          <strong>Ombrage existant :</strong> un parking déjà ombragé par des arbres sur au moins la moitié de sa surface peut être exempté
         </li>
       </ul>
       <p>
@@ -289,8 +274,7 @@ export default function Content() {
 
       <h2>Le calendrier idéal de préparation</h2>
       <p>
-        Pour un parking devant être équipé d&apos;ombrières avant le 1er juillet 2026, voici
-        le planning recommandé :
+        Voici un exemple de planning sur quatre mois, à décaler selon votre échéance (1er juillet 2026 ou 1er juillet 2028) :
       </p>
 
       <table>
@@ -303,27 +287,27 @@ export default function Content() {
         </thead>
         <tbody>
           <tr>
-            <td>Mars 2026</td>
+            <td>Mois 1</td>
             <td>Diagnostic de l&apos;état du sol et audit de conformité</td>
             <td>Entreprise de marquage (ex : Rénov&apos;Route)</td>
           </tr>
           <tr>
-            <td>Mars-Avril 2026</td>
+            <td>Mois 1-2</td>
             <td>Travaux de réparation et retraçage</td>
             <td>Entreprise de marquage</td>
           </tr>
           <tr>
-            <td>Avril-Mai 2026</td>
+            <td>Mois 2-3</td>
             <td>Installation des fondations des ombrières</td>
             <td>Installateur solaire</td>
           </tr>
           <tr>
-            <td>Mai-Juin 2026</td>
+            <td>Mois 3-4</td>
             <td>Pose des panneaux photovoltaïques</td>
             <td>Installateur solaire</td>
           </tr>
           <tr>
-            <td>Juin 2026</td>
+            <td>Mois 4</td>
             <td>Retouches finales de marquage + signalisation</td>
             <td>Entreprise de marquage</td>
           </tr>
@@ -350,7 +334,7 @@ export default function Content() {
         Un <Link href="/competences/conseil-expertise">spécialiste du marquage au sol</Link> apporte :
       </p>
       <ul>
-        <li>La connaissance des normes (NF EN 1436, PMR, IISR, arrêté 2026)</li>
+        <li>La connaissance des normes (NF EN 1436, PMR, IISR)</li>
         <li>Des matériaux certifiés et adaptés (peintures acryliques, résines époxy)</li>
         <li>La capacité d&apos;intervenir rapidement (2 à 5 jours pour un parking de 10 000 m²)</li>
         <li>La coordination avec l&apos;installateur solaire pour éviter les conflits de planning</li>
@@ -394,14 +378,12 @@ export default function Content() {
       <h3>Quel lien entre ombrières et bornes de recharge ?</h3>
       <p>
         Les ombrières photovoltaïques produisent de l&apos;énergie renouvelable qui peut
-        alimenter directement les bornes de recharge. Depuis janvier 2025, les parkings de
-        plus de 20 places doivent proposer au moins une borne. Le marquage au sol des places
+        alimenter directement les bornes de recharge. Depuis le 1er janvier 2025, les bâtiments non résidentiels de plus de 20 places doivent proposer au moins un point de recharge. Le marquage au sol des places
         de recharge suit des règles spécifiques de signalisation.
       </p>
 
       <p>
-        <strong>Votre parking doit s&apos;équiper d&apos;ombrières avant juillet 2026 ?</strong>{' '}
-        Préparez le sol maintenant pour éviter les surcoûts.{' '}
+        <strong>Votre parking doit s&apos;équiper d&apos;ombrières ?</strong>{' '} Préparez le sol avant la pose pour éviter les surcoûts.{' '}
         <Link href="/devis">Demandez un diagnostic gratuit</Link> et un devis en 48h.
         Appelez le <strong>07 86 81 96 92</strong> ou remplissez notre formulaire en ligne.
       </p>

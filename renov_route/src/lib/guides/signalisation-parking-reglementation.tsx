@@ -1,11 +1,12 @@
 import type { Guide } from '../guides'
+import KeyAnswer from '@/components/KeyAnswer'
 import Link from 'next/link'
 
 export const meta: Guide = {
   slug: 'signalisation-parking-reglementation',
   title: 'Signalisation parking : panneaux obligatoires, normes et réglementation',
-  metaTitle: 'Signalisation parking: panneaux et normes obligatoires',
-  metaDescription: 'Panneaux obligatoires, marquage au sol, normes PMR: guide complet de la signalisation en parking privé. Réglementation, erreurs et conseils d\'installation.',
+  metaTitle: 'Signalisation parking : panneaux et normes obligatoires',
+  metaDescription: "Panneaux obligatoires, marquage au sol, normes PMR : guide de la signalisation en parking privé. Réglementation, erreurs et conseils d'installation.",
   publishDate: '2026-03-04',
   updatedDate: '2026-08-06',
   category: 'securite-parking',
@@ -16,11 +17,17 @@ export const meta: Guide = {
 export default function Content() {
   return (
     <>
+      <KeyAnswer question="Quelle signalisation est obligatoire dans un parking ?">
+        <p>
+          La <strong>signalisation parking</strong> suit l&apos;arrêté du 24 novembre 1967 et l&apos;IISR dès que le parking est ouvert à la circulation publique. Un parking strictement privé n&apos;a pas d&apos;obligation générale, mais la responsabilité civile de son propriétaire peut être engagée. Les places PMR exigent un marquage au sol et un panneau. Comptez à partir de 200 € par panneau posé.
+        </p>
+      </KeyAnswer>
+
       <p>
         Un parking sans signalisation, c&apos;est un parking où chaque croisement devient une négociation silencieuse entre conducteurs. Priorité à droite ? Sens unique ? Zone piétons ? Sans panneaux ni marquage, personne ne sait.
       </p>
       <p>
-        Laurent, responsable technique d&apos;une résidence de 180 logements à Villeurbanne (69), a découvert ce problème après trois accrochages en deux mois dans le parking souterrain de la copropriété. Les résidents se plaignaient depuis des mois : aucun panneau de sens de circulation, pas de limitation de vitesse, pas de signalisation des places PMR. L&apos;assurance a refusé de couvrir le troisième sinistre, arguant d&apos;un &quot;défaut d&apos;aménagement manifeste&quot;. Co&ucirc;t de la mise en conformit&eacute; : plusieurs milliers d&apos;euros. Co&ucirc;t des trois sinistres non couverts : bien plus de 10 000 euros de r&eacute;parations.
+        Prenons l&apos;exemple d&apos;un responsable technique d&apos;une résidence de 180 logements, qui a découvert ce problème après trois accrochages en deux mois dans le parking souterrain de la copropriété. Les résidents se plaignaient depuis des mois : aucun panneau de sens de circulation, pas de limitation de vitesse, pas de signalisation des places PMR. L&apos;assurance a refusé de couvrir le troisième sinistre, arguant d&apos;un &quot;défaut d&apos;aménagement manifeste&quot;. Co&ucirc;t de la mise en conformit&eacute; : plusieurs milliers d&apos;euros. Co&ucirc;t des trois sinistres non couverts : bien plus de 10 000 euros de r&eacute;parations.
       </p>
       <p>
         La signalisation de parking ne se résume pas à quelques panneaux posés au hasard. C&apos;est un système complet, panneaux verticaux et marquage au sol, encadré par des normes précises. Ce guide détaille les obligations, les types de panneaux, les règles d&apos;installation et les erreurs à éviter.
@@ -41,9 +48,9 @@ export default function Content() {
         Le Code de la route définit les règles de circulation applicables dans les parkings ouverts au public. Les panneaux utilisés dans un parking doivent être conformes aux modèles officiels définis par l&apos;arrêté du 24 novembre 1967.
       </p>
 
-      <h3>L&apos;arrêté du 15 janvier 2007 (accessibilité)</h3>
+      <h3>Les arrêtés d&apos;accessibilité des ERP</h3>
       <p>
-        Cet arrêté impose des obligations de signalisation spécifiques pour les places PMR (Personne à Mobilité Réduite) dans les ERP (Établissements Recevant du Public) : panneau vertical, marquage au sol, pictogramme fauteuil roulant.
+        L&apos;<a href="https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000034485459" target="_blank" rel="noopener noreferrer">arrêté du 20 avril 2017</a> (ERP neufs) et l&apos;<a href="https://www.legifrance.gouv.fr/loda/id/JORFTEXT000029893131" target="_blank" rel="noopener noreferrer">arrêté du 8 décembre 2014</a> (ERP existants) imposent de repérer chaque place PMR (Personne à Mobilité Réduite) par un marquage au sol et une signalisation verticale.
       </p>
 
       <h3>Cas des parkings privés</h3>
@@ -88,7 +95,7 @@ export default function Content() {
 
       <h3>Panneau place PMR (panneau B6d + panonceau M6h)</h3>
       <p>
-        Le panneau de stationnement réservé aux PMR est obligatoire dans les ERP. Il doit être visible depuis la voie de circulation et fixé à une hauteur comprise entre 1 et 2,20 mètres. Le nombre de places PMR est réglementé : consultez notre{' '}
+        Le panneau de stationnement réservé aux PMR est obligatoire dans les ERP. Il doit être visible depuis la voie de circulation. Le nombre de places PMR est réglementé : consultez notre{' '}
         <Link href="/guides/normes-pmr-parking">guide des normes PMR parking</Link> pour les détails.
       </p>
 
@@ -97,7 +104,7 @@ export default function Content() {
         Un panneau de sortie clair évite les manoeuvres dangereuses et les conducteurs perdus qui remontent une voie en sens inverse. Les flèches directionnelles (M3) complètent utilement la signalisation de sortie.
       </p>
       <p>
-        Carole, directrice d&apos;un hôtel 3 étoiles à Écully (69), a fait refaire toute la signalisation de son parking de 80 places après un audit de conformité en 2025. Le parking n&apos;avait que deux panneaux : un STOP rouillé et un sens interdit à moitié caché par un buisson. L&apos;installateur a posé 14 panneaux au total (3 limitations de vitesse, 2 STOP, 4 sens uniques, 2 PMR, 2 passages piétons, 1 sortie). Co&ucirc;t total : plusieurs milliers d&apos;euros, pose comprise. Depuis, plus un seul accrochage.
+        Prenons l&apos;exemple d&apos;une directrice d&apos;hôtel, qui a fait refaire toute la signalisation de son parking de 80 places après un audit de conformité. Le parking n&apos;avait que deux panneaux : un STOP rouillé et un sens interdit à moitié caché par un buisson. L&apos;installateur a posé 14 panneaux au total (3 limitations de vitesse, 2 STOP, 4 sens uniques, 2 PMR, 2 passages piétons, 1 sortie). Co&ucirc;t total : plusieurs milliers d&apos;euros, pose comprise. Depuis, plus un seul accrochage.
       </p>
 
       <h2>Le marquage au sol : complément indispensable</h2>
@@ -127,7 +134,7 @@ export default function Content() {
       </p>
       <p>
         Pour un{' '}
-        <Link href="/competences/tracage-retracage-parking">marquage au sol conforme</Link>, faites appel à un professionnel certifié.
+        <Link href="/competences/tracage-retracage-parking">marquage au sol conforme</Link>, faites appel à un professionnel qualifié.
       </p>
 
       <h2>Signalisation spécifique des parkings de copropriété</h2>
@@ -156,7 +163,7 @@ export default function Content() {
         L&apos;installation de signalisation dans un parking de copropriété doit être votée en assemblée générale. C&apos;est une décision qui relève de l&apos;article 24 de la loi du 10 juillet 1965 (majorité simple des copropriétaires présents ou représentés).
       </p>
       <p>
-        Thierry, président du conseil syndical d&apos;une copropriété de 95 lots à Saint-Priest (69), a fait voter un plan de signalisation complet pour le parking souterrain. Le devis présentait trois niveaux : signalisation minimale, standard et compl&egrave;te, avec des budgets croissants adapt&eacute;s &agrave; chaque niveau. L&apos;AG a voté le niveau standard : 6 panneaux de sens de circulation, 2 limitations de vitesse à 10 km/h, numérotation des places et 3 flèches directionnelles au sol. Les accrochages sont passés de 5 par an à zéro depuis l&apos;installation.
+        Prenons l&apos;exemple d&apos;un président de conseil syndical d&apos;une copropriété de 95 lots, qui a fait voter un plan de signalisation complet pour le parking souterrain. Le devis présentait trois niveaux : signalisation minimale, standard et compl&egrave;te, avec des budgets croissants adapt&eacute;s &agrave; chaque niveau. L&apos;AG a voté le niveau standard : 6 panneaux de sens de circulation, 2 limitations de vitesse à 10 km/h, numérotation des places et 3 flèches directionnelles au sol. Les accrochages sont passés de 5 par an à zéro depuis l&apos;installation.
       </p>
 
       <h2>Parking privé vs parking public : quelles obligations ?</h2>
@@ -183,7 +190,7 @@ export default function Content() {
 
       <h3>Parking de copropriété avec accès visiteurs</h3>
       <p>
-        Si le parking accueille des visiteurs (médecin en rez-de-chaussée, commerce, garderie), il est assimilé à un ERP. Les obligations de marquage PMR et de sécurité s&apos;appliquent.
+        Si le parking dessert un ERP (cabinet médical, commerce, garderie) et accueille son public, les règles d&apos;accessibilité PMR peuvent s&apos;appliquer. Faites vérifier la situation exacte.
       </p>
       <p>
         <strong>Un doute sur vos obligations ?</strong> Notre équipe réalise un{' '}
@@ -247,7 +254,7 @@ export default function Content() {
         <Link href="/guides/peinture-marquage-sol-parking">guide des peintures de marquage</Link>.
       </p>
       <p>
-        Marc, gestionnaire d&apos;un parking de 200 places pour un centre commercial à Vaulx-en-Velin (69), a commis l&apos;erreur d&apos;utiliser une peinture décorative au lieu d&apos;une peinture routière certifiée pour retracer son parking. Résultat : après 6 mois, le marquage était quasi invisible. Il a dû tout refaire avec une peinture thermoplastique certifiée NF EN 1436. Double coût, double perte de temps. La peinture certifiée, 30% plus chère à l&apos;achat, aurait duré 5 fois plus longtemps.
+        Prenons l&apos;exemple d&apos;un gestionnaire de parking de centre commercial de 200 places, qui a commis l&apos;erreur d&apos;utiliser une peinture décorative au lieu d&apos;une peinture routière certifiée pour retracer son parking. Résultat : après 6 mois, le marquage était quasi invisible. Il a dû tout refaire avec une peinture thermoplastique certifiée NF EN 1436. Double coût, double perte de temps. La peinture certifiée, 30% plus chère à l&apos;achat, aurait duré 5 fois plus longtemps.
       </p>
 
       <h2>Conséquences du non-respect</h2>
@@ -259,12 +266,12 @@ export default function Content() {
 
       <h3>Sanctions administratives</h3>
       <p>
-        Pour les ERP, la commission d&apos;accessibilité peut ordonner une mise en conformité sous astreinte. L&apos;amende peut atteindre 45 000 euros pour une personne morale. La fermeture administrative de l&apos;établissement est possible dans les cas les plus graves.
+        Pour les ERP, la commission d&apos;accessibilité peut ordonner une mise en conformité sous astreinte. L&apos;amende peut atteindre 45 000 euros, et 225 000 euros pour une personne morale. La fermeture administrative de l&apos;établissement est possible dans les cas les plus graves.
       </p>
 
       <h3>Conséquences assurantielles</h3>
       <p>
-        Les assurances peuvent refuser d&apos;indemniser un sinistre survenu dans un parking non conforme. L&apos;argument du &quot;défaut d&apos;aménagement&quot; permet à l&apos;assureur de réduire ou refuser la prise en charge.
+        Un assureur peut contester la prise en charge d&apos;un sinistre survenu dans un parking mal entretenu ou non conforme, selon les clauses du contrat.
       </p>
 
       <h2>Les 5 erreurs les plus fréquentes</h2>
@@ -276,7 +283,7 @@ export default function Content() {
 
       <h3>2. Hauteur d&apos;installation incorrecte</h3>
       <p>
-        Un panneau trop bas sera masqué par les véhicules. Un panneau trop haut ne sera pas vu. La hauteur réglementaire est de 2,30 mètres minimum sous le panneau en parking couvert, et 1 à 2,20 mètres pour les panneaux PMR.
+        Un panneau trop bas sera masqué par les véhicules. Un panneau trop haut ne sera pas vu. Vérifiez la hauteur de pose selon le type de panneau et la circulation des piétons.
       </p>
 
       <h3>3. Signalisation contradictoire</h3>
@@ -356,7 +363,7 @@ export default function Content() {
 
       <h3>Qui peut installer la signalisation d&apos;un parking ?</h3>
       <p>
-        L&apos;installation doit être réalisée par un professionnel qualifié pour garantir la conformité des panneaux (modèle, dimensions, rétroréflexion, hauteur). Un installateur qualifié fournit une attestation de conformité.
+        L&apos;installation doit être réalisée par un professionnel qualifié pour garantir la conformité des panneaux (modèle, dimensions, rétroréflexion, hauteur). Demandez à l&apos;installateur de préciser par écrit les modèles et références posés.
       </p>
 
       <h3>Faut-il un permis pour installer des panneaux dans un parking privé ?</h3>

@@ -1,11 +1,12 @@
 import type { Guide } from '../guides'
+import KeyAnswer from '@/components/KeyAnswer'
 import Link from 'next/link'
 
 export const meta: Guide = {
   slug: 'signalisation-pmr-parking',
   title: 'Signalisation PMR parking : panneaux, marquage au sol et pictogrammes',
-  metaTitle: 'Signalisation PMR parking : panneaux, marquage et normes',
-  metaDescription: 'Signalisation PMR parking : panneaux B6d, pictogramme fauteuil roulant, bandes podotactiles et marquage réglementaire. Guide complet avec dimensions et prix.',
+  metaTitle: 'Signalisation PMR parking : panneau B6d, marquage, normes',
+  metaDescription: 'Panneau B6d, pictogramme fauteuil roulant, bandes podotactiles : la signalisation PMR obligatoire d’un parking, avec dimensions, marquage et prix.',
   publishDate: '2026-03-04',
   updatedDate: '2026-08-06',
   category: 'normes-pmr',
@@ -16,11 +17,17 @@ export const meta: Guide = {
 export default function Content() {
   return (
     <>
+      <KeyAnswer question="Quelle signalisation PMR prévoir sur un parking ?">
+        <p>
+          La <strong>signalisation PMR d&apos;un parking</strong> associe un marquage au sol et une signalisation verticale sur chaque place adaptée, selon l&apos;<a href="https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000034485459" target="_blank" rel="noopener noreferrer">arrêté du 20 avril 2017</a> pour les ERP neufs. La place mesure au moins 3,30 × 5 m et représente 2 % des places publiques. L&apos;occupation indue d&apos;une place PMR est sanctionnée de 135 €.
+        </p>
+      </KeyAnswer>
+
       <p>
         Un panneau PMR planté au mauvais endroit. Un pictogramme au sol trop petit de 10 cm. Une bande podotactile absente devant l&apos;abaissement de trottoir. Trois détails. Trois non-conformités. Et potentiellement 45 000 euros d&apos;amende.
       </p>
       <p>
-        La signalisation PMR d&apos;un parking ne s&apos;improvise pas. Chaque élément, du panneau vertical au marquage au sol, répond à des spécifications techniques précises définies par l&apos;arrêté du 1er août 2006 et l&apos;arrêté du 20 avril 2017. La couleur, les dimensions, la position, la hauteur : tout est réglementé.
+        La signalisation PMR d&apos;un parking ne s&apos;improvise pas. Chaque élément, du panneau vertical au marquage au sol, répond à des spécifications techniques précises définies par l&apos;<a href="https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000034485459" target="_blank" rel="noopener noreferrer">arrêté du 20 avril 2017</a> pour les ERP neufs et l&apos;<a href="https://www.legifrance.gouv.fr/loda/id/JORFTEXT000029893131" target="_blank" rel="noopener noreferrer">arrêté du 8 décembre 2014</a> pour les ERP existants. La couleur, les dimensions, la position, la hauteur : tout est réglementé.
       </p>
       <p>
         Pourtant, sur le terrain, les erreurs sont fréquentes. Pictogrammes non conformes, panneaux à la mauvaise hauteur, absence de signalisation directionnelle vers les places PMR. Ces défauts, souvent commis par méconnaissance, exposent les gestionnaires à des sanctions et, surtout, pénalisent les personnes à mobilité réduite.
@@ -45,10 +52,10 @@ export default function Content() {
             </tr>
           </thead>
           <tbody>
-            <tr><td>Panneau B6d (place réservée)</td><td>Oui</td><td>Arrêté du 1er août 2006, art. 3</td></tr>
+            <tr><td>Panneau B6d (place réservée)</td><td>Oui</td><td>Arrêté du 20 avril 2017, art. 3</td></tr>
             <tr><td>Pictogramme fauteuil roulant au sol</td><td>Oui</td><td>Arrêté du 20 avril 2017</td></tr>
-            <tr><td>Lignes de délimitation de la place</td><td>Oui</td><td>Arrêté du 1er août 2006</td></tr>
-            <tr><td>Bande latérale de circulation (0,80 m)</td><td>Oui</td><td>Arrêté du 1er août 2006</td></tr>
+            <tr><td>Lignes de délimitation de la place</td><td>Oui</td><td>Arrêté du 20 avril 2017, art. 3</td></tr>
+            <tr><td>Largeur de place 3,30 m (bande de 0,80 m incluse)</td><td>Oui</td><td>Arrêté du 20 avril 2017, art. 3</td></tr>
             <tr><td>Panneau directionnel vers places PMR</td><td>Recommandé (obligatoire si places non visibles)</td><td>CERTU</td></tr>
             <tr><td>Bandes podotactiles</td><td>Oui (aux abaissements de trottoir)</td><td>Arrêté du 15 janvier 2007</td></tr>
             <tr><td>Panneau de rappel des sanctions</td><td>Recommandé</td><td>Non obligatoire</td></tr>
@@ -78,7 +85,7 @@ export default function Content() {
 
       <blockquote>
         <p>
-          Fabien, responsable technique d&apos;un hôtel 3 étoiles à Villeurbanne, avait fait poser deux panneaux PMR par un artisan local. Lors d&apos;un contrôle de la commission d&apos;accessibilité, l&apos;inspecteur a noté que les panneaux étaient fixés à 1,80 m du sol, soit 50 cm trop bas. À cette hauteur, ils constituent un obstacle pour les personnes malvoyantes qui utilisent une canne. L&apos;hôtel a dû faire déposer et reposer les deux panneaux à la bonne hauteur. Co&ucirc;t de l&apos;erreur : plusieurs centaines d&apos;euros de main-d&apos;&oelig;uvre suppl&eacute;mentaire, alors que la pose correcte n&apos;aurait rien co&ucirc;t&eacute; de plus.
+          Prenons l&apos;exemple d&apos;un responsable technique d&apos;hôtel, qui avait fait poser deux panneaux PMR par un artisan local. Lors d&apos;un contrôle de la commission d&apos;accessibilité, l&apos;inspecteur a noté que les panneaux étaient fixés à 1,80 m du sol, donc trop bas. À cette hauteur, ils constituent un obstacle pour les personnes malvoyantes qui utilisent une canne. L&apos;hôtel a dû faire déposer et reposer les deux panneaux à la bonne hauteur. Co&ucirc;t de l&apos;erreur : plusieurs centaines d&apos;euros de main-d&apos;&oelig;uvre suppl&eacute;mentaire, alors que la pose correcte n&apos;aurait rien co&ucirc;t&eacute; de plus.
         </p>
       </blockquote>
 
@@ -171,7 +178,7 @@ export default function Content() {
 
       <blockquote>
         <p>
-          Quand Sophie, directrice d&apos;une clinique vétérinaire à Écully, a fait retracer son parking de 25 places, elle a demandé à l&apos;entreprise de marquer aussi le cheminement PMR. L&apos;équipe a tracé les 2 places PMR avec pictogrammes, les passages piétons et les flèches directionnelles menant à l&apos;entrée. Lors du contrôle d&apos;accessibilité trois mois plus tard, la commission a souligné la qualité de la signalisation. Co&ucirc;t du marquage PMR complet (2 places + cheminement) : quelques centaines d&apos;euros. Un investissement qui a évité tout problème de conformité.
+          Prenons l&apos;exemple d&apos;une clinique vétérinaire de 25 places : lors du retraçage, la directrice a demandé à l&apos;entreprise de marquer aussi le cheminement PMR. L&apos;équipe a tracé les 2 places PMR avec pictogrammes, les passages piétons et les flèches directionnelles menant à l&apos;entrée. Lors du contrôle d&apos;accessibilité trois mois plus tard, la commission a souligné la qualité de la signalisation. Co&ucirc;t du marquage PMR complet (2 places + cheminement) : quelques centaines d&apos;euros. Un investissement qui a évité tout problème de conformité.
         </p>
       </blockquote>
 
@@ -264,7 +271,7 @@ export default function Content() {
 
       <ul>
         <li>
-          <strong>Bord inférieur du panneau</strong> : minimum 2,20 m
+          <strong>Bord inférieur du panneau</strong> : minimum 2,30 m
           au-dessus du sol (passage libre sous le panneau)
         </li>
         <li>
@@ -326,8 +333,7 @@ export default function Content() {
       </ul>
 
       <p>
-        Marc, responsable technique d&apos;un supermarché à
-        Villeurbanne (69), a fait poser 6 panneaux PMR en bordure de ses places
+        Prenons l&apos;exemple d&apos;un responsable technique de supermarché, qui a fait poser 6 panneaux PMR en bordure de ses places
         réservées. Le prestataire les avait placés au fond
         des places, contre le mur. Résultat : invisibles depuis la voie
         de circulation. Les conducteurs PMR passaient devant sans les voir et se
@@ -463,7 +469,7 @@ export default function Content() {
 
       <blockquote>
         <p>
-          Martine, syndic d&apos;une copropriété de 45 logements à Oullins, devait mettre en conformité 2 places PMR existantes et en créer une troisième. Le devis détaillait : retra&ccedil;age des 2 places existantes avec pictogrammes neufs, cr&eacute;ation de la 3e place avec tra&ccedil;age, pictogramme, panneau B6d et bande podotactile. Total : moins d&apos;un millier d&apos;euros pour 3 places conformes. Le vote en AG est pass&eacute; sans opposition, les copropri&eacute;taires ayant compris que ce budget modeste valait mieux que 45 000 euros d&apos;amende. Pour le détail du processus en copropriété, consultez notre guide sur la <Link href="/guides/renovation-parking-copropriete">rénovation parking copropriété</Link>.
+          Prenons l&apos;exemple d&apos;un syndic d&apos;une copropriété de 45 logements, qui devait mettre en conformité 2 places PMR existantes et en créer une troisième. Le devis détaillait : retra&ccedil;age des 2 places existantes avec pictogrammes neufs, cr&eacute;ation de la 3e place avec tra&ccedil;age, pictogramme, panneau B6d et bande podotactile. Total : moins d&apos;un millier d&apos;euros pour 3 places conformes. Le vote en AG est pass&eacute; sans opposition, les copropri&eacute;taires ayant compris que ce budget modeste valait mieux que 45 000 euros d&apos;amende. Pour le détail du processus en copropriété, consultez notre guide sur la <Link href="/guides/renovation-parking-copropriete">rénovation parking copropriété</Link>.
         </p>
       </blockquote>
 

@@ -80,11 +80,6 @@ export default function StructuredData({ type }: StructuredDataProps) {
       "Mise en conformité PMR",
       "Enrobé à froid"
     ],
-    "hasCredential": {
-      "@type": "EducationalOccupationalCredential",
-      "credentialCategory": "certification",
-      "name": "Certification NF EN 1436 — Signalisation horizontale"
-    },
     "openingHoursSpecification": [
       {
         "@type": "OpeningHoursSpecification",

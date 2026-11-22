@@ -1,4 +1,5 @@
 import type { Guide } from '../guides'
+import KeyAnswer from '@/components/KeyAnswer'
 import Link from 'next/link'
 
 export const meta: Guide = {
@@ -47,11 +48,17 @@ export const meta: Guide = {
 export default function Content() {
   return (
     <>
+      <KeyAnswer question="Peut-on réparer un nid de poule soi-même ?">
+        <p>
+          <strong>Réparer un nid de poule soi-même</strong> est possible pour un trou de moins de 30 cm, sur un parking privé à faible trafic, avec de l&apos;enrobé à froid à environ 25 € le sac de 25 kg. Elle reste temporaire. En zone passante, en copropriété ou en ERP, préférez une résine ou un enrobé à chaud posés par un professionnel.
+        </p>
+      </KeyAnswer>
+
       <p>
         Un nid de poule de 30 cm de diam&egrave;tre dans votre parking, une fissure qui s&apos;&eacute;largit &agrave; chaque passage de v&eacute;hicule : la tentation est forte de sortir un sac d&apos;enrob&eacute; &agrave; froid de la grande surface de bricolage et de reboucher &ccedil;a vite fait un samedi matin. 25 euros le sac de 25 kg, une heure de travail : &ccedil;a semble simple.
       </p>
       <p>
-        Franck, propri&eacute;taire d&apos;un petit parking de 12 places &agrave; Lyon 7e, a rebouch&eacute; 3 nids de poule lui-m&ecirc;me en avril 2024 avec de l&apos;enrob&eacute; &agrave; froid en sac. Co&ucirc;t : 75 euros de mat&eacute;riaux + 3 heures de travail. En octobre, les 3 r&eacute;parations avaient c&eacute;d&eacute;. Les nids de poule avaient doubl&eacute; de taille. Le professionnel appel&eacute; en urgence a factur&eacute; 650 euros pour r&eacute;parer les 3 zones &agrave; la r&eacute;sine polyur&eacute;thane. Bilan : 725 euros au total et 6 mois de parking d&eacute;grad&eacute; au lieu de 650 euros et une r&eacute;paration durable d&egrave;s le d&eacute;part.
+        Prenons l&apos;exemple du propriétaire d&apos;un petit parking de 12 places, qui a rebouché 3 nids de poule lui-même avec de l&apos;enrob&eacute; &agrave; froid en sac. Co&ucirc;t : 75 euros de mat&eacute;riaux + 3 heures de travail. Six mois plus tard, les 3 réparations avaient c&eacute;d&eacute;. Les nids de poule avaient doubl&eacute; de taille. Le professionnel appel&eacute; en urgence a factur&eacute; 650 euros pour r&eacute;parer les 3 zones &agrave; la r&eacute;sine polyur&eacute;thane. Bilan : 725 euros au total et 6 mois de parking d&eacute;grad&eacute; au lieu de 650 euros et une r&eacute;paration durable d&egrave;s le d&eacute;part.
       </p>
       <p>
         Ce guide explique quand la r&eacute;paration DIY peut fonctionner, quand elle est contre-productive et comment faire si vous d&eacute;cidez de la tenter.
@@ -180,7 +187,7 @@ export default function Content() {
       <ul>
         <li><strong>Un pi&eacute;ton tr&eacute;buche</strong> sur une r&eacute;paration qui s&apos;est affaiss&eacute;e : responsabilit&eacute; civile du propri&eacute;taire</li>
         <li><strong>Un v&eacute;hicule est endommag&eacute;</strong> par un nid de poule mal rebouch&eacute; : idem</li>
-        <li><strong>L&apos;assurance refuse de couvrir</strong> si la r&eacute;paration n&apos;a pas &eacute;t&eacute; faite par un professionnel qualifi&eacute;</li>
+        <li><strong>L&apos;assurance peut contester la prise en charge</strong> si la réparation n&apos;a pas été faite dans les règles de l&apos;art</li>
       </ul>
       <p>
         Pour en savoir plus, consultez notre guide sur la <Link href="/guides/nid-de-poule-responsabilite-parking">responsabilit&eacute; en cas de nid de poule en parking</Link>.
@@ -201,6 +208,11 @@ export default function Content() {
       <h3>Faut-il un permis ou une autorisation pour r&eacute;parer un nid de poule ?</h3>
       <p>
         Non, si le parking est priv&eacute;. Sur la voie publique, seules les collectivit&eacute;s ou leurs prestataires sont habilit&eacute;s &agrave; intervenir. Signalez les nids de poule sur voie publique &agrave; votre mairie.
+      </p>
+
+      <h3>Combien coûte la réparation d&apos;un nid de poule soi-même ?</h3>
+      <p>
+        Comptez environ 25 € par sac de 25 kg d&apos;enrobé à froid. Reboucher trois nids de poule représente environ 75 € de matériaux et 3 heures de travail, mais la réparation reste temporaire et peut céder en quelques mois.
       </p>
 
       <h2>Le bon r&eacute;flexe : diagnostiquer avant de r&eacute;parer</h2>

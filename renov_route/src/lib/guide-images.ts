@@ -23,7 +23,6 @@ const IDS: Record<string, string> = {
   // ── Nids de poule / réparation chaussée ──────────────────────────
   'enrobe-froid-vs-resine-nids-de-poule': '1773118330236-d812832b5b71',
   'nid-de-poule-responsabilite-parking': '1694804304298-c79443f5e2f4',
-  'nids-de-poule-hiver-2026-solutions': '1670305170787-e415c6649545',
   'reparation-chaussee-parking-methodes-prix': '1657502244190-3eb8b6a355bd',
   'reparer-nid-de-poule-soi-meme': '1601026909629-bad5e1122bc6',
 
@@ -43,7 +42,6 @@ const IDS: Record<string, string> = {
   // ── Processus / chantier ─────────────────────────────────────────
   'comment-tracer-parking': '1774600166818-e554a4d4c376',
   'peinture-marquage-sol-parking': '1765405016829-0e676763ee2f',
-  'signalisation-horizontale-lyon-marquage': '1752068302758-fba33913d886',
   'calendrier-entretien-parking': '1770250959829-de36726e99c4',
   'entretien-parking-signes-renovation': '1688862719614-dd7b8aeea0cf',
 
@@ -58,7 +56,6 @@ const IDS: Record<string, string> = {
   // ── Signalisation verticale ──────────────────────────────────────
   'signalisation-parking-reglementation': '1696037064798-730e8fd5b674',
   'panneau-limitation-vitesse-parking': '1517697063925-d82f8da41135',
-  'nouvelles-normes-signaletique-parking-2026': '1653356986969-a62e0fd7f84d',
   'signalisation-parking-copropriete': '1759445777690-769fc6ae0ffb',
 
   // ── Parkings commerciaux / visiteurs ─────────────────────────────

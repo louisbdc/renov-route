@@ -73,10 +73,10 @@ export default function ConseilExpertisePage() {
       <ServicePageLayout
         breadcrumb={BREADCRUMB}
         heroIcon={<TbClipboardList size={28} />}
-        heroTitle="Conseil & expertise"
+        heroTitle="Audit parking, conseil & expertise"
         heroSubtitle="De l'audit de votre infrastructure à la réception du chantier : un accompagnement technique complet pour vos projets de voirie et de marquage."
         heroBackgroundImage="/assets/images/xavier-de-caumont.jpg"
-        heroImageAlt="Xavier de Caumont, expert marquage routier et conseil technique chez Rénov Route"
+        heroImageAlt="Xavier de Caumont, expert marquage routier et conseil technique chez Rénov'Route"
         accentColor="sky"
         descriptionHeading="Un accompagnement technique sur mesure"
         descriptionParagraphs={[

@@ -1,10 +1,11 @@
 import type { Guide } from '../guides'
+import KeyAnswer from '@/components/KeyAnswer'
 import Link from 'next/link'
 
 export const meta: Guide = {
   slug: 'peinture-marquage-sol-parking',
   title: 'Peinture marquage au sol parking : comment choisir la bonne',
-  metaTitle: 'Peinture marquage au sol parking : types et prix 2026',
+  metaTitle: 'Peinture marquage au sol parking : laquelle choisir ?',
   metaDescription: 'Acrylique, thermoplastique ou époxy : quelle peinture choisir pour le marquage au sol de votre parking ? Comparatif, prix au m² et durée de vie.',
   publishDate: '2026-03-04',
   updatedDate: '2026-05-22',
@@ -16,6 +17,12 @@ export const meta: Guide = {
 export default function Content() {
   return (
     <>
+      <KeyAnswer question="Quelle peinture de marquage au sol choisir pour un parking ?">
+        <p>
+          Pour un parking extérieur à trafic moyen, la <strong>peinture de marquage au sol</strong> acrylique offre le meilleur rapport qualité-prix et dure 2 à 3 ans. Le thermoplastique tient 4 à 6 ans sous trafic intense. La résine, 5 à 10 ans, convient surtout en intérieur, car l&apos;époxy jaunit aux UV. Vérifiez que le produit est certifié NF EN 1436.
+        </p>
+      </KeyAnswer>
+
       <p>
         Votre parking vient d&apos;être retracé, et six mois plus tard, les lignes s&apos;effacent déjà. Le problème ne vient pas du prestataire. Il vient de la peinture.
       </p>
@@ -89,7 +96,7 @@ export default function Content() {
         <strong>Idéal pour :</strong> <Link href="/guides/marquage-sol-supermarche-grande-surface">grandes surfaces commerciales</Link>, parkings d&apos;hypermarchés, zones de passage piéton à forte fréquentation. Quand la durabilité justifie l&apos;investissement.
       </p>
       <p>
-        Quand Frédéric, responsable technique d&apos;un Leclerc près de Villefranche-sur-Saône, a remplacé sa peinture acrylique par du thermoplastique en 2022, son coût de marquage annuel a baissé de 35 %. Les retouches annuelles ont disparu. Le marquage thermoplastique, appliqué sur un parking de 400 places, tient depuis quatre ans sans intervention.
+        Prenons l&apos;exemple d&apos;un responsable technique de grande surface : en remplaçant sa peinture acrylique par du thermoplastique, son coût de marquage annuel a baissé de 35 %. Les retouches annuelles ont disparu. Le marquage thermoplastique, appliqué sur un parking de 400 places, tient quatre ans sans intervention.
       </p>
 
       <h3>Résine époxy ou polyuréthane</h3>
@@ -228,7 +235,7 @@ export default function Content() {
         Sur un enrobé neuf et lisse, les trois types fonctionnent. Sur un sol dégradé avec des fissures ou des <Link href="/competences/reparation-nids-de-poule">nids de poule</Link>, il faut d&apos;abord réparer avant de peindre. La thermoplastique, épaisse et rigide, tolère mal les irrégularités. L&apos;acrylique s&apos;adapte mieux aux surfaces imparfaites.
       </p>
       <p>
-        Sophie, gestionnaire d&apos;une résidence à Caluire-et-Cuire, a fait appliquer du thermoplastique sur un enrobé fissuré dans son parking de copropriété. Trois mois après, le marquage se décollait par plaques aux endroits fissurés. Il a fallu reprendre le support, réparer les fissures, puis retracer en acrylique haute performance. Double dépense. Un diagnostic préalable aurait évité plusieurs milliers d&apos;euros de travaux inutiles.
+        Prenons l&apos;exemple d&apos;une gestionnaire de résidence, qui a fait appliquer du thermoplastique sur un enrobé fissuré dans son parking de copropriété. Trois mois après, le marquage se décollait par plaques aux endroits fissurés. Il a fallu reprendre le support, réparer les fissures, puis retracer en acrylique haute performance. Double dépense. Un diagnostic préalable aurait évité plusieurs milliers d&apos;euros de travaux inutiles.
       </p>
 
       <h3>4. Les contraintes de délai</h3>
@@ -295,7 +302,7 @@ export default function Content() {
         <li><strong>Durabilité</strong> sous trafic normalisé</li>
       </ul>
       <p>
-        Tout prestataire sérieux utilisé des peintures certifiées NF EN 1436. C&apos;est non négociable. Pour comprendre l&apos;ensemble des <Link href="/guides/normes-pmr-parking">normes applicables au marquage PMR</Link>, consultez notre guide dédié.
+        Tout prestataire sérieux utilise des peintures certifiées NF EN 1436. C&apos;est non négociable. Pour comprendre l&apos;ensemble des <Link href="/guides/normes-pmr-parking">normes applicables au marquage PMR</Link>, consultez notre guide dédié.
       </p>
 
       <h3>Marquage environnemental</h3>
@@ -330,7 +337,7 @@ export default function Content() {
         Même un bon marquage nécessite un suivi. Un nettoyage annuel prolonge la durée de vie de 20 à 30 %. Des retouches ponctuelles sur les zones les plus sollicitées (virages, entrées, passages piétons) évitent un retraçage complet prématuré.
       </p>
       <p>
-        Antoine, directeur technique d&apos;un groupe hôtelier dans l&apos;Ouest lyonnais, a mis en place un programme d&apos;entretien préventif sur ses 12 parkings. Nettoyage haute pression annuel, retouches ciblées en mai. Résultat : ses marquages acryliques durent 4 ans au lieu de 2, et son budget marquage a baissé de 40 % sur 5 ans. La clé n&apos;était pas un produit plus cher, mais un entretien rigoureux.
+        Prenons l&apos;exemple d&apos;un directeur technique de groupe hôtelier, qui a mis en place un programme d&apos;entretien préventif sur ses 12 parkings. Nettoyage haute pression annuel, retouches ciblées en mai. Résultat : ses marquages acryliques durent 4 ans au lieu de 2, et son budget marquage a baissé de 40 % sur 5 ans. La clé n&apos;était pas un produit plus cher, mais un entretien rigoureux.
       </p>
 
       <h2>Quelle peinture pour quel parking : guide rapide</h2>

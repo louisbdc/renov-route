@@ -1,11 +1,12 @@
 import type { Guide } from '../guides'
+import KeyAnswer from '@/components/KeyAnswer'
 import Link from 'next/link'
 
 export const meta: Guide = {
   slug: 'logo-parking-pictogrammes',
   title: 'Logo parking : guide complet des pictogrammes et marquage au sol',
-  metaTitle: 'Logo parking : pictogrammes, normes et marquage | Renov\u2019Route',
-  metaDescription: 'Logo parking : pictogrammes, normes, marquage. PMR, vélo, électrique. Guide + devis gratuit.',
+  metaTitle: "Logo parking : pictogrammes, normes et marquage",
+  metaDescription: "Logo parking : pictogrammes PMR, vélo et électrique, dimensions, couleurs, techniques de marquage et prix. Le guide pour un marquage conforme et durable.",
   publishDate: '2026-03-31',
   updatedDate: '2026-07-28',
   category: 'marquage-parking',
@@ -16,42 +17,48 @@ export const meta: Guide = {
 export default function Content() {
   return (
     <>
+      <KeyAnswer question={"Quel logo parking est obligatoire ?"}>
+        <p>
+        Le seul <strong>logo parking</strong> imposé par la réglementation est le pictogramme PMR, sur les places adaptées : au moins 2 % des places, avec un minimum d&apos;une, et 3,30 m de large. Les logos P, vélo ou véhicule électrique restent recommandés. Un pictogramme en peinture coûte généralement 30 à 80 €.
+        </p>
+      </KeyAnswer>
+
       <p>
         Un parking sans logos au sol, c&apos;est un parking où personne ne sait où se garer. Les visiteurs occupent les places PMR. Les vélos se retrouvent entre deux voitures. Les bornes de recharge restent inaccessibles. Et quand l&apos;inspection d&apos;accessibilité passe, le gestionnaire découvre que son marquage n&apos;est pas conforme.
       </p>
       <p>
-        <strong>En France, 40% des parkings contrôlés présentent des pictogrammes PMR non conformes ou absents.</strong> Le problème ne vient pas de la mauvaise volonté. Il vient d&apos;un marquage au sol incomplet, usé ou mal dimensionné. Un simple logo parking au bon endroit, dans les bonnes dimensions, avec la bonne technique d&apos;application, change tout.
+        Le problème ne vient pas de la mauvaise volonté. Il vient d&apos;un marquage au sol incomplet, usé ou mal dimensionné. Un simple logo parking au bon endroit, dans les bonnes dimensions, avec la bonne technique d&apos;application, change tout.
       </p>
       <p>
-        Ce guide vous explique tout ce que vous devez savoir sur les logos et pictogrammes parking : types de symboles, normes réglementaires, dimensions, couleurs, techniques de marquage et prix. Que vous geriez un parking de supermarché, d&apos;entreprise, de copropriété ou d&apos;ERP, vous trouverez ici des réponses concrètes pour un marquage conforme et durable.
+        Ce guide vous explique tout ce que vous devez savoir sur les logos et pictogrammes parking : types de symboles, normes réglementaires, dimensions, couleurs, techniques de marquage et prix. Que vous gériez un parking de supermarché, d&apos;entreprise, de copropriété ou d&apos;ERP, vous trouverez ici des réponses concrètes pour un marquage conforme et durable.
       </p>
 
       <h2>Pourquoi les logos et pictogrammes parking sont indispensables</h2>
 
       <h3>L&apos;impact d&apos;un marquage clair sur la gestion du parking</h3>
       <p>
-        Un pictogramme parking bien visible remplit trois fonctions essentielles. Il identifié instantanement la nature d&apos;une place. Il guide les flux de circulation. Et il protège juridiquement le gestionnaire en cas de litige.
+        Un pictogramme parking bien visible remplit trois fonctions essentielles. Il identifie instantanément la nature d&apos;une place. Il guide les flux de circulation. Et il protège juridiquement le gestionnaire en cas de litige.
       </p>
       <p>
-        Sophie, responsable des services généraux d&apos;un groupe de cliniques privé près de Lyon, a mesuré cet impact. Son parking de 200 places disposait d&apos;un marquage au sol datant de 2018. Les pictogrammes PMR étaient à peine visibles. Les places réservées aux ambulances n&apos;avaient aucun logo distinctif. Résultat : des ambulances bloquées aux heures de pointe, des plaintes de patients à mobilité réduite, et un rappel à l&apos;ordre de la commission d&apos;accessibilité.
+        Prenons l&apos;exemple d&apos;une clinique dont le parking a un marquage ancien. Les pictogrammes PMR sont à peine visibles et les places réservées aux ambulances n&apos;ont aucun logo distinctif. Résultat : des ambulances bloquées aux heures de pointe et des plaintes de patients à mobilité réduite.
       </p>
       <p>
-        Après une intervention de <Link href="/competences/tracage-retracage-parking">traçage et retraçage de parking</Link> par Renov&apos;Route, chaque place a reçu son pictogramme réglementaire. Les flux se sont clarifiés en quelques jours. Les réclamations ont chuté de 80%.
+        Après un <Link href="/competences/tracage-retracage-parking">traçage et retraçage de parking</Link> , chaque place retrouve son pictogramme et les flux redeviennent lisibles.
       </p>
 
       <h3>La responsabilité juridique du gestionnaire</h3>
       <p>
-        Le marquage au sol des logos parking n&apos;est pas qu&apos;une question d&apos;esthétique. L&apos;arrêté du 15 janvier 2007 relatif à l&apos;accessibilité impose des pictogrammes PMR conformes pour tout ERP. L&apos;IISR (Instruction Interministérielle sur la Signalisation Routière) encadré les symboles utilisés sur les voies ouvertes à la circulation. Un marquage absent ou non conforme engage la responsabilité du gestionnaire.
+        Le marquage au sol des logos parking n&apos;est pas qu&apos;une question d&apos;esthétique. L&apos;<a href="https://www.legifrance.gouv.fr/loda/id/JORFTEXT000034485459/" target="_blank" rel="noopener noreferrer">arrêté du 20 avril 2017</a> impose un repérage des places adaptées dans les ERP neufs. L&apos;IISR (Instruction Interministérielle sur la Signalisation Routière) encadre les symboles utilisés sur les voies ouvertes à la circulation. Un marquage absent ou non conforme engage la responsabilité du gestionnaire.
       </p>
       <p>
-        <strong>Votre marquage au sol est-il conforme ?</strong> Renov&apos;Route réalise un diagnostic complet de votre parking et identifié les pictogrammes manquants ou non réglementaires. <Link href="/devis">Demandez un devis gratuit</Link>, réponse en 48h.
+        <strong>Votre marquage au sol est-il conforme ?</strong> Renov&apos;Route réalise un diagnostic complet de votre parking et identifie les pictogrammes manquants ou non réglementaires. <Link href="/devis">Demandez un devis gratuit</Link>, réponse en 48h.
       </p>
 
       <h2>Les différents types de logos et pictogrammes parking</h2>
 
       <h3>Le symbole P : le classique universel</h3>
       <p>
-        Le symbole parking par excellence est la lettre &quot;P&quot; majuscule. On le retrouvé à l&apos;entrée des parkings, sur les panneaux directionnels et peint au sol pour identifier les zones de stationnement. Il se decline en plusieurs variantes selon le contexte :
+        Le symbole parking par excellence est la lettre &quot;P&quot; majuscule. On le retrouve à l&apos;entrée des parkings, sur les panneaux directionnels et peint au sol pour identifier les zones de stationnement. Il se décline en plusieurs variantes selon le contexte :
       </p>
       <ul>
         <li><strong>P simple</strong> : identification générale d&apos;une zone de stationnement</li>
@@ -65,21 +72,21 @@ export default function Content() {
 
       <h3>Pictogramme PMR : le plus réglementé</h3>
       <p>
-        Le pictogramme PMR parking est sans doute le logo stationnement le plus encadré par la réglementation. Il représente une personne en fauteuil roulant, de profil, en blanc sur fond bleu. Ses caractéristiques sont strictement définies :
+        Le pictogramme PMR parking est sans doute le logo stationnement le plus encadré par la réglementation. Il représente une personne en fauteuil roulant, de profil, en blanc sur fond bleu. Voici les repères à respecter :
       </p>
       <ul>
-        <li><strong>Dimensions minimales</strong> : 0,50 m x 0,60 m au sol (recommandé : 1 m x 1,20 m pour une meilleure visibilité)</li>
+        <li><strong>Dimensions courantes</strong> : 0,50 m x 0,60 m au sol au minimum (recommandé : 1 m x 1,20 m pour une meilleure visibilité)</li>
         <li><strong>Couleur</strong> : blanc sur fond bleu (RAL 5005 ou équivalent)</li>
         <li><strong>Positionnement</strong> : centre de la place ou à l&apos;avant, visible depuis l&apos;allée de circulation</li>
-        <li><strong>Obligation</strong> : 2% des places minimum (et au moins une) pour tout parking de plus de 50 places</li>
+        <li><strong>Obligation</strong> : 2 % des places minimum, avec au moins une place</li>
       </ul>
       <p>
-        Nathalie, gestionnaire d&apos;un parking de centre commercial dans l&apos;agglomération lyonnaise, a découvert lors d&apos;un audit que ses 8 places PMR avaient un pictogramme de seulement 0,30 m de large. Trop petit pour être conforme. Après un retraçage par Renov&apos;Route, les pictogrammes ont été repris aux dimensions réglementaires avec un thermocollage longue durée. Le contrôle suivant est passe sans réservé.
+        Prenons l&apos;exemple d&apos;un centre commercial dont les places PMR portent un pictogramme de seulement 0,30 m de large, trop petit pour être lisible. Un retraçage permet de reprendre les pictogrammes à la bonne dimension, avec un thermocollage longue durée.
       </p>
 
       <h3>Pictogramme vélo et deux-roues</h3>
       <p>
-        Avec l&apos;essor des mobilites douces, le pictogramme parking vélo est devenu incontournable. Il se decline en :
+        Avec l&apos;essor des mobilités douces, le pictogramme parking vélo est devenu incontournable. Il se décline en :
       </p>
       <ul>
         <li><strong>Pictogramme vélo</strong> : silhouette de vélo, généralement en blanc, pour les places de stationnement vélo</li>
@@ -92,15 +99,15 @@ export default function Content() {
 
       <h3>Pictogramme véhicule électrique</h3>
       <p>
-        Le logo place de parking pour véhicule électrique est un pictogramme en pleine expansion. Il représente généralement une voiture avec un câble de recharge ou un eclair. Il est appliqué en :
+        Le logo place de parking pour véhicule électrique est un pictogramme en pleine expansion. Il représente généralement une voiture avec un câble de recharge ou un éclair. Il est appliqué en :
       </p>
       <ul>
-        <li><strong>Vert</strong> (RAL 6024 ou équivalent) : la couleur la plus répandue, associée à l&apos;ecologie</li>
+        <li><strong>Vert</strong> (RAL 6024 ou équivalent) : la couleur la plus répandue, associée à l&apos;écologie</li>
         <li><strong>Blanc sur fond vert</strong> : pour un contraste maximal</li>
         <li><strong>Dimensions</strong> : 1 m à 1,50 m de hauteur</li>
       </ul>
       <p>
-        Ce pictogramme est obligatoire sur les places équipées de bornes de recharge. La loi LOM (Loi d&apos;Orientation des Mobilites) impose un pre-équipement électrique dans les parkings neufs et rénovés de plus de 10 places.
+        Ce pictogramme est recommandé sur les places équipées de bornes de recharge, pour éviter qu&apos;elles soient occupées par des véhicules thermiques.
       </p>
 
       <h3>Logos de direction et de circulation</h3>
@@ -127,8 +134,9 @@ export default function Content() {
       <ul>
         <li><strong>IISR</strong> (Instruction Interministérielle sur la Signalisation Routière) : référence pour la signalisation sur voies ouvertes à la circulation</li>
         <li><strong>Norme NF EN 1436</strong> : exigences de performance pour les marquages routiers (rétroréflexion, luminance, adhérence)</li>
-        <li><strong>Arrêté du 15 janvier 2007</strong> : accessibilité des ERP, incluant les spécifications du pictogramme PMR</li>
-        <li><strong>Norme NF P 98-351</strong> : pochoirs et symboles normalises pour marquage au sol</li>
+        <li><strong>Arrêté du 20 avril 2017</strong> : <a href="https://www.legifrance.gouv.fr/loda/id/JORFTEXT000034485459/" target="_blank" rel="noopener noreferrer">accessibilité des ERP neufs</a>, dont les places de stationnement adaptées</li>
+        <li><strong>Arrêté du 15 janvier 2007</strong> : accessibilité de la voirie et des espaces publics</li>
+        <li><strong>Norme NF P 98-351</strong> : dispositifs podotactiles d&apos;éveil de vigilance</li>
       </ul>
 
       <h3>Dimensions recommandées par type de pictogramme</h3>
@@ -195,13 +203,13 @@ export default function Content() {
       </p>
       <ul>
         <li><strong>Blanc</strong> : couleur standard pour la majorité des marquages (places, flèches, pictogrammes généraux). Conforme à la norme NF EN 1436.</li>
-        <li><strong>Bleu</strong> : réservé au marquage des places PMR (fond bleu du pictogramme fauteuil roulant). Le bleu signalé l&apos;accessibilité.</li>
-        <li><strong>Jaune</strong> : utilisé pour les zones d&apos;interdiction (hachures, zones de livraison, interdiction de stationner). Le jaune signalé une restriction.</li>
-        <li><strong>Vert</strong> : de plus en plus utilisé pour les places de recharge électrique. Pas encore normalise dans l&apos;IISR mais largement adopte.</li>
-        <li><strong>Rouge</strong> : signalé un danger ou une interdiction stricte. Utilise pour les zones pompiers et les arrêts d&apos;urgence.</li>
+        <li><strong>Bleu</strong> : réservé au marquage des places PMR (fond bleu du pictogramme fauteuil roulant). Le bleu signale l&apos;accessibilité.</li>
+        <li><strong>Jaune</strong> : utilisé pour les zones d&apos;interdiction (hachures, zones de livraison, interdiction de stationner). Le jaune signale une restriction.</li>
+        <li><strong>Vert</strong> : de plus en plus utilisé pour les places de recharge électrique. Pas encore normalisé dans l&apos;IISR mais largement adopte.</li>
+        <li><strong>Rouge</strong> : signale un danger ou une interdiction stricte. Utilisé pour les zones pompiers et les arrêts d&apos;urgence.</li>
       </ul>
       <p>
-        La réglé fondamentale : le contraste. Un logo stationnement doit être lisible à 10 mètres minimum par un conducteur en véhicule. Cela implique un rapport de luminance suffisant entre le pictogramme et le revêtement du sol.
+        La règle fondamentale : le contraste. Un logo stationnement doit rester lisible à distance par un conducteur en véhicule. Cela implique un rapport de luminance suffisant entre le pictogramme et le revêtement du sol.
       </p>
 
       <h2>Techniques de marquage des logos au sol</h2>
@@ -215,7 +223,7 @@ export default function Content() {
         <li><strong>Application</strong> : au rouleau, au pistolet airless ou au pochoir</li>
         <li><strong>Épaisseur</strong> : 0,6 à 1,2 mm en couche sèche</li>
         <li><strong>Durée de vie</strong> : 1 à 3 ans selon le trafic</li>
-        <li><strong>Prix</strong> : économique, adapte aux budgets serrés</li>
+        <li><strong>Prix</strong> : économique, adapté aux budgets serrés</li>
       </ul>
       <p>
         La peinture est idéale pour les parkings à trafic modéré (copropriétés, petites entreprises). Elle nécessite un renouvellement plus fréquent que les autres techniques, mais son coût initial est faible.
@@ -241,13 +249,13 @@ export default function Content() {
         La technique du pochoir avec projection est la méthode standard pour les logos complexes. Elle permet de reproduire n&apos;importe quel symbole parking avec précision :
       </p>
       <ul>
-        <li><strong>Pochoir</strong> : decoupe laser dans une plaque métallique ou plastique rigide</li>
+        <li><strong>Pochoir</strong> : découpe laser dans une plaque métallique ou plastique rigide</li>
         <li><strong>Application</strong> : projection de peinture ou de résine à travers le pochoir</li>
         <li><strong>Précision</strong> : excellente, même pour les pictogrammes détaillés</li>
-        <li><strong>Reutilisable</strong> : le pochoir sert pour plusieurs applications</li>
+        <li><strong>Réutilisable</strong> : le pochoir sert pour plusieurs applications</li>
       </ul>
       <p>
-        Cette technique est utilisée pour les pictogrammes PMR, les logos d&apos;entreprise, les numerotations de places et tout marquage sur mesure.
+        Cette technique est utilisée pour les pictogrammes PMR, les logos d&apos;entreprise, les numérotations de places et tout marquage sur mesure.
       </p>
 
       <h3>Résine à froid</h3>
@@ -255,7 +263,7 @@ export default function Content() {
         La résine à froid offre un compromis entre la peinture et le thermocollage :
       </p>
       <ul>
-        <li><strong>Application</strong> : coulée ou projetée, polymérisation a température ambiante</li>
+        <li><strong>Application</strong> : coulée ou projetée, polymérisation à température ambiante</li>
         <li><strong>Épaisseur</strong> : 1,5 à 3 mm</li>
         <li><strong>Durée de vie</strong> : 3 à 5 ans</li>
         <li><strong>Avantage</strong> : bonne adhérence, pas besoin de chaleur</li>
@@ -266,12 +274,12 @@ export default function Content() {
 
       <h3>Ce que dit la loi</h3>
       <p>
-        Le pictogramme PMR parking est le seul logo au sol dont le marquage est une obligation légale stricte. L&apos;arrêté du 15 janvier 2007 et la loi du 11 février 2005 imposent :
+        Le pictogramme PMR parking est le seul logo au sol dont le marquage est une obligation légale stricte. La loi du 11 février 2005 et, pour les ERP neufs, l&apos;<a href="https://www.legifrance.gouv.fr/loda/id/JORFTEXT000034485459/" target="_blank" rel="noopener noreferrer">arrêté du 20 avril 2017</a> imposent :
       </p>
       <ul>
         <li>Un minimum de <strong>2% des places</strong> (avec au minimum une place) réservées aux PMR</li>
         <li>Un <strong>pictogramme au sol</strong> clairement identifiable sur chaque place</li>
-        <li>Un <strong>panneau vertical</strong> complémentaire (panneau B6a1 + panonceau M6h)</li>
+        <li>Un <strong>panneau vertical</strong> complémentaire</li>
         <li>Des places de <strong>3,30 m de large minimum</strong> (bande de transfert latérale de 0,80 m incluse)</li>
         <li>Un cheminement accessible entre la place PMR et l&apos;entrée du bâtiment</li>
       </ul>
@@ -303,29 +311,29 @@ export default function Content() {
         <li><strong>Zones spécifiques</strong> : logo de l&apos;enseigne sur les places réservées aux clients d&apos;un magasin</li>
       </ul>
       <p>
-        La technique utilisée est le pochoir sur mesure, decoupe à partir du fichier vectoriel du logo. Renov&apos;Route réalise ces marquages personnalisés en peinture ou en thermocollage selon la durée de vie souhaitée.
+        La technique utilisée est le pochoir sur mesure, découpe à partir du fichier vectoriel du logo. Renov&apos;Route réalise ces marquages personnalisés en peinture ou en thermocollage selon la durée de vie souhaitée.
       </p>
 
       <h3>Numérotation des places</h3>
       <p>
-        La numérotation est un logo place de parking souvent neglige mais extrêmement utile :
+        La numérotation est un logo place de parking souvent négligé mais extrêmement utile :
       </p>
       <ul>
         <li><strong>Chiffres peints au sol</strong> : hauteur recommandée de 0,30 m à 0,50 m</li>
-        <li><strong>Numérotation sequentielle</strong> : par zone, par niveau ou par rangée</li>
+        <li><strong>Numérotation séquentielle</strong> : par zone, par niveau ou par rangée</li>
         <li><strong>Couleur</strong> : blanc sur enrobé, jaune sur béton clair</li>
         <li><strong>Intérêt</strong> : facilité le repérage, réduit les conflits de stationnement, simplifie la gestion locative</li>
       </ul>
 
       <h3>Couleurs personnalisées</h3>
       <p>
-        Au-delà des couleurs réglementaires, certains gestionnaires utilisent des couleurs pour differencier les zones :
+        Au-delà des couleurs réglementaires, certains gestionnaires utilisent des couleurs pour différencier les zones :
       </p>
       <ul>
         <li><strong>Vert</strong> : places écologiques (véhicules électriques, covoiturage)</li>
         <li><strong>Orange</strong> : places visiteurs</li>
         <li><strong>Violet</strong> : places réservées à la direction</li>
-        <li><strong>Rose</strong> : places famille (tendance importée d&apos;Amerique du Nord)</li>
+        <li><strong>Rose</strong> : places famille (tendance importée d&apos;Amérique du Nord)</li>
       </ul>
       <p>
         L&apos;essentiel est de conserver un contraste suffisant et de ne pas créer de confusion avec les couleurs réglementaires (bleu PMR, jaune interdiction).
@@ -413,17 +421,17 @@ export default function Content() {
 
       <h3>Pictogrammes sous-dimensionnés</h3>
       <p>
-        C&apos;est l&apos;erreur numéro un. Un logo parking trop petit est invisible pour un conducteur en mouvement. Un pictogramme PMR de 0,30 m ne sera pas vu a plus de 3 mètres. La réglé : toujours privilégier le format recommandé plutôt que le format minimal.
+        C&apos;est l&apos;erreur numéro un. Un logo parking trop petit est invisible pour un conducteur en mouvement. Un pictogramme PMR de 0,30 m se voit difficilement depuis un véhicule. La règle : toujours privilégier le format recommandé plutôt que le format minimal.
       </p>
 
       <h3>Contraste insuffisant</h3>
       <p>
-        Un pictogramme blanc sur un sol béton clair est à peine lisible. Un fond colore (bleu pour le PMR, vert pour l&apos;électrique) améliore considérablement la visibilité. Le contraste est aussi important que la taille du logo.
+        Un pictogramme blanc sur un sol béton clair est à peine lisible. Un fond coloré (bleu pour le PMR, vert pour l&apos;électrique) améliore considérablement la visibilité. Le contraste est aussi important que la taille du logo.
       </p>
 
       <h3>Marquage non entretenu</h3>
       <p>
-        Un symbole parking effacé à 50% n&apos;est plus conforme. La periodicite de renouvellement dépend de la technique :
+        Un symbole parking à moitié effacé n&apos;assure plus sa fonction. La périodicité de renouvellement dépend de la technique :
       </p>
       <ul>
         <li><strong>Peinture</strong> : contrôle annuel, renouvellement tous les 1 à 3 ans</li>
@@ -445,12 +453,12 @@ export default function Content() {
 
       <h3>Quel est le pictogramme obligatoire dans un parking ?</h3>
       <p>
-        Le seul pictogramme legalement obligatoire est le pictogramme PMR parking (personne en fauteuil roulant) sur les places réservées aux personnes à mobilité réduite. Pour les parkings de plus de 50 places, 2% minimum des places doivent être équipées de ce marquage. Les autres pictogrammes (P, vélo, électrique) sont fortement recommandes mais pas imposés par la loi.
+        Le seul pictogramme légalement obligatoire est le pictogramme PMR parking (personne en fauteuil roulant) sur les places réservées aux personnes à mobilité réduite. Au moins 2 % des places, avec un minimum d&apos;une, doivent être équipées de ce marquage. Les autres pictogrammes (P, vélo, électrique) sont fortement recommandés mais pas imposés par la loi.
       </p>
 
       <h3>Quelles sont les dimensions réglementaires du pictogramme PMR ?</h3>
       <p>
-        Le pictogramme PMR parking doit mesurer au minimum 0,50 m x 0,60 m. Cependant, pour une visibilité optimale, une dimension de 1,00 m x 1,20 m est recommandée. Le pictogramme doit être en blanc sur fond bleu et place au centre ou à l&apos;avant de la place, visible depuis l&apos;allée de circulation.
+        Le pictogramme PMR parking mesure couramment au moins 0,50 m x 0,60 m. Pour une visibilité optimale, une dimension de 1,00 m x 1,20 m est recommandée. Il est généralement blanc sur fond bleu et placé au centre ou à l&apos;avant de la place, visible depuis l&apos;allée de circulation.
       </p>
 
       <h3>Combien coûte le marquage d&apos;un logo parking au sol ?</h3>
@@ -460,25 +468,25 @@ export default function Content() {
 
       <h3>Quelle est la durée de vie d&apos;un pictogramme au sol ?</h3>
       <p>
-        La durée de vie dépend de la technique utilisée et du trafic. La peinture dure 1 à 3 ans. Le thermocollage résiste 5 à 8 ans, voire davantage sur un sol peu sollicite. La résine à froid offre une durée de vie intermédiaire de 3 à 5 ans.
+        La durée de vie dépend de la technique utilisée et du trafic. La peinture dure 1 à 3 ans. Le thermocollage résiste 5 à 8 ans, voire davantage sur un sol peu sollicité. La résine à froid offre une durée de vie intermédiaire de 3 à 5 ans.
       </p>
 
       <h3>Peut-on personnaliser les logos au sol dans un parking ?</h3>
       <p>
-        Oui, la personnalisation est possible et de plus en plus courante. Logo d&apos;entreprise, numérotation des places, couleurs spécifiques par zone, pictogrammes sur mesure : tout est realisable grâce à la technique du pochoir. La seule contrainte est de respecter les pictogrammes réglementaires (PMR, interdiction) qui ne peuvent pas être modifiés.
+        Oui, la personnalisation est possible et de plus en plus courante. Logo d&apos;entreprise, numérotation des places, couleurs spécifiques par zone, pictogrammes sur mesure : tout est réalisable grâce à la technique du pochoir. La seule contrainte est de respecter les pictogrammes réglementaires (PMR, interdiction) qui ne peuvent pas être modifiés.
       </p>
 
       <h3>Qui peut réaliser le marquage des pictogrammes parking ?</h3>
       <p>
-        Le marquage de logos parking doit être réalise par un professionnel équipe du matériel adapte (traceur, pochoirs normalises, produits conformes NF EN 1436). Un marquage amateur risque de ne pas respecter les dimensions, les couleurs ou la rétroréflexion imposées par la norme. Renov&apos;Route intervient sur toute la région Rhône-Alpes avec une garantie de 2 ans sur ses marquages.
+        Le marquage de logos parking doit être réalisé par un professionnel équipé du matériel adapté (traceur, pochoirs normalisés, produits conformes NF EN 1436). Un marquage amateur risque de ne pas respecter les dimensions, les couleurs ou la rétroréflexion imposées par la norme. Renov&apos;Route intervient sur toute la région Rhône-Alpes avec une garantie de 2 ans sur ses marquages.
       </p>
 
-      <h2>Un parking bien marque commence par les bons logos</h2>
+      <h2>Un parking bien marqué commence par les bons logos</h2>
       <p>
-        Les logos et pictogrammes parking sont bien plus que de la décoration au sol. Ils organisent la circulation, identifient les places réservées, protègent le gestionnaire juridiquement et ameliorent l&apos;expérience des usagers. Du pictogramme PMR obligatoire aux logos d&apos;entreprise personnalisés, chaque symbole à une fonction précise.
+        Les logos et pictogrammes parking sont bien plus que de la décoration au sol. Ils organisent la circulation, identifient les places réservées, protègent le gestionnaire juridiquement et améliorent l&apos;expérience des usagers. Du pictogramme PMR obligatoire aux logos d&apos;entreprise personnalisés, chaque symbole a une fonction précise.
       </p>
       <p>
-        Le choix de la technique (peinture, thermocollage, résine), le respect des dimensions réglementaires et un entretien régulier garantissent un marquage conforme et durable. A l&apos;inverse, des pictogrammes sous-dimensionnés, mal places ou effacés exposent le gestionnaire à des sanctions et dégradent le fonctionnement du parking.
+        Le choix de la technique (peinture, thermocollage, résine), le respect des dimensions réglementaires et un entretien régulier garantissent un marquage conforme et durable. À l&apos;inverse, des pictogrammes sous-dimensionnés, mal placés ou effacés exposent le gestionnaire à des sanctions et dégradent le fonctionnement du parking.
       </p>
       <p>
         <strong>Renov&apos;Route accompagne les gestionnaires de parkings depuis 2016.</strong> Plus de 1 000 projets réalisés à Lyon et en Rhône-Alpes, pour des clients comme Carrefour, Lidl et McDonald&apos;s. Diagnostic, plan de marquage, application et suivi : chaque étape est prise en charge.

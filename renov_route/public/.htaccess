@@ -2,6 +2,12 @@ DirectoryIndex index.html
 
 RewriteEngine On
 
+# Guides fusionnes : places avant la canonicalisation pour rester a un seul saut,
+# y compris si l'ancien dossier subsiste sur le FTP ou si la requete arrive en http/www.
+RewriteRule ^guides/signalisation-horizontale-lyon-marquage/?$ https://renov-route.com/marquage-au-sol-lyon/ [R=301,L]
+RewriteRule ^guides/nouvelles-normes-signaletique-parking-2026/?$ https://renov-route.com/guides/signalisation-parking-reglementation/ [R=301,L]
+RewriteRule ^guides/nids-de-poule-hiver-2026-solutions/?$ https://renov-route.com/guides/enrobe-froid-vs-resine-nids-de-poule/ [R=301,L]
+
 # Canonicalisation en UN saut : schema, hote et slash final d'un coup.
 # Place avant les regles HTTPS et www a dessein — sinon une requete
 # http://www.host/chemin enchainerait trois redirections.

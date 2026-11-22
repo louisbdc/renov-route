@@ -27,7 +27,8 @@ export default function CountUp({
 }: CountUpProps) {
   const ref = useRef<HTMLSpanElement>(null)
   const inView = useInView(ref, { once: true, margin: '-50px' })
-  const [value, setValue] = useState(0)
+  // Valeur finale au rendu serveur : le HTML initial reste exact sans JavaScript.
+  const [value, setValue] = useState(to)
 
   useEffect(() => {
     if (!inView) return
@@ -37,6 +38,7 @@ export default function CountUp({
       return
     }
 
+    setValue(0)
     let startTime: number | null = null
     let rafId = 0
 
@@ -51,7 +53,8 @@ export default function CountUp({
     return () => cancelAnimationFrame(rafId)
   }, [inView, to, duration])
 
-  const formatted = locale ? value.toLocaleString('fr-FR') : String(value)
+  // Séparateur fixe : toLocaleString varie selon le moteur et casserait l'hydratation.
+  const formatted = locale ? String(value).replace(/\B(?=(\d{3})+$)/g, '\u00A0') : String(value)
 
   return (
     <span ref={ref} className={`tabular-nums ${className}`}>

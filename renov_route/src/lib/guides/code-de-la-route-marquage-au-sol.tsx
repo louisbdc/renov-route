@@ -5,8 +5,8 @@ import Link from 'next/link'
 export const meta: Guide = {
   slug: 'code-de-la-route-marquage-au-sol',
   title: 'Code de la route marquage au sol : guide complet 2026',
-  metaTitle: 'Code de la route : signification du marquage au sol (guide 2026)',
-  metaDescription: 'Signification du marquage au sol : lignes blanches, jaunes, flèches, passages piétons, PMR. Décryptage complet par un expert certifié NF EN 1436.',
+  metaTitle: "Code de la route marquage au sol : les règles",
+  metaDescription: "Code de la route et marquage au sol : lignes blanches et jaunes, flèches, passages piétons, places PMR. Signification, normes et responsabilités.",
   publishDate: '2026-03-31',
   updatedDate: '2026-07-28',
   category: 'marquage-parking',
@@ -27,7 +27,7 @@ export default function Content() {
       </KeyAnswer>
 
       <p>
-        90% des informations trait&eacute;es par un conducteur sont visuelles. Et parmi ces informations, le <strong>marquage au sol</strong> est le premier &eacute;l&eacute;ment que vous consultez, consciemment ou non, &agrave; chaque seconde de conduite. Pourtant, une enqu&ecirc;te du CEREMA r&eacute;v&egrave;le que <strong>43% des gestionnaires de voirie interrog&eacute;s constatent des marquages non conformes ou effac&eacute;s sur leur r&eacute;seau</strong>. R&eacute;sultat : des accidents, des litiges et des responsabilit&eacute;s engag&eacute;es.
+        Le <strong>marquage au sol</strong> guide le conducteur à chaque seconde de conduite, consciemment ou non. Lorsqu&apos;il est effacé ou non conforme, il peut contribuer à des accidents, à des litiges et engager la responsabilité du gestionnaire.
       </p>
       <p>
         Que vous soyez conducteur, gestionnaire de parking, responsable de voirie ou chef d&apos;entreprise, comprendre le <strong>code de la route marquage au sol</strong> est indispensable. Ce guide vous explique la signification de chaque ligne, couleur et symbole, les normes &agrave; respecter et les cons&eacute;quences d&apos;un marquage d&eacute;faillant.
@@ -43,7 +43,7 @@ export default function Content() {
 
       <h3>Ligne continue</h3>
       <p>
-        La ligne continue est la plus stricte. Elle interdit tout franchissement et tout chevauchement. En axe de chauss&eacute;e, elle s&eacute;pare les sens de circulation et interdit le d&eacute;passement. En rive, elle d&eacute;limite le bord de la chauss&eacute;e et interdit l&apos;arr&ecirc;t ou le stationnement.
+        La ligne continue est la plus stricte. Elle interdit tout franchissement et tout chevauchement. En axe de chauss&eacute;e, elle s&eacute;pare les sens de circulation et interdit le d&eacute;passement. En rive, elle délimite le bord de la chaussée.
       </p>
       <p><strong>Caract&eacute;ristiques techniques :</strong></p>
       <ul>
@@ -60,9 +60,9 @@ export default function Content() {
         La ligne discontinue autorise le franchissement. En axe, elle permet le d&eacute;passement lorsque la visibilit&eacute; est suffisante. Les <strong>lignes au sol signification</strong> varient selon le rapport entre les pleins et les vides.
       </p>
       <ul>
-        <li><strong>Ligne de d&eacute;passement (T1) :</strong> 3 m&egrave;très de plein pour 1,33 m&egrave;tre de vide. Elle autorise le d&eacute;passement.</li>
-        <li><strong>Ligne d&apos;avertissement (T1 rapproch&eacute;e) :</strong> les traits se rapprochent pour annoncer une ligne continue imminente.</li>
-        <li><strong>Ligne de guidage (T3) :</strong> traits courts de 20 cm avec intervalles de 50 cm, utilis&eacute;s pour guider dans les carrefours.</li>
+        <li><strong>Ligne axiale discontinue (T1) :</strong> les vides dominent nettement sur les pleins. Elle autorise le dépassement.</li>
+        <li><strong>Ligne d&apos;avertissement (T3) :</strong> les pleins dominent sur les vides pour annoncer une ligne continue imminente.</li>
+        
       </ul>
 
       <h3>Ligne mixte</h3>
@@ -79,17 +79,17 @@ export default function Content() {
         <li><strong>Discontinue (T2) :</strong> possibilit&eacute; d&apos;utiliser l&apos;accotement pour l&apos;arr&ecirc;t ou le stationnement</li>
       </ul>
 
-      <h3>Ligne de dissuasion (T4)</h3>
+      <h3>Ligne de dissuasion</h3>
       <p>
         Moins connue, la ligne de dissuasion est compos&eacute;e de traits courts et rapproch&eacute;s. Elle n&apos;interdit pas formellement le franchissement mais le d&eacute;conseille fortement. On la trouve &agrave; l&apos;approche de virages dangereux ou dans les zones o&ugrave; la visibilit&eacute; est r&eacute;duite.
       </p>
 
-      <h3>L&apos;exp&eacute;rience de Marc, gestionnaire de voirie dans le Rh&ocirc;ne</h3>
+      <h3>Exemple : un marquage axial devenu invisible</h3>
       <p>
-        Marc g&egrave;re 180 km de routes communales dans une intercommunalit&eacute; pr&egrave;s de Lyon. En 2024, apr&egrave;s un accident mortel sur un tron&ccedil;on o&ugrave; la ligne axiale &eacute;tait quasiment invisible, la commune a &eacute;t&eacute; mise en cause pour d&eacute;faut d&apos;entretien de la signalisation. L&apos;expertise a r&eacute;v&eacute;l&eacute; que le marquage datait de sept ans et que sa r&eacute;troreflexion &eacute;tait tomb&eacute;e &agrave; 40 mcd/lx/m2, bien en dessous du seuil minimal de 100 mcd/lx/m2 exig&eacute; par la norme NF EN 1436.
+        Prenons l&apos;exemple de Marc, gestionnaire de routes communales. Après un accident sur un tronçon où la ligne axiale est quasiment invisible, sa commune peut être mise en cause pour défaut d&apos;entretien de la signalisation. Une expertise mesurera alors la rétroréflexion du marquage et son ancienneté.
       </p>
       <p>
-        Marc a fait reprendre l&apos;int&eacute;gralit&eacute; du marquage routier par Renov&apos;Route. Le chantier de 12 km a &eacute;t&eacute; r&eacute;alis&eacute; en cinq nuits pour limiter les perturbations de circulation. Depuis, la commune a int&eacute;gr&eacute; un plan de renouvellement triennal de ses marquages.
+        Pour limiter ce risque, il a intérêt à reprendre le marquage de nuit, afin de réduire la gêne à la circulation, et à inscrire son renouvellement dans un plan d&apos;entretien.
       </p>
 
       <h2>Signification des couleurs du marquage au sol</h2>
@@ -117,8 +117,8 @@ export default function Content() {
         Le jaune est r&eacute;serv&eacute; &agrave; des usages sp&eacute;cifiques :
       </p>
       <ul>
-        <li><strong>Ligne de stationnement interdit :</strong> une ligne jaune continue le long du trottoir interdit le stationnement</li>
-        <li><strong>Ligne d&apos;arr&ecirc;t interdit :</strong> une ligne jaune en zigzag interdit l&apos;arr&ecirc;t (devant les &eacute;coles, les arr&ecirc;ts de bus)</li>
+        <li><strong>Ligne de stationnement interdit :</strong> une ligne jaune discontinue le long du trottoir interdit le stationnement</li>
+        <li><strong>Ligne d&apos;arrêt interdit :</strong> une ligne jaune continue interdit l&apos;arrêt et le stationnement ; un zigzag jaune signale un emplacement d&apos;arrêt de bus</li>
         <li><strong>Marquage temporaire :</strong> en cas de travaux, le marquage jaune pr&eacute;vaut sur le marquage blanc permanent</li>
         <li><strong>Places de livraison :</strong> d&eacute;limit&eacute;es en jaune dans certaines configurations</li>
       </ul>
@@ -126,9 +126,9 @@ export default function Content() {
         <strong>Point important :</strong> lorsqu&apos;un marquage jaune temporaire contredit un marquage blanc permanent, c&apos;est toujours le jaune qui s&apos;applique.
       </p>
 
-      <h3>Bleu : le stationnement payant</h3>
+      <h3>Bleu : le stationnement à durée limitée</h3>
       <p>
-        Le bleu indique une zone de stationnement r&eacute;glement&eacute;, g&eacute;n&eacute;ralement payant et &agrave; dur&eacute;e limit&eacute;e (zone bleue). Les places d&eacute;limit&eacute;es en bleu imposent l&apos;utilisation d&apos;un disque de stationnement ou le paiement &agrave; l&apos;horodateur.
+        Le bleu indique une zone de stationnement à durée limitée (zone bleue). Les places délimitées en bleu imposent généralement l&apos;utilisation d&apos;un disque de stationnement.
       </p>
 
       <h2>Marquages sp&eacute;ciaux : fl&egrave;ches, symboles et pictogrammes</h2>
@@ -146,18 +146,17 @@ export default function Content() {
         <li><strong>Fl&egrave;che bifurqu&eacute;e :</strong> possibilit&eacute; de continuer tout droit ou de tourner</li>
         <li><strong>Fl&egrave;che de rabattement :</strong> oblige &agrave; se rabattre vers la voie adjacente (fin de voie)</li>
       </ul>
-      <p>
-        Le non-respect d&apos;une fl&egrave;che directionnelle constitue une infraction de 2e classe (35 EUR d&apos;amende).
+      <p> Le non-respect d&apos;une flèche directionnelle constitue une infraction.
       </p>
 
       <h3>Marquage en zigzag</h3>
       <p>
-        Le zigzag jaune interdit l&apos;arr&ecirc;t et le stationnement. Vous le trouvez devant :
+        Le zigzag jaune signale un emplacement réservé à l&apos;arrêt des bus : l&apos;arrêt et le stationnement des autres véhicules y sont interdits. Vous le trouvez :
       </p>
       <ul>
-        <li>Les arr&ecirc;ts de bus et de tramway</li>
-        <li>Les entr&eacute;es d&apos;&eacute;coles</li>
-        <li>Les sorties de secours</li>
+        <li>Aux arrêts de bus</li>
+        
+        
       </ul>
 
       <h3>Marquage en damier</h3>
@@ -178,12 +177,12 @@ export default function Content() {
         <strong>Vous g&eacute;rez un parking ou une voirie ?</strong> Nos &eacute;quipes ma&icirc;trisent tous les marquages sp&eacute;ciaux conformes &agrave; l&apos;IISR. Consultez <Link href="/realisations">nos r&eacute;alisations</Link> ou contactez notre &eacute;quipe de <Link href="/competences/conseil-expertise">conseil et expertise</Link> pour un diagnostic de votre signalisation.
       </p>
 
-      <h2>Passages pi&eacute;tons : les trois types r&eacute;glementaires</h2>
+      <h2>Passages piétons : le marquage réglementaire</h2>
       <p>
-        Les passages pi&eacute;tons sont un &eacute;l&eacute;ment critique de la <strong>signalisation au sol code de la route</strong>. La France reconna&icirc;t trois types de passages pi&eacute;tons.
+        Les passages pi&eacute;tons sont un &eacute;l&eacute;ment critique de la <strong>signalisation au sol code de la route</strong>.
       </p>
 
-      <h3>Type A : bandes parall&egrave;les &agrave; l&apos;axe de la route</h3>
+      <h3>Bandes parallèles à l&apos;axe de la route</h3>
       <p>
         C&apos;est le passage pi&eacute;ton classique, celui que tout le monde conna&icirc;t. Il est compos&eacute; de bandes blanches rectangulaires parall&egrave;les &agrave; l&apos;axe de la route. C&apos;est le type le plus r&eacute;pandu en France et celui qui offre la meilleure visibilit&eacute; pour les conducteurs.
       </p>
@@ -191,7 +190,7 @@ export default function Content() {
       <ul>
         <li>Largeur des bandes : 50 cm</li>
         <li>Espacement entre les bandes : 50 cm</li>
-        <li>Largeur totale du passage : 2,50 m&egrave;très minimum (g&eacute;n&eacute;ralement 4 &agrave; 6 m&egrave;très)</li>
+        <li>Largeur totale du passage : 2,50 mètres minimum (g&eacute;n&eacute;ralement 4 &agrave; 6 mètres)</li>
       </ul>
 
       <h3>Type B : bandes parall&egrave;les et lignes lat&eacute;rales</h3>
@@ -204,9 +203,9 @@ export default function Content() {
         Le type C se compose uniquement de deux lignes lat&eacute;rales, sans bandes. Il n&apos;est quasiment plus utilis&eacute; en France car sa visibilit&eacute; est jug&eacute;e insuffisante. Les nouvelles installations privil&eacute;gient syst&eacute;matiquement le type A.
       </p>
 
-      <h3>L&apos;exp&eacute;rience de la commune de Meyzieu</h3>
+      <h3>Exemple : l&apos;audit des passages piétons d&apos;une commune</h3>
       <p>
-        En 2025, la commune de Meyzieu (m&eacute;tropole de Lyon) a fait r&eacute;aliser un audit complet de ses 320 passages pi&eacute;tons. Le diagnostic a r&eacute;v&eacute;l&eacute; que 38% d&apos;entre eux pr&eacute;sentaient un taux de r&eacute;troreflexion inf&eacute;rieur au seuil r&eacute;glementaire. Douze passages pi&eacute;tons &eacute;taient &agrave; peine visibles de nuit. Renov&apos;Route a &eacute;t&eacute; mandat&eacute;e pour reprendre 120 passages pi&eacute;tons en priorit&eacute;, en utilisant de la peinture &agrave; base de billes de verre haute r&eacute;troreflexion. Le chantier a &eacute;t&eacute; termin&eacute; en trois semaines.
+        Prenons l&apos;exemple d&apos;une commune qui fait auditer ses passages piétons. Le diagnostic permet de repérer ceux qui ne sont plus assez visibles de nuit et de les reprendre en priorité, avec une peinture à billes de verre pour restaurer la rétroréflexion.
       </p>
 
       <h2>Marquages de parking : lignes, places et zones</h2>
@@ -274,7 +273,7 @@ export default function Content() {
 
       <h3>Norme NF EN 1436</h3>
       <p>
-        Cette norme europ&eacute;enne d&eacute;finit les performances minimales des produits de marquage routier. Elle mesure quatre crit&egrave;res essentiels :
+        Cette norme européenne définit des classes de performance des produits de marquage routier. Elle mesure quatre crit&egrave;res essentiels :
       </p>
       <div className="overflow-x-auto">
         <table>
@@ -282,11 +281,11 @@ export default function Content() {
             <tr>
               <th>Crit&egrave;re</th>
               <th>Param&egrave;tre</th>
-              <th>Seuil minimal</th>
+              <th>Repère courant</th>
             </tr>
           </thead>
           <tbody>
-            <tr><td>R&eacute;troreflexion de nuit</td><td>RL (mcd/lx/m2)</td><td>100 pour les lignes axiales</td></tr>
+            <tr><td>Rétroréflexion de nuit</td><td>RL (mcd/lx/m2)</td><td>100 pour les lignes axiales</td></tr>
             <tr><td>Luminance de jour</td><td>Qd</td><td>Classe Q2 minimum</td></tr>
             <tr><td>R&eacute;sistance &agrave; la glissance</td><td>SRT</td><td>45 minimum</td></tr>
             <tr><td>Visibilit&eacute; sous pluie</td><td>RW</td><td>Classe RW1 pour les routes principales</td></tr>
@@ -294,7 +293,7 @@ export default function Content() {
         </table>
       </div>
       <p>
-        La r&eacute;troreflexion est le crit&egrave;re le plus critique. C&apos;est elle qui rend le marquage visible de nuit dans les phares des v&eacute;hicules. Un marquage qui ne r&eacute;trofl&eacute;chit plus est un marquage dangereux.
+        La rétroréflexion est le crit&egrave;re le plus critique. C&apos;est elle qui rend le marquage visible de nuit dans les phares des v&eacute;hicules. Un marquage qui ne r&eacute;trofl&eacute;chit plus est un marquage dangereux.
       </p>
 
       <h3>IISR (Instruction Interminist&eacute;rielle sur la Signalisation Routi&egrave;re)</h3>
@@ -308,7 +307,7 @@ export default function Content() {
         <li>Les conditions de mise en oeuvre</li>
       </ul>
       <p>
-        L&apos;IISR s&apos;impose &agrave; tous les gestionnaires de voirie : &Eacute;tat, d&eacute;partements, communes et gestionnaires priv&eacute;s.
+        L&apos;IISR s&apos;applique aux voies ouvertes à la circulation publique, quel que soit leur gestionnaire.
       </p>
 
       <h3>La <Link href="/competences/signalisation-verticale">signalisation verticale</Link> et le marquage au sol sont compl&eacute;mentaires</h3>
@@ -345,14 +344,14 @@ export default function Content() {
       <ul>
         <li><strong>Le trafic :</strong> un marquage sur une route &agrave; 10 000 v&eacute;hicules/jour s&apos;use cinq fois plus vite que sur une route &agrave; 2 000 v&eacute;hicules/jour</li>
         <li><strong>Le climat :</strong> gel-d&eacute;gel, pluie, UV d&eacute;gradent les produits de marquage</li>
-        <li><strong>Le salage hivernal :</strong> les sels de d&eacute;voiement sont particuli&egrave;rement agressifs pour les peintures</li>
+        <li><strong>Le salage hivernal :</strong> les sels de déverglaçage sont particuli&egrave;rement agressifs pour les peintures</li>
         <li><strong>La qualit&eacute; du support :</strong> un enrob&eacute; neuf offre une meilleure adh&eacute;rence qu&apos;un enrob&eacute; vieillissant</li>
       </ul>
 
       <h3>Plan d&apos;entretien recommand&eacute;</h3>
       <p>Un gestionnaire responsable devrait mettre en place un plan d&apos;entretien comprenant :</p>
       <ol>
-        <li><strong>Audit annuel</strong> de r&eacute;troreflexion (mesure avec un r&eacute;troflectom&egrave;tre)</li>
+        <li><strong>Audit annuel</strong> de rétroréflexion (mesure avec un r&eacute;troflectom&egrave;tre)</li>
         <li><strong>Reprises ponctuelles</strong> des marquages les plus sollicit&eacute;s (passages pi&eacute;tons, lignes de STOP)</li>
         <li><strong>Renouvellement complet</strong> selon la dur&eacute;e de vie du produit utilis&eacute;</li>
         <li><strong>Suivi documentaire</strong> pour justifier la conformit&eacute; en cas de litige</li>
@@ -365,10 +364,10 @@ export default function Content() {
 
       <h3>Le principe de responsabilit&eacute;</h3>
       <p>
-        L&apos;article L. 116-2 du Code de la voirie routi&egrave;re &eacute;tablit que le gestionnaire est responsable de l&apos;entretien normal de la voie. Le marquage au sol fait partie int&eacute;grante de cet entretien. Un marquage effac&eacute;, illisible ou non conforme constitue un d&eacute;faut d&apos;entretien normal.
+        Le gestionnaire d&apos;une voie est responsable de son entretien normal. Le marquage au sol fait partie int&eacute;grante de cet entretien. Un marquage effac&eacute;, illisible ou non conforme constitue un d&eacute;faut d&apos;entretien normal.
       </p>
       <p>
-        En cas d&apos;accident, la victime peut engager la responsabilit&eacute; du gestionnaire sur le fondement du d&eacute;faut d&apos;entretien. Les tribunaux administratifs ont condamn&eacute; de nombreuses communes pour des marquages d&eacute;faillants ayant contribu&eacute; &agrave; des accidents.
+        En cas d&apos;accident, la victime peut engager la responsabilit&eacute; du gestionnaire sur le fondement du d&eacute;faut d&apos;entretien. Un marquage défaillant ayant contribué à un accident peut ainsi conduire à une condamnation.
       </p>
 
       <h3>Les cons&eacute;quences financi&egrave;res</h3>
@@ -376,15 +375,15 @@ export default function Content() {
       <ul>
         <li><strong>L&apos;indemnisation int&eacute;grale</strong> de la victime (pr&eacute;judice corporel, mat&eacute;riel, moral)</li>
         <li><strong>Les frais d&apos;expertise</strong> et de proc&eacute;dure</li>
-        <li><strong>La majoration</strong> en cas de n&eacute;gligence d&eacute;montr&eacute;e (absence de plan d&apos;entretien)</li>
+        
       </ul>
       <p>
-        Un seul accident peut co&ucirc;ter des centaines de milliers d&apos;euros &agrave; une collectivit&eacute;. Le co&ucirc;t d&apos;un programme de renouvellement de marquage est d&eacute;risoire en comparaison.
+        Un seul accident peut coûter très cher à une collectivité. Le coût d&apos;un programme de renouvellement de marquage est d&eacute;risoire en comparaison.
       </p>
 
-      <h3>L&apos;exp&eacute;rience d&apos;une commune de l&apos;Ain</h3>
+      <h3>Exemple : un passage piéton devenu glissant</h3>
       <p>
-        En 2024, une commune de l&apos;Ain a &eacute;t&eacute; condamn&eacute;e &agrave; verser 85 000 EUR &agrave; un motocycliste qui avait chut&eacute; sur un passage pi&eacute;ton devenu glissant et invisible de nuit. L&apos;expertise avait montr&eacute; que la r&eacute;troreflexion du marquage &eacute;tait &agrave; 15 mcd/lx/m2, soit sept fois inf&eacute;rieure au seuil minimal. La commune n&apos;a pas pu produire de document attestant d&apos;un quelconque plan d&apos;entretien de ses marquages.
+        Prenons l&apos;exemple d&apos;un motocycliste qui chute sur un passage piéton devenu glissant et invisible de nuit. Si la commune ne peut produire aucun document attestant d&apos;un plan d&apos;entretien de ses marquages, sa défense devient bien plus difficile.
       </p>
       <p>
         <strong>Ne prenez pas ce risque.</strong> Renov&apos;Route accompagne les collectivit&eacute;s et les entreprises dans la mise en conformit&eacute; de leur signalisation au sol. <Link href="/devis">Demandez un devis gratuit</Link> pour un diagnostic complet de vos marquages.
@@ -399,12 +398,12 @@ export default function Content() {
 
       <h3>Que signifie un marquage jaune au sol ?</h3>
       <p>
-        Le marquage jaune au sol a plusieurs significations : une ligne jaune continue le long du trottoir interdit le stationnement, un zigzag jaune interdit l&apos;arr&ecirc;t (devant les &eacute;coles, arr&ecirc;ts de bus), et un marquage jaune temporaire en zone de travaux pr&eacute;vaut sur le marquage blanc permanent.
+        Le marquage jaune au sol a plusieurs significations : une ligne jaune continue le long du trottoir interdit l&apos;arrêt et le stationnement, une ligne jaune discontinue interdit le stationnement, un zigzag jaune signale un arrêt de bus, et un marquage jaune temporaire en zone de travaux pr&eacute;vaut sur le marquage blanc permanent.
       </p>
 
       <h3>Combien de temps dure un marquage au sol ?</h3>
       <p>
-        La dur&eacute;e de vie varie de six mois (peinture routi&egrave;re basique) &agrave; huit ans (bande pr&eacute;form&eacute;e thermocoll&eacute;e). Elle d&eacute;pend du produit utilis&eacute;, du volume de trafic, des conditions climatiques et de la qualit&eacute; du support. Un audit annuel de r&eacute;troreflexion permet de suivre l&apos;&eacute;tat r&eacute;el du marquage.
+        La dur&eacute;e de vie varie de six mois (peinture routi&egrave;re basique) &agrave; huit ans (bande pr&eacute;form&eacute;e thermocoll&eacute;e). Elle d&eacute;pend du produit utilis&eacute;, du volume de trafic, des conditions climatiques et de la qualit&eacute; du support. Un audit annuel de rétroréflexion permet de suivre l&apos;&eacute;tat r&eacute;el du marquage.
       </p>
 
       <h3>Un gestionnaire est-il responsable si le marquage est effac&eacute; ?</h3>
@@ -414,12 +413,12 @@ export default function Content() {
 
       <h3>Quelles sont les normes qui encadrent le marquage routier en France ?</h3>
       <p>
-        Le marquage routier est encadr&eacute; par la norme europ&eacute;enne NF EN 1436, qui d&eacute;finit les performances minimales des produits (r&eacute;troreflexion, luminance, glissance), et par l&apos;IISR (Instruction Interminist&eacute;rielle sur la Signalisation Routi&egrave;re), qui fixe les r&egrave;gles d&apos;utilisation et de mise en oeuvre.
+        Le marquage routier est encadr&eacute; par la norme europ&eacute;enne NF EN 1436, qui d&eacute;finit les performances minimales des produits (rétroréflexion, luminance, glissance), et par l&apos;IISR (Instruction Interminist&eacute;rielle sur la Signalisation Routi&egrave;re), qui fixe les r&egrave;gles d&apos;utilisation et de mise en oeuvre.
       </p>
 
       <h3>Quelle est la largeur r&eacute;glementaire d&apos;un passage pi&eacute;ton ?</h3>
       <p>
-        Un passage pi&eacute;ton de type A (le plus courant) doit avoir une largeur minimale de 2,50 m&egrave;très. En pratique, la largeur standard est de 4 &agrave; 6 m&egrave;très. Les bandes qui le composent mesurent 50 cm de large avec un espacement de 50 cm entre elles.
+        Un passage piéton à bandes doit avoir une largeur minimale de 2,50 mètres. En pratique, la largeur standard est de 4 &agrave; 6 mètres. Les bandes qui le composent mesurent 50 cm de large avec un espacement de 50 cm entre elles.
       </p>
 
       <h2>Le marquage au sol, un investissement de s&eacute;curit&eacute; et de conformit&eacute;</h2>
@@ -430,7 +429,7 @@ export default function Content() {
         Pour les gestionnaires de voirie, de parkings et d&apos;espaces priv&eacute;s, le marquage au sol est aussi une responsabilit&eacute;. Un marquage effac&eacute; engage votre responsabilit&eacute;. Un marquage non conforme vous expose &agrave; des poursuites. Un marquage bien entretenu prot&egrave;ge vos usagers et vous prot&egrave;ge juridiquement.
       </p>
       <p>
-        <strong>Renov&apos;Route</strong> est sp&eacute;cialiste du marquage au sol depuis 2016, avec plus de 1 000 projets r&eacute;alis&eacute;s dans toute la France. Nos &eacute;quipes ma&icirc;trisent les normes NF EN 1436 et l&apos;IISR, et interviennent sur tous types de surfaces : routes, parkings, zones industrielles, entrep&ocirc;ts logistiques.
+        <strong>Renov&apos;Route</strong> est sp&eacute;cialiste du marquage au sol depuis 2016, avec plus de 1 000 projets r&eacute;alis&eacute;s dans toute la France. Nos équipes appliquent l&apos;IISR et utilisent des peintures certifiées NF EN 1436, et interviennent sur tous types de surfaces : routes, parkings, zones industrielles, entrep&ocirc;ts logistiques.
       </p>
       <p>
         <strong><Link href="/devis">Demandez votre devis gratuit</Link></strong> en 48h ou appelez-nous au <strong>07 86 81 96 92</strong>. Nous r&eacute;alisons un diagnostic complet de votre signalisation au sol et vous proposons des solutions conformes, durables et adapt&eacute;es &agrave; votre budget.

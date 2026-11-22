@@ -22,15 +22,12 @@ import { meta as dosDaneParkingReglementationPose } from './dos-dane-parking-reg
 import { meta as revetementSolIndustrielTypesPrix } from './revetement-sol-industriel-types-prix'
 import { meta as panneauLimitationVitesseParking } from './panneau-limitation-vitesse-parking'
 import { meta as ombrierePvParking2026 } from './ombriere-photovoltaique-parking-2026'
-import { meta as nouvellesNormesSignaletique2026 } from './nouvelles-normes-signaletique-parking-2026'
-import { meta as nidsDePoulesHiver2026 } from './nids-de-poule-hiver-2026-solutions'
 import { meta as solEpoxyEntrepotAvantagesPose } from './sol-epoxy-entrepot-avantages-pose'
 import { meta as signalisationParkingCopropriete } from './signalisation-parking-copropriete'
 import { meta as reparationChausseeParking } from './reparation-chaussee-parking-methodes-prix'
 import { meta as normeNfEn1436 } from './norme-nf-en-1436-marquage-routier'
 import { meta as calendrierEntretienParking } from './calendrier-entretien-parking'
 import { meta as bumperSupermarcheProtectionFrigo } from './bumper-supermarche-protection-frigo'
-import { meta as signalisationHorizontaleLyonMarquage } from './signalisation-horizontale-lyon-marquage'
 import { meta as marquageSolSupermarcheGrandeSurface } from './marquage-sol-supermarche-grande-surface'
 import { meta as reparerNidDePouleSoiMeme } from './reparer-nid-de-poule-soi-meme'
 import { meta as dureeVieMarquageSolParking } from './duree-vie-marquage-sol-parking'
@@ -79,15 +76,12 @@ const GUIDES: Guide[] = [
   revetementSolIndustrielTypesPrix,
   panneauLimitationVitesseParking,
   ombrierePvParking2026,
-  nouvellesNormesSignaletique2026,
-  nidsDePoulesHiver2026,
   solEpoxyEntrepotAvantagesPose,
   signalisationParkingCopropriete,
   reparationChausseeParking,
   normeNfEn1436,
   calendrierEntretienParking,
   bumperSupermarcheProtectionFrigo,
-  signalisationHorizontaleLyonMarquage,
   marquageSolSupermarcheGrandeSurface,
   reparerNidDePouleSoiMeme,
   dureeVieMarquageSolParking,

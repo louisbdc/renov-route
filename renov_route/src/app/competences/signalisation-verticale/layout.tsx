@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description:
       "Installation de signalisation verticale à Lyon : panneaux stop, PMR, limitation vitesse, direction. Fourniture et pose conforme aux normes.",
     url: 'https://renov-route.com/competences/signalisation-verticale/',
-    images: [{ url: 'https://renov-route.com/assets/images/og-image.jpg', width: 1200, height: 630, alt: 'Renov Route - Expert Marquage Routier' }],
+    images: [{ url: 'https://renov-route.com/assets/images/og-image.jpg', width: 1200, height: 630, alt: 'Rénov\'Route - Expert Marquage Routier' }],
   },
   twitter: {
     card: 'summary_large_image',

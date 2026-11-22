@@ -1,10 +1,11 @@
 import type { Guide } from '../guides'
+import KeyAnswer from '@/components/KeyAnswer'
 import Link from 'next/link'
 
 export const meta: Guide = {
   slug: 'comment-tracer-parking',
   title: 'Comment tracer un parking : les 7 étapes d\'un marquage réussi',
-  metaTitle: 'Comment tracer un parking en 7 étapes (2026) | Rénov\'Route',
+  metaTitle: "Comment tracer un parking en 7 étapes",
   metaDescription: 'Tracer un parking en 7 étapes : plan de marquage, dimensions réglementaires, peinture NF EN 1436, normes PMR. Guide expert depuis 2016. Devis gratuit 48h.',
   publishDate: '2026-03-04',
   updatedDate: '2026-07-28',
@@ -51,6 +52,12 @@ export const meta: Guide = {
 export default function Content() {
   return (
     <>
+      <KeyAnswer question="Comment tracer un parking ?">
+        <p>
+          Pour <strong>tracer un parking</strong>, suivez 7 étapes : relevé du terrain, plan de marquage, calcul des places PMR (2 % minimum), préparation du support, choix de la peinture, traçage, puis signalisation. Une place standard mesure <strong>2,50 × 5 m</strong>, une place PMR <strong>3,30 × 5 m</strong>. Comptez 1 à 2 jours pour 50 à 100 places.
+        </p>
+      </KeyAnswer>
+
       <p>
         Vous avez un terrain brut, un parking effacé ou un projet de réaménagement. La question se pose : par où commencer pour tracer un parking proprement ?
       </p>
@@ -79,12 +86,12 @@ export default function Content() {
       <h3>Définir les besoins</h3>
       <ul>
         <li>Combien de places sont nécessaires ?</li>
-        <li>Faut-il des places PMR ? (Obligatoire pour les ERP soumis aux <Link href="/guides/accessibilite-parking-erp-normes">normes d&apos;accessibilité ERP</Link> et parkings de plus de 50 places)</li>
+        <li>Faut-il des places PMR ? (Obligatoire pour les ERP soumis aux <Link href="/guides/accessibilite-parking-erp-normes">normes d&apos;accessibilité ERP</Link>, dès la première place ouverte au public)</li>
         <li>Y a-t-il des zones spécifiques : livraison, poids lourds, deux-roues, véhicules électriques ?</li>
         <li>Le parking est-il ouvert au public ou réservé ?</li>
       </ul>
       <p>
-        Quand Laurent, responsable technique d&apos;un Intermarché près de Bourg-en-Bresse, a voulu retracer son parking de 3 200 m², il a d&apos;abord fait réaliser un relevé topographique. Le terrain avait une pente de 3 % sur la partie nord, invisible à l&apos;œil nu. Sans ce relevé, les places de la zone basse auraient été 20 cm plus étroites que prévu à cause du ruissellement qui avait érodé le bord d&apos;enrobé. Le diagnostic a représenté un investissement modeste qui a évité plusieurs milliers d&apos;euros de reprises.
+        Prenons l&apos;exemple de Laurent, responsable technique d&apos;un supermarché : pour retracer son parking de 3 200 m², il a d&apos;abord fait réaliser un relevé topographique. Le terrain avait une pente de 3 % sur la partie nord, invisible à l&apos;œil nu. Sans ce relevé, les places de la zone basse auraient été 20 cm plus étroites que prévu à cause du ruissellement qui avait érodé le bord d&apos;enrobé. Le diagnostic a représenté un investissement modeste qui a évité plusieurs milliers d&apos;euros de reprises.
       </p>
       <p>
         <strong>Vous avez un projet de traçage de parking ?</strong> <Link href="/devis">Demandez un diagnostic gratuit</Link> à nos experts. Nous réalisons le relevé et vous proposons un plan de marquage en 48h.
@@ -114,7 +121,7 @@ export default function Content() {
             <tr>
               <td>Place PMR</td>
               <td>3,30 m x 5,00 m (place + bande d&apos;accès)</td>
-              <td>Arrêté du 20 avril 2017</td>
+              <td><a href="https://www.legifrance.gouv.fr/loda/id/JORFTEXT000034485459/" target="_blank" rel="noopener noreferrer">Arrêté du 20 avril 2017</a></td>
             </tr>
             <tr>
               <td>Voie de circulation (double sens)</td>
@@ -212,7 +219,7 @@ export default function Content() {
         </table>
       </div>
       <p>
-        Les places PMR doivent être situées au plus près de l&apos;entrée de l&apos;établissement, sur un sol plat et sans obstacle. Elles nécessitent une <Link href="/guides/signalisation-pmr-parking">signalisation spécifique</Link> : pictogramme au sol, panneau B6d vertical et bande podotactile de guidage.
+        Les places PMR doivent être situées au plus près de l&apos;entrée de l&apos;établissement, sur un sol plat et sans obstacle. Elles nécessitent une <Link href="/guides/signalisation-pmr-parking">signalisation spécifique</Link> : pictogramme au sol, panneau vertical B6d avec panonceau M6h et bande podotactile de guidage.
       </p>
       <p>
         Pour le détail complet des <Link href="/guides/normes-pmr-parking">normes PMR en parking</Link>, consultez notre guide dédié.
@@ -245,7 +252,7 @@ export default function Content() {
         <li>Application d&apos;un primaire d&apos;adhérence avant la peinture</li>
       </ul>
       <p>
-        Nadia, syndic d&apos;une résidence de 80 lots à Villeurbanne, a fait tracer son parking sans préparation préalable. Le prestataire a peint directement sur un enrobé taché d&apos;huile par 15 ans de stationnement. Résultat : le marquage s&apos;est décollé en moins de 6 semaines aux endroits les plus graissés. La reprise a coûté près du double du traçage initial, nettoyage haute pression compris. Une préparation correcte dès le départ aurait coûté bien moins cher.
+        Prenons l&apos;exemple de Nadia, syndic d&apos;une résidence de 80 lots à Villeurbanne : elle a fait tracer son parking sans préparation préalable. Le prestataire a peint directement sur un enrobé taché d&apos;huile par 15 ans de stationnement. Résultat : le marquage s&apos;est décollé en moins de 6 semaines aux endroits les plus graissés. La reprise a coûté près du double du traçage initial, nettoyage haute pression compris. Une préparation correcte dès le départ aurait coûté bien moins cher.
       </p>
 
       <h2>Étape 5 : choisir la bonne peinture</h2>
@@ -290,7 +297,7 @@ export default function Content() {
 
       <h3>Exigence minimale : la certification NF EN 1436</h3>
       <p>
-        Toute peinture de marquage doit être certifiée NF EN 1436 (norme européenne pour les produits de marquage routier). Cette certification garantit la rétroréflexion nocturne, la résistance à l&apos;abrasion et la durabilité du produit. N&apos;acceptez aucun compromis sur ce point.
+        Exigez une peinture de marquage certifiée NF EN 1436 (norme européenne pour les produits de marquage routier). Cette certification atteste la rétroréflexion nocturne, la résistance à l&apos;abrasion et la durabilité du produit. N&apos;acceptez aucun compromis sur ce point.
       </p>
       <p>
         Pour connaître les <Link href="/guides/prix-marquage-sol-parking">prix détaillés du marquage au sol de parking</Link>, consultez notre guide tarifaire.
@@ -373,10 +380,10 @@ export default function Content() {
         Un parking bien tracé ne se limite pas aux lignes au sol. La <Link href="/competences/signalisation-verticale">signalisation verticale</Link> complète le dispositif :
       </p>
 
-      <h3>Panneaux obligatoires</h3>
+      <h3>Panneaux à prévoir</h3>
       <ul>
         <li><strong>Panneau STOP</strong> aux intersections internes</li>
-        <li><strong>Panneau B6d</strong> (stationnement réservé PMR) devant chaque place PMR</li>
+        <li><strong>Panneau B6d avec panonceau M6h</strong> (stationnement réservé PMR) devant chaque place PMR</li>
         <li><strong>Limitation de vitesse</strong> (10 ou 20 km/h selon la taille du parking)</li>
         <li><strong>Sens de circulation</strong> (flèches, sens interdit)</li>
       </ul>
@@ -388,7 +395,7 @@ export default function Content() {
         <li><strong>Bornes anti-bélier</strong> pour protéger les vitrines et les zones piétonnes</li>
       </ul>
       <p>
-        Pour les <Link href="/competences/accessoires-parking">accessoires de parking</Link>, Renov&apos;Route fournit et installé tous les équipements complémentaires au traçage.
+        Pour les <Link href="/competences/accessoires-parking">accessoires de parking</Link>, Renov&apos;Route fournit et installe tous les équipements complémentaires au traçage.
       </p>
 
       <h2>Les 5 erreurs les plus fréquentes quand on trace un parking</h2>
@@ -400,7 +407,7 @@ export default function Content() {
 
       <h3>2. Oublier les places PMR</h3>
       <p>
-        C&apos;est l&apos;erreur la plus coûteuse. Un parking non conforme aux normes PMR expose le gestionnaire à une amende de 45 000 euros par infraction et à une interdiction d&apos;exploitation pour les ERP. Les places PMR ne sont pas un bonus ; c&apos;est une obligation légale.
+        C&apos;est l&apos;erreur la plus coûteuse. Un parking non conforme aux normes PMR expose le gestionnaire à une amende pouvant atteindre 45 000 euros et à une fermeture pour les ERP. Les places PMR ne sont pas un bonus ; c&apos;est une obligation légale.
       </p>
 
       <h3>3. Tracer sur un sol humide ou gras</h3>
@@ -415,10 +422,10 @@ export default function Content() {
 
       <h3>5. Ne pas prévoir la signalisation verticale</h3>
       <p>
-        Un parking avec des lignes au sol mais sans panneaux STOP, sans signalisation PMR et sans limitation de vitesse n&apos;est pas conforme. Et en cas d&apos;accident, la responsabilité du gestionnaire est engagée.
+        Un parking avec des lignes au sol mais sans panneaux STOP, sans signalisation PMR et sans limitation de vitesse est incomplet. Et en cas d&apos;accident, la responsabilité du gestionnaire est engagée.
       </p>
       <p>
-        Damien, directeur d&apos;un hôtel-restaurant à Brignais, a fait tracer son parking de 35 places par un peintre en bâtiment. Pas de plan, pas de places PMR, pas de panneaux. Lors d&apos;un contrôle de la commission de sécurité, l&apos;établissement a reçu une mise en demeure de mise en conformité sous 6 mois. Damien a dû refaire l&apos;intégralité du marquage avec un prestataire spécialisé, installer des panneaux et créer 2 places PMR. Le coût total a représenté environ trois fois le prix d&apos;un traçage professionnel fait correctement dès le départ.
+        Prenons l&apos;exemple de Damien, directeur d&apos;un hôtel-restaurant à Brignais : il a fait tracer son parking de 35 places par un peintre en bâtiment. Pas de plan, pas de places PMR, pas de panneaux. Lors d&apos;un contrôle de la commission de sécurité, l&apos;établissement a reçu une mise en demeure de mise en conformité sous 6 mois. Damien a dû refaire l&apos;intégralité du marquage avec un prestataire spécialisé, installer des panneaux et créer 2 places PMR. Le coût total a représenté environ trois fois le prix d&apos;un traçage professionnel fait correctement dès le départ.
       </p>
 
       <h2>Tracer soi-même ou faire appel à un professionnel ?</h2>

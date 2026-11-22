@@ -76,7 +76,7 @@ export default function SignalisationVerticalePage() {
         heroTitle="Signalisation verticale"
         heroSubtitle="Installation et remplacement de tous types de panneaux : STOP, cédez le passage, PMR, sens interdits. Conformité réglementaire garantie."
         heroBackgroundImage="/assets/images/hero-signalisation.webp"
-        heroImageAlt="Installation de panneaux de signalisation verticale sur parking par Rénov Route"
+        heroImageAlt="Installation de panneaux de signalisation verticale sur parking par Rénov'Route"
         accentColor="emerald"
         descriptionHeading="Panneaux de signalisation professionnels"
         descriptionParagraphs={[

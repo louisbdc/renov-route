@@ -1,11 +1,12 @@
 import type { Guide } from '../guides'
+import KeyAnswer from '@/components/KeyAnswer'
 import Link from 'next/link'
 
 export const meta: Guide = {
   slug: 'choisir-entreprise-marquage-au-sol',
   title:
     'Comment choisir son entreprise de marquage au sol : 7 critères essentiels',
-  metaTitle: "Entreprise de marquage au sol : comment choisir son prestataire",
+  metaTitle: "Choisir son entreprise de marquage au sol",
   metaDescription:
     "Comment choisir son entreprise de marquage au sol ? 7 critères essentiels : certifications, références, garanties, réactivité. Guide pratique pour décider.",
   publishDate: '2026-04-27',
@@ -19,6 +20,12 @@ export const meta: Guide = {
 export default function Content() {
   return (
     <>
+      <KeyAnswer question="Comment choisir une entreprise de marquage au sol ?">
+        <p>
+          Pour choisir une <strong>entreprise de marquage au sol</strong>, comparez sept critères : produits certifiés NF EN 1436, références, maîtrise des normes PMR, méthode de préparation, <strong>garantie d&apos;au moins 2 ans</strong> avec assurance RC pro, réactivité et coût sur 5 ans. Exigez un devis détaillé par poste plutôt que le prix le plus bas.
+        </p>
+      </KeyAnswer>
+
       <p>
         Vous avez reçu trois devis pour le retraçage de votre parking. Les prix
         varient du simple au triple. Les prestations semblent identiques sur le
@@ -60,7 +67,7 @@ export default function Content() {
 
       <p>
         Tout produit de marquage utilisé sur voirie publique ou dans un
-        parking recevant du public doit être certifié{' '}
+        parking recevant du public devrait être certifié{' '}
         <a
           href="https://www.afnor.org/"
           target="_blank"
@@ -137,12 +144,11 @@ export default function Content() {
       </div>
 
       <p>
-        Marc, directeur technique d&apos;une enseigne de restauration rapide, a
-        fait retracer les parkings de ses 12 restaurants par le prestataire le
+        Prenons l&apos;exemple de Marc, directeur technique d&apos;une enseigne de restauration rapide : il a fait retracer les parkings de ses 12 restaurants par le prestataire le
         moins cher. Peinture non certifiée, aucune fiche technique fournie.
         Huit mois plus tard, les marquages des six sites les plus fréquentés
         étaient déjà illisibles. Le coût du retraçage : 14 000 €, soit plus
-        que l&apos;écart de prix avec le devis du prestataire certifié.
+        que l&apos;écart de prix avec le devis du prestataire utilisant des produits certifiés.
       </p>
 
       <h2>Critère 2 : l&apos;expérience et les références clients</h2>
@@ -360,8 +366,7 @@ export default function Content() {
       </p>
 
       <p>
-        Isabelle, syndic d&apos;une copropriété de 80 logements à
-        Villeurbanne, avait choisi un artisan local pour le retraçage de son
+        Prenons l&apos;exemple d&apos;Isabelle, syndic d&apos;une copropriété de 80 logements à Villeurbanne : elle avait choisi un artisan local pour le retraçage de son
         parking souterrain. Prix attractif, mais aucune garantie écrite. Quand
         des bandes de peinture ont commencé à se décoller après quatre mois,
         le prestataire a refusé de revenir sans facturation supplémentaire.
@@ -572,6 +577,11 @@ export default function Content() {
         avis en ligne. Vérifiez l&apos;existence de l&apos;entreprise sur le
         registre du commerce (SIRET). Un prestataire transparent n&apos;a
         aucune raison de refuser.
+      </p>
+
+      <h3>Quelle garantie exiger d&apos;une entreprise de marquage au sol ?</h3>
+      <p>
+        Exigez une garantie écrite d&apos;au moins 2 ans sur les travaux, couvrant l&apos;adhérence, la résistance et la conformité, ainsi qu&apos;une attestation d&apos;assurance RC professionnelle. La garantie décennale ne concerne, le cas échéant, que les ouvrages structurels comme la résine de sol.
       </p>
 
       <h2>Conclusion : ne choisissez pas au hasard</h2>

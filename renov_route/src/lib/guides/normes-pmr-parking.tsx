@@ -5,8 +5,8 @@ import Link from 'next/link'
 export const meta: Guide = {
   slug: 'normes-pmr-parking',
   title: 'Normes PMR parking 2026 : dimensions, nombre de places et mise en conformité',
-  metaTitle: 'Normes PMR parking 2026 : places & sanctions | Rénov\'Route',
-  metaDescription: 'Normes PMR parking 2026 : dimensions des places, nombre obligatoire, marquage et signalisation. Guide complet pour la mise en conformité.',
+  metaTitle: "Normes PMR parking : obligations, places et sanctions",
+  metaDescription: "Combien de places PMR prévoir ? 2 % du total, arrondi à l’entier supérieur. Dimensions, marquage, signalisation et étapes de mise en conformité.",
   publishDate: '2026-03-04',
   updatedDate: '2026-08-06',
   category: 'normes-pmr',
@@ -19,16 +19,13 @@ export default function Content() {
     <>
       <KeyAnswer question="Combien de places PMR sont obligatoires dans un parking ?">
         <p>
-        La réglementation impose <strong>2 % du nombre total de places</strong>, arrondi à l’entier
-        supérieur, avec un minimum d’une place. Au-delà de 500 places, le nombre est fixé par arrêté
+        Les <strong>normes PMR parking</strong> imposent <strong>2 % du nombre total de places</strong>, arrondi à l’entier supérieur, avec un minimum d’une place. Chaque place adaptée mesure au moins 3,30 m de large. Au-delà de 500 places, le nombre est fixé par arrêté
         municipal et ne peut être inférieur à 10.
         </p>
       </KeyAnswer>
 
       <p>
-        Un contrôle d&apos;accessibilité dans votre parking pourrait vous coûter 45 000 €
-        d&apos;amende. Ce n&apos;est pas une hypothèse : <a href="https://www.legifrance.gouv.fr/search/code?query=L.%20152-4%20CCH" target="_blank" rel="noopener noreferrer">l&apos;article L. 152-4 du Code de la construction</a> prévoit cette sanction pour tout ERP (Établissement Recevant du Public)
-        dont le parking ne respecte pas les <strong>normes PMR</strong> (Personne à Mobilité Réduite).
+        Un défaut d&apos;accessibilité dans votre parking peut vous exposer à une amende allant jusqu&apos;à 45 000 €. Le Code de la construction et de l&apos;habitation prévoit cette sanction pour un ERP (Établissement Recevant du Public) dont le parking ne respecte pas les <strong>normes PMR</strong> (Personne à Mobilité Réduite).
       </p>
       <p>
         Pourtant, la réglementation est moins compliquée qu&apos;elle n&apos;en a l&apos;air.
@@ -68,7 +65,7 @@ export default function Content() {
 
       <p>
         <strong>Attention :</strong> pour les parkings de plus de 500 places, le calcul change.
-        L&apos;arrêté du 20 avril 2017 renvoie alors à un arrêté municipal, qui fixe le nombre de
+        L&apos;<a href="https://www.legifrance.gouv.fr/loda/id/JORFTEXT000034485459/" target="_blank" rel="noopener noreferrer">arrêté du 20 avril 2017</a> renvoie alors à un arrêté municipal, qui fixe le nombre de
         places adaptées sans pouvoir descendre en dessous de 10.
       </p>
 
@@ -85,11 +82,7 @@ export default function Content() {
         le Code du travail impose des places adaptées pour les travailleurs handicapés.
       </p>
       <p>
-        Élise, directrice d&apos;un centre commercial de 350 places à Vienne (38), pensait
-        être en règle avec ses 5 places PMR. Lors d&apos;un contrôle de la commission de
-        sécurité, on lui a signalé qu&apos;elle devait en avoir 7. Le coût de mise en
-        conformité : 1 400 € pour le marquage et la signalisation de 2 places
-        supplémentaires. Un investissement dérisoire comparé à l&apos;amende qu&apos;elle risquait.
+        Prenons l&apos;exemple d&apos;un centre commercial de 350 places qui ne compte que 5 places PMR. La règle des 2 % en impose 7 : il doit donc en créer 2 de plus, un coût limité au regard de l&apos;amende encourue.
       </p>
       <p>
         Vous n&apos;êtes pas certain du nombre de places PMR nécessaires dans votre parking ?
@@ -100,7 +93,7 @@ export default function Content() {
 
       <h2>Dimensions d&apos;une place PMR : les mesures à respecter</h2>
       <p>
-        Les dimensions d&apos;une place PMR sont définies par <a href="https://www.legifrance.gouv.fr/search/all?query=arr%C3%AAt%C3%A9%20du%2020%20avril%202017%20accessibilit%C3%A9%20ERP" target="_blank" rel="noopener noreferrer">l&apos;arrêté du 20 avril 2017</a> relatif à l&apos;accessibilité des ERP. Elles sont nettement plus grandes qu&apos;une
+        Les dimensions d&apos;une place PMR sont définies par l&apos;<a href="https://www.legifrance.gouv.fr/loda/id/JORFTEXT000034485459/" target="_blank" rel="noopener noreferrer">arrêté du 20 avril 2017</a> relatif à l&apos;accessibilité des ERP. Elles sont nettement plus grandes qu&apos;une
         place standard pour permettre le transfert depuis un fauteuil roulant.
       </p>
 
@@ -147,12 +140,7 @@ export default function Content() {
       </ul>
 
       <p>
-        Thomas, gérant d&apos;un hôtel-restaurant près de Lyon, avait fait tracer 3 places
-        PMR de 2,50 m de large, soit la largeur d&apos;une place standard. Lors de la visite
-        de la commission d&apos;accessibilité, les places ont été jugées non conformes. Il a
-        dû faire refaire le marquage complet du parking pour repositionner les places à
-        3,30 m. Total : 4 200 € au lieu des 800 € qu&apos;aurait coûté un marquage correct
-        dès le départ.
+        Prenons l&apos;exemple d&apos;un hôtel-restaurant qui fait tracer 3 places PMR de 2,50 m de large, soit la largeur d&apos;une place standard. Ces places ne sont pas conformes : il faut reprendre le marquage pour les repositionner à 3,30 m, ce qui coûte bien plus qu&apos;un tracé correct dès le départ.
       </p>
 
       <h2>Marquage au sol PMR : les règles à respecter</h2>
@@ -286,12 +274,7 @@ export default function Content() {
       </ul>
 
       <p>
-        Laurent, responsable technique d&apos;une chaîne de restauration rapide, devait
-        mettre en conformité 12 parkings répartis sur toute la région Rhône-Alpes. Chaque
-        site avait entre 2 et 4 places PMR à créer ou corriger. En regroupant les
-        interventions, nous avons réalisé l&apos;ensemble des travaux en trois semaines.
-        Coût moyen par site : 1 200 €, soit moins qu&apos;une seule journée d&apos;amende
-        administrative.
+        Prenons l&apos;exemple d&apos;une chaîne de restauration rapide qui doit mettre en conformité plusieurs parkings, avec quelques places PMR à créer ou corriger sur chaque site. Regrouper les interventions réduit les déplacements et le coût par site.
       </p>
 
       <h2>Combien coûte une mise en conformité PMR ?</h2>
@@ -339,7 +322,7 @@ export default function Content() {
 
       <blockquote>
         <p>
-          Quand Olivier, directeur d&apos;un supermarché de 120 places dans l&apos;Ain, a reçu la visite de la commission d&apos;accessibilité en janvier 2026, il s&apos;attendait au pire. Le parking avait seulement 2 places PMR au lieu des 4 requises, les pictogrammes étaient à peine visibles et un poteau gênait le cheminement vers l&apos;entrée. Il a fait appel à notre équipe pour une mise en conformité complète. En trois jours, nous avons retracé les 4 places PMR aux dimensions réglementaires, posé les panneaux B6d, installé les bandes podotactiles et déplacé le poteau. Budget total : plusieurs milliers d&apos;euros. Deux mois plus tard, le second contrôle a validé la conformité totale.
+          Prenons l&apos;exemple d&apos;un supermarché de 120 places avec seulement 2 places PMR, alors que la règle des 2 % en impose 3. Si les pictogrammes sont à peine visibles et qu&apos;un poteau gêne le cheminement vers l&apos;entrée, la mise en conformité porte à la fois sur le nombre de places, le marquage, les panneaux et le cheminement.
         </p>
       </blockquote>
 
@@ -370,7 +353,7 @@ export default function Content() {
           </thead>
           <tbody>
             <tr><td>Non-conformité d&apos;un ERP</td><td>Amende jusqu&apos;à 45 000 euros (personne physique)</td></tr>
-            <tr><td>Récidive</td><td>75 000 euros et/ou 6 mois d&apos;emprisonnement</td></tr>
+            
             <tr><td>Personne morale</td><td>Amende jusqu&apos;à 225 000 euros</td></tr>
             <tr><td>Non-dépôt d&apos;Ad&apos;AP (quand c&apos;était obligatoire)</td><td>1 500 à 5 000 euros</td></tr>
           </tbody>
@@ -379,7 +362,7 @@ export default function Content() {
 
       <blockquote>
         <p>
-          Antoine, gérant de trois restaurants rapides en périphérie lyonnaise, a reçu trois PV d&apos;infraction le même mois. Aucun de ses parkings n&apos;avait de place PMR conforme. Montant cumulé des amendes : plus de 10 000 euros. Il a ensuite investi plusieurs milliers d&apos;euros supplémentaires pour mettre les trois parkings aux normes. Au total, cette mise en conformité tardive lui a coûté bien plus de trois fois le prix des travaux seuls. Son conseil ? &quot;Faites-le tout de suite. Le coût des travaux, c&apos;est rien comparé aux amendes.&quot;
+          Prenons l&apos;exemple d&apos;un exploitant de plusieurs restaurants dont aucun parking n&apos;a de place PMR conforme. Attendre un contrôle ajoute le risque de sanction au coût des travaux, qui restent à financer de toute façon.
         </p>
       </blockquote>
 
@@ -406,19 +389,19 @@ export default function Content() {
         Pour le détail du processus en copropriété, consultez notre guide complet sur la <Link href="/guides/renovation-parking-copropriete">rénovation de parking en copropriété</Link>.
       </p>
 
-      <h2>Conformité accessibilité parking 2026 : ce qui change</h2>
+      <h2>Conformité accessibilité parking en 2026 : où en est-on ?</h2>
       <p>
-        L&apos;année 2026 marque un tournant dans l&apos;application des normes d&apos;accessibilité parking. Voici les évolutions notables pour les gestionnaires de parkings existants.
+        Voici les points à garder en tête pour les gestionnaires de parkings existants.
       </p>
 
-      <h3>Renforcement des contrôles</h3>
+      <h3>Les contrôles</h3>
       <p>
-        Les commissions communales d&apos;accessibilité ont reçu des moyens supplémentaires pour intensifier les contrôles sur le terrain. Les contrôles inopinés se multiplient, en particulier dans les zones commerciales et les copropriétés avec locaux professionnels.
+        Un ERP peut voir son accessibilité examinée, notamment lors de travaux ou d&apos;une visite de commission. Mieux vaut donc disposer d&apos;un parking conforme et d&apos;un registre d&apos;accessibilité à jour.
       </p>
 
-      <h3>Sanctions renforcées en pratique</h3>
+      <h3>Les sanctions en pratique</h3>
       <p>
-        Si les montants des amendes n&apos;ont pas changé (45 000 euros personne physique, 225 000 euros personne morale), la tolérance des commissions a nettement diminué. Les gestionnaires qui n&apos;ont pas engagé de démarche de mise en conformité sont désormais verbalisés plus systématiquement.
+        Les amendes peuvent atteindre 45 000 euros pour une personne physique et 225 000 euros pour une personne morale. Engager la mise en conformité avant un contrôle reste la meilleure protection.
       </p>
 
       <h3>Aménagement PMR de parking existant : les spécificités</h3>
@@ -443,7 +426,7 @@ export default function Content() {
 
       <h3>Amendes</h3>
       <ul>
-        <li><strong>Personne morale :</strong> jusqu&apos;à 225 000 € d&apos;amende (<a href="https://www.legifrance.gouv.fr/search/code?query=L.%20152-4%20CCH" target="_blank" rel="noopener noreferrer">article L. 152-4 du CCH</a>)</li>
+        <li><strong>Personne morale :</strong> jusqu&apos;à 225 000 € d&apos;amende</li>
         <li><strong>Personne physique :</strong> jusqu&apos;à 45 000 € d&apos;amende</li>
         <li><strong>Récidive :</strong> les peines peuvent être doublées, avec une peine d&apos;emprisonnement de 6 mois</li>
       </ul>
@@ -479,8 +462,7 @@ export default function Content() {
 
       <h3>Peut-on verbaliser sur une place PMR dans un parking privé ?</h3>
       <p>
-        Oui. Depuis la loi du 18 mars 2015, le stationnement abusif sur une place PMR est
-        passible d&apos;une amende de 135 € (4e classe), y compris dans les parkings privés
+        Oui. Le stationnement abusif sur une place PMR est passible d&apos;une amende de 135 € (4e classe), y compris dans les parkings privés
         ouverts à la circulation publique (centres commerciaux, supermarchés, hôpitaux).
       </p>
 
@@ -502,10 +484,8 @@ export default function Content() {
 
       <h3>Les dimensions PMR changent-elles en 2026 ?</h3>
       <p>
-        Les dimensions réglementaires (3,30 m x 5,00 m) n&apos;ont pas changé depuis
-        <a href="https://www.legifrance.gouv.fr/search/all?query=arr%C3%AAt%C3%A9%20du%2020%20avril%202017%20accessibilit%C3%A9%20ERP" target="_blank" rel="noopener noreferrer"> l&apos;arrêté du 20 avril 2017</a>. Aucune modification n&apos;est prévue en 2026.
-        Ce qui évolue, c&apos;est le niveau d&apos;exigence des contrôles : les commissions
-        d&apos;accessibilité sont de plus en plus rigoureuses.
+        Les dimensions de référence (3,30 m x 5,00 m) sont celles de
+        l&apos;<a href="https://www.legifrance.gouv.fr/loda/id/JORFTEXT000034485459/" target="_blank" rel="noopener noreferrer">arrêté du 20 avril 2017</a>, qui reste la référence pour les ERP neufs.
       </p>
 
       <h2>Faites vérifier votre parking</h2>
@@ -516,7 +496,7 @@ export default function Content() {
         souvent inférieur à 2 000 € pour un parking de taille moyenne.
       </p>
       <p>
-        En revanche, ne pas le faire exposé à des amendes pouvant atteindre 225 000 €,
+        En revanche, ne pas le faire expose à des amendes pouvant atteindre 225 000 €,
         sans compter le risque de fermeture administrative et de mise en cause en cas
         d&apos;accident.
       </p>

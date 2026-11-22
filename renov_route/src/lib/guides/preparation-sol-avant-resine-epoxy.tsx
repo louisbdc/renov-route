@@ -1,9 +1,10 @@
 import type { Guide } from '../guides'
+import KeyAnswer from '@/components/KeyAnswer'
 import Link from 'next/link'
 
 export const meta: Guide = {
   slug: 'preparation-sol-avant-resine-epoxy',
-  title: 'Comment préparer un sol avant résine époxy : les 6 étapes',
+  title: 'Préparation du sol avant résine époxy : les 6 étapes',
   metaTitle: 'Préparation sol avant résine époxy : les 6 étapes clés',
   metaDescription: 'Préparation sol avant résine époxy : diagnostic, grenaillage, réparation fissures, primaire. 6 étapes pour une adhérence parfaite et un résultat durable.',
   publishDate: '2026-03-04',
@@ -47,11 +48,17 @@ export const meta: Guide = {
 export default function Content() {
   return (
     <>
+      <KeyAnswer question="Comment préparer un sol avant une résine époxy ?">
+        <p>
+          La <strong>préparation du sol avant résine époxy</strong> suit 6 étapes : diagnostic, nettoyage, grenaillage ou ponçage, réparation des défauts, primaire, puis contrôle final. L&apos;humidité du support doit rester sous 4,5 %. Bien préparé, le revêtement dure 10 à 15 ans ; mal préparé, il peut se décoller en 6 à 12 mois.
+        </p>
+      </KeyAnswer>
+
       <p>
         La pr&eacute;paration du sol repr&eacute;sente 80% de la r&eacute;ussite d&apos;un rev&ecirc;tement en r&eacute;sine &eacute;poxy. Un sol bien pr&eacute;par&eacute; garantit une adh&eacute;rence optimale et une dur&eacute;e de vie de 10-15 ans. Un sol mal pr&eacute;par&eacute;, m&ecirc;me avec la meilleure r&eacute;sine du march&eacute;, se d&eacute;colle en 6-12 mois.
       </p>
       <p>
-        Patrick, responsable maintenance d&apos;un entrep&ocirc;t logistique de 2 000 m&sup2; &agrave; Saint-Priest (69), a fait appliquer une r&eacute;sine &eacute;poxy sur le sol en b&eacute;ton de son entrep&ocirc;t en 2023. Le prestataire a saut&eacute; l&apos;&eacute;tape du grenaillage pour gagner du temps et r&eacute;duire le devis. En 10 mois, la r&eacute;sine se d&eacute;collait par plaques sur 40% de la surface. La reprise (d&eacute;capage + grenaillage + nouvelle r&eacute;sine) a co&ucirc;t&eacute; le double du devis initial. L&apos;&eacute;conomie r&eacute;alis&eacute;e sur la pr&eacute;paration a fini par co&ucirc;ter plusieurs fois son montant en travaux suppl&eacute;mentaires.
+        Prenons l&apos;exemple d&apos;un responsable maintenance d&apos;un entrepôt logistique de 2 000 m², qui a fait appliquer une résine époxy sur le sol en béton de son entrepôt. Le prestataire a saut&eacute; l&apos;&eacute;tape du grenaillage pour gagner du temps et r&eacute;duire le devis. En 10 mois, la r&eacute;sine se d&eacute;collait par plaques sur 40% de la surface. La reprise (d&eacute;capage + grenaillage + nouvelle r&eacute;sine) a co&ucirc;t&eacute; le double du devis initial. L&apos;&eacute;conomie r&eacute;alis&eacute;e sur la pr&eacute;paration a fini par co&ucirc;ter plusieurs fois son montant en travaux suppl&eacute;mentaires.
       </p>
       <p>
         Ce guide d&eacute;taille les 6 &eacute;tapes de pr&eacute;paration d&apos;un sol avant application de r&eacute;sine &eacute;poxy.
@@ -235,7 +242,7 @@ export default function Content() {
         Non, la peinture existante doit &ecirc;tre int&eacute;gralement retir&eacute;e par grenaillage ou d&eacute;capage chimique. La r&eacute;sine &eacute;poxy appliqu&eacute;e sur une peinture se d&eacute;collera avec la peinture sous-jacente.
       </p>
 
-      <h3>Faut-il grenailier un sol en b&eacute;ton neuf ?</h3>
+      <h3>Faut-il grenailler un sol en b&eacute;ton neuf ?</h3>
       <p>
         Oui. Le b&eacute;ton neuf pr&eacute;sente une couche de laitance en surface qui emp&ecirc;che l&apos;adh&eacute;rence de la r&eacute;sine. Le grenaillage ou le pon&ccedil;age est obligatoire, m&ecirc;me sur un b&eacute;ton lisse d&apos;apparence propre. Pour les sols neufs, consultez notre guide sur la <Link href="/guides/peinture-sol-garage-types-application">peinture sol garage</Link> qui couvre les primaires adapt&eacute;s.
       </p>
@@ -243,6 +250,11 @@ export default function Content() {
       <h3>Combien de temps dure la pr&eacute;paration ?</h3>
       <p>
         Pour un parking de 50 places (~650 m&sup2;) : 2-3 jours de pr&eacute;paration (diagnostic + nettoyage + grenaillage + primaire). L&apos;application de la r&eacute;sine de finition prend 1-2 jours suppl&eacute;mentaires. Pour les syst&egrave;mes complets, consultez notre guide sur les <Link href="/guides/sol-epoxy-entrepot-avantages-pose">sols &eacute;poxy entrep&ocirc;t</Link>.
+      </p>
+
+      <h3>Quel taux d&apos;humidité faut-il avant une résine époxy ?</h3>
+      <p>
+        Le support doit rester sous 4,5 % d&apos;humidité pour une résine époxy, mesuré à la bombe carbure ou à l&apos;hygromètre. Le contrôle est à refaire juste avant l&apos;application, avec un sol entre 10 et 30 °C et 3 °C au-dessus du point de rosée.
       </p>
 
       <h2>La pr&eacute;paration fait la diff&eacute;rence</h2>

@@ -50,7 +50,7 @@ const PARTNERS = [
 ];
 
 const SERVICES = [
-  { name: 'Traçage de parking', href: '/competences/tracage-retracage-parking/', desc: 'Marquage au sol conforme NF EN 1436 et normes PMR' },
+  { name: 'Traçage de parking', href: '/competences/tracage-retracage-parking/', desc: 'Marquage au sol avec peintures certifiées NF EN 1436, normes PMR' },
   { name: 'Réparation nids de poule', href: '/competences/reparation-nids-de-poule/', desc: 'Résine polyuréthane, durée de vie 5 à 10 ans' },
   { name: 'Signalisation verticale', href: '/competences/signalisation-verticale/', desc: 'Panneaux PMR, stop, limitation de vitesse' },
   { name: 'Résine de sol', href: '/competences/resine-sol-marquage-interieur/', desc: 'Époxy et polyuréthane pour intérieur et industriel' },
@@ -78,9 +78,9 @@ export default function ContactPage() {
             '@context': 'https://schema.org',
             '@type': 'ProfilePage',
             '@id': 'https://renov-route.com/qui-sommes-nous/#profile',
-            name: 'Xavier de Caumont, Fondateur de Rénov Route',
+            name: 'Xavier de Caumont, Fondateur de Rénov\'Route',
             description:
-              "Page fondateur et entreprise : Xavier de Caumont, créateur de Rénov Route en 2016, société spécialisée dans le marquage au sol et la rénovation de parking basée à Tassin-la-Demi-Lune.",
+              "Page fondateur et entreprise : Xavier de Caumont, créateur de Rénov'Route en 2016, société spécialisée dans le marquage au sol et la rénovation de parking basée à Tassin-la-Demi-Lune.",
             url: 'https://renov-route.com/qui-sommes-nous/',
             inLanguage: 'fr-FR',
             isPartOf: { '@id': 'https://renov-route.com/#website' },
@@ -93,9 +93,9 @@ export default function ContactPage() {
               familyName: 'de Caumont',
               url: 'https://renov-route.com/qui-sommes-nous/',
               image: 'https://renov-route.com/assets/images/xavier-de-caumont.jpg',
-              jobTitle: 'Fondateur de Rénov Route',
+              jobTitle: 'Fondateur de Rénov\'Route',
               description:
-                "Fondateur de Rénov Route en 2016, Xavier de Caumont dirige une équipe spécialisée dans le marquage au sol, le traçage de parking et la réparation de chaussée. Directeur de la publication du site renov-route.com. Plus de 1 000 parkings réalisés depuis 2016.",
+                "Fondateur de Rénov'Route en 2016, Xavier de Caumont dirige une équipe spécialisée dans le marquage au sol, le traçage de parking et la réparation de chaussée. Directeur de la publication du site renov-route.com. Plus de 1 000 parkings réalisés depuis 2016.",
               worksFor: { '@id': 'https://renov-route.com/#organization' },
               knowsAbout: [
                 'Marquage routier',
@@ -109,7 +109,7 @@ export default function ContactPage() {
               nationality: { '@type': 'Country', name: 'France' },
               workLocation: {
                 '@type': 'Place',
-                name: 'Rénov Route, Tassin-la-Demi-Lune',
+                name: 'Rénov\'Route, Tassin-la-Demi-Lune',
                 address: {
                   '@type': 'PostalAddress',
                   streetAddress: '6 allée du ruisseau de Ribbes',
@@ -138,7 +138,7 @@ export default function ContactPage() {
                   Qui sommes-nous
                 </p>
                 <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#0F172A] mb-4 font-display leading-tight">
-                  Rénov Route, experts du marquage au sol et de la rénovation parking depuis 2016
+                  Rénov&apos;Route, experts du marquage au sol et de la rénovation parking depuis 2016
                 </h1>
                 <p className="text-slate-500 text-base sm:text-lg leading-relaxed">
                   Entreprise française basée à Tassin-la-Demi-Lune près de Lyon, spécialisée dans le
@@ -259,7 +259,7 @@ export default function ContactPage() {
                   <div className="relative w-full h-80 sm:h-96">
                     <Image
                       src="/assets/images/xavier-de-caumont.jpg"
-                      alt="Xavier de Caumont, Fondateur Rénov Route"
+                      alt="Xavier de Caumont, Fondateur Rénov'Route"
                       fill
                       className="object-cover object-top"
                       priority
@@ -273,7 +273,7 @@ export default function ContactPage() {
                     <p className="text-white text-2xl sm:text-3xl font-black italic uppercase tracking-tight mb-3">Xavier de Caumont</p>
                     <p className="text-slate-300 text-sm leading-relaxed font-medium">
                       10+ ans d&apos;expertise marquage au sol · Directeur de la publication · Dirige
-                      l&apos;équipe Rénov Route depuis 2016
+                      l&apos;équipe Rénov&apos;Route depuis 2016
                     </p>
                   </div>
                 </MotionDiv>
@@ -297,7 +297,7 @@ export default function ContactPage() {
                 </h2>
                 <div className="space-y-5 text-slate-600 leading-relaxed">
                   <p>
-                    L&apos;histoire de Rénov Route commence en 2016 par une rencontré fortuite : un
+                    L&apos;histoire de Rénov&apos;Route commence en 2016 par une rencontré fortuite : un
                     client nous approche pour retracer <strong>40 parkings</strong>. La demande
                     semble ambitieuse à l&apos;époque, mais elle marque le tournant décisif de notre
                     parcours. Nous relevons le défi, et cette première mission révèle notre passion
@@ -311,7 +311,7 @@ export default function ContactPage() {
                     enseigne de grande distribution.
                   </p>
                   <p>
-                    Plus de dix ans plus tard, Rénov Route a réalisé{' '}
+                    Plus de dix ans plus tard, Rénov&apos;Route a réalisé{' '}
                     <strong>plus de 1 000 parkings</strong> en France. L&apos;entreprise compte une
                     équipe de 5 à 10 professionnels qualifiés et intervient dans toute la France
                     depuis son siège de Tassin-la-Demi-Lune.
@@ -386,7 +386,7 @@ export default function ContactPage() {
 
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
                 <div className="p-6 rounded-2xl border border-amber-500/30 bg-amber-500/5">
-                  <h3 className="text-[#0F172A] font-semibold mb-3">Certification NF EN 1436</h3>
+                  <h3 className="text-[#0F172A] font-semibold mb-3">Peintures certifiées NF EN 1436</h3>
                   <p className="text-slate-500 text-sm leading-relaxed">
                     Toutes nos peintures de marquage routier sont certifiées NF EN 1436, la norme
                     européenne de référence pour la signalisation horizontale.
@@ -483,7 +483,7 @@ export default function ContactPage() {
                 </h2>
                 <p className="text-slate-500 leading-relaxed">
                   Grandes surfaces, restauration rapide, armée, services publics : des
-                  organisations exigeantes qui ont choisi Rénov Route pour le traçage de leurs
+                  organisations exigeantes qui ont choisi Rénov&apos;Route pour le traçage de leurs
                   parkings et la rénovation de leurs voiries.
                 </p>
               </MotionDiv>

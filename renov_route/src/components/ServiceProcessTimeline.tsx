@@ -67,7 +67,7 @@ function TimelineStepCard({
       {isSafari ? (
         <Image
           src={step.image}
-          alt={step.imageAlt || `${step.title} - Étape ${step.step} du processus Rénov Route`}
+          alt={step.imageAlt || `${step.title} - Étape ${step.step} du processus Rénov'Route`}
           fill
           className="object-cover"
           sizes="(max-width: 768px) 100vw, 400px"
@@ -82,7 +82,7 @@ function TimelineStepCard({
         >
           <Image
             src={step.image}
-            alt={step.imageAlt || `${step.title} - Étape ${step.step} du processus Rénov Route`}
+            alt={step.imageAlt || `${step.title} - Étape ${step.step} du processus Rénov'Route`}
             fill
             className="object-cover"
             sizes="(max-width: 768px) 100vw, 400px"

@@ -40,7 +40,7 @@ const SERVICES: Record<ServiceSlug, ServiceDetails> = {
     description:
       "Marquage au sol professionnel et durable pour parkings d'entreprise, de copropriété et de grande distribution. Peintures certifiées NF EN 1436, conformité aux normes PMR et respect des standards de signalisation horizontale.",
     image: 'https://renov-route.com/assets/images/realisations/intermarche-neuville-parking_2.avif',
-    serviceOutput: 'Parking tracé selon norme NF EN 1436',
+    serviceOutput: 'Parking tracé avec des peintures certifiées NF EN 1436',
     offerName: 'Prestations de traçage parking',
     itemOffered: [
       { name: 'Traçage de places de stationnement', description: 'Marquage standard, VL, PL, deux-roues' },

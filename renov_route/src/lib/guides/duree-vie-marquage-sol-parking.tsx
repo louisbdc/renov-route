@@ -1,11 +1,12 @@
 import type { Guide } from '../guides'
+import KeyAnswer from '@/components/KeyAnswer'
 import Link from 'next/link'
 
 export const meta: Guide = {
   slug: 'duree-vie-marquage-sol-parking',
   title: 'Durée de vie du marquage au sol de parking : de 2 à 10 ans selon le produit',
-  metaTitle: 'Durée de vie marquage au sol parking : facteurs et solutions',
-  metaDescription: 'Durée de vie du marquage au sol de parking : 2-10 ans selon le produit et le trafic. Facteurs d\'usure, comparatif peinture vs résine et conseils pour durer.',
+  metaTitle: "Durée de vie du marquage au sol parking",
+  metaDescription: 'Durée de vie du marquage au sol de parking : 2-10 ans selon le produit et le trafic. Facteurs d\'usure, comparatif peinture vs résine et conseils.',
   publishDate: '2026-03-04',
   updatedDate: '2026-07-28',
   category: 'marquage-parking',
@@ -16,11 +17,17 @@ export const meta: Guide = {
 export default function Content() {
   return (
     <>
+      <KeyAnswer question="Quelle est la durée de vie d'un marquage au sol de parking ?">
+        <p>
+          La <strong>durée de vie d&apos;un marquage au sol de parking</strong> va de <strong>3 à 5 ans</strong> en peinture acrylique certifiée NF EN 1436 (P5), de <strong>5 à 8 ans</strong> en thermoplastique et de <strong>7 à 10 ans</strong> en résine à froid. Les zones de manœuvre s&apos;usent 2 à 3 fois plus vite.
+        </p>
+      </KeyAnswer>
+
       <p>
-        Un marquage au sol de parking, &ccedil;a dure combien de temps ? La r&eacute;ponse varie de 6 mois &agrave; 10 ans. Tout d&eacute;pend du produit utilis&eacute;, du trafic sur votre parking et des conditions climatiques. Un choix inadapt&eacute;, et vous retracez chaque ann&eacute;e. Un choix adapt&eacute;, et vous &ecirc;tes tranquille pendant 5 ans.
+        Quelle est la durée de vie d&apos;un marquage au sol de parking ? La réponse varie de 6 mois &agrave; 10 ans. Tout d&eacute;pend du produit utilis&eacute;, du trafic sur votre parking et des conditions climatiques. Un choix inadapt&eacute;, et vous retracez chaque ann&eacute;e. Un choix adapt&eacute;, et vous &ecirc;tes tranquille pendant 5 ans.
       </p>
       <p>
-        Guillaume, syndic d&apos;une copropri&eacute;t&eacute; de 70 lots &agrave; Villeurbanne (69), faisait retracer les 55 places de son parking tous les 18 mois. La peinture utilis&eacute;e (non certifi&eacute;e, classe P1-P3) s&apos;effa&ccedil;ait rapidement dans les zones de man&oelig;uvre. En 4 ans, 3 retra&ccedil;ages successifs ont repr&eacute;sent&eacute; un budget cons&eacute;quent. &Agrave; la 4e intervention, il a chang&eacute; de prestataire et de produit (<Link href="/guides/peinture-marquage-sol-parking">peinture certifi&eacute;e NF EN 1436 classe P5</Link>). R&eacute;sultat : le marquage tient depuis 3 ans et demi, pour un investissement initial l&eacute;g&egrave;rement sup&eacute;rieur mais largement rentabilis&eacute;.
+        Prenons l&apos;exemple de Guillaume, syndic d&apos;une copropriété de 70 lots à Villeurbanne (69), qui faisait retracer les 55 places de son parking tous les 18 mois. La peinture utilis&eacute;e (non certifi&eacute;e, classe P1-P3) s&apos;effa&ccedil;ait rapidement dans les zones de man&oelig;uvre. En 4 ans, 3 retra&ccedil;ages successifs ont repr&eacute;sent&eacute; un budget cons&eacute;quent. &Agrave; la 4e intervention, il a chang&eacute; de prestataire et de produit (<Link href="/guides/peinture-marquage-sol-parking">peinture certifi&eacute;e NF EN 1436 classe P5</Link>). R&eacute;sultat : le marquage tient depuis 3 ans et demi, pour un investissement initial l&eacute;g&egrave;rement sup&eacute;rieur mais largement rentabilis&eacute;.
       </p>
       <p>
         Ce guide compare la dur&eacute;e de vie des diff&eacute;rents produits de marquage et explique comment maximiser la long&eacute;vit&eacute; de votre investissement.
@@ -179,7 +186,7 @@ export default function Content() {
 
       <h3>3. Le climat</h3>
       <ul>
-        <li><strong>Gel/d&eacute;gel</strong> : les cycles de gel fragilisent le liant de la peinture. &Agrave; Lyon, 40 &agrave; 60 cycles gel/d&eacute;gel par hiver (voir notre guide du <Link href="/guides/signalisation-horizontale-lyon-marquage">marquage au sol &agrave; Lyon</Link>)</li>
+        <li><strong>Gel/d&eacute;gel</strong> : les cycles de gel fragilisent le liant de la peinture. &Agrave; Lyon, 40 &agrave; 60 cycles gel/d&eacute;gel par hiver (voir notre guide du <Link href="/marquage-au-sol-lyon/">marquage au sol &agrave; Lyon</Link>)</li>
         <li><strong>UV</strong> : la peinture blanchit et perd sa pigmentation sous les UV intenses (parking ext&eacute;rieur sud)</li>
         <li><strong>Pluie</strong> : l&apos;eau stagnante d&eacute;colle les bords du marquage, surtout si l&apos;enrob&eacute; est poreux</li>
       </ul>
@@ -223,7 +230,7 @@ export default function Content() {
         <li>Programmer des retouches ponctuelles sur les zones d&apos;usure avant que le marquage ne disparaisse compl&egrave;tement</li>
       </ul>
       <p>
-        Isabelle, gestionnaire d&apos;un parking de clinique de 120 places &agrave; &Eacute;cully (69), programme une retouche annuelle des 3 passages pi&eacute;tons et de l&apos;entr&eacute;e du parking (les zones les plus us&eacute;es). Ce budget annuel de retouche, tr&egrave;s mod&eacute;r&eacute;, permet d&apos;espacer le retra&ccedil;age complet tous les 5-6 ans au lieu de 3-4 ans. Sur 10 ans, l&apos;&eacute;conomie est significative.
+        Prenons l&apos;exemple d&apos;Isabelle, gestionnaire d&apos;un parking de clinique de 120 places à Écully (69), qui programme une retouche annuelle des 3 passages pi&eacute;tons et de l&apos;entr&eacute;e du parking (les zones les plus us&eacute;es). Ce budget annuel de retouche, tr&egrave;s mod&eacute;r&eacute;, permet d&apos;espacer le retra&ccedil;age complet tous les 5-6 ans au lieu de 3-4 ans. Sur 10 ans, l&apos;&eacute;conomie est significative.
       </p>
       <p>
         Pour planifier vos interventions, consultez notre <Link href="/guides/calendrier-entretien-parking">calendrier d&apos;entretien de parking</Link>.
@@ -246,7 +253,12 @@ export default function Content() {
         Oui, 2 &agrave; 3 fois plus longtemps que la peinture acrylique. Son &eacute;paisseur (1,5-3 mm vs 0,3-0,5 mm pour la peinture) explique cette diff&eacute;rence. Il est aussi plus r&eacute;sistant &agrave; l&apos;abrasion des pneus. Son co&ucirc;t plus &eacute;lev&eacute; &agrave; l&apos;achat est compens&eacute; par une fr&eacute;quence de retra&ccedil;age divis&eacute;e par 2.
       </p>
 
-      <h2>Investir dans la dur&eacute;e, pas dans la r&eacute;p&eacute;tition</h2>
+      <h3>Quelle peinture choisir pour faire durer un marquage de parking ?</h3>
+      <p>
+        La peinture acrylique certifiée NF EN 1436 de classe P5 offre le meilleur rapport coût/durée pour la majorité des parkings, avec 3 à 5 ans de tenue. Réservez le thermoplastique (5 à 8 ans) aux zones à très fort trafic, comme les passages piétons et les entrées.
+      </p>
+
+      <h2>Investir dans la durée, pas dans la répétition</h2>
       <p>
         Un marquage au sol qui dure 5 ans co&ucirc;te moins cher qu&apos;un marquage qui dure 18 mois, m&ecirc;me si le prix au m&sup2; est plus &eacute;lev&eacute;. Le vrai co&ucirc;t, c&apos;est le co&ucirc;t par an, pas le co&ucirc;t par passage.
       </p>

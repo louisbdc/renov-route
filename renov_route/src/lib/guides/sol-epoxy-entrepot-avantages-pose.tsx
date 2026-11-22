@@ -1,4 +1,5 @@
 import type { Guide } from '../guides'
+import KeyAnswer from '@/components/KeyAnswer'
 import Link from 'next/link'
 
 export const meta: Guide = {
@@ -6,7 +7,7 @@ export const meta: Guide = {
   title: 'Sol époxy pour entrepôt : avantages, préparation et prix au m²',
   metaTitle: 'Sol époxy entrepôt : avantages, pose et prix au m²',
   metaDescription:
-    'Sol époxy pour entrepôt logistique : résistance au trafic, préparation du support, épaisseur et prix au m². Guide complet pour protéger votre sol d’entrepôt.',
+    'Sol époxy pour entrepôt logistique : résistance au trafic, préparation du support, épaisseur et prix au m². Guide complet pour protéger votre sol.',
   publishDate: '2026-03-04',
   updatedDate: '2026-07-28',
   category: 'renovation-parking',
@@ -18,6 +19,12 @@ export const meta: Guide = {
 export default function Content() {
   return (
     <>
+      <KeyAnswer question="Quel sol époxy choisir pour un entrepôt ?">
+        <p>
+          Un <strong>sol époxy d&apos;entrepôt</strong> dure 10 à 20 ans selon l&apos;épaisseur, le trafic et l&apos;entretien. Un système de 3 mm tient 12 à 15 ans sous plus de 300 passages de chariot par jour ; un système de 2 mm tient 8 à 12 ans en trafic modéré. L&apos;application se fait par zones, immobilisées 48 à 72 heures.
+        </p>
+      </KeyAnswer>
+
       <p>
         Un entrep&ocirc;t logistique de 3 000 m&sup2;, c&apos;est 200 &agrave;
         400 passages de chariot &eacute;l&eacute;vateur par jour, des palettes
@@ -31,8 +38,7 @@ export default function Content() {
       </p>
 
       <p>
-        Damien, responsable d&apos;un entrep&ocirc;t de pi&egrave;ces
-        automobiles &agrave; Corbas (69), a attendu 5 ans avant de traiter son
+        Prenons l&apos;exemple d&apos;un responsable d&apos;entrepôt de pièces automobiles, qui a attendu 5 ans avant de traiter son
         sol. R&eacute;sultat : 400 m&sup2; de b&eacute;ton fissur&eacute; dans
         les all&eacute;es de circulation, 150 m&sup2; de zones
         contamin&eacute;es par les huiles hydrauliques (nettoyage impossible) et
@@ -213,8 +219,7 @@ export default function Content() {
       </ul>
 
       <p>
-        Sophie, responsable logistique d&apos;une plateforme de distribution
-        alimentaire &agrave; Saint-Priest (69), a fait appliquer un
+        Prenons l&apos;exemple d&apos;une responsable logistique d&apos;une plateforme de distribution alimentaire, qui a fait appliquer un
         syst&egrave;me &eacute;poxy de 2 mm pour r&eacute;duire le budget.
         Apr&egrave;s 3 ans, les all&eacute;es principales (o&ugrave; les
         chariots virent) montraient des signes d&apos;usure

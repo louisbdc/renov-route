@@ -24,13 +24,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     : project.thumbnail
 
   return {
-    title: `${project.title} - Réalisation Renov Route`,
+    title: { absolute: project.title },
     description: `${project.summary} Projet de ${project.category} pour ${project.client} réalisé en ${project.year}.`,
     alternates: {
       canonical: url,
     },
     openGraph: {
-      title: `${project.title} - Réalisation Renov Route`,
+      title: `${project.title} - Réalisation Rénov'Route`,
       description: project.summary,
       url,
       type: 'article',
@@ -71,7 +71,7 @@ export default async function ProjectPage({ params }: Props) {
     "dateCreated": `${project.year}-01-01`,
     "creator": {
       "@type": "Organization",
-      "name": "Renov Route",
+      "name": "Rénov'Route",
       "url": "https://renov-route.com"
     },
     "about": {

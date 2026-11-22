@@ -50,9 +50,9 @@ export default function ArticleSchema({
       name: 'Xavier de Caumont',
       url: 'https://renov-route.com/qui-sommes-nous/',
       image: 'https://renov-route.com/assets/images/xavier-de-caumont.jpg',
-      jobTitle: 'Fondateur de Rénov Route',
+      jobTitle: 'Fondateur de Rénov\'Route',
       description:
-        'Fondateur de Rénov Route, 10+ ans d\'expertise en marquage au sol, traçage de parking et rénovation de chaussée. Directeur de la publication.',
+        'Fondateur de Rénov\'Route, 10+ ans d\'expertise en marquage au sol, traçage de parking et rénovation de chaussée. Directeur de la publication.',
       worksFor: { '@id': 'https://renov-route.com/#organization' },
       knowsAbout: [
         'Marquage routier',
@@ -66,7 +66,7 @@ export default function ArticleSchema({
     publisher: {
       '@type': 'Organization',
       '@id': 'https://renov-route.com/#organization',
-      name: 'Rénov Route',
+      name: 'Rénov\'Route',
       logo: {
         '@type': 'ImageObject',
         url: 'https://renov-route.com/assets/logos/logo.avif',

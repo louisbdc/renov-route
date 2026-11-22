@@ -37,7 +37,7 @@ export default function AuthorByline({ dateModified, variant = 'full' }: AuthorB
       >
         <Image
           src="/assets/images/xavier-de-caumont.jpg"
-          alt="Xavier de Caumont, fondateur de Rénov Route"
+          alt="Xavier de Caumont, fondateur de Rénov'Route"
           fill
           sizes="56px"
           className="object-cover object-top"
@@ -52,7 +52,7 @@ export default function AuthorByline({ dateModified, variant = 'full' }: AuthorB
           Xavier de Caumont
         </Link>
         <p className="text-sm text-slate-500 mt-1">
-          Fondateur de Rénov Route · 10+ ans d&apos;expertise marquage au sol · Certifié NF EN 1436
+          Fondateur de Rénov&apos;Route · 10+ ans d&apos;expertise marquage au sol
         </p>
         {dateModified && (
           <p className="text-xs text-slate-400 mt-2">

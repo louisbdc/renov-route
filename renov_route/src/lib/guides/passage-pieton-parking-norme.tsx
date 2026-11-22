@@ -1,11 +1,12 @@
 import type { Guide } from '../guides'
+import KeyAnswer from '@/components/KeyAnswer'
 import Link from 'next/link'
 
 export const meta: Guide = {
   slug: 'passage-pieton-parking-norme',
   title: 'Passage piéton parking : normes, dimensions et marquage obligatoire',
-  metaTitle: 'Passage piéton parking: normes et marquage',
-  metaDescription: 'Dimensions, couleur, signalisation: toutes les normes du passage piéton en parking privé. Guide pratique avec erreurs fréquentes et obligations légales.',
+  metaTitle: 'Passage piéton parking : normes et marquage',
+  metaDescription: 'Dimensions, couleur, signalisation : les normes du passage piéton en parking privé. Guide pratique avec erreurs fréquentes et obligations légales.',
   publishDate: '2026-03-04',
   updatedDate: '2026-05-22',
   category: 'securite-parking',
@@ -16,11 +17,17 @@ export const meta: Guide = {
 export default function Content() {
   return (
     <>
+      <KeyAnswer question="Quelles sont les normes d'un passage piéton de parking ?">
+        <p>
+          Un <strong>passage piéton de parking</strong> se trace en bandes blanches de 50 cm, espacées de 50 cm, sur une largeur courante de 2,50 à 4 m. Le jaune n&apos;a pas de valeur réglementaire. Dans un parking ouvert au public, les bandes d&apos;éveil de vigilance se posent à 50 cm du bord de la chaussée. Comptez dès 350 € par passage.
+        </p>
+      </KeyAnswer>
+
       <p>
-        47% des accidents corporels en parking impliquent un piéton. Ce chiffre de la Sécurité routière devrait suffire à convaincre tout gestionnaire de prendre le sujet au sérieux.
+        Dans un parking, piétons et véhicules partagent le même espace. C&apos;est pourquoi le passage piéton mérite toute l&apos;attention du gestionnaire.
       </p>
       <p>
-        Pourtant, sur le terrain, les passages piétons sont souvent le parent pauvre de l&apos;aménagement de parking. Des bandes effacées, des dimensions fantaisistes, une absence totale de signalisation verticale. Quand Vincent, directeur d&apos;un centre commercial à Meyzieu (69), a fait auditer son parking de 350 places après un accident piéton en 2024, le diagnostic était accablant : aucun des six passages piétons n&apos;était conforme. Largeur insuffisante, absence de bandes podotactiles, zéro panneau. Co&ucirc;t de la mise en conformit&eacute; : plusieurs milliers d&apos;euros. Co&ucirc;t de l&apos;accident (arr&ecirc;t de travail + indemnisation) : plusieurs dizaines de milliers d&apos;euros.
+        Pourtant, sur le terrain, les passages piétons sont souvent le parent pauvre de l&apos;aménagement de parking. Des bandes effacées, des dimensions fantaisistes, une absence totale de signalisation verticale. Prenons l&apos;exemple d&apos;un centre commercial de 350 places audité après un accident piéton : le diagnostic est accablant : aucun des six passages piétons n&apos;était conforme. Largeur insuffisante, absence de bandes podotactiles, zéro panneau. Co&ucirc;t de la mise en conformit&eacute; : plusieurs milliers d&apos;euros. Co&ucirc;t de l&apos;accident (arr&ecirc;t de travail + indemnisation) : plusieurs dizaines de milliers d&apos;euros.
       </p>
       <p>
         Le passage piéton en parking est encadré par des normes précises, que le parking soit public ou privé. Ce guide vous donne toutes les règles : dimensions, couleur, signalisation, accessibilité PMR et erreurs à éviter.
@@ -33,7 +40,7 @@ export default function Content() {
 
       <h3>Le Code de la route</h3>
       <p>
-        L&apos;article R. 412-37 du Code de la route définit le passage piéton comme une zone matérialisée par des bandes blanches parallèles à l&apos;axe de la chaussée. Les conducteurs doivent céder le passage aux piétons qui s&apos;y engagent. Cette règle s&apos;applique sur toutes les voies ouvertes à la circulation publique, y compris les parkings commerciaux.
+        Le passage piéton est matérialisé par des bandes blanches parallèles à l&apos;axe de la chaussée. L&apos;<a href="https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037411323" target="_blank" rel="noopener noreferrer">article R. 415-11 du Code de la route</a> impose aux conducteurs de céder le passage, au besoin en s&apos;arrêtant, au piéton qui s&apos;engage régulièrement dans la traversée ou manifeste clairement son intention de le faire. Cette règle s&apos;applique sur toutes les voies ouvertes à la circulation publique, y compris les parkings commerciaux.
       </p>
 
       <h3>L&apos;IISR (7e partie)</h3>
@@ -43,7 +50,7 @@ export default function Content() {
 
       <h3>La réglementation accessibilité</h3>
       <p>
-        L&apos;arrêté du 15 janvier 2007 relatif à l&apos;accessibilité des ERP (Établissements Recevant du Public) impose des aménagements spécifiques aux passages piétons : bandes d&apos;éveil de vigilance podotactiles, abaissement de bordure, contraste visuel suffisant.
+        L&apos;<a href="https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000646680/" target="_blank" rel="noopener noreferrer">arrêté du 15 janvier 2007</a> relatif à l&apos;accessibilité de la voirie et des espaces publics impose des aménagements spécifiques aux passages piétons : bandes d&apos;éveil de vigilance podotactiles, abaissement de bordure, contraste visuel suffisant.
       </p>
 
       <h3>Et les parkings privés ?</h3>
@@ -110,7 +117,7 @@ export default function Content() {
         Le marquage classique est complété par un revêtement en résine colorée (souvent rouge ou ocre) appliqué sur toute la surface du passage. Ce traitement améliore la visibilité et le contraste, et offre un effet antidérapant. Plus coûteux qu&apos;un marquage simple, il est recommandé pour les zones à risque élevé.
       </p>
       <p>
-        Sophie, responsable sécurité d&apos;une zone commerciale à Bron (69), a fait installer des passages piétons surélevés en résine rouge aux deux entrées principales de son parking. Le trafic piéton y est intense (2 000 piétons/jour entre les magasins et le parking). Depuis l&apos;installation, aucun incident piéton n&apos;a été signalé en deux ans. Les véhicules ralentissent systématiquement grâce à l&apos;effet combiné du plateau et du contraste visuel.
+        Prenons l&apos;exemple d&apos;une responsable sécurité de zone commerciale, qui a fait installer des passages piétons surélevés en résine rouge aux deux entrées principales de son parking. Le trafic piéton y est intense (2 000 piétons/jour entre les magasins et le parking). Depuis l&apos;installation, aucun incident piéton n&apos;a été signalé en deux ans. Les véhicules ralentissent systématiquement grâce à l&apos;effet combiné du plateau et du contraste visuel.
       </p>
 
       <h2>Signalisation complémentaire obligatoire</h2>
@@ -162,7 +169,7 @@ export default function Content() {
         Il n&apos;existe pas de ratio réglementaire (nombre de passages par nombre de places). La règle de bon sens : un passage piéton chaque fois qu&apos;un flux piéton régulier croise une voie de circulation véhicule. En pratique, comptez 1 passage piéton pour 50 à 80 places de parking.
       </p>
       <p>
-        Alain, syndic d&apos;une copropriété de 200 logements à Caluire-et-Cuire (69), a fait tracer quatre passages piétons dans le parking souterrain de la résidence après qu&apos;un résident âgé a été frôlé par un véhicule. Les passages ont été placés aux quatre points de croisement entre les voies de circulation et les accès aux ascenseurs. Co&ucirc;t total : quelques milliers d&apos;euros pour les quatre passages (marquage + panneaux + bandes podotactiles).
+        Autre exemple : un syndic de copropriété de 200 logements a fait tracer quatre passages piétons dans le parking souterrain de la résidence après qu&apos;un résident âgé a été frôlé par un véhicule. Les passages ont été placés aux quatre points de croisement entre les voies de circulation et les accès aux ascenseurs. Co&ucirc;t total : quelques milliers d&apos;euros pour les quatre passages (marquage + panneaux + bandes podotactiles).
       </p>
 
       <h2>Les 5 erreurs les plus fréquentes</h2>
@@ -184,7 +191,7 @@ export default function Content() {
 
       <h3>4. Passage piéton sans panneau</h3>
       <p>
-        Les bandes au sol seules ne suffisent pas. Le panneau C20a est indispensable pour signaler le passage aux conducteurs. Sans panneau, la responsabilité du gestionnaire est aggravée en cas d&apos;accident.
+        Les bandes au sol seules ne suffisent pas. Le panneau C20a est recommandé pour signaler le passage aux conducteurs, surtout lorsque la visibilité est réduite.
       </p>
 
       <h3>5. Passage piéton mal placé</h3>
@@ -259,7 +266,7 @@ export default function Content() {
 
       <h3>Les bandes podotactiles sont-elles obligatoires ?</h3>
       <p>
-        Oui, dans les parkings d&apos;ERP (centres commerciaux, cliniques, hôtels, copropriétés avec accès visiteurs). Les bandes d&apos;éveil de vigilance doivent être placées à 50 centimètres du bord de la chaussée, sur toute la largeur du passage.
+        Oui, dans les parkings d&apos;ERP (centres commerciaux, cliniques, hôtels), aux traversées du cheminement accessible. Les bandes d&apos;éveil de vigilance doivent être placées à 50 centimètres du bord de la chaussée, sur toute la largeur du passage.
       </p>
 
       <h3>Combien coûte le marquage d&apos;un passage piéton ?</h3>
@@ -269,7 +276,7 @@ export default function Content() {
 
       <h2>Protéger les piétons, protéger votre responsabilité</h2>
       <p>
-        Le passage piéton est l&apos;élément de sécurité le plus critique d&apos;un parking. Son marquage, sa signalisation et son accessibilité sont encadrés par des normes claires. Un passage piéton conforme, c&apos;est des bandes blanches de 50 centimètres, un panneau C20a, des bandes podotactiles dans les ERP et un entretien régulier.
+        Le passage piéton est l&apos;élément de sécurité le plus critique d&apos;un parking. Son marquage, sa signalisation et son accessibilité sont encadrés par des normes claires. Un passage piéton conforme, c&apos;est des bandes blanches de 50 centimètres, un panneau C20a recommandé, des bandes podotactiles dans les ERP et un entretien régulier.
       </p>
       <p>
         Ne laissez pas un marquage effacé ou une signalisation absente mettre en danger vos usagers et engager votre responsabilité.

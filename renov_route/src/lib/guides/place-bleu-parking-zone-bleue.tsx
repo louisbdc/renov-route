@@ -4,9 +4,9 @@ import Link from 'next/link'
 
 export const meta: Guide = {
   slug: 'place-bleu-parking-zone-bleue',
-  title: 'Place bleue parking : réglementation, marquage et tout ce qu\u0027il faut savoir',
-  metaTitle: 'Zone bleue : durée, disque et marquage de la place bleue',
-  metaDescription: 'Stationnement gratuit mais limité (souvent 1h30) avec disque obligatoire. Règles, arrêté municipal requis, marquage au sol conforme et amende de 35 €.',
+  title: 'Zone bleue : règles de stationnement, disque et marquage des places',
+  metaTitle: 'Zone bleue : durée, disque obligatoire et amende de 35 €',
+  metaDescription: 'Gratuit mais limité, souvent à 1h30, avec disque obligatoire. Durée, arrêté municipal, marquage de la place bleue et amende de 35 € : les règles clés.',
   publishDate: '2026-03-31',
   updatedDate: '2026-07-28',
   category: 'marquage-parking',
@@ -20,14 +20,13 @@ export default function Content() {
       <KeyAnswer question="Comment fonctionne une place en zone bleue ?">
         <p>
         Le stationnement y est <strong>gratuit mais limité dans le temps</strong>, le plus souvent à
-        1h30, et contrôlé par un disque de stationnement au format européen apposé derrière le pare-brise.
-        Une zone bleue n’a de valeur réglementaire qu’avec un <strong>arrêté municipal</strong>. L’absence
-        de disque est sanctionnée de 35 €.
+        1h30, et contrôlé par un disque de stationnement au format européen placé à l’avant du véhicule.
+        Une zone bleue n’a de valeur réglementaire qu’avec un <strong>arrêté municipal</strong>. L’absence de disque relève d’une contravention de 2e classe, soit 35 € (<a href="https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030851507" target="_blank" rel="noopener noreferrer">article R. 417-3 du Code de la route</a>).
         </p>
       </KeyAnswer>
 
       <p>
-        Un parking de supermarché à Villefranche-sur-Saône, mars 2024. Le gérant fait tracer 15 places bleues devant l&apos;entrée principale pour fluidifier la rotation des véhicules. Trois semaines plus tard, il reçoit un courrier de la mairie : sans arrêté municipal, ces places n&apos;ont aucune valeur réglementaire. Les clients ignorent le disque de stationnement, certains restent garés toute la journée. L&apos;investissement de 2 800 euros n&apos;a servi à rien.
+        Prenons l&apos;exemple d&apos;un parking de supermarché. Le gérant fait tracer 15 places bleues devant l&apos;entrée principale pour fluidifier la rotation des véhicules. Trois semaines plus tard, il reçoit un courrier de la mairie : sans arrêté municipal, ces places n&apos;ont aucune valeur réglementaire. Les clients ignorent le disque de stationnement, certains restent garés toute la journée. L&apos;investissement de 2 800 euros n&apos;a servi à rien.
       </p>
       <p>
         La <strong>place bleue parking</strong> est un dispositif de stationnement à durée limitée, gratuit mais encadré par des règles précises. Sa mise en place exige un marquage au sol conforme, une signalisation verticale adaptée et, dans la plupart des cas, un arrêté municipal. Sans ces trois éléments, le dispositif est juridiquement inopérant.
@@ -48,10 +47,10 @@ export default function Content() {
       <ul>
         <li><strong>Gratuité</strong> : aucune redevance ni horodateur</li>
         <li><strong>Durée limitée</strong> : généralement 1h30, parfois 30 minutes ou 2 heures selon l&apos;arrêté</li>
-        <li><strong>Contrôle par disque</strong> : l&apos;automobiliste affiché son heure d&apos;arrivée sur un disque normalisé</li>
+        <li><strong>Contrôle par disque</strong> : l&apos;automobiliste affiche son heure d&apos;arrivée sur un disque normalisé</li>
       </ul>
       <p>
-        Ce système favorisé la <strong>rotation des véhicules</strong> dans les zones à forte demande : centres-villes commerçants, abords de garés, parkings de surfaces commerciales.
+        Ce système favorise la <strong>rotation des véhicules</strong> dans les zones à forte demande : centres-villes commerçants, abords de gares, parkings de surfaces commerciales.
       </p>
 
       <h3>Qui peut créer une zone bleue ?</h3>
@@ -73,7 +72,7 @@ export default function Content() {
 
       <h3>Le Code de la route</h3>
       <p>
-        Les articles R. 417-1 a R. 417-13 du Code de la route définissent les règles de stationnement. L&apos;article R. 411-25 précise que les marqués au sol ont une valeur réglementaire lorsqu&apos;elles sont posées conformément à l&apos;Instruction Interministérielle sur la Signalisation Routière (IISR).
+        Les articles R. 417-1 à R. 417-13 du Code de la route définissent les règles de stationnement. L&apos;<a href="https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030851507" target="_blank" rel="noopener noreferrer">article R. 417-3</a> permet au maire de limiter la durée du stationnement et d&apos;imposer un dispositif de contrôle. Le marquage et les panneaux suivent l&apos;Instruction Interministérielle sur la Signalisation Routière (IISR).
       </p>
 
       <h3>L&apos;arrêté municipal</h3>
@@ -89,10 +88,10 @@ export default function Content() {
 
       <h3>Le disque européen de stationnement</h3>
       <p>
-        Depuis 2007, seul le <strong>disque de stationnement</strong> au format européen est valable en France. Ce disque bleu normalise (arrêté du 27 février 2007) mesure 15 cm de diamètre et affiché l&apos;heure d&apos;arrivée par tranches de 10 minutes.
+        Le <strong>disque de stationnement</strong> doit respecter le modèle type fixé par l&apos;arrêté du 6 décembre 2007, <a href="https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000036902956" target="_blank" rel="noopener noreferrer">modifié le 30 avril 2018</a>. Son cadran gradué indique l&apos;heure d&apos;arrivée, avec des repères de 10 minutes.
       </p>
       <p>
-        L&apos;ancien modèle français à double fenêtre n&apos;est plus réglementaire. Utiliser un disque non conforme exposé à la même sanction qu&apos;une absence de disque.
+        Les anciens modèles ne sont plus admis depuis le 31 décembre 2011. Utiliser un disque non conforme expose à la même sanction qu&apos;une absence de disque.
       </p>
 
       <h2>Le marquage au sol des places bleues : spécifications techniques</h2>
@@ -154,7 +153,7 @@ export default function Content() {
         En 1 000 projets réalisés depuis 2016, nous avons constaté ces erreurs récurrentes sur les zones bleues :
       </p>
       <ul>
-        <li><strong>Bleu trop clair</strong> : confusion avec le marquage PMR ou les zones de depose-minute</li>
+        <li><strong>Bleu trop clair</strong> : confusion avec le marquage PMR ou les zones de dépose-minute</li>
         <li><strong>Absence de panneau</strong> : le marquage seul ne crée pas juridiquement la zone bleue</li>
         <li><strong>Marquage sur enrobé dégradé</strong> : la peinture ne tient pas sur un sol fissure ou poreux, il faut d&apos;abord réparer le support</li>
       </ul>
@@ -186,7 +185,7 @@ export default function Content() {
         <li>Les catégories exonérées (&laquo; sauf résidents munis de la carte &raquo;)</li>
       </ul>
       <p>
-        Marc, adjoint au maire d&apos;une commune de l&apos;Ouest lyonnais, nous a contactes en 2025 pour équiper 40 places en zone bleue sur le parking de la place du marche. Le projet comprenait le marquage au sol, la pose de 6 panneaux B6b4/B6b5 et 3 panonceaux horaires. Délai de réalisation : 4 jours ouvres. Résultat : une rotation des véhicules multipliée par trois les jours de marche.
+        Prenons l&apos;exemple d&apos;une commune qui fait équiper 40 places en zone bleue sur le parking de la place du marché. Le projet comprenait le marquage au sol, la pose de 6 panneaux B6b4/B6b5 et 3 panonceaux horaires. Délai de réalisation : 4 jours ouvrés. Résultat : une rotation des véhicules multipliée par trois les jours de marché.
       </p>
 
       <h2>Disque de stationnement : règles d&apos;utilisation et sanctions</h2>
@@ -230,8 +229,7 @@ export default function Content() {
               <td>35 euros (amende de 2e classe)</td>
             </tr>
             <tr>
-              <td>Stationnement genant (hors place)</td>
-              <td>135 euros (amende de 4e classe)</td>
+              <td>Stationnement gênant (hors place)</td> <td>35 euros ou 135 euros selon le cas</td>
             </tr>
           </tbody>
         </table>
@@ -321,7 +319,7 @@ export default function Content() {
 
       <h3>2. Délibération et arrêté municipal</h3>
       <p>
-        Le conseil municipal delibere. Le maire prend un arrêté fixant le périmètre, les horaires et la durée maximale. L&apos;arrêté est affiché en mairie et publié.
+        Le conseil municipal délibère. Le maire prend un arrêté fixant le périmètre, les horaires et la durée maximale. L&apos;arrêté est affiché en mairie et publié.
       </p>
 
       <h3>3. Conception du plan de marquage</h3>
@@ -331,7 +329,7 @@ export default function Content() {
 
       <h3>4. Travaux de marquage et signalisation</h3>
       <p>
-        Le marquage au sol et la pose des panneaux sont réalisés simultanément. Un chantier de 30 à 50 places se réalise en 2 à 5 jours ouvres selon les conditions.
+        Le marquage au sol et la pose des panneaux sont réalisés simultanément. Un chantier de 30 à 50 places se réalise en 2 à 5 jours ouvrés selon les conditions.
       </p>
 
       <h3>5. Communication aux usagers</h3>
@@ -406,7 +404,7 @@ export default function Content() {
         En pratique, le marquage bleu dans un parking privé à une valeur <strong>incitative</strong>, pas <strong>coercitive</strong>. Il fonctionne très bien dans les parkings de grandes surfaces et les zones commerciales, où la pression sociale et la signalétique suffisent a assurer la rotation.
       </p>
       <p>
-        Sophie, directrice d&apos;un centre médical à Bron, a fait tracer 8 places bleues &laquo; 1 heure max &raquo; devant l&apos;accueil en 2025. Résultat : les patients trouvent désormais une place dans 90% des cas, contre moins de 50% avant le marquage. Le dispositif repose uniquement sur la signalétique interne et la bonne volonté des usagers, et ça fonctionne.
+        Prenons l&apos;exemple d&apos;une directrice de centre médical, qui a fait tracer 8 places bleues &laquo; 1 heure max &raquo; devant l&apos;accueil . Résultat : les patients trouvent désormais une place dans 90% des cas, contre moins de 50% avant le marquage. Le dispositif repose uniquement sur la signalétique interne et la bonne volonté des usagers, et ça fonctionne.
       </p>
       <p>
         Consultez nos <Link href="/realisations">réalisations</Link> pour voir des exemples concrets de parkings avec zones bleues.
@@ -416,7 +414,7 @@ export default function Content() {
 
       <h3>Le disque de stationnement est-il obligatoire sur une place bleue ?</h3>
       <p>
-        Oui. En zone bleue réglementée par arrêté municipal, le disque de stationnement au format européen est obligatoire. Son absence exposé à une amende de 35 euros. Sur un parking privé utilisant le code couleur bleu, le disque est recommandé mais ne peut pas faire l&apos;objet d&apos;une verbalisation au titre du Code de la route.
+        Oui. En zone bleue réglementée par arrêté municipal, le disque de stationnement au format européen est obligatoire. Son absence expose à une amende de 35 euros. Sur un parking privé utilisant le code couleur bleu, le disque est recommandé mais ne peut pas faire l&apos;objet d&apos;une verbalisation au titre du Code de la route.
       </p>
 
       <h3>Combien de temps peut-on rester sur une place bleue ?</h3>
@@ -426,22 +424,22 @@ export default function Content() {
 
       <h3>Les places bleues sont-elles gratuites ?</h3>
       <p>
-        Oui. Le stationnement en zone bleue est toujours gratuit. C&apos;est sa différence principale avec le stationnement payant a horodateur. Le seul coût pour l&apos;automobiliste est l&apos;achat du disque de stationnement (environ 2 euros, en vente dans les bureaux de tabac et stations-service).
+        Oui. Le stationnement en zone bleue est toujours gratuit. C&apos;est sa différence principale avec le stationnement payant à horodateur. Le seul coût pour l&apos;automobiliste est l&apos;achat du disque de stationnement (en vente notamment dans les bureaux de tabac et stations-service).
       </p>
 
       <h3>Une zone bleue fonctionne-t-elle le dimanche ?</h3>
       <p>
-        Cela dépend de l&apos;arrêté municipal. Beaucoup de zones bleues sont actives du lundi au samedi, avec des horaires calques sur l&apos;activité commerciale. Certaines communes incluent le dimanche matin pour les jours de marche. Hors des horaires d&apos;application, le stationnement est libre et sans limitation de durée.
+        Cela dépend de l&apos;arrêté municipal. Beaucoup de zones bleues sont actives du lundi au samedi, avec des horaires calqués sur l&apos;activité commerciale. Certaines communes incluent le dimanche matin pour les jours de marché. Hors des horaires d&apos;application, le stationnement est libre et sans limitation de durée.
       </p>
 
       <h3>Peut-on contester un PV en zone bleue si le marquage est effacé ?</h3>
       <p>
-        Oui. Un marquage au sol illisible ou des panneaux manquants constituent un défaut de signalisation. Ce motif est recevable dans le cadre d&apos;une contestation. La collectivité à l&apos;obligation d&apos;entretenir la signalisation pour que la zone bleue reste opposable.
+        Oui. Un marquage au sol illisible ou des panneaux manquants constituent un défaut de signalisation. Ce motif est recevable dans le cadre d&apos;une contestation. La collectivité a l&apos;obligation d&apos;entretenir la signalisation pour que la zone bleue reste opposable.
       </p>
 
       <h3>Quelle est la différence entre une place bleue et une place PMR ?</h3>
       <p>
-        La place bleue est une place à durée limitée ouverte à tous les véhicules. La place PMR est réservée aux personnes handicapées titulaires d&apos;une carte mobilité inclusion (CMI). Le marquage PMR utilisé des bandes blanches et un pictogramme bleu, tandis que la place bleue utilisé des bandes bleues. Ce sont deux dispositifs distincts.
+        La place bleue est une place à durée limitée ouverte à tous les véhicules. La place PMR est réservée aux personnes handicapées titulaires d&apos;une carte mobilité inclusion (CMI). Le marquage PMR utilise des bandes blanches et un pictogramme bleu, tandis que la place bleue utilise des bandes bleues. Ce sont deux dispositifs distincts.
       </p>
 
       <h2>Conclusion : un marquage conforme pour des places bleues efficaces</h2>

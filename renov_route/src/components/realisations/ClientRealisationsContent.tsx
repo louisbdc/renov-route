@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useMemo, useEffect, Suspense } from 'react'
+import { useState, useMemo, useEffect } from 'react'
 import Hero from '@/components/realisations/Hero'
 import Filters, { FilterState } from '@/components/realisations/Filters'
 import CaseGrid from '@/components/realisations/CaseGrid'
@@ -125,16 +125,5 @@ function RealisationsContent() {
 }
 
 export default function ClientRealisationsContent() {
-  return (
-    <Suspense fallback={
-      <div className="min-h-screen bg-white flex items-center justify-center">
-        <div className="p-10 border border-slate-200 bg-white text-center">
-          <div className="animate-spin rounded-full h-10 w-10 border-2 border-[#0F172A] border-t-transparent mx-auto mb-4" />
-          <p className="text-[#0F172A] text-[10px] font-black uppercase tracking-[0.2em]">Chargement</p>
-        </div>
-      </div>
-    }>
-      <RealisationsContent />
-    </Suspense>
-  )
+  return <RealisationsContent />
 }

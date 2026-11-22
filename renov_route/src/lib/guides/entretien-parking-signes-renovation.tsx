@@ -1,10 +1,11 @@
 import type { Guide } from '../guides'
+import KeyAnswer from '@/components/KeyAnswer'
 import Link from 'next/link'
 
 export const meta: Guide = {
   slug: 'entretien-parking-signes-renovation',
   title: 'Entretien de parking : 7 signes qu\'il est temps de rénover',
-  metaTitle: 'Entretien parking : 7 signes qu\'il faut rénover | Rénov\'Route',
+  metaTitle: "Entretien parking : 7 signes qu'il faut rénover",
   metaDescription: 'Votre parking montre des signes d\'usure ? Marquages effacés, nids de poule, fissures : 7 signes qu\'il est temps de rénover. Checklist et coûts estimatifs.',
   publishDate: '2026-03-04',
   updatedDate: '2026-05-22',
@@ -16,14 +17,20 @@ export const meta: Guide = {
 export default function Content() {
   return (
     <>
+      <KeyAnswer question={"Quand faut-il rénover un parking ?"}>
+        <p>
+        L'<strong>entretien d'un parking</strong> doit passer à la rénovation dès que deux signes se cumulent : marquages effacés, nids de poule, fissures, panneaux abîmés, équipements dégradés, eau stagnante ou aucune intervention depuis plus de 5 ans. Un retraçage de 50 places coûte généralement 1 500 à 3 000 € HT.
+        </p>
+      </KeyAnswer>
+
       <p>
         Votre parking fonctionne tous les jours. Les voitures entrent, stationnent, repartent. Personne ne s'en plaint. Alors pourquoi y toucher ?
       </p>
       <p>
-        Parce que la dégradation d'un parking est progressive. Elle ne se voit pas du jour au lendemain. Les marquages pâlissent mois après mois. Les fissures s'élargissent saison après saison. Les nids de poule apparaissent un par un. Et le jour où vous remarquez enfin l'état du parking, le coût de remise en état a doublé par rapport à ce qu'il aurait été un an plus tôt.
+        Parce que la dégradation d'un parking est progressive. Elle ne se voit pas du jour au lendemain. Les marquages pâlissent mois après mois. Les fissures s'élargissent saison après saison. Les nids de poule apparaissent un par un. Et le jour où vous remarquez enfin l'état du parking, le coût de remise en état a nettement augmenté par rapport à ce qu'il aurait été un an plus tôt.
       </p>
       <p>
-        L'entretien de parking n'est pas un sujet qui passionne les gestionnaires. Mais c'est un sujet qui leur coûte cher quand ils l'ignorent. Ce guide identifié les 7 signes concrets qui indiquent que votre parking a besoin d'une intervention, du simple retraçage à la rénovation complète. Pour chaque signe, vous trouverez le niveau d'urgence, le type d'intervention nécessaire et une estimation budgétaire.
+        L'entretien de parking n'est pas un sujet qui passionne les gestionnaires. Mais c'est un sujet qui leur coûte cher quand ils l'ignorent. Ce guide identifie les 7 signes concrets qui indiquent que votre parking a besoin d'une intervention, du simple retraçage à la rénovation complète. Pour chaque signe, vous trouverez le niveau d'urgence, le type d'intervention nécessaire et une estimation budgétaire.
       </p>
 
       <h2>Signe 1 : Les marquages au sol sont effacés ou à peine visibles</h2>
@@ -46,7 +53,7 @@ export default function Content() {
       <p><strong>Urgence :</strong> Moyenne. Planifiable sous 2 à 4 semaines.</p>
 
       <p>
-        Jérôme, gérant d'un centre médical à Oullins (69), ne voyait plus les lignes de son parking de 35 places. Les patients se garaient n'importe comment, bloquant parfois l'accès aux ambulances. Après un retraçage complet en 2 jours (2 100 €), le parking a retrouvé sa capacité d'accueil. Mieux : les retours des patients sur l'image du centre ont été immédiats.
+        Prenons l'exemple d'un centre médical dont les lignes du parking de 35 places ne se voient plus. Les patients se garent n'importe comment et bloquent parfois l'accès aux ambulances. Un retraçage complet redonne au parking sa capacité d'accueil.
       </p>
 
       <p>
@@ -55,7 +62,7 @@ export default function Content() {
 
       <h2>Signe 2 : Des nids de poule apparaissent</h2>
       <p>
-        Les nids de poule ne sont pas qu'un problème esthétique. Ce sont des trous dans la chaussée qui s'agrandissent avec le temps, le trafic et les <Link href="/guides/nids-de-poule-hiver-2026-solutions">cycles gel-dégel hivernaux</Link>. Un nid de poule de 10 cm en janvier peut mesurer 30 cm en avril.
+        Les nids de poule ne sont pas qu'un problème esthétique. Ce sont des trous dans la chaussée qui s'agrandissent avec le temps, le trafic et les <Link href="/guides/enrobe-froid-vs-resine-nids-de-poule">cycles gel-dégel hivernaux</Link>. Un nid de poule de 10 cm en janvier peut mesurer 30 cm en avril.
       </p>
 
       <p><strong>Les conséquences :</strong></p>
@@ -156,7 +163,7 @@ export default function Content() {
       <p><strong>Urgence :</strong> Moyenne à haute selon l'équipement. Les éléments de sécurité (bornes, ralentisseurs) sont prioritaires.</p>
 
       <p>
-        Sandrine, responsable technique d'une chaîne de restauration rapide en Isère, a découvert lors d'un audit interne que 4 de ses 6 restaurants avaient des ralentisseurs décollés ou manquants sur leurs parkings drive. Un client avait d'ailleurs signalé un choc sous sa voiture à cause d'un ralentisseur partiellement détaché. Elle nous a confié le remplacement des 12 ralentisseurs concernés. Intervention sur les 4 sites en deux jours, pour un total de 2 800 €. Zéro réclamation depuis.
+        Prenons l'exemple d'une chaîne de restauration rapide dont un audit interne révèle des ralentisseurs décollés ou manquants sur plusieurs parkings drive. Un ralentisseur partiellement détaché peut heurter le dessous d'une voiture : mieux vaut le remplacer dès qu'il est repéré.
       </p>
 
       <h2>Signe 6 : L'eau stagne après la pluie</h2>
@@ -204,7 +211,7 @@ export default function Content() {
       <p>Le résultat : un compte-rendu chiffré avec les interventions prioritaires et un calendrier de maintenance recommandé.</p>
 
       <p>
-        Damien, directeur régional d'une enseigne de prêt-à-porter avec 8 magasins en Rhône-Alpes, nous a demandé un audit de ses 8 parkings. Aucun n'avait été entretenu depuis l'ouverture, entre 4 et 7 ans plus tôt. Le diagnostic a révélé 23 nids de poule, 5 parkings nécessitant un retraçage complet, 11 panneaux à remplacer et 2 parkings avec des problèmes de drainage. En échelonnant les travaux sur 3 mois par ordre de priorité, le budget total est resté sous les 18 000 €. Si chaque site avait attendu l'urgence, le coût aurait facilement doublé.
+        Prenons l'exemple d'une enseigne de plusieurs magasins dont les parkings n'ont pas été entretenus depuis leur ouverture. Un diagnostic groupé permet de classer nids de poule, retraçages, panneaux et drainage par priorité, puis d'échelonner les travaux au lieu de les subir en urgence, site par site.
       </p>
 
       <h2>La checklist d'entretien de parking</h2>
@@ -269,6 +276,28 @@ export default function Content() {
 
       <p>
         Pour un chiffrage précis adapté à votre parking, consultez notre guide complet de la <Link href="/guides/renovation-parking-copropriete">rénovation de parking en copropriété</Link> ou <Link href="/devis">demandez un devis gratuit</Link>.
+      </p>
+
+      <h2>FAQ : entretien de parking</h2>
+
+      <h3>Quels sont les signes qu'un parking doit être rénové ?</h3>
+      <p>
+        Sept signes doivent alerter : marquages effacés, nids de poule, fissures, panneaux endommagés, équipements de sécurité dégradés, eau qui stagne après la pluie et absence d'intervention depuis plus de 5 ans. À partir de 2 signes présents, il est temps d'agir.
+      </p>
+
+      <h3>Combien coûte le retraçage d'un parking de 50 places ?</h3>
+      <p>
+        Un retraçage complet avec des peintures certifiées NF EN 1436 revient généralement entre 1 500 et 3 000 € HT pour un parking de 50 places, soit 8 à 15 €/m² selon la surface et le type de peinture.
+      </p>
+
+      <h3>Un nid de poule sur un parking est-il urgent à réparer ?</h3>
+      <p>
+        Oui, son niveau d'urgence est élevé. L'eau s'infiltre, gèle et élargit le trou à chaque cycle, et le gestionnaire peut être tenu responsable des dommages aux véhicules. Une réparation par résine polyuréthane coûte 80 à 200 € par nid de poule.
+      </p>
+
+      <h3>À quelle fréquence faut-il inspecter un parking ?</h3>
+      <p>
+        Une inspection chaque trimestre permet de contrôler les marquages, la chaussée, la signalisation verticale et les équipements. Elle repère les dégradations tant qu'elles restent simples et peu coûteuses à traiter.
       </p>
 
       <h2>Ne laissez pas votre parking vous coûter plus cher que nécessaire</h2>

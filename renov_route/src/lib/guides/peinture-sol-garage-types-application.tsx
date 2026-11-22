@@ -1,11 +1,12 @@
 import type { Guide } from '../guides'
+import KeyAnswer from '@/components/KeyAnswer'
 import Link from 'next/link'
 
 export const meta: Guide = {
   slug: 'peinture-sol-garage-types-application',
   title: 'Peinture sol garage : types, prix et guide d\'application',
-  metaTitle: 'Peinture sol garage: types, prix et application',
-  metaDescription: 'Peinture époxy, polyuréthane, alkyde : comparatif des peintures de sol de garage avec prix au m2, préparation du support et conseils d\'application.',
+  metaTitle: 'Peinture sol garage : types, prix et application',
+  metaDescription: "Peinture époxy, polyuréthane, alkyde : comparatif des peintures de sol de garage avec prix au m², préparation du support et conseils d'application.",
   publishDate: '2026-03-04',
   updatedDate: '2026-07-28',
   category: 'renovation-parking',
@@ -16,14 +17,20 @@ export const meta: Guide = {
 export default function Content() {
   return (
     <>
+      <KeyAnswer question="Quelle peinture de sol choisir pour un garage ?">
+        <p>
+          Pour un garage résidentiel, la <strong>peinture sol garage</strong> époxy bi-composant offre le meilleur rapport performance-prix et dure 5 à 10 ans. L&apos;acrylique tient 1 à 3 ans, l&apos;alkyde-uréthane 2 à 4 ans et le polyuréthane 7 à 12 ans. Dans tous les cas, nettoyez, dégraissez et poncez le support avant d&apos;appliquer la peinture.
+        </p>
+      </KeyAnswer>
+
       <p>
-        Un sol de garage brut, ca se voit. Poussière de béton qui se depose sur les véhicules, taches d&apos;huile qui s&apos;incrustent, fissures qui s&apos;élargissent à chaque hiver. La peinture de sol transforme une dalle grise et poreuse en surface nette, résistante et facile à nettoyer.
+        Un sol de garage brut, ça se voit. Poussière de béton qui se dépose sur les véhicules, taches d&apos;huile qui s&apos;incrustent, fissures qui s&apos;élargissent à chaque hiver. La peinture de sol transforme une dalle grise et poreuse en surface nette, résistante et facile à nettoyer.
       </p>
       <p>
-        Julien, propriétaire d&apos;une maison à Écully (69), a peint le sol de son garage de 35 m2 en résine époxy bi-composant un samedi matin. Budget maîtrise pour la peinture, le primaire et le rouleau. Le dimanche soir, il garait sa voiture sur un sol gris anthracite, lisse et brillant. Deux ans plus tard, aucune tache d&apos;huile ne s&apos;est incrustée, la poussière a disparu et le garage ressemble à un show-room. Temps de travail : 5 heures, pauses comprises.
+        Prenons l&apos;exemple d&apos;un propriétaire de maison, qui a peint le sol de son garage de 35 m2 en résine époxy bi-composant un samedi matin. Budget maîtrisé pour la peinture, le primaire et le rouleau. Le dimanche soir, il garait sa voiture sur un sol gris anthracite, lisse et brillant. Deux ans plus tard, aucune tache d&apos;huile ne s&apos;est incrustée, la poussière a disparu et le garage ressemble à un show-room. Temps de travail : 5 heures, pauses comprises.
       </p>
       <p>
-        Peinture époxy, polyuréthane, alkyde-urethane : chaque type à ses performances, ses limites et son prix. Ce guide compare les options, détaille les prix au m2 et explique les étapes d&apos;une application reussie.
+        Peinture époxy, polyuréthane, alkyde-urethane : chaque type a ses performances, ses limites et son prix. Ce guide compare les options, détaille les prix au m2 et explique les étapes d&apos;une application réussie.
       </p>
 
       <h2>Les types de peinture pour sol de garage</h2>
@@ -202,7 +209,7 @@ export default function Content() {
         <li><strong>Budget confort (polyuréthane)</strong> : à partir de 350 euros</li>
       </ul>
       <p>
-        Sophie, propriétaire d&apos;un pavillon à Villeurbanne (69), avait acheté une peinture acrylique bon marche pour son garage de 32 m2. Six mois après, des traces de pneus marquaient le sol et la peinture s&apos;ecaillait devant la porte. Elle a reponce tout le garage en époxy bi-composant (avec 2 heures de ponçage supplémentaires pour retirer l&apos;acrylique). Total sur 2 ans : un budget nettement supérieur à celui qu&apos;elle aurait dépense en choisissant directement l&apos;époxy. Le &quot;pas cher&quot; a coûté bien plus au final.
+        Autre exemple : une propriétaire de pavillon avait acheté une peinture acrylique bon marché pour son garage de 32 m2. Six mois après, des traces de pneus marquaient le sol et la peinture s&apos;écaillait devant la porte. Elle a dû poncer tout le garage et le refaire en époxy bi-composant (avec 2 heures de ponçage supplémentaires pour retirer l&apos;acrylique). Total sur 2 ans : un budget nettement supérieur à celui qu&apos;elle aurait dépensé en choisissant directement l&apos;époxy. Le &quot;pas cher&quot; a coûté bien plus au final.
       </p>
 
       <h2>Préparation du sol : l&apos;étape qui décide de tout</h2>
@@ -223,7 +230,7 @@ export default function Content() {
         Scotchez un carre de plastique transparent (50 x 50 cm) au sol pendant 24 heures. Si de la condensation apparait sous le plastique, le sol est trop humide pour la peinture. Attendez ou traitez le problème d&apos;humidité avant de peindre.
       </p>
 
-      <h3>Étape 3 : test de porosite</h3>
+      <h3>Étape 3 : test de porosité</h3>
       <p>
         Versez quelques gouttes d&apos;eau sur le béton. Si l&apos;eau est absorbée en moins de 30 secondes, le support est suffisamment poreux. Si l&apos;eau perle en surface, le sol a probablement reçu un traitement hydrofuge ou un ancien revêtement qu&apos;il faut retirer.
       </p>
@@ -356,7 +363,7 @@ export default function Content() {
       <h3>Entretien courant</h3>
       <ul>
         <li>Balayage ou aspiration hebdomadaire</li>
-        <li>Lavage mensuel au détergent neutre (pH 7) et serpilliere</li>
+        <li>Lavage mensuel au détergent neutre (pH 7) et serpillière</li>
         <li>Nettoyage immédiat des taches d&apos;huile ou de carburant (essuyer, puis nettoyer au détergent)</li>
       </ul>
 
@@ -392,7 +399,7 @@ export default function Content() {
 
       <h3>Peut-on peindre sur une ancienne peinture de sol ?</h3>
       <p>
-        Oui, si l&apos;ancienne peinture est adhérente et en bon état. Poncez légèrement pour créer une accroche, depoussiérez et appliquez. Si l&apos;ancienne peinture s&apos;écaille, il faut la retirer complètement (ponceuse, decapant chimique ou grenailleuse).
+        Oui, si l&apos;ancienne peinture est adhérente et en bon état. Poncez légèrement pour créer une accroche, dépoussiérez et appliquez. Si l&apos;ancienne peinture s&apos;écaille, il faut la retirer complètement (ponceuse, décapant chimique ou grenailleuse).
       </p>
 
       <h3>Combien de temps dure une peinture de sol de garage ?</h3>
@@ -400,12 +407,12 @@ export default function Content() {
         De 1 à 12 ans selon le type : acrylique (1-3 ans), alkyde-urethane (2-4 ans), époxy (5-10 ans), polyuréthane (7-12 ans). La durée de vie dépend aussi de la préparation du sol et du volume de trafic.
       </p>
 
-      <h2>Un garage propre, ca commence par le sol</h2>
+      <h2>Un garage propre, ça commence par le sol</h2>
       <p>
         La peinture de sol de garage est l&apos;amélioration la plus visible et la plus rentable pour un garage résidentiel. En une journée de travail et pour un budget accessible, un garage gris et poussiéreux devient un espace propre, lumineux et facile à entretenir.
       </p>
       <p>
-        Le choix se résumé à une question : garage ferme et protège du soleil, choisissez l&apos;époxy. Garage semi-ouvert ou exposé à la lumière, choisissez la polyuréthane. Et oubliez l&apos;acrylique si vous y garez une voiture.
+        Le choix se résume à une question : garage fermé et protégé du soleil, choisissez l&apos;époxy. Garage semi-ouvert ou exposé à la lumière, choisissez la polyuréthane. Et oubliez l&apos;acrylique si vous y garez une voiture.
       </p>
       <p>
         <strong>Vous avez un projet de sol pour votre garage ou parking professionnel ?</strong>{' '}

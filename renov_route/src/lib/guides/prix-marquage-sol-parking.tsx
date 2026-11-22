@@ -5,8 +5,8 @@ import Link from 'next/link'
 export const meta: Guide = {
   slug: 'prix-marquage-sol-parking',
   title: 'Prix marquage au sol parking : tarifs détaillés et devis (2026)',
-  metaTitle: 'Prix marquage au sol parking 2026 : dès 2,50€/ml (tarifs + devis)',
-  metaDescription: 'Prix marquage au sol parking en 2026 : tarifs au m² et par place, exemples de devis, comparatif peinture/résine/thermocollé. Devis gratuit en 48h, sans engagement.',
+  metaTitle: 'Prix marquage au sol parking : dès 2,50 €/ml (tarifs 2026)',
+  metaDescription: 'Prix marquage au sol parking en 2026 : tarifs au m² et par place, exemples de devis, comparatif peinture/résine/thermocollé. Devis gratuit en 48h.',
   publishDate: '2026-03-04',
   updatedDate: '2026-08-08',
   category: 'prix-tarifs',
@@ -134,7 +134,7 @@ export default function Content() {
 
       <h3>Exemple concret : parking de 50 places</h3>
       <p>
-        Prenons le cas de Sophie, gestionnaire d&apos;un Intermarché dans l&apos;Ain. Son parking
+        Prenons l&apos;exemple d&apos;une gestionnaire de supermarché. Son parking
         de 50 places n&apos;avait pas été retracé depuis six ans. Les lignes étaient presque
         invisibles et deux places PMR manquaient de pictogramme. Après diagnostic, le projet
         comprenait le retraçage de toutes les places, la mise en conformité PMR, la pose de

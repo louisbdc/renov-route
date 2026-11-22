@@ -41,7 +41,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       url,
       type: 'article',
       locale: 'fr_FR',
-      siteName: 'Rénov Route',
+      siteName: 'Rénov\'Route',
       publishedTime: published,
       modifiedTime: modified,
       authors: ['https://renov-route.com/qui-sommes-nous/'],

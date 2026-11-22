@@ -25,11 +25,6 @@ const ORGANIZATION_JSONLD = {
     'Mise en conformité PMR',
     'Enrobé à froid',
   ],
-  hasCredential: {
-    '@type': 'EducationalOccupationalCredential',
-    credentialCategory: 'certification',
-    name: 'Certification NF EN 1436 — Signalisation horizontale',
-  },
   identifier: [
     { '@type': 'PropertyValue', propertyID: 'SIRET', value: '81874551500010' },
     { '@type': 'PropertyValue', propertyID: 'SIREN', value: '818745515' },

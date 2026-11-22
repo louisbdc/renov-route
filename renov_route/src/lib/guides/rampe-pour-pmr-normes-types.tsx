@@ -6,7 +6,7 @@ export const meta: Guide = {
   slug: 'rampe-pour-pmr-normes-types',
   title: 'Rampe pour PMR : le guide complet pour être en conformité',
   metaTitle: 'Rampe PMR : pente de 5 %, 8 % ou 10 % selon la longueur',
-  metaDescription: 'La pente maximale dépend du dénivelé : 5 % au-delà de 2 m, 8 % jusqu\'à 2 m, 10 % sous 0,50 m. Paliers de repos, types de rampes et prix constatés.',
+  metaDescription: 'Une rampe PMR a une pente de 5 % maximum, tolérée à 8 % sur 2 m et à 10 % sur 0,50 m. Paliers de repos, types de rampes et prix constatés.',
   publishDate: '2026-03-31',
   updatedDate: '2026-08-08',
   category: 'normes-pmr',
@@ -19,15 +19,15 @@ export default function Content() {
     <>
       <KeyAnswer question="Quelle pente maximale pour une rampe PMR ?">
         <p>
-          La pente dépend du dénivelé à franchir : <strong>5 %</strong> au-delà de 2 m, <strong>8 %</strong> jusqu'à 2 m, et <strong>10 %</strong> sous 0,50 m. Un palier de repos horizontal est obligatoire tous les 10 m de cheminement.
+          Pour un ERP neuf, la pente d&apos;une <strong>rampe PMR</strong> est de <strong>5 %</strong> maximum, tolérée à <strong>8 %</strong> sur 2 m de long et à <strong>10 %</strong> sur 0,50 m (<a href="https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000034485944" target="_blank" rel="noopener noreferrer">arrêté du 20 avril 2017, art. 2</a>). Un palier de repos est requis en haut, en bas et tous les 10 m dès 4 % de pente.
         </p>
       </KeyAnswer>
 
       <p>
-        Votre établissement est-il réellement accessible ? En France, <strong>40% des Établissements Recevant du Public (ERP) ne respectent pas encore les normes d&apos;accessibilité PMR</strong>. Et les sanctions sont lourdes : jusqu&apos;à 45 000 EUR d&apos;amende et trois ans d&apos;emprisonnement pour les personnes physiques.
+        Votre établissement est-il réellement accessible ? Les sanctions sont lourdes : jusqu&apos;à 45 000 € d&apos;amende, et jusqu&apos;à 225 000 € pour une personne morale (<a href="https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000041570603" target="_blank" rel="noopener noreferrer">article L. 183-4 du CCH</a>).
       </p>
       <p>
-        Vous gérez un commerce, un parking ou un bâtiment public et vous savez que l&apos;accessibilité est un sujet a traiter. Peut-être avez-vous reçu une mise en demeure, ou peut-être anticipez-vous simplement la prochaine visite de la commission de sécurité. Dans les deux cas, la rampe pour PMR (Personne a Mobilité Réduite), aussi appelée rampe handicapé, est souvent la première installation à mettre en place.
+        Vous gérez un commerce, un parking ou un bâtiment public et vous savez que l&apos;accessibilité est un sujet à traiter. Peut-être avez-vous reçu une mise en demeure, ou peut-être anticipez-vous simplement la prochaine visite de la commission de sécurité. Dans les deux cas, la rampe pour PMR (Personne à Mobilité Réduite), aussi appelée rampe handicapé, est souvent la première installation à mettre en place.
       </p>
       <p>Dans ce guide, vous allez découvrir :</p>
       <ul>
@@ -45,10 +45,10 @@ export default function Content() {
 
       <h3>Le cadre legal</h3>
       <p>
-        La loi du 11 février 2005 pour l&apos;egalite des droits et des chances impose que tout ERP soit accessible aux personnes à mobilité réduite. Cette obligation couvre les fauteuils roulants, mais aussi les poussettes, les personnes âgées, les bequilles et les troubles visuels.
+        La loi du 11 février 2005 pour l&apos;égalité des droits et des chances impose que tout ERP soit accessible aux personnes à mobilité réduite. Cette obligation couvre les fauteuils roulants, mais aussi les poussettes, les personnes âgées, les béquilles et les troubles visuels.
       </p>
       <p>
-        Depuis le 1er janvier 2015, tous les ERP doivent être accessibles. Les établissements non conformes devaient déposer un Agenda d&apos;Accessibilité Programmée (Ad&apos;AP) pour planifier leurs travaux. En 2026, les délais sont ecoules : <strong>la conformité n&apos;est plus une option, c&apos;est une obligation immédiate</strong>.
+        Depuis le 1er janvier 2015, tous les ERP doivent être accessibles. Les établissements non conformes devaient déposer un Agenda d&apos;Accessibilité Programmée (Ad&apos;AP) pour planifier leurs travaux. En 2026, les délais sont écoulés : <strong>la conformité n&apos;est plus une option, c&apos;est une obligation immédiate</strong>.
       </p>
 
       <h3>Les sanctions encourues</h3>
@@ -62,9 +62,9 @@ export default function Content() {
           </thead>
           <tbody>
             <tr><td>Non-conformité ERP (personne physique)</td><td>Jusqu&apos;à 45 000 EUR d&apos;amende</td></tr>
-            <tr><td>Récidive</td><td>75 000 EUR et 3 ans d&apos;emprisonnement</td></tr>
+            <tr><td>Récidive</td><td>Jusqu&apos;à 6 mois d&apos;emprisonnement en plus de l&apos;amende</td></tr>
             <tr><td>Non-conformité ERP (personne morale)</td><td>Jusqu&apos;à 225 000 EUR d&apos;amende</td></tr>
-            <tr><td>Fermeture administrative</td><td>Possible sur décision du préfet</td></tr>
+            <tr><td>Fermeture administrative</td><td>Possible sur décision de l&apos;autorité administrative</td></tr>
           </tbody>
         </table>
       </div>
@@ -72,37 +72,37 @@ export default function Content() {
         Au-delà des sanctions, c&apos;est aussi une question d&apos;image. Un commerce inaccessible, c&apos;est 12 millions de personnes en situation de handicap en France qui ne franchissent pas votre porte.
       </p>
 
-      <h3>L&apos;histoire de Philippe, gérant d&apos;un Intermarché dans l&apos;Ain</h3>
+      <h3>Exemple : un supermarché sans rampe d&apos;accès</h3>
       <p>
-        Philippe gérait un Intermarché a Neuville-sur-Ain depuis huit ans. En septembre 2025, une cliente en fauteuil roulant a signalé l&apos;absence de rampe d&apos;accès au niveau de l&apos;entrée latérale du magasin. La plainte est remontée à la commission d&apos;accessibilité departementale. Philippe a reçu une mise en demeure avec un délai de trois mois pour se mettre en conformité.
+        Prenons l&apos;exemple d&apos;un gérant de supermarché : une cliente en fauteuil roulant a signalé l&apos;absence de rampe d&apos;accès au niveau de l&apos;entrée latérale du magasin. La plainte est remontée à la commission d&apos;accessibilité départementale. Le gérant a reçu une mise en demeure avec un délai de trois mois pour se mettre en conformité.
       </p>
       <p>
-        Il a fait appel à Renov&apos;Route pour un diagnostic complet. Résultat : en plus de la rampe manquante, le <Link href="/competences/tracage-retracage-parking">marquage des places PMR</Link> sur le parking était non conforme (pictogrammes effacés, dimensions insuffisantes). L&apos;ensemble des travaux, rampe et retraçage, a été réalise en quatre jours. Philippe a évité l&apos;amende et, surtout, son magasin est désormais accessible à tous.
+        Il fait réaliser un diagnostic complet. Résultat : en plus de la rampe manquante, le <Link href="/competences/tracage-retracage-parking">marquage des places PMR</Link> sur le parking était non conforme (pictogrammes effacés, dimensions insuffisantes). L&apos;ensemble des travaux, rampe et retraçage, a été réalisé en quatre jours. Le gérant évite l&apos;amende et, surtout, son magasin est désormais accessible à tous.
       </p>
 
       <h2>Les normes à respecter pour une rampe PMR</h2>
 
       <h3>La pente réglementaire</h3>
       <p>
-        C&apos;est le critère le plus important. La norme rampe PMR fixe des pentes maximales précises selon le denivele a franchir :
+        C&apos;est le critère le plus important. L&apos;<a href="https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000034485944" target="_blank" rel="noopener noreferrer">article 2 de l&apos;arrêté du 20 avril 2017</a> (ERP neufs) fixe la pente selon la longueur du plan incliné. L&apos;existant relève de l&apos;<a href="https://www.legifrance.gouv.fr/loda/id/JORFTEXT000029893131" target="_blank" rel="noopener noreferrer">arrêté du 8 décembre 2014</a>.
       </p>
       <div className="overflow-x-auto">
         <table>
           <thead>
             <tr>
-              <th>Longueur de la rampe</th>
+              <th>Longueur du plan incliné</th>
               <th>Pente maximale autorisée</th>
             </tr>
           </thead>
           <tbody>
-            <tr><td>Jusqu&apos;à 0,50 m de denivele</td><td>10% maximum</td></tr>
-            <tr><td>Jusqu&apos;à 2 m de denivele</td><td>8% maximum</td></tr>
-            <tr><td>Au-delà de 2 m de denivele</td><td>5% maximum</td></tr>
+            <tr><td>Cas général</td><td>5 % maximum</td></tr>
+            <tr><td>Tolérance sur 2 m maximum</td><td>8 % maximum</td></tr>
+            <tr><td>Tolérance sur 0,50 m maximum</td><td>10 % maximum</td></tr>
           </tbody>
         </table>
       </div>
       <p>
-        <strong>Concrètement :</strong> pour franchir une marche de 15 cm, la rampe doit faire au minimum 1,50 m de long (pente de 10%). Pour un denivele de 50 cm, il faut au minimum 6,25 m de rampe (pente de 8%).
+        <strong>Concrètement :</strong> pour franchir une marche de 15 cm, comptez 3 m de rampe à 5 %, ou 1,88 m à 8 % si la tolérance s&apos;applique. Pour un dénivelé de 50 cm, il faut 10 m de rampe à 5 %.
       </p>
       <p>
         Une pente rampe PMR trop raide rend l&apos;installation inutilisable pour une personne en fauteuil roulant manuel. C&apos;est l&apos;erreur la plus fréquente que nous constatons sur le terrain.
@@ -110,22 +110,22 @@ export default function Content() {
 
       <h3>Les dimensions obligatoires</h3>
       <ul>
-        <li><strong>Largeur minimale :</strong> 1,40 m entre les mains courantes (passage utile de 1,20 m)</li>
-        <li><strong>Palier de repos :</strong> Obligatoire tous les 10 m de rampe, d&apos;une longueur minimale de 1,40 m</li>
-        <li><strong>Palier en haut et en bas :</strong> 1,40 m x 1,40 m minimum pour permettre une rotation en fauteuil</li>
+        <li><strong>Largeur minimale :</strong> 1,40 m libre de tout obstacle, ponctuellement 1,20 m sur une faible longueur</li>
+        <li><strong>Palier de repos :</strong> tous les 10 m lorsque la pente atteint 4 %</li>
+        <li><strong>Palier en haut et en bas :</strong> obligatoire pour chaque plan incliné, quelle que soit sa longueur</li>
         <li><strong>Dévers latéral :</strong> 2% maximum pour l&apos;écoulement des eaux</li>
       </ul>
 
       <h3>Les équipements complémentaires</h3>
       <p>
-        Une rampe conforme ne se limite pas à un plan incliné. Elle doit comporter :
+        Une rampe bien conçue ne se limite pas à un plan incliné. Il est recommandé de prévoir :
       </p>
       <ul>
-        <li><strong>Mains courantes</strong> de chaque côté, à 0,80 m et 1,00 m de hauteur</li>
+        <li><strong>Mains courantes</strong> de chaque côté</li>
         <li><strong>Chasse-roues</strong> de 5 cm minimum de chaque côté</li>
         <li><strong>Bande d&apos;éveil de vigilance</strong> en haut de la rampe (bande podo-tactile)</li>
         <li><strong>Contraste visuel</strong> entre la rampe et son environnement</li>
-        <li><strong>Revêtement anti-derapant</strong> en toutes conditions météorologiques</li>
+        <li><strong>Revêtement antidérapant</strong> en toutes conditions météorologiques</li>
         <li><strong>Éclairage</strong> minimum de 20 lux au sol</li>
       </ul>
       <p>
@@ -186,14 +186,14 @@ export default function Content() {
       <p><strong>Inconvénients :</strong></p>
       <ul>
         <li>Nécessite l&apos;intervention du personnel pour l&apos;installer</li>
-        <li>Longueur limitée (denivele max 12-15 cm)</li>
+        <li>Longueur limitée (dénivelé max 12-15 cm)</li>
         <li>Non autonome pour l&apos;usager</li>
         <li><strong>Acceptée uniquement si une rampe fixe est techniquement impossible</strong></li>
       </ul>
 
-      <h3>L&apos;expérience de Martine, syndic d&apos;une copropriété à Lyon 3e</h3>
+      <h3>Exemple : une copropriété de 45 lots</h3>
       <p>
-        Martine gérait une copropriété de 45 lots dans le 3e arrondissement de Lyon. Un copropriétaire en fauteuil roulant a demandé l&apos;installation d&apos;une rampe d&apos;accès au hall d&apos;entrée. Le denivele était de 22 cm sur une entrée de 4 m de large.
+        Prenons l&apos;exemple d&apos;un syndic gérant une copropriété de 45 lots. Un copropriétaire en fauteuil roulant a demandé l&apos;installation d&apos;une rampe d&apos;accès au hall d&apos;entrée. Le dénivelé était de 22 cm sur une entrée de 4 m de large.
       </p>
       <p>
         Après une étude technique, la copropriété a opté pour une rampe fixe en aluminium avec mains courantes. L&apos;installation a duré une journée. Le coût de 3 200 EUR a été réparti sur les charges communes. Le copropriétaire est désormais autonome pour accéder à son domicile, et la copropriété est en conformité avec la loi.
@@ -220,7 +220,7 @@ export default function Content() {
       <h2>Comment choisir la bonne rampe pour votre situation</h2>
 
       <h3>Arbre de décision</h3>
-      <p><strong>1. Quel est le denivele a franchir ?</strong></p>
+      <p><strong>1. Quel est le dénivelé a franchir ?</strong></p>
       <ul>
         <li>Moins de 5 cm : une simple pente douce en résine ou béton suffit</li>
         <li>5 à 20 cm : rampe fixe en aluminium ou béton, ou rampe amovible si ERP 5e catégorie</li>
@@ -249,8 +249,8 @@ export default function Content() {
       </p>
       <ol>
         <li><strong>Pente trop raide.</strong> C&apos;est l&apos;erreur numéro un. Une rampe à 15% est inutilisable en fauteuil roulant. Respectez les 5-8-10% réglementaires.</li>
-        <li><strong>Absence de palier de repos.</strong> Au-delà de 10 m de rampe, un palier horizontal est obligatoire. Sans lui, la rampe est non conforme.</li>
-        <li><strong>Mains courantes manquantes ou mal positionnées.</strong> Les deux mains courantes (0,80 m et 1,00 m) sont obligatoires de chaque côté.</li>
+        <li><strong>Absence de palier de repos.</strong> Dès 4 % de pente, un palier de repos est obligatoire tous les 10 m. Sans lui, la rampe est non conforme.</li>
+        <li><strong>Protection contre les chutes oubliée.</strong> Un dispositif est requis lorsque le cheminement longe, à moins de 0,90 m, une rupture de niveau de plus de 0,25 m.</li>
         <li><strong>Rampe amovible par défaut.</strong> Beaucoup de commerçants installent une rampe amovible &quot;par facilité&quot;. Elle n&apos;est acceptée que si une rampe fixe est techniquement impossible, et elle doit être signalée par un bouton d&apos;appel.</li>
         <li><strong>Oublier le cheminement complet.</strong> La rampe ne sert à rien si le parking n&apos;a pas de places PMR conformes ou si le cheminement entre le parking et l&apos;entrée n&apos;est pas accessible. L&apos;accessibilité se pense de bout en bout, du stationnement à l&apos;accueil.</li>
       </ol>
@@ -271,8 +271,8 @@ export default function Content() {
             <tr><td>Rampe amovible (aluminium)</td><td>300 - 1 500 EUR</td><td>10-15 ans</td></tr>
             <tr><td>Rampe fixe aluminium</td><td>1 500 - 5 000 EUR</td><td>15-20 ans</td></tr>
             <tr><td>Rampe fixe béton</td><td>2 000 - 8 000 EUR</td><td>30+ ans</td></tr>
-            <tr><td>Rampe résine/enrobé (faible denivele)</td><td>500 - 2 000 EUR</td><td>10-15 ans</td></tr>
-            <tr><td>Rampe fixe avec paliers et mains courantes (long denivele)</td><td>5 000 - 15 000 EUR</td><td>30+ ans</td></tr>
+            <tr><td>Rampe résine/enrobé (faible dénivelé)</td><td>500 - 2 000 EUR</td><td>10-15 ans</td></tr>
+            <tr><td>Rampe fixe avec paliers et mains courantes (long dénivelé)</td><td>5 000 - 15 000 EUR</td><td>30+ ans</td></tr>
           </tbody>
         </table>
       </div>
@@ -282,15 +282,15 @@ export default function Content() {
         Plusieurs dispositifs existent pour financer les travaux de mise en accessibilité :
       </p>
       <ul>
-        <li><strong>Fonds territorial d&apos;accessibilité (FTA)</strong> : jusqu&apos;à 50% des travaux, plafonne à 20 000 EUR par établissement</li>
-        <li><strong>Credit d&apos;impot accessibilité</strong> : 25% des dépenses, plafonne à 5 000 EUR (personne seule) ou 10 000 EUR (couple)</li>
-        <li><strong>Subventions AGEFIPH/FIPHFP</strong> : pour les employeurs amenageant les postes de travail</li>
+        
+        
+        <li><strong>Subventions AGEFIPH/FIPHFP</strong> : pour les employeurs aménageant les postes de travail</li>
         <li><strong>Aides des collectivités locales</strong> : variables selon les communes et départements</li>
       </ul>
 
       <h3>Le cas de la copropriété</h3>
       <p>
-        En copropriété, les travaux d&apos;accessibilité PMR sont votes en assemblée générale à la majorité simple (article 24 de la loi de 1965). Le coût est réparti sur les charges communes.
+        En copropriété, les travaux d&apos;accessibilité PMR sont votés en assemblée générale à la majorité simple (article 24 de la loi de 1965). Le coût est réparti sur les charges communes.
       </p>
 
       <h2>Rampe PMR et parking : une accessibilité globale</h2>
@@ -302,7 +302,7 @@ export default function Content() {
         <li><strong>Places PMR conformes</strong> : 2% des places (minimum 1), dimensions 3,30 m x 5 m, marquage au sol et <Link href="/competences/signalisation-verticale">signalisation verticale</Link> (panneau PMR)</li>
         <li><strong>Cheminement accessible</strong> : du stationnement à l&apos;entrée, sans obstacle, avec un revêtement stable et non meuble</li>
         <li><strong>Bande de guidage</strong> : bande podo-tactile pour les personnes malvoyantes</li>
-        <li><strong>Rampe d&apos;accès</strong> : si denivele entre le parking et l&apos;entrée</li>
+        <li><strong>Rampe d&apos;accès</strong> : si dénivelé entre le parking et l&apos;entrée</li>
         <li><strong>Éclairage adapte</strong> : 20 lux minimum sur l&apos;ensemble du cheminement</li>
       </ul>
       <p>
@@ -312,22 +312,22 @@ export default function Content() {
         Découvrez <Link href="/realisations">nos réalisations</Link> : plus de 1 000 projets réalisés depuis 2016 pour des enseignes comme Carrefour, Lidl et McDonald&apos;s.
       </p>
 
-      <h2>Le recit de Marc, responsable technique chez Lidl</h2>
+      <h2>Exemple : la mise aux normes de 12 magasins</h2>
       <p>
-        Marc supervisait la mise aux normes de 12 magasins Lidl en région Rhône-Alpes. Chaque site présentait des problématiques différentes : rampes inexistantes, places PMR mal dimensionnées, signalisation absente.
+        Prenons l&apos;exemple d&apos;un responsable technique chargé de la mise aux normes de 12 magasins. Chaque site présentait des problématiques différentes : rampes inexistantes, places PMR mal dimensionnées, signalisation absente.
       </p>
       <p>
-        Plutôt que de gérer 12 prestataires différents, Marc a confie l&apos;ensemble du projet a Renov&apos;Route. En six semaines, les 12 sites étaient conformes : rampes installées, places PMR retracées, panneaux poses. Un seul interlocuteur, un planning respecte, zéro mauvaise surprise.
+        Plutôt que de gérer 12 prestataires différents, il confie l&apos;ensemble du projet à un seul. En six semaines, les 12 sites étaient conformes : rampes installées, places PMR retracées, panneaux posés. Un seul interlocuteur, un planning respecté, zéro mauvaise surprise.
       </p>
       <p>
-        Le coût total, réparti sur 12 sites, revenait a environ 4 500 EUR par magasin, rampe, marquage et signalisation compris. Un investissement raisonnable compare aux 45 000 EUR d&apos;amende par site non conforme.
+        Le coût total, réparti sur 12 sites, revenait à environ 4 500 EUR par magasin, rampe, marquage et signalisation compris. Un investissement raisonnable comparé aux 45 000 EUR d&apos;amende par site non conforme.
       </p>
 
       <h2>FAQ : vos questions sur les rampes PMR</h2>
 
       <h3>Quelle pente maximale pour une rampe PMR ?</h3>
       <p>
-        10% pour un denivele inférieur à 0,50 m, 8% jusqu&apos;à 2 m, et 5% au-delà de 2 m.
+        5 % maximum, avec une tolérance à 8 % sur 2 m de long et à 10 % sur 0,50 m de long, pour un ERP neuf.
       </p>
 
       <h3>Une rampe amovible est-elle suffisante ?</h3>
@@ -337,12 +337,12 @@ export default function Content() {
 
       <h3>Faut-il un permis de construire pour installer une rampe PMR ?</h3>
       <p>
-        Non, une déclaration préalable de travaux suffit dans la plupart des cas. Si la rampe modifié l&apos;aspect extérieur d&apos;un bâtiment classe ou en zone protégée, un permis peut être nécessaire.
+        Non, une déclaration préalable de travaux suffit dans la plupart des cas. Si la rampe modifie l&apos;aspect extérieur d&apos;un bâtiment classe ou en zone protégée, un permis peut être nécessaire.
       </p>
 
       <h3>Quelle est la largeur minimale d&apos;une rampe PMR ?</h3>
       <p>
-        1,40 m entre les mains courantes, soit un passage utile de 1,20 m minimum.
+        1,40 m libre de tout obstacle pour un cheminement extérieur d&apos;ERP neuf, avec un rétrécissement ponctuel possible à 1,20 m.
       </p>
 
       <h3>Rampe handicapé ou rampe PMR : quelle différence ?</h3>
@@ -357,10 +357,10 @@ export default function Content() {
 
       <h2>Passez à l&apos;action</h2>
       <p>
-        Installer une rampe pour PMR conforme, c&apos;est respecter la loi, éviter des sanctions financières lourdes et, surtout, rendre votre établissement accessible à tous. Les normes de pente (5-8-10%), de largeur (1,40 m) et d&apos;équipements (mains courantes, chasse-roues, bande podo-tactile) ne laissent pas de place à l&apos;improvisation.
+        Installer une rampe pour PMR conforme, c&apos;est respecter la loi, éviter des sanctions financières lourdes et, surtout, rendre votre établissement accessible à tous. Les règles de pente (5-8-10 %), de largeur (1,40 m) et de paliers ne laissent pas de place à l&apos;improvisation.
       </p>
       <p>
-        Que vous geriez un commerce, un parking ou un immeuble, l&apos;accessibilité se pense globalement : du stationnement à l&apos;entrée, de la rampe au marquage des places PMR.
+        Que vous gériez un commerce, un parking ou un immeuble, l&apos;accessibilité se pense globalement : du stationnement à l&apos;entrée, de la rampe au marquage des places PMR.
       </p>
       <p>
         <strong>Renov&apos;Route accompagne les gestionnaires de parkings et d&apos;ERP dans leur mise en conformité sur Lyon, en Rhône-Alpes et dans toute la France.</strong> Un seul interlocuteur, un diagnostic gratuit, un devis en 48h.

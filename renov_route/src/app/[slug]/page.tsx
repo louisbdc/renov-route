@@ -32,8 +32,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const city = resolveCity(slug)
   if (!city) return { title: 'Page introuvable' }
 
-  const title = `Marquage au sol ${city.name} (${city.postalCode}) — Rénov'Route, expert depuis 2016`
-  const description = `Entreprise de marquage au sol à ${city.name} : parking, voirie, industriel, PMR. Depuis 2016, 1 000+ chantiers. Devis gratuit en 48h. Certif NF EN 1436.`
+  const title = `Marquage au sol ${city.name} (${city.postalCode})`
+  const description = `Entreprise de marquage au sol à ${city.name} : parking, voirie, industriel, PMR. Depuis 2016, 1 000+ chantiers. Devis gratuit en 48h. Peintures certifiées NF EN 1436.`
   const url = `https://renov-route.com/${slug}/`
 
   // Les communes sans contenu différencié restent accessibles mais ne sont pas

@@ -1,4 +1,5 @@
 import type { Guide } from '../guides'
+import KeyAnswer from '@/components/KeyAnswer'
 import Link from 'next/link'
 
 export const meta: Guide = {
@@ -8,26 +9,32 @@ export const meta: Guide = {
   // « marquage au sol entreprise » : l'une traite du marquage DANS l'entreprise,
   // l'autre du choix D'UNE entreprise. Les deux intentions sont separees dans les titres.
   title: 'Marquage au sol en entreprise : obligations, techniques et prix en 2026',
-  metaTitle: 'Marquage au sol industriel : normes NF X 08-003, techniques et prix',
+  metaTitle: "Marquage au sol en entreprise et industrie : normes et prix",
   metaDescription:
-    'Marquage au sol en entrepôt et site industriel : code couleur NF X 08-003, allées de circulation, techniques époxy et résine, prix au m². 1 000+ projets depuis 2016.',
+    "Marquage au sol en entrepôt et site industriel : code couleur, allées de circulation, Code du travail, techniques époxy et résine, prix au m².",
   publishDate: '2026-03-31',
   updatedDate: '2026-08-06',
   category: 'marquage-parking',
   readingTime: 12,
   excerpt:
-    'Marquage au sol en entrepôt, atelier et site industriel : obligations légales, code couleur NF X 08-003, techniques de pose et prix au mètre linéaire.',
+    'Marquage au sol en entrepôt, atelier et site industriel : obligations légales, code couleur, techniques de pose et prix au mètre linéaire.',
 }
 
 export default function Content() {
   return (
     <>
+      <KeyAnswer question={"Le marquage au sol est-il obligatoire en entreprise ?"}>
+        <p>
+        Le <strong>marquage au sol en entreprise</strong> découle de l&apos;obligation de sécurité de l&apos;employeur : le Code du travail (art. R4224-3) impose une circulation sûre des piétons et des véhicules, et l&apos;article R4224-20 une signalisation visible des zones de danger. Comptez 8 à 15 € le mètre linéaire en peinture époxy.
+        </p>
+      </KeyAnswer>
+
       <p>
-        Septembre 2024, zone industrielle de Vénissieux. Un intérimaire traverse une allée de stockage sans marquage au sol. Un chariot élévateur surgit d&apos;un angle mort. Fracture du bassin, six mois d&apos;arrêt. L&apos;inspection du travail relève l&apos;absence totale de signalisation horizontale. L&apos;employeur est poursuivi pour faute inexcusable.
+        Prenons l&apos;exemple d&apos;un intérimaire qui traverse une allée de stockage sans marquage au sol. Un chariot élévateur surgit d&apos;un angle mort. Si l&apos;accident survient, l&apos;absence de signalisation pourra être reprochée à l&apos;employeur.
       </p>
 
       <p>
-        Ce cas n&apos;est pas isolé. Chaque année en France, plus de 10 000 accidents du travail impliquent la circulation interne en entreprise. Et dans la majorité des cas, l&apos;absence ou la vétusté du <strong>marquage au sol entreprise</strong> figure parmi les causes identifiées par la CPAM.
+        La circulation interne fait partie des risques à évaluer sur tout site où cohabitent piétons et engins, et l&apos;état du <strong>marquage au sol en entreprise</strong> y joue un rôle direct.
       </p>
 
       <p>
@@ -51,8 +58,9 @@ export default function Content() {
 
       <ul>
         <li><strong>Article R4224-3 :</strong> les lieux de travail intérieurs et extérieurs doivent permettre une circulation sûre des piétons et des véhicules.</li>
-        <li><strong>Articles R4224-20 a R4224-24 :</strong> les voies de circulation doivent être signalées lorsqu&apos;elles sont empruntées par des véhicules. Les zones dangereuses doivent être matérialisées.</li>
-        <li><strong>Article R4227-37 :</strong> les plans d&apos;évacuation et les cheminements vers les issues de secours doivent être signalés.</li>
+        <li><strong>Article R4224-20 :</strong> les zones de danger qui ne peuvent être évitées sont signalées de manière visible et matérialisées.</li>
+        <li><strong>Article R4224-24 :</strong> la signalisation de santé et de sécurité au travail respecte les caractéristiques fixées par arrêté.</li>
+        <li><strong>Article R4227-37 :</strong> une consigne de sécurité incendie est établie et affichée de manière très apparente.</li>
       </ul>
 
       <h3>Le DUER et l&apos;évaluation des risques</h3>
@@ -73,8 +81,8 @@ export default function Content() {
 
       <ul>
         <li><strong>Faute inexcusable</strong> de l&apos;employeur : majoration de la rente versée à la victime</li>
-        <li><strong>Poursuites pénales</strong> : jusqu&apos;à 10 000 EUR d&apos;amende par infraction constatée</li>
-        <li><strong>Fermeture administrative</strong> temporaire du site dans les cas graves</li>
+        <li><strong>Poursuites pénales</strong> : 10 000 EUR d&apos;amende, appliquée autant de fois qu&apos;il y a de travailleurs concernés (article L4741-1 du Code du travail)</li>
+        
       </ul>
 
       <p>
@@ -103,7 +111,7 @@ export default function Content() {
       </ul>
 
       <p>
-        Marie, directrice d&apos;un site de production agroalimentaire à Décines-Charpieu, a fait appel à Renov&apos;Route après un audit de sécurité défavorable. Son usine de 4 500 m2 comptait 60 employés et 8 chariots, mais aucune séparation physique ou visuelle entre piétons et engins. En trois jours d&apos;intervention, nous avons tracé 600 mètres linéaires de voies de circulation, 12 passages piétons et 18 zones de croisement. Six mois après, les quasi-accidents signalés en interne ont chuté de 75 %.
+        Prenons l&apos;exemple d&apos;une usine agroalimentaire où piétons et chariots circulent sans aucune séparation physique ou visuelle. Le marquage consiste alors à tracer les voies de circulation, les passages piétons et les zones de croisement, pour que chacun sache où il peut passer.
       </p>
 
       <h3>Zones de stockage</h3>
@@ -119,13 +127,13 @@ export default function Content() {
       </ul>
 
       <p>
-        Les contours sont généralement traces en blanc ou en jaune, avec une zone de recul obligatoire devant les racks.
+        Les contours sont généralement tracés en blanc ou en jaune, avec une zone de recul obligatoire devant les racks.
       </p>
 
       <h3>Zones dangereuses</h3>
 
       <p>
-        Les zones présentant un danger permanent doivent être signalées par des hachures alternées jaune et noir, conformément à la norme NF X 08-003. Cela concerne :
+        Les zones présentant un danger permanent doivent être signalées par des hachures alternées jaune et noir, selon l&apos;usage de la signalisation de sécurité. Cela concerne :
       </p>
 
       <ul>
@@ -144,7 +152,7 @@ export default function Content() {
       <ul>
         <li><strong>Issues de secours :</strong> flèches directionnelles vertes au sol, completant la{' '}
           <Link href="/competences/signalisation-verticale">signalisation</Link> verticale</li>
-        <li><strong>Extincteurs :</strong> carre rouge au sol devant chaque appareil, zone de dégagement obligatoire</li>
+        <li><strong>Extincteurs :</strong> carré rouge au sol devant chaque appareil, zone de dégagement obligatoire</li>
         <li><strong>Robinets d&apos;incendie armes (RIA) :</strong> marquage rouge avec zone libre de 1 m minimum</li>
       </ul>
 
@@ -156,14 +164,14 @@ export default function Content() {
 
       <ul>
         <li>Maintenir les distances de sécurité entre machines</li>
-        <li>Identifier les zones d&apos;intervention des operateurs</li>
+        <li>Identifier les zones d&apos;intervention des opérateurs</li>
         <li>Faciliter le repositionnement après maintenance</li>
       </ul>
 
-      <h2>Le code couleur du marquage industriel (norme NF X 08-003)</h2>
+      <h2>Le code couleur du marquage industriel</h2>
 
       <p>
-        Le choix des couleurs n&apos;est pas libre. La norme NF X 08-003 définit un code couleur standardise que toute entreprise doit respecter pour son <strong>marquage sol industriel</strong>.
+        La norme NF X 08-003, aujourd&apos;hui annulée, a longtemps servi de référence. La signalisation de sécurité relève désormais de l&apos;arrêté du 4 novembre 1993 et de la norme NF EN ISO 7010. Le tableau ci-dessous reprend l&apos;usage courant pour un <strong>marquage sol industriel</strong>.
       </p>
 
       <div className="overflow-x-auto">
@@ -223,13 +231,13 @@ export default function Content() {
       <h3>L&apos;erreur la plus fréquente</h3>
 
       <p>
-        Utiliser le jaune pour les voies piétonnes. Le jaune signifie &laquo; attention, danger &raquo; dans le référentiel industriel. Les allées piétonnes doivent être vertes pour signifier &laquo; sécurité &raquo;. Cette confusion est relevée lors de 30 % des audits que nous réalisons.
+        Utiliser le jaune pour les voies piétonnes. Le jaune signifie &laquo; attention, danger &raquo; dans le référentiel industriel. Les allées piétonnes sont généralement vertes pour signifier « sécurité ».
       </p>
 
       <h2>Le marquage au sol extérieur : parking et abords</h2>
 
       <p>
-        Le <strong>marquage au sol entreprise</strong> ne se limite pas à l&apos;intérieur des bâtiments. Les espaces extérieurs (parkings, zones de livraison, voies d&apos;accès) doivent également être signalises.
+        Le <strong>marquage au sol entreprise</strong> ne se limite pas à l&apos;intérieur des bâtiments. Les espaces extérieurs (parkings, zones de livraison, voies d&apos;accès) doivent également être signalisés.
       </p>
 
       <h3>Parking entreprise</h3>
@@ -372,7 +380,7 @@ export default function Content() {
       <h2>La préparation du sol : l&apos;étape décisive</h2>
 
       <p>
-        Un marquage qui s&apos;écaille après six mois, c&apos;est presque toujours un problème de préparation. Thierry, responsable maintenance d&apos;une usine de pièces automobiles à Meyzieu, en a fait l&apos;expérience. Son prestataire précédent avait appliqué une peinture époxy directement sur un sol gras et poussiéreux. Résultat : 40 % du marquage décolle en moins d&apos;un an.
+        Un marquage qui s&apos;écaille après six mois, c&apos;est presque toujours un problème de préparation. Prenons l&apos;exemple d&apos;une peinture époxy appliquée directement sur un sol gras et poussiéreux : le marquage décolle en moins d&apos;un an.
       </p>
 
       <h3>Les étapes de préparation</h3>
@@ -380,8 +388,8 @@ export default function Content() {
       <ol>
         <li><strong>Diagnostic du support :</strong> identification du type de sol (béton lisse, béton brut, enrobé, carrelage industriel), mesure du taux d&apos;humidité</li>
         <li><strong>Nettoyage :</strong> dégraissage industriel, élimination des résidus de colle ou de peinture ancienne</li>
-        <li><strong>Grenaillage ou ponçage :</strong> création d&apos;une rugosité de surface pour garantir l&apos;adhérence. Le grenaillage projette des billes d&apos;acier a haute vitesse sur le sol. Le ponçage mécanique est utilisé pour les surfaces plus délicates</li>
-        <li><strong>Depoussierage :</strong> aspiration industrielle après traitement mécanique</li>
+        <li><strong>Grenaillage ou ponçage :</strong> création d&apos;une rugosité de surface pour garantir l&apos;adhérence. Le grenaillage projette des billes d&apos;acier à haute vitesse sur le sol. Le ponçage mécanique est utilisé pour les surfaces plus délicates</li>
+        <li><strong>Dépoussiérage :</strong> aspiration industrielle après traitement mécanique</li>
         <li><strong>Application d&apos;un primaire d&apos;accroche :</strong> couche de liaison entre le support et le marquage</li>
       </ol>
 
@@ -446,7 +454,7 @@ export default function Content() {
       <h2>Entretien et renouvellement du marquage</h2>
 
       <p>
-        Un marquage correctement pose en résine époxy dure 5 à 10 ans. Mais plusieurs facteurs accelerent l&apos;usure :
+        Un marquage correctement posé en résine époxy dure 5 à 10 ans. Mais plusieurs facteurs accélèrent l&apos;usure :
       </p>
 
       <ul>
@@ -459,8 +467,8 @@ export default function Content() {
       <h3>Signes d&apos;usure à surveiller</h3>
 
       <ul>
-        <li><strong>Decoloration :</strong> le marquage perd sa visibilité, surtout les couleurs rouge et jaune</li>
-        <li><strong>Écaillage :</strong> des zones se decollent, signe d&apos;un défaut d&apos;adhérence</li>
+        <li><strong>Décoloration :</strong> le marquage perd sa visibilité, surtout les couleurs rouge et jaune</li>
+        <li><strong>Écaillage :</strong> des zones se décollent, signe d&apos;un défaut d&apos;adhérence</li>
         <li><strong>Jaunissement :</strong> la résine époxy exposée aux UV jaunit (problème principalement extérieur)</li>
         <li><strong>Effacement :</strong> les lignes deviennent difficilement lisibles à distance normale</li>
       </ul>
@@ -480,7 +488,7 @@ export default function Content() {
       </p>
 
       <p>
-        <strong>2. Confondre les codes couleur.</strong> Utiliser du jaune pour les allées piétonnes ou du vert pour les zones de danger crée une confusion dangereuse et exposé à des sanctions en cas de contrôle.
+        <strong>2. Confondre les codes couleur.</strong> Utiliser du jaune pour les allées piétonnes ou du vert pour les zones de danger crée une confusion dangereuse.
       </p>
 
       <p>
@@ -488,12 +496,12 @@ export default function Content() {
       </p>
 
       <p>
-        <strong>4. Oublier la signalisation verticale.</strong> Le marquage au sol seul ne suffit pas. Les panneaux de limitation de vitesse, de sens de circulation et d&apos;obligation completent le dispositif. Renov&apos;Route installé également la{' '}
+        <strong>4. Oublier la signalisation verticale.</strong> Le marquage au sol seul ne suffit pas. Les panneaux de limitation de vitesse, de sens de circulation et d&apos;obligation complètent le dispositif. Renov&apos;Route installé également la{' '}
         <Link href="/competences/signalisation-verticale">signalisation verticale</Link> associée.
       </p>
 
       <p>
-        <strong>5. Reporter le renouvellement.</strong> Un marquage effacé est juridiquement équivalent à une absence de marquage. En cas d&apos;accident, la responsabilité de l&apos;employeur est engagée de la même manière.
+        <strong>5. Reporter le renouvellement.</strong> Un marquage effacé ne protège plus personne. En cas d&apos;accident, la responsabilité de l&apos;employeur peut être recherchée comme en l&apos;absence de marquage.
       </p>
 
       <h2>FAQ : marquage au sol entreprise</h2>
@@ -501,38 +509,38 @@ export default function Content() {
       <h3>Le marquage au sol est-il obligatoire pour toutes les entreprises ?</h3>
 
       <p>
-        Oui, des lors que des véhicules (chariots élévateurs, transpalettes, véhicules de service) circulent dans vos locaux ou sur votre site. Les articles R4224-3 et R4224-20 a R4224-24 du Code du travail imposent la signalisation des voies de circulation. Même sans véhicule, les issues de secours et les emplacements d&apos;extincteurs doivent être materialises au sol.
+        Oui en pratique, dès lors que des véhicules (chariots élévateurs, transpalettes, véhicules de service) circulent dans vos locaux ou sur votre site. L&apos;article R4224-3 du Code du travail impose une circulation sûre et l&apos;article R4224-20 la signalisation visible des zones de danger. Le marquage au sol est le moyen le plus courant d&apos;y répondre.
       </p>
 
       <h3>Combien coûte le marquage au sol d&apos;une entreprise ?</h3>
 
       <p>
-        Le prix varie de 3 000 EUR pour un atelier de 500 m2 a plus de 50 000 EUR pour un site industriel de 10 000 m2 avec résine intégrale. Le coût moyen du marquage linéaire en peinture époxy se situe entre 8 et 15 EUR par mètre linéaire.{' '}
+        Le prix varie de 3 000 EUR pour un atelier de 500 m2 à plus de 50 000 EUR pour un site industriel de 10 000 m2 avec résine intégrale. Le coût moyen du marquage linéaire en peinture époxy se situe entre 8 et 15 EUR par mètre linéaire.{' '}
         <Link href="/devis">Demandez un devis gratuit</Link> pour obtenir un chiffrage précis adapté à votre site.
       </p>
 
       <h3>Quelle est la durée de vie du marquage au sol industriel ?</h3>
 
       <p>
-        En résine époxy avec une préparation de sol correcte, le marquage dure 5 à 10 ans en intérieur. En extérieur, comptez 2 à 5 ans selon l&apos;exposition aux UV et au trafic. L&apos;adhésif de marquage à une durée de vie plus courte : 1 à 3 ans.
+        En résine époxy avec une préparation de sol correcte, le marquage dure 5 à 10 ans en intérieur. En extérieur, comptez 2 à 5 ans selon l&apos;exposition aux UV et au trafic. L&apos;adhésif de marquage a une durée de vie plus courte : 1 à 3 ans.
       </p>
 
       <h3>Peut-on réaliser le marquage au sol soi-même ?</h3>
 
       <p>
-        Techniquement, oui. Mais un marquage non conforme aux normes NF X 08-003 et au Code du travail engage votre responsabilité. La préparation du sol (grenaillage, primaire) nécessite un équipement professionnel. Sans ces étapes, le marquage s&apos;écaille en quelques mois.
+        Techniquement, oui. Mais un marquage insuffisant au regard du Code du travail engage votre responsabilité. La préparation du sol (grenaillage, primaire) nécessite un équipement professionnel. Sans ces étapes, le marquage s&apos;écaille en quelques mois.
       </p>
 
       <h3>Combien de temps dure l&apos;intervention ?</h3>
 
       <p>
-        Pour un <strong>marquage au sol entreprise</strong> de taille moyenne (entrepôt de 2 000 à 3 000 m2), comptez 3 à 5 jours ouvres incluant la préparation du sol, le marquage et le temps de séchage. Renov&apos;Route organise les interventions par zones pour limiter l&apos;interruption d&apos;activité.
+        Pour un <strong>marquage au sol entreprise</strong> de taille moyenne (entrepôt de 2 000 à 3 000 m2), comptez 3 à 5 jours ouvrés incluant la préparation du sol, le marquage et le temps de séchage. Renov&apos;Route organise les interventions par zones pour limiter l&apos;interruption d&apos;activité.
       </p>
 
-      <h2>Securisez votre entreprise avec un marquage conforme</h2>
+      <h2>Sécurisez votre entreprise avec un marquage conforme</h2>
 
       <p>
-        Le <strong>marquage au sol entreprise</strong> est à la croisée de trois enjeux : la conformité réglementaire, la sécurité de vos équipés et l&apos;efficacité opérationnelle de votre site. Un marquage conforme, pose dans les règles de l&apos;art, protège vos collaborateurs, structure vos flux et vous met à l&apos;abri des sanctions en cas de contrôle.
+        Le <strong>marquage au sol entreprise</strong> est à la croisée de trois enjeux : la conformité réglementaire, la sécurité de vos équipes et l&apos;efficacité opérationnelle de votre site. Un marquage conforme, posé dans les règles de l&apos;art, protège vos collaborateurs, structure vos flux et vous met à l&apos;abri des sanctions en cas de contrôle.
       </p>
 
       <p>
