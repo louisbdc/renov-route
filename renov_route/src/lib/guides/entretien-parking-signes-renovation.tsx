@@ -47,7 +47,7 @@ export default function Content() {
       </ul>
 
       <p>
-        <strong>L'intervention :</strong> Un <Link href="/competences/tracage-retracage-parking">retraçage complet du parking</Link> avec des peintures certifiées NF EN 1436. Comptez 8 à 15 €/m² selon la surface et le type de peinture (voir notre <Link href="/guides/prix-marquage-sol-parking">guide des prix du marquage</Link>). Pour un parking de 50 places, l'intervention revient généralement entre 1 500 et 3 000 € HT.
+        <strong>L'intervention :</strong> Un <Link href="/competences/tracage-retracage-parking">retraçage complet du parking</Link> avec des peintures certifiées NF EN 1436. Comptez 8 à 15 €/m² selon la surface et le type de peinture (voir notre <Link href="/guides/prix-marquage-sol-parking">guide des prix du marquage</Link>). Pour un parking de 50 places, l'intervention revient généralement entre 2 500 et 6 000 € HT.
       </p>
 
       <p><strong>Urgence :</strong> Moyenne. Planifiable sous 2 à 4 semaines.</p>
@@ -287,7 +287,7 @@ export default function Content() {
 
       <h3>Combien coûte le retraçage d'un parking de 50 places ?</h3>
       <p>
-        Un retraçage complet avec des peintures certifiées NF EN 1436 revient généralement entre 1 500 et 3 000 € HT pour un parking de 50 places, soit 8 à 15 €/m² selon la surface et le type de peinture.
+        Un retraçage complet avec des peintures certifiées NF EN 1436 revient généralement entre 2 500 et 6 000 € HT pour un parking de 50 places, selon la surface, l'état du sol et le type de peinture.
       </p>
 
       <h3>Un nid de poule sur un parking est-il urgent à réparer ?</h3>

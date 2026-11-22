@@ -347,6 +347,11 @@ export default function Content() {
 
       <h2>FAQ : barrière de parking</h2>
 
+      <h3>À quoi sert une barrière de parking ?</h3>
+      <p>
+        Une barrière de parking sert à contrôler l&apos;accès : seuls les véhicules autorisés entrent, par badge, télécommande, interphone ou lecteur de plaque. Elle évite que des véhicules extérieurs occupent les places réservées, facilite la rotation et limite les conflits entre usagers.
+      </p>
+
       <h3>Faut-il un permis pour installer une barrière de parking ?</h3>
       <p>
         Non, pour un parking privé. Une déclaration préalable de travaux peut être requise si l&apos;installation modifie l&apos;aspect extérieur du bâtiment (façade, clôture visible depuis la voie publique). En copropriété, un vote en AG est obligatoire.

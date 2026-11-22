@@ -532,6 +532,11 @@ export default function Content() {
 
       <h2>FAQ : sol &eacute;poxy entrep&ocirc;t</h2>
 
+      <h3>Comment poser un sol époxy en entrepôt ?</h3>
+      <p>
+        Le chantier enchaîne diagnostic, grenaillage et réparation du béton, primaire d&apos;accrochage, résine époxy autolissante, marquage des zones puis séchage final. Le sol doit être entre 10 et 30 °C, avec une humidité relative inférieure à 80 % et une ventilation. Pour 3 000 m², comptez 12 à 18 jours, par zones, avec une circulation piétonne à 24 h et des chariots à 72 h.
+      </p>
+
       <h3>
         Combien de temps dure un sol &eacute;poxy en entrep&ocirc;t ?
       </h3>

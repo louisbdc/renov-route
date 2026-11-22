@@ -237,6 +237,11 @@ export default function Content() {
 
       <h2>FAQ : pr&eacute;paration sol avant r&eacute;sine</h2>
 
+      <h3>Comment préparer un sol avant une résine époxy ?</h3>
+      <p>
+        La préparation suit 6 étapes : diagnostic du support (humidité, dureté, adhérence), nettoyage et décontamination, grenaillage ou ponçage, réparation des fissures et éclats, application du primaire, puis contrôle final. L&apos;humidité doit rester sous 4,5 % et le sol entre 10 et 30 °C. Bien préparé, le revêtement dure 10 à 15 ans ; mal préparé, il peut se décoller en 6 à 12 mois.
+      </p>
+
       <h3>Peut-on appliquer de la r&eacute;sine &eacute;poxy sur un sol peint ?</h3>
       <p>
         Non, la peinture existante doit &ecirc;tre int&eacute;gralement retir&eacute;e par grenaillage ou d&eacute;capage chimique. La r&eacute;sine &eacute;poxy appliqu&eacute;e sur une peinture se d&eacute;collera avec la peinture sous-jacente.

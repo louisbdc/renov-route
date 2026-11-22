@@ -195,12 +195,12 @@ export default function Content() {
 
       <h3>Comment utiliser le disque ?</h3>
       <ol>
-        <li><strong>Positionnez l&apos;heure d&apos;arrivée</strong> sur la prochaine demi-heure (si vous arrivez à 10h12, affichez 10h30)</li>
+        <li><strong>Indiquez votre heure d&apos;arrivée</strong> sur le disque</li>
         <li><strong>Placez le disque</strong> derrière le pare-brise, visible depuis l&apos;extérieur</li>
         <li><strong>Ne deplacez jamais le disque</strong> une fois garé, c&apos;est considéré comme une fraude</li>
       </ol>
       <p>
-        L&apos;arrondi à la demi-heure suivante est une tolérance réglementaire qui simplifie les contrôlés.
+        Le disque doit rester visible depuis l&apos;extérieur du véhicule pendant tout le stationnement.
       </p>
 
       <h3>Sanctions en cas d&apos;infraction</h3>
@@ -412,6 +412,16 @@ export default function Content() {
 
       <h2>FAQ : place bleue parking</h2>
 
+      <h3>Qu&apos;est-ce qu&apos;une zone bleue ?</h3>
+      <p>
+        Une zone bleue est un secteur de stationnement gratuit mais limité dans le temps, contrôlé par un disque de stationnement. Un arrêté municipal fixe son périmètre, ses horaires et sa durée maximale, généralement 1h30. Ses places sont délimitées par des bandes bleues. Elle favorise la rotation des véhicules dans les secteurs à forte demande : centres-villes commerçants, abords de gares, parkings de surfaces commerciales.
+      </p>
+
+      <h3>Comment fonctionne le disque de stationnement ?</h3>
+      <p>
+        Indiquez votre heure d&apos;arrivée sur le disque, placez-le derrière le pare-brise, visible depuis l&apos;extérieur, et ne le déplacez plus une fois garé. Le disque doit respecter le modèle européen : un ancien modèle expose à la même sanction qu&apos;une absence de disque.
+      </p>
+
       <h3>Le disque de stationnement est-il obligatoire sur une place bleue ?</h3>
       <p>
         Oui. En zone bleue réglementée par arrêté municipal, le disque de stationnement au format européen est obligatoire. Son absence expose à une amende de 35 euros. Sur un parking privé utilisant le code couleur bleu, le disque est recommandé mais ne peut pas faire l&apos;objet d&apos;une verbalisation au titre du Code de la route.
@@ -439,7 +449,7 @@ export default function Content() {
 
       <h3>Quelle est la différence entre une place bleue et une place PMR ?</h3>
       <p>
-        La place bleue est une place à durée limitée ouverte à tous les véhicules. La place PMR est réservée aux personnes handicapées titulaires d&apos;une carte mobilité inclusion (CMI). Le marquage PMR utilise des bandes blanches et un pictogramme bleu, tandis que la place bleue utilise des bandes bleues. Ce sont deux dispositifs distincts.
+        La place bleue est une place à durée limitée ouverte à tous les véhicules. La place PMR est réservée aux personnes handicapées titulaires d&apos;une carte mobilité inclusion (CMI). Le marquage PMR est blanc, avec un pictogramme de fauteuil roulant et parfois un fond bleu facultatif. Ce sont deux dispositifs distincts.
       </p>
 
       <h2>Conclusion : un marquage conforme pour des places bleues efficaces</h2>

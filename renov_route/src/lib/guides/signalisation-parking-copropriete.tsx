@@ -591,15 +591,18 @@ export default function Content() {
 
       <h2>FAQ : signalisation parking copropri&eacute;t&eacute;</h2>
 
+      <h3>Quelle signalisation est obligatoire dans un parking de copropriété ?</h3>
+      <p>
+        Dans un parking couvert, le règlement de sécurité impose le marquage des issues de secours, l&apos;indication des niveaux, la signalisation des extincteurs et bouches incendie, ainsi qu&apos;un éclairage de sécurité permanent. Chaque place PMR associe un marquage au sol et un panneau B6d avec panonceau M6h. La limitation de vitesse, le sens de circulation, la numérotation des places et le règlement intérieur sont recommandés sans être obligatoires.
+      </p>
+
       <h3>
         Le syndic peut-il faire des travaux de signalisation sans vote en AG ?
       </h3>
 
       <p>
         Les travaux d&apos;entretien courant (retra&ccedil;age &agrave;
-        l&apos;identique, remplacement d&apos;un panneau cass&eacute;)
-        rel&egrave;vent de la gestion courante du syndic et n&apos;exigent pas
-        de vote en AG. En revanche, tout changement (nouveau panneau,
+        l&apos;identique, remplacement d&apos;un panneau cass&eacute;) peuvent être engagés par le syndic dans le budget voté en AG, sans vote spécifique. En revanche, tout changement (nouveau panneau,
         modification du sens de circulation, ajout de places PMR) doit
         &ecirc;tre vot&eacute;.
       </p>

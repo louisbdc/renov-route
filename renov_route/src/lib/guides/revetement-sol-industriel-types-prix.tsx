@@ -251,7 +251,7 @@ export default function Content() {
       <p>Avant toute application, le sol béton doit être évalué :</p>
       <ul>
         <li><strong>Âge du béton</strong> : un béton de moins de 28 jours n&apos;est pas sec (humidité trop élevée)</li>
-        <li><strong>Taux d&apos;humidité</strong> : inférieur à 4% (test à la bombe carbure ou à l&apos;hygromètre)</li>
+        <li><strong>Taux d&apos;humidité</strong> : inférieur à 4,5 % pour l&apos;époxy (test à la bombe carbure ou à l&apos;hygromètre)</li>
         <li><strong>Résistance à l&apos;arrachement</strong> : test de pastillage pour vérifier la cohésion du béton (minimum 1,5 MPa)</li>
         <li><strong>Contamination</strong> : présence d&apos;huile, de graisse ou de produits chimiques dans les pores du béton</li>
       </ul>

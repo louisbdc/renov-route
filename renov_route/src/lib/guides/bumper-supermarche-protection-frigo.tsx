@@ -580,6 +580,11 @@ export default function Content() {
 
       <h2>FAQ : bumpers de supermarch&eacute;</h2>
 
+      <h3>Qu&apos;est-ce qu&apos;un bumper de supermarché ?</h3>
+      <p>
+        Un bumper, ou barre de protection, est un élément métallique ou composite fixé au sol devant les meubles frigorifiques, les gondoles et les équipements sensibles d&apos;un magasin. Il absorbe les chocs des chariots, transpalettes et roll-conteneurs pour protéger le matériel.
+      </p>
+
       <h3>
         Les bumpers sont-ils obligatoires dans un supermarch&eacute; ?
       </h3>

@@ -368,7 +368,7 @@ export default function Content() {
 
       <h3>Faut-il un permis pour installer des panneaux dans un parking privé ?</h3>
       <p>
-        Non. L&apos;installation de signalisation dans un parking privé ne nécessite pas d&apos;autorisation administrative. En copropriété, un vote en AG est requis.
+        Non. L&apos;installation de signalisation dans un parking privé ne nécessite pas d&apos;autorisation administrative. En copropriété, une nouvelle signalisation se vote en AG. Un remplacement à l&apos;identique relève de l&apos;entretien courant.
       </p>
 
       <h2>Sécuriser votre parking, c&apos;est sécuriser vos usagers</h2>

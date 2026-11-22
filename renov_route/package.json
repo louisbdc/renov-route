@@ -13,7 +13,7 @@
     "import-realisation": "tsx scripts/import-realisation.ts",
     "geo:report": "node scripts/geo/analyze-answers.mjs report",
     "geo:citability": "node scripts/geo/audit-citability.mjs",
-    "geo:test": "node --test scripts/geo/geo-gap.test.mjs"
+    "geo:test": "node --test scripts/geo/geo-gap.test.mjs && tsx --tsconfig tsconfig.json --test scripts/geo/question-variants.test.ts"
   },
   "dependencies": {
     "@emailjs/browser": "4.4.1",

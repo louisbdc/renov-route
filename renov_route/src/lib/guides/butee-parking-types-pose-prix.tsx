@@ -298,6 +298,11 @@ export default function Content() {
 
       <h2>FAQ : butée de parking</h2>
 
+      <h3>Butée de parking en caoutchouc ou en béton : laquelle choisir ?</h3>
+      <p>
+        Le caoutchouc recyclé absorbe les chocs, protège les pare-chocs et intègre des bandes réfléchissantes : il convient aux copropriétés, centres commerciaux et parkings couverts (5 à 10 ans, à partir de 40 euros pose incluse). Le béton, très stable, supporte les véhicules lourds et convient aux parkings extérieurs, industriels et zones de livraison (20 à 30 ans, à partir de 35 euros pose incluse), mais il peut endommager les pare-chocs.
+      </p>
+
       <h3>Les butées de parking sont-elles obligatoires ?</h3>
       <p>
         Non. Aucune réglementation n&apos;impose la pose de butées dans un parking privé. Elles sont cependant fortement recommandées pour protéger les structures, les véhicules et les piétons. En copropriété, la pose est décidée en AG.

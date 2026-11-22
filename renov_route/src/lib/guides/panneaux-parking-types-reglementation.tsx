@@ -430,7 +430,7 @@ export default function Content() {
         Techniquement oui, mais c&apos;est déconseillé. Une pose non conforme (mauvaise hauteur, mauvais emplacement, scellement insuffisant) réduit l&apos;efficacité du panneau et peut être contestée. Un panneau qui tombe représente un risque de blessure et engage votre responsabilité. Faites appel à un professionnel de la <Link href="/competences/signalisation-verticale">signalisation verticale</Link>.
       </p>
 
-      <h3>Le panneau &quot;parking privé&quot; a-t-il une valeur juridique ?</h3>
+      <h3>Le panneau « parking privé » a-t-il une valeur juridique ?</h3>
       <p>
         Oui, à condition qu&apos;il soit visible et placé à l&apos;entrée du parking. Il fonde le droit du propriétaire à faire constater le stationnement abusif et, le cas échéant, à demander la mise en fourrière du véhicule. Il est recommandé d&apos;y ajouter la mention &quot;Mise en fourrière aux frais du contrevenant&quot; pour renforcer l&apos;effet dissuasif.
       </p>

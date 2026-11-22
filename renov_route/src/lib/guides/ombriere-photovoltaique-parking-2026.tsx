@@ -151,7 +151,7 @@ export default function Content() {
         <li>Retracer l&apos;ensemble des places de stationnement</li>
         <li>Mettre à jour les flèches directionnelles et la signalisation de circulation</li>
         <li>Vérifier la conformité des <Link href="/guides/dimensions-nombre-places-pmr-parking">places PMR</Link> (3,30 m x 5 m minimum)</li>
-        <li>Ajouter le marquage des <strong>places de recharge électrique</strong> (pour les bâtiments non résidentiels de plus de 20 places, un point de recharge est obligatoire)</li>
+        <li>Ajouter le marquage des <strong>places de recharge électrique</strong> (pour les bâtiments non résidentiels de plus de 20 places, au moins un point de recharge, puis un par tranche de 20 places, sauf exceptions)</li>
         <li>Intégrer le marquage vert (RAL 6018) pour les places réservées aux véhicules propres en zone ZFE</li>
       </ul>
 
@@ -378,7 +378,7 @@ export default function Content() {
       <h3>Quel lien entre ombrières et bornes de recharge ?</h3>
       <p>
         Les ombrières photovoltaïques produisent de l&apos;énergie renouvelable qui peut
-        alimenter directement les bornes de recharge. Depuis le 1er janvier 2025, les bâtiments non résidentiels de plus de 20 places doivent proposer au moins un point de recharge. Le marquage au sol des places
+        alimenter directement les bornes de recharge. Depuis le 1er janvier 2025, les bâtiments non résidentiels de plus de 20 places doivent proposer au moins un point de recharge, puis un par tranche de 20 places supplémentaires, sauf exceptions. Le marquage au sol des places
         de recharge suit des règles spécifiques de signalisation.
       </p>
 

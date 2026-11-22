@@ -3,6 +3,7 @@
 interface FAQItem {
   question: string
   answer: string
+  variants?: string[]
 }
 
 interface FAQSchemaProps {
@@ -20,6 +21,7 @@ export default function FAQSchema({ items }: FAQSchemaProps) {
     mainEntity: items.map(item => ({
       '@type': 'Question',
       name: item.question,
+      ...(item.variants?.length ? { alternateName: item.variants } : {}),
       acceptedAnswer: {
         '@type': 'Answer',
         text: item.answer,

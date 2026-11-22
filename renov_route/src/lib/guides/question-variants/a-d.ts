@@ -1,0 +1,481 @@
+import type { QuestionVariantsBySlug } from './types'
+
+export const VARIANTS_A_D: QuestionVariantsBySlug = {
+  'accessibilite-parking-erp-normes': {
+    "Quelles sont les normes d'accessibilité pour les ERP ?": [
+      "Quelles sont les normes d'accessibilité d'un parking recevant du public ?",
+      "Quelles règles d'accessibilité s'appliquent au parking d'un ERP ?",
+      "Qu'impose l'arrêté du 20 avril 2017 pour le parking d'un ERP ?",
+      "Que faut-il pour qu'un parking d'ERP soit accessible aux personnes handicapées ?",
+      'Quelles obligations PMR pour un parking ouvert au public ?',
+      "Que risque un ERP dont le parking n'est pas aux normes d'accessibilité ?",
+      "Quelle amende pour un parking d'ERP non conforme PMR ?",
+      "Je gère un commerce : quelles règles d'accessibilité pour mon parking ?",
+    ],
+    'Quelles règles pour un ERP de catégorie 5 ?': [
+      'Un ERP de 5e catégorie doit-il avoir une place PMR ?',
+      'Les petits commerces doivent-ils prévoir une place handicapée sur leur parking ?',
+      'Un cabinet médical doit-il avoir une place PMR sur son parking ?',
+      "Les règles d'accessibilité s'appliquent-elles aux petits ERP ?",
+    ],
+    "Mon parking n'a que 5 places, dois-je avoir une place PMR ?": [
+      'À partir de combien de places un parking ouvert au public doit-il avoir une place PMR ?',
+      'Un parking ouvert au public de moins de 10 places doit-il avoir une place handicapée ?',
+      'Combien de places PMR pour un parking de 5 places ?',
+      'Une place PMR est-elle obligatoire dès la première place de stationnement ?',
+    ],
+    'Les places PMR sont-elles obligatoires en parking privé ?': [
+      "Un parking privé est-il soumis à l'obligation de places handicapées ?",
+      'Dans quels cas un parking privé doit-il avoir une place PMR ?',
+    ],
+    'Que faire si la pente de mon parking dépasse 2% ?': [
+      'Quelle pente maximale pour une place PMR ?',
+      'Où placer la place PMR sur un parking en pente ?',
+      'Comment faire une place handicapée sur un terrain en pente ?',
+      'Une place PMR peut-elle être en pente ?',
+      'Quel dévers maximal pour une place de stationnement PMR ?',
+      "Que faire si aucune zone du parking n'est assez plate pour une place PMR ?",
+    ],
+  },
+  'arceau-parking-types-prix': {
+    'Combien coûte un arceau de parking ?': [
+      "Quel est le prix d'un arceau de parking ?",
+      'Combien coûte un arceau rabattable ?',
+      "Quel est le tarif d'un arceau automatique ?",
+      "Quel budget prévoir pour équiper une place d'un arceau ?",
+      'Combien ça coûte de faire installer un arceau anti-stationnement ?',
+      'Y a-t-il une réduction quand on commande plusieurs arceaux ?',
+    ],
+    'Faut-il une autorisation pour installer un arceau parking ?': [
+      'Peut-on poser un arceau sur un parking privé sans autorisation ?',
+      "Faut-il demander l'accord de la mairie pour poser un arceau ?",
+      'Peut-on installer un arceau sur le trottoir ou la voie publique ?',
+      'Quelle autorisation pour mettre un arceau sur la voie publique ?',
+    ],
+    "Quelle est la durée de vie d'un arceau de parking ?": [
+      'Combien de temps dure un arceau de parking ?',
+      "Un arceau galvanisé tient combien d'années ?",
+      'Quelle longévité pour un arceau automatique ?',
+      'Au bout de combien de temps faut-il changer un arceau de parking ?',
+    ],
+    'Peut-on installer un arceau sur un parking en enrobé ?': [
+      "Comment fixer un arceau sur de l'enrobé ?",
+      'Un arceau tient-il sur un sol en enrobé ?',
+      'Peut-on sceller un arceau de parking dans le bitume ?',
+      'Quel scellement utiliser pour un arceau sur béton ou enrobé ?',
+    ],
+    "Combien d'arceaux peut-on installer par jour ?": [
+      'Combien de temps faut-il pour poser des arceaux de parking ?',
+      'Quelle cadence de pose pour des arceaux de parking ?',
+      'Combien de temps pour installer 20 arceaux ?',
+    ],
+    'Un arceau peut-il être vandalisé ?': [
+      'Un arceau de parking peut-il être arraché ?',
+      "Comment empêcher l'arrachement d'un arceau ?",
+      'Quel arceau résiste le mieux au vandalisme ?',
+      "Comment fixer un arceau pour qu'on ne puisse pas le retirer ?",
+    ],
+    'Quelle différence entre un arceau parking et un arceau vélo parking ?': [
+      'À quoi sert un arceau range-vélo ?',
+      'Un arceau vélo peut-il bloquer une voiture ?',
+      'Quelle différence entre un arceau anti-stationnement et un arceau à vélo ?',
+      'Quelle largeur fait un arceau vélo ?',
+    ],
+  },
+  'barriere-parking-types-prix': {
+    'À quoi sert une barrière de parking ?': [
+      "Pourquoi installer une barrière à l'entrée d'un parking ?",
+      "Quelle est l'utilité d'une barrière de parking ?",
+      "Comment empêcher des véhicules extérieurs d'occuper un parking privé ?",
+      'Je suis syndic : pourquoi mettre une barrière sur le parking de la résidence ?',
+    ],
+    'Faut-il un permis pour installer une barrière de parking ?': [
+      'Faut-il une autorisation pour poser une barrière sur un parking privé ?',
+      'Une barrière de parking nécessite-t-elle une déclaration préalable de travaux ?',
+      'Faut-il un vote en AG pour installer une barrière en copropriété ?',
+      'Je suis syndic : quelles démarches pour installer une barrière de parking ?',
+      "Une copropriété peut-elle installer une barrière sans passer par l'assemblée générale ?",
+    ],
+    'Combien coûte une barrière de parking automatique ?': [
+      "Quel est le prix d'une barrière de parking automatique pour une copropriété ?",
+      'Combien coûte une barrière levante électrique ?',
+      'Quel budget pour une barrière de parking avec badge ?',
+      'Combien ça coûte de faire poser une barrière automatique avec télécommande ?',
+      "Quel est le tarif d'une barrière levante pose comprise ?",
+    ],
+    'Peut-on installer une barrière solaire ?': [
+      "Une barrière de parking peut-elle fonctionner à l'énergie solaire ?",
+      'Comment fonctionne une barrière solaire ?',
+      'Pour quel parking choisir une barrière solaire ?',
+      "Quel est le surcoût d'une barrière solaire ?",
+    ],
+    'La barrière doit-elle rester ouverte la nuit ?': [
+      'Faut-il fermer la barrière du parking la nuit ?',
+      "Qui décide des horaires d'ouverture de la barrière d'un parking ?",
+      'Une barrière de copropriété reste-t-elle fermée en permanence ?',
+      'Une barrière de parking commercial est-elle fermée la nuit ?',
+    ],
+    "Comment sécuriser l'accès aux secours ?": [
+      'Comment les pompiers passent-ils une barrière de parking ?',
+      'Une barrière de parking doit-elle avoir un débrayage manuel ?',
+      "La barrière d'un ERP doit-elle s'ouvrir en cas d'alarme incendie ?",
+      "Comment garantir l'accès des secours à un parking fermé par une barrière ?",
+    ],
+  },
+  'bumper-supermarche-protection-frigo': {
+    "Qu'est-ce qu'un bumper de supermarché ?": [
+      "C'est quoi un bumper ?",
+      'À quoi sert un bumper en supermarché ?',
+      "Qu'est-ce qu'une barre de protection de magasin ?",
+      'Comment protéger les meubles frigorifiques des chocs de chariots ?',
+      "Comment protéger les rayons d'un supermarché contre les chocs de chariots ?",
+      'Quelle protection installer devant un linéaire froid ?',
+    ],
+    'Les bumpers sont-ils obligatoires dans un supermarché ?': [
+      'La loi impose-t-elle des bumpers en grande surface ?',
+      'Un magasin doit-il obligatoirement protéger ses meubles frigorifiques ?',
+      "Un supermarché est-il responsable si un meuble non protégé blesse quelqu'un ?",
+      'Existe-t-il une réglementation sur les barres de protection en supermarché ?',
+    ],
+    'Peut-on installer des bumpers sans fermer le magasin ?': [
+      'À quel moment poser des bumpers dans un supermarché ?',
+      'Faut-il fermer le rayon pour installer des barres de protection ?',
+      "Combien de temps sèche le scellement d'un bumper ?",
+      'Quand peut-on utiliser un bumper après la pose ?',
+    ],
+    'Quelle différence entre un bumper et une barrière de protection ?': [
+      'Bumper ou barrière de protection : que choisir en supermarché ?',
+      'À quelle hauteur se pose un bumper ?',
+      'Quelle protection installer sur un quai de livraison de supermarché ?',
+      'Quelle protection contre les chariots élévateurs en zone de stockage ?',
+    ],
+    'Les bumpers abîment-ils le sol ?': [
+      "La pose d'un bumper fait-elle des trous dans le sol ?",
+      'Que devient le sol quand on retire un bumper ?',
+      "Comment reboucher les trous après le retrait d'un bumper ?",
+    ],
+  },
+  'butee-parking-types-pose-prix': {
+    'Butée de parking en caoutchouc ou en béton : laquelle choisir ?': [
+      'Quelle est la différence entre une butée en caoutchouc et une butée en béton ?',
+      'Une butée en béton abîme-t-elle les pare-chocs ?',
+      'Quelle butée choisir pour protéger les pare-chocs ?',
+      'Quelle butée de parking pour des véhicules lourds ?',
+      'Combien de temps dure une butée en caoutchouc ou en béton ?',
+    ],
+    'Les butées de parking sont-elles obligatoires ?': [
+      'Les butées de roue sont-elles imposées sur un parking ?',
+      'Faut-il obligatoirement des butées sur un parking privé ?',
+      "Pourquoi poser des butées de parking si ce n'est pas obligatoire ?",
+      'Qui décide de poser des butées dans une copropriété ?',
+    ],
+    'Quelle butée choisir pour un parking souterrain ?': [
+      'Quelle butée de roue poser dans un parking en sous-sol ?',
+      'Une butée en béton convient-elle à un parking souterrain ?',
+      'La butée en caoutchouc est-elle adaptée à un parking souterrain ?',
+    ],
+    'Peut-on coller une butée au lieu de la cheviller ?': [
+      'Une butée collée tient-elle sur un parking ?',
+      'Quelle colle utiliser pour fixer une butée de parking ?',
+      'Faut-il cheviller une butée de parking ?',
+    ],
+    'Combien de butées faut-il pour un parking de 50 places ?': [
+      'Quel budget pour équiper un parking de 50 places en butées ?',
+      'Faut-il une butée par place de parking ?',
+      'Faut-il mettre une butée sur une place PMR ?',
+    ],
+    'Les butées gênent-elles le nettoyage du parking ?': [
+      'Comment nettoyer un parking équipé de butées ?',
+      'Une autolaveuse peut-elle passer avec des butées ?',
+      'Peut-on retirer les butées pour nettoyer ?',
+    ],
+  },
+  'calendrier-entretien-parking': {
+    "Qui est responsable de l'entretien d'un parking de copropriété ?": [
+      "Qui doit entretenir le parking d'une copropriété ?",
+      "Le syndic doit-il s'occuper de l'entretien du parking ?",
+      'Les travaux du parking de copropriété doivent-ils être votés en AG ?',
+      'À quelle majorité voter une rénovation de parking en copropriété ?',
+      "Qui décide des travaux dans le parking d'une résidence ?",
+    ],
+    'Faut-il fermer le parking pendant les travaux de retraçage ?': [
+      'Combien de temps faut-il pour retracer un parking de 200 places ?',
+      "Comment retracer un parking sans bloquer l'accès ?",
+      'Peut-on retracer un parking par zones ?',
+      "Je gère un site : comment maintenir l'activité pendant le retraçage du parking ?",
+    ],
+    'Peut-on faire des retouches localisées au lieu de tout retracer ?': [
+      'Faut-il tout retracer quand seules certaines lignes sont usées ?',
+      "Peut-on repeindre seulement les zones usées d'un parking ?",
+      "Comment limiter le coût du retraçage d'un parking ?",
+      'Les retouches de marquage suffisent-elles à rester conforme ?',
+    ],
+    'À quelle fréquence faut-il inspecter un parking ?': [
+      'Combien de fois par an contrôler un parking ?',
+      "Quand faire l'inspection d'un parking ?",
+      'Quelle fréquence de contrôle pour un parking à fort trafic ?',
+    ],
+  },
+  'choisir-entreprise-marquage-au-sol': {
+    'Quels critères vérifier avant de choisir une entreprise de marquage au sol ?': [
+      'Comment choisir une entreprise de marquage au sol ?',
+      'Comment bien choisir sa société de marquage routier ?',
+      'Quels critères pour sélectionner un prestataire de marquage au sol ?',
+      "Je suis syndic : comment choisir l'entreprise qui retracera le parking ?",
+      'À quoi faire attention avant de confier un marquage au sol à une entreprise ?',
+      'Comment reconnaître un bon prestataire de marquage au sol ?',
+    ],
+    'Faut-il choisir une entreprise locale ou nationale ?': [
+      "Vaut-il mieux une entreprise locale ou un grand groupe pour le marquage d'un parking ?",
+      'Prestataire local ou national : que choisir pour un marquage au sol ?',
+      'Quel prestataire pour un marquage au sol sur plusieurs sites ?',
+      'Je gère plusieurs sites en France : faut-il un prestataire national pour le marquage ?',
+    ],
+    'Le prix le plus bas est-il toujours le moins cher ?': [
+      'Faut-il choisir le devis de marquage le moins cher ?',
+      'Un marquage bon marché revient-il plus cher à long terme ?',
+      'Comment comparer le vrai coût de deux devis de marquage ?',
+    ],
+    "Comment vérifier les références d'un prestataire ?": [
+      'Comment savoir si une entreprise de marquage est sérieuse ?',
+      "Comment vérifier qu'une entreprise de marquage existe vraiment ?",
+      'Quelles références demander à une entreprise de marquage au sol ?',
+    ],
+    "Quelle garantie exiger d'une entreprise de marquage au sol ?": [
+      'Quelle durée de garantie demander pour un marquage au sol ?',
+      "La garantie décennale s'applique-t-elle au marquage au sol ?",
+      'Quelle assurance doit avoir une entreprise de marquage ?',
+      "Que doit couvrir la garantie d'un marquage au sol ?",
+    ],
+  },
+  'code-de-la-route-marquage-au-sol': {
+    'Quelle est la différence entre une ligne continue et une ligne discontinue ?': [
+      'Peut-on franchir une ligne continue ?',
+      'A-t-on le droit de doubler sur une ligne discontinue ?',
+      'Que signifie une ligne continue au sol ?',
+      'Que veut dire une ligne discontinue sur la route ?',
+      'Peut-on chevaucher une ligne continue ?',
+    ],
+    'Que signifie un marquage jaune au sol ?': [
+      'Que veut dire une ligne jaune le long du trottoir ?',
+      "A-t-on le droit de s'arrêter sur une ligne jaune continue ?",
+      'Quel marquage prévaut entre le jaune et le blanc en zone de travaux ?',
+      'Peut-on stationner sur une ligne jaune en pointillé ?',
+    ],
+    'Combien de temps dure un marquage au sol ?': [
+      'Une bande préformée dure combien de temps ?',
+      "Comment suivre l'usure d'un marquage routier ?",
+      "Qu'est-ce qui fait varier la durée d'un marquage routier ?",
+    ],
+    'Un gestionnaire est-il responsable si le marquage est effacé ?': [
+      "Qui est responsable d'un marquage routier effacé ?",
+      'Un marquage effacé peut-il engager la responsabilité du gestionnaire de voirie ?',
+      "Un marquage non conforme engage-t-il la responsabilité en cas d'accident ?",
+      "Qui est responsable d'un accident dû à un marquage effacé ?",
+    ],
+    'Quelles sont les normes qui encadrent le marquage routier en France ?': [
+      "Quelle norme s'applique au marquage routier ?",
+      "Qu'est-ce que l'IISR pour le marquage routier ?",
+      'Quels textes réglementent le marquage au sol routier en France ?',
+    ],
+    "Quelle est la largeur réglementaire d'un passage piéton ?": [
+      'Quelle largeur minimale pour un passage piéton à bandes ?',
+      "Combien mesurent les bandes d'un passage piéton ?",
+      "Quel espacement entre les bandes d'un passage piéton ?",
+    ],
+  },
+  'comment-tracer-parking': {
+    'Comment tracer un parking étape par étape ?': [
+      'Comment faire un marquage au sol sur un parking ?',
+      'Comment tracer des places de parking ?',
+      'Quelles sont les étapes pour tracer un parking ?',
+      'Par où commencer pour tracer un parking ?',
+      "Comment refaire les lignes d'un parking ?",
+    ],
+    "Quelles sont les dimensions d'une place de stationnement ?": [
+      'Quelles cotes respecter pour tracer une place de stationnement ?',
+      'Quelle taille donner à une place quand on trace un parking ?',
+      'Quelles dimensions prévoir pour tracer une place standard et une place PMR ?',
+    ],
+    "Combien de temps dure le traçage d'un parking ?": [
+      'Combien de temps pour tracer un parking de 100 places ?',
+      'Combien de temps faut-il attendre avant de rouler sur une peinture de parking ?',
+      'Combien de jours de chantier pour tracer 50 places ?',
+    ],
+    'Faut-il un permis ou une autorisation pour tracer un parking privé ?': [
+      'Faut-il une autorisation pour peindre des places sur un terrain privé ?',
+      "Le traçage d'un parking de copropriété doit-il être voté en AG ?",
+      "À quelle majorité voter le traçage d'un parking en copropriété ?",
+    ],
+    'Peut-on tracer un parking sur du gravier ?': [
+      'Comment délimiter des places sur un parking en gravier ?',
+      'Peut-on faire un marquage au sol sur du gravier ?',
+      'Quelles alternatives au marquage pour un parking en gravillons ?',
+    ],
+    "Quelle est la largeur minimale d'une place de parking ?": [
+      'Quelle largeur prévoir pour tracer une place de parking ?',
+      'Quelle largeur de place pour ouvrir ses portières confortablement ?',
+    ],
+    "Combien coûte le traçage d'un parking ?": [
+      'Quel est le prix au m² pour tracer un parking ?',
+      "Combien coûte le marquage d'un parking en peinture acrylique ?",
+      'Quel prix pour un traçage en thermoplastique ?',
+    ],
+  },
+  'cout-renovation-parking': {
+    "Quel est le prix moyen d'une rénovation de parking ?": [
+      "Combien coûte la rénovation d'un parking ?",
+      'Quel budget prévoir pour rénover un parking ?',
+      'Quel prix par place pour rénover un parking ?',
+      'Combien ça coûte de remettre un parking en état ?',
+      'Je suis gestionnaire : quel budget pour une rénovation standard de parking ?',
+    ],
+    'Le coût de rénovation inclut-il la mise aux normes PMR ?': [
+      'La mise aux normes PMR est-elle comprise dans un devis de rénovation ?',
+    ],
+    'Peut-on rénover un parking par étapes pour étaler le budget ?': [
+      "Peut-on étaler les travaux de rénovation d'un parking ?",
+      'Par quoi commencer pour rénover un parking ?',
+      'Quels travaux de parking sont prioritaires ?',
+      'Une copropriété peut-elle rénover son parking en plusieurs fois ?',
+    ],
+    'Combien de temps dure un chantier de rénovation de parking ?': [
+      'Combien de temps pour rénover un parking ?',
+      "Quelle est la durée des travaux de rénovation d'un parking ?",
+      'Combien de temps dure une réfection de parking avec reprise de chaussée ?',
+    ],
+    'Un devis de rénovation de parking est-il gratuit ?': [
+      'Faut-il payer pour obtenir un devis de rénovation de parking ?',
+      'Que comprend un devis de rénovation de parking ?',
+      'Le diagnostic sur site est-il compris dans le devis ?',
+    ],
+  },
+  'dimension-place-de-parking-normes': {
+    "Quelle est la dimension standard d'une place de parking ?": [
+      'Combien mesure une place de parking ?',
+      'Combien mesure une place de stationnement ?',
+      "Quelle est la taille d'une place de parking ?",
+      'Combien fait une place de parking ?',
+      'Combien de m² fait une place de parking ?',
+      "Quelle est la surface d'une place de parking ?",
+      'Quelle longueur fait une place de parking ?',
+      "Quelle est la taille standard d'un emplacement de stationnement ?",
+    ],
+    "Quelle est la largeur minimale d'une place de parking ?": [
+      "Quelle est la largeur d'une place de parking ?",
+      'Quelle largeur pour une place en épi ?',
+      'Quelle largeur pour une place en créneau ?',
+      'Combien de large fait une place de stationnement ?',
+      "Quelle largeur de place selon l'angle de stationnement ?",
+      'Une place de parking peut-elle faire 2,20 m de large ?',
+    ],
+    "Quelle est la dimension d'une place de parking PMR ?": [
+      'Combien mesure une place handicapée ?',
+      'Quelle largeur pour une place PMR ?',
+      'Quelle longueur pour une place de stationnement PMR ?',
+    ],
+    'Combien de places PMR sont obligatoires ?': [
+      'Combien de places PMR sur un parking ?',
+      'Combien de places handicapées faut-il sur un parking ?',
+      'Quel pourcentage de places PMR faut-il prévoir ?',
+      'Combien de places PMR pour un parking de 100 places ?',
+      'Quel est le nombre minimum de places PMR ?',
+      "Combien de places PMR faut-il prévoir sur un parking d'ERP ?",
+    ],
+    "Quelle est la largeur minimale d'une voie de circulation de parking ?": [
+      'Quelle largeur pour une allée de parking ?',
+      'Quelle largeur de voie pour un parking à double sens ?',
+      "Quelle largeur d'allée pour des places en épi à 45 degrés ?",
+      'Quelle largeur de voie pour un stationnement en bataille ?',
+    ],
+    'Peut-on réduire les dimensions des places de parking ?': [
+      'Peut-on faire des places de parking plus petites ?',
+      'Peut-on rétrécir les places pour gagner du stationnement ?',
+      'Quels sont les risques de places de parking trop étroites ?',
+      "Quelle norme fixe les dimensions minimales d'une place ?",
+    ],
+  },
+  'dimensions-nombre-places-pmr-parking': {
+    "Quelles sont les dimensions d'une place de parking PMR ?": [
+      "Quelles sont les dimensions d'une place de stationnement PMR ?",
+      'Quelle taille fait une place handicapée ?',
+      "Quelle est la largeur de la bande d'accès d'une place PMR ?",
+      "Que dit l'arrêté du 20 avril 2017 sur la taille des places PMR ?",
+      'Quelles cotes respecter pour un stationnement PMR ?',
+    ],
+    'Peut-on mettre une place PMR en épi ou en bataille ?': [
+      'Une place handicapée peut-elle être en épi ?',
+      "De quel côté mettre la bande d'accès d'une place PMR en épi ?",
+      'Une place PMR peut-elle être perpendiculaire ?',
+    ],
+    'La place PMR doit-elle être peinte en bleu ?': [
+      'Une place handicapée doit-elle être bleue ?',
+      'Le fond bleu est-il obligatoire sur une place PMR ?',
+      'Quelle couleur pour une place PMR ?',
+      'Que doit-on obligatoirement peindre sur une place PMR ?',
+    ],
+    'Faut-il une place PMR dans un parking de 10 places ?': [
+      'Combien de places PMR pour un parking de 10 places ?',
+      "Comment calculer le nombre de places PMR d'un petit parking ?",
+    ],
+    'Peut-on transformer une place standard en place PMR sans refaire tout le parking ?': [
+      'Comment transformer une place normale en place handicapée ?',
+      "Combien coûte la création d'une place PMR sur un parking existant ?",
+      'Comment créer une place PMR sur un parking existant ?',
+      'Faut-il supprimer une place pour créer une place PMR ?',
+    ],
+    'Les dimensions PMR sont-elles les mêmes pour un parking souterrain ?': [
+      'Quelles dimensions pour une place PMR en sous-sol ?',
+      "Quelle hauteur libre sur le cheminement PMR d'un parking souterrain ?",
+    ],
+  },
+  'dos-dane-parking-reglementation-pose': {
+    "Un dos d'âne est-il obligatoire dans un parking privé ?": [
+      "Qui décide d'installer un dos d'âne sur un parking privé ?",
+      "Que risque un gestionnaire sans dos d'âne en cas d'accident ?",
+      "Un syndic doit-il faire poser un dos d'âne ?",
+    ],
+    "Quelle est la hauteur maximale d'un dos d'âne ?": [
+      "Quelle hauteur pour un dos d'âne ?",
+      "Quelle norme fixe la hauteur d'un dos d'âne ?",
+      "Un dos d'âne peut-il dépasser 10 cm ?",
+    ],
+    "Peut-on installer un dos d'âne dans un parking souterrain ?": [
+      "Quel dos d'âne poser en sous-sol ?",
+      "Quelle hauteur de dos d'âne pour un parking souterrain ?",
+    ],
+    "Combien coûte un dos d'âne pour parking ?": [
+      "Quel est le prix d'un dos d'âne posé ?",
+      "Combien coûte un dos d'âne en caoutchouc ?",
+      "Quel budget pour un dos d'âne en enrobé sur un parking ?",
+    ],
+    "Faut-il un vote en AG pour installer un dos d'âne en copropriété ?": [
+      "Quelle majorité pour voter un dos d'âne en copropriété ?",
+      "Le syndic peut-il installer un dos d'âne sans vote ?",
+      "Comment faire voter un dos d'âne en assemblée générale ?",
+    ],
+  },
+  'duree-vie-marquage-sol-parking': {
+    "Quelle est la durée de vie d'un marquage au sol de parking ?": [
+      'Combien de temps tient un marquage de parking ?',
+      "Tous les combien faut-il refaire le marquage d'un parking ?",
+      "Quelle est la durée de vie d'une peinture de parking ?",
+    ],
+    'Comment savoir si mon marquage doit être refait ?': [
+      "Quand faut-il refaire le marquage d'un parking ?",
+      "Quels signes montrent qu'un marquage doit être refait ?",
+      "Comment savoir si les lignes d'un parking sont trop usées ?",
+      'À partir de quand retracer un parking effacé ?',
+    ],
+    'Le thermoplastique dure-t-il vraiment plus longtemps ?': [
+      'Peinture routière ou thermoplastique : laquelle dure le plus ?',
+      'Le thermoplastique vaut-il son prix pour un parking ?',
+      'Quelle épaisseur fait un marquage thermoplastique ?',
+    ],
+    'Quelle peinture choisir pour faire durer un marquage de parking ?': [
+      'Quelle peinture tient le plus longtemps sur un parking ?',
+      'Quelle peinture de marquage offre le meilleur rapport qualité-prix ?',
+      'Quel produit de marquage pour les passages piétons à fort trafic ?',
+    ],
+  },
+}

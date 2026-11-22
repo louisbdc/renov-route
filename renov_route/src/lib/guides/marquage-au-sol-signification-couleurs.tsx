@@ -242,7 +242,7 @@ export default function Content() {
         Même dans un parking privé ouvert au public (supermarché, centre commercial, clinique), certaines obligations s&apos;imposent :
       </p>
       <ul>
-        <li><strong>Places PMR :</strong> Nombre minimal réglementaire (2% des places, minimum 1), marquage bleu + pictogramme + panneau</li>
+        <li><strong>Places PMR :</strong> Nombre minimal réglementaire (2% des places, minimum 1), marquage blanc (fond bleu facultatif) + pictogramme + panneau</li>
         <li><strong>Sens de circulation :</strong> Flèches au sol et signalisation verticale recommandées</li>
         <li><strong>Passages piétons :</strong> Obligatoires aux points de conflit véhicules/piétons</li>
         <li><strong>Issues de secours :</strong> Marquage au sol pour les cheminements d&apos;évacuation</li>

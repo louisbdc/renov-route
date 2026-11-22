@@ -3,15 +3,20 @@ import type { FAQItem } from '@/components/FAQSchema'
 const FAQ_DATA: Record<string, FAQItem[]> = {
   'prix-marquage-sol-parking': [
     {
+      question: "Quel est le prix du marquage au sol au m² ?",
+      answer:
+        "Le marquage au sol se situe généralement entre 8 et 15 €/m² selon le support, le type de peinture et la surface. Pour les lignes seules (places, flèches), on raisonne au mètre linéaire : à partir de 2,50 €/ml. Une résine ou un thermoplastique coûte davantage mais dure plus longtemps.",
+    },
+    {
       question: 'Quel est le prix moyen pour tracer un parking de 30 places ?',
       answer:
-        "Pour un parking de 30 places avec retraçage des lignes, flèches et passages piétons, comptez entre 2 500 € et 6 000 € HT selon le type de peinture et l'état du sol. Un devis personnalisé permet d'affiner cette estimation.",
+        "Pour un parking de 30 places avec retraçage des lignes, flèches et passages piétons, comptez entre 1 800 € et 4 500 € HT selon le type de peinture et l'état du sol. Un devis personnalisé permet d'affiner cette estimation.",
     },
     {
       question:
         'Le marquage au sol est-il déductible des charges de copropriété ?',
       answer:
-        "Oui, le retraçage de parking fait partie des charges d'entretien courant de la copropriété. Il est voté en AG à la majorité simple (article 24) s'il s'agit d'un simple retraçage, ou à la majorité absolue (article 25) pour une refonte complète.",
+        "Oui, le retraçage de parking fait partie des charges d'entretien courant de la copropriété. Un simple retraçage entre dans le budget d'entretien voté en AG ; hors budget, il se vote à la majorité simple (article 24). Une refonte complète relève de la majorité absolue (article 25).",
     },
     {
       question:
@@ -87,6 +92,11 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
     },
   ],
   'enrobe-froid-vs-resine-nids-de-poule': [
+    {
+      question: 'Enrobé à froid ou résine : que choisir pour un nid de poule ?',
+      answer:
+        "L'enrobé à froid est un dépannage d'urgence : 20 à 40 € HT par nid de poule, pour une tenue de 3 à 6 mois. La résine polyuréthane coûte 80 à 200 € HT, mais dure 5 à 10 ans. Sur un parking fréquenté, la résine revient donc généralement moins cher à terme.",
+    },
     {
       question:
         "Peut-on appliquer de la résine sur un ancien rebouchage à l'enrobé à froid ?",
@@ -302,6 +312,12 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
   ],
   'comment-tracer-parking': [
     {
+      question:
+        "Comment tracer un parking étape par étape ?",
+      answer:
+        "Suivez 7 étapes : relevé du terrain, plan de marquage, calcul des places PMR (2 % minimum), préparation du support, choix de la peinture, traçage, puis signalisation complémentaire. Une place standard mesure 2,50 × 5 m, une place PMR 3,30 × 5 m. Comptez 1 à 2 jours de traçage pour 50 à 100 places.",
+    },
+    {
       question: "Quelles sont les dimensions d'une place de stationnement ?",
       answer:
         "Une place de stationnement standard mesure 2,50 m de large sur 5 m de long. En épi ou en bataille, la largeur peut descendre à 2,30 m. Une place PMR fait 3,30 m de large (dont 0,80 m de bande d'accès) sur 5 m.",
@@ -314,7 +330,7 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
     {
       question: "Faut-il un permis ou une autorisation pour tracer un parking privé ?",
       answer:
-        "Non, le traçage d'un parking privé ne nécessite pas de permis. En revanche, si le parking est ouvert au public (ERP), il doit respecter les normes d'accessibilité PMR et les règles de signalisation. Pour un parking de copropriété, le vote en AG est nécessaire (majorité simple, article 24).",
+        "Non, le traçage d'un parking privé ne nécessite pas de permis. En revanche, si le parking est ouvert au public (ERP), il doit respecter les normes d'accessibilité PMR et les règles de signalisation. Pour un parking de copropriété, un retraçage à l'identique entre dans le budget d'entretien voté en AG ; une modification du plan demande un vote spécifique.",
     },
     {
       question: "Peut-on tracer un parking sur du gravier ?",
@@ -390,7 +406,7 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
       question:
         'Faut-il un permis pour installer des panneaux dans un parking privé ?',
       answer:
-        "Non. L'installation de signalisation dans un parking privé ne nécessite pas d'autorisation administrative. En copropriété, un vote en AG est requis.",
+        "Non. L'installation de signalisation dans un parking privé ne nécessite pas d'autorisation administrative. En copropriété, une nouvelle signalisation se vote en AG. Un remplacement à l'identique relève de l'entretien courant.",
     },
   ],
   'resine-sol-parking-prix-types': [
@@ -410,7 +426,7 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
       question:
         'Peut-on appliquer de la résine sur un sol humide ?',
       answer:
-        "L'époxy et la polyuréthane nécessitent un sol sec (humidité moins de 4%). Seul le méthacrylate peut être appliqué sur un support légèrement humide.",
+        "L'époxy nécessite un sol sous 4,5 % d'humidité et le polyuréthane sous 6 %. Seul le méthacrylate peut être appliqué sur un support légèrement humide.",
     },
     {
       question:
@@ -426,6 +442,12 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
     },
   ],
   'barriere-parking-types-prix': [
+    {
+      question:
+        "À quoi sert une barrière de parking ?",
+      answer:
+        "Une barrière de parking sert à contrôler l'accès : seuls les véhicules autorisés entrent, par badge, télécommande, interphone ou lecteur de plaque. Elle évite que des véhicules extérieurs occupent les places réservées, facilite la rotation et limite les conflits entre usagers.",
+    },
     {
       question: "Faut-il un permis pour installer une barrière de parking ?",
       answer:
@@ -484,6 +506,12 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
     },
   ],
   'butee-parking-types-pose-prix': [
+    {
+      question:
+        "Butée de parking en caoutchouc ou en béton : laquelle choisir ?",
+      answer:
+        "Le caoutchouc recyclé absorbe les chocs, protège les pare-chocs et intègre des bandes réfléchissantes : il convient aux copropriétés, centres commerciaux et parkings couverts (5 à 10 ans, à partir de 40 euros pose incluse). Le béton, très stable, supporte les véhicules lourds et convient aux parkings extérieurs, industriels et zones de livraison (20 à 30 ans, à partir de 35 euros pose incluse), mais il peut endommager les pare-chocs.",
+    },
     {
       question: "Les butées de parking sont-elles obligatoires ?",
       answer:
@@ -594,6 +622,11 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
   ],
   'sol-epoxy-entrepot-avantages-pose': [
     {
+      question: "Comment poser un sol époxy en entrepôt ?",
+      answer:
+        "Le chantier enchaîne diagnostic, grenaillage et réparation du béton, primaire d'accrochage, résine époxy autolissante, marquage des zones puis séchage final. Le sol doit être entre 10 et 30 °C, avec une humidité relative inférieure à 80 % et une ventilation. Pour 3 000 m², comptez 12 à 18 jours, par zones, avec une circulation piétonne à 24 h et des chariots à 72 h.",
+    },
+    {
       question:
         "Peut-on appliquer de l'époxy sur un vieux sol béton ?",
       answer:
@@ -618,10 +651,15 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
   ],
   'signalisation-parking-copropriete': [
     {
+      question: "Quelle signalisation est obligatoire dans un parking de copropriété ?",
+      answer:
+        "Dans un parking couvert, le règlement de sécurité impose le marquage des issues de secours, l'indication des niveaux, la signalisation des extincteurs et bouches incendie, ainsi qu'un éclairage de sécurité permanent. Chaque place PMR associe un marquage au sol et un panneau B6d avec panonceau M6h. La limitation de vitesse, le sens de circulation, la numérotation des places et le règlement intérieur sont recommandés sans être obligatoires.",
+    },
+    {
       question:
         'Le syndic peut-il faire des travaux de signalisation sans vote en AG ?',
       answer:
-        "Les travaux d'entretien courant (retraçage à l'identique, remplacement d'un panneau cassé) relèvent de la gestion courante du syndic et n'exigent pas de vote en AG. En revanche, tout changement (nouveau panneau, modification du sens de circulation, ajout de places PMR) doit être voté.",
+        "Les travaux d'entretien courant (retraçage à l'identique, remplacement d'un panneau cassé) peuvent être engagés par le syndic dans le budget voté en AG, sans vote spécifique. En revanche, tout changement (nouveau panneau, modification du sens de circulation, ajout de places PMR) doit être voté.",
     },
     {
       question:
@@ -663,7 +701,7 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
     {
       question: "Quel lien entre ombrières et bornes de recharge ?",
       answer:
-        "Les ombrières photovoltaïques produisent de l'énergie renouvelable qui peut alimenter directement les bornes de recharge. Depuis le 1er janvier 2025, les bâtiments non résidentiels de plus de 20 places doivent proposer au moins un point de recharge. Le marquage au sol des places de recharge suit des règles spécifiques de signalisation.",
+        "Les ombrières photovoltaïques produisent de l'énergie renouvelable qui peut alimenter directement les bornes de recharge. Depuis le 1er janvier 2025, les bâtiments non résidentiels de plus de 20 places doivent proposer au moins un point de recharge, puis un par tranche de 20 places supplémentaires, sauf exceptions. Le marquage au sol des places de recharge suit des règles spécifiques de signalisation.",
     },
   ],
   'reparation-chaussee-parking-methodes-prix': [
@@ -691,6 +729,12 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
     },
   ],
   'bumper-supermarche-protection-frigo': [
+    {
+      question:
+        "Qu'est-ce qu'un bumper de supermarché ?",
+      answer:
+        "Un bumper, ou barre de protection, est un élément métallique ou composite fixé au sol devant les meubles frigorifiques, les gondoles et les équipements sensibles d'un magasin. Il absorbe les chocs des chariots, transpalettes et roll-conteneurs pour protéger le matériel.",
+    },
     {
       question: "Les bumpers sont-ils obligatoires dans un supermarché ?",
       answer:
@@ -807,6 +851,11 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
   ],
   'norme-nf-en-1436-marquage-routier': [
     {
+      question: 'Que définit la norme NF EN 1436 ?',
+      answer:
+        "La norme NF EN 1436 fixe les performances du marquage routier pour les usagers : visibilité de jour (luminance), visibilité de nuit (rétroréflexion), adhérence et durabilité. Elle n'est pas imposée en parking privé, mais reste la référence de qualité pour choisir une peinture de marquage durable et comparer des devis.",
+    },
+    {
       question:
         'La norme NF EN 1436 est-elle obligatoire en parking privé ?',
       answer:
@@ -848,7 +897,7 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
     {
       question: "Les places PMR sont-elles obligatoires en parking privé ?",
       answer:
-        "Non, si le parking est strictement privé (usage exclusif des résidents d'une copropriété sans ERP). Oui, si le parking dessert un ERP (commerce, bureau recevant du public, cabinet médical).",
+        "Pas pour un parking existant strictement privé, réservé aux résidents d'une copropriété sans ERP. Dans l'habitation neuve, des places adaptables sont toutefois exigées. Oui, si le parking dessert un ERP (commerce, bureau recevant du public, cabinet médical).",
     },
     {
       question: "Que faire si la pente de mon parking dépasse 2% ?",
@@ -857,6 +906,11 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
     },
   ],
   'preparation-sol-avant-resine-epoxy': [
+    {
+      question: "Comment préparer un sol avant une résine époxy ?",
+      answer:
+        "La préparation suit 6 étapes : diagnostic du support (humidité, dureté, adhérence), nettoyage et décontamination, grenaillage ou ponçage, réparation des fissures et éclats, application du primaire, puis contrôle final. L'humidité doit rester sous 4,5 % et le sol entre 10 et 30 °C. Bien préparé, le revêtement dure 10 à 15 ans ; mal préparé, il peut se décoller en 6 à 12 mois.",
+    },
     {
       question:
         "Peut-on appliquer de la résine époxy sur un sol peint ?",
@@ -881,6 +935,11 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
     },
   ],
   'resine-epoxy-ou-peinture-sol-comparatif': [
+    {
+      question: "Quelle est la différence entre la peinture époxy et la résine époxy ?",
+      answer:
+        "La peinture époxy monocomposant est un film mince de 0,2 à 0,5 mm, prêt à l'emploi, posé après nettoyage et ponçage : à partir de 14 euros/m², pour 3 à 5 ans. La résine époxy bicomposant (résine + durcisseur) forme un revêtement de 0,5 à 3 mm sur sol grenaillé : à partir de 35 euros/m², pour 8 à 15 ans. La peinture convient aux usages légers ; la résine s'impose en cas de trafic intense, d'huiles ou de produits chimiques.",
+    },
     {
       question:
         "Quel est le prix d'une peinture époxy sol au m² ?",
@@ -933,6 +992,12 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
   ],
   'arceau-parking-types-prix': [
     {
+      question:
+        "Combien coûte un arceau de parking ?",
+      answer:
+        "Pose incluse, comptez 80 à 200 euros pour un arceau fixe, 130 à 400 euros pour un arceau rabattable (à cadenas ou à clé) et 500 à 1 500 euros pour un arceau automatique. Une dégression pouvant atteindre 20 % s'applique à partir de 10 unités.",
+    },
+    {
       question: "Faut-il une autorisation pour installer un arceau parking ?",
       answer:
         "Sur un parking privé : non, aucune autorisation. Sur la voie publique ou un trottoir : oui, une autorisation d'occupation du domaine public est nécessaire auprès de la mairie.",
@@ -964,6 +1029,12 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
     },
   ],
   'choisir-entreprise-marquage-au-sol': [
+    {
+      question:
+        "Quels critères vérifier avant de choisir une entreprise de marquage au sol ?",
+      answer:
+        "Vérifiez sept points : des produits certifiés NF EN 1436, des références sur des réalisations similaires, la maîtrise des normes dont la conformité PMR, la méthode d'intervention et de préparation du support, une garantie écrite avec attestation RC professionnelle, le délai d'intervention, et un devis détaillé qui permet de comparer le coût sur la durée.",
+    },
     {
       question: "Faut-il choisir une entreprise locale ou nationale ?",
       answer:
@@ -1059,7 +1130,7 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
     {
       question: "Combien coûte le retraçage d'un parking de 50 places ?",
       answer:
-        "Un retraçage complet avec des peintures certifiées NF EN 1436 revient généralement entre 1 500 et 3 000 € HT pour un parking de 50 places, soit 8 à 15 €/m² selon la surface et le type de peinture.",
+        "Un retraçage complet avec des peintures certifiées NF EN 1436 revient généralement entre 2 500 et 6 000 € HT pour un parking de 50 places, selon la surface, l'état du sol et le type de peinture.",
     },
     {
       question: "Un nid de poule sur un parking est-il urgent à réparer ?",
@@ -1107,6 +1178,11 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
   ],
 
   'marquage-au-sol-entreprise-industriel': [
+    {
+      question: 'Quel code couleur utiliser pour le marquage au sol industriel ?',
+      answer:
+        "L'usage courant est le suivant : blanc pour la circulation et la délimitation, jaune pour l'attention et le danger potentiel, rouge pour l'interdiction et les équipements incendie, vert pour la sécurité, les secours et l'évacuation, bleu pour l'obligation, jaune/noir pour le danger permanent et rouge/blanc pour l'interdiction d'accès. La norme NF X 08-003, aujourd'hui annulée, a longtemps servi de référence : la signalisation de sécurité relève désormais de l'arrêté du 4 novembre 1993 et de la norme NF EN ISO 7010.",
+    },
     {
       question: "Le marquage au sol est-il obligatoire pour toutes les entreprises ?",
       answer:
@@ -1282,7 +1358,7 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
         "Techniquement oui, mais c'est déconseillé. Une pose non conforme (mauvaise hauteur, mauvais emplacement, scellement insuffisant) réduit l'efficacité du panneau et peut être contestée. Un panneau qui tombe représente un risque de blessure et engage votre responsabilité. Faites appel à un professionnel de la signalisation verticale.",
     },
     {
-      question: "Le panneau \\\"parking privé\\\" a-t-il une valeur juridique ?",
+      question: "Le panneau « parking privé » a-t-il une valeur juridique ?",
       answer:
         "Oui, à condition qu'il soit visible et placé à l'entrée du parking. Il fonde le droit du propriétaire à faire constater le stationnement abusif et, le cas échéant, à demander la mise en fourrière du véhicule. Il est recommandé d'y ajouter la mention \"Mise en fourrière aux frais du contrevenant\" pour renforcer l'effet dissuasif.",
     },
@@ -1316,6 +1392,16 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
   ],
   'place-bleu-parking-zone-bleue': [
     {
+      question: "Qu'est-ce qu'une zone bleue ?",
+      answer:
+        "Une zone bleue est un secteur de stationnement gratuit mais limité dans le temps, contrôlé par un disque de stationnement. Un arrêté municipal fixe son périmètre, ses horaires et sa durée maximale, généralement 1h30. Ses places sont délimitées par des bandes bleues. Elle favorise la rotation des véhicules dans les secteurs à forte demande : centres-villes commerçants, abords de gares, parkings de surfaces commerciales.",
+    },
+    {
+      question: "Comment fonctionne le disque de stationnement ?",
+      answer:
+        "Indiquez votre heure d'arrivée sur le disque, placez-le derrière le pare-brise, visible depuis l'extérieur, et ne le déplacez plus une fois garé. Le disque doit respecter le modèle européen : un ancien modèle expose à la même sanction qu'une absence de disque.",
+    },
+    {
       question: "Le disque de stationnement est-il obligatoire sur une place bleue ?",
       answer:
         "Oui. En zone bleue réglementée par arrêté municipal, le disque de stationnement au format européen est obligatoire. Son absence expose à une amende de 35 euros. Sur un parking privé utilisant le code couleur bleu, le disque est recommandé mais ne peut pas faire l'objet d'une verbalisation au titre du Code de la route.",
@@ -1343,7 +1429,7 @@ const FAQ_DATA: Record<string, FAQItem[]> = {
     {
       question: "Quelle est la différence entre une place bleue et une place PMR ?",
       answer:
-        "La place bleue est une place à durée limitée ouverte à tous les véhicules. La place PMR est réservée aux personnes handicapées titulaires d'une carte mobilité inclusion (CMI). Le marquage PMR utilise des bandes blanches et un pictogramme bleu, tandis que la place bleue utilise des bandes bleues. Ce sont deux dispositifs distincts.",
+        "La place bleue est une place à durée limitée ouverte à tous les véhicules. La place PMR est réservée aux personnes handicapées titulaires d'une carte mobilité inclusion (CMI). Le marquage PMR est blanc, avec un pictogramme de fauteuil roulant et parfois un fond bleu facultatif. Ce sont deux dispositifs distincts.",
     },
   ],
   'rampe-pour-pmr-normes-types': [

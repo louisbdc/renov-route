@@ -550,6 +550,11 @@ export default function Content() {
 
       <h2>FAQ : questions fréquentes sur le choix d&apos;un prestataire</h2>
 
+      <h3>Quels critères vérifier avant de choisir une entreprise de marquage au sol ?</h3>
+      <p>
+        Vérifiez sept points : des produits certifiés NF EN 1436, des références sur des réalisations similaires, la maîtrise des normes dont la conformité PMR, la méthode d&apos;intervention et de préparation du support, une garantie écrite avec attestation RC professionnelle, le délai d&apos;intervention, et un devis détaillé qui permet de comparer le coût sur la durée.
+      </p>
+
       <h3>Faut-il choisir une entreprise locale ou nationale ?</h3>
 
       <p>

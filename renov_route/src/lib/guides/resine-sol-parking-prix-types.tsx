@@ -184,7 +184,7 @@ export default function Content() {
         <li><strong>Nettoyage</strong> : dégraissage complet, élimination des traces d&apos;huile et de pneu</li>
         <li><strong>Grenaillage</strong> : projection de billes d&apos;acier pour ouvrir les pores du béton et assurer l&apos;adhérence</li>
         <li><strong>Réparation</strong> : rebouchage des fissures et nids de poule avec un mortier de réparation. Pour les dégradations importantes, consultez notre <Link href="/competences/reparation-nids-de-poule">service de réparation</Link></li>
-        <li><strong>Test d&apos;humidité</strong> : le taux d&apos;humidité du béton doit être inférieur à 4% (test à la bombe carbure)</li>
+        <li><strong>Test d&apos;humidité</strong> : le taux d&apos;humidité du béton doit être inférieur à 4,5 % pour l&apos;époxy (test à la bombe carbure)</li>
       </ul>
 
       <h3>Conditions climatiques</h3>

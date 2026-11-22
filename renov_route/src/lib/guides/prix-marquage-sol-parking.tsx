@@ -296,7 +296,7 @@ export default function Content() {
       <h3>Quel est le prix moyen pour tracer un parking de 30 places ?</h3>
       <p>
         Pour un parking de 30 places avec retraçage des lignes, flèches et passages piétons,
-        comptez entre 2 500 € et 6 000 € HT selon le type de peinture et l&apos;état du sol.
+        comptez entre 1 800 € et 4 500 € HT selon le type de peinture et l&apos;état du sol.
         Un devis personnalisé permet d&apos;affiner cette estimation.
       </p>
 

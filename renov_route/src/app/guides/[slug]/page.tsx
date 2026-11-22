@@ -6,7 +6,8 @@ import ArticleSchema from '@/components/ArticleSchema'
 import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import HowToSchema from '@/components/HowToSchema'
 import FAQSchema from '@/components/FAQSchema'
-import FAQ_DATA from '@/lib/guides/faq-data'
+import QuestionVariants from '@/components/QuestionVariants'
+import { getGuideFaqItems } from '@/lib/guides/question-variants'
 import { GUIDE_CATEGORIES } from '@/lib/guides'
 import { notFound } from 'next/navigation'
 
@@ -72,7 +73,7 @@ export default async function GuidePage({ params }: Props) {
 
   const url = `https://renov-route.com/guides/${guide.slug}/`
   const section = GUIDE_CATEGORIES[guide.category]
-  const faqItems = FAQ_DATA[slug] ?? []
+  const faqItems = getGuideFaqItems(slug)
 
   return (
     <>
@@ -110,6 +111,7 @@ export default async function GuidePage({ params }: Props) {
       )}
       <GuidePageLayout guide={guide}>
         <ContentComponent />
+        <QuestionVariants items={faqItems} />
       </GuidePageLayout>
     </>
   )

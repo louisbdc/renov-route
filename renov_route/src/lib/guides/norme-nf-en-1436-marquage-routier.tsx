@@ -580,6 +580,12 @@ export default function Content() {
 
       <h2>FAQ : norme NF EN 1436</h2>
 
+      <h3>Que définit la norme NF EN 1436 ?</h3>
+
+      <p>
+        La norme NF EN 1436 fixe les performances du marquage routier pour les usagers : visibilité de jour (luminance), visibilité de nuit (rétroréflexion), adhérence et durabilité. Elle n&apos;est pas imposée en parking privé, mais reste la référence de qualité pour choisir une peinture de marquage durable et comparer des devis.
+      </p>
+
       <h3>
         La norme NF EN 1436 est-elle obligatoire en parking priv&eacute; ?
       </h3>

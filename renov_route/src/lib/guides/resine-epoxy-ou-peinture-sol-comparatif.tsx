@@ -231,6 +231,11 @@ export default function Content() {
 
       <h2>FAQ : peinture époxy sol ou résine</h2>
 
+      <h3>Quelle est la différence entre la peinture époxy et la résine époxy ?</h3>
+      <p>
+        La peinture époxy monocomposant est un film mince de 0,2 à 0,5 mm, prêt à l&apos;emploi, posé après nettoyage et ponçage : à partir de 14 euros/m², pour 3 à 5 ans. La résine époxy bicomposant (résine + durcisseur) forme un revêtement de 0,5 à 3 mm sur sol grenaillé : à partir de 35 euros/m², pour 8 à 15 ans. La peinture convient aux usages légers ; la résine s&apos;impose en cas de trafic intense, d&apos;huiles ou de produits chimiques.
+      </p>
+
       <h3>Quel est le prix d&apos;une peinture époxy sol au m² ?</h3>
       <p>
         Comptez à partir de 14 euros/m² posé pour une peinture époxy monocomposant et à partir de 35 euros/m² pour une résine époxy bicomposant. Le prix varie selon la surface et l&apos;état du support.

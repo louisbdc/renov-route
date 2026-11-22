@@ -381,6 +381,11 @@ export default function Content() {
 
       <h2>FAQ : vos questions sur les arceaux de parking</h2>
 
+      <h3>Combien coûte un arceau de parking ?</h3>
+      <p>
+        Pose incluse, comptez 80 à 200 euros pour un arceau fixe, 130 à 400 euros pour un arceau rabattable (à cadenas ou à clé) et 500 à 1 500 euros pour un arceau automatique. Une dégression pouvant atteindre 20 % s&apos;applique à partir de 10 unités.
+      </p>
+
       <h3>Faut-il une autorisation pour installer un arceau parking ?</h3>
       <p>
         Sur un parking privé : non, aucune autorisation. Sur la voie publique ou un trottoir : oui, une autorisation d&apos;occupation du domaine public est nécessaire auprès de la mairie.

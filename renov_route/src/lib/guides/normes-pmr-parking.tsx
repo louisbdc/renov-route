@@ -172,7 +172,7 @@ export default function Content() {
       </p>
       <ul>
         <li><strong>Place entièrement bleue</strong> avec pictogramme blanc : la plus visible, la plus fréquente dans les grandes surfaces</li>
-        <li><strong>Lignes blanches</strong> avec pictogramme bleu : moins coûteux, suffisant réglementairement</li>
+        <li><strong>Lignes blanches</strong> avec pictogramme blanc : moins coûteux, suffisant réglementairement</li>
       </ul>
       <p>
         Pour un{' '}

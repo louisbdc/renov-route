@@ -203,7 +203,7 @@ export default function Content() {
       </p>
       <ul>
         <li><strong>Blanc</strong> : couleur standard pour la majorité des marquages (places, flèches, pictogrammes généraux). Conforme à la norme NF EN 1436.</li>
-        <li><strong>Bleu</strong> : réservé au marquage des places PMR (fond bleu du pictogramme fauteuil roulant). Le bleu signale l&apos;accessibilité.</li>
+        <li><strong>Bleu</strong> : souvent utilisé pour les places PMR (fond bleu sous le pictogramme blanc). Il reste facultatif, le marquage réglementaire étant blanc.</li>
         <li><strong>Jaune</strong> : utilisé pour les zones d&apos;interdiction (hachures, zones de livraison, interdiction de stationner). Le jaune signale une restriction.</li>
         <li><strong>Vert</strong> : de plus en plus utilisé pour les places de recharge électrique. Pas encore normalisé dans l&apos;IISR mais largement adopte.</li>
         <li><strong>Rouge</strong> : signale un danger ou une interdiction stricte. Utilisé pour les zones pompiers et les arrêts d&apos;urgence.</li>

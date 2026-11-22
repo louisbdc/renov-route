@@ -458,6 +458,11 @@ export default function Content() {
 
       <h2>FAQ : tracer un parking</h2>
 
+      <h3>Comment tracer un parking étape par étape ?</h3>
+      <p>
+        Suivez 7 étapes : relevé du terrain, plan de marquage, calcul des places PMR (2 % minimum), préparation du support, choix de la peinture, traçage, puis signalisation complémentaire. Une place standard mesure 2,50 × 5 m, une place PMR 3,30 × 5 m. Comptez 1 à 2 jours de traçage pour 50 à 100 places.
+      </p>
+
       <h3>Quelles sont les dimensions d&apos;une place de stationnement ?</h3>
       <p>
         Une place de stationnement standard mesure <strong>2,50 m de large sur 5 m de long</strong>. En épi ou en bataille, la largeur peut descendre à 2,30 m. Une place PMR fait <strong>3,30 m de large</strong> (dont 0,80 m de bande d&apos;accès) sur 5 m.
@@ -470,7 +475,7 @@ export default function Content() {
 
       <h3>Faut-il un permis ou une autorisation pour tracer un parking privé ?</h3>
       <p>
-        Non, le traçage d&apos;un parking privé ne nécessite pas de permis. En revanche, si le parking est ouvert au public (ERP), il doit respecter les normes d&apos;accessibilité PMR et les règles de signalisation. Pour un parking de copropriété, le vote en AG est nécessaire (majorité simple, article 24).
+        Non, le traçage d&apos;un parking privé ne nécessite pas de permis. En revanche, si le parking est ouvert au public (ERP), il doit respecter les normes d&apos;accessibilité PMR et les règles de signalisation. Pour un parking de copropriété, un retraçage à l'identique entre dans le budget d'entretien voté en AG ; une modification du plan demande un vote spécifique.
       </p>
 
       <h3>Peut-on tracer un parking sur du gravier ?</h3>

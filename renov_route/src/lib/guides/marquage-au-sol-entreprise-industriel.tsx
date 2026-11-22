@@ -506,6 +506,12 @@ export default function Content() {
 
       <h2>FAQ : marquage au sol entreprise</h2>
 
+      <h3>Quel code couleur utiliser pour le marquage au sol industriel ?</h3>
+
+      <p>
+        L&apos;usage courant est le suivant : blanc pour la circulation et la délimitation, jaune pour l&apos;attention et le danger potentiel, rouge pour l&apos;interdiction et les équipements incendie, vert pour la sécurité, les secours et l&apos;évacuation, bleu pour l&apos;obligation, jaune/noir pour le danger permanent et rouge/blanc pour l&apos;interdiction d&apos;accès. La norme NF X 08-003, aujourd&apos;hui annulée, a longtemps servi de référence : la signalisation de sécurité relève désormais de l&apos;arrêté du 4 novembre 1993 et de la norme NF EN ISO 7010.
+      </p>
+
       <h3>Le marquage au sol est-il obligatoire pour toutes les entreprises ?</h3>
 
       <p>

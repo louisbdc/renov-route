@@ -195,6 +195,11 @@ export default function Content() {
 
       <h2>Questions fréquentes sur la réparation de nids de poule</h2>
 
+      <h3>Enrobé à froid ou résine : que choisir pour un nid de poule ?</h3>
+      <p>
+        L'enrobé à froid est un dépannage d'urgence : 20 à 40 € HT par nid de poule, pour une tenue de 3 à 6 mois. La résine polyuréthane coûte 80 à 200 € HT, mais dure 5 à 10 ans. Sur un parking fréquenté, la résine revient donc généralement moins cher à terme.
+      </p>
+
       <h3>Peut-on appliquer de la résine sur un ancien rebouchage à l'enrobé à froid ?</h3>
       <p>
         Oui, à condition de retirer l'enrobé à froid existant au préalable. La résine doit adhérer au revêtement d'origine (bitume, enrobé), pas à un matériau rapporté. Notre équipe décape l'ancien rebouchage avant d'appliquer la résine.

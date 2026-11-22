@@ -224,7 +224,7 @@ export default function Content() {
 
       <h3>Les places PMR sont-elles obligatoires en parking priv&eacute; ?</h3>
       <p>
-        Non, si le parking est strictement priv&eacute; (usage exclusif des r&eacute;sidents d&apos;une copropri&eacute;t&eacute; sans ERP). Oui, si le parking dessert un ERP (commerce, bureau recevant du public, cabinet m&eacute;dical). Pour en savoir plus, consultez notre guide sur les <Link href="/guides/normes-pmr-parking">normes PMR parking</Link>.
+        Pas pour un parking existant strictement priv&eacute;, r&eacute;serv&eacute; aux r&eacute;sidents d&apos;une copropri&eacute;t&eacute; sans ERP. Dans l&apos;habitation neuve, des places adaptables sont toutefois exig&eacute;es. Oui, si le parking dessert un ERP (commerce, bureau recevant du public, cabinet m&eacute;dical). Pour en savoir plus, consultez notre guide sur les <Link href="/guides/normes-pmr-parking">normes PMR parking</Link>.
       </p>
 
       <h3>Que faire si la pente de mon parking d&eacute;passe 2% ?</h3>

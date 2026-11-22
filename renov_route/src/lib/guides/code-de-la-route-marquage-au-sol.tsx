@@ -226,7 +226,7 @@ export default function Content() {
             </tr>
           </thead>
           <tbody>
-            <tr><td>Place standard (perpendiculaire)</td><td>2,30 m x 5,00 m</td></tr>
+            <tr><td>Place standard (perpendiculaire)</td><td>2,30 m minimum, 2,50 m recommandé x 5,00 m</td></tr>
             <tr><td>Place standard (oblique)</td><td>2,30 m x 5,50 m</td></tr>
             <tr><td>Place PMR</td><td>3,30 m x 5,00 m minimum (espace lat&eacute;ral de 0,80 m inclus), pictogramme international d&apos;accessibilit&eacute;</td></tr>
             <tr><td>Place de livraison</td><td>Dimensions variables, marqu&eacute;es en jaune avec l&apos;inscription &quot;LIVRAISON&quot;</td></tr>
