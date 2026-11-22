@@ -209,6 +209,24 @@ export const CITIES: City[] = [
     population: 154000,
     description: "Plus grande commune de la métropole après Lyon. Forte concentration de copropriétés, université Lyon 1 et zones d'activités tertiaires.",
     emblematic: 'Gratte-Ciel, INSA, La Doua',
+    localContext: "Villeurbanne mêle des résidences en copropriété, souvent avec parking souterrain ou cour partagée, un centre dense autour des Gratte-Ciel et le campus de La Doua (université Lyon 1, INSA). Sur ces sites, la place manque : un marquage lisible évite le stationnement anarchique, protège les cheminements piétons et maintient l'accès aux places PMR. En sous-sol, l'humidité du support et la ventilation orientent le choix du produit.",
+    interventionLogistics: "Villeurbanne se trouve à une dizaine de kilomètres de notre siège de Tassin-la-Demi-Lune, de l'autre côté de Lyon. Nous planifions les chantiers hors des heures de pointe et découpons le parking par zones lorsqu'il doit rester en service. En copropriété, l'information des résidents et la libération des places sont organisées avec le syndic avant l'intervention.",
+    targetClients: [
+      'Copropriétés et syndics villeurbannais',
+      'Commerces et ERP du centre et des Gratte-Ciel',
+      'Établissements et résidences autour du campus de La Doua',
+      "Entreprises et bureaux des zones d'activités",
+    ],
+    localFAQ: [
+      {
+        question: 'Peut-on retracer un parking de copropriété à Villeurbanne sans le fermer ?',
+        answer: "Oui, dans la plupart des cas. Le parking est traité par zones : seules les places en cours de marquage sont libérées, puis rendues après séchage. Le découpage et le calendrier sont fixés avec le syndic afin que les résidents soient prévenus avant le chantier.",
+      },
+      {
+        question: 'Quelles précautions pour un parking souterrain à Villeurbanne ?',
+        answer: "Nous contrôlons d'abord l'humidité du support, l'état du béton et la ventilation. Ces trois points déterminent la préparation et le produit à utiliser. Un sous-sol humide ou mal ventilé ne se traite pas comme un parking extérieur, d'où une visite avant le devis.",
+      },
+    ],
     nearbyCities: ['lyon-3', 'lyon-6', 'vaulx-en-velin', 'caluire-et-cuire'],
   },
   {

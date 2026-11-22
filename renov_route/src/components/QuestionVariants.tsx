@@ -4,6 +4,9 @@ interface QuestionVariantsProps {
   items: FAQItem[]
 }
 
+// Espace insécable : évite un « ? » seul en début de ligne.
+const keepQuestionMarkAttached = (text: string): string => text.replace(/ \?/g, ' ?')
+
 /** Rend visibles les formulations déclarées en `alternateName` dans le schéma FAQPage. */
 export default function QuestionVariants({ items }: QuestionVariantsProps) {
   const itemsWithVariants = items.filter(item => item.variants?.length)
@@ -17,8 +20,8 @@ export default function QuestionVariants({ items }: QuestionVariantsProps) {
       <dl className="mt-4 space-y-4 text-sm text-slate-700">
         {itemsWithVariants.map(item => (
           <div key={item.question}>
-            <dt className="font-semibold text-[#0F172A]">{item.question}</dt>
-            <dd className="mt-1">Autres formulations : {item.variants?.join(' · ')}</dd>
+            <dt className="font-semibold text-[#0F172A]">{keepQuestionMarkAttached(item.question)}</dt>
+            <dd className="mt-1">Autres formulations : {keepQuestionMarkAttached(item.variants?.join(' · ') ?? '')}</dd>
           </div>
         ))}
       </dl>
