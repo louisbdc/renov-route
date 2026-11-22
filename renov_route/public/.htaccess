@@ -9,8 +9,9 @@ RewriteRule ^guides/nouvelles-normes-signaletique-parking-2026/?$ https://renov-
 RewriteRule ^guides/nids-de-poule-hiver-2026-solutions/?$ https://renov-route.com/guides/enrobe-froid-vs-resine-nids-de-poule/ [R=301,L]
 
 # Ancienne URL accentuee signalee en 404 par Search Console. Le « e » accentue
-# vaut 2 octets en UTF-8 : .{1,2} evite de dependre de l'encodage du fichier.
-RewriteRule ^competences/r.{1,2}sine-sol-marquage-int.{1,2}rieur/?$ https://renov-route.com/competences/resine-sol-marquage-interieur/ [R=301,L]
+# vaut 2 octets en UTF-8. [^e] est indispensable : accepter le « e » simple ferait
+# boucler la vraie page sur elle-meme.
+RewriteRule ^competences/r[^e]{1,2}sine-sol-marquage-int[^e]{1,2}rieur/?$ https://renov-route.com/competences/resine-sol-marquage-interieur/ [R=301,L]
 
 # Canonicalisation en UN saut : schema, hote et slash final d'un coup.
 # Place avant les regles HTTPS et www a dessein — sinon une requete
