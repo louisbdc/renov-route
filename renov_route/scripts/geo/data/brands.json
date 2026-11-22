@@ -1,0 +1,25 @@
+{
+  "_note": "kind : own (une seule), direct (concurrent local du marquage), market (grand acteur du secteur). N'ajouter qu'une entreprise dont l'existence et l'activité ont été vérifiées. Liste des concurrents directs locaux à compléter.",
+  "brands": [
+    {
+      "name": "Rénov Route",
+      "kind": "own",
+      "domains": ["renov-route.com"],
+      "aliases": ["Rénov Route", "renovroute"]
+    },
+    {
+      "name": "Aximum",
+      "kind": "market",
+      "domains": ["aximum.com", "aximum.fr"],
+      "aliases": ["Aximum"],
+      "verified": "2026-11-22 : Wikipédia (filiale de Colas, sécurité et gestion du trafic, produits de marquage). Le site répond 403 aux requêtes automatiques."
+    },
+    {
+      "name": "Signaux Girod",
+      "kind": "market",
+      "domains": ["signaux-girod.fr"],
+      "aliases": ["Signaux Girod"],
+      "verified": "2026-11-22 : site officiel (fabricant français de signalisation routière) et Wikipédia."
+    }
+  ]
+}

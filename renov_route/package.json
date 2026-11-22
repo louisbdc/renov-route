@@ -10,7 +10,10 @@
     "lint": "eslint",
     "build:static": "next build && node scripts/post-build.js && npm run clean:out && echo 'Build terminé! Le dossier out contient tous les fichiers statiques pour le déploiement.'",
     "clean:out": "rm -f out/next.svg out/vercel.svg out/file.svg out/globe.svg out/window.svg out/mask-icon.svg && find out -name '*.txt' -type f ! -name 'robots.txt' -delete && echo 'Fichiers inutiles supprimés du dossier out'",
-    "import-realisation": "tsx scripts/import-realisation.ts"
+    "import-realisation": "tsx scripts/import-realisation.ts",
+    "geo:report": "node scripts/geo/analyze-answers.mjs report",
+    "geo:citability": "node scripts/geo/audit-citability.mjs",
+    "geo:test": "node --test scripts/geo/geo-gap.test.mjs"
   },
   "dependencies": {
     "@emailjs/browser": "4.4.1",
